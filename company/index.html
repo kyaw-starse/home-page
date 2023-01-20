@@ -10,6 +10,7 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/import.css">
+    <link rel="stylesheet" href="../assets/css/aos.css">
     <link rel="stylesheet" href="../assets/css/pc_style.css">
     <link rel="stylesheet" href="../assets/css/sp_style.css">
     <script src="../assets/js/jquery.min.js"></script>
@@ -19,7 +20,10 @@
         <header class="headerBlock">
             <div class="header c-w1420">
                 <h1 class="h-logo">
-                    <a href="#"><img src="../assets/img/common/h_logo.png" alt=""></a>
+                    <a href="#">
+                        <img src="../assets/img/common/h_logo.png" alt="">
+                        <p>STAR SE<span>All for your dream</span></p>
+                    </a>
                 </h1>
                 <div class="h-right cFix">
                     <nav class="nav-pc">
@@ -27,14 +31,14 @@
                             <li><a href="./" class="navpc-active"><span>会社情報</span></a></li>
                             <li><a href="../philosophy/"><span>経営理念</span></a></li>
                             <li><a href="#"><span>事業内容</span></a></li>
-                            <li><a href="#"><span>採用情報</span></a></li>
-                            <li><a href="#"><span>情報セキュリティ</span></a></li>
+                            <li><a href="../recruit/"><span>採用情報</span></a></li>
+                            <li><a href="../security/"><span>情報セキュリティ</span></a></li>
                         </ul>
                     </nav>
                     <div class="h-utility">
                         <ul class="cFix">
-                            <li class="h-icon"><a href=""><img src="../assets/img/common/icon_mail.png" alt=""></a></li>
-                            <li class="h-icon"><a href=""><img src="../assets/img/common/icon_login.png" alt=""></a></li>
+                            <li class="h-icon"><a href="" class="mail-icon"><img src="../assets/img/common/mail_off.png" alt=""></a></li>
+                            <li class="h-icon"><a href="" class="lock-icon"><img src="../assets/img/common/lock_off.png" alt=""></a></li>
                             <li class="site-lang">
                                 <a href="" class="lang-link langOn">EN</a>
                                 <a href="" class="lang-link">JP</a>
@@ -58,15 +62,16 @@
                     <li><a href="./"><span>会社情報</span></a></li>
                     <li><a href="../philosophy/"><span>経営理念</span></a></li>
                     <li><a href="#"><span>事業内容</span></a></li>
-                    <li><a href="#"><span>採用情報</span></a></li>
-                    <li><a href="#"><span>情報セキュリティ</span></a></li>
+                    <li><a href="../recruit/"><span>採用情報</span></a></li>
+                    <li><a href="../security/"><span>情報セキュリティ</span></a></li>
                 </ul>
             </div>
         </nav>
         <div class="sub-banner">
-            <div class="c-w1170">
+            <canvas class="particlesBg"></canvas>
+            <div class="sub-bannerIn c-w1170">
                 <h2 class="sub-ttl">Company Info<span>会社情報</span></h2>
-                <img src="../assets/img/company/bnr_img.jpg" alt="">
+                <img src="../assets/img/company/bnr_img.jpg" class="sub-bannerImg" alt="">
             </div>
         </div>
         <!-- main-mv -->
@@ -132,9 +137,14 @@
                                     </td>
                                 </tr>
                                 <tr>
+                                    <th>支社</th>
+                                    <td>
+                                        <p>STAR  SE  MYANMAR Co.,Ltd.</p>
+                                    </td>
+                                </tr>
+                                <tr>
                                     <th>主要顧客</th>
                                     <td>
-                                        <br>
                                         <p>NTTエレクトロニクステクノ株式会社<br>アクセンチュア株式会社<br>キヤノン電子テクノロジー株式会社<br>株式会社コスメディア<br>テクバン株式会社<br>株式会社クレスコ<br>コムチュア株式会社</p>
                                     </td>
                                 </tr>
@@ -170,98 +180,114 @@
                             <ul>
                                 <li class="history-listbox">
                                     <span class="history-year">2023年</span>
-                                    <div class="history-desp">
-                                        <dl class="cFix">
-                                            <dt>1月</dt>
-                                            <dd>東京八丁堀に本社移転</dd>
-                                        </dl>
+                                    <div class="history-listboxin">
+                                        <div class="history-desp">
+                                            <dl class="cFix">
+                                                <dt>1月</dt>
+                                                <dd>東京八丁堀に本社移転</dd>
+                                            </dl>
+                                        </div>
                                     </div>
                                 </li>
                                 <li class="history-listbox">
                                     <span class="history-year">2020年</span>
-                                    <div class="history-desp">
-                                        <dl class="cFix">
-                                            <dt>12月</dt>
-                                            <dd>ISO/IEC 27001:2013認証を取得</dd>
-                                        </dl>
+                                    <div class="history-listboxin">
+                                        <div class="history-desp">
+                                            <dl class="cFix">
+                                                <dt>12月</dt>
+                                                <dd>ISO/IEC 27001:2013認証を取得</dd>
+                                            </dl>
+                                        </div>
                                     </div>
                                 </li>
                                 <li class="history-listbox">
                                     <span class="history-year">2019年</span>
-                                    <div class="history-desp">
-                                        <dl class="cFix">
-                                            <dt>12月</dt>
-                                            <dd>資本金を4,500万円に増資</dd>
-                                        </dl>
-                                        <dl class="cFix">
-                                            <dt>1月</dt>
-                                            <dd>労働者派遣事業許可番号（派13-312273）を取得</dd>
-                                        </dl>
+                                    <div class="history-listboxin">
+                                        <div class="history-desp">
+                                            <dl class="cFix">
+                                                <dt>12月</dt>
+                                                <dd>資本金を4,500万円に増資</dd>
+                                            </dl>
+                                            <dl class="cFix">
+                                                <dt>1月</dt>
+                                                <dd>労働者派遣事業許可番号（派13-312273）を取得</dd>
+                                            </dl>
+                                        </div>
                                     </div>
                                 </li>
                                 <li class="history-listbox">
                                     <span class="history-year">2018年</span>
-                                    <div class="history-desp">
-                                        <dl class="cFix">
-                                            <dt>10月</dt>
-                                            <dd>有料職業紹介事業許可（13-ユ-309929）を取得</dd>
-                                        </dl>
+                                    <div class="history-listboxin">
+                                        <div class="history-desp">
+                                            <dl class="cFix">
+                                                <dt>10月</dt>
+                                                <dd>有料職業紹介事業許可（13-ユ-309929）を取得</dd>
+                                            </dl>
+                                        </div>
                                     </div>
                                 </li>
                                 <li class="history-listbox">
                                     <span class="history-year">2017年</span>
-                                    <div class="history-desp">
-                                        <dl class="cFix">
-                                            <dt>12月</dt>
-                                            <dd>資本金を2,000万円に増資</dd>
-                                        </dl>
-                                        <dl class="cFix">
-                                            <dt>9月</dt>
-                                            <dd>ホームページのリニューアル</dd>
-                                        </dl>
-                                        <dl class="cFix">
-                                            <dt>6月</dt>
-                                            <dd>東京都中央区に本社移転</dd>
-                                        </dl>
-                                        <dl class="cFix">
-                                            <dt>5月</dt>
-                                            <dd>プライバシーマーク（第22000213号）を取得</dd>
-                                        </dl>
-                                        <dl class="cFix">
-                                            <dt>4月</dt>
-                                            <dd>資本金を1,500万円に増資</dd>
-                                        </dl>
+                                    <div class="history-listboxin">
+                                        <div class="history-desp">
+                                            <dl class="cFix">
+                                                <dt>12月</dt>
+                                                <dd>資本金を2,000万円に増資</dd>
+                                            </dl>
+                                            <dl class="cFix">
+                                                <dt>9月</dt>
+                                                <dd>ホームページのリニューアル</dd>
+                                            </dl>
+                                            <dl class="cFix">
+                                                <dt>6月</dt>
+                                                <dd>東京都中央区に本社移転</dd>
+                                            </dl>
+                                            <dl class="cFix">
+                                                <dt>5月</dt>
+                                                <dd>プライバシーマーク（第22000213号）を取得</dd>
+                                            </dl>
+                                            <dl class="cFix">
+                                                <dt>4月</dt>
+                                                <dd>資本金を1,500万円に増資</dd>
+                                            </dl>
+                                        </div>
                                     </div>
                                 </li>
                                 <li class="history-listbox">
                                     <span class="history-year">2016年</span>
-                                    <div class="history-desp">
-                                        <dl class="cFix">
-                                            <dt>1月</dt>
-                                            <dd>人材育成事業部を開始</dd>
-                                        </dl>
+                                    <div class="history-listboxin">
+                                        <div class="history-desp">
+                                            <dl class="cFix">
+                                                <dt>1月</dt>
+                                                <dd>人材育成事業部を開始</dd>
+                                            </dl>
+                                        </div>
                                     </div>
                                 </li>
                                 <li class="history-listbox">
                                     <span class="history-year">2015年</span>
-                                    <div class="history-desp">
-                                        <dl class="cFix">
-                                            <dt>10月</dt>
-                                            <dd>東京都千代田区に本社移転</dd>
-                                        </dl>
-                                        <dl class="cFix">
-                                            <dt>9月</dt>
-                                            <dd>資本金を1,000万円に増資</dd>
-                                        </dl>
+                                    <div class="history-listboxin">
+                                        <div class="history-desp">
+                                            <dl class="cFix">
+                                                <dt>10月</dt>
+                                                <dd>東京都千代田区に本社移転</dd>
+                                            </dl>
+                                            <dl class="cFix">
+                                                <dt>9月</dt>
+                                                <dd>資本金を1,000万円に増資</dd>
+                                            </dl>
+                                        </div>
                                     </div>
                                 </li>
                                 <li class="history-listbox">
                                     <span class="history-year">2014年</span>
-                                    <div class="history-desp">
-                                        <dl class="cFix">
-                                            <dt>1月</dt>
-                                            <dd>STAR SE株式会社設立（資本金200万円）、東京本社を開設</dd>
-                                        </dl>
+                                    <div class="history-listboxin">
+                                        <div class="history-desp">
+                                            <dl class="cFix">
+                                                <dt>1月</dt>
+                                                <dd>STAR SE株式会社設立（資本金200万円）、東京本社を開設</dd>
+                                            </dl>
+                                        </div>
                                     </div>
                                 </li>
                             </ul>
@@ -291,21 +317,34 @@
                 </div>
             </div>
         </section>
-        <section class="sec-organization">
+        <!-- <section class="sec-organization">
             <div class="company-wrap">
                 <div class="c-w1170">
                     <div class="c-blockLeft bg-green-light">
                         <span id="organization" class="anchorpos"></span>
                         <h3 class="sub-ttl02 col-green">Organization Chart<span>組織図</span></h3>
                         <div class="chat-img">
-                            <img src="../assets/img/company/organization_img01.png" alt="">
+                            <img src="../assets/img/company/organization-chart.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        </div>
+        <section class="sec-organization bg-green-light">
+            <div class="company-wrap">
+                <div class="c-w1170">
+                    <div class="">
+                        <span id="organization" class="anchorpos"></span>
+                        <h3 class="sub-ttl02 col-green">Organization Chart<span>組織図</span></h3>
+                        <div class="chat-img">
+                            <img src="../assets/img/company/organization-chart.png" alt="">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        </div>
-        <div class="footerLogo">
+        <div class="footerLogo bg-green-light">
             <div class="c-w1420 cFix">
                 <span class="footerLogoImg"><img src="../assets/img/common/footer_logo2.png" alt="STAR SE株式会社"></span>
             </div> 
@@ -345,8 +384,9 @@
         <!-- footer -->
     </div>
     <!-- wrapper -->
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
     <script src="../assets/js/aos.js"></script>
+    <script src="../assets/js/subpage.js"></script>
     <script src="../assets/js/common.js"></script>
 </body>
 </html>

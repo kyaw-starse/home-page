@@ -11,6 +11,9 @@
     .slick-slide img {
         height: auto;
     }
+    .full-wide-slider .slick-slide video {
+        width: 100%;
+    }
     .mv-scroll {
         position: absolute;
         bottom: 0;
@@ -60,7 +63,7 @@
         border-width: 0 20px 40px 20px;
     }
     /* Our Business */
-    .businessBlock ul li {
+    .businessBlock ul.col-wrap li.col3 {
         width: 50%;
     }
     .businessTtl {
@@ -97,7 +100,9 @@
         margin-bottom: 30px;
         line-height: 1.8;
     }
-
+    .play-btn{
+        width: 70px;
+    }
     /* Our People */
     .memberBox {
         width: 100%;
@@ -248,6 +253,9 @@
         height: 100%;
         border-left: 2px dotted #E8B500;
     }
+    .history-listboxin {
+        width: auto;
+    }
     .history-list ul .history-listbox:last-child:after {
         height: 7%;
     }
@@ -277,10 +285,41 @@
     .history-year:after {
         display: none;
     }
+    /* ===============================
+    Company Info Page
+    =============================== */
+    /* ===============================
+    Rrecruit Page
+    =============================== */
+    
+    .recruitList-block .recruitList-li {
+        width: 100%;
+    }
+    /* ===============================
+    graduate recurit guide Page
+    =============================== */
+    .sec-graduate03 .recruitList-block .recruitList-li {
+        width: 100%;
+    }
+    .boxTxt {
+        font-size: 20px;
+    }
+    /* ===============================
+    security Page
+    =============================== */
+    .security-head {
+        display: block;
+    }
+    .security-content {
+        width: 100%;
+    }
+    .security-head-link {
+        background: #f3f3f3;
+    }
 }
 @media screen and (max-width: 480px) {
     /* Business Block */
-    .businessBlock ul li {
+    .businessBlock ul.col-wrap li.col3 {
         width: 100%;
     }
     .businessTtl {

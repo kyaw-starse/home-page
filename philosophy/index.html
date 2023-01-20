@@ -10,6 +10,7 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/import.css">
+    <link rel="stylesheet" href="../assets/css/aos.css">
     <link rel="stylesheet" href="../assets/css/pc_style.css">
     <link rel="stylesheet" href="../assets/css/sp_style.css">
     <script src="../assets/js/jquery.min.js"></script>
@@ -19,7 +20,10 @@
         <header class="headerBlock">
             <div class="header c-w1420">
                 <h1 class="h-logo">
-                    <a href="#"><img src="../assets/img/common/h_logo.png" alt=""></a>
+                    <a href="#">
+                        <img src="../assets/img/common/h_logo.png" alt="">
+                        <p>STAR SE<span>All for your dream</span></p>
+                    </a>
                 </h1>
                 <div class="h-right cFix">
                     <nav class="nav-pc">
@@ -27,14 +31,14 @@
                             <li><a href="../company/"><span>会社情報</span></a></li>
                             <li><a href="./" class="navpc-active"><span>経営理念</span></a></li>
                             <li><a href="#"><span>事業内容</span></a></li>
-                            <li><a href="#"><span>採用情報</span></a></li>
-                            <li><a href="#"><span>情報セキュリティ</span></a></li>
+                            <li><a href="../recruit/"><span>採用情報</span></a></li>
+                            <li><a href="../security/"><span>情報セキュリティ</span></a></li>
                         </ul>
                     </nav>
                     <div class="h-utility">
                         <ul class="cFix">
-                            <li class="h-icon"><a href=""><img src="../assets/img/common/icon_mail.png" alt=""></a></li>
-                            <li class="h-icon"><a href=""><img src="../assets/img/common/icon_login.png" alt=""></a></li>
+                            <li class="h-icon"><a href="" class="mail-icon"><img src="../assets/img/common/mail_off.png" alt=""></a></li>
+                            <li class="h-icon"><a href="" class="lock-icon"><img src="../assets/img/common/lock_off.png" alt=""></a></li>
                             <li class="site-lang">
                                 <a href="" class="lang-link langOn">EN</a>
                                 <a href="" class="lang-link">JP</a>
@@ -58,15 +62,16 @@
                     <li><a href="../company/"><span>会社情報</span></a></li>
                     <li><a href="./"><span>経営理念</span></a></li>
                     <li><a href="#"><span>事業内容</span></a></li>
-                    <li><a href="#"><span>採用情報</span></a></li>
-                    <li><a href="#"><span>情報セキュリティ</span></a></li>
+                    <li><a href="../recruit/"><span>採用情報</span></a></li>
+                    <li><a href="../security/"><span>情報セキュリティ</span></a></li>
                 </ul>
             </div>
         </nav>
         <div class="sub-banner">
-            <div class="c-w1170">
+            <canvas class="particlesBg"></canvas>
+            <div class="sub-bannerIn c-w1170">
                 <h2 class="sub-ttl">Philosophy<span>経営理念</span></h2>
-                <img src="../assets/img/philosophy/bnr_img.jpg" alt="">
+                <img src="../assets/img/philosophy/bnr_img.jpg" class="sub-bannerImg" alt="">
             </div>
         </div>
         <!-- sub-banner -->
@@ -74,7 +79,7 @@
         <section class="philosophyBlock">
             <div class="c-w1170">
                 <div class="philosophyBox">
-                    <div class="philoLeft">
+                    <div class="philoLeft" data-aos="zoom-in">
                         <div class="philo-img">
                             <span class="philo-num">01</span>
                             <span><img src="../assets/img/philosophy/philosophy_img01.png" alt=""></span>
@@ -86,7 +91,7 @@
                     </div>
                 </div>
                 <div class="philosophyBox">
-                    <div class="philoLeft">
+                    <div class="philoLeft" data-aos="zoom-in">
                         <div class="philo-img">
                             <span class="philo-num">02</span>
                             <span><img src="../assets/img/philosophy/philosophy_img02.png" alt=""></span>
@@ -98,7 +103,7 @@
                     </div>
                 </div>
                 <div class="philosophyBox">
-                    <div class="philoLeft">
+                    <div class="philoLeft" data-aos="zoom-in">
                         <div class="philo-img">
                             <span class="philo-num">03</span>
                             <span><img src="../assets/img/philosophy/philosophy_img03.png" alt=""></span>
@@ -110,7 +115,7 @@
                     </div>
                 </div>
                 <div class="philosophyBox">
-                    <div class="philoLeft">
+                    <div class="philoLeft" data-aos="zoom-in">
                         <div class="philo-img">
                             <span class="philo-num">04</span>
                             <span><img src="../assets/img/philosophy/philosophy_img04.png" alt=""></span>
@@ -122,7 +127,7 @@
                     </div>
                 </div>
                 <div class="philosophyBox">
-                    <div class="philoLeft">
+                    <div class="philoLeft" data-aos="zoom-in">
                         <div class="philo-img">
                             <span class="philo-num">05</span>
                             <span><img src="../assets/img/philosophy/philosophy_img05.png" alt=""></span>
@@ -134,7 +139,7 @@
                     </div>
                 </div>
                 <div class="philosophyBox">
-                    <div class="philoLeft">
+                    <div class="philoLeft" data-aos="zoom-in">
                         <div class="philo-img">
                             <span class="philo-num">06</span>
                             <span><img src="../assets/img/philosophy/philosophy_img06.png" alt=""></span>
@@ -189,8 +194,10 @@
         <!-- footer -->
     </div>
     <!-- wrapper -->
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
     <script src="../assets/js/aos.js"></script>
+    <script src="../assets/js/subpage.js"></script>
     <script src="../assets/js/common.js"></script>
+
 </body>
 </html>

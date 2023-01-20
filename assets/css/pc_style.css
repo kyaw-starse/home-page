@@ -14,6 +14,10 @@ Top
     width: 100%;
     object-fit: cover;
 }
+.full-wide-slider .slick-slide:before {
+    opacity: 1;
+    background: transparent !important;
+}
 .mv-scroll {
     position: absolute;
     bottom: 80px;
@@ -110,11 +114,16 @@ Top
 }
 
 /* Our Business */
-.businessBlock ul {
-    margin: 0 -15px;
+.our-business {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
 }
-.businessBlock ul li {
-    padding: 15px;
+.businessBlock ul.col-wrap {
+    margin: 0 -10px;
+}
+.businessBlock ul.col-wrap li.col3 {
+    padding: 10px;
 }
 .businessBox {
     position: relative;
@@ -130,15 +139,15 @@ Top
 }
 .businessText {
     position: absolute;
-    top: 0;
+    /* top: 0; */
     bottom: 0;
-    height: 100%;
-    width: 55%;
+    /* height: 100%; */
+    width: 100%;
     display: flex;
-    background: rgba(0,151,62,.5);
+    background: rgba(120,188,148,.65);
     align-items: flex-end;
     flex-wrap: wrap;
-    padding: 10px 10px 20px 10px;
+    padding: 20px 10px;
 }
 .businessText .ttlh4,
 .businessText p {
@@ -162,9 +171,50 @@ Top
     height: 6px;
     background: #FFDE6A;
 }
+.bussiness-btnList {
+    display: -webkit-box;
+    display:    -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display:         flex;
+    margin: 20px -4px 0 -4px;
+
+    flex-wrap: wrap;
+    -webkit-justify-content: inherit;
+            justify-content: inherit;
+}
+.bussiness-btnList li {
+    padding: 4px;
+}
+.bussiness-btnList li span {
+    display : flex;
+    padding: 8px 5px;
+    font-size: 11px;
+    color: #000;
+    background: #FFFAE7;
+    border:1px solid #008135;
+}
+.bussiness-btnList li span img {
+    width: 19px;
+    margin-right: 4px;
+}
+.img-hover {
+    overflow: hidden;
+    border: 1px solid #008135;
+    
+}
+.img-hover img {
+    transition: all 0.5s;
+}
+.businessBox:hover .img-hover img {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
 /* Our Service */
 .sec-service {
     position: relative;
+    background:#fbfbfa;
 }
 .waveTopImg {
     position: absolute;
@@ -181,6 +231,20 @@ Top
     float: left;
     padding: 0 3% 0 0;
 }
+.serviceVideo {
+    position: relative;
+}
+.play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    cursor: pointer;
+    z-index: 1;
+}
+.serviceVideo video {
+    width: 100%;
+}
 .serviceBoxText {
     width: 50%;
     float: right;
@@ -195,17 +259,18 @@ Top
 }
 .service-ttl {
     font-size: 60px;
-    color: #E8B500;
+    color: #008135;
     margin: 20px 0 50px 0;
 }
 .service-ttl span {
-    /* background: -webkit-linear-gradient(#008135, #e8b500); */
-    background: -webkit-linear-gradient(108.49deg, #008135 -6.44%, rgba(232, 181, 0, 0) 105.72%);
+    background: -webkit-linear-gradient(108.49deg, #E8B500 -6.44%, rgba(232, 181, 0, 0) 105.72%);
+    background: -webkit-linear-gradient(108.49deg, #E8B500 -6.44%, rgba(232, 181, 0, 0) 105.72%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-right: 20px;
     background-clip: text;
     text-fill-color: transparent;
+    
+    margin-right: 20px;
     
 }
 .service-txt p {
@@ -280,6 +345,10 @@ Top
 .sec-recruit .main-ttl {
     color: #fff;
 }
+.recruitBlock {
+    position: relative;
+    z-index: 1;
+}
 .recruitList {
     margin: -20px;
 }
@@ -292,6 +361,9 @@ Top
     background-size: 100% 100%;
     padding: 30px;
     align-items: center;
+}
+.recruitBox:hover {
+    filter: brightness(110%);
 }
 .recruitTxt {
     width: calc(100% - 25%);
@@ -308,6 +380,7 @@ Top
     border-top: 1px solid #000;
     position: relative;
     margin-top: 25px;
+    transition: all .3s;
 }
 .recruitArrow:after{
   content: "";
@@ -320,8 +393,17 @@ Top
   background-color: #000;
   transform: rotate(-45deg) translate(12px, -26px);
 }
-
+.recruitBox:hover .recruitArrow {
+    margin-left: 10px;
+}
 /* News Block */
+.newsBlock {
+    position: relative;
+    z-index: 1;
+}
+.newsBlock ul {
+    margin-bottom: 30px;
+}
 .newsBlock ul li {
     border-bottom: 1px solid #A0A0A0;
     margin-top: 20px;
@@ -349,12 +431,24 @@ Top
     content: "";
     position: absolute;
     top: calc(50% - 3px);
-    right: 0;
+    right: 10px;
     width: 31px;
     height: 8px;
     margin-right: 15px;
     background: url(../img/common/right_arrow.png) no-repeat;
     background-size: 31px;
+    -webkit-transition: transform 0.3s ease-out;
+    -moz-transition: transform 0.3s ease-out;
+    -ms-transition: transform 0.3s ease-out;
+    -o-transition: transform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
+}
+.newsBlock ul li .newsLink:hover:after{
+    -webkit-transform: translateX(10px);
+    -moz-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    -o-transform: translateX(10px);
+    transform: translateX(10px);
 }
 .newsBlock ul li .newsDate {
     width: 150px;
@@ -364,6 +458,9 @@ Top
     width: calc(100% - 150px);
     padding: 0 3% 0 10%;
 }
+.newsBlock .btn-arr {
+    max-width: 265px;
+}
 /* ===============================
 Philosophy Page
 =============================== */
@@ -372,7 +469,7 @@ Philosophy Page
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-between;
-    padding: 20px 0;
+    padding: 30px 0;
     border-bottom: 1px solid #E6E6E6;
 }
 .philoLeft {
@@ -403,12 +500,14 @@ Company Info Page
 =============================== */
 .sec-companyInfo,
 .sec-history,
-.sec-business,
-.sec-organization {
+.sec-business {
     padding: 0;
 }
 .sec-organization {
-    margin-bottom: 120px;
+    /* margin-bottom: 120px; */
+}
+.sec-companyInfo {
+    margin-top: -99vh;
 }
 .company-wrap {
     position: relative;
@@ -422,9 +521,6 @@ Company Info Page
 }
 .sec-history .company-wrap:before {
     background:#008135;
-}
-.sec-organization .company-wrap:before {
-    background: #F2F9F5;
 }
 .c-blockLeft {
     width: 72%;
@@ -465,12 +561,19 @@ Company Info Page
     padding: 0 10px;
 }
 /* History */
+.history-list ul {
+    padding-right: 20px;
+}
 .history-listbox {
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 30px;
 }
+.history-listboxin {
+    width: calc(100% - 150px);
+}
 .history-desp {
+    display: table;
     background: #fff;
     border-radius: 10px;
     padding: 0 15px;
@@ -478,7 +581,7 @@ Company Info Page
     /* margin-bottom: 30px; */
 }
 .history-year {
-    width: 15%;
+    width: 120px;
     color: #fff;
     padding-top: 13px;
     position: relative;
@@ -544,6 +647,13 @@ Company Info Page
     padding: 0 80px;
 }
 /* company page aside */
+.c-sidebar {
+    position: sticky;
+    top: 100px;
+    height: calc(100vh - 3vh);
+    z-index: 1;
+    transition: all .5s;
+}
 .c-sidebarList {
     width: 25%;
     float: right;
@@ -586,4 +696,196 @@ Company Info Page
 .c-sidebarList li .sidebarActive p {
     background: #008135;
     color: #fff;
+}
+/* ===============================
+Security Page
+=============================== */
+.security-desp {
+    padding: 30px 0;
+    border-bottom: 1px solid #E6E6E6;
+}
+.security-ttl {
+    font-size: 25px;
+    font-weight: bold;
+    color: #008135;
+    margin-bottom: 10px;
+}
+.security-desp .btn-arr {
+    float:none;
+    margin-top: 20px;
+}
+.security-content {
+    width: 49.5%;
+}
+.security-head-link {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 22px 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.security-head-link:hover {
+    background: #f3f3f3;
+}
+.security-head-ttl {
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #008135;
+}
+.security-head-line {
+    display: block;
+    background: #008135;
+    width: 15px;
+    height: 4px;
+    margin-bottom: 23px;
+    transition: all 0.5s;
+}
+.security-head-link:hover .security-head-line {
+    width: 100%;
+    transition: all 0.5s;
+}
+.security-head-txt {
+    font-size: 14px;
+    line-height: 2.14;
+    margin-bottom: 30px;
+}
+.security-head-linkTxt {
+    position: relative;
+    display: inline-block;
+    font-family: 'Roboto';
+    border: solid 1px #008135;
+    background: #FFDE6A;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 9px 15px;
+    width: 200px;
+    overflow: hidden;
+    z-index: 0;
+    margin-top: auto;
+}
+.security-head-linkTxt:before {
+    content: '';
+    display: block;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: -150%;
+    width: 130%;
+    height: 100%;
+    transition: all 0.5s ease;
+}
+.security-head-linkTxt:after {
+    content: "";
+    display: inline-block;
+    border-color: #000;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    width: 9px;
+    height: 9px;
+    vertical-align: middle;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 0;
+    right: 15px;
+    bottom: 0;
+    margin: auto;
+}
+.security-head-link:hover .security-head-linkTxt {
+    color: #fff;
+    /* border-color: #008135; */
+}
+.security-head-link:hover .security-head-linkTxt:before {
+    background: #008135;
+    left: 0px;
+}
+.security-head-link:hover .security-head-linkTxt:after {
+    border-color: #fff;
+}
+/* security info page */
+.sub-lead-txt {
+    line-height: 1.8;
+}
+/* private ssecurity page */
+.private-letter {
+    line-height: 1.8;
+}
+.private-lead-txt {
+    margin-bottom: 20px;
+}
+.private01-b-txt {
+    float:right;
+}
+.private01-b-txt p {
+    margin-bottom: 5px;
+}
+.private02-lead-txt p {
+    line-height: 1.8;
+    text-align: center;
+}
+.private03-lead .private-lead-txt {
+    text-align: center;
+    margin-bottom: 30px;
+}
+/* Recuirt Page */
+.recruitList-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.recruitList-block .recruitList-li {
+    width: 49%;
+    padding: 15px 0;
+}
+.recruitList-content {
+    height: 100%;
+    background: #F2F9F5;
+}
+.recruit-desp {
+    padding: 30px 20px;
+}
+.recruit-ttl {
+    font-size: 20px;
+    color: #008135;
+    margin-bottom: 10px;
+}
+.recruit-txt {
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 20px;
+    word-break: break-all;
+}
+.recruit-btnls {
+    margin-bottom: 30px;
+}
+.recruit-btnls li {
+    margin-bottom: 15px;
+}
+.recruit-btnbox {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.recruit-btnbox span {
+    font-size: 13px;
+    display: inline-block;
+    background: #008135;
+    padding: 5px 20px;
+    color: #fff;
+    font-weight: bold;
+}
+.recruit-btnbox p {
+    width: calc(100% - 80px);
+    margin-left: auto;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+/* graduate recruit guide */
+.sec-graduate03 .recruitList-block .recruitList-li {
+    width: 32%;
 }

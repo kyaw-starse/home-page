@@ -101,10 +101,31 @@ header {
 .header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 10px 30px;
 }
+.h-logo a {
+    display: flex;
+    align-items: center;
+}
+.h-logo a img {
+    height: 80px;
+}
+.h-logo p {
+    color: #008135;
+    line-height: 1.5;
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding-top: 10px;
+}
+.h-logo p span {
+    font-size: 14px;
+    color: #f00;
+    display: block;
+    letter-spacing: 0.5px;
+}
 .h-right {
-    width: calc(100% - 200px);
+    width: calc(100% - 210px);
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -144,15 +165,45 @@ header utility
     padding: 0 10px;
 }
 .h-utility ul li.h-icon a {
-    padding: 0px 20px;
+    position: relative;
     display: block;
     border: 1px solid #E8B500;
     border-radius: 10px;
     background: #fff;
-    height: 35px;
+    height: 37px;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all .3s;
+    width: 60px;
+}
+.h-utility ul li.h-icon a:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-size: 100%;
+}
+.h-utility ul li.h-icon a:hover {
+    background: #E8B500;
+}
+.h-utility ul li.h-icon a.mail-icon:before {
+    background:url('../img/common/mail_off.png') no-repeat;
+}
+.h-utility ul li.h-icon a.mail-icon:hover:before {
+    background:url('../img/common/mail_on.png') no-repeat;
+}
+.h-utility ul li.h-icon a.lock-icon:before {
+    background:url('../img/common/lock_off.png') no-repeat;
+}
+.h-utility ul li.h-icon a.lock-icon:hover:before {
+    background:url('../img/common/lock_on.png') no-repeat;
+}
+.h-utility ul li.h-icon a img {
+    display: none;
 }
 .h-utility ul li.site-lang {
     display: flex;
@@ -161,7 +212,7 @@ header utility
 .h-utility ul li.site-lang a {
     background: #fff;
     border: 1px solid #E8B500;
-    height: 35px;
+    height: 37px;
     display: flex;
     padding: 0 10px;
     align-items: center;
@@ -257,6 +308,15 @@ footer
     }
     h1.h-logo {
         max-width: 150px;
+    }
+    .h-logo a img {
+        height: 60px;
+    }
+    .h-logo p {
+        font-size: 20px;
+    }
+    .h-logo p span {
+        font-size: 10px;
     }
     /* sp menu */
     .gmenu .menu {
