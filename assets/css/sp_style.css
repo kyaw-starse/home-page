@@ -11,9 +11,6 @@
     .slick-slide img {
         height: auto;
     }
-    .full-wide-slider .slick-slide video {
-        width: 100%;
-    }
     .mv-scroll {
         position: absolute;
         bottom: 0;
@@ -63,7 +60,7 @@
         border-width: 0 20px 40px 20px;
     }
     /* Our Business */
-    .businessBlock ul.col-wrap li.col3 {
+    .top-businessBlock ul.col-wrap li.col3 {
         width: 50%;
     }
     .businessTtl {
@@ -256,6 +253,9 @@
     .history-listboxin {
         width: auto;
     }
+    .history-list {
+        max-width: 100%;
+    }
     .history-list ul .history-listbox:last-child:after {
         height: 7%;
     }
@@ -288,6 +288,18 @@
     /* ===============================
     Company Info Page
     =============================== */
+    .b-boxLeft {
+        width: 100%;
+        float: none;
+        margin-right: 0;
+    }
+    .b-boxLeft div  img {
+        margin: 0 auto;
+    }
+    .b-boxRight {
+        width: 100%;
+        float: none;
+    }
     /* ===============================
     Rrecruit Page
     =============================== */
@@ -319,7 +331,7 @@
 }
 @media screen and (max-width: 480px) {
     /* Business Block */
-    .businessBlock ul.col-wrap li.col3 {
+    .top-businessBlock ul.col-wrap li.col3 {
         width: 100%;
     }
     .businessTtl {

@@ -142,3 +142,33 @@ $(function() {
 $(window).on("resize.slickVideoPlayer", function(){  
   resizePlayer(iframes, 16/9);
 });
+// Top page Business block jquery
+function fadeAnime(){
+  $('.fadeInTrigger').each(function(){
+    var elemPos = $(this).offset().top-50;
+    var scroll = $(window).scrollTop();
+    var windowHeight = $(window).height();
+    if (scroll >= elemPos - windowHeight){
+      $(this).addClass('fadeIn');
+    }else{
+      $(this).removeClass('fadeIn');
+    }
+  });
+  $('.line-frame').each(function(){ 
+    var elemPos = $(this).offset().top-50;
+    var scroll = $(window).scrollTop();
+    var windowHeight = $(window).height();
+    if (scroll >= elemPos - windowHeight){
+      $(this).parent().addClass('line-show');
+    }else{
+      $(this).parent().removeClass('line-show');
+    }
+    });
+}
+$(window).scroll(function (){
+  fadeAnime();
+});
+
+$(window).on('load', function(){
+  fadeAnime();
+});

@@ -309,8 +309,9 @@ body {
     color: #fff;
     font-weight: bold;
     margin-bottom: 40px;
+    text-align: center;
 }
-.sub-ttl02 span {
+.sub-ttl02 .h-text-jp {
     font-size: 24px;
     display: block;
 }
@@ -321,6 +322,12 @@ body {
     left: 0;
     z-index: 0;
     max-height: 530px;
+}
+.text-un-yellow {
+    background-image: -webkit-linear-gradient(left, #fff 50%, #FFDE6A 50%);
+    background-repeat: repeat-x;
+    background-position: -56% 40px;
+    background-size: 200% 8px;
 }
 @media screen and (max-width: 768px) {
     .sub-banner {
@@ -340,6 +347,12 @@ body {
     }
     .particlesBg {
         max-height: 80%;
+    }
+    .sub-ttl02 {
+        font-size: 30px;
+    }
+    .sub-ttl02 .h-text-jp {
+        font-size: 20px;
     }
 }
 img.move1 {
@@ -619,6 +632,45 @@ canvas {
 #modalvideo {
     width: 100%;
 }
+/* fade animation */
+.fadeIn {
+    animation-name: fadeInAnime;
+    animation-duration: 2s;
+
+    opacity: 0;
+
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnime {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+.fadeInTrigger {
+    opacity: 0;
+}
+.delay-time1 {
+    animation-delay: 1s;
+}
+.delay-time15 {
+    animation-delay: 1.5s;
+}
+.delay-time2 {
+    animation-delay: 2s;
+}
+.delay-time25 {
+    animation-delay: 2.5s;
+}
+.delay-time3 {
+    animation-delay: 3s;
+}
+.delay-time35 {
+    animation-delay: 3.5s;
+}
 @media screen and (max-width: 768px) {
     .modal-content {
         width: 90%;
@@ -638,4 +690,5 @@ canvas {
         transform: rotate(-1.6deg);
     }
 }
+
 

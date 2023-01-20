@@ -119,11 +119,53 @@ Top
     overflow: hidden;
     z-index: 1;
 }
-.businessBlock ul.col-wrap {
-    margin: 0 -10px;
+.top-businessBlock ul.col-wrap {
+    margin: 0 -30px;
 }
-.businessBlock ul.col-wrap li.col3 {
-    padding: 10px;
+.top-businessBlock ul.col-wrap li.col3 {
+    padding: 10px 30px;
+}
+.line-frame {
+    position: relative;
+    opacity: 0;
+}
+.line-frame:before {
+    content: '';
+    /* width: 60px; */
+    height: 3px;
+    background: #008135;
+    position: absolute;
+    /* right: -60px; */
+    top: 50%;
+}
+.line-show .line-frame {
+    animation-name: lineShow;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+.line-show .line-frame:before {
+    animation: lineHorzontal .5s linear .5s forwards;
+}
+.line-show .line-frame.line-2:before {
+    animation: lineHorzontal .5s linear 2s forwards;
+}
+@keyframes lineShow {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes lineHorzontal {
+    0% {
+        width: 0;
+        right: 0;
+    }
+    100% {
+        width: 60px;
+        right:-60px;
+    }
 }
 .businessBox {
     position: relative;
@@ -506,9 +548,9 @@ Company Info Page
 .sec-organization {
     /* margin-bottom: 120px; */
 }
-.sec-companyInfo {
+/* .sec-companyInfo {
     margin-top: -99vh;
-}
+} */
 .company-wrap {
     position: relative;
 }
@@ -523,7 +565,7 @@ Company Info Page
     background:#008135;
 }
 .c-blockLeft {
-    width: 72%;
+    /* width: 72%; */
     padding: 50px 0;
     position: relative;
     z-index: 0;
@@ -542,11 +584,11 @@ Company Info Page
     padding: 20px 0;
 }
 .company-info table tr th {
-    width: 25%;
+    width: 20%;
     text-align: left;
 }
 .company-info table tr td {
-    width: 75%;
+    width: 80%;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -561,6 +603,13 @@ Company Info Page
     padding: 0 10px;
 }
 /* History */
+.sec-history .text-un-yellow {
+    background-image: -webkit-linear-gradient(left, #008135 50%, #FFDE6A 50%);
+}
+.history-list {
+    max-width: 650px;
+    margin: 0 auto;
+}
 .history-list ul {
     padding-right: 20px;
 }
@@ -620,6 +669,10 @@ Company Info Page
     width: calc(100% - 60px);
 }
 /* Business */
+.businessBlock {
+    max-width: 840px;
+    margin: 0 auto;
+}
 .b-boxLeft {
     width: 57%;
     float: left;
@@ -713,6 +766,9 @@ Security Page
 .security-desp .btn-arr {
     float:none;
     margin-top: 20px;
+}
+.security-head {
+    position: relative;
 }
 .security-content {
     width: 49.5%;

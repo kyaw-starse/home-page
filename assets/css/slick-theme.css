@@ -398,13 +398,13 @@
 @media screen and (max-width: 768px) {
     .full-wide-slider {
         margin-top: 70px;
-        height: 60vw;
+        height: auto;
     }
     .slick-slide {
-        height: 60vw;
+        height: 56vw;
     }
-    /* .full-wide-slider .slick-slide video {
+    .full-wide-slider .slick-slide video {
         width: 100%;
-        height: 60vw;
-    } */
+        height: auto;
+    }
 }
