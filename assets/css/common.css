@@ -577,6 +577,7 @@ canvas {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     position: relative;
     margin-top: 40px;
+    line-height: 1.8;
 }
 .letter:before,
 .letter:after {
@@ -586,20 +587,27 @@ canvas {
     width: 100%;
     z-index: -1;
 }
-
 .letter:before {
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
     left: -5px;
     top: 4px;
     transform: rotate(-2.5deg);
 }
-
 .letter:after {
     background: #f6f6f6;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
     right: -3px;
     top: 1px;
     transform: rotate(1.4deg);
+}
+.letter-lead-txt {
+    margin-bottom: 20px;
+}
+.letter-b-txt {
+    float:right;
+}
+.letter-b-txt p {
+    margin-bottom: 5px;
 }
 /* List order */
 .list li {

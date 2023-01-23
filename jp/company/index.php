@@ -137,19 +137,26 @@
                                 <tr>
                                     <th>従業員数</th>
                                     <td>
-                                        <p>(2019年12月時点)<br>正社員：100人<br>※協業パートナー要員：約20人</p>
+                                        <p>(2023年1月時点)<br>正社員：130人<br>※協業パートナー要員：約10人</p>
                                     </td>
                                 </tr>
                                 <tr>
                                     <th>支社</th>
                                     <td>
-                                        <p>STAR  SE  MYANMAR Co.,Ltd.</p>
+                                        <p>STAR  SE  MYANMAR Co.,Ltd.<br>Room No.11/A, 11th floor, Pyay Road, Red Hill Tower (or) KBZ Tower, Sanchaung Township, Yangon.</p>
                                     </td>
                                 </tr>
                                 <tr>
                                     <th>主要顧客</th>
                                     <td>
-                                        <p>NTTエレクトロニクステクノ株式会社<br>アクセンチュア株式会社<br>キヤノン電子テクノロジー株式会社<br>株式会社コスメディア<br>テクバン株式会社<br>株式会社クレスコ<br>コムチュア株式会社</p>
+                                        <p>NTTエレクトロニクステクノ株式会社<br>
+                                        アクセンチュア株式会社<br>
+                                        ハイテクシステム株式会社(TCSグループ企業)<br>
+                                        キヤノン電子テクノロジー株式会社<br>
+                                        株式会社コスメディア<br>
+                                        テクバン株式会社<br>
+                                        株式会社クレスコ<br>
+                                        コムチュア株式会社など多数</p>
                                     </td>
                                 </tr>
                                 <tr>

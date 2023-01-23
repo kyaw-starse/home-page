@@ -82,9 +82,9 @@
         <section class="sec-private01">
             <div class="c-w1170">
                 <h2 class="ttl-subpage"><span class="text-un-yellow">個人情報保護</span></h2>
-                <div class="private-letter letter">
+                <div class="letter">
                     <div class="cFix">
-                        <p class="private-lead-txt">
+                        <p class="letter-lead-txt">
                             STAR SE株式会社は、社会の基盤となるITサービスを提供する企業として、個人情報保護の重要性を認識し、 個人情報を適切に保護するための個人情報管理の仕組みを策定し、以下のように「個人情報保護方針」を定め、保護に努めます。
                         </p>
                         <ul class="list alpha-list">
@@ -104,7 +104,7 @@
                                 <p class="alpha-ls"><span>e）</span>個人情報保護マネジメントシステムの継続的改善に努めます。</p>
                             </li>
                         </ul>
-                        <div class="private01-b-txt">
+                        <div class="letter-b-txt">
                             <p>制定日　2017年3月1日</p>
                             <p>改定日　2017年4月1日</p>
                             <p>STAR SE 株式会社</p>
@@ -172,12 +172,22 @@
                             <div class="accordian-div">
                                 <h2 class="accordian-title"><span></span>当社の社名と個人情報保護管理者</h2>
                                 <div class="accordian-box">
-                                    <p>
-                                        社名　：　STAR SE株式会社<br>
-                                        個人情報保護管理者　：　金本　香蘭<br>
-                                        TEL　：　03-5207-2955<br>
-                                        住所　：　〒103-0011 東京都中央区日本橋大伝馬町17-6 　日本橋小谷商事ビル2階
-                                    </p>
+                                    <dl class="dl-list">
+                                        <dt>社名</dt>
+                                        <dd>STAR SE株式会社</dd>
+                                    </dl>
+                                    <dl class="dl-list">
+                                        <dt>個人情報<br class="sp">保護管理者</dt>
+                                        <dd>金本　香蘭</dd>
+                                    </dl>
+                                    <dl class="dl-list">
+                                        <dt>TEL</dt>
+                                        <dd>03-5207-2955</dd>
+                                    </dl>
+                                    <dl class="dl-list">
+                                        <dt>住所</dt>
+                                        <dd>〒104-0043 <br class="sp">東京都中央区湊2丁目4-1 ＴＯＭＡＣビル 5階</dd>
+                                    </dl>
                                 </div>
                             </div>
                         </li>

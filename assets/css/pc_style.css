@@ -874,17 +874,8 @@ Security Page
     line-height: 1.8;
 }
 /* private ssecurity page */
-.private-letter {
-    line-height: 1.8;
-}
 .private-lead-txt {
     margin-bottom: 20px;
-}
-.private01-b-txt {
-    float:right;
-}
-.private01-b-txt p {
-    margin-bottom: 5px;
 }
 .private02-lead-txt p {
     line-height: 1.8;
@@ -893,6 +884,29 @@ Security Page
 .private03-lead .private-lead-txt {
     text-align: center;
     margin-bottom: 30px;
+}
+.dl-list {
+    display: table;
+}
+.dl-list dt,
+.dl-list dd {
+    display: table-cell;
+}
+.dl-list dt {
+    width: 175px;
+    position: relative;
+    padding-right: 10px;
+}
+.dl-list dt:after {
+    content: '：';
+    display: block;
+    position: absolute;
+    top: 0;
+    right:0;
+    margin-left: 10px;
+}
+.dl-list dd {
+    padding-left: 10px;
 }
 /* Recuirt Page */
 .recruitList-block {

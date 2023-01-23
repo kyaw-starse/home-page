@@ -335,6 +335,16 @@
     .security-head-link {
         background: #f3f3f3;
     }
+    /* private security page */
+    .dl-list dt, .dl-list dd {
+        font-size: 15px;
+    }
+    .dl-list dt {
+        width: 105px;
+    }
+    .dl-list dd {
+        padding-left: 0px;
+    }
     /* ===============================
     Business Page
     =============================== */
