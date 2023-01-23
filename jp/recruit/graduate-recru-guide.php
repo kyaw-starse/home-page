@@ -81,8 +81,8 @@
         <div class="content">        
         <section class="sec-graduate01">
             <div class="c-w1170">
-                <h2 class="main-ttl01">若手社員からのメッセージ</h2>
-                <div class="">
+                <h2 class="ttl-subpage"><span class="text-un-yellow">若手社員からのメッセージ</span></h2>
+                <div>
                     <div class="textBox" data-aos="fade-up">
                         <h2 class="boxTxt">STARSEを選んだ理由</h2>
                         <div class="boxDesp">
@@ -136,8 +136,8 @@
         </section>
         <section class="sec-graduate02 bg-green-light">
             <div class="c-w1170">
-                <h2 class="main-ttl01">よくある質問</h2>
-                <div class="">
+                <h2 class="ttl-subpage"><span class="text-un-yellow">よくある質問</span></h2>
+                <div>
                     <ul class="accordion-area" data-aos="fade-up">
                         <li>
                             <div class="accordian-div">
@@ -206,7 +206,7 @@
         </section>
         <section class="sec-graduate03">
             <div class="c-w1170">
-                <h2 class="main-ttl01">職場風景</h2>
+                <h2 class="ttl-subpage"><span class="text-un-yellow">職場風景</span></h2>
                 <div data-aos="fade-up">
                     <ul class="recruitList-block">
                         <li class="recruitList-li">
@@ -249,9 +249,10 @@
                 </div>
             </div>
         </section>
-        <section class="sec-carrer04 bg-green-light">
+        <section class="sec-graduate04 bg-green-light">
             <div class="c-w1170">
-                <h2 class="main-ttl01">募集要項</h2>
+                <span id="sec-graduate04" class="anchorpos"></span>
+                <h2 class="ttl-subpage"><span class="text-un-yellow">募集要項</span></h2>
                 <div data-aos="fade-up">
                     <div class="sec-table table-style01">
                         <table>
@@ -399,7 +400,7 @@
                             <ul>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="../../assets/img/common/icon_homeaddress.png" alt=""></span>
-                                    <p class="ftAddress-info">〒103-0011<br>東京都中央区日本橋大伝馬町17-6<br>日本橋小谷商事ビル2階</p>
+                                    <p class="ftAddress-info">〒104-0043<br>東京都中央区湊2丁目4-1<br>ＴＯＭＡＣビル 5階</p>
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="../../assets/img/common/icon_phone.png" alt=""></span>

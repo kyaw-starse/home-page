@@ -96,13 +96,12 @@
                 </li>
             </ul>
         </div> -->
-        <section class="sec-companyInfo">
+        <section class="sec-companyInfo" data-aos="fade-up">
             <div class="company-wrap">
                 <div class="c-w1170">
                     <div class="c-blockLeft">
                         <span id="companyInfo" class="anchorpos"></span>
                         <h3 class="sub-ttl02 col-green"><span class="text-un-yellow">Company Profile</span><span class="h-text-jp">会社概要</span></h3>
-                        <!-- <h3 class="sub-ttl02 col-green">Company Profile<span class="h-text-jp">会社概要</span></h3> -->
                         <div class="company-info">
                             <table>
                                 <tr>
@@ -175,7 +174,7 @@
                 </div>
             </div>
         </section>
-        <section class="sec-history bg-green">
+        <section class="sec-history bg-green" data-aos="fade-up">
             <div class="company-wrap">
                 <div class="c-w1170">
                     <div class="c-blockLeft">
@@ -188,7 +187,7 @@
                                     <div class="history-listboxin">
                                         <div class="history-desp">
                                             <dl class="cFix">
-                                                <dt>1月</dt>
+                                                <dt>2月</dt>
                                                 <dd>東京八丁堀に本社移転</dd>
                                             </dl>
                                         </div>
@@ -301,7 +300,7 @@
                 </div>
             </div>
         </section>
-        <section class="sec-business">
+        <section class="sec-business" data-aos="fade-up">
             <div class="company-wrap">
                 <div class="c-w1170">
                     <div class="c-blockLeft">
@@ -321,22 +320,8 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- <section class="sec-organization">
-            <div class="company-wrap">
-                <div class="c-w1170">
-                    <div class="c-blockLeft bg-green-light">
-                        <span id="organization" class="anchorpos"></span>
-                        <h3 class="sub-ttl02 col-green">Organization Chart<span>組織図</span></h3>
-                        <div class="chat-img">
-                            <img src="../../assets/img/company/organization-chart.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        </div>
-        <section class="sec-organization bg-green-light">
+        </section>        
+        <section class="sec-organization bg-green-light" data-aos="fade-up">
             <div class="company-wrap">
                 <div class="c-w1170">
                     <div class="">
@@ -349,6 +334,7 @@
                 </div>
             </div>
         </section>
+        </div>
         <div class="footerLogo bg-green-light">
             <div class="c-w1420 cFix">
                 <span class="footerLogoImg"><img src="../../assets/img/common/footer_logo2.png" alt="STAR SE株式会社"></span>
@@ -367,7 +353,7 @@
                             <ul>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="../../assets/img/common/icon_homeaddress.png" alt=""></span>
-                                    <p class="ftAddress-info">〒103-0011<br>東京都中央区日本橋大伝馬町17-6<br>日本橋小谷商事ビル2階</p>
+                                    <p class="ftAddress-info">〒104-0043<br>東京都中央区湊2丁目4-1<br>ＴＯＭＡＣビル 5階</p>
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="../../assets/img/common/icon_phone.png" alt=""></span>

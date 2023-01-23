@@ -81,7 +81,8 @@
         <div class="content">
         <section class="recruit-page">
             <div class="c-w1170">
-                <h2 class="main-ttl01">キャリア募集要項</h2>
+                <!-- <h2 class="main-ttl01">キャリア募集要項</h2> -->
+                <h2 class="ttl-subpage"><span class="text-un-yellow">キャリア募集要項</span></h2>
                 <div class="recruit-pageList">
                     <ul class="recruitList-block">
                         <li class="recruitList-li">
@@ -101,7 +102,7 @@
                                             <li>
                                                 <div class="recruit-btnbox">
                                                     <span>経験</span>
-                                                    <p>Windows、UNIX環境でのJava、C、C++、C#、Perl、PHP、VB、Delphi等のシステム開発経験1 年以上の方。※ いずれかの経験があれば、他は未経験でも歓迎します。 ※ 外国人の方、大歓迎です。</p>
+                                                    <p>	Windows、UNIX環境でのJava、C、C++、C#、Perl、PHP、VB、Delphi等のシステム開発経験1 年以上の方。※ いずれかの経験があれば、他は未経験でも歓迎します。※ 外国人の方、大歓迎です。</p>
                                                 </div>
                                             </li>
                                             <li>
@@ -118,7 +119,7 @@
                                             </li>
                                         </ul>
                                         <div class="sec-btn02">
-                                            <a href="./career-app-guide.php" class="btn02">詳しくはこちら</a>
+                                            <a href="./career-app-guide.php#sec-carrer01" class="btn02">詳しくはこちら</a>
                                         </div>
                                     </div>
                                 </div>
@@ -135,13 +136,13 @@
                                             <li>
                                                 <div class="recruit-btnbox">
                                                     <span>内容</span>
-                                                    <p>Web アプリケーション、流通等の業務アプリケーションの設計、開発、導入および運用まで、あなたのご経験やご希望に合った開発プロジェクトを用意しています。</p>
+                                                    <p>物理サーバ/仮想サーバ(ミドルウェア含む)、ストレージ、ネットワーク等のインフラ基盤の設計、構築および運用まで、 あなたのご経験やご希望に合ったインフラ基盤プロジェクトを用意しています。</p>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="recruit-btnbox">
                                                     <span>経験</span>
-                                                    <p>Windows、UNIX環境でのJava、C、C++、C#、Perl、PHP、VB、Delphi等のシステム開発経験1 年以上の方。※ いずれかの経験があれば、他は未経験でも歓迎します。 ※ 外国人の方、大歓迎です。</p>
+                                                    <p>インフラ基盤構築経験やミドルウェアの導入/構築経験など1 年以上の方。※ いずれかの経験があれば、他は未経験でも歓迎します。※ 外国人の方、大歓迎です。</p>
                                                 </div>
                                             </li>
                                             <li>
@@ -158,7 +159,7 @@
                                             </li>
                                         </ul>
                                         <div class="sec-btn02">
-                                            <a href="./career-app-guide.php" class="btn02">詳しくはこちら</a>
+                                            <a href="./career-app-guide.php#sec-carrer02" class="btn02">詳しくはこちら</a>
                                         </div>
                                     </div>
                                 </div>
@@ -175,13 +176,13 @@
                                             <li>
                                                 <div class="recruit-btnbox">
                                                     <span>内容</span>
-                                                    <p>Web アプリケーション、流通等の業務アプリケーションの設計、開発、導入および運用まで、あなたのご経験やご希望に合った開発プロジェクトを用意しています。</p>
+                                                    <p>＜資料作成などの事務業務全般をお任せします＞ 基本的なPCスキル（Excel・Word）や、電話応対など一般的なビジネスマナーがあれば、はじめられる仕事です。 書類チェックや電話・来客対応等のサポート業務を通じて、会社を支えていただく仕事です。 まずは簡単な業務からはじめ、徐々にステップアップ。 未経験でもムリなくスタートできます！</p>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="recruit-btnbox">
                                                     <span>経験</span>
-                                                    <p>Windows、UNIX環境でのJava、C、C++、C#、Perl、PHP、VB、Delphi等のシステム開発経験1 年以上の方。※ いずれかの経験があれば、他は未経験でも歓迎します。 ※ 外国人の方、大歓迎です。</p>
+                                                    <p>システムやPCについての問い合わせ対応、エンジニアのサポート業務を中心とした事務業務の経験など1 年以上の方。</p>
                                                 </div>
                                             </li>
                                             <li>
@@ -198,7 +199,7 @@
                                             </li>
                                         </ul>
                                         <div class="sec-btn02">
-                                            <a href="./career-app-guide.php" class="btn02">詳しくはこちら</a>
+                                            <a href="./career-app-guide.php#sec-carrer03" class="btn02">詳しくはこちら</a>
                                         </div>
                                     </div>
                                 </div>
@@ -215,21 +216,22 @@
                                             <li>
                                                 <div class="recruit-btnbox">
                                                     <span>内容</span>
-                                                    <p>Web アプリケーション、流通等の業務アプリケーションの設計、開発、導入および運用まで、あなたのご経験やご希望に合った開発プロジェクトを用意しています。</p>
+                                                    <p>システムの設計、顧客との打合せ、コンサルティングやプログラミングなどの技術力も大切ですが、コミュニケーション能力がより重要となる仕事です。</p>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="recruit-btnbox">
-                                                    <span>経験</span>
-                                                    <p>Windows、UNIX環境でのJava、C、C++、C#、Perl、PHP、VB、Delphi等のシステム開発経験1 年以上の方。※ いずれかの経験があれば、他は未経験でも歓迎します。 ※ 外国人の方、大歓迎です。</p>
+                                                    <span>職類</span>
+                                                    <p>システムエンジニア、インフラエンジニア、事務・営業</p>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="recruit-btnbox">
-                                                    <span>給与</span>
-                                                    <p>経験・スキル・前給等を十分考慮し、相談の上決定します。</p>
+                                                    <span>学科</span>
+                                                    <p>学部学科（文系　。理系）は問いません。</p>
                                                 </div>
                                             </li>
+                                            
                                             <li>
                                                 <div class="recruit-btnbox">
                                                     <span>賞与</span>
@@ -238,7 +240,7 @@
                                             </li>
                                         </ul>
                                         <div class="sec-btn02">
-                                            <a href="./graduate-recru-guide.php" class="btn02">詳しくはこちら</a>
+                                            <a href="./graduate-recru-guide.php#sec-graduate04" class="btn02">詳しくはこちら</a>
                                         </div>
                                     </div>
                                 </div>
@@ -268,7 +270,7 @@
                             <ul>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="../../assets/img/common/icon_homeaddress.png" alt=""></span>
-                                    <p class="ftAddress-info">〒103-0011<br>東京都中央区日本橋大伝馬町17-6<br>日本橋小谷商事ビル2階</p>
+                                    <p class="ftAddress-info">〒104-0043<br>東京都中央区湊2丁目4-1<br>ＴＯＭＡＣビル 5階</p>
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="../../assets/img/common/icon_phone.png" alt=""></span>

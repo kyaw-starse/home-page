@@ -43,5 +43,17 @@ jQuery(function($) {
             });
         });
     });
+    // Business Page Circle Block height
+    $(function () {
+        function CircleHeight(){
+            $bussCirWidth = $('.circle-block').width();
+            $('.circle-block').css({ "height": $bussCirWidth });
+        }
+        CircleHeight();
+        $( window ).resize(function() {
+            CircleHeight();
+        });
+    });
+    
 
 });

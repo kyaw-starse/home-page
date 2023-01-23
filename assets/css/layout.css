@@ -357,9 +357,9 @@ footer {
     .header {
         padding: 5px 20px;
     }
-    h1.h-logo {
+    /* h1.h-logo {
         max-width: 150px;
-    }
+    } */
     .h-logo a img {
         height: 60px;
     }

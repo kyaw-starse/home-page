@@ -75,38 +75,38 @@
             </div>
         </nav>
         <div class="full-wide-slider">
-            <!-- <div class="item image">
+            <div class="item image">
               <figure>
                 <div class="slide-image slide-media" style="background-image:url('../assets/img/top/slide-1.jpg');">
                   <img data-lazy="../assets/img/top/slide-1.jpg" class="image-entity" />
                 </div>
               </figure>
-            </div> -->
+            </div>
             <!-- <div class="item vimeo" data-video-start="4">
               <iframe class="embed-player slide-media" src="https://player.vimeo.com/video/217885864?api=1&byline=0&portrait=0&title=0&background=1&mute=1&loop=1&autoplay=0" width="980" height="520" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div> -->
-            <!-- <div class="item image">
+            <div class="item image">
               <figure>
                 <div class="slide-image slide-media" style="background-image:url('../assets/img/top/slide-2.jpg');">
                   <img data-lazy="../assets/img/top/slide-2.jpg" class="image-entity" />
                 </div>
               </figure>
-            </div> -->
+            </div>
             <!-- <div class="item youtube">
               <iframe class="embed-player slide-media" width="980" height="520" src="https://www.youtube.com/embed/rcFKFv9wbS0?enablejsapi=1&controls=0&fs=0&iv_load_policy=3&rel=0&showinfo=0&loop=1&playlist=rcFKFv9wbS0&start=36" frameborder="0" allowfullscreen></iframe>
             </div> -->
-            <!-- <div class="item image">
+            <div class="item image">
               <figure>
-                <div class="slide-image slide-media" style="background-image:url('https://images.unsplash.com/photo-1483555714914-20a74b6e45f5?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzA4MTIwOQ&ixlib=rb-1.2.1&q=85');">
-                  <img data-lazy="https://images.unsplash.com/photo-1483555714914-20a74b6e45f5?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzA4MTIwOQ&ixlib=rb-1.2.1&q=85" class="image-entity" />
+                <div class="slide-image slide-media" style="background-image:url('../assets/img/top/slide-3.jpg');">
+                  <img data-lazy="../assets/img/top/slide-3.jpg" class="image-entity" />
                 </div>
               </figure>
-            </div> -->
-            <div class="item video">
+            </div>
+            <!-- <div class="item video">
               <video class="slide-video slide-media" loop muted preload="metadata">
                 <source src="../assets/img/video/BannerMovie_v3.mp4" type="video/mp4" />
               </video>
-            </div>
+            </div> -->
         </div>
         <div class="main-mv">
             <div class="mv-scroll">
@@ -410,32 +410,32 @@
                         <ul>
                             <li data-aos="fade-up" data-aos-delay="50">
                                 <a href="" class="newsLink">
-                                    <span class="newsDate">2023/1/22</span>
-                                    <p class="newsTtl">会社は10年周を迎う</p>
+                                    <span class="newsDate">2023/2/1</span>
+                                    <p class="newsTtl">事務所を八丁堀に移動</p>
                                 </a>
                             </li>
                             <li data-aos="fade-up" data-aos-delay="70">
                                 <a href="" class="newsLink">
-                                    <span class="newsDate">2023/1/20</span>
-                                    <p class="newsTtl">事務所を八丁堀に移動</p>
+                                    <span class="newsDate">2023/2/1</span>
+                                    <p class="newsTtl">ミャンマー支社設立</p>
                                 </a>
                             </li>
                             <li data-aos="fade-up" data-aos-delay="90">
+                                <a href="" class="newsLink">
+                                    <span class="newsDate">2023/1/22</span>
+                                    <p class="newsTtl">会社は10年周を迎う</p>
+                                </a>
+                            </li>
+                            <li data-aos="fade-up" data-aos-delay="110">
                                 <a href="" class="newsLink">
                                     <span class="newsDate">2022/11/25</span>
                                     <p class="newsTtl">DX戦略を策定</p>
                                 </a>
                             </li>
-                            <li data-aos="fade-up" data-aos-delay="110">
+                            <li data-aos="fade-up" data-aos-delay="130">
                                 <a href="" class="newsLink">
                                     <span class="newsDate">2022/7/1</span>
                                     <p class="newsTtl">DX方針を宣言</p>
-                                </a>
-                            </li>
-                            <li data-aos="fade-up" data-aos-delay="130">
-                                <a href="" class="newsLink">
-                                    <span class="newsDate">2020/12/17</span>
-                                    <p class="newsTtl">ISO/IEC 27001:2013認証を取得</p>
                                 </a>
                             </li>
                         </ul>
@@ -464,7 +464,7 @@
                             <ul>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="../assets/img/common/icon_homeaddress.png" alt=""></span>
-                                    <p class="ftAddress-info">〒103-0011<br>東京都中央区日本橋大伝馬町17-6<br>日本橋小谷商事ビル2階</p>
+                                    <p class="ftAddress-info">〒104-0043<br>東京都中央区湊2丁目4-1<br>ＴＯＭＡＣビル 5階</p>
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="../assets/img/common/icon_phone.png" alt=""></span>

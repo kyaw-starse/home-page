@@ -170,7 +170,7 @@ Top
 .businessBox {
     position: relative;
 }
-.businessBox:after {
+/* .businessBox:after {
     content: '';
     position: absolute;
     bottom: 15px;
@@ -178,7 +178,7 @@ Top
     width: 39px;
     height: 39px;
     background: url('../img/common/circle_arrow.png') no-repeat;
-}
+} */
 .businessText {
     position: absolute;
     /* top: 0; */
@@ -229,9 +229,10 @@ Top
     padding: 4px;
 }
 .bussiness-btnList li span {
+    min-width: 120px;
     display : flex;
     padding: 8px 5px;
-    font-size: 11px;
+    font-size: 13px;
     color: #000;
     background: #FFFAE7;
     border:1px solid #008135;
@@ -544,6 +545,13 @@ Company Info Page
 .sec-history,
 .sec-business {
     padding: 0;
+}
+.sec-companyInfo .text-un-yellow,
+.sec-history .text-un-yellow,
+.sec-business .text-un-yellow,
+.sec-organization  .text-un-yellow{
+    background-position: -100% 40px;
+    background-size: 200% 8px;
 }
 .sec-organization {
     /* margin-bottom: 120px; */
@@ -944,4 +952,36 @@ Security Page
 /* graduate recruit guide */
 .sec-graduate03 .recruitList-block .recruitList-li {
     width: 32%;
+}
+/* Business Page */
+
+.circle-iconBlock {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+.circle-iconLst {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:0 -20px;
+}
+.circle-iconLst li {
+    width: 33.33%;
+    padding: 20px;
+}
+.circle-block {
+    background: #fff;
+    border: 1px solid #E8B500;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.circle-block p {
+    font-size: 20px;
+    color: #008135;
+    font-weight: bold;
+    margin-top:15px;
 }

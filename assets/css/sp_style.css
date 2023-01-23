@@ -61,7 +61,10 @@
     }
     /* Our Business */
     .top-businessBlock ul.col-wrap li.col3 {
-        width: 50%;
+        width: 100%;
+    }
+    .line-show .line-frame:before {
+        display: none;
     }
     .businessTtl {
         line-height: 1.2;
@@ -214,6 +217,10 @@
     /* ===============================
     Company Page
     =============================== */
+    .sec-companyInfo .text-un-yellow, .sec-history .text-un-yellow, .sec-business .text-un-yellow, .sec-organization .text-un-yellow {
+        background-position: -100% 30px;
+        background-size: 200% 8px;
+    }
     .company-info table tr th,.company-info table tr td {
         width: 100%;
         display: block;
@@ -328,12 +335,21 @@
     .security-head-link {
         background: #f3f3f3;
     }
+    /* ===============================
+    Business Page
+    =============================== */
+    .circle-iconLst {
+        margin: -20px 0;
+    }
+    .circle-iconLst li {
+        width: 50%;
+    }
+    .circle-block p {
+        font-size: 16px;
+    }
 }
 @media screen and (max-width: 480px) {
     /* Business Block */
-    .top-businessBlock ul.col-wrap li.col3 {
-        width: 100%;
-    }
     .businessTtl {
         line-height: 1.2;
         font-size: 18px;
@@ -355,6 +371,19 @@
     .recruitBox {
         padding: 20px 15px;
         min-height: 120px;
+    }
+    /* Business Page */
+    .business-bg {
+        margin: 0 -30px;
+    }
+    .circle-iconLst {
+        margin: -10px 10px;
+    }
+    .circle-iconLst li {
+        padding: 10px;
+    }
+    .circle-block p {
+        font-size: 15px;
     }
 }
 @media screen and (max-width: 375px) {

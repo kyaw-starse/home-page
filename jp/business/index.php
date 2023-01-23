@@ -74,177 +74,192 @@
             <canvas class="particlesBg"></canvas>
             <div class="sub-bannerIn c-w1170">
                 <h2 class="sub-ttl">Our Business<span>事業内容</span></h2>
-                <img src="../../assets/img/philosophy/bnr_img.jpg" class="sub-bannerImg" alt="">
+                <img src="../../assets/img/business/bnr_img.jpg" class="sub-bannerImg" alt="">
             </div>
         </div>
         <!-- sub-banner -->
         <div class="content">
-        <section class="recruit-page">
+        <section class="business-sec01">
             <div class="c-w1170">
-                <h2 class="main-ttl01">キャリア募集要項</h2>
-                <div class="recruit-pageList">
-                    <ul class="recruitList-block">
-                        <li class="recruitList-li">
-                            <div class="recruitList-content">
-                                <div class="recurit-img"><img src="../../assets/img/recruit/infra_img.png" alt=""></div>
-                                <div class="recruit-desp">
-                                    <h2 class="recruit-ttl">システムエンジニア</h2>
-                                    <p data-mh="recurit-mat01" class="recruit-txt">プログラマからシステムエンジニア へのキャリアアップ、プロジェクトリーダーや上級システムエンジニアをめざす方、 オブジェクト指向技術を身につけたい方、資格取得してスキルアップをめざす方を求めています。</p>
-                                    <div class="mTop-auto">
-                                        <ul class="recruit-btnls">
-                                            <li>
-                                                <div class="recruit-btnbox">
-                                                    <span>内容</span>
-                                                    <p>Web アプリケーション、流通等の業務アプリケーションの設計、開発、導入および運用まで、あなたのご経験やご希望に合った開発プロジェクトを用意しています。</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="recruit-btnbox">
-                                                    <span>経験</span>
-                                                    <p>Windows、UNIX環境でのJava、C、C++、C#、Perl、PHP、VB、Delphi等のシステム開発経験1 年以上の方。※ いずれかの経験があれば、他は未経験でも歓迎します。 ※ 外国人の方、大歓迎です。</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="recruit-btnbox">
-                                                    <span>給与</span>
-                                                    <p>経験・スキル・前給等を十分考慮し、相談の上決定します。</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="recruit-btnbox">
-                                                    <span>賞与</span>
-                                                    <p>年2回 (7 月、12 月)</p>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                        <div class="sec-btn02">
-                                            <a href="#" class="btn02">詳しくはこちら</a>
-                                        </div>
-                                    </div>
+                <div class="ttl-number"><span>01</span></div>
+                <h2 class="ttl-subpage"><span class="text-un-yellow">SE業務</span></h2>
+                <div class="business-bg bg-yello-light">
+                    <div class="circle-iconBlock">
+                        <ul class="circle-iconLst">
+                            <li>
+                                <div class="circle-block">
+                                    <img src="../../assets/img/business/bank_icon.png" alt="">
+                                    <p>金融機関系</p>
                                 </div>
-                            </div>
-                        </li>
-                        <li class="recruitList-li">
-                            <div class="recruitList-content">
-                                <div class="recurit-img"><img src="../../assets/img/recruit/infra_img.png" alt=""></div>
-                                <div class="recruit-desp">
-                                    <h2 class="recruit-ttl">インフラエンジニア</h2>
-                                    <p data-mh="recurit-mat01" class="recruit-txt">インフラ基盤(サーバ/ストレージ/ネットワークなど)構築経験、 または、ミドルウェア(OpenView/Systemwalker/JP1など)の導入・構築経験してきた方を求めています。</p>
-                                    <div class="mTop-auto">
-                                        <ul class="recruit-btnls">
-                                            <li>
-                                                <div class="recruit-btnbox">
-                                                    <span>内容</span>
-                                                    <p>Web アプリケーション、流通等の業務アプリケーションの設計、開発、導入および運用まで、あなたのご経験やご希望に合った開発プロジェクトを用意しています。</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="recruit-btnbox">
-                                                    <span>経験</span>
-                                                    <p>Windows、UNIX環境でのJava、C、C++、C#、Perl、PHP、VB、Delphi等のシステム開発経験1 年以上の方。※ いずれかの経験があれば、他は未経験でも歓迎します。 ※ 外国人の方、大歓迎です。</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="recruit-btnbox">
-                                                    <span>給与</span>
-                                                    <p>経験・スキル・前給等を十分考慮し、相談の上決定します。</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="recruit-btnbox">
-                                                    <span>賞与</span>
-                                                    <p>年2回 (7 月、12 月)</p>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                        <div class="sec-btn02">
-                                            <a href="#" class="btn02">詳しくはこちら</a>
-                                        </div>
-                                    </div>
+                            </li>
+                            <li>
+                                <div class="circle-block">
+                                    <img src="../../assets/img/business/eco_house_icon.png" alt="">
+                                    <p>電力・ガス業</p>
                                 </div>
-                            </div>
-                        </li>
-                        <li class="recruitList-li">
-                            <div class="recruitList-content">
-                                <div class="recurit-img"><img src="../../assets/img/recruit/infra_img.png" alt=""></div>
-                                <div class="recruit-desp">
-                                    <h2 class="recruit-ttl">事務・営業</h2>
-                                    <p data-mh="recurit-mat02" class="recruit-txt">エンドユーザーや大手SIerへのシステム開発案件の営業担当者を求めています。</p>
-                                    <div class="mTop-auto">
-                                        <ul class="recruit-btnls">
-                                            <li>
-                                                <div class="recruit-btnbox">
-                                                    <span>内容</span>
-                                                    <p>Web アプリケーション、流通等の業務アプリケーションの設計、開発、導入および運用まで、あなたのご経験やご希望に合った開発プロジェクトを用意しています。</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="recruit-btnbox">
-                                                    <span>経験</span>
-                                                    <p>Windows、UNIX環境でのJava、C、C++、C#、Perl、PHP、VB、Delphi等のシステム開発経験1 年以上の方。※ いずれかの経験があれば、他は未経験でも歓迎します。 ※ 外国人の方、大歓迎です。</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="recruit-btnbox">
-                                                    <span>給与</span>
-                                                    <p>経験・スキル・前給等を十分考慮し、相談の上決定します。</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="recruit-btnbox">
-                                                    <span>賞与</span>
-                                                    <p>年2回 (7 月、12 月)</p>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                        <div class="sec-btn02">
-                                            <a href="#" class="btn02">詳しくはこちら</a>
-                                        </div>
-                                    </div>
+                            </li>
+                        </ul>
+                        <ul class="circle-iconLst">
+                            <li>
+                                <div class="circle-block">
+                                    <img src="../../assets/img/business/relations_icon.png" alt="">
+                                    <p>勤務管理系</p>
                                 </div>
-                            </div>
-                        </li>
-                        <li class="recruitList-li">
-                            <div class="recruitList-content">
-                                <div class="recurit-img"><img src="../../assets/img/recruit/infra_img.png" alt=""></div>
-                                <div class="recruit-desp">
-                                    <h2 class="recruit-ttl">新卒/第二新卒募集要項</h2>
-                                    <p data-mh="recurit-mat02" class="recruit-txt">若手社員からのメッセージ 職場風景 よくある質問 募集要項</p>
-                                    <div class="mTop-auto">
-                                        <ul class="recruit-btnls">
-                                            <li>
-                                                <div class="recruit-btnbox">
-                                                    <span>内容</span>
-                                                    <p>Web アプリケーション、流通等の業務アプリケーションの設計、開発、導入および運用まで、あなたのご経験やご希望に合った開発プロジェクトを用意しています。</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="recruit-btnbox">
-                                                    <span>経験</span>
-                                                    <p>Windows、UNIX環境でのJava、C、C++、C#、Perl、PHP、VB、Delphi等のシステム開発経験1 年以上の方。※ いずれかの経験があれば、他は未経験でも歓迎します。 ※ 外国人の方、大歓迎です。</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="recruit-btnbox">
-                                                    <span>給与</span>
-                                                    <p>経験・スキル・前給等を十分考慮し、相談の上決定します。</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="recruit-btnbox">
-                                                    <span>賞与</span>
-                                                    <p>年2回 (7 月、12 月)</p>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                        <div class="sec-btn02">
-                                            <a href="#" class="btn02">詳しくはこちら</a>
-                                        </div>
-                                    </div>
+                            </li>
+                            <li>
+                                <div class="circle-block">
+                                    <img src="../../assets/img/business/funding_icon.png" alt="">
+                                    <p>卸売業、小売業</p>
                                 </div>
-                            </div>
-                        </li>
-                    </ul>
+                            </li>
+                            <li>
+                                <div class="circle-block">
+                                    <img src="../../assets/img/business/other_icon.png" alt="">
+                                    <p>その他</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="textBox">
+                        <h2 class="boxTxt">金融機関系</h2>
+                        <div class="boxDesp">
+                            <p>
+                            弊社は、IT関連の専門的な知識・経験を持った「プロフェッショナル」の集団です。 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="textBox">
+                        <h2 class="boxTxt">電力・ガス業</h2>
+                        <div class="boxDesp">
+                            <p>
+                            弊社は、IT関連の専門的な知識・経験を持った「プロフェッショナル」の集団です。 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="textBox">
+                        <h2 class="boxTxt">勤務管理系</h2>
+                        <div class="boxDesp">
+                            <p>
+                            弊社は、IT関連の専門的な知識・経験を持った「プロフェッショナル」の集団です。  
+                            </p>
+                        </div>
+                    </div>
+                    <div class="textBox">
+                        <h2 class="boxTxt">卸売業、小売業</h2>
+                        <div class="boxDesp">
+                            <p>
+                            弊社は、IT関連の専門的な知識・経験を持った「プロフェッショナル」の集団です。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="textBox">
+                        <h2 class="boxTxt">その他</h2>
+                        <div class="boxDesp">
+                            <p>
+                            弊社は、IT関連の専門的な知識・経験を持った「プロフェッショナル」の集団です。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="business-sec02">
+            <div class="c-w1170">
+                <div class="ttl-number"><span>02</span></div>
+                <h2 class="ttl-subpage"><span class="text-un-yellow">SE業務</span></h2>
+                <div class="business-bg bg-yello-light">
+                    <div class="circle-iconBlock">
+                        <ul class="circle-iconLst">
+                            <li>
+                                <div class="circle-block">
+                                    <img src="../../assets/img/business/relations_icon.png" alt="">
+                                    <p>スクラッチ開発</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="circle-block">
+                                    <img src="../../assets/img/business/funding_icon.png" alt="">
+                                    <p>モバイルアプリ</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="circle-block">
+                                    <img src="../../assets/img/business/other_icon.png" alt="">
+                                    <p>365の移行支援</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="textBox">
+                        <h2 class="boxTxt">スクラッチ開発</h2>
+                        <div class="boxDesp">
+                            <p>
+                            テキストが入ります。 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="textBox">
+                        <h2 class="boxTxt">モバイルアプリ</h2>
+                        <div class="boxDesp">
+                            <p>
+                            テキストが入ります。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="textBox">
+                        <h2 class="boxTxt">365の移行支援</h2>
+                        <div class="boxDesp">
+                            <p>
+                            テキストが入ります。  
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="business-sec03">
+        <div class="c-w1170">
+                <div class="ttl-number"><span>03</span></div>
+                <h2 class="ttl-subpage"><span class="text-un-yellow">SE業務</span></h2>
+                <div class="business-bg bg-yello-light">
+                    <div class="circle-iconBlock">
+                        <ul class="circle-iconLst">
+                            <li>
+                                <div class="circle-block">
+                                    <img src="../../assets/img/business/relations_icon.png" alt="">
+                                    <p>Kizuna</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="circle-block">
+                                    <img src="../../assets/img/business/funding_icon.png" alt="">
+                                    <p>SS Exam</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="textBox">
+                        <h2 class="boxTxt">Kizuna</h2>
+                        <div class="boxDesp">
+                            <p>
+                            テキストが入ります。 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="textBox">
+                        <h2 class="boxTxt">SS Exam</h2>
+                        <div class="boxDesp">
+                            <p>
+                            テキストが入ります。
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -268,7 +283,7 @@
                             <ul>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="../../assets/img/common/icon_homeaddress.png" alt=""></span>
-                                    <p class="ftAddress-info">〒103-0011<br>東京都中央区日本橋大伝馬町17-6<br>日本橋小谷商事ビル2階</p>
+                                    <p class="ftAddress-info">〒104-0043<br>東京都中央区湊2丁目4-1<br>ＴＯＭＡＣビル 5階</p>
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="../../assets/img/common/icon_phone.png" alt=""></span>

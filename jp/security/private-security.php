@@ -81,7 +81,7 @@
         <div class="content">
         <section class="sec-private01">
             <div class="c-w1170">
-                <h2 class="main-ttl01">個人情報保護</h2>
+                <h2 class="ttl-subpage"><span class="text-un-yellow">個人情報保護</span></h2>
                 <div class="private-letter letter">
                     <div class="cFix">
                         <p class="private-lead-txt">
@@ -116,7 +116,7 @@
         </section>
         <section class="sec-private02 bg-green-light">
             <div class="c-w1170">
-                <h2 class="main-ttl01">個人情報に関する苦情・相談及び問い合わせ窓口</h2>
+                <h2 class="ttl-subpage"><span class="text-un-yellow">個人情報に関する苦情・相談及び問い合わせ窓口</span></h2>
                 <div class="private02-lead-txt">
                     <p>STAR SE 株式会社</p>
                     <p>苦情及び相談窓口</p>
@@ -128,7 +128,7 @@
         </section>
         <section class="sec-private03">
             <div class="c-w1170">
-                <h2 class="main-ttl01">個人情報の取扱いについて</h2>
+                <h2 class="ttl-subpage"><span class="text-un-yellow">個人情報の取扱いについて</span></h2>
                 <div class="private03-lead">
                     <p class="private-lead-txt ">直接書面以外の方法によって取得する個人情報の利用目的</p>
                     <div class="sec-table">
@@ -165,7 +165,7 @@
         </section>
         <section class="sec-private04 bg-green-light">
             <div class="c-w1170">
-                <h2 class="main-ttl01">開示対象個人情報の周知事項</h2>
+                <h2 class="ttl-subpage"><span class="text-un-yellow">開示対象個人情報の周知事項</span></h2>
                 <div class="private04-lead">
                     <ul class="accordion-area">
                         <li>
@@ -185,13 +185,11 @@
                             <div class="accordian-div">
                                 <h2 class="accordian-title"><span></span>個人情報の利用目的</h2>
                                 <div class="accordian-box">
-                                    <p>
-                                        ①顧客情報：業務上の連絡及び問い合わせ<br>
-                                        ②採用応募情報：採用選考、及び面談に関わる連絡<br>
-                                        ③資料請求・問合せ情報：資料の送付等に係る連絡<br>
-                                        ④苦情・問い合わせ情報：苦情・相談、問い合わせ、開示等の請求への対応<br>
-                                        ⑤社員情報：給与処理、福利厚生、公的機関への各種届け出
-                                    </p>
+                                    <p class="alpha-ls"><span>①&nbsp;</span>顧客情報：業務上の連絡及び問い合わせ</p>
+                                    <p class="alpha-ls"><span>②&nbsp;</span>採用応募情報：採用選考、及び面談に関わる連絡</p>
+                                    <p class="alpha-ls"><span>③&nbsp;</span>資料請求・問合せ情報：資料の送付等に係る連絡</p>
+                                    <p class="alpha-ls"><span>④&nbsp;</span>苦情・問い合わせ情報：苦情・相談、問い合わせ、開示等の請求への対応</p>
+                                    <p class="alpha-ls"><span>⑤&nbsp;</span>社員情報：給与処理、福利厚生、公的機関への各種届け出</p>
                                 </div>
                             </div>
                         </li>
@@ -199,14 +197,13 @@
                             <div class="accordian-div">
                                 <h2 class="accordian-title"><span></span>個人情報の第三者提供</h2>
                                 <div class="accordian-box">
-                                    <p>
-                                        次の場合を除き第三者に開示、提供致しません。<br>
-                                        ①ご本人の同意がある場合<br>
-                                        ②個人情報に関する機密保持契約を締結している当社のグループ企業に対して、
-                                        ご本人に同意いただいた利用目的達成に必要な範囲で開示する必要がある場合<br>
-                                        ③合併、分社化、営業譲渡その他の事由によって事業の承継が行われる場合<br>
-                                        ④法令等に基づき要求された場合
-                                    </p>
+                                    <p>次の場合を除き第三者に開示、提供致しません。</p>
+                                    <p class="alpha-ls"><span>①&nbsp;</span>ご本人の同意がある場合</p>
+                                    <p class="alpha-ls"><span>②&nbsp;</span>個人情報に関する機密保持契約を締結している当社のグループ企業に対して、
+                                        ご本人に同意いただいた利用目的達成に必要な範囲で開示する必要がある場合</p>
+                                    <p class="alpha-ls"><span>③&nbsp;</span>合併、分社化、営業譲渡その他の事由によって事業の承継が行われる場合</p>
+                                    <p class="alpha-ls"><span>④&nbsp;</span>法令等に基づき要求された場合</p>
+                                    
                                 </div>
                             </div>
                         </li>
@@ -264,7 +261,7 @@
                             <ul>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="../../assets/img/common/icon_homeaddress.png" alt=""></span>
-                                    <p class="ftAddress-info">〒103-0011<br>東京都中央区日本橋大伝馬町17-6<br>日本橋小谷商事ビル2階</p>
+                                    <p class="ftAddress-info">〒104-0043<br>東京都中央区湊2丁目4-1<br>ＴＯＭＡＣビル 5階</p>
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="../../assets/img/common/icon_phone.png" alt=""></span>

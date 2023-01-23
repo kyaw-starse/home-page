@@ -81,8 +81,9 @@
         <div class="content">
         <section class="sec-carrer01">
             <div class="c-w1170">
-                <h2 class="main-ttl01">システムエンジニア</h2>
-                <div class="">
+                <span id="sec-carrer01" class="anchorpos"></span>
+                <h2 class="ttl-subpage"><span class="text-un-yellow">システムエンジニア</span></h2>
+                <div>
                     <p class="private-lead-txt ">プログラマからシステムエンジニア へのキャリアアップ、プロジェクトリーダーや上級システムエンジニアをめざす方、 オブジェクト指向技術を身につけたい方、資格取得してスキルアップをめざす方を求めています。</p>
                     <div class="sec-table table-style01">
                         <table>
@@ -198,8 +199,9 @@
         </section>
         <section class="sec-carrer02 bg-green-light">
             <div class="c-w1170">
-                <h2 class="main-ttl01">インフラエンジニア</h2>
-                <div class="">
+                <span id="sec-carrer02" class="anchorpos"></span>
+                <h2 class="ttl-subpage"><span class="text-un-yellow">インフラエンジニア</span></h2>
+                <div>
                     <p class="private-lead-txt ">インフラ基盤(サーバ/ストレージ/ネットワークなど)構築経験、 または、ミドルウェア(OpenView/Systemwalker/JP1など)の導入・構築経験してきた方を求めています。</p>
                     <div class="sec-table table-style01">
                         <table>
@@ -313,8 +315,9 @@
         </section>
         <section class="sec-carrer03">
             <div class="c-w1170">
-                <h2 class="main-ttl01">事務・営業</h2>
-                <div class="">
+                <span id="sec-carrer03" class="anchorpos"></span>
+                <h2 class="ttl-subpage"><span class="text-un-yellow">事務・営業</span></h2>
+                <div>
                     <p class="private-lead-txt ">エンドユーザーや大手SIerへのシステム開発案件の営業担当者を求めています。</p>
                     <div class="sec-table table-style01">
                         <table>
@@ -432,20 +435,6 @@
                 </div>
             </div>
         </section>
-        <!-- <section class="sec-carrer04">
-            <div class="c-w1170">
-                <h2 class="main-ttl01"></h2>
-                <div class="">
-                    <p class="private-lead-txt "></p>
-                    <div class="sec-table table-style01">
-                        
-                    </div>
-                    <div class="sec-btn02">
-                        <a href="#" class="btn02">エントリー</a>
-                    </div>
-                </div>
-            </div>
-        </section> -->
         </div>
         <div class="footerLogo">
             <div class="c-w1420 cFix">
@@ -466,7 +455,7 @@
                             <ul>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="../../assets/img/common/icon_homeaddress.png" alt=""></span>
-                                    <p class="ftAddress-info">〒103-0011<br>東京都中央区日本橋大伝馬町17-6<br>日本橋小谷商事ビル2階</p>
+                                    <p class="ftAddress-info">〒104-0043<br>東京都中央区湊2丁目4-1<br>ＴＯＭＡＣビル 5階</p>
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="../../assets/img/common/icon_phone.png" alt=""></span>

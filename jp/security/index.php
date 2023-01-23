@@ -81,7 +81,7 @@
         <div class="content">
         <section class="security-page">
             <div class="c-w1170">
-                <h2 class="main-ttl01">情報セキュリティ</h2>
+                <h2 class="ttl-subpage"><span class="text-un-yellow">情報セキュリティ</span></h2>
                 <div class="security-head letter">
                     <div class="security-content">
                         <a href="private-security.php" class="security-head-link">
@@ -122,7 +122,7 @@
                             <ul>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="../../assets/img/common/icon_homeaddress.png" alt=""></span>
-                                    <p class="ftAddress-info">〒103-0011<br>東京都中央区日本橋大伝馬町17-6<br>日本橋小谷商事ビル2階</p>
+                                    <p class="ftAddress-info">〒104-0043<br>東京都中央区湊2丁目4-1<br>ＴＯＭＡＣビル 5階</p>
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="../../assets/img/common/icon_phone.png" alt=""></span>
