@@ -118,7 +118,7 @@
                                             </li>
                                         </ul>
                                         <div class="sec-btn02">
-                                            <a href="#" class="btn02">詳しくはこちら</a>
+                                            <a href="./career-app-guide.php" class="btn02">詳しくはこちら</a>
                                         </div>
                                     </div>
                                 </div>
@@ -158,7 +158,7 @@
                                             </li>
                                         </ul>
                                         <div class="sec-btn02">
-                                            <a href="#" class="btn02">詳しくはこちら</a>
+                                            <a href="./career-app-guide.php" class="btn02">詳しくはこちら</a>
                                         </div>
                                     </div>
                                 </div>
@@ -198,7 +198,7 @@
                                             </li>
                                         </ul>
                                         <div class="sec-btn02">
-                                            <a href="#" class="btn02">詳しくはこちら</a>
+                                            <a href="./career-app-guide.php" class="btn02">詳しくはこちら</a>
                                         </div>
                                     </div>
                                 </div>
@@ -238,7 +238,7 @@
                                             </li>
                                         </ul>
                                         <div class="sec-btn02">
-                                            <a href="#" class="btn02">詳しくはこちら</a>
+                                            <a href="./graduate-recru-guide.php" class="btn02">詳しくはこちら</a>
                                         </div>
                                     </div>
                                 </div>
