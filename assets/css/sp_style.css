@@ -1,4 +1,16 @@
 @charset "utf-8";
+/* businessText */
+@media screen and (min-width: 769px) and (max-width: 1100px){
+    .top-businessBlock ul.col-wrap {
+        justify-content: center;
+    }
+    .top-businessBlock ul.col-wrap li.col3 {
+        width: 50%;
+    }
+    .line-show .line-frame.line-2:before {
+        
+    }
+}
 @media screen and (max-width: 768px) {
     /* ===============================
     Top
@@ -24,6 +36,10 @@
     }
     .mv-scroll a img {
         width: 35px;
+    }
+    .top-ttl {
+        font-size: 35px;
+        margin-bottom: 30px;
     }
     /* ceo message */
     .ceoMessageBlock {
@@ -89,7 +105,6 @@
     }
     .service-ttl {
         font-size: 35px;
-        color: #E8B500;
         margin: 30px 0 20px 0;
     }
     .service-ttl span {
@@ -384,7 +399,7 @@
     }
     /* Business Page */
     .business-bg {
-        margin: 0 -30px;
+        margin: 0 -20px;
     }
     .circle-iconLst {
         margin: -10px 10px;

@@ -129,7 +129,6 @@
                             <div class="ceoMessagePara" data-aos="fade-right" data-aos-delay="150" data-aos-duration="1000" data-aos-offset="0">
                                 <p>
                                     最も重要な経営資源は“人”であり、お客様との“信頼関係”、すなわち“人と人とのつながり”であると確信しております。<br><br>
-                                    現在、100名以上の正社員が在籍しており、８割程が女性です。<br><br>
                                     弊社は、ソフトウェア開発からインフラ設計構築、システム運用支援までトータルなソリューションを提供する“ITソリューション”の拡充に加え、 IT業界の人材不足の課題対応策として“社員教育”の強化に取り組んでおります。<br><br>
                                     社員教育として、仕事の遂行に必要な高度専門知識のみならず、 会社を代表する一社員としての振る舞いを習得できる総合的な社員教育に全力を挙げています。<br><br>
                                     これからもお客様に信頼いただける高品質で最適なサ－ビスをご提供するとともに、 豊かな社会づくりに貢献できるよう、現状に甘んじることなく挑戦を続けてまいります。
@@ -142,7 +141,8 @@
             </section>
             <section class="our-business">
                 <div class="c-w1300">
-                    <h2 class="main-ttl" data-aos="flip-up">Our Business<span>事業内容</span></h2>
+                    <h2 class="top-ttl ttl-subpage"><span class="text-un-yellow">事業内容</span></h2>
+                    <!-- <h2 class="main-ttl" data-aos="flip-up">Our Business<span>事業内容</span></h2> -->
                     <div class="top-businessBlock">
                         <ul class="col-wrap">
                             <li class="col3 fadeInTrigger">
@@ -152,8 +152,8 @@
                                     </div>
                                     <div class="businessText">
                                         <div class="businessTextIn">
-                                            <h4 class="businessTtl ttlh4">SE Business</h4>
-                                            <p>SE業務</p>
+                                            <h4 class="businessTtl ttlh4">SES事業</h4>
+                                            <!-- <p>SE業務</p> -->
                                         </div>
                                     </div>
                                 </a>
@@ -168,7 +168,7 @@
                                         <span><img src="../assets/img/top/b_img03.png" alt="">業務管理系</span>
                                     </li>
                                     <li>
-                                        <span><img src="../assets/img/top/b_img04.png" alt="">その他のサービス</span>
+                                        <span><img src="../assets/img/top/b_img04.png" alt="">その他</span>
                                     </li>
                                 </ul>
                             </li>
@@ -179,8 +179,8 @@
                                     </div>
                                     <div class="businessText">
                                         <div class="businessTextIn">
-                                            <h4 class="businessTtl ttlh4">Take Outsource Business</h4>
-                                            <p>請負業務</p>
+                                            <h4 class="businessTtl ttlh4">受託開発事業</h4>
+                                            <!-- <p>請負業務</p> -->
                                         </div>
                                     </div>
                                 </a>
@@ -192,7 +192,7 @@
                                         <span><img src="../assets/img/top/b_img06.png" alt="">モバイルアプリ</span>
                                     </li>
                                     <li>
-                                        <span><img src="../assets/img/top/b_img07.png" alt="">365の移行支援など</span>
+                                        <span><img src="../assets/img/top/b_img07.png" alt="">クラウド導入・移行支援</span>
                                     </li>
                                 </ul>
                             </li>
@@ -203,17 +203,17 @@
                                     </div>
                                     <div class="businessText">
                                         <div class="businessTextIn">
-                                            <h4 class="businessTtl ttlh4">DX Strategy</h4>
-                                            <p>DX推進(提供サービス)</p>
+                                            <h4 class="businessTtl ttlh4">DX推進事業</h4>
+                                            <!-- <p>DX推進(提供サービス)</p> -->
                                         </div>
                                     </div>
                                 </a>
                                 <ul class="bussiness-btnList">
                                     <li>
-                                        <span>Kizuna</span>
+                                        <span class="kizuna-icon"><img src="../assets/img/top/kizuna_icon.png" alt="">Kizuna</span>
                                     </li>
                                     <li>
-                                        <span>SS Exam</span>
+                                        <span class="exam-star"><img src="../assets/img/top/ss_exam.png" alt="">SS Exam</span>
                                     </li>
                                 </ul>
                             </li>
@@ -224,7 +224,8 @@
             <section class="sec-service">
                 <div class="waveTopImg"><img src="../assets/img/top/wave_top_bg.png" alt=""></div>
                 <div class="c-w1300">
-                    <h2 class="main-ttl" data-aos="flip-up">Our Service<span>サービス</span></h2>
+                    <h2 class="top-ttl ttl-subpage"><span class="text-un-yellow">提供サービス</span></h2>
+                    <!-- <h2 class="main-ttl" data-aos="flip-up">Our Service<span>サービス</span></h2> -->
                     <div class="serviceBlock cFix">
                         <div class="serviceBoxImg">
                             <div class="serviceComputerImg">
@@ -277,7 +278,8 @@
             </div>
             <section class="sec-people">
                 <div class="c-w900">
-                    <h2 class="main-ttl" data-aos="flip-up">Our People<span>メンバー</span></h2>
+                    <h2 class="top-ttl ttl-subpage"><span class="text-un-yellow">メンバー</span></h2>
+                    <!-- <h2 class="main-ttl" data-aos="flip-up">Our People<span>メンバー</span></h2> -->
                     <div class="ourPeopleBanner">
                         <img src="../assets/img/top/ourpeople_bnr.jpg" alt="">
                     </div>
@@ -360,7 +362,8 @@
             </section>
             <section class="sec-recruit">
                 <div class="c-w900">
-                    <h2 class="main-ttl" data-aos="flip-up">Recruit<span>採用情報</span></h2>
+                    <!-- <h2 class="main-ttl" data-aos="flip-up">Recruit<span>採用情報</span></h2> -->
+                    <h2 class="top-ttl ttl-subpage"><span class="text-un-yellow">採用情報</span></h2>
                     <div class="recruitBlock">
                         <ul class="col-wrap recruitList">
                             <li class="col2" data-aos="fade-right" data-aos-delay="50">
@@ -405,7 +408,8 @@
             </section>
             <section>
                 <div class="c-w900">
-                    <h2 class="main-ttl" data-aos="flip-up">News<span>ニュース</span></h2>
+                    <!-- <h2 class="main-ttl" data-aos="flip-up">News<span>ニュース</span></h2> -->
+                    <h2 class="top-ttl ttl-subpage"><span class="text-un-yellow">ニュース</span></h2>
                     <div class="newsBlock cFix">
                         <ul>
                             <li data-aos="fade-up" data-aos-delay="50">

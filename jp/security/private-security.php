@@ -116,7 +116,7 @@
         </section>
         <section class="sec-private02 bg-green-light">
             <div class="c-w1170">
-                <h2 class="ttl-subpage"><span class="text-un-yellow">個人情報に関する苦情・相談及び問い合わせ窓口</span></h2>
+                <h2 class="ttl-subpage"><span class="text-un-yellow">個人情報に関する<br class="sp">苦情・相談及び<br class="sp">問い合わせ窓口</span></h2>
                 <div class="private02-lead-txt">
                     <p>STAR SE 株式会社</p>
                     <p>苦情及び相談窓口</p>
@@ -128,7 +128,7 @@
         </section>
         <section class="sec-private03">
             <div class="c-w1170">
-                <h2 class="ttl-subpage"><span class="text-un-yellow">個人情報の取扱いについて</span></h2>
+                <h2 class="ttl-subpage"><span class="text-un-yellow">個人情報の<br class="sp">取扱いについて</span></h2>
                 <div class="private03-lead">
                     <p class="private-lead-txt ">直接書面以外の方法によって取得する個人情報の利用目的</p>
                     <div class="sec-table">
@@ -165,7 +165,7 @@
         </section>
         <section class="sec-private04 bg-green-light">
             <div class="c-w1170">
-                <h2 class="ttl-subpage"><span class="text-un-yellow">開示対象個人情報の周知事項</span></h2>
+                <h2 class="ttl-subpage"><span class="text-un-yellow">開示対象個人情報の<br class="sp">周知事項</span></h2>
                 <div class="private04-lead">
                     <ul class="accordion-area">
                         <li>

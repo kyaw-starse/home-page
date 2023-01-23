@@ -35,6 +35,7 @@ section {
 @media screen and (max-width: 768px) {
     .c-w1420,
     .c-w1300,
+    .c-w1170,
     .c-w900 {
         padding: 0 20px;
     }
@@ -120,7 +121,7 @@ header {
 }
 .h-logo p span {
     font-size: 14px;
-    color: #f00;
+    color: #000;
     display: block;
     letter-spacing: 0.5px;
 }

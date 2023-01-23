@@ -81,7 +81,7 @@
         <div class="content">        
         <section class="sec-graduate01">
             <div class="c-w1170">
-                <h2 class="ttl-subpage"><span class="text-un-yellow">若手社員からのメッセージ</span></h2>
+                <h2 class="ttl-subpage"><span class="text-un-yellow">若手社員からの<br class="sp">メッセージ</span></h2>
                 <div>
                     <div class="textBox" data-aos="fade-up">
                         <h2 class="boxTxt">STARSEを選んだ理由</h2>

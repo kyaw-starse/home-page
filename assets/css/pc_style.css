@@ -44,6 +44,12 @@ Top
         transform: translateY(-10px);
     }
 }
+.top-ttl {
+    position: relative;
+    color: #000;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
 .ceoMessageBlock,.sec-service,.sec-recruit {
     overflow: hidden;
 }
@@ -189,7 +195,7 @@ Top
     background: rgba(120,188,148,.65);
     align-items: flex-end;
     flex-wrap: wrap;
-    padding: 20px 10px;
+    padding: 25px 20px;
 }
 .businessText .ttlh4,
 .businessText p {
@@ -200,8 +206,7 @@ Top
 }
 .businessTtl {
     position: relative;
-    padding-bottom: 15px;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
     line-height: 1.2;
 }
 .businessTtl:after {
@@ -209,7 +214,7 @@ Top
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 160px;
+    width: 100%;
     height: 6px;
     background: #FFDE6A;
 }
@@ -226,6 +231,7 @@ Top
             justify-content: inherit;
 }
 .bussiness-btnList li {
+    width: 50%;
     padding: 4px;
 }
 .bussiness-btnList li span {
@@ -236,10 +242,19 @@ Top
     color: #000;
     background: #FFFAE7;
     border:1px solid #008135;
+    justify-content: center;
+    align-items: flex-start;
 }
 .bussiness-btnList li span img {
-    width: 19px;
+    width: 22px;
     margin-right: 4px;
+}
+.bussiness-btnList li span.kizuna-icon img {
+    width: auto;
+    height: 22px;
+}
+.bussiness-btnList li span.exam-star img {
+    width: 25px;
 }
 .img-hover {
     overflow: hidden;
@@ -386,6 +401,9 @@ Top
     
 }
 .sec-recruit .main-ttl {
+    color: #fff;
+}
+.sec-recruit .top-ttl {
     color: #fff;
 }
 .recruitBlock {
@@ -546,12 +564,11 @@ Company Info Page
 .sec-business {
     padding: 0;
 }
-.sec-companyInfo .text-un-yellow,
-.sec-history .text-un-yellow,
-.sec-business .text-un-yellow,
-.sec-organization  .text-un-yellow{
-    background-position: -100% 40px;
-    background-size: 200% 8px;
+.sec-companyInfo .ttl-subpage,
+.sec-history .ttl-subpage,
+.sec-business .ttl-subpage,
+.sec-organization  .ttl-subpage{
+    margin-bottom: 40px;
 }
 .sec-organization {
     /* margin-bottom: 120px; */

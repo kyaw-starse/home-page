@@ -317,6 +317,10 @@ body {
         height: 70px;
         font-size: 30px;
     }
+    .ttl-subpage {
+        font-size: 27px;
+        line-height: 1.5;
+    }
 }
 
 
@@ -375,8 +379,8 @@ body {
 .text-un-yellow {
     background-image: -webkit-linear-gradient(left, #fff 50%, #FFDE6A 50%);
     background-repeat: repeat-x;
-    background-position: -100% 30px;
-    background-size: 200% 8px;
+    background-position: -100% 84%;
+    background-size: 200% 15%;
 }
 @media screen and (max-width: 768px) {
     .sub-banner {
@@ -389,10 +393,13 @@ body {
         height: 80%;
     }
     .sub-ttl {
-        font-size: 35px;
+        font-size: 33px;
+        line-height: 1;
     }
     .sub-ttl span {
         font-size: 20px;
+        margin-top: 8px;
+        margin-bottom: 15px;
     }
     .particlesBg {
         max-height: 80%;

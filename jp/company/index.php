@@ -80,28 +80,12 @@
         </div>
         <!-- main-mv -->
         <div class="content">
-        <!-- <div class="c-sidebar c-w1170">
-            <ul class="c-sidebarList">
-                <li>
-                    <a href="#companyInfo" class="anchor sidebarActive"><p><span>Comapny Profile</span>会社概要</p></a>
-                </li>
-                <li>
-                    <a href="#history" class="anchor"><p><span>History</span>沿革</p></a>
-                </li>
-                <li>
-                    <a href="#business" class="anchor"><p><span>Collaborate Partner</span>協業パートナー募集</p></a>
-                </li>
-                <li>
-                    <a href="#organization" class="anchor"><p><span>Organization Chart</span>組織図</p></a>
-                </li>
-            </ul>
-        </div> -->
         <section class="sec-companyInfo" data-aos="fade-up">
             <div class="company-wrap">
                 <div class="c-w1170">
                     <div class="c-blockLeft">
                         <span id="companyInfo" class="anchorpos"></span>
-                        <h3 class="sub-ttl02 col-green"><span class="text-un-yellow">Company Profile</span><span class="h-text-jp">会社概要</span></h3>
+                        <h2 class="ttl-subpage"><span class="text-un-yellow">会社概要</span></h2>
                         <div class="company-info">
                             <table>
                                 <tr>
@@ -186,7 +170,7 @@
                 <div class="c-w1170">
                     <div class="c-blockLeft">
                         <span id="history" class="anchorpos"></span>
-                        <h3 class="sub-ttl02 col-white"><span class="text-un-yellow">History</span><span class="h-text-jp">沿革</span></h3>
+                        <h2 class="ttl-subpage col-white"><span class="text-un-yellow">沿革</span></h2>
                         <div class="history-list">
                             <ul>
                                 <li class="history-listbox">
@@ -312,7 +296,7 @@
                 <div class="c-w1170">
                     <div class="c-blockLeft">
                         <span id="business" class="anchorpos"></span>
-                        <h3 class="sub-ttl02 col-green"><span class="text-un-yellow">Business Partner</span><span class="h-text-jp">協業パートナー募集</span></h3>
+                        <h2 class="ttl-subpage"><span class="text-un-yellow">協業パートナー募集</span></h2>
                         <div class="businessBlock cFix">
                             <div class="b-boxLeft">
                                 <div><img src="../../assets/img/company/business_img.png" alt=""></div>
@@ -333,7 +317,7 @@
                 <div class="c-w1170">
                     <div class="">
                         <span id="organization" class="anchorpos"></span>
-                        <h3 class="sub-ttl02 col-green"><span class="text-un-yellow">Organization Chart</span><span class="h-text-jp">組織図</span></h3>
+                        <h2 class="ttl-subpage"><span class="text-un-yellow">組織図</span></h2>
                         <div class="chat-img">
                             <img src="../../assets/img/company/organization-chart.png" alt="">
                         </div>
