@@ -72,6 +72,16 @@
                     <li><a href="./recruit/"><span>採用情報</span></a></li>
                     <li><a href="./security/"><span>情報セキュリティ</span></a></li>
                 </ul>
+                <div class="h-utility">
+                    <ul class="cFix">
+                        <li class="h-icon"><a href="./contact/" class="mail-icon"><img src="../assets/img/common/mail_off.png" alt=""></a></li>
+                        <li class="h-icon"><a href="./login/" class="lock-icon"><img src="../assets/img/common/lock_off.png" alt=""></a></li>
+                        <li class="site-lang">
+                            <a href="../en/" class="lang-link">EN</a>
+                            <a href="../jp/" class="lang-link langOn">JP</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
         <div class="full-wide-slider">
@@ -213,7 +223,7 @@
                                         <span class="kizuna-icon"><img src="../assets/img/top/kizuna_icon.png" alt="">Kizuna</span>
                                     </li>
                                     <li>
-                                        <span class="exam-star"><img src="../assets/img/top/ss_exam.png" alt="">SS Exam</span>
+                                        <span class="exam-star"><img src="../assets/img/top/ss_exam.svg" alt="">SS Exam</span>
                                     </li>
                                 </ul>
                             </li>

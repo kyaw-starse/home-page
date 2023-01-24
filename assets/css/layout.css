@@ -470,6 +470,19 @@ footer {
     .globalNav {
         display: block;
     }
+    .h-utility ul {
+        margin: 20px auto;
+    }
+    .h-utility ul li.h-icon a {
+        border-radius: 7px;
+        width: 54px;
+        height: 30px;
+    }
+    .h-utility ul li.site-lang a {
+        height: 30px;
+        font-size: 15px;
+        font-weight: bold;
+    }
     .anchorpos {
         display: block;
         height: 75px;

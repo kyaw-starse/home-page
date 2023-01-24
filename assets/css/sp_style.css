@@ -274,6 +274,9 @@
     }
     .history-listboxin {
         width: auto;
+        padding: 15px;
+        background: #fff;
+        border-radius: 10px;
     }
     .history-list {
         max-width: 100%;
@@ -285,23 +288,12 @@
         width: 100%;
         color: #000;
         display: block;
-        background: #fff;
         font-weight: bold;
-        padding: 15px;
-        padding-bottom: 0;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
+        padding: 0 0 15px 0;
     }
     .history-desp {
         width: 100%;
-        background: none;
-        background: #fff;
-        border-top-left-radius: 0;
-        border-top-right-radius: 0;
-        padding: 0 15px 15px 15px;
-    }
-    .history-desp dl {
-        padding: 15px 0 0 0;
+        padding: 0;
     }
     .history-year:before,
     .history-year:after {
@@ -371,6 +363,21 @@
     }
     .circle-block p {
         font-size: 16px;
+    }
+    /* Form Page */
+    .form-banner {
+        height: 51.5vw;
+    }
+    .form-banner:before {
+        height: 100%;
+    }
+    .form-banner .particlesBg {
+        max-height: 100%;
+    }
+    .form-secblock {
+        margin-top: -20vh;
+        position: relative;
+        z-index: 1;
     }
 }
 @media screen and (max-width: 480px) {

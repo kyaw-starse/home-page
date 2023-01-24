@@ -2,7 +2,9 @@
 /* ===============================
 Top
 =============================== */
-
+.form-banner {
+    height: 530px;
+}
 /* Main Slider */
 .main-mv {
     position: relative;
@@ -252,9 +254,6 @@ Top
 .bussiness-btnList li span.kizuna-icon img {
     width: auto;
     height: 22px;
-}
-.bussiness-btnList li span.exam-star img {
-    width: 25px;
 }
 .img-hover {
     overflow: hidden;
@@ -634,6 +633,7 @@ Company Info Page
 .history-list {
     max-width: 650px;
     margin: 0 auto;
+    overflow: hidden;
 }
 .history-list ul {
     padding-right: 20px;
@@ -650,7 +650,7 @@ Company Info Page
     display: table;
     background: #fff;
     border-radius: 10px;
-    padding: 0 15px;
+    padding: 15px;
     position: relative;
     /* margin-bottom: 30px; */
 }
@@ -683,7 +683,7 @@ Company Info Page
     top: 20px;
 }
 .history-desp dl {
-    padding: 15px 0;
+    padding: 0 0 15px 0;
     display: flex;
     justify-content: flex-start;
 }
@@ -692,6 +692,9 @@ Company Info Page
 }
 .history-desp dl dd {
     width: calc(100% - 60px);
+}
+.history-desp dl:last-child {
+    padding: 0;
 }
 /* Business */
 .businessBlock {
@@ -1015,4 +1018,20 @@ Security Page
     color: #008135;
     font-weight: bold;
     margin-top:15px;
+}
+/* Form Page */
+.form-secblock {
+    margin-top: -335px;
+    position: relative;
+    z-index: 1;
+}
+.form-secblock .letter:before {
+    left: 0;
+    top: 4px;
+    transform: rotate(-0.6deg);
+}
+.form-secblock .letter:after {
+    right: -3px;
+    top: 1px;
+    transform: rotate(0.7deg);
 }

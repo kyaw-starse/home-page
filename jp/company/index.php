@@ -97,7 +97,7 @@
                                 <tr>
                                     <th>所在地</th>
                                     <td>
-                                        <p>〒103-0011<br>東京都中央区日本橋大伝馬町17-6 日本橋小谷商事ビル2階</p>
+                                        <p>〒104-0043<br>東京都中央区湊2丁目4-1 ＴＯＭＡＣビル 5階</p>
                                     </td>
                                 </tr>
                                 <tr>
@@ -174,19 +174,25 @@
                         <div class="history-list">
                             <ul>
                                 <li class="history-listbox">
-                                    <span class="history-year">2023年</span>
-                                    <div class="history-listboxin">
+                                    <span class="history-year pc">2023年</span>
+                                    <div class="history-listboxin" data-aos="fade-left" data-aos-duration="1000">
+                                        <span class="history-year sp">2023年</span>
                                         <div class="history-desp">
                                             <dl class="cFix">
                                                 <dt>2月</dt>
                                                 <dd>東京八丁堀に本社移転</dd>
                                             </dl>
+                                            <dl class="cFix">
+                                                <dt>1月</dt>
+                                                <dd>ミャンマー支社設立</dd>
+                                            </dl>
                                         </div>
                                     </div>
                                 </li>
                                 <li class="history-listbox">
-                                    <span class="history-year">2020年</span>
-                                    <div class="history-listboxin">
+                                    <span class="history-year pc">2020年</span>
+                                    <div class="history-listboxin" data-aos="fade-left" data-aos-duration="1000">
+                                        <span class="history-year sp">2020年</span>
                                         <div class="history-desp">
                                             <dl class="cFix">
                                                 <dt>12月</dt>
@@ -196,8 +202,9 @@
                                     </div>
                                 </li>
                                 <li class="history-listbox">
-                                    <span class="history-year">2019年</span>
-                                    <div class="history-listboxin">
+                                    <span class="history-year pc">2019年</span>
+                                    <div class="history-listboxin" data-aos="fade-left" data-aos-duration="1000">
+                                        <span class="history-year sp">2019年</span>
                                         <div class="history-desp">
                                             <dl class="cFix">
                                                 <dt>12月</dt>
@@ -211,8 +218,9 @@
                                     </div>
                                 </li>
                                 <li class="history-listbox">
-                                    <span class="history-year">2018年</span>
-                                    <div class="history-listboxin">
+                                    <span class="history-year pc">2018年</span>
+                                    <div class="history-listboxin" data-aos="fade-left" data-aos-duration="1000">
+                                        <span class="history-year sp">2018年</span>
                                         <div class="history-desp">
                                             <dl class="cFix">
                                                 <dt>10月</dt>
@@ -222,8 +230,9 @@
                                     </div>
                                 </li>
                                 <li class="history-listbox">
-                                    <span class="history-year">2017年</span>
-                                    <div class="history-listboxin">
+                                    <span class="history-year pc">2017年</span>
+                                    <div class="history-listboxin" data-aos="fade-left" data-aos-duration="1000">
+                                        <span class="history-year sp">2017年</span>
                                         <div class="history-desp">
                                             <dl class="cFix">
                                                 <dt>12月</dt>
@@ -249,8 +258,9 @@
                                     </div>
                                 </li>
                                 <li class="history-listbox">
-                                    <span class="history-year">2016年</span>
-                                    <div class="history-listboxin">
+                                    <span class="history-year pc">2016年</span>
+                                    <div class="history-listboxin" data-aos="fade-left" data-aos-duration="1000">
+                                        <span class="history-year sp">2016年</span>
                                         <div class="history-desp">
                                             <dl class="cFix">
                                                 <dt>1月</dt>
@@ -260,8 +270,9 @@
                                     </div>
                                 </li>
                                 <li class="history-listbox">
-                                    <span class="history-year">2015年</span>
-                                    <div class="history-listboxin">
+                                    <span class="history-year pc">2015年</span>
+                                    <div class="history-listboxin" data-aos="fade-left" data-aos-duration="1000">
+                                        <span class="history-year sp">2015年</span>
                                         <div class="history-desp">
                                             <dl class="cFix">
                                                 <dt>10月</dt>
@@ -275,8 +286,9 @@
                                     </div>
                                 </li>
                                 <li class="history-listbox">
-                                    <span class="history-year">2014年</span>
-                                    <div class="history-listboxin">
+                                    <span class="history-year pc">2014年</span>
+                                    <div class="history-listboxin" data-aos="fade-left" data-aos-duration="1000">
+                                        <span class="history-year sp">2014年</span>
                                         <div class="history-desp">
                                             <dl class="cFix">
                                                 <dt>1月</dt>
