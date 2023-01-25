@@ -536,3 +536,79 @@ footer {
         padding: 0 20px;
     }
 }
+/* Loading jquery */
+#splash {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 9999999;
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+}
+#splash-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#splash-logo img {
+    width: 130px;
+}
+.rollAnime.roll span {
+    transition-property: opacity,transform;
+    transform: rotateY(360deg);
+    transition: all .8s cubic-bezier(.77,0,.175,1);
+    transition-timing-function: cubic-bezier(.77,0,.175,1);
+    display: inline-block;
+}
+.splashbg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-width: 0px;
+    border-style: solid;
+    border-color: #fff;
+    animation-duration: .5s;
+    animation-delay:0.2s;
+    animation-fill-mode: forwards;
+}
+@keyframes backBoxAnime{
+	99.9% {
+        z-index: 2;
+		border-width: 0px;
+	}
+    100%{
+       z-index: -1;
+        border-width: 0px;
+    }
+}
+#wrapper{
+    position: relative;
+	opacity: 0;
+}
+body.appear #wrapper {
+	animation-name:PageAnimeAppear;
+	animation-duration:.5s;
+	animation-delay:0.5s;
+	animation-fill-mode:forwards;
+	opacity: 0;
+}
+body.top {
+    background: #fff;
+}
+body.top.appear {
+    background: #fff;
+}
+@keyframes PageAnimeAppear{
+	0% {
+	opacity: 0;
+	}
+	100% {
+        opacity: 1;
+    }
+}
+/* Loading jquery */

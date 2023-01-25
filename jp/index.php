@@ -22,7 +22,11 @@
     <link rel="stylesheet" href="../assets/css/pc_style.css">
     <link rel="stylesheet" href="../assets/css/sp_style.css">
 </head>
-<body id="top">
+<body id="top" class="top">
+    <div id="splash">
+        <div id="splash-logo"><img src="../assets/img/common/loading.gif" alt="読み込み中" class="icon-01 apng-image"><span class="rollAnime">Loading</span></div>
+    </div>
+    <div class="splashbg"></div>
     <div id="wrapper">
         <header class="headerBlock">
             <div class="header c-w1420">
@@ -633,6 +637,7 @@
     <script src="../assets/js/aos.js"></script>
     <script src="../assets/js/odometer.js"></script>
     <script src="../assets/js/common.js"></script>
+    <script src="../assets/js/top.js"></script>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script>
         particlesJS("starimg", {

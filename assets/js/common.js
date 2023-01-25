@@ -73,67 +73,6 @@ jQuery(function($) {
         });
     });
     
-    $(function(){
-        var memberBlockTarget = $(".sec-people");
-        var mbt = memberBlockTarget.offset().top;
-        mbt = mbt - 100;
-        $(window).scroll(function () {
-            var scroll = $(this).scrollTop();
-            if (scroll > mbt) {
-                setTimeout(function(){
-                    var el1 = document.querySelector('.odometer-a1');
-                    od1 = new Odometer({
-                        el: el1,
-                    });
-                    el1.innerHTML = 55
-        
-                    var el2 = document.querySelector('.odometer-a2');
-                    od2 = new Odometer({
-                        el: el2,
-                    });
-                    el2.innerHTML = 20
-        
-                    var el3 = document.querySelector('.odometer-a3');
-                    od3 = new Odometer({
-                        el: el3,
-                    });
-                    el3.innerHTML = 10
-        
-                    var el4 = document.querySelector('.odometer-a4');
-                    od4 = new Odometer({
-                        el: el4,
-                    });
-                    el4.innerHTML = 10
-
-                    var el5 = document.querySelector('.odometer-b3');
-                    od5 = new Odometer({
-                        el: el5,
-                    });
-                    el5.innerHTML = 5
-        
-                    var el6 = document.querySelector('.odometer-b1');
-                    od6 = new Odometer({
-                        el: el6,
-                    });
-                    el6.innerHTML = 5
-
-                    var el7 = document.querySelector('.odometer-b2');
-                    od7 = new Odometer({
-                        el: el7,
-                    });
-                    el7.innerHTML = 5
-
-                    var el8 = document.querySelector('.odometer-b4');
-                    od8 = new Odometer({
-                        el: el8,
-                    });
-                    el8.innerHTML = 5
-
-                }, 50);
-            }
-        });
-        
-    });
     //Page top scroll
     function PageTopAnime() {
         var scroll = $(window).scrollTop();
