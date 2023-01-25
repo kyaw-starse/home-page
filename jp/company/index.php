@@ -69,12 +69,22 @@
                     <li><a href="../recruit/"><span>採用情報</span></a></li>
                     <li><a href="../security/"><span>情報セキュリティ</span></a></li>
                 </ul>
+                <div class="h-utility">
+                    <ul class="cFix">
+                        <li class="h-icon"><a href="../contact/" class="mail-icon"><img src="../assets/img/common/mail_off.png" alt=""></a></li>
+                        <li class="h-icon"><a href="../login/" class="lock-icon"><img src="../assets/img/common/lock_off.png" alt=""></a></li>
+                        <li class="site-lang">
+                            <a href="../en/" class="lang-link">EN</a>
+                            <a href="../jp/" class="lang-link langOn">JP</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
         <div class="sub-banner">
             <canvas class="particlesBg"></canvas>
             <div class="sub-bannerIn c-w1170">
-                <h2 class="sub-ttl">Company Info<span>会社情報</span></h2>
+                <h2 class="sub-ttl">会社情報</h2>
                 <img src="../../assets/img/company/bnr_img.jpg" class="sub-bannerImg" alt="">
             </div>
         </div>

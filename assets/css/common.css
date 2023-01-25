@@ -73,6 +73,16 @@ body {
 .col-red {
     color: #f00 !important;
 }
+/* text align */
+.txt-left {
+    text-align: left;
+}
+.txt-center {
+    text-align: center;
+}
+.txt-right {
+    text-align: right;
+}
 .mb0{
     margin-bottom: 0 !important
 }
@@ -344,12 +354,13 @@ body {
     font-size: 40px;
     color: #fff;
     font-weight: bold;
+    margin-bottom:30px;
 }
-.sub-ttl span {
+/* .sub-ttl span {
     font-size: 24px;
     display: block;
     margin-bottom:30px;
-}
+} */
 .sub-bannerImg {
     width: 100%;
     position: relative;
@@ -771,13 +782,21 @@ canvas {
 .form-col2 {
     width: 48%;
 }
+.form-col4 {
+    width: 24%;
+    min-width: 250px;
+    padding: 5px 0;
+}
 .form-col6 {
     width: 16%;
     min-width: 200px;
     padding: 5px 0;
 }
 .form-mb {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+.form-mb10 {
+    margin-bottom: 10px;
 }
 .form-label {
     display: inline-block;
@@ -887,8 +906,8 @@ input[type="checkbox"] {
 .form-checkbox {
     position: relative;
     cursor: pointer;
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
     word-break: break-word;
   }
 .form-checkbox:before {
@@ -902,6 +921,7 @@ input[type="checkbox"] {
     position: relative;
     vertical-align: middle;
     cursor: pointer;
+    margin-top: -4px;
     margin-right: 5px;
   }
 input[type="checkbox"]:checked + .form-checkbox:after {

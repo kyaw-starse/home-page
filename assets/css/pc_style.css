@@ -354,8 +354,22 @@ Top
 }
 /* Our People */
 .ourPeopleBanner {
+    max-width: 900px;
+    margin: 0 auto;
     margin-bottom: 30px;
 }
+.member-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.member-col {
+    width: 49%;
+}
+.member-ttl {
+    font-size: 25px;
+}
+
 .memberBlockList {
     display: flex;
     flex-wrap: wrap;
@@ -364,34 +378,59 @@ Top
 }
 .member-cir {
     position: relative;
+    width: 100px;
+    height: 100%;
 }
 .member-per {
     position: absolute;
     top: 37%;
     left: 31%;
     color:#008135;
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 20px;
     font-weight: bold;
 }
 .member-per span {
     margin-top: -2%;
 }
-.member-icon {
+/* .member-icon {
     height: 60px;
     margin: 30px 0 15px 0;
-}
+} */
 .member-icon img {
+    width: 30px;
+    height: 30px;
     margin: 0 auto;
 }
 .member-txt {
-    text-align: center;
+    /* text-align: center;
     min-height: 48px;
     align-items: center;
     display: flex;
-    justify-content: center;
+    justify-content: center; */
+    text-align: left;
+    display: block;
+    min-height: inherit;
+    width: calc(100% - 50px);
+    margin-left: auto;
 }
 .mem-admin .member-per {
     left: 35%;
+}
+.memberBox {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.memberDesp {
+    width: calc(100% - 120px);
+    display: inline-flex;
+    align-items: center;
+}
+.member-content .ttl-subpage {
+    text-align: left;
 }
 /* Recruit  */
 .sec-recruit {
@@ -456,7 +495,9 @@ Top
 .recruitBox:hover .recruitArrow {
     margin-left: 10px;
 }
-/* News Block */
+/* Top page and News List Page 2 page common used
+News Block 
+*/
 .newsBlock {
     position: relative;
     z-index: 1;
@@ -1034,4 +1075,11 @@ Security Page
     right: -3px;
     top: 1px;
     transform: rotate(0.7deg);
+}
+/* News Detail Page  */
+.news-detailBlock p {
+    margin-bottom: 20px;
+}
+.news-detailBlock p:last-child {
+    margin-bottom: 0px;
 }

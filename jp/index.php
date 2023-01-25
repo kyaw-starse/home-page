@@ -152,7 +152,6 @@
             <section class="our-business">
                 <div class="c-w1300">
                     <h2 class="top-ttl ttl-subpage"><span class="text-un-yellow">事業内容</span></h2>
-                    <!-- <h2 class="main-ttl" data-aos="flip-up">Our Business<span>事業内容</span></h2> -->
                     <div class="top-businessBlock">
                         <ul class="col-wrap">
                             <li class="col3 fadeInTrigger">
@@ -163,7 +162,6 @@
                                     <div class="businessText">
                                         <div class="businessTextIn">
                                             <h4 class="businessTtl ttlh4">SES事業</h4>
-                                            <!-- <p>SE業務</p> -->
                                         </div>
                                     </div>
                                 </a>
@@ -190,7 +188,6 @@
                                     <div class="businessText">
                                         <div class="businessTextIn">
                                             <h4 class="businessTtl ttlh4">受託開発事業</h4>
-                                            <!-- <p>請負業務</p> -->
                                         </div>
                                     </div>
                                 </a>
@@ -214,7 +211,6 @@
                                     <div class="businessText">
                                         <div class="businessTextIn">
                                             <h4 class="businessTtl ttlh4">DX推進事業</h4>
-                                            <!-- <p>DX推進(提供サービス)</p> -->
                                         </div>
                                     </div>
                                 </a>
@@ -235,7 +231,6 @@
                 <div class="waveTopImg"><img src="../assets/img/top/wave_top_bg.png" alt=""></div>
                 <div class="c-w1300">
                     <h2 class="top-ttl ttl-subpage"><span class="text-un-yellow">提供サービス</span></h2>
-                    <!-- <h2 class="main-ttl" data-aos="flip-up">Our Service<span>サービス</span></h2> -->
                     <div class="serviceBlock cFix">
                         <div class="serviceBoxImg">
                             <div class="serviceComputerImg">
@@ -289,7 +284,138 @@
             <section class="sec-people">
                 <div class="c-w900">
                     <h2 class="top-ttl ttl-subpage"><span class="text-un-yellow">メンバー</span></h2>
-                    <!-- <h2 class="main-ttl" data-aos="flip-up">Our People<span>メンバー</span></h2> -->
+                    <div class="ourPeopleBanner">
+                        <img src="../assets/img/top/ourpeople_bnr.jpg" alt="">
+                    </div>
+                    <div class="member-content">
+                        <div class="member-col">
+                            <h2 class="ttl-subpage"><span class="text-un-yellow">開発</span></h2>
+                            <div class="memberBlockList">
+                                <div class="memberBox">
+                                    <div class="member-cir">
+                                        <img src="../assets/img/top/member_cir1.png" class="member-cirImg" alt="">
+                                        <div class="member-per"><span class="odometer-a1">0</span>%</div>
+                                    </div>
+                                    <div class="memberDesp" data-aos="fade-up">
+                                        <div class="member-icon">
+                                            <img src="../assets/img/top/icon_setting.png" alt="">
+                                        </div>
+                                        <div class="member-txt">
+                                            <p>Java</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="memberBox">
+                                    <div class="member-cir">
+                                        <img src="../assets/img/top/member_cir1.png" class="member-cirImg" alt="">
+                                        <div class="member-per"><span class="odometer-a2">0</span>%</div>
+                                    </div>
+                                    <div class="memberDesp" data-aos="fade-up">
+                                        <div class="member-icon">
+                                            <img src="../assets/img/top/icon_network.png" alt="">
+                                        </div>
+                                        <div class="member-txt">
+                                            <p>C#</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="memberBox">
+                                    <div class="member-cir">
+                                        <img src="../assets/img/top/member_cir1.png" class="member-cirImg" alt="">
+                                        <div class="member-per"><span class="odometer-a3">0</span>%</div>
+                                    </div>
+                                    <div class="memberDesp" data-aos="fade-up">
+                                        <div class="member-icon">
+                                            <img src="../assets/img/top/icon_design.png" alt="">
+                                        </div>
+                                        <div class="member-txt">
+                                            <p>VB.NET</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="memberBox">
+                                    <div class="member-cir">
+                                        <img src="../assets/img/top/member_cir1.png" class="member-cirImg" alt="">
+                                        <div class="member-per"><span class="odometer-a4">0</span>%</div>
+                                    </div>
+                                    <div class="memberDesp" data-aos="fade-up">
+                                        <div class="member-icon">
+                                            <img src="../assets/img/top/icon_iPhone.png" alt="">
+                                        </div>
+                                        <div class="member-txt">
+                                            <p>React Native</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="member-col">
+                            <h2 class="ttl-subpage"><span class="text-un-yellow">開発</span></h2>
+                            <div class="memberBlockList">
+                                <div class="memberBox">
+                                    <div class="member-cir">
+                                        <img src="../assets/img/top/member_cir1.png" class="member-cirImg" alt="">
+                                        <div class="member-per"><span class="odometer-b1">0</span>%</div>
+                                    </div>
+                                    <div class="memberDesp" data-aos="fade-up">
+                                        <div class="member-icon">
+                                            <img src="../assets/img/top/icon_setting.png" alt="">
+                                        </div>
+                                        <div class="member-txt">
+                                            <p>仮想サーバ</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="memberBox">
+                                    <div class="member-cir">
+                                        <img src="../assets/img/top/member_cir1.png" class="member-cirImg" alt="">
+                                        <div class="member-per"><span class="odometer-b2">0</span>%</div>
+                                    </div>
+                                    <div class="memberDesp" data-aos="fade-up">
+                                        <div class="member-icon">
+                                            <img src="../assets/img/top/icon_network.png" alt="">
+                                        </div>
+                                        <div class="member-txt">
+                                            <p>クラウドサーバ</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="memberBox">
+                                    <div class="member-cir">
+                                        <img src="../assets/img/top/member_cir1.png" class="member-cirImg" alt="">
+                                        <div class="member-per"><span class="odometer-b3">0</span>%</div>
+                                    </div>
+                                    <div class="memberDesp" data-aos="fade-up">
+                                        <div class="member-icon">
+                                            <img src="../assets/img/top/icon_design.png" alt="">
+                                        </div>
+                                        <div class="member-txt">
+                                            <p>データベース設計</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="memberBox mem-admin">
+                                    <div class="member-cir">
+                                        <img src="../assets/img/top/member_cir1.png" class="member-cirImg" alt="">
+                                        <div class="member-per"><span class="odometer-b4">0</span>%</div>
+                                    </div>
+                                    <div class="memberDesp" data-aos="fade-up">
+                                        <div class="member-icon">
+                                            <img src="../assets/img/top/icon_admin.png" alt="">
+                                        </div>
+                                        <div class="member-txt">
+                                            <p>業務 <br class="pc">管理</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- <section class="sec-people">
+                <div class="c-w900">
+                    <h2 class="top-ttl ttl-subpage"><span class="text-un-yellow">メンバー</span></h2>
                     <div class="ourPeopleBanner">
                         <img src="../assets/img/top/ourpeople_bnr.jpg" alt="">
                     </div>
@@ -369,10 +495,9 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
             <section class="sec-recruit">
                 <div class="c-w900">
-                    <!-- <h2 class="main-ttl" data-aos="flip-up">Recruit<span>採用情報</span></h2> -->
                     <h2 class="top-ttl ttl-subpage"><span class="text-un-yellow">採用情報</span></h2>
                     <div class="recruitBlock">
                         <ul class="col-wrap recruitList">
@@ -418,7 +543,6 @@
             </section>
             <section>
                 <div class="c-w900">
-                    <!-- <h2 class="main-ttl" data-aos="flip-up">News<span>ニュース</span></h2> -->
                     <h2 class="top-ttl ttl-subpage"><span class="text-un-yellow">ニュース</span></h2>
                     <div class="newsBlock cFix">
                         <ul>

@@ -70,181 +70,118 @@
                 </ul>
             </div>
         </nav>
-        <div class="sub-banner">
-            <canvas class="particlesBg"></canvas>
+        <div class="sub-banner form-banner">
+        <canvas class="particlesBg"></canvas>
             <div class="sub-bannerIn c-w1170">
-                <h2 class="sub-ttl">Career Recruitment<span>キャリア募集要項</span></h2>
-                <img src="../../assets/img/philosophy/bnr_img.jpg" class="sub-bannerImg" alt="">
+                <h2 class="sub-ttl">問い合わせ</h2>
             </div>
         </div>
         <!-- sub-banner -->
         <div class="content">
-        <section class="recruit-page">
+        <section class="form-secblock">
             <div class="c-w1170">
-                <h2 class="main-ttl01">キャリア募集要項</h2>
-                <div class="recruit-pageList">
-                    <ul class="recruitList-block">
-                        <li class="recruitList-li">
-                            <div class="recruitList-content">
-                                <div class="recurit-img"><img src="../../assets/img/recruit/infra_img.png" alt=""></div>
-                                <div class="recruit-desp">
-                                    <h2 class="recruit-ttl">システムエンジニア</h2>
-                                    <p data-mh="recurit-mat01" class="recruit-txt">プログラマからシステムエンジニア へのキャリアアップ、プロジェクトリーダーや上級システムエンジニアをめざす方、 オブジェクト指向技術を身につけたい方、資格取得してスキルアップをめざす方を求めています。</p>
-                                    <div class="mTop-auto">
-                                        <ul class="recruit-btnls">
-                                            <li>
-                                                <div class="recruit-btnbox">
-                                                    <span>内容</span>
-                                                    <p>Web アプリケーション、流通等の業務アプリケーションの設計、開発、導入および運用まで、あなたのご経験やご希望に合った開発プロジェクトを用意しています。</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="recruit-btnbox">
-                                                    <span>経験</span>
-                                                    <p>Windows、UNIX環境でのJava、C、C++、C#、Perl、PHP、VB、Delphi等のシステム開発経験1 年以上の方。※ いずれかの経験があれば、他は未経験でも歓迎します。 ※ 外国人の方、大歓迎です。</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="recruit-btnbox">
-                                                    <span>給与</span>
-                                                    <p>経験・スキル・前給等を十分考慮し、相談の上決定します。</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="recruit-btnbox">
-                                                    <span>賞与</span>
-                                                    <p>年2回 (7 月、12 月)</p>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                        <div class="sec-btn02">
-                                            <a href="#" class="btn02">詳しくはこちら</a>
-                                        </div>
+                <div class="form-block letter">
+                    <form action="">
+                        <div class="form-row form-mb">
+                            <div class="form-col2">
+                                <label for="" class="form-label">会社名</label>
+                                <div class="form-inputText">
+                                    <input type="text" class="inputType" name="" id="" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-col2">
+                                <label for="" class="form-label">担当者名<span class="require">*</span></label>
+                                <div class="form-inputText">
+                                    <input type="text" class="inputType" name="" id="" placeholder="例(半角)：toshima@gmail.com">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row form-mb">
+                            <div class="form-col2">
+                                <label for="" class="form-label">電話番号<span class="require">*</span></label>
+                                <div class="form-inputText">
+                                    <input type="text" class="inputType" name="" id="" placeholder="例(半角)：09012384561">
+                                </div>
+                            </div>
+                            <div class="form-col2">
+                                <label for="" class="form-label">メールアドレス<span class="require">*</span></label>
+                                <div class="form-inputText">
+                                    <input type="text" class="inputType" name="" id="" placeholder="例(半角)：toshima@gmail.com">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row form-mb">
+                            <div class="form-col2">
+                                <label for="" class="form-label">郵便番号</label>
+                                <div class="form-inputText">
+                                    <input type="text" class="inputType" name="" id="" >
+                                </div>
+                            </div>
+                            <div class="form-col2">
+                                <label for="" class="form-label">住所<span class="require">*</span></label>
+                                <div class="form-inputText">
+                                    <input type="text" class="inputType" name="" id="" >
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row form-mb">
+                            <div class="form-col1">
+                                <label for="" class="form-label">お問い合わせ内容<span class="require">*</span></label>
+                                <div class="form-textarea">
+                                    <textarea name="" cols="50" rows="5" placeholder="※200字以内で入力してください。"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row form-mb">
+                            <div class="form-col1">
+                                <label for="" class="form-label">個人情報の取扱い<span class="require">*</span></label>
+                                <div class="form-inputCheckbox">
+                                    <label for="chkagree">
+                                        <input type="checkbox" name="chkagree" id="chkagree">
+                                        <span class="form-checkbox col-red chkagree-text">個人情報の取扱いについて同意する</span>
+                                    </label>
+                                    <div class="form-privacy">
+                                        <h3 class="form-privacy-ttl">「個人情報の取扱いについて」</h3>
+                                        <p class="pri-num">
+                                            <span>1.</span>事業者の名称<br>STAR SE株式会社
+                                        </p>
+                                        <p class="pri-num">
+                                            <span>2.</span>当社の個人情報管理者及び連絡先<br>
+                                            個人情報保護管理者：金本　香蘭<br>
+                                            電話番号：03-5207-2955（当社休日を除く。）<br>
+                                            Eメール：info@star-se.co.jp
+                                        </p>
+                                        <p class="pri-num">
+                                            <span>3.</span>利用目的<br>お問い合わせフォームへご入力いただいた個人情報については、お問い合わせの内容への回答の目的のみに利用します｡
+                                        </p>
+                                        <p class="pri-num">
+                                            <span>4.</span>第三者提供<br>法令等の定めに基づく場合を除き、当社で上記目的に使用し、第三者へは提供いたしません。
+                                        </p>
+                                        <p class="pri-num">
+                                            <span>5.</span>委託<br>上記の利用目的の範囲内で個人情報の取扱いの一部又は全部を委託することがあります。委託する際には、十分な個人情報の保護水準を満たしている者を選定し、 契約書を締結し、委託する個人情報の安全管理が図られるよう、必要且つ適切な監督を行います。
+                                        </p>
+                                        <p class="pri-num">
+                                            <span>6.</span>提供の任意性とその結果<br>個人情報を提供するか否かは任意ですが、必須項目をご提示いただけない場合、利用目的に掲げてある業務に支障が生じ、ご本人が不利益を被る場合があります。
+                                        </p>
+                                        <p class="pri-num">
+                                            <span>7.</span>個人情報の開示等の要求<br>当社は、提供頂いた個人情報（開示対象個人情報）に関する利用目的の通知、開示、訂正、追加、削除、利用の停止、 消去又は第三者提供の停止(以下「開示等」という)に関わる請求及び苦情・相談（開示等に関わる請求についての苦情・相談も含む）につき迅速に対応します。<br>
+                                            下記の窓口までお申し出ください。<br>
+                                            個人情報苦情相談窓口責任者：<strong>金本　香蘭</strong><br>
+                                            電話番号：03-5207-2955<br>
+                                            メールアドレス：info@star-se.co.jp
+                                        </p>
                                     </div>
                                 </div>
                             </div>
-                        </li>
-                        <li class="recruitList-li">
-                            <div class="recruitList-content">
-                                <div class="recurit-img"><img src="../../assets/img/recruit/infra_img.png" alt=""></div>
-                                <div class="recruit-desp">
-                                    <h2 class="recruit-ttl">インフラエンジニア</h2>
-                                    <p data-mh="recurit-mat01" class="recruit-txt">インフラ基盤(サーバ/ストレージ/ネットワークなど)構築経験、 または、ミドルウェア(OpenView/Systemwalker/JP1など)の導入・構築経験してきた方を求めています。</p>
-                                    <div class="mTop-auto">
-                                        <ul class="recruit-btnls">
-                                            <li>
-                                                <div class="recruit-btnbox">
-                                                    <span>内容</span>
-                                                    <p>Web アプリケーション、流通等の業務アプリケーションの設計、開発、導入および運用まで、あなたのご経験やご希望に合った開発プロジェクトを用意しています。</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="recruit-btnbox">
-                                                    <span>経験</span>
-                                                    <p>Windows、UNIX環境でのJava、C、C++、C#、Perl、PHP、VB、Delphi等のシステム開発経験1 年以上の方。※ いずれかの経験があれば、他は未経験でも歓迎します。 ※ 外国人の方、大歓迎です。</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="recruit-btnbox">
-                                                    <span>給与</span>
-                                                    <p>経験・スキル・前給等を十分考慮し、相談の上決定します。</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="recruit-btnbox">
-                                                    <span>賞与</span>
-                                                    <p>年2回 (7 月、12 月)</p>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                        <div class="sec-btn02">
-                                            <a href="#" class="btn02">詳しくはこちら</a>
-                                        </div>
-                                    </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-col1">
+                                <div class="sec-btn02">
+                                    <a href="#" class="btn02">送信</a>
                                 </div>
                             </div>
-                        </li>
-                        <li class="recruitList-li">
-                            <div class="recruitList-content">
-                                <div class="recurit-img"><img src="../../assets/img/recruit/infra_img.png" alt=""></div>
-                                <div class="recruit-desp">
-                                    <h2 class="recruit-ttl">事務・営業</h2>
-                                    <p data-mh="recurit-mat02" class="recruit-txt">エンドユーザーや大手SIerへのシステム開発案件の営業担当者を求めています。</p>
-                                    <div class="mTop-auto">
-                                        <ul class="recruit-btnls">
-                                            <li>
-                                                <div class="recruit-btnbox">
-                                                    <span>内容</span>
-                                                    <p>Web アプリケーション、流通等の業務アプリケーションの設計、開発、導入および運用まで、あなたのご経験やご希望に合った開発プロジェクトを用意しています。</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="recruit-btnbox">
-                                                    <span>経験</span>
-                                                    <p>Windows、UNIX環境でのJava、C、C++、C#、Perl、PHP、VB、Delphi等のシステム開発経験1 年以上の方。※ いずれかの経験があれば、他は未経験でも歓迎します。 ※ 外国人の方、大歓迎です。</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="recruit-btnbox">
-                                                    <span>給与</span>
-                                                    <p>経験・スキル・前給等を十分考慮し、相談の上決定します。</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="recruit-btnbox">
-                                                    <span>賞与</span>
-                                                    <p>年2回 (7 月、12 月)</p>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                        <div class="sec-btn02">
-                                            <a href="#" class="btn02">詳しくはこちら</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="recruitList-li">
-                            <div class="recruitList-content">
-                                <div class="recurit-img"><img src="../../assets/img/recruit/infra_img.png" alt=""></div>
-                                <div class="recruit-desp">
-                                    <h2 class="recruit-ttl">新卒/第二新卒募集要項</h2>
-                                    <p data-mh="recurit-mat02" class="recruit-txt">若手社員からのメッセージ 職場風景 よくある質問 募集要項</p>
-                                    <div class="mTop-auto">
-                                        <ul class="recruit-btnls">
-                                            <li>
-                                                <div class="recruit-btnbox">
-                                                    <span>内容</span>
-                                                    <p>Web アプリケーション、流通等の業務アプリケーションの設計、開発、導入および運用まで、あなたのご経験やご希望に合った開発プロジェクトを用意しています。</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="recruit-btnbox">
-                                                    <span>経験</span>
-                                                    <p>Windows、UNIX環境でのJava、C、C++、C#、Perl、PHP、VB、Delphi等のシステム開発経験1 年以上の方。※ いずれかの経験があれば、他は未経験でも歓迎します。 ※ 外国人の方、大歓迎です。</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="recruit-btnbox">
-                                                    <span>給与</span>
-                                                    <p>経験・スキル・前給等を十分考慮し、相談の上決定します。</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="recruit-btnbox">
-                                                    <span>賞与</span>
-                                                    <p>年2回 (7 月、12 月)</p>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                        <div class="sec-btn02">
-                                            <a href="#" class="btn02">詳しくはこちら</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
+                        </div>
+                    </form>
                 </div>
             </div>
         </section>
@@ -296,10 +233,5 @@
     <script src="../../assets/js/jquery.matchHeight-min.js"></script>
     <script src="../../assets/js/subpage.js"></script>
     <script src="../../assets/js/common.js"></script>
-    <script>
-        $(function() {
-          $('.recruit-mat01,.recruit-mat02').matchHeight();
-        });
-      </script>
 </body>
 </html>
