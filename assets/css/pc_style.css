@@ -1065,6 +1065,7 @@ Security Page
     margin-top: -335px;
     position: relative;
     z-index: 1;
+    padding-top: 30px;
 }
 .form-secblock .letter:before {
     left: 0;

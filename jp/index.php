@@ -630,7 +630,7 @@
     </div>
     <!-- wrapper -->
     <!-- slick slider js -->
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="../assets/js/jquery-2.2.4.min.js"></script>
     <script src="../assets/js/slick.min.js"></script>
     <script src="../assets/js/slick-mv.js"></script>
     <!-- end slick slider js -->
@@ -638,7 +638,7 @@
     <script src="../assets/js/odometer.js"></script>
     <script src="../assets/js/common.js"></script>
     <script src="../assets/js/top.js"></script>
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="../assets/js/particles.min.js"></script>
     <script>
         particlesJS("starimg", {
         "particles": {

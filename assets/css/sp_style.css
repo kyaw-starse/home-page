@@ -376,15 +376,13 @@
     /* ===============================
     Form Page
     =============================== */
-    .form-banner {
-        height: 51.5vw;
-    }
-    .form-banner:before {
+    
+    /* .form-banner:before {
         height: 100%;
-    }
-    .form-banner .particlesBg {
+    } */
+    /* .form-banner .particlesBg {
         max-height: 100%;
-    }
+    } */
     .form-secblock {
         margin-top: -20vh;
         position: relative;
@@ -434,7 +432,29 @@
         margin-top: 10px;
     }
 }
+@media screen and (min-width: 641px) and (max-width: 768px) {
+    .form-banner {
+        height: 415px;
+    }
+    .form-secblock {
+        margin-top: -41vh;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 640px) {
+    .form-banner {
+        height: 415px;
+    }
+    .form-secblock {
+        margin-top: -44vh;
+    }
+}
 @media screen and (max-width: 480px) {
+    .form-banner {
+        height: 280px;
+    }
+    .form-secblock {
+        margin-top: -26vh;
+    }
     /* Business Block */
     .businessTtl {
         line-height: 1.2;

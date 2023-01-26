@@ -41,7 +41,7 @@
                     <div class="h-utility">
                         <ul class="cFix">
                             <li class="h-icon"><a href="../contact/" class="mail-icon"><img src="../../assets/img/common/mail_off.png" alt=""></a></li>
-                            <li class="h-icon"><a href="../login/" class="lock-icon"><img src="../../assets/img/common/icon_login.png" alt=""></a></li>
+                            <li class="h-icon"><a href="../login/" class="lock-icon"><img src="../../assets/img/common/lock_off.png" alt=""></a></li>
                             <li class="site-lang">
                                 <a href="" class="lang-link langOn">EN</a>
                                 <a href="" class="lang-link">JP</a>
@@ -70,8 +70,8 @@
                 </ul>
                 <div class="h-utility">
                     <ul class="cFix">
-                        <li class="h-icon"><a href="../contact/" class="mail-icon"><img src="../assets/img/common/mail_off.png" alt=""></a></li>
-                        <li class="h-icon"><a href="../login/" class="lock-icon"><img src="../assets/img/common/lock_off.png" alt=""></a></li>
+                        <li class="h-icon"><a href="../contact/" class="mail-icon"><img src="../../assets/img/common/mail_off.png" alt=""></a></li>
+                        <li class="h-icon"><a href="../login/" class="lock-icon"><img src="../../assets/img/common/lock_off.png" alt=""></a></li>
                         <li class="site-lang">
                             <a href="../en/" class="lang-link">EN</a>
                             <a href="../jp/" class="lang-link langOn">JP</a>
@@ -314,7 +314,7 @@
         <!-- footer -->
     </div>
     <!-- wrapper -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
+    <script src="../../assets/js/sub_particles.min.js"></script>
     <script src="../../assets/js/aos.js"></script>
     <script src="../../assets/js/jquery.matchHeight-min.js"></script>
     <script src="../../assets/js/subpage.js"></script>
