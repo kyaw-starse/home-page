@@ -27,7 +27,7 @@
         <div id="splash-logo"><img src="../assets/img/common/loading.gif" alt="読み込み中" class="icon-01 apng-image"><span class="rollAnime">Loading</span></div>
     </div>
     <div class="splashbg"></div>
-    <div id="wrapper">
+    <div id="wrapper" class="top-wrap">
         <header class="headerBlock">
             <div class="header c-w1420">
                 <h1 class="h-logo">
@@ -302,7 +302,7 @@
                                     </div>
                                     <div class="memberDesp" data-aos="fade-up">
                                         <div class="member-icon">
-                                            <img src="../assets/img/top/icon_setting.png" alt="">
+                                            <img src="../assets/img/top/java_icon.png" alt="">
                                         </div>
                                         <div class="member-txt">
                                             <p>Java</p>
@@ -316,7 +316,7 @@
                                     </div>
                                     <div class="memberDesp" data-aos="fade-up">
                                         <div class="member-icon">
-                                            <img src="../assets/img/top/icon_network.png" alt="">
+                                            <img src="../assets/img/top/csharp_icon.png" alt="">
                                         </div>
                                         <div class="member-txt">
                                             <p>C#</p>
@@ -330,7 +330,7 @@
                                     </div>
                                     <div class="memberDesp" data-aos="fade-up">
                                         <div class="member-icon">
-                                            <img src="../assets/img/top/icon_design.png" alt="">
+                                            <img src="../assets/img/top/VB_icon.png" alt="">
                                         </div>
                                         <div class="member-txt">
                                             <p>VB.NET</p>
@@ -363,10 +363,10 @@
                                     </div>
                                     <div class="memberDesp" data-aos="fade-up">
                                         <div class="member-icon">
-                                            <img src="../assets/img/top/icon_setting.png" alt="">
+                                            <img src="../assets/img/top/windows_icon.png" alt="">
                                         </div>
                                         <div class="member-txt">
-                                            <p>仮想サーバ</p>
+                                            <p>Windows仮想サーバ</p>
                                         </div>
                                     </div>
                                 </div>
@@ -377,10 +377,10 @@
                                     </div>
                                     <div class="memberDesp" data-aos="fade-up">
                                         <div class="member-icon">
-                                            <img src="../assets/img/top/icon_network.png" alt="">
+                                            <img src="../assets/img/top/cloud_icon.png" alt="">
                                         </div>
                                         <div class="member-txt">
-                                            <p>クラウドサーバ</p>
+                                            <p>AWSクラウドサーバ</p>
                                         </div>
                                     </div>
                                 </div>
@@ -391,7 +391,7 @@
                                     </div>
                                     <div class="memberDesp" data-aos="fade-up">
                                         <div class="member-icon">
-                                            <img src="../assets/img/top/icon_design.png" alt="">
+                                            <img src="../assets/img/top/db_icon.png" alt="">
                                         </div>
                                         <div class="member-txt">
                                             <p>データベース設計</p>

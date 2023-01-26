@@ -119,7 +119,7 @@
         width: 70px;
     }
     /* Our People */
-    .memberBox {
+    /* .memberBox {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
@@ -128,6 +128,13 @@
     }
     .memberBox:last-child {
         margin-bottom: 0px;
+    } */
+    .ourPeopleBanner {
+        margin-bottom: 0;
+    }
+    .member-col {
+        width: 100%;
+        margin-top: 30px;
     }
     .member-cir {
         position: relative;
@@ -144,7 +151,6 @@
         height: auto;
     }
     .member-icon img {
-        
         width: 30px;
         height: 30px;
     }
@@ -157,6 +163,9 @@
         min-height: inherit;
         width: calc(100% - 50px);
         margin-left: auto;
+    }
+    .member-content .ttl-subpage {
+        text-align: center;
     }
     /* Recruit */
     .recruitList {

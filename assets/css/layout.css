@@ -303,7 +303,7 @@ footer {
 	position: fixed;
 	right: 15px;
     bottom: 40px;
-	z-index: 2;
+	z-index: 1;
 	opacity: 0;
 	transform: translateX(100px);
 }
@@ -377,6 +377,7 @@ footer {
         right: 5px;
         width: 30px;
         height: 24px;
+        cursor: pointer;
         transform: translate(-50%, -50%);
     }
     .gmenu .menu .line {
@@ -539,6 +540,8 @@ footer {
 /* Loading jquery */
 #splash {
     position: fixed;
+    top: 0;
+    bottom: 0;
     width: 100%;
     height: 100%;
     background: #fff;
@@ -586,11 +589,11 @@ footer {
         border-width: 0px;
     }
 }
-#wrapper{
+.top-wrap {
     position: relative;
 	opacity: 0;
 }
-body.appear #wrapper {
+body.appear .top-wrap {
 	animation-name:PageAnimeAppear;
 	animation-duration:.5s;
 	animation-delay:0.5s;
