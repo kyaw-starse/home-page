@@ -8,23 +8,23 @@
     <meta name="keywords" content="star se,starse,star,it star se,star se japan,starse japan,スター,スターエスイー,STAR SE株式会社">
     <meta name="description" content="弊社は、ソフトウェア開発からインフラ設計構築、システム運用支援までトータルなソリューションを提供する“ITソリューション”の拡充に加え、 IT業界の人材不足の課題対応策として“社員教育”の強化に取り組んでおります。">
     <meta name="google-site-verification" content="Dg_pvHrLYsE_PNW7oubm3Xw5aWYEPksmjpJwXLBG0Sk"/>
-    <link rel="shortcut icon" href="../assets/img/common/favicon.png" type="image/x-icon">
-    <link rel="icon" href="../assets/img/common/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/home-page/assets/img/common/favicon.png" type="image/x-icon">
+    <link rel="icon" href="/home-page/assets/img/common/favicon.png" type="image/x-icon">
     <title>ホーム</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../assets/css/import.css">
+    <link rel="stylesheet" href="/home-page/assets/css/import.css">
     <!-- slick slider css -->
-    <link rel="stylesheet" href="../assets/css/slick.css">
-    <link rel="stylesheet" href="../assets/css/slick-theme.css">
+    <link rel="stylesheet" href="/home-page/assets/css/slick.css">
+    <link rel="stylesheet" href="/home-page/assets/css/slick-theme.css">
     <!-- end slick slider css -->
-    <link rel="stylesheet" href="../assets/css/aos.css">
-    <link rel="stylesheet" href="../assets/css/odometer-theme-minimal.css">
-    <link rel="stylesheet" href="../assets/css/pc_style.css">
-    <link rel="stylesheet" href="../assets/css/sp_style.css">
+    <link rel="stylesheet" href="/home-page/assets/css/aos.css">
+    <link rel="stylesheet" href="/home-page/assets/css/odometer-theme-minimal.css">
+    <link rel="stylesheet" href="/home-page/assets/css/pc_style.css">
+    <link rel="stylesheet" href="/home-page/assets/css/sp_style.css">
 </head>
 <body id="top" class="top">
     <div id="splash">
-        <div id="splash-logo"><img src="../assets/img/common/loading.gif" alt="読み込み中" class="icon-01 apng-image"><span class="rollAnime">Loading</span></div>
+        <div id="splash-logo"><img src="/home-page/assets/img/common/loading.gif" alt="読み込み中" class="icon-01 apng-image"><span class="rollAnime">Loading</span></div>
     </div>
     <div class="splashbg"></div>
     <div id="wrapper" class="top-wrap">
@@ -32,27 +32,27 @@
             <div class="header c-w1420">
                 <h1 class="h-logo">
                     <a href="">
-                        <img src="../assets/img/common/h_logo.png" alt="">
+                        <img src="/home-page/assets/img/common/h_logo.png" alt="">
                         <p>STAR SE<span>All for your dream</span></p>
                     </a>
                 </h1>
                 <div class="h-right cFix">
                     <nav class="nav-pc">
                         <ul class="cFix">
-                            <li><a href="./company/"><span>会社情報</span></a></li>
-                            <li><a href="./philosophy/"><span>経営理念</span></a></li>
-                            <li><a href="./business/"><span>事業内容</span></a></li>
-                            <li><a href="./recruit/"><span>採用情報</span></a></li>
-                            <li><a href="./security/"><span>情報セキュリティ</span></a></li>
+                            <li><a href="/home-page/jp/company/"><span>会社情報</span></a></li>
+                            <li><a href="/home-page/jp/philosophy/"><span>経営理念</span></a></li>
+                            <li><a href="/home-page/jp/business/"><span>事業内容</span></a></li>
+                            <li><a href="/home-page/jp/recruit/"><span>採用情報</span></a></li>
+                            <li><a href="/home-page/jp/security/"><span>情報セキュリティ</span></a></li>
                         </ul>
                     </nav>
                     <div class="h-utility">
                         <ul class="cFix">
-                            <li class="h-icon"><a href="./contact/" class="mail-icon"><img src="../assets/img/common/mail_off.png" alt=""></a></li>
-                            <li class="h-icon"><a href="./login/" class="lock-icon"><img src="../assets/img/common/lock_off.png" alt=""></a></li>
+                            <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
+                            <li class="h-icon"><a href="/home-page/jp/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                             <li class="site-lang">
-                                <a href="../en/" class="lang-link">EN</a>
-                                <a href="../jp/" class="lang-link langOn">JP</a>
+                                <a href="/home-page/en/" class="lang-link">EN</a>
+                                <a href="/home-page/jp/" class="lang-link langOn">JP</a>
                             </li>
                         </ul>
                     </div>
@@ -70,19 +70,19 @@
         <nav id="globalNav" class="globalNav">
             <div class="globalNav-inner">
                 <ul class="nav-sp">
-                    <li><a href="./company/"><span>会社情報</span></a></li>
-                    <li><a href="./philosophy/"><span>経営理念</span></a></li>
-                    <li><a href="./business/"><span>事業内容</span></a></li>
-                    <li><a href="./recruit/"><span>採用情報</span></a></li>
-                    <li><a href="./security/"><span>情報セキュリティ</span></a></li>
+                    <li><a href="/home-page/jp/company/"><span>会社情報</span></a></li>
+                    <li><a href="/home-page/jp/philosophy/"><span>経営理念</span></a></li>
+                    <li><a href="/home-page/jp/business/"><span>事業内容</span></a></li>
+                    <li><a href="/home-page/jp/recruit/"><span>採用情報</span></a></li>
+                    <li><a href="/home-page/jp/security/"><span>情報セキュリティ</span></a></li>
                 </ul>
                 <div class="h-utility">
                     <ul class="cFix">
-                        <li class="h-icon"><a href="./contact/" class="mail-icon"><img src="../assets/img/common/mail_off.png" alt=""></a></li>
-                        <li class="h-icon"><a href="./login/" class="lock-icon"><img src="../assets/img/common/lock_off.png" alt=""></a></li>
+                        <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
+                        <li class="h-icon"><a href="/home-page/jp/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                         <li class="site-lang">
-                            <a href="../en/" class="lang-link">EN</a>
-                            <a href="../jp/" class="lang-link langOn">JP</a>
+                            <a href="/home-page/en/" class="lang-link">EN</a>
+                            <a href="/home-page/jp/" class="lang-link langOn">JP</a>
                         </li>
                     </ul>
                 </div>
@@ -91,8 +91,8 @@
         <div class="full-wide-slider">
             <div class="item image">
               <figure>
-                <div class="slide-image slide-media" style="background-image:url('../assets/img/top/slide-1.jpg');">
-                  <img data-lazy="../assets/img/top/slide-1.jpg" class="image-entity" />
+                <div class="slide-image slide-media" style="background-image:url('/home-page/assets/img/top/slide-1.jpg');">
+                  <img data-lazy="/home-page/assets/img/top/slide-1.jpg" class="image-entity" />
                 </div>
               </figure>
             </div>
@@ -101,8 +101,8 @@
             </div> -->
             <div class="item image">
               <figure>
-                <div class="slide-image slide-media" style="background-image:url('../assets/img/top/slide-2.jpg');">
-                  <img data-lazy="../assets/img/top/slide-2.jpg" class="image-entity" />
+                <div class="slide-image slide-media" style="background-image:url('/home-page/assets/img/top/slide-2.jpg');">
+                  <img data-lazy="/home-page/assets/img/top/slide-2.jpg" class="image-entity" />
                 </div>
               </figure>
             </div>
@@ -111,20 +111,20 @@
             </div> -->
             <div class="item image">
               <figure>
-                <div class="slide-image slide-media" style="background-image:url('../assets/img/top/slide-3.jpg');">
-                  <img data-lazy="../assets/img/top/slide-3.jpg" class="image-entity" />
+                <div class="slide-image slide-media" style="background-image:url('/home-page/assets/img/top/slide-3.jpg');">
+                  <img data-lazy="/home-page/assets/img/top/slide-3.jpg" class="image-entity" />
                 </div>
               </figure>
             </div>
             <!-- <div class="item video">
               <video class="slide-video slide-media" loop muted preload="metadata">
-                <source src="../assets/img/video/BannerMovie_v3.mp4" type="video/mp4" />
+                <source src="/home-page/assets/img/video/BannerMovie_v3.mp4" type="video/mp4" />
               </video>
             </div> -->
         </div>
         <div class="main-mv">
             <div class="mv-scroll">
-                <a href="#ceoMessageBlock" class="anchor"><img src="../assets/img/top/scroll_line.png" alt=""></a>
+                <a href="#ceoMessageBlock" class="anchor"><img src="/home-page/assets/img/top/scroll_line.png" alt=""></a>
             </div>
         </div>
         <!-- main-mv -->
@@ -136,7 +136,7 @@
                     <h3 class="ttlh3 sp"><span>STAR SEとは？</span></h3>
                     <div class="ceoMessage cFix">
                         <div class="ceoImg" data-aos="fade-left" data-aos-delay="50" data-aos-offset="0">
-                            <img src="../assets/img/top/ceo_img.jpg" alt="">
+                            <img src="/home-page/assets/img/top/ceo_img.jpg" alt="">
                         </div>
                         <div class="ceoMessageText">
                             <h3 class="ttlh3 pc"><span>STAR SEとは？</span></h3>
@@ -159,9 +159,9 @@
                     <div class="top-businessBlock">
                         <ul class="col-wrap">
                             <li class="col3 fadeInTrigger">
-                                <a href="./business/" class="businessBox line-frame">
+                                <a href="/home-page/jp/business/" class="businessBox line-frame">
                                     <div class="img-hover">
-                                        <img src="../assets/img/top/business_01.jpg" alt="">
+                                        <img src="/home-page/assets/img/top/business_01.jpg" alt="">
                                     </div>
                                     <div class="businessText">
                                         <div class="businessTextIn">
@@ -171,23 +171,23 @@
                                 </a>
                                 <ul class="bussiness-btnList">
                                     <li>
-                                        <span><img src="../assets/img/top/b_img01.png" alt="">金融機関系</span>
+                                        <span><img src="/home-page/assets/img/top/b_img01.png" alt="">金融機関系</span>
                                     </li>
                                     <li>
-                                        <span><img src="../assets/img/top/b_img02.png" alt="">電力系</span>
+                                        <span><img src="/home-page/assets/img/top/b_img02.png" alt="">電力系</span>
                                     </li>
                                     <li>
-                                        <span><img src="../assets/img/top/b_img03.png" alt="">業務管理系</span>
+                                        <span><img src="/home-page/assets/img/top/b_img03.png" alt="">業務管理系</span>
                                     </li>
                                     <li>
-                                        <span><img src="../assets/img/top/b_img04.png" alt="">その他</span>
+                                        <span><img src="/home-page/assets/img/top/b_img04.png" alt="">その他</span>
                                     </li>
                                 </ul>
                             </li>
                             <li class="col3 fadeInTrigger delay-time15 ">
-                                <a href="./business/" class="businessBox line-frame line-2">
+                                <a href="/home-page/jp/business/" class="businessBox line-frame line-2">
                                     <div class="img-hover">
-                                        <img src="../assets/img/top/business_02.jpg" alt="">
+                                        <img src="/home-page/assets/img/top/business_02.jpg" alt="">
                                     </div>
                                     <div class="businessText">
                                         <div class="businessTextIn">
@@ -197,20 +197,20 @@
                                 </a>
                                 <ul class="bussiness-btnList">
                                     <li>
-                                        <span><img src="../assets/img/top/b_img05.png" alt="">スクラッチ開発</span>
+                                        <span><img src="/home-page/assets/img/top/b_img05.png" alt="">スクラッチ開発</span>
                                     </li>
                                     <li>
-                                        <span><img src="../assets/img/top/b_img06.png" alt="">モバイルアプリ</span>
+                                        <span><img src="/home-page/assets/img/top/b_img06.png" alt="">モバイルアプリ</span>
                                     </li>
                                     <li>
-                                        <span><img src="../assets/img/top/b_img07.png" alt="">クラウド導入・移行支援</span>
+                                        <span><img src="/home-page/assets/img/top/b_img07.png" alt="">クラウド導入・移行支援</span>
                                     </li>
                                 </ul>
                             </li>
                             <li class="col3 fadeInTrigger delay-time3">
-                                <a href="./business/" class="businessBox">
+                                <a href="/home-page/jp/business/" class="businessBox">
                                     <div class="img-hover">
-                                        <img src="../assets/img/top/business_03.jpg" alt="">
+                                        <img src="/home-page/assets/img/top/business_03.jpg" alt="">
                                     </div>
                                     <div class="businessText">
                                         <div class="businessTextIn">
@@ -220,10 +220,10 @@
                                 </a>
                                 <ul class="bussiness-btnList">
                                     <li>
-                                        <span class="kizuna-icon"><img src="../assets/img/top/kizuna_icon.png" alt="">Kizuna</span>
+                                        <span class="kizuna-icon"><img src="/home-page/assets/img/top/kizuna_icon.png" alt="">Kizuna</span>
                                     </li>
                                     <li>
-                                        <span class="exam-star"><img src="../assets/img/top/ss_exam.svg" alt="">SS Exam</span>
+                                        <span class="exam-star"><img src="/home-page/assets/img/top/ss_exam.svg" alt="">SS Exam</span>
                                     </li>
                                 </ul>
                             </li>
@@ -232,15 +232,15 @@
                 </div>
             </section>
             <section class="sec-service">
-                <div class="waveTopImg"><img src="../assets/img/top/wave_top_bg.png" alt=""></div>
+                <div class="waveTopImg"><img src="/home-page/assets/img/top/wave_top_bg.png" alt=""></div>
                 <div class="c-w1300">
                     <h2 class="top-ttl ttl-subpage"><span class="text-un-yellow">提供サービス</span></h2>
                     <div class="serviceBlock cFix">
                         <div class="serviceBoxImg">
                             <div class="serviceComputerImg">
-                                <img src="../assets/img/top/service_img01.png" data-aos="fade-right" alt="">
+                                <img src="/home-page/assets/img/top/service_img01.png" data-aos="fade-right" alt="">
                                 <div class="servicePhone" data-aos="fade-up" data-aos-delay="150">
-                                    <img src="../assets/img/top/service_ph_img.png" alt="">
+                                    <img src="/home-page/assets/img/top/service_ph_img.png" alt="">
                                 </div>
                             </div>
                         </div>
@@ -256,12 +256,12 @@
                         <div class="serviceBoxImg" data-aos="fade-left">
                             <div class="serviceVideo">
                                 <div class="play-btn">
-                                    <img src="../assets/img/top/play_btn.png" alt="">
+                                    <img src="/home-page/assets/img/top/play_btn.png" alt="">
                                 </div>
 
-                                <video id="myVideo" poster="../assets/img/top/service_video_bg.png" muted="" loop="">
-                                    <source src="../assets/img/video/SSEXAM.mp4" type="video/mp4">
-                                    <source src="../assets/img/video/SSEXAM.mp4" type="video/ogg">
+                                <video id="myVideo" poster="/home-page/assets/img/top/service_video_bg.png" muted="" loop="">
+                                    <source src="/home-page/assets/img/video/SSEXAM.mp4" type="video/mp4">
+                                    <source src="/home-page/assets/img/video/SSEXAM.mp4" type="video/ogg">
                                 </video>
                             </div>
                         </div>
@@ -274,14 +274,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="waveBottomImg"><img src="../assets/img/top/wave_bottom_bg.png" alt=""></div>
+                <div class="waveBottomImg"><img src="/home-page/assets/img/top/wave_bottom_bg.png" alt=""></div>
             </section>
             <div id="myModal" class="modal">
                 <div class="modal-content">
                     <span class="closeBtn">&times;</span>
                     <video id="modalvideo" controls autoplay="true">
-                        <source src="../assets/img/video/SSEXAM.mp4" type="video/mp4">
-                        <source src="../assets/img/video/SSEXAM.mp4" type="video/ogg">
+                        <source src="/home-page/assets/img/video/SSEXAM.mp4" type="video/mp4">
+                        <source src="/home-page/assets/img/video/SSEXAM.mp4" type="video/ogg">
                     </video>
                 </div>
             </div>
@@ -289,7 +289,7 @@
                 <div class="c-w900">
                     <h2 class="top-ttl ttl-subpage"><span class="text-un-yellow">メンバー</span></h2>
                     <div class="ourPeopleBanner">
-                        <img src="../assets/img/top/ourpeople_bnr.jpg" alt="">
+                        <img src="/home-page/assets/img/top/ourpeople_bnr.jpg" alt="">
                     </div>
                     <div class="member-content">
                         <div class="member-col">
@@ -297,12 +297,12 @@
                             <div class="memberBlockList">
                                 <div class="memberBox">
                                     <div class="member-cir">
-                                        <img src="../assets/img/top/member_cir1.png" class="member-cirImg" alt="">
+                                        <img src="/home-page/assets/img/top/member_cir1.png" class="member-cirImg" alt="">
                                         <div class="member-per"><span class="odometer-a1">0</span>%</div>
                                     </div>
                                     <div class="memberDesp" data-aos="fade-up">
                                         <div class="member-icon">
-                                            <img src="../assets/img/top/java_icon.png" alt="">
+                                            <img src="/home-page/assets/img/top/java_icon.png" alt="">
                                         </div>
                                         <div class="member-txt">
                                             <p>Java</p>
@@ -311,12 +311,12 @@
                                 </div>
                                 <div class="memberBox">
                                     <div class="member-cir">
-                                        <img src="../assets/img/top/member_cir1.png" class="member-cirImg" alt="">
+                                        <img src="/home-page/assets/img/top/member_cir1.png" class="member-cirImg" alt="">
                                         <div class="member-per"><span class="odometer-a2">0</span>%</div>
                                     </div>
                                     <div class="memberDesp" data-aos="fade-up">
                                         <div class="member-icon">
-                                            <img src="../assets/img/top/csharp_icon.png" alt="">
+                                            <img src="/home-page/assets/img/top/csharp_icon.png" alt="">
                                         </div>
                                         <div class="member-txt">
                                             <p>C#</p>
@@ -325,12 +325,12 @@
                                 </div>
                                 <div class="memberBox">
                                     <div class="member-cir">
-                                        <img src="../assets/img/top/member_cir1.png" class="member-cirImg" alt="">
+                                        <img src="/home-page/assets/img/top/member_cir1.png" class="member-cirImg" alt="">
                                         <div class="member-per"><span class="odometer-a3">0</span>%</div>
                                     </div>
                                     <div class="memberDesp" data-aos="fade-up">
                                         <div class="member-icon">
-                                            <img src="../assets/img/top/VB_icon.png" alt="">
+                                            <img src="/home-page/assets/img/top/VB_icon.png" alt="">
                                         </div>
                                         <div class="member-txt">
                                             <p>VB.NET</p>
@@ -339,12 +339,12 @@
                                 </div>
                                 <div class="memberBox">
                                     <div class="member-cir">
-                                        <img src="../assets/img/top/member_cir1.png" class="member-cirImg" alt="">
+                                        <img src="/home-page/assets/img/top/member_cir1.png" class="member-cirImg" alt="">
                                         <div class="member-per"><span class="odometer-a4">0</span>%</div>
                                     </div>
                                     <div class="memberDesp" data-aos="fade-up">
                                         <div class="member-icon">
-                                            <img src="../assets/img/top/icon_iPhone.png" alt="">
+                                            <img src="/home-page/assets/img/top/icon_iPhone.png" alt="">
                                         </div>
                                         <div class="member-txt">
                                             <p>React Native</p>
@@ -358,12 +358,12 @@
                             <div class="memberBlockList">
                                 <div class="memberBox">
                                     <div class="member-cir">
-                                        <img src="../assets/img/top/member_cir1.png" class="member-cirImg" alt="">
+                                        <img src="/home-page/assets/img/top/member_cir1.png" class="member-cirImg" alt="">
                                         <div class="member-per"><span class="odometer-b1">0</span>%</div>
                                     </div>
                                     <div class="memberDesp" data-aos="fade-up">
                                         <div class="member-icon">
-                                            <img src="../assets/img/top/windows_icon.png" alt="">
+                                            <img src="/home-page/assets/img/top/windows_icon.png" alt="">
                                         </div>
                                         <div class="member-txt">
                                             <p>Windows仮想サーバ</p>
@@ -372,12 +372,12 @@
                                 </div>
                                 <div class="memberBox">
                                     <div class="member-cir">
-                                        <img src="../assets/img/top/member_cir1.png" class="member-cirImg" alt="">
+                                        <img src="/home-page/assets/img/top/member_cir1.png" class="member-cirImg" alt="">
                                         <div class="member-per"><span class="odometer-b2">0</span>%</div>
                                     </div>
                                     <div class="memberDesp" data-aos="fade-up">
                                         <div class="member-icon">
-                                            <img src="../assets/img/top/cloud_icon.png" alt="">
+                                            <img src="/home-page/assets/img/top/cloud_icon.png" alt="">
                                         </div>
                                         <div class="member-txt">
                                             <p>AWSクラウドサーバ</p>
@@ -386,12 +386,12 @@
                                 </div>
                                 <div class="memberBox">
                                     <div class="member-cir">
-                                        <img src="../assets/img/top/member_cir1.png" class="member-cirImg" alt="">
+                                        <img src="/home-page/assets/img/top/member_cir1.png" class="member-cirImg" alt="">
                                         <div class="member-per"><span class="odometer-b3">0</span>%</div>
                                     </div>
                                     <div class="memberDesp" data-aos="fade-up">
                                         <div class="member-icon">
-                                            <img src="../assets/img/top/db_icon.png" alt="">
+                                            <img src="/home-page/assets/img/top/db_icon.png" alt="">
                                         </div>
                                         <div class="member-txt">
                                             <p>データベース設計</p>
@@ -400,12 +400,12 @@
                                 </div>
                                 <div class="memberBox mem-admin">
                                     <div class="member-cir">
-                                        <img src="../assets/img/top/member_cir1.png" class="member-cirImg" alt="">
+                                        <img src="/home-page/assets/img/top/member_cir1.png" class="member-cirImg" alt="">
                                         <div class="member-per"><span class="odometer-b4">0</span>%</div>
                                     </div>
                                     <div class="memberDesp" data-aos="fade-up">
                                         <div class="member-icon">
-                                            <img src="../assets/img/top/icon_admin.png" alt="">
+                                            <img src="/home-page/assets/img/top/icon_admin.png" alt="">
                                         </div>
                                         <div class="member-txt">
                                             <p>業務 <br class="pc">管理</p>
@@ -421,19 +421,19 @@
                 <div class="c-w900">
                     <h2 class="top-ttl ttl-subpage"><span class="text-un-yellow">メンバー</span></h2>
                     <div class="ourPeopleBanner">
-                        <img src="../assets/img/top/ourpeople_bnr.jpg" alt="">
+                        <img src="/home-page/assets/img/top/ourpeople_bnr.jpg" alt="">
                     </div>
                     <div class="memberBlock">
-                        <img src="../assets/img/top/ourpeople_bg.png" class="pc" alt="">
+                        <img src="/home-page/assets/img/top/ourpeople_bg.png" class="pc" alt="">
                         <div class="memberBlockList">
                             <div class="memberBox">
                                 <div class="member-cir">
-                                    <img src="../assets/img/top/member_cir1.png" class="member-cirImg" alt="">
+                                    <img src="/home-page/assets/img/top/member_cir1.png" class="member-cirImg" alt="">
                                     <div class="member-per"><span class="odometer1">0</span>%</div>
                                 </div>
                                 <div class="memberDesp" data-aos="fade-up">
                                     <div class="member-icon">
-                                        <img src="../assets/img/top/icon_setting.png" alt="">
+                                        <img src="/home-page/assets/img/top/icon_setting.png" alt="">
                                     </div>
                                     <div class="member-txt">
                                         <p>フルスタック <br class="pc">開発</p>
@@ -442,12 +442,12 @@
                             </div>
                             <div class="memberBox">
                                 <div class="member-cir">
-                                    <img src="../assets/img/top/member_cir1.png" class="member-cirImg" alt="">
+                                    <img src="/home-page/assets/img/top/member_cir1.png" class="member-cirImg" alt="">
                                     <div class="member-per"><span class="odometer2">0</span>%</div>
                                 </div>
                                 <div class="memberDesp" data-aos="fade-up">
                                     <div class="member-icon">
-                                        <img src="../assets/img/top/icon_network.png" alt="">
+                                        <img src="/home-page/assets/img/top/icon_network.png" alt="">
                                     </div>
                                     <div class="member-txt">
                                         <p>ネットワーク <br class="pc">構築</p>
@@ -456,12 +456,12 @@
                             </div>
                             <div class="memberBox">
                                 <div class="member-cir">
-                                    <img src="../assets/img/top/member_cir1.png" class="member-cirImg" alt="">
+                                    <img src="/home-page/assets/img/top/member_cir1.png" class="member-cirImg" alt="">
                                     <div class="member-per"><span class="odometer3">0</span>%</div>
                                 </div>
                                 <div class="memberDesp" data-aos="fade-up">
                                     <div class="member-icon">
-                                        <img src="../assets/img/top/icon_design.png" alt="">
+                                        <img src="/home-page/assets/img/top/icon_design.png" alt="">
                                     </div>
                                     <div class="member-txt">
                                         <p>システム <br class="pc">設計</p>
@@ -470,12 +470,12 @@
                             </div>
                             <div class="memberBox">
                                 <div class="member-cir">
-                                    <img src="../assets/img/top/member_cir1.png" class="member-cirImg" alt="">
+                                    <img src="/home-page/assets/img/top/member_cir1.png" class="member-cirImg" alt="">
                                     <div class="member-per"><span class="odometer4">0</span>%</div>
                                 </div>
                                 <div class="memberDesp" data-aos="fade-up">
                                     <div class="member-icon">
-                                        <img src="../assets/img/top/icon_iPhone.png" alt="">
+                                        <img src="/home-page/assets/img/top/icon_iPhone.png" alt="">
                                     </div>
                                     <div class="member-txt">
                                         <p>アプリ <br class="pc">開発</p>
@@ -484,12 +484,12 @@
                             </div>
                             <div class="memberBox mem-admin">
                                 <div class="member-cir">
-                                    <img src="../assets/img/top/member_cir1.png" class="member-cirImg" alt="">
+                                    <img src="/home-page/assets/img/top/member_cir1.png" class="member-cirImg" alt="">
                                     <div class="member-per"><span class="odometer5">0</span>%</div>
                                 </div>
                                 <div class="memberDesp" data-aos="fade-up">
                                     <div class="member-icon">
-                                        <img src="../assets/img/top/icon_admin.png" alt="">
+                                        <img src="/home-page/assets/img/top/icon_admin.png" alt="">
                                     </div>
                                     <div class="member-txt">
                                         <p>業務 <br class="pc">管理</p>
@@ -506,8 +506,8 @@
                     <div class="recruitBlock">
                         <ul class="col-wrap recruitList">
                             <li class="col2" data-aos="fade-right" data-aos-delay="50">
-                                <a href="./recruit/" class="recruitBox">
-                                    <div class="recruitIcon"><img src="../assets/img/top/recruit_img01.png" alt=""></div>
+                                <a href="/home-page/jp/recruit/" class="recruitBox">
+                                    <div class="recruitIcon"><img src="/home-page/assets/img/top/recruit_img01.png" alt=""></div>
                                     <div class="recruitTxt">
                                         <p>システムエンジニア</p>
                                         <span class="recruitArrow"></span>
@@ -515,8 +515,8 @@
                                 </a>
                             </li>
                             <li class="col2" data-aos="fade-left" data-aos-delay="100">
-                                <a href="./recruit/" class="recruitBox">
-                                    <div class="recruitIcon"><img src="../assets/img/top/recruit_img02.png" alt=""></div>
+                                <a href="/home-page/jp/recruit/" class="recruitBox">
+                                    <div class="recruitIcon"><img src="/home-page/assets/img/top/recruit_img02.png" alt=""></div>
                                     <div class="recruitTxt">
                                         <p>インフラエンジニア</p>
                                         <span class="recruitArrow"></span>
@@ -524,8 +524,8 @@
                                 </a>
                             </li>
                             <li class="col2" data-aos="fade-right" data-aos-delay="150">
-                                <a href="./recruit/" class="recruitBox">
-                                    <div class="recruitIcon"><img src="../assets/img/top/recruit_img03.png" alt=""></div>
+                                <a href="/home-page/jp/recruit/" class="recruitBox">
+                                    <div class="recruitIcon"><img src="/home-page/assets/img/top/recruit_img03.png" alt=""></div>
                                     <div class="recruitTxt">
                                         <p>事務・営業</p>
                                         <span class="recruitArrow"></span>
@@ -533,8 +533,8 @@
                                 </a>
                             </li>
                             <li class="col2" data-aos="fade-left" data-aos-delay="200">
-                                <a href="./recruit/" class="recruitBox">
-                                    <div class="recruitIcon"><img src="../assets/img/top/recruit_img04.png" alt=""></div>
+                                <a href="/home-page/jp/recruit/" class="recruitBox">
+                                    <div class="recruitIcon"><img src="/home-page/assets/img/top/recruit_img04.png" alt=""></div>
                                     <div class="recruitTxt">
                                         <p>新卒・第二新卒募集</p>
                                         <span class="recruitArrow"></span>
@@ -589,7 +589,7 @@
         </div>
         <div class="footerLogo">
             <div class="c-w1420 cFix">
-                <span class="footerLogoImg"><img src="../assets/img/common/footer_logo2.png" alt="STAR SE株式会社"></span>
+                <span class="footerLogoImg"><img src="/home-page/assets/img/common/footer_logo2.png" alt="STAR SE株式会社"></span>
             </div> 
         </div>
         <!-- footerLogo -->
@@ -598,22 +598,22 @@
                 <p class="ftLogoText sp-s-show">STAR SE株式会社</p>
                 <div class="ftInner c-w1300 cFix">
                     <div class="ftLogo">
-                        <img src="../assets/img/common/footer_logo.png" alt="STAR SE株式会社">
+                        <img src="/home-page/assets/img/common/footer_logo.png" alt="STAR SE株式会社">
                     </div>
                     <div class="ftDesp">
                         <p class="ftLogoText sp-s-none">STAR SE株式会社</p>
                         <div class="ftAddress">
                             <ul>
                                 <li class="cFix">
-                                    <span class="ft-icon"><img src="../assets/img/common/icon_homeaddress.png" alt=""></span>
+                                    <span class="ft-icon"><img src="/home-page/assets/img/common/icon_homeaddress.png" alt=""></span>
                                     <p class="ftAddress-info">〒104-0043<br>東京都中央区湊2丁目4-1<br>ＴＯＭＡＣビル 5階</p>
                                 </li>
                                 <li class="cFix">
-                                    <span class="ft-icon"><img src="../assets/img/common/icon_phone.png" alt=""></span>
+                                    <span class="ft-icon"><img src="/home-page/assets/img/common/icon_phone.png" alt=""></span>
                                     <p class="ftAddress-info"><a href="tel:03-5207-2956" class="tel">03-5207-2956</a></p>
                                 </li>
                                 <li class="cFix">
-                                    <span class="ft-icon"><img src="../assets/img/common/icon_fax.png" alt=""></span>
+                                    <span class="ft-icon"><img src="/home-page/assets/img/common/icon_fax.png" alt=""></span>
                                     <p class="ftAddress-info">03-5207-2956</p>
                                 </li>
                             </ul>
@@ -630,15 +630,15 @@
     </div>
     <!-- wrapper -->
     <!-- slick slider js -->
-    <script src="../assets/js/jquery-2.2.4.min.js"></script>
-    <script src="../assets/js/slick.min.js"></script>
-    <script src="../assets/js/slick-mv.js"></script>
+    <script src="/home-page/assets/js/jquery-2.2.4.min.js"></script>
+    <script src="/home-page/assets/js/slick.min.js"></script>
+    <script src="/home-page/assets/js/slick-mv.js"></script>
     <!-- end slick slider js -->
-    <script src="../assets/js/aos.js"></script>
-    <script src="../assets/js/odometer.js"></script>
-    <script src="../assets/js/common.js"></script>
-    <script src="../assets/js/top.js"></script>
-    <script src="../assets/js/particles.min.js"></script>
+    <script src="/home-page/assets/js/aos.js"></script>
+    <script src="/home-page/assets/js/odometer.js"></script>
+    <script src="/home-page/assets/js/common.js"></script>
+    <script src="/home-page/assets/js/top.js"></script>
+    <script src="/home-page/assets/js/particles.min.js"></script>
     <script>
         particlesJS("starimg", {
         "particles": {
@@ -651,7 +651,7 @@
             "shape": {
             "type": "image",
             "image": {
-                "src": "../assets/img/common/star01.png",
+                "src": "/home-page/assets/img/common/star01.png",
                 "width": 1,
                 "height": 1
             }

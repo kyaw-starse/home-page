@@ -8,44 +8,44 @@
     <meta name="keywords" content="star se,starse,star,it star se,star se japan,starse japan,スター,スターエスイー,STAR SE株式会社">
     <meta name="description" content="弊社は、ソフトウェア開発からインフラ設計構築、システム運用支援までトータルなソリューションを提供する“ITソリューション”の拡充に加え、 IT業界の人材不足の課題対応策として“社員教育”の強化に取り組んでおります。">
     <meta name="google-site-verification" content="Dg_pvHrLYsE_PNW7oubm3Xw5aWYEPksmjpJwXLBG0Sk"/>
-    <link rel="shortcut icon" href="../../assets/img/common/favicon.png" type="image/x-icon">
-    <link rel="icon" href="../../assets/img/common/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/home-page/assets/img/common/favicon.png" type="image/x-icon">
+    <link rel="icon" href="/home-page/assets/img/common/favicon.png" type="image/x-icon">
     <title>会社情報</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../assets/css/import.css">
-    <link rel="stylesheet" href="../../assets/css/aos.css">
-    <link rel="stylesheet" href="../../assets/css/pc_style.css">
-    <link rel="stylesheet" href="../../assets/css/sp_style.css">
-    <link rel="stylesheet" href="../../assets/css/common.css">
-    <script src="../../assets/js/jquery.min.js"></script>
+    <link rel="stylesheet" href="/home-page/assets/css/import.css">
+    <link rel="stylesheet" href="/home-page/assets/css/aos.css">
+    <link rel="stylesheet" href="/home-page/assets/css/pc_style.css">
+    <link rel="stylesheet" href="/home-page/assets/css/sp_style.css">
+    <link rel="stylesheet" href="/home-page/assets/css/common.css">
+    <script src="/home-page/assets/js/jquery.min.js"></script>
 </head>
 <body id="top">
     <div id="wrapper">
         <header class="headerBlock">
             <div class="header c-w1420">
                 <h1 class="h-logo">
-                    <a href="../">
-                        <img src="../../assets/img/common/h_logo.png" alt="">
+                    <a href="/home-page/en/">
+                        <img src="/home-page/assets/img/common/h_logo.png" alt="">
                         <p>STAR SE<span>All for your dream</span></p>
                     </a>
                 </h1>
                 <div class="h-right cFix">
                     <nav class="nav-pc">
                         <ul class="cFix">
-                            <li><a href="./" class="navpc-active"><span>会社情報</span></a></li>
-                            <li><a href="../philosophy/"><span>経営理念</span></a></li>
-                            <li><a href="../business/"><span>事業内容</span></a></li>
-                            <li><a href="../recruit/"><span>採用情報</span></a></li>
-                            <li><a href="../security/"><span>情報セキュリティ</span></a></li>
+                            <li><a href="/home-page/en/company/" class="navpc-active"><span>会社情報</span></a></li>
+                            <li><a href="/home-page/en/philosophy/"><span>経営理念</span></a></li>
+                            <li><a href="/home-page/en/business/"><span>事業内容</span></a></li>
+                            <li><a href="/home-page/en/recruit/"><span>採用情報</span></a></li>
+                            <li><a href="/home-page/en/security/"><span>情報セキュリティ</span></a></li>
                         </ul>
                     </nav>
                     <div class="h-utility">
                         <ul class="cFix">
-                            <li class="h-icon"><a href="" class="mail-icon"><img src="../../assets/img/common/mail_off.png" alt=""></a></li>
-                            <li class="h-icon"><a href="" class="lock-icon"><img src="../../assets/img/common/lock_off.png" alt=""></a></li>
+                            <li class="h-icon"><a href="/home-page/en/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
+                            <li class="h-icon"><a href="/home-page/en/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                             <li class="site-lang">
-                                <a href="" class="lang-link langOn">EN</a>
-                                <a href="" class="lang-link">JP</a>
+                                <a href="/home-page/en/" class="lang-link langOn">EN</a>
+                                <a href="/home-page/jp/" class="lang-link">JP</a>
                             </li>
                         </ul>
                     </div>
@@ -63,46 +63,39 @@
         <nav id="globalNav" class="globalNav">
             <div class="globalNav-inner">
                 <ul class="nav-sp">
-                    <li><a href="./"><span>会社情報</span></a></li>
-                    <li><a href="../philosophy/"><span>経営理念</span></a></li>
-                    <li><a href="../business/"><span>事業内容</span></a></li>
-                    <li><a href="../recruit/"><span>採用情報</span></a></li>
-                    <li><a href="../security/"><span>情報セキュリティ</span></a></li>
+                    <li><a href="/home-page/en/company/"><span>会社情報</span></a></li>
+                    <li><a href="/home-page/en/philosophy/"><span>経営理念</span></a></li>
+                    <li><a href="/home-page/en/business/"><span>事業内容</span></a></li>
+                    <li><a href="/home-page/en/recruit/"><span>採用情報</span></a></li>
+                    <li><a href="/home-page/en/security/"><span>情報セキュリティ</span></a></li>
                 </ul>
+                <div class="h-utility">
+                    <ul class="cFix">
+                        <li class="h-icon"><a href="/home-page/en/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
+                        <li class="h-icon"><a href="/home-page/en/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
+                        <li class="site-lang">
+                            <a href="/home-page/en/" class="lang-link langOn">EN</a>
+                            <a href="/home-page/jp/" class="lang-link">JP</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
         <div class="sub-banner">
             <canvas class="particlesBg"></canvas>
             <div class="sub-bannerIn c-w1170">
-                <h2 class="sub-ttl">Company Info<span>会社情報</span></h2>
-                <img src="../../assets/img/company/bnr_img.jpg" class="sub-bannerImg" alt="">
+                <h2 class="sub-ttl">ssLorem ipsum dolor</h2>
+                <img src="/home-page/assets/img/company/bnr_img.jpg" class="sub-bannerImg" alt="">
             </div>
         </div>
         <!-- main-mv -->
         <div class="content">
-        <!-- <div class="c-sidebar c-w1170">
-            <ul class="c-sidebarList">
-                <li>
-                    <a href="#companyInfo" class="anchor sidebarActive"><p><span>Comapny Profile</span>会社概要</p></a>
-                </li>
-                <li>
-                    <a href="#history" class="anchor"><p><span>History</span>沿革</p></a>
-                </li>
-                <li>
-                    <a href="#business" class="anchor"><p><span>Collaborate Partner</span>協業パートナー募集</p></a>
-                </li>
-                <li>
-                    <a href="#organization" class="anchor"><p><span>Organization Chart</span>組織図</p></a>
-                </li>
-            </ul>
-        </div> -->
-        <section class="sec-companyInfo">
+        <section class="sec-companyInfo" data-aos="fade-up">
             <div class="company-wrap">
                 <div class="c-w1170">
                     <div class="c-blockLeft">
                         <span id="companyInfo" class="anchorpos"></span>
-                        <h3 class="sub-ttl02 col-green"><span class="text-un-yellow">Company Profile</span><span class="h-text-jp">会社概要</span></h3>
-                        <!-- <h3 class="sub-ttl02 col-green">Company Profile<span class="h-text-jp">会社概要</span></h3> -->
+                        <h2 class="ttl-subpage"><span class="text-un-yellow">会社概要</span></h2>
                         <div class="company-info">
                             <table>
                                 <tr>
@@ -114,7 +107,7 @@
                                 <tr>
                                     <th>所在地</th>
                                     <td>
-                                        <p>〒103-0011<br>東京都中央区日本橋大伝馬町17-6 日本橋小谷商事ビル2階</p>
+                                        <p>〒104-0043<br>東京都中央区湊2丁目4-1 ＴＯＭＡＣビル 5階</p>
                                     </td>
                                 </tr>
                                 <tr>
@@ -138,19 +131,26 @@
                                 <tr>
                                     <th>従業員数</th>
                                     <td>
-                                        <p>(2019年12月時点)<br>正社員：100人<br>※協業パートナー要員：約20人</p>
+                                        <p>(2023年1月時点)<br>正社員：130人<br>※協業パートナー要員：約10人</p>
                                     </td>
                                 </tr>
                                 <tr>
                                     <th>支社</th>
                                     <td>
-                                        <p>STAR  SE  MYANMAR Co.,Ltd.</p>
+                                        <p>STAR  SE  MYANMAR Co.,Ltd.<br>Room No.11/A, 11th floor, Pyay Road, Red Hill Tower (or) KBZ Tower, Sanchaung Township, Yangon.</p>
                                     </td>
                                 </tr>
                                 <tr>
                                     <th>主要顧客</th>
                                     <td>
-                                        <p>NTTエレクトロニクステクノ株式会社<br>アクセンチュア株式会社<br>キヤノン電子テクノロジー株式会社<br>株式会社コスメディア<br>テクバン株式会社<br>株式会社クレスコ<br>コムチュア株式会社</p>
+                                        <p>NTTエレクトロニクステクノ株式会社<br>
+                                        アクセンチュア株式会社<br>
+                                        ハイテクシステム株式会社(TCSグループ企業)<br>
+                                        キヤノン電子テクノロジー株式会社<br>
+                                        株式会社コスメディア<br>
+                                        テクバン株式会社<br>
+                                        株式会社クレスコ<br>
+                                        コムチュア株式会社など多数</p>
                                     </td>
                                 </tr>
                                 <tr>
@@ -158,8 +158,8 @@
                                     <td>
                                         <p>労働者派遣事業許可番号 派13-312273<br>有料職業紹介事業許可 13-ユ-309929<br>プライバシーマーク 第22000213号<br>ISO/IEC 27001:2013 認証登録番号 J0437（2020/12/17取得）</p>
                                         <ul class="company-infologo">
-                                            <li><img src="../../assets/img/company/logo_iso1.png" alt=""></li>
-                                            <li><img src="../../assets/img/company/logo_iso2.png" alt=""></li>
+                                            <li><img src="/home-page/assets/img/company/logo_iso1.png" alt=""></li>
+                                            <li><img src="/home-page/assets/img/company/logo_iso2.png" alt=""></li>
                                         </ul>
                                     </td>
                                 </tr>
@@ -175,28 +175,34 @@
                 </div>
             </div>
         </section>
-        <section class="sec-history bg-green">
+        <section class="sec-history bg-green" data-aos="fade-up">
             <div class="company-wrap">
                 <div class="c-w1170">
                     <div class="c-blockLeft">
                         <span id="history" class="anchorpos"></span>
-                        <h3 class="sub-ttl02 col-white"><span class="text-un-yellow">History</span><span class="h-text-jp">沿革</span></h3>
+                        <h2 class="ttl-subpage col-white"><span class="text-un-yellow">沿革</span></h2>
                         <div class="history-list">
                             <ul>
                                 <li class="history-listbox">
-                                    <span class="history-year">2023年</span>
-                                    <div class="history-listboxin">
+                                    <span class="history-year pc">2023年</span>
+                                    <div class="history-listboxin" data-aos="fade-left" data-aos-duration="1000">
+                                        <span class="history-year sp">2023年</span>
                                         <div class="history-desp">
                                             <dl class="cFix">
-                                                <dt>1月</dt>
+                                                <dt>2月</dt>
                                                 <dd>東京八丁堀に本社移転</dd>
+                                            </dl>
+                                            <dl class="cFix">
+                                                <dt>1月</dt>
+                                                <dd>ミャンマー支社設立</dd>
                                             </dl>
                                         </div>
                                     </div>
                                 </li>
                                 <li class="history-listbox">
-                                    <span class="history-year">2020年</span>
-                                    <div class="history-listboxin">
+                                    <span class="history-year pc">2020年</span>
+                                    <div class="history-listboxin" data-aos="fade-left" data-aos-duration="1000">
+                                        <span class="history-year sp">2020年</span>
                                         <div class="history-desp">
                                             <dl class="cFix">
                                                 <dt>12月</dt>
@@ -206,8 +212,9 @@
                                     </div>
                                 </li>
                                 <li class="history-listbox">
-                                    <span class="history-year">2019年</span>
-                                    <div class="history-listboxin">
+                                    <span class="history-year pc">2019年</span>
+                                    <div class="history-listboxin" data-aos="fade-left" data-aos-duration="1000">
+                                        <span class="history-year sp">2019年</span>
                                         <div class="history-desp">
                                             <dl class="cFix">
                                                 <dt>12月</dt>
@@ -221,8 +228,9 @@
                                     </div>
                                 </li>
                                 <li class="history-listbox">
-                                    <span class="history-year">2018年</span>
-                                    <div class="history-listboxin">
+                                    <span class="history-year pc">2018年</span>
+                                    <div class="history-listboxin" data-aos="fade-left" data-aos-duration="1000">
+                                        <span class="history-year sp">2018年</span>
                                         <div class="history-desp">
                                             <dl class="cFix">
                                                 <dt>10月</dt>
@@ -232,8 +240,9 @@
                                     </div>
                                 </li>
                                 <li class="history-listbox">
-                                    <span class="history-year">2017年</span>
-                                    <div class="history-listboxin">
+                                    <span class="history-year pc">2017年</span>
+                                    <div class="history-listboxin" data-aos="fade-left" data-aos-duration="1000">
+                                        <span class="history-year sp">2017年</span>
                                         <div class="history-desp">
                                             <dl class="cFix">
                                                 <dt>12月</dt>
@@ -259,8 +268,9 @@
                                     </div>
                                 </li>
                                 <li class="history-listbox">
-                                    <span class="history-year">2016年</span>
-                                    <div class="history-listboxin">
+                                    <span class="history-year pc">2016年</span>
+                                    <div class="history-listboxin" data-aos="fade-left" data-aos-duration="1000">
+                                        <span class="history-year sp">2016年</span>
                                         <div class="history-desp">
                                             <dl class="cFix">
                                                 <dt>1月</dt>
@@ -270,8 +280,9 @@
                                     </div>
                                 </li>
                                 <li class="history-listbox">
-                                    <span class="history-year">2015年</span>
-                                    <div class="history-listboxin">
+                                    <span class="history-year pc">2015年</span>
+                                    <div class="history-listboxin" data-aos="fade-left" data-aos-duration="1000">
+                                        <span class="history-year sp">2015年</span>
                                         <div class="history-desp">
                                             <dl class="cFix">
                                                 <dt>10月</dt>
@@ -285,8 +296,9 @@
                                     </div>
                                 </li>
                                 <li class="history-listbox">
-                                    <span class="history-year">2014年</span>
-                                    <div class="history-listboxin">
+                                    <span class="history-year pc">2014年</span>
+                                    <div class="history-listboxin" data-aos="fade-left" data-aos-duration="1000">
+                                        <span class="history-year sp">2014年</span>
                                         <div class="history-desp">
                                             <dl class="cFix">
                                                 <dt>1月</dt>
@@ -301,57 +313,44 @@
                 </div>
             </div>
         </section>
-        <section class="sec-business">
+        <section class="sec-business" data-aos="fade-up">
             <div class="company-wrap">
                 <div class="c-w1170">
                     <div class="c-blockLeft">
                         <span id="business" class="anchorpos"></span>
-                        <h3 class="sub-ttl02 col-green"><span class="text-un-yellow">Business Partner</span><span class="h-text-jp">協業パートナー募集</span></h3>
+                        <h2 class="ttl-subpage"><span class="text-un-yellow">協業パートナー募集</span></h2>
                         <div class="businessBlock cFix">
                             <div class="b-boxLeft">
-                                <div><img src="../../assets/img/company/business_img.png" alt=""></div>
+                                <div><img src="/home-page/assets/img/company/business_img.png" alt=""></div>
                             </div>
                             <div class="b-boxRight">
                                 <div class="b-boxIn cFix">
                                     <p>業務を通して、長期的な信頼関係を構築しながら共に成長していけるパートナー会社様を募集しております。在目前にある案件を協力会社様に案内し、御社要員の有効活用を図っていただけたらと考えております。また弊社といたしましても、御社でお持ちの案件で、弊社のシステム開発関連技術者及びインフラ関連技術者など、弊社要員の有効活用を図っていただけたらと考えており、将来的には営業／技術にわたる協業体制をとらせていただくことを最終目標にしております。お問い合わせ、心よりお待ちしております。</p>
-                                    <a href="../contact/" class="btn-arr"><span>お問い合わせ</span></a>
+                                    <a href="/home-page/en/contact/" class="btn-arr"><span>お問い合わせ</span></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- <section class="sec-organization">
-            <div class="company-wrap">
-                <div class="c-w1170">
-                    <div class="c-blockLeft bg-green-light">
-                        <span id="organization" class="anchorpos"></span>
-                        <h3 class="sub-ttl02 col-green">Organization Chart<span>組織図</span></h3>
-                        <div class="chat-img">
-                            <img src="../../assets/img/company/organization-chart.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        </div>
-        <section class="sec-organization bg-green-light">
+        </section>        
+        <section class="sec-organization bg-green-light" data-aos="fade-up">
             <div class="company-wrap">
                 <div class="c-w1170">
                     <div class="">
                         <span id="organization" class="anchorpos"></span>
-                        <h3 class="sub-ttl02 col-green"><span class="text-un-yellow">Organization Chart</span><span class="h-text-jp">組織図</span></h3>
+                        <h2 class="ttl-subpage"><span class="text-un-yellow">組織図</span></h2>
                         <div class="chat-img">
-                            <img src="../../assets/img/company/organization-chart.png" alt="">
+                            <img src="/home-page/assets/img/company/organization-chart.png" alt="">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        </div>
         <div class="footerLogo bg-green-light">
             <div class="c-w1420 cFix">
-                <span class="footerLogoImg"><img src="../../assets/img/common/footer_logo2.png" alt="STAR SE株式会社"></span>
+                <span class="footerLogoImg"><img src="/home-page/assets/img/common/footer_logo2.png" alt="STAR SE株式会社"></span>
             </div> 
         </div>
         <!-- footerLogo -->
@@ -359,22 +358,22 @@
             <div class="footerBlock">
                 <div class="ftInner c-w1300 cFix">
                     <div class="ftLogo">
-                        <img src="../../assets/img/common/footer_logo.png" alt="STAR SE株式会社">
+                        <img src="/home-page/assets/img/common/footer_logo.png" alt="STAR SE株式会社">
                     </div>
                     <div class="ftDesp">
                         <p class="ftLogoText">STAR SE株式会社</p>
                         <div class="ftAddress">
                             <ul>
                                 <li class="cFix">
-                                    <span class="ft-icon"><img src="../../assets/img/common/icon_homeaddress.png" alt=""></span>
-                                    <p class="ftAddress-info">〒103-0011<br>東京都中央区日本橋大伝馬町17-6<br>日本橋小谷商事ビル2階</p>
+                                    <span class="ft-icon"><img src="/home-page/assets/img/common/icon_homeaddress.png" alt=""></span>
+                                    <p class="ftAddress-info">〒104-0043<br>東京都中央区湊2丁目4-1<br>ＴＯＭＡＣビル 5階</p>
                                 </li>
                                 <li class="cFix">
-                                    <span class="ft-icon"><img src="../../assets/img/common/icon_phone.png" alt=""></span>
+                                    <span class="ft-icon"><img src="/home-page/assets/img/common/icon_phone.png" alt=""></span>
                                     <p class="ftAddress-info"><a href="tel:03-5207-2956" class="tel">03-5207-2956</a></p>
                                 </li>
                                 <li class="cFix">
-                                    <span class="ft-icon"><img src="../../assets/img/common/icon_fax.png" alt=""></span>
+                                    <span class="ft-icon"><img src="/home-page/assets/img/common/icon_fax.png" alt=""></span>
                                     <p class="ftAddress-info">03-5207-2956</p>
                                 </li>
                             </ul>
@@ -390,9 +389,9 @@
         <!-- footer -->
     </div>
     <!-- wrapper -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
-    <script src="../../assets/js/aos.js"></script>
-    <script src="../../assets/js/subpage.js"></script>
-    <script src="../../assets/js/common.js"></script>
+    <script src="/home-page/assets/js/sub_particles.min.js"></script>
+    <script src="/home-page/assets/js/aos.js"></script>
+    <script src="/home-page/assets/js/subpage.js"></script>
+    <script src="/home-page/assets/js/common.js"></script>
 </body>
 </html>

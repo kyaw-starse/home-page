@@ -23,7 +23,7 @@
         <header class="headerBlock">
             <div class="header c-w1420">
                 <h1 class="h-logo">
-                    <a href="/home-page/jp/">
+                    <a href="/home-page/en/">
                         <img src="/home-page/assets/img/common/h_logo.png" alt="">
                         <p>STAR SE<span>All for your dream</span></p>
                     </a>
@@ -31,20 +31,20 @@
                 <div class="h-right cFix">
                     <nav class="nav-pc">
                         <ul class="cFix">
-                            <li><a href="/home-page/jp/company/"><span>会社情報</span></a></li>
-                            <li><a href="/home-page/jp/philosophy/"><span>経営理念</span></a></li>
-                            <li><a href="/home-page/jp/business/"><span>事業内容</span></a></li>
-                            <li><a href="/home-page/jp/recruit/"><span>採用情報</span></a></li>
-                            <li><a href="/home-page/jp/security/"><span>情報セキュリティ</span></a></li>
+                            <li><a href="/home-page/en/company/"><span>会社情報</span></a></li>
+                            <li><a href="/home-page/en/philosophy/"><span>経営理念</span></a></li>
+                            <li><a href="/home-page/en/business/"><span>事業内容</span></a></li>
+                            <li><a href="/home-page/en/recruit/"><span>採用情報</span></a></li>
+                            <li><a href="/home-page/en/security/"><span>情報セキュリティ</span></a></li>
                         </ul>
                     </nav>
                     <div class="h-utility">
                         <ul class="cFix">
-                            <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
-                            <li class="h-icon"><a href="/home-page/jp/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
+                            <li class="h-icon"><a href="/home-page/en/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
+                            <li class="h-icon"><a href="/home-page/en/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                             <li class="site-lang">
-                                <a href="/home-page/en/" class="lang-link">EN</a>
-                                <a href="/home-page/jp/" class="lang-link langOn">JP</a>
+                                <a href="" class="lang-link langOn">EN</a>
+                                <a href="" class="lang-link">JP</a>
                             </li>
                         </ul>
                     </div>
@@ -62,28 +62,18 @@
         <nav id="globalNav" class="globalNav">
             <div class="globalNav-inner">
                 <ul class="nav-sp">
-                    <li><a href="/home-page/jp/company/"><span>会社情報</span></a></li>
-                    <li><a href="/home-page/jp/philosophy/"><span>経営理念</span></a></li>
-                    <li><a href="/home-page/jp/business/"><span>事業内容</span></a></li>
-                    <li><a href="/home-page/jp/recruit/"><span>採用情報</span></a></li>
-                    <li><a href="/home-page/jp/security/"><span>情報セキュリティ</span></a></li>
+                    <li><a href="/home-page/en/company/"><span>会社情報</span></a></li>
+                    <li><a href="/home-page/en/philosophy/"><span>経営理念</span></a></li>
+                    <li><a href="/home-page/en/business/"><span>事業内容</span></a></li>
+                    <li><a href="/home-page/en/recruit/"><span>採用情報</span></a></li>
+                    <li><a href="/home-page/en/security/"><span>情報セキュリティ</span></a></li>
                 </ul>
-                <div class="h-utility">
-                    <ul class="cFix">
-                        <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
-                        <li class="h-icon"><a href="/home-page/jp/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
-                        <li class="site-lang">
-                            <a href="/home-page/en/" class="lang-link">EN</a>
-                            <a href="/home-page/jp/" class="lang-link langOn">JP</a>
-                        </li>
-                    </ul>
-                </div>
             </div>
         </nav>
         <div class="sub-banner form-banner">
         <canvas class="particlesBg"></canvas>
             <div class="sub-bannerIn c-w1170">
-                <h2 class="sub-ttl">事務・営業フォーム</h2>
+                <h2 class="sub-ttl">ssSSシステムエンジニアフォーム</h2>
             </div>
         </div>
         <!-- sub-banner -->
@@ -112,7 +102,7 @@
                             <div class="form-col2">
                                 <label for="" class="form-label">生年月日</label>
                                 <div class="form-inputText">
-                                    <input type="date" class="inputType" name="" id="" placeholder="">
+                                    <input type="text" class="inputType" name="" id="" placeholder="">
                                 </div>
                             </div>
                             <div class="form-col2">
@@ -180,18 +170,176 @@
                         </div>
                         <div class="form-row form-mb">
                             <div class="form-col1">
-                                <label for="" class="form-label">職種</label>
+                                <label for="" class="form-label">OS</label>
+                                <div class="form-row2 form-inputCheckbox">
+                                    <div class="form-col6">
+                                        <label for="Window">
+                                            <input type="checkbox" name="OS" id="Window">
+                                            <span class="form-checkbox">Window</span>
+                                        </label>
+                                    </div>
+                                    <div class="form-col6">
+                                        <label for="Linux">
+                                            <input type="checkbox" name="OS" id="Linux">
+                                            <span class="form-checkbox">Linux</span>
+                                        </label>
+                                    </div>
+                                    <div class="form-col6">
+                                        <label for="Mac">
+                                            <input type="checkbox" name="OS" id="Mac">
+                                            <span class="form-checkbox">Mac</span>
+                                        </label>
+                                    </div>
+                                    <div class="form-col6">
+                                        <label for="AIX">
+                                            <input type="checkbox" name="OS" id="AIX">
+                                            <span class="form-checkbox">AIX</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row form-mb">
+                            <div class="form-col1">
+                                <label for="" class="form-label">開発言語</label>
                                 <div class="form-row2 form-inputCheckbox">
                                     <div class="form-col6">
                                         <label for="">
                                             <input type="checkbox" name="" id="">
-                                            <span class="form-checkbox">営業</span>
+                                            <span class="form-checkbox">Java</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="">
                                             <input type="checkbox" name="" id="">
-                                            <span class="form-checkbox">事務</span>
+                                            <span class="form-checkbox">PHP</span>
+                                        </label>
+                                    </div>
+                                    <div class="form-col6">
+                                        <label for="">
+                                            <input type="checkbox" name="" id="">
+                                            <span class="form-checkbox">Python</span>
+                                        </label>
+                                    </div>
+                                    <div class="form-col6">
+                                        <label for="">
+                                            <input type="checkbox" name="" id="">
+                                            <span class="form-checkbox">C/C#/C++</span>
+                                        </label>
+                                    </div>
+                                    <div class="form-col6">
+                                        <label for="">
+                                            <input type="checkbox" name="" id="">
+                                            <span class="form-checkbox">Ruby</span>
+                                        </label>
+                                    </div>
+                                    <div class="form-col6">
+                                        <label for="">
+                                            <input type="checkbox" name="" id="">
+                                            <span class="form-checkbox">.NET</span>
+                                        </label>
+                                    </div>
+                                    <div class="form-col6">
+                                        <label for="">
+                                            <input type="checkbox" name="" id="">
+                                            <span class="form-checkbox">Javascript</span>
+                                        </label>
+                                    </div>
+                                    <div class="form-col6">
+                                        <label for="">
+                                            <input type="checkbox" name="" id="">
+                                            <span class="form-checkbox">Visual Basic</span>
+                                        </label>
+                                    </div>
+                                    <div class="form-col6">
+                                        <label for="">
+                                            <input type="checkbox" name="" id="">
+                                            <span class="form-checkbox">Android</span>
+                                        </label>
+                                    </div>
+                                    <div class="form-col6">
+                                        <label for="">
+                                            <input type="checkbox" name="" id="">
+                                            <span class="form-checkbox">SalesForce</span>
+                                        </label>
+                                    </div>
+                                    <div class="form-col6">
+                                        <label for="">
+                                            <input type="checkbox" name="" id="">
+                                            <span class="form-checkbox">IOS</span>
+                                        </label>
+                                    </div>
+                                    <div class="form-col6">
+                                        <label for="">
+                                            <input type="checkbox" name="" id="">
+                                            <span class="form-checkbox">その他</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row form-mb">
+                            <div class="form-col1">
+                                <label for="" class="form-label">DB</label>
+                                <div class="form-row2 form-inputCheckbox">
+                                    <div class="form-col6">
+                                        <label for="">
+                                            <input type="checkbox" name="" id="">
+                                            <span class="form-checkbox">Mysql</span>
+                                        </label>
+                                    </div>
+                                    <div class="form-col6">
+                                        <label for="">
+                                            <input type="checkbox" name="" id="">
+                                            <span class="form-checkbox">MariaDB</span>
+                                        </label>
+                                    </div>
+                                    <div class="form-col6">
+                                        <label for="">
+                                            <input type="checkbox" name="" id="">
+                                            <span class="form-checkbox">SQLite</span>
+                                        </label>
+                                    </div>
+                                    <div class="form-col6">
+                                        <label for="">
+                                            <input type="checkbox" name="" id="">
+                                            <span class="form-checkbox">Oracle</span>
+                                        </label>
+                                    </div>
+                                    <div class="form-col6">
+                                        <label for="">
+                                            <input type="checkbox" name="" id="">
+                                            <span class="form-checkbox">PostgreSQL</span>
+                                        </label>
+                                    </div>
+                                    <div class="form-col6">
+                                        <label for="">
+                                            <input type="checkbox" name="" id="">
+                                            <span class="form-checkbox">SQL Server</span>
+                                        </label>
+                                    </div>
+                                    <div class="form-col6">
+                                        <label for="">
+                                            <input type="checkbox" name="" id="">
+                                            <span class="form-checkbox">DB2</span>
+                                        </label>
+                                    </div>
+                                    <div class="form-col6">
+                                        <label for="">
+                                            <input type="checkbox" name="" id="">
+                                            <span class="form-checkbox">PL/SQL</span>
+                                        </label>
+                                    </div>
+                                    <div class="form-col6">
+                                        <label for="">
+                                            <input type="checkbox" name="" id="">
+                                            <span class="form-checkbox">Access</span>
+                                        </label>
+                                    </div>
+                                    <div class="form-col6">
+                                        <label for="">
+                                            <input type="checkbox" name="" id="">
+                                            <span class="form-checkbox">その他</span>
                                         </label>
                                     </div>
                                 </div>

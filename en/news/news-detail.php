@@ -23,7 +23,7 @@
         <header class="headerBlock">
             <div class="header c-w1420">
                 <h1 class="h-logo">
-                    <a href="/home-page/jp/">
+                    <a href="/home-page/en/">
                         <img src="/home-page/assets/img/common/h_logo.png" alt="">
                         <p>STAR SE<span>All for your dream</span></p>
                     </a>
@@ -31,20 +31,20 @@
                 <div class="h-right cFix">
                     <nav class="nav-pc">
                         <ul class="cFix">
-                            <li><a href="/home-page/jp/company/"><span>会社情報</span></a></li>
-                            <li><a href="/home-page/jp/philosophy/"><span>経営理念</span></a></li>
-                            <li><a href="/home-page/jp/business/"><span>事業内容</span></a></li>
-                            <li><a href="/home-page/jp/recruit/"><span>採用情報</span></a></li>
-                            <li><a href="/home-page/jp/security/" class="navpc-active"><span>情報セキュリティ</span></a></li>
+                            <li><a href="/home-page/en/company/"><span>会社情報</span></a></li>
+                            <li><a href="/home-page/en/philosophy/"><span>経営理念</span></a></li>
+                            <li><a href="/home-page/en/business/"><span>事業内容</span></a></li>
+                            <li><a href="/home-page/en/recruit/"><span>採用情報</span></a></li>
+                            <li><a href="/home-page/en/security/" class="navpc-active"><span>情報セキュリティ</span></a></li>
                         </ul>
                     </nav>
                     <div class="h-utility">
                         <ul class="cFix">
-                            <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
-                            <li class="h-icon"><a href="/home-page/jp/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
+                            <li class="h-icon"><a href="/home-page/en/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
+                            <li class="h-icon"><a href="/home-page/en/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                             <li class="site-lang">
-                                <a href="/home-page/en/" class="lang-link">EN</a>
-                                <a href="/home-page/jp/" class="lang-link langOn">JP</a>
+                                <a href="/home-page/en/" class="lang-link langOn">EN</a>
+                                <a href="/home-page/jp/" class="lang-link">JP</a>
                             </li>
                         </ul>
                     </div>
@@ -62,19 +62,19 @@
         <nav id="globalNav" class="globalNav">
             <div class="globalNav-inner">
                 <ul class="nav-sp">
-                    <li><a href="/home-page/jp/company/"><span>会社情報</span></a></li>
-                    <li><a href="/home-page/jp/philosophy/"><span>経営理念</span></a></li>
-                    <li><a href="/home-page/jp/business/"><span>事業内容</span></a></li>
-                    <li><a href="/home-page/jp/recruit/"><span>採用情報</span></a></li>
-                    <li><a href="/home-page/jp/security/"><span>情報セキュリティ</span></a></li>
+                    <li><a href="/home-page/en/company/"><span>会社情報</span></a></li>
+                    <li><a href="/home-page/en/philosophy/"><span>経営理念</span></a></li>
+                    <li><a href="/home-page/en/business/"><span>事業内容</span></a></li>
+                    <li><a href="/home-page/en/recruit/"><span>採用情報</span></a></li>
+                    <li><a href="/home-page/en/security/"><span>情報セキュリティ</span></a></li>
                 </ul>
                 <div class="h-utility">
                     <ul class="cFix">
-                        <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
-                        <li class="h-icon"><a href="/home-page/jp/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
+                        <li class="h-icon"><a href="/home-page/en/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
+                        <li class="h-icon"><a href="/home-page/en/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                         <li class="site-lang">
-                            <a href="/home-page/en/" class="lang-link">EN</a>
-                            <a href="/home-page/jp/" class="lang-link langOn">JP</a>
+                            <a href="/home-page/en/en/" class="lang-link">EN</a>
+                            <a href="/home-page/en/jp/" class="lang-link langOn">JP</a>
                         </li>
                     </ul>
                 </div>
@@ -83,48 +83,32 @@
         <div class="sub-banner">
             <canvas class="particlesBg"></canvas>
             <div class="sub-bannerIn c-w1170">
-                <h2 class="sub-ttl">ニュース</h2>
+                <h2 class="sub-ttl">ssニュース</h2>
                 <img src="/home-page/assets/img/philosophy/bnr_img.jpg" class="sub-bannerImg" alt="">
             </div>
         </div>
         <!-- sub-banner -->
         <div class="content">
-        <section class="news-page">
+        <section class="news-detail">
             <div class="c-w1170">
                 <h2 class="ttl-subpage"><span class="text-un-yellow">ニュース</span></h2>
-                <div class="newsBlock cFix">
-                    <ul>
-                        <li data-aos="fade-up" data-aos-delay="50">
-                            <a href="" class="newsLink">
-                                <span class="newsDate">2023/2/1</span>
-                                <p class="newsTtl">事務所を八丁堀に移動</p>
-                            </a>
-                        </li>
-                        <li data-aos="fade-up" data-aos-delay="70">
-                            <a href="" class="newsLink">
-                                <span class="newsDate">2023/2/1</span>
-                                <p class="newsTtl">ミャンマー支社設立</p>
-                            </a>
-                        </li>
-                        <li data-aos="fade-up" data-aos-delay="90">
-                            <a href="" class="newsLink">
-                                <span class="newsDate">2023/1/22</span>
-                                <p class="newsTtl">会社は10年周を迎う</p>
-                            </a>
-                        </li>
-                        <li data-aos="fade-up" data-aos-delay="110">
-                            <a href="" class="newsLink">
-                                <span class="newsDate">2022/11/25</span>
-                                <p class="newsTtl">DX戦略を策定</p>
-                            </a>
-                        </li>
-                        <li data-aos="fade-up" data-aos-delay="130">
-                            <a href="" class="newsLink">
-                                <span class="newsDate">2022/7/1</span>
-                                <p class="newsTtl">DX方針を宣言</p>
-                            </a>
-                        </li>
-                    </ul>
+                <div class="letter">
+                    <div class="news-detailBlock">
+                        <p><strong>2022年11月25日</strong></p>
+                        <p>
+                            STAR SEのDXソリューションの一つである「技術者情報提供サービス“絆”」の開発では、既存のシステム開発手法変革のテストケースとして、 「アジャイル開発」「リモートワークでの開発」を実施しています。
+                        </p>
+                        <p>
+                            システム開発は予定通りに進んでいますが、アジャイル開発特有の様々な課題が見つかりました。一例では、テーマ毎に開発しながらも開発途中で次のテーマが開発途中の環境では実現されないことが判り、一旦　開発環境を変更するという事象です。
+                        </p>
+                        <p>
+                            この様に、様々な課題に対し繰り返し改善を進め対応していくことは経験値として蓄積され、何れはお客様からのご依頼に対して、より効率の良いスピードのあるシステムを提供し顧客満足度向上に役立てられると考えます。
+                        </p>
+                        <p>
+                            この様に自社内でもＤＸを適用するソリューションを開発しながら技術者の育成を行い、ＤＸ化を検討中のお客様に対し、お客様のともに考え実現できる企業を目指します。
+                        </p>
+                        <p class="txt-right"><strong>代表取締役 金本 香蘭</strong></p>
+                    </div>
                 </div>
             </div>
         </section>

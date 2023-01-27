@@ -8,44 +8,44 @@
     <meta name="keywords" content="star se,starse,star,it star se,star se japan,starse japan,スター,スターエスイー,STAR SE株式会社">
     <meta name="description" content="弊社は、ソフトウェア開発からインフラ設計構築、システム運用支援までトータルなソリューションを提供する“ITソリューション”の拡充に加え、 IT業界の人材不足の課題対応策として“社員教育”の強化に取り組んでおります。">
     <meta name="google-site-verification" content="Dg_pvHrLYsE_PNW7oubm3Xw5aWYEPksmjpJwXLBG0Sk"/>
-    <link rel="shortcut icon" href="../../assets/img/common/favicon.png" type="image/x-icon">
-    <link rel="icon" href="../../assets/img/common/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/home-page/assets/img/common/favicon.png" type="image/x-icon">
+    <link rel="icon" href="/home-page/assets/img/common/favicon.png" type="image/x-icon">
     <title>会社情報</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../assets/css/import.css">
-    <link rel="stylesheet" href="../../assets/css/aos.css">
-    <link rel="stylesheet" href="../../assets/css/pc_style.css">
-    <link rel="stylesheet" href="../../assets/css/sp_style.css">
-    <link rel="stylesheet" href="../../assets/css/common.css">
-    <script src="../../assets/js/jquery.min.js"></script>
+    <link rel="stylesheet" href="/home-page/assets/css/import.css">
+    <link rel="stylesheet" href="/home-page/assets/css/aos.css">
+    <link rel="stylesheet" href="/home-page/assets/css/pc_style.css">
+    <link rel="stylesheet" href="/home-page/assets/css/sp_style.css">
+    <link rel="stylesheet" href="/home-page/assets/css/common.css">
+    <script src="/home-page/assets/js/jquery.min.js"></script>
 </head>
 <body id="top">
     <div id="wrapper">
         <header class="headerBlock">
             <div class="header c-w1420">
                 <h1 class="h-logo">
-                    <a href="../">
-                        <img src="../../assets/img/common/h_logo.png" alt="">
+                    <a href="/home-page/jp/">
+                        <img src="/home-page/assets/img/common/h_logo.png" alt="">
                         <p>STAR SE<span>All for your dream</span></p>
                     </a>
                 </h1>
                 <div class="h-right cFix">
                     <nav class="nav-pc">
                         <ul class="cFix">
-                            <li><a href="./" class="navpc-active"><span>会社情報</span></a></li>
-                            <li><a href="../philosophy/"><span>経営理念</span></a></li>
-                            <li><a href="../business/"><span>事業内容</span></a></li>
-                            <li><a href="../recruit/"><span>採用情報</span></a></li>
-                            <li><a href="../security/"><span>情報セキュリティ</span></a></li>
+                            <li><a href="/home-page/jp/company/" class="navpc-active"><span>会社情報</span></a></li>
+                            <li><a href="/home-page/jp/philosophy/"><span>経営理念</span></a></li>
+                            <li><a href="/home-page/jp/business/"><span>事業内容</span></a></li>
+                            <li><a href="/home-page/jp/recruit/"><span>採用情報</span></a></li>
+                            <li><a href="/home-page/jp/security/"><span>情報セキュリティ</span></a></li>
                         </ul>
                     </nav>
                     <div class="h-utility">
                         <ul class="cFix">
-                            <li class="h-icon"><a href="" class="mail-icon"><img src="../../assets/img/common/mail_off.png" alt=""></a></li>
-                            <li class="h-icon"><a href="" class="lock-icon"><img src="../../assets/img/common/lock_off.png" alt=""></a></li>
+                            <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
+                            <li class="h-icon"><a href="/home-page/jp/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                             <li class="site-lang">
-                                <a href="" class="lang-link langOn">EN</a>
-                                <a href="" class="lang-link">JP</a>
+                                <a href="/home-page/en/" class="lang-link langOn">EN</a>
+                                <a href="/home-page/jp/" class="lang-link">JP</a>
                             </li>
                         </ul>
                     </div>
@@ -63,19 +63,19 @@
         <nav id="globalNav" class="globalNav">
             <div class="globalNav-inner">
                 <ul class="nav-sp">
-                    <li><a href="./"><span>会社情報</span></a></li>
-                    <li><a href="../philosophy/"><span>経営理念</span></a></li>
-                    <li><a href="../business/"><span>事業内容</span></a></li>
-                    <li><a href="../recruit/"><span>採用情報</span></a></li>
-                    <li><a href="../security/"><span>情報セキュリティ</span></a></li>
+                    <li><a href="/home-page/jp/company/"><span>会社情報</span></a></li>
+                    <li><a href="/home-page/jp/philosophy/"><span>経営理念</span></a></li>
+                    <li><a href="/home-page/jp/business/"><span>事業内容</span></a></li>
+                    <li><a href="/home-page/jp/recruit/"><span>採用情報</span></a></li>
+                    <li><a href="/home-page/jp/security/"><span>情報セキュリティ</span></a></li>
                 </ul>
                 <div class="h-utility">
                     <ul class="cFix">
-                        <li class="h-icon"><a href="../contact/" class="mail-icon"><img src="../../assets/img/common/mail_off.png" alt=""></a></li>
-                        <li class="h-icon"><a href="../login/" class="lock-icon"><img src="../../assets/img/common/lock_off.png" alt=""></a></li>
+                        <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
+                        <li class="h-icon"><a href="/home-page/jp/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                         <li class="site-lang">
-                            <a href="../en/" class="lang-link">EN</a>
-                            <a href="../jp/" class="lang-link langOn">JP</a>
+                            <a href="/home-page/jp/en/" class="lang-link">EN</a>
+                            <a href="/home-page/jp/jp/" class="lang-link langOn">JP</a>
                         </li>
                     </ul>
                 </div>
@@ -85,7 +85,7 @@
             <canvas class="particlesBg"></canvas>
             <div class="sub-bannerIn c-w1170">
                 <h2 class="sub-ttl">会社情報</h2>
-                <img src="../../assets/img/company/bnr_img.jpg" class="sub-bannerImg" alt="">
+                <img src="/home-page/assets/img/company/bnr_img.jpg" class="sub-bannerImg" alt="">
             </div>
         </div>
         <!-- main-mv -->
@@ -158,8 +158,8 @@
                                     <td>
                                         <p>労働者派遣事業許可番号 派13-312273<br>有料職業紹介事業許可 13-ユ-309929<br>プライバシーマーク 第22000213号<br>ISO/IEC 27001:2013 認証登録番号 J0437（2020/12/17取得）</p>
                                         <ul class="company-infologo">
-                                            <li><img src="../../assets/img/company/logo_iso1.png" alt=""></li>
-                                            <li><img src="../../assets/img/company/logo_iso2.png" alt=""></li>
+                                            <li><img src="/home-page/assets/img/company/logo_iso1.png" alt=""></li>
+                                            <li><img src="/home-page/assets/img/company/logo_iso2.png" alt=""></li>
                                         </ul>
                                     </td>
                                 </tr>
@@ -321,12 +321,12 @@
                         <h2 class="ttl-subpage"><span class="text-un-yellow">協業パートナー募集</span></h2>
                         <div class="businessBlock cFix">
                             <div class="b-boxLeft">
-                                <div><img src="../../assets/img/company/business_img.png" alt=""></div>
+                                <div><img src="/home-page/assets/img/company/business_img.png" alt=""></div>
                             </div>
                             <div class="b-boxRight">
                                 <div class="b-boxIn cFix">
                                     <p>業務を通して、長期的な信頼関係を構築しながら共に成長していけるパートナー会社様を募集しております。在目前にある案件を協力会社様に案内し、御社要員の有効活用を図っていただけたらと考えております。また弊社といたしましても、御社でお持ちの案件で、弊社のシステム開発関連技術者及びインフラ関連技術者など、弊社要員の有効活用を図っていただけたらと考えており、将来的には営業／技術にわたる協業体制をとらせていただくことを最終目標にしております。お問い合わせ、心よりお待ちしております。</p>
-                                    <a href="../contact/" class="btn-arr"><span>お問い合わせ</span></a>
+                                    <a href="/home-page/jp/contact/" class="btn-arr"><span>お問い合わせ</span></a>
                                 </div>
                             </div>
                         </div>
@@ -341,7 +341,7 @@
                         <span id="organization" class="anchorpos"></span>
                         <h2 class="ttl-subpage"><span class="text-un-yellow">組織図</span></h2>
                         <div class="chat-img">
-                            <img src="../../assets/img/company/organization-chart.png" alt="">
+                            <img src="/home-page/assets/img/company/organization-chart.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -350,7 +350,7 @@
         </div>
         <div class="footerLogo bg-green-light">
             <div class="c-w1420 cFix">
-                <span class="footerLogoImg"><img src="../../assets/img/common/footer_logo2.png" alt="STAR SE株式会社"></span>
+                <span class="footerLogoImg"><img src="/home-page/assets/img/common/footer_logo2.png" alt="STAR SE株式会社"></span>
             </div> 
         </div>
         <!-- footerLogo -->
@@ -358,22 +358,22 @@
             <div class="footerBlock">
                 <div class="ftInner c-w1300 cFix">
                     <div class="ftLogo">
-                        <img src="../../assets/img/common/footer_logo.png" alt="STAR SE株式会社">
+                        <img src="/home-page/assets/img/common/footer_logo.png" alt="STAR SE株式会社">
                     </div>
                     <div class="ftDesp">
                         <p class="ftLogoText">STAR SE株式会社</p>
                         <div class="ftAddress">
                             <ul>
                                 <li class="cFix">
-                                    <span class="ft-icon"><img src="../../assets/img/common/icon_homeaddress.png" alt=""></span>
+                                    <span class="ft-icon"><img src="/home-page/assets/img/common/icon_homeaddress.png" alt=""></span>
                                     <p class="ftAddress-info">〒104-0043<br>東京都中央区湊2丁目4-1<br>ＴＯＭＡＣビル 5階</p>
                                 </li>
                                 <li class="cFix">
-                                    <span class="ft-icon"><img src="../../assets/img/common/icon_phone.png" alt=""></span>
+                                    <span class="ft-icon"><img src="/home-page/assets/img/common/icon_phone.png" alt=""></span>
                                     <p class="ftAddress-info"><a href="tel:03-5207-2956" class="tel">03-5207-2956</a></p>
                                 </li>
                                 <li class="cFix">
-                                    <span class="ft-icon"><img src="../../assets/img/common/icon_fax.png" alt=""></span>
+                                    <span class="ft-icon"><img src="/home-page/assets/img/common/icon_fax.png" alt=""></span>
                                     <p class="ftAddress-info">03-5207-2956</p>
                                 </li>
                             </ul>
@@ -389,9 +389,9 @@
         <!-- footer -->
     </div>
     <!-- wrapper -->
-    <script src="../../assets/js/sub_particles.min.js"></script>
-    <script src="../../assets/js/aos.js"></script>
-    <script src="../../assets/js/subpage.js"></script>
-    <script src="../../assets/js/common.js"></script>
+    <script src="/home-page/assets/js/sub_particles.min.js"></script>
+    <script src="/home-page/assets/js/aos.js"></script>
+    <script src="/home-page/assets/js/subpage.js"></script>
+    <script src="/home-page/assets/js/common.js"></script>
 </body>
 </html>
