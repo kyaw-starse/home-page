@@ -95,31 +95,31 @@
                 <div class="newsBlock cFix">
                     <ul>
                         <li data-aos="fade-up" data-aos-delay="50">
-                            <a href="" class="newsLink">
+                            <a href="javascript:void(0)" class="newsLink">
                                 <span class="newsDate">2023/2/1</span>
                                 <p class="newsTtl">事務所を八丁堀に移動</p>
                             </a>
                         </li>
                         <li data-aos="fade-up" data-aos-delay="70">
-                            <a href="" class="newsLink">
-                                <span class="newsDate">2023/2/1</span>
+                            <a href="javascript:void(0)" class="newsLink">
+                                <span class="newsDate">2023/1/22</span>
                                 <p class="newsTtl">ミャンマー支社設立</p>
                             </a>
                         </li>
                         <li data-aos="fade-up" data-aos-delay="90">
-                            <a href="" class="newsLink">
+                            <a href="javascript:void(0)" class="newsLink">
                                 <span class="newsDate">2023/1/22</span>
                                 <p class="newsTtl">会社は10年周を迎う</p>
                             </a>
                         </li>
                         <li data-aos="fade-up" data-aos-delay="110">
-                            <a href="" class="newsLink">
+                            <a href="/home-page/jp/news/news-detail.php" class="newsLink">
                                 <span class="newsDate">2022/11/25</span>
                                 <p class="newsTtl">DX戦略を策定</p>
                             </a>
                         </li>
                         <li data-aos="fade-up" data-aos-delay="130">
-                            <a href="" class="newsLink">
+                            <a href="javascript:void(0)" class="newsLink">
                                 <span class="newsDate">2022/7/1</span>
                                 <p class="newsTtl">DX方針を宣言</p>
                             </a>

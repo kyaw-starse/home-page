@@ -23,7 +23,7 @@
         <header class="headerBlock">
             <div class="header c-w1420">
                 <h1 class="h-logo">
-                    <a href="#">
+                    <a href="/home-page/jp/">
                         <img src="/home-page/assets/img/common/h_logo.png" alt="">
                         <p>STAR SE<span>All for your dream</span></p>
                     </a>
@@ -91,6 +91,7 @@
         <div class="content">
         <section class="business-sec01">
             <div class="c-w1170">
+                <span id="business01" class="anchorpos"></span>
                 <div class="ttl-number"><span>01</span></div>
                 <h2 class="ttl-subpage"><span class="text-un-yellow">SE業務</span></h2>
                 <div class="business-bg bg-yello-light">
@@ -175,8 +176,10 @@
                 </div>
             </div>
         </section>
+        <!-- <span id="" class="anchorpos"></span> -->
         <section class="business-sec02">
             <div class="c-w1170">
+            <span id="business02" class="anchorpos"></span>
                 <div class="ttl-number"><span>02</span></div>
                 <h2 class="ttl-subpage"><span class="text-un-yellow">SE業務</span></h2>
                 <div class="business-bg bg-yello-light">
@@ -233,6 +236,7 @@
         </section>
         <section class="business-sec03">
         <div class="c-w1170">
+            <span id="business03" class="anchorpos"></span>
                 <div class="ttl-number"><span>03</span></div>
                 <h2 class="ttl-subpage"><span class="text-un-yellow">SE業務</span></h2>
                 <div class="business-bg bg-yello-light">

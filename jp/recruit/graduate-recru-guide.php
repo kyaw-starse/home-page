@@ -83,7 +83,7 @@
         <div class="sub-banner">
             <canvas class="particlesBg"></canvas>
             <div class="sub-bannerIn c-w1170">
-                <h2 class="sub-ttl">キャリア募集要項</h2>
+                <h2 class="sub-ttl">新卒/第二新卒募集要項</h2>
                 <img src="/home-page/assets/img/philosophy/bnr_img.jpg" class="sub-bannerImg" alt="">
             </div>
         </div>
@@ -259,9 +259,9 @@
                 </div>
             </div>
         </section>
-        <section class="sec-graduate04 bg-green-light">
+        <section id="graduate04" class="sec-graduate04 bg-green-light">
             <div class="c-w1170">
-                <span id="sec-graduate04" class="anchorpos"></span>
+                <span class="anchorpos"></span>
                 <h2 class="ttl-subpage"><span class="text-un-yellow">募集要項</span></h2>
                 <div data-aos="fade-up">
                     <div class="sec-table table-style01">

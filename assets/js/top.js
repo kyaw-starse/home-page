@@ -79,7 +79,7 @@ jQuery(function($) {
                     od1 = new Odometer({
                         el: el1,
                     });
-                    el1.innerHTML = 55
+                    el1.innerHTML = 60
         
                     var el2 = document.querySelector('.odometer-a2');
                     od2 = new Odometer({
@@ -99,29 +99,29 @@ jQuery(function($) {
                     });
                     el4.innerHTML = 10
 
-                    var el5 = document.querySelector('.odometer-b3');
+                    var el5 = document.querySelector('.odometer-b1');
                     od5 = new Odometer({
                         el: el5,
                     });
-                    el5.innerHTML = 5
+                    el5.innerHTML = 50
         
-                    var el6 = document.querySelector('.odometer-b1');
+                    var el6 = document.querySelector('.odometer-b2');
                     od6 = new Odometer({
                         el: el6,
                     });
-                    el6.innerHTML = 5
+                    el6.innerHTML = 20
 
-                    var el7 = document.querySelector('.odometer-b2');
+                    var el7 = document.querySelector('.odometer-b3');
                     od7 = new Odometer({
                         el: el7,
                     });
-                    el7.innerHTML = 5
+                    el7.innerHTML = 10
 
                     var el8 = document.querySelector('.odometer-b4');
                     od8 = new Odometer({
                         el: el8,
                     });
-                    el8.innerHTML = 5
+                    el8.innerHTML = 20
 
                 }, 50);
             }

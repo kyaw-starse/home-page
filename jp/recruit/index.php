@@ -128,7 +128,7 @@
                                             </li>
                                         </ul>
                                         <div class="sec-btn02">
-                                            <a href="./career-app-guide.php#sec-carrer01" class="btn02">詳しくはこちら</a>
+                                            <a href="/home-page/jp/recruit/career-app-guide.php#sec-carrer01" class="btn02">詳しくはこちら</a>
                                         </div>
                                     </div>
                                 </div>
@@ -168,7 +168,7 @@
                                             </li>
                                         </ul>
                                         <div class="sec-btn02">
-                                            <a href="./career-app-guide.php#sec-carrer02" class="btn02">詳しくはこちら</a>
+                                            <a href="/home-page/jp/recruit/career-app-guide.php#sec-carrer02" class="btn02">詳しくはこちら</a>
                                         </div>
                                     </div>
                                 </div>
@@ -208,7 +208,7 @@
                                             </li>
                                         </ul>
                                         <div class="sec-btn02">
-                                            <a href="./career-app-guide.php#sec-carrer03" class="btn02">詳しくはこちら</a>
+                                            <a href="/home-page/jp/recruit/career-app-guide.php#sec-carrer03" class="btn02">詳しくはこちら</a>
                                         </div>
                                     </div>
                                 </div>
@@ -249,7 +249,7 @@
                                             </li>
                                         </ul>
                                         <div class="sec-btn02">
-                                            <a href="./graduate-recru-guide.php#sec-graduate04" class="btn02">詳しくはこちら</a>
+                                            <a href="/home-page/jp/recruit/graduate-recru-guide.php#graduate04" class="btn02">詳しくはこちら</a>
                                         </div>
                                     </div>
                                 </div>
