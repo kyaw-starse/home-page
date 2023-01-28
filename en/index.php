@@ -143,6 +143,12 @@
                             <div class="ceoMessagePara" data-aos="fade-right" data-aos-delay="150" data-aos-duration="1000" data-aos-offset="0">
                                 <p>
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem esse libero aliquam reprehenderit veritatis eligendi veniam nemo omnis natus sit.
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem esse libero aliquam reprehenderit veritatis eligendi veniam nemo omnis natus sit.
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem esse libero aliquam reprehenderit veritatis eligendi veniam nemo omnis natus sit.
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem esse libero aliquam reprehenderit veritatis eligendi veniam nemo omnis natus sit.
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem esse libero aliquam reprehenderit veritatis eligendi veniam nemo omnis natus sit.
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem esse libero aliquam reprehenderit veritatis eligendi veniam nemo omnis natus sit.
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem esse libero aliquam reprehenderit veritatis eligendi veniam nemo omnis natus sit.
                                 </p>
                                 <p class="ceoName">代表取締役<span>金本 香蘭</span></p>
                             </div>

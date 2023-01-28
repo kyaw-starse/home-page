@@ -471,7 +471,13 @@ footer {
     .globalNav {
         display: block;
     }
-    .h-utility ul {
+    .h-utility {
+        margin-left: 0;
+    }
+    .h-utility ul { 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
         margin: 20px auto;
     }
     .h-utility ul li.h-icon a {

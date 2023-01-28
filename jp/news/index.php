@@ -35,7 +35,7 @@
                             <li><a href="/home-page/jp/philosophy/"><span>経営理念</span></a></li>
                             <li><a href="/home-page/jp/business/"><span>事業内容</span></a></li>
                             <li><a href="/home-page/jp/recruit/"><span>採用情報</span></a></li>
-                            <li><a href="/home-page/jp/security/" class="navpc-active"><span>情報セキュリティ</span></a></li>
+                            <li><a href="/home-page/jp/security/"><span>情報セキュリティ</span></a></li>
                         </ul>
                     </nav>
                     <div class="h-utility">
@@ -91,7 +91,7 @@
         <div class="content">
         <section class="news-page">
             <div class="c-w1170">
-                <h2 class="ttl-subpage"><span class="text-un-yellow">ニュース</span></h2>
+                <!-- <h2 class="ttl-subpage"><span class="text-un-yellow">ニュース</span></h2> -->
                 <div class="newsBlock cFix">
                     <ul>
                         <li data-aos="fade-up" data-aos-delay="50">

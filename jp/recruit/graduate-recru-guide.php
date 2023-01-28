@@ -144,11 +144,11 @@
                 </div>
             </div>
         </section>
-        <section class="sec-graduate02 bg-green-light">
+        <section class="sec-graduate02 bg-green-light" data-aos="fade-up">
             <div class="c-w1170">
                 <h2 class="ttl-subpage"><span class="text-un-yellow">よくある質問</span></h2>
                 <div>
-                    <ul class="accordion-area" data-aos="fade-up">
+                    <ul class="accordion-area">
                         <li>
                             <div class="accordian-div">
                                 <h2 class="accordian-title accordian-ques"><span class="acc-ques">Q.&nbsp;</span>新卒採用での入社時期は4月のみですか？</h2>
@@ -214,10 +214,10 @@
                 </div>
             </div>
         </section>
-        <section class="sec-graduate03">
+        <section class="sec-graduate03" data-aos="fade-up">
             <div class="c-w1170">
                 <h2 class="ttl-subpage"><span class="text-un-yellow">職場風景</span></h2>
-                <div data-aos="fade-up">
+                <div>
                     <ul class="recruitList-block">
                         <li class="recruitList-li">
                             <div class="recruitList-content">
@@ -259,11 +259,11 @@
                 </div>
             </div>
         </section>
-        <section id="graduate04" class="sec-graduate04 bg-green-light">
-            <div class="c-w1170">
-                <span class="anchorpos"></span>
-                <h2 class="ttl-subpage"><span class="text-un-yellow">募集要項</span></h2>
-                <div data-aos="fade-up">
+        <section class="sec-graduate04 bg-green-light">
+            <span class="anchorpos"></span>
+            <div id="graduate04" class="c-w1170">
+                <div>
+                    <h2 class="ttl-subpage"><span class="text-un-yellow">募集要項</span></h2>
                     <div class="sec-table table-style01">
                         <table>
                             <colgroup>
@@ -437,6 +437,5 @@
     <script src="/home-page/assets/js/aos.js"></script>
     <script src="/home-page/assets/js/subpage.js"></script>
     <script src="/home-page/assets/js/common.js"></script>
-
 </body>
 </html>

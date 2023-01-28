@@ -33,7 +33,7 @@
                         <ul class="cFix">
                             <li><a href="/home-page/jp/company/"><span>会社情報</span></a></li>
                             <li><a href="/home-page/jp/philosophy/"><span>経営理念</span></a></li>
-                            <li><a href="/home-page/jp/business/" class="navpc-active"><span>事業内容</span></a></li>
+                            <li><a href="/home-page/jp/business/"><span>事業内容</span></a></li>
                             <li><a href="/home-page/jp/recruit/"><span>採用情報</span></a></li>
                             <li><a href="/home-page/jp/security/"><span>情報セキュリティ</span></a></li>
                         </ul>
@@ -64,7 +64,7 @@
                 <ul class="nav-sp">
                     <li><a href="/home-page/jp/company/"><span>会社情報</span></a></li>
                     <li><a href="/home-page/jp/philosophy/"><span>経営理念</span></a></li>
-                    <li><a href="/home-page/jp/business/" class="navpc-active"><span>事業内容</span></a></li>
+                    <li><a href="/home-page/jp/business/"><span>事業内容</span></a></li>
                     <li><a href="/home-page/jp/recruit/"><span>採用情報</span></a></li>
                     <li><a href="/home-page/jp/security/"><span>情報セキュリティ</span></a></li>
                 </ul>
@@ -92,186 +92,195 @@
         <section class="business-sec01">
             <div class="c-w1170">
                 <span id="business01" class="anchorpos"></span>
-                <div class="ttl-number"><span>01</span></div>
-                <h2 class="ttl-subpage"><span class="text-un-yellow">SE業務</span></h2>
-                <div class="business-bg bg-yello-light">
-                    <div class="circle-iconBlock">
-                        <ul class="circle-iconLst">
-                            <li>
-                                <div class="circle-block">
-                                    <img src="/home-page/assets/img/business/bank_icon.png" alt="">
-                                    <p>金融機関系</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="circle-block">
-                                    <img src="/home-page/assets/img/business/eco_house_icon.png" alt="">
-                                    <p>電力・ガス業</p>
-                                </div>
-                            </li>
-                        </ul>
-                        <ul class="circle-iconLst">
-                            <li>
-                                <div class="circle-block">
-                                    <img src="/home-page/assets/img/business/relations_icon.png" alt="">
-                                    <p>勤務管理系</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="circle-block">
-                                    <img src="/home-page/assets/img/business/funding_icon.png" alt="">
-                                    <p>卸売業、小売業</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="circle-block">
-                                    <img src="/home-page/assets/img/business/other_icon.png" alt="">
-                                    <p>その他</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div>
-                    <div class="textBox">
-                        <h2 class="boxTxt">金融機関系</h2>
-                        <div class="boxDesp">
-                            <p>
-                            弊社は、IT関連の専門的な知識・経験を持った「プロフェッショナル」の集団です。 
-                            </p>
+                <div data-aos="fade-up">
+                    <div class="ttl-number"><span>01</span></div>
+                    <h2 class="ttl-subpage"><span class="text-un-yellow">SE業務</span></h2>
+                    <div class="business-bg bg-yello-light">
+                        <div class="circle-iconBlock">
+                            <ul class="circle-iconLst">
+                                <li>
+                                    <div class="circle-block">
+                                        <img src="/home-page/assets/img/business/bank_icon.png" alt="">
+                                        <p>金融・保険業</p>
+                                    </div>
+                                </li>
+                                <li class="sp">
+                                    <div class="circle-block">
+                                        <img src="/home-page/assets/img/business/eco_house_icon.png" alt="">
+                                        <p>電力・ガス業</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="circle-iconLst">
+                                <li class="pc">
+                                    <div class="circle-block">
+                                        <img src="/home-page/assets/img/business/eco_house_icon.png" alt="">
+                                        <p>電力・ガス業</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="circle-block">
+                                        <img src="/home-page/assets/img/business/funding_icon.png" alt="">
+                                        <p>卸売業、小売業</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="circle-block">
+                                        <img src="/home-page/assets/img/business/other_icon.png" alt="">
+                                        <p>その他</p>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="textBox">
-                        <h2 class="boxTxt">電力・ガス業</h2>
-                        <div class="boxDesp">
-                            <p>
-                            弊社は、IT関連の専門的な知識・経験を持った「プロフェッショナル」の集団です。 
-                            </p>
+                    <div>
+                        <div class="textBox">
+                            <h2 class="boxTxt">金融・保険業</h2>
+                            <div class="boxDesp">
+                                <p>
+                                弊社は、IT関連の専門的な知識・経験を持った「プロフェッショナル」の集団です。 
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="textBox">
-                        <h2 class="boxTxt">勤務管理系</h2>
-                        <div class="boxDesp">
-                            <p>
-                            弊社は、IT関連の専門的な知識・経験を持った「プロフェッショナル」の集団です。  
-                            </p>
+                        <div class="textBox">
+                            <h2 class="boxTxt">電力・ガス業</h2>
+                            <div class="boxDesp">
+                                <p>
+                                弊社は、IT関連の専門的な知識・経験を持った「プロフェッショナル」の集団です。 
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="textBox">
-                        <h2 class="boxTxt">卸売業、小売業</h2>
-                        <div class="boxDesp">
-                            <p>
-                            弊社は、IT関連の専門的な知識・経験を持った「プロフェッショナル」の集団です。
-                            </p>
+                        <div class="textBox">
+                            <h2 class="boxTxt">卸売業、小売業</h2>
+                            <div class="boxDesp">
+                                <p>
+                                弊社は、IT関連の専門的な知識・経験を持った「プロフェッショナル」の集団です。
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="textBox">
-                        <h2 class="boxTxt">その他</h2>
-                        <div class="boxDesp">
-                            <p>
-                            弊社は、IT関連の専門的な知識・経験を持った「プロフェッショナル」の集団です。
-                            </p>
+                        <div class="textBox">
+                            <h2 class="boxTxt">その他</h2>
+                            <div class="boxDesp">
+                                <p>
+                                弊社は、IT関連の専門的な知識・経験を持った「プロフェッショナル」の集団です。
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- <span id="" class="anchorpos"></span> -->
         <section class="business-sec02">
             <div class="c-w1170">
-            <span id="business02" class="anchorpos"></span>
-                <div class="ttl-number"><span>02</span></div>
-                <h2 class="ttl-subpage"><span class="text-un-yellow">SE業務</span></h2>
-                <div class="business-bg bg-yello-light">
-                    <div class="circle-iconBlock">
-                        <ul class="circle-iconLst">
-                            <li>
-                                <div class="circle-block">
-                                    <img src="/home-page/assets/img/business/relations_icon.png" alt="">
-                                    <p>スクラッチ開発</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="circle-block">
-                                    <img src="/home-page/assets/img/business/funding_icon.png" alt="">
-                                    <p>モバイルアプリ</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="circle-block">
-                                    <img src="/home-page/assets/img/business/other_icon.png" alt="">
-                                    <p>365の移行支援</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div>
-                    <div class="textBox">
-                        <h2 class="boxTxt">スクラッチ開発</h2>
-                        <div class="boxDesp">
-                            <p>
-                            テキストが入ります。 
-                            </p>
+                <span id="business02" class="anchorpos"></span>
+                <div data-aos="fade-up">
+                    <div class="ttl-number"><span>02</span></div>
+                    <h2 class="ttl-subpage"><span class="text-un-yellow">受託開発事業</span></h2>
+                    <div class="business-bg bg-yello-light">
+                        <div class="circle-iconBlock">
+                            <ul class="circle-iconLst">
+                                <li>
+                                    <div class="circle-block">
+                                        <img src="/home-page/assets/img/business/code_icon.png" alt="">
+                                        <p>スクラッチ開発</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="circle-block">
+                                        <img src="/home-page/assets/img/business/iPhone_icon.png" alt="">
+                                        <p>モバイルアプリ</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="circle-block">
+                                        <img src="/home-page/assets/img/business/cloud_icon.png" alt="">
+                                        <p>クラウド導入<br>・移行支援</p>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="textBox">
-                        <h2 class="boxTxt">モバイルアプリ</h2>
-                        <div class="boxDesp">
-                            <p>
-                            テキストが入ります。
-                            </p>
+                    <div>
+                        <div class="textBox">
+                            <h2 class="boxTxt">スクラッチ開発</h2>
+                            <div class="boxDesp">
+                                <p>
+                                テキストが入ります。 
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="textBox">
-                        <h2 class="boxTxt">365の移行支援</h2>
-                        <div class="boxDesp">
-                            <p>
-                            テキストが入ります。  
-                            </p>
+                        <div class="textBox">
+                            <h2 class="boxTxt">モバイルアプリ</h2>
+                            <div class="boxDesp">
+                                <p>
+                                テキストが入ります。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="textBox">
+                            <h2 class="boxTxt">クラウド導入・移行支援</h2>
+                            <div class="boxDesp">
+                                <p>
+                                テキストが入ります。  
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <section class="business-sec03">
-        <div class="c-w1170">
+            <div class="c-w1170">
             <span id="business03" class="anchorpos"></span>
-                <div class="ttl-number"><span>03</span></div>
-                <h2 class="ttl-subpage"><span class="text-un-yellow">SE業務</span></h2>
-                <div class="business-bg bg-yello-light">
-                    <div class="circle-iconBlock">
-                        <ul class="circle-iconLst">
-                            <li>
-                                <div class="circle-block">
-                                    <img src="/home-page/assets/img/business/relations_icon.png" alt="">
-                                    <p>Kizuna</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="circle-block">
-                                    <img src="/home-page/assets/img/business/funding_icon.png" alt="">
-                                    <p>SS Exam</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div>
-                    <div class="textBox">
-                        <h2 class="boxTxt">Kizuna</h2>
-                        <div class="boxDesp">
-                            <p>
-                            テキストが入ります。 
-                            </p>
+                <div data-aos="fade-up">
+                    <div class="ttl-number"><span>03</span></div>
+                    <h2 class="ttl-subpage"><span class="text-un-yellow">DX推進事業</span></h2>
+                    <div class="business-bg bg-yello-light">
+                        <div class="circle-iconBlock">
+                            <ul class="circle-iconLst">
+                                <li>
+                                    <a href="https://www.kizuna-star.com" target="_blank">
+                                        <div class="circle-block cir-marLeft">
+                                            <img src="/home-page/assets/img/business/kizuna1.png" alt="">
+                                            <p>Kizuna</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://elearning-star.com/" target="_blank">
+                                        <div class="circle-block cir-marRight">
+                                            <img src="/home-page/assets/img/business/ss_exam1.png" alt="">
+                                            <p>SS Exam</p>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="textBox">
-                        <h2 class="boxTxt">SS Exam</h2>
-                        <div class="boxDesp">
-                            <p>
-                            テキストが入ります。
-                            </p>
+                    <div>
+                        <div class="textBox">
+                            <h2 class="boxTxt">Kizuna</h2>
+                            <div class="boxDesp">
+                                <p>
+                                    技術者の紹介動画や技術、履歴や空きスケジュールを見て、 欲しいときに、欲しい技術者を見つけることができるクラウドサービスです。 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="textBox">
+                            <h2 class="boxTxt">SS Exam</h2>
+                            <div class="boxDesp">
+                                <p>
+                                “人”の出来ることを何方法で試すの? その答えはこちらにあります。様々の業界でオンラインテストを実施することがで きます。相手の考え方、知識を試験の実績から把握できます。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="textBox">
+                            <h2 class="boxTxt">DX推進</h2>
+                            <div class="boxDesp">
+                                <p>
+                                    <a href="/home-page/jp/recruit/dx-develop.php" class="text-link">詳しくはこちら</a>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -325,10 +334,5 @@
     <script src="/home-page/assets/js/jquery.matchHeight-min.js"></script>
     <script src="/home-page/assets/js/subpage.js"></script>
     <script src="/home-page/assets/js/common.js"></script>
-    <script>
-        $(function() {
-          $('.recruit-mat01,.recruit-mat02').matchHeight();
-        });
-      </script>
 </body>
 </html>

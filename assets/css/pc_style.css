@@ -986,7 +986,7 @@ Security Page
 .recruit-desp {
     padding: 30px 20px;
 }
-.recruit-ttl {
+.recruit-ttl,.pri-ttl {
     font-size: 20px;
     color: #008135;
     margin-bottom: 10px;
@@ -1029,7 +1029,6 @@ Security Page
     width: 32%;
 }
 /* Business Page */
-
 .circle-iconBlock {
     max-width: 720px;
     margin: 0 auto;
@@ -1059,6 +1058,12 @@ Security Page
     color: #008135;
     font-weight: bold;
     margin-top:15px;
+}
+.cir-marLeft img {
+    margin-left: 4%;
+}
+.cir-marRight img {
+    margin-right: 4%;
 }
 /* Form Page */
 .form-secblock {

@@ -171,13 +171,13 @@
                                 </a>
                                 <ul class="bussiness-btnList">
                                     <li>
-                                        <span><img src="/home-page/assets/img/top/b_img01.png" alt="">金融機関系</span>
+                                        <span><img src="/home-page/assets/img/top/b_img01.png" alt="">金融・保険業</span>
                                     </li>
                                     <li>
-                                        <span><img src="/home-page/assets/img/top/b_img02.png" alt="">電力系</span>
+                                        <span><img src="/home-page/assets/img/top/b_img02.png" alt="">電力・ガス業</span>
                                     </li>
                                     <li>
-                                        <span><img src="/home-page/assets/img/top/b_img03.png" alt="">業務管理系</span>
+                                        <span><img src="/home-page/assets/img/top/b_img03.png" alt="">卸売業、小売業</span>
                                     </li>
                                     <li>
                                         <span><img src="/home-page/assets/img/top/b_img04.png" alt="">その他</span>

@@ -348,6 +348,9 @@
     .security-content {
         width: 100%;
     }
+    .security-content:last-child {
+        margin-top: 20px;
+    }
     .security-head-link {
         background: #f3f3f3;
     }
@@ -370,8 +373,14 @@
     .circle-iconLst li {
         width: 50%;
     }
+    .circle-block img {
+        max-height: 50px;
+    }
     .circle-block p {
         font-size: 16px;
+    }
+    .circle-iconLst.pc {
+        display: none;
     }
     /* ===============================
     Form Page

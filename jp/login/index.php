@@ -34,7 +34,7 @@
                             <li><a href="/home-page/jp/company/"><span>会社情報</span></a></li>
                             <li><a href="/home-page/jp/philosophy/"><span>経営理念</span></a></li>
                             <li><a href="/home-page/jp/business/"><span>事業内容</span></a></li>
-                            <li><a href="/home-page/jp/recruit/" class="navpc-active"><span>採用情報</span></a></li>
+                            <li><a href="/home-page/jp/recruit/"><span>採用情報</span></a></li>
                             <li><a href="/home-page/jp/security/"><span>情報セキュリティ</span></a></li>
                         </ul>
                     </nav>

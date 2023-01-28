@@ -33,18 +33,8 @@ body {
         pointer-events: auto;
     }
 }
-/* font weight */
-.fw-r-jp {
-    font-style: normal;
-    font-weight: 400;
-}
-.fw-m-jp {
-    font-style: normal;
-    font-weight: 500;
-}
-.fw-b-jp {
-    font-style: normal;
-    font-weight: 700;
+.font-normal {
+    font-weight: normal !important;
 }
 /* font-weight */
 .font-bold {
@@ -75,16 +65,23 @@ body {
 }
 /* text align */
 .txt-left {
-    text-align: left;
+    text-align: left !important;
 }
 .txt-center {
-    text-align: center;
+    text-align: center !important;
 }
 .txt-right {
-    text-align: right;
+    text-align: right !important;
+}
+.text-link {
+    display: inline-block;
+    text-decoration: underline !important;
 }
 .mb0{
-    margin-bottom: 0 !important
+    margin-bottom: 0 !important;
+}
+.mb30 {
+    margin-bottom: 30px !important;
 }
 /* Main title */
 .main-ttl {
