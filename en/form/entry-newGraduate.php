@@ -23,7 +23,7 @@
         <header class="headerBlock">
             <div class="header c-w1420">
                 <h1 class="h-logo">
-                    <a href="/home-page/jp/">
+                    <a href="/home-page/en/">
                         <img src="/home-page/assets/img/common/h_logo.png" alt="">
                         <p>STAR SE<span>All for your dream</span></p>
                     </a>
@@ -31,20 +31,20 @@
                 <div class="h-right cFix">
                     <nav class="nav-pc">
                         <ul class="cFix">
-                            <li><a href="/home-page/jp/company/"><span>会社情報</span></a></li>
-                            <li><a href="/home-page/jp/philosophy/"><span>経営理念</span></a></li>
-                            <li><a href="/home-page/jp/business/"><span>事業内容</span></a></li>
-                            <li><a href="/home-page/jp/recruit/"><span>採用情報</span></a></li>
-                            <li><a href="/home-page/jp/security/"><span>情報セキュリティ</span></a></li>
+                            <li><a href="/home-page/en/company/"><span>会社情報</span></a></li>
+                            <li><a href="/home-page/en/philosophy/"><span>経営理念</span></a></li>
+                            <li><a href="/home-page/en/business/"><span>事業内容</span></a></li>
+                            <li><a href="/home-page/en/recruit/"><span>採用情報</span></a></li>
+                            <li><a href="/home-page/en/security/"><span>情報セキュリティ</span></a></li>
                         </ul>
                     </nav>
                     <div class="h-utility">
                         <ul class="cFix">
-                            <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
-                            <li class="h-icon"><a href="/home-page/jp/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
+                            <li class="h-icon"><a href="/home-page/en/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
+                            <li class="h-icon"><a href="/home-page/en/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                             <li class="site-lang">
-                                <a href="/home-page/en/" class="lang-link">EN</a>
-                                <a href="/home-page/jp/" class="lang-link langOn">JP</a>
+                                <a href="/home-page/en/" class="lang-link langOn">EN</a>
+                                <a href="/home-page/jp/" class="lang-link">JP</a>
                             </li>
                         </ul>
                     </div>
@@ -62,19 +62,19 @@
         <nav id="globalNav" class="globalNav">
             <div class="globalNav-inner">
                 <ul class="nav-sp">
-                    <li><a href="/home-page/jp/company/"><span>会社情報</span></a></li>
-                    <li><a href="/home-page/jp/philosophy/"><span>経営理念</span></a></li>
-                    <li><a href="/home-page/jp/business/"><span>事業内容</span></a></li>
-                    <li><a href="/home-page/jp/recruit/"><span>採用情報</span></a></li>
-                    <li><a href="/home-page/jp/security/"><span>情報セキュリティ</span></a></li>
+                    <li><a href="/home-page/en/company/"><span>会社情報</span></a></li>
+                    <li><a href="/home-page/en/philosophy/"><span>経営理念</span></a></li>
+                    <li><a href="/home-page/en/business/"><span>事業内容</span></a></li>
+                    <li><a href="/home-page/en/recruit/"><span>採用情報</span></a></li>
+                    <li><a href="/home-page/en/security/"><span>情報セキュリティ</span></a></li>
                 </ul>
                 <div class="h-utility">
                     <ul class="cFix">
-                        <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
-                        <li class="h-icon"><a href="/home-page/jp/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
+                        <li class="h-icon"><a href="/home-page/en/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
+                        <li class="h-icon"><a href="/home-page/en/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                         <li class="site-lang">
-                            <a href="/home-page/en/" class="lang-link">EN</a>
-                            <a href="/home-page/jp/" class="lang-link langOn">JP</a>
+                            <a href="/home-page/en/" class="lang-link langOn">EN</a>
+                            <a href="/home-page/jp/" class="lang-link">JP</a>
                         </li>
                     </ul>
                 </div>
@@ -83,7 +83,7 @@
         <div class="sub-banner form-banner">
         <canvas class="particlesBg"></canvas>
             <div class="sub-bannerIn c-w1170">
-                <h2 class="sub-ttl">事務・営業フォーム</h2>
+                <h2 class="sub-ttl">ssSS新卒採用応募フォーム</h2>
             </div>
         </div>
         <!-- sub-banner -->
@@ -137,62 +137,17 @@
                             </div>
                         </div>
                         <div class="form-row form-mb">
-                            <div class="form-col2">
-                                <label for="" class="form-label">希望月額</label>
-                                <div class="form-inputText input-salary">
-                                    <input type="text" class="inputType" name="" id="">
-                                    <span class="form-sign">～</span>
-                                    <input type="text" class="inputType" name="" id="">
-                                    <span class="form-yern">円</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-row form-mb">
                             <div class="form-col1">
-                                <label for="" class="form-label">希望の契約形態</label>
-                                <div class="form-row2 form-inputRadio">
-                                    <div class="form-col6">
-                                        <label for="seyi">
-                                            <input type="radio" name="employeeType" id="seyi" checked>
-                                            <span class="form-radio-text">正社員</span>
-                                        </label>
+                                <label for="" class="form-label">最終学暦<span class="require">*</span></label>
+                                <div class="form-row form-inputText form-gakureki">
+                                    <div class="form-col2 form-mb10">
+                                        <input type="text" class="inputType" name="" id="" placeholder="例（全角）：大学名">
                                     </div>
-                                    <div class="form-col6">
-                                        <label for="keyiyaku">
-                                            <input type="radio" name="employeeType" id="keyiyaku">
-                                            <span class="form-radio-text">契約社員</span>
-                                        </label>
+                                    <div class="form-col2">
+                                        <input type="text" class="inputType" name="" id="" placeholder="例（全角）：学部学科">
                                     </div>
-                                    <div class="form-col6">
-                                        <label for="haken">
-                                            <input type="radio" name="employeeType" id="haken">
-                                            <span class="form-radio-text">派遣社員</span>
-                                        </label>
-                                    </div>
-                                    <div class="form-col6">
-                                        <label for="gyoumu">
-                                            <input type="radio" name="employeeType" id="gyoumu">
-                                            <span class="form-radio-text">業務委託</span>
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-row form-mb">
-                            <div class="form-col1">
-                                <label for="" class="form-label">職種</label>
-                                <div class="form-row2 form-inputCheckbox">
-                                    <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
-                                            <span class="form-checkbox">営業</span>
-                                        </label>
-                                    </div>
-                                    <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
-                                            <span class="form-checkbox">事務</span>
-                                        </label>
+                                    <div class="form-col2">
+                                        <input type="text" class="inputType" name="" id="" placeholder="例（全角）：情報学科">
                                     </div>
                                 </div>
                             </div>
