@@ -1,7 +1,7 @@
 var slideWrapper = $(".full-wide-slider"),
-    iframes = slideWrapper.find('.embed-player'),
-    lazyImages = slideWrapper.find('.slide-image'),
-    lazyCounter = 0;
+iframes = slideWrapper.find('.embed-player'),
+lazyImages = slideWrapper.find('.slide-image'),
+lazyCounter = 0;
 
 // POST commands to YouTube or Vimeo API
 function postMessageToPlayer(player, command){

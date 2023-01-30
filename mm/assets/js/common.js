@@ -19,60 +19,6 @@ jQuery(function($) {
         });
     });
     
-    // $(document).ready(function(){
-    //     $('.mv-slider').slick({
-    //         slidesToShow: 1,
-    //         slidesToScroll: 1,
-    //         arrows: false,
-    //         dots: false,
-    //         draggable:false,
-    //         autoplay: true,
-    //         autoplaySpeed: 1000,
-    //         responsive: [{
-    //           breakpoint: 768,
-    //           settings: {
-    //             swipeToSlide: true,
-    //             mobileFirst: true
-    //           }
-    //         }]
-    //     });
-    // });
-    $(function () {
-        var target = $(".content");
-        var el = target.offset().top;
-        el = el - 100;
-        var headerBlock = $(".headerBlock");
-        $(window).scroll(function () {
-            var scroll = $(this).scrollTop();
-            if (scroll > el) {
-                headerBlock.addClass("headerBg");
-            }
-            else {
-                headerBlock.removeClass("headerBg");
-            }
-        });
-    });
-    $(function() {
-        $(".c-sidebarList li a").on('click', function(e) {
-            e.preventDefault();
-            if($(".c-sidebarList li a").hasClass("sidebarActive")){
-                $(".c-sidebarList li a").removeClass('sidebarActive');
-                $(this).addClass('sidebarActive');
-            }
-            else {
-                $(this).addClass('sidebarActive');
-            }
-        });
-    });
-    $(function(){
-        AOS.init({
-            offset: 200,
-            duration: 600,
-            easing: 'ease-in-sine',
-            delay: 100,
-        });
-    });
-    
     //Page top scroll
     function PageTopAnime() {
         var scroll = $(window).scrollTop();
@@ -87,7 +33,6 @@ jQuery(function($) {
             }
         }
     }
-
     // 画面をスクロールをしたら動かしたい場合の記述
     $(window).scroll(function () {
         PageTopAnime();

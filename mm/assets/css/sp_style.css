@@ -1,511 +1,69 @@
 @charset "utf-8";
-/* businessText */
-@media screen and (min-width: 769px) and (max-width: 1100px){
-    .top-businessBlock ul.col-wrap {
-        justify-content: center;
+/* ===============================
+Top
+=============================== */
+@media screen and (min-width: 769px) and (max-width: 900px){
+    /* Recruit Block */
+    .recruitDesp .boxLeft, .recruitDesp .boxRight {
+        width: 100%;
     }
-    .top-businessBlock ul.col-wrap li.col3 {
-        width: 50%;
+    .recText {
+        width: 100%;
+        margin-bottom: 20px;
     }
-    .line-show .line-frame.line-2:before {
-        
+    .recruitDesp .boxRight .arrowList {
+        width: 45%;
     }
 }
 @media screen and (max-width: 768px) {
-    /* ===============================
-    Top
-    =============================== */
-    /* Main Slider */
-    /* .main-mv {
-        height: auto;
-        padding-top: 71px;
-    } */
-    .slick-slide img {
-        height: auto;
-    }
-    .mv-scroll {
-        position: absolute;
-        bottom: 0;
-        right: 0px;
-    }
-    .mv-scroll a:before {
-        width: 18px;
-        height: 18px;
-        background: url(../img/top/scroll_circle.png) no-repeat;
-        background-size: 18px;
-    }
-    .mv-scroll a img {
-        width: 35px;
-    }
-    .top-ttl {
-        font-size: 35px;
-        margin-bottom: 30px;
-    }
-    /* ceo message */
-    .ceoMessageBlock {
-        padding-bottom: 0px;
-    }
-    .ceoMessageBlock:before {
-        display: none;
-    }
-    .ceoImg {
-        width: 100%;
-        float: none;
-    }
-    .ceoMessageText {
-        width: 100%;
-        float: none;
-    }
-    .ceoMessagePara {
-        margin-right: 0;
-        margin-top: 50px;
-        border: 4px solid #008135;
-    }
-    .ceoMessagePara:before, .ceoMessagePara:after {
-        left: calc(50% - 25px);
-    }
-    .ceoMessagePara:before {
-        top: -50px;
-        border-color: transparent transparent #008135 transparent;
-        border-width: 0 25px 50px 25px;
-    }
-    .ceoMessagePara:after {
-        top: -40px;
-        left: calc(50% - 19.6px);
-        border-color: transparent transparent #fff transparent;
-        border-width: 0 20px 40px 20px;
-    }
-    /* Our Business */
-    .top-businessBlock ul.col-wrap li.col3 {
+    
+    /* Recruit Block */
+    .recruitDesp .boxLeft, .recruitDesp .boxRight {
         width: 100%;
     }
-    .line-show .line-frame:before {
-        display: none;
-    }
-    .businessTtl {
-        line-height: 1.2;
-        font-size: 20px;
-    }
-    .businessTtl:after {
+    .recText {
         width: 100%;
+        margin-bottom: 20px;
     }
-    /* Our Service */
-    .serviceBlock {
-        margin-bottom: 60px;
+    .recText p {
+        font-size: 15px;
     }
-    .serviceBoxImg {
+    .recruitDesp .boxRight .arrowList {
         width: 100%;
-        float: none;
-        padding: 0;
-    }
-    .serviceBoxText {
-        width: 100%;
-        float: none;
-        padding: 0;
-    }
-    .service-ttl {
-        font-size: 35px;
-        margin: 30px 0 20px 0;
-    }
-    .service-ttl span {
-        margin-right: 10px;
-    }
-    .service-txt p {
-        font-size: 16px;
-        margin-bottom: 30px;
-        line-height: 1.8;
-    }
-    .play-btn{
-        width: 70px;
-    }
-    /* Our People */
-    /* .memberBox {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin-bottom: 30px;
-    }
-    .memberBox:last-child {
-        margin-bottom: 0px;
-    } */
-    .ourPeopleBanner {
-        margin-bottom: 0;
-    }
-    .member-col {
-        width: 100%;
-        margin-top: 30px;
-    }
-    .member-cir {
-        position: relative;
-        width: 100px;
-        height: 100%;
-    }
-    .memberDesp {
-        width: calc(100% - 120px);
-        display: inline-flex;
-        align-items: center;
-    }
-    .member-icon {
-        margin: 0;
-        height: auto;
-    }
-    .member-icon img {
-        width: 30px;
-        height: 30px;
-    }
-    .member-per {
-        font-size: 20px;
-    }
-    .member-txt {
-        text-align: left;
-        display: block;
-        min-height: inherit;
-        width: calc(100% - 50px);
-        margin-left: auto;
-    }
-    .member-content .ttl-subpage {
-        text-align: center;
-    }
-    /* Recruit */
-    .recruitList {
-        margin: -20px 0;
-        justify-content: space-between;
-    }
-    .recruitList .col2 {
-        width: calc(50% - 10px);
-        padding: 10px 0;
-    }
-    .recruitBox {
-        width: 100%;
-        padding: 15px 15px;
-        min-height: 110px;
-        max-width: 335px;
-        margin: 0 auto;
-    }
-    .recruitIcon {
-        width: 60px;
-    }
-    .recruitTxt {
-        width: calc(100% - 60px);
-        padding-left: 15px;
-    }
-    .recruitTxt p {
-        font-size: 18px;
-        letter-spacing: 0px;
-    }
-    .recruitArrow:after {
-        height: 20px;
-        transform: rotate(-45deg) translate(9px, -17px);
     }
     /* News Block */
     .newsBlock ul li .newsLink {
         display: block;
-        padding: 15px 40px;
+        padding: 15px 20px 15px 40px;
     }
     .newsBlock ul li .newsLink:before {
-        width: 20px;
+        top: 15px;
+        transform: translateY(0%);
     }
     .newsBlock ul li .newsDate{
         width: 100%;
+        display: block;
+        text-align: left;
+        margin-bottom: 5px;
     }
     .newsBlock ul li .newsTtl{
         width: 100%;
         padding: 0;
     }
-    .newsBlock ul li .newsLink:after {
-        margin-right: 0;
-    }
-
-    /* ===============================
-    Philosophy
-    =============================== */
-    .philosophyBox {
-        display: block;
-    }
-    .philoLeft {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-    .philoRight {
-        width: 100%;
-        padding: 0;
-    }
-    .philo-img {
-        display: flex;
-        justify-content: center;
-    }
-    .philo-num {
-        padding-right: 10px;
-    }
-    /* ===============================
-    Company Page
-    =============================== */
-    .sec-companyInfo .text-un-yellow, .sec-history .text-un-yellow, .sec-business .text-un-yellow, .sec-organization .text-un-yellow {
-        background-position: -100% 30px;
-        background-size: 200% 8px;
-    }
-    .company-info table tr th,.company-info table tr td {
-        width: 100%;
-        display: block;
-    }
-    .company-info table tr th {
-        padding-bottom: 10px;
-    }
-    .company-info table tr td {
-        width: 100%;
-        padding: 0 0 20px 0;
-    }
-    .history-listbox {
-        display: block;
-        border-radius: 10px;
-        padding-left: 40px;
-        padding-bottom: 30px;
-        position: relative;
-    }
-    .history-listbox:before {
-        content: '';
-        position: absolute;
-        top: 17px;
-        left: 0;
-        width: 32px;
-        height: 32px;
-        background: url(../img/company/icon_circle.png) no-repeat;
-        background-size: 22px;
-    }
-    .history-listbox:after {
-        content: '';
-        position: absolute;
-        top: 25px;
-        left: 10px;
-        height: 100%;
-        border-left: 2px dotted #E8B500;
-    }
-    .history-listboxin {
-        width: auto;
-        padding: 15px;
-        background: #fff;
-        border-radius: 10px;
-    }
-    .history-list {
-        max-width: 100%;
-    }
-    .history-list ul .history-listbox:last-child:after {
-        height: 7%;
-    }
-    .history-year {
-        width: 100%;
-        color: #000;
-        display: block;
-        font-weight: bold;
-        padding: 0 0 15px 0;
-    }
-    .history-desp {
-        width: 100%;
-        padding: 0;
-    }
-    .history-year:before,
-    .history-year:after {
-        display: none;
-    }
-    /* ===============================
-    Company Info Page
-    =============================== */
-    .b-boxLeft {
-        width: 100%;
-        float: none;
-        margin-right: 0;
-    }
-    .b-boxLeft div  img {
-        margin: 0 auto;
-    }
-    .b-boxRight {
-        width: 100%;
-        float: none;
-    }
-    /* ===============================
-    Rrecruit Page
-    =============================== */
-    
-    .recruitList-block .recruitList-li {
-        width: 100%;
-    }
-    /* ===============================
-    graduate recurit guide Page
-    =============================== */
-    .sec-graduate03 .recruitList-block .recruitList-li {
-        width: 100%;
-    }
-    .boxTxt {
-        font-size: 20px;
-    }
-    /* ===============================
-    security Page
-    =============================== */
-    .security-head {
-        display: block;
-    }
-    .security-content {
-        width: 100%;
-    }
-    .security-content:last-child {
-        margin-top: 20px;
-    }
-    .security-head-link {
-        background: #f3f3f3;
-    }
-    /* private security page */
-    .dl-list dt, .dl-list dd {
-        font-size: 15px;
-    }
-    .dl-list dt {
-        width: 105px;
-    }
-    .dl-list dd {
-        padding-left: 0px;
-    }
-    /* ===============================
-    Business Page
-    =============================== */
-    .circle-iconLst {
-        margin: -20px 0;
-    }
-    .circle-iconLst li {
-        width: 50%;
-    }
-    .circle-block img {
-        max-height: 50px;
-    }
-    .circle-block p {
-        font-size: 16px;
-    }
-    .circle-iconLst.pc {
-        display: none;
-    }
-    /* ===============================
-    Form Page
-    =============================== */
-    
-    /* .form-banner:before {
-        height: 100%;
-    } */
-    /* .form-banner .particlesBg {
-        max-height: 100%;
-    } */
-    .form-secblock {
-        margin-top: -20vh;
-        position: relative;
-        z-index: 1;
-    }
-    .form-mb {
-        margin-bottom: 0px;
-    }
-    .form-col1 {
-        margin-bottom: 30px;
-    }
-    .form-col2 {
-        width: 100%;
-        margin-bottom: 30px;
-    }
-    .file-para {
-        margin-top: -20px;
-    }
-    .chkagree-text {
-        font-size: 14px;
-        line-height: 1.3;
-    }
-    .form-privacy {
-        padding: 15px;
-    }
-    .form-privacy-ttl {
-        font-size: 17px;
-        margin-bottom: 10px;
-    }
-    .pri-num {
-        font-size: 15px;
-        padding-left: 20px;
-    }
-    .pri-num span {
-        text-indent: -20px;
-    }
-    .form-gakureki .form-col2 {
-        margin-bottom: 10px;
-    }
-    .form-gakureki .form-col2:last-child {
-        margin-bottom: 0;
-    }
-    .form-inputFile .form-col2 {
-        margin-bottom: 0;
-    }
-    .file-para {
-        margin-top: 10px;
-    }
 }
-@media screen and (min-width: 641px) and (max-width: 768px) {
-    .form-banner {
-        height: 415px;
+@media screen and (max-width: 640px) {
+    /* Service Block */
+    .top-service .arrowList ul li {
+        width: 100%;
     }
-    .form-secblock {
-        margin-top: -41vh;
-    }
+    .top-service .arrowList ul li:nth-child(2) {
+        border-top: 0px;
+    }    
 }
 @media screen and (min-width: 481px) and (max-width: 640px) {
-    .form-banner {
-        height: 415px;
-    }
-    .form-secblock {
-        margin-top: -44vh;
-    }
+
 }
-@media screen and (max-width: 480px) {
-    .form-banner {
-        height: 280px;
-    }
-    .form-secblock {
-        margin-top: -26vh;
-    }
-    /* Business Block */
-    .businessTtl {
-        line-height: 1.2;
-        font-size: 18px;
-    }
-    .businessBox div img {
-        width: 100%;
-        height: 250px;
-        object-fit: cover;
-    }
-    /* Recruit Block */
-    .recruitList {
-        margin: -20px;
-        justify-content: initial;
-    }
-    .recruitList .col2 {
-        width: 100%;
-        padding: 20px;
-    }
-    .recruitBox {
-        padding: 20px 15px;
-        min-height: 120px;
-    }
-    /* Business Page */
-    .business-bg {
-        margin: 0 -20px;
-    }
-    .circle-iconLst {
-        margin: -10px 10px;
-    }
-    .circle-iconLst li {
-        padding: 10px;
-    }
-    .circle-block p {
-        font-size: 15px;
-    }
-}
+
 @media screen and (max-width: 375px) {
-    .history-desp dl dt {
-        width: 50px;
-    }
-    .history-desp dl dd {
-        width: calc(100% - 50px);
-    }
+    
 }
