@@ -198,7 +198,7 @@
         </div>
         <div class="footerLogo">
             <div class="c-w1420 cFix">
-                <span class="footerLogoImg"><img src="/home-page/assets/img/common/footer_logo2.png" alt="STAR SE株式会社"></span>
+                <span class="footerLogoImg"><a href="#"><img src="/home-page/assets/img/common/footer_logo2.png" alt="STAR SE株式会社"></a></span>
             </div> 
         </div>
         <!-- footerLogo -->
