@@ -282,11 +282,11 @@
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_phone.png" alt=""></span>
-                                    <p class="ftAddress-info"><a href="tel:03-5207-2956" class="tel">03-5207-2956</a></p>
+                                    <p class="ftAddress-info"><a href="tel:03-5207-2956" class="tel">03-5207-2955</a></p>
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_fax.png" alt=""></span>
-                                    <p class="ftAddress-info">03-5207-2956</p>
+                                    <p class="ftAddress-info">03-5207-2955</p>
                                 </li>
                             </ul>
                         </div>

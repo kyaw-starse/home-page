@@ -83,7 +83,7 @@
         <div class="sub-banner">
             <canvas class="particlesBg"></canvas>
             <div class="sub-bannerIn c-w1170">
-                <h2 class="sub-ttl">キャリア募集要項</h2>
+                <h2 class="sub-ttl">採用情報</h2>
                 <img src="/home-page/assets/img/philosophy/bnr_img.jpg" class="sub-bannerImg" alt="">
             </div>
         </div>
@@ -92,7 +92,7 @@
         <section class="recruit-page">
             <div class="c-w1170">
                 <h2 class="ttl-subpage"><span class="text-un-yellow">キャリア募集要項</span></h2>
-                <div class="recruit-pageList">
+                <div class="recruit-pageList mb30">
                     <ul class="recruitList-block">
                         <li class="recruitList-li">
                             <div class="recruitList-content">
@@ -214,6 +214,11 @@
                                 </div>
                             </div>
                         </li>
+                    </ul>
+                </div>
+                <h2 class="ttl-subpage"><span class="text-un-yellow">新卒/第二新卒募集要項</span></h2>
+                <div class="recruit-pageList">
+                    <ul class="recruitList-block">
                         <li class="recruitList-li">
                             <div class="recruitList-content">
                                 <div class="recurit-img"><img src="/home-page/assets/img/recruit/infra_img.png" alt=""></div>
@@ -249,7 +254,7 @@
                                             </li>
                                         </ul>
                                         <div class="sec-btn02">
-                                            <a href="/home-page/jp/recruit/graduate-recru-guide.php#graduate04" class="btn02">詳しくはこちら</a>
+                                            <a href="/home-page/jp/recruit/graduate-recru-guide.php" class="btn02">詳しくはこちら</a>
                                         </div>
                                     </div>
                                 </div>
@@ -279,11 +284,11 @@
                             <ul>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_homeaddress.png" alt=""></span>
-                                    <p class="ftAddress-info">〒104-0043<br>東京都中央区湊2丁目4-1<br>ＴＯＭＡＣビル 5階</p>
+                                    <p class="ftAddress-info">〒104-0043<br>東京都中央区湊2丁目4-1 ＴＯＭＡＣビル 5階</p>
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_phone.png" alt=""></span>
-                                    <p class="ftAddress-info"><a href="tel:03-5207-2956" class="tel">03-5207-2956</a></p>
+                                    <p class="ftAddress-info"><a href="tel:03-5207-2956" class="tel">03-5207-2955</a></p>
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_fax.png" alt=""></span>

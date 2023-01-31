@@ -115,13 +115,13 @@ jQuery(function($) {
                     od7 = new Odometer({
                         el: el7,
                     });
-                    el7.innerHTML = 10
+                    el7.innerHTML = 20
 
                     var el8 = document.querySelector('.odometer-b4');
                     od8 = new Odometer({
                         el: el8,
                     });
-                    el8.innerHTML = 20
+                    el8.innerHTML = 10
 
                 }, 50);
             }

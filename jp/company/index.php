@@ -143,14 +143,33 @@
                                 <tr>
                                     <th>主要顧客</th>
                                     <td>
-                                        <p>NTTエレクトロニクステクノ株式会社<br>
-                                        アクセンチュア株式会社<br>
-                                        ハイテクシステム株式会社(TCSグループ企業)<br>
+                                        <p>
+                                        株式会社インテック<br>
+                                        株式会社エー・アール・シー<br>
+                                        株式会社クロステック<br>
                                         キヤノン電子テクノロジー株式会社<br>
-                                        株式会社コスメディア<br>
-                                        テクバン株式会社<br>
                                         株式会社クレスコ<br>
-                                        コムチュア株式会社など多数</p>
+                                        株式会社コスメディア<br>
+                                        コムチュア株式会社<br>
+                                        サイバーコム株式会社<br>
+                                        テクバン株式会社<br>
+                                        東京コンピュータサービス株式会社<br>
+                                        NTTエレクトロニクステクノ株式会社<br>
+                                        日本コンピュータ・ダイナミクス株式会社<br>
+                                        ハイテクシステム株式会社(TCSグループ企業)<br>
+                                        株式会社ティー・アイ・シー<br>
+                                        など多数
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>主要取引銀行</th>
+                                    <td>
+                                        <p>
+                                        三井住友銀行<br>
+                                        東京東信用金庫<br>
+                                        西武信用金庫
+                                        </p>
                                     </td>
                                 </tr>
                                 <tr>
@@ -194,7 +213,35 @@
                                             </dl>
                                             <dl class="cFix">
                                                 <dt>1月</dt>
-                                                <dd>ミャンマー支社設立</dd>
+                                                <dd>海外支社（ミャンマー）設立</dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="history-listbox">
+                                    <span class="history-year pc">2022年</span>
+                                    <div class="history-listboxin" data-aos="fade-left" data-aos-duration="1000">
+                                        <span class="history-year sp">2022年</span>
+                                        <div class="history-desp">
+                                            <dl class="cFix">
+                                                <dt>11月</dt>
+                                                <dd>DX戦略を策定</dd>
+                                            </dl>
+                                            <dl class="cFix">
+                                                <dt>7月</dt>
+                                                <dd>DX方針を宣言</dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="history-listbox">
+                                    <span class="history-year pc">2021年</span>
+                                    <div class="history-listboxin" data-aos="fade-left" data-aos-duration="1000">
+                                        <span class="history-year sp">2021年</span>
+                                        <div class="history-desp">
+                                            <dl class="cFix">
+                                                <dt>1月</dt>
+                                                <dd>Pマークを更新</dd>
                                             </dl>
                                         </div>
                                     </div>
@@ -325,7 +372,12 @@
                             </div>
                             <div class="b-boxRight">
                                 <div class="b-boxIn cFix">
-                                    <p>業務を通して、長期的な信頼関係を構築しながら共に成長していけるパートナー会社様を募集しております。在目前にある案件を協力会社様に案内し、御社要員の有効活用を図っていただけたらと考えております。また弊社といたしましても、御社でお持ちの案件で、弊社のシステム開発関連技術者及びインフラ関連技術者など、弊社要員の有効活用を図っていただけたらと考えており、将来的には営業／技術にわたる協業体制をとらせていただくことを最終目標にしております。お問い合わせ、心よりお待ちしております。</p>
+                                    <p>
+                                        業務を通して、長期的な信頼関係を構築しながら共に成長していけるパートナー会社様を募集しております。<br>
+                                        在目前にある案件を協力会社様に案内し、御社要員の有効活用を図っていただけたらと考えております。<br>
+                                        また弊社といたしましても、御社でお持ちの案件で、弊社のシステム開発関連技術者及びインフラ関連技術者など、弊社要員の有効活用を図っていただけたらと考えており、将来的には営業／技術にわたる協業体制をとらせていただくことを最終目標にしております。<br>
+                                        お問い合わせ、心よりお待ちしております。
+                                    </p>
                                     <a href="/home-page/jp/contact/" class="btn-arr"><span>お問い合わせ</span></a>
                                 </div>
                             </div>
@@ -366,11 +418,11 @@
                             <ul>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_homeaddress.png" alt=""></span>
-                                    <p class="ftAddress-info">〒104-0043<br>東京都中央区湊2丁目4-1<br>ＴＯＭＡＣビル 5階</p>
+                                    <p class="ftAddress-info">〒104-0043<br>東京都中央区湊2丁目4-1 ＴＯＭＡＣビル 5階</p>
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_phone.png" alt=""></span>
-                                    <p class="ftAddress-info"><a href="tel:03-5207-2956" class="tel">03-5207-2956</a></p>
+                                    <p class="ftAddress-info"><a href="tel:03-5207-2956" class="tel">03-5207-2955</a></p>
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_fax.png" alt=""></span>

@@ -83,6 +83,11 @@ body {
 .mb30 {
     margin-bottom: 30px !important;
 }
+.dis-inline {
+    white-space: nowrap;
+    display: inline !important;
+    pointer-events: none;
+}
 /* Main title */
 .main-ttl {
     margin-bottom: 50px;

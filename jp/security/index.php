@@ -95,7 +95,7 @@
                 <div class="security-head letter">
                     <div class="security-content">
                         <a href="private-security.php" class="security-head-link">
-                            <h2 class="security-head-ttl">個人情報保護</h2>
+                            <h2 class="security-head-ttl">個人情報保護方針</h2>
                             <span class="security-head-line"></span>
                             <p class="security-head-txt">STAR SE株式会社は、社会の基盤となるITサービスを提供する企業として、個人情報保護の重要性を認識し、個人情報を適切に保護するための個人情報管理の仕組みを策定し、以下のように「個人情報保護方針」を定め、保護に努めます。</p>
                             <p class="security-head-linkTxt">詳しくはこちら</p>
@@ -132,11 +132,11 @@
                             <ul>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_homeaddress.png" alt=""></span>
-                                    <p class="ftAddress-info">〒104-0043<br>東京都中央区湊2丁目4-1<br>ＴＯＭＡＣビル 5階</p>
+                                    <p class="ftAddress-info">〒104-0043<br>東京都中央区湊2丁目4-1 ＴＯＭＡＣビル 5階</p>
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_phone.png" alt=""></span>
-                                    <p class="ftAddress-info"><a href="tel:03-5207-2956" class="tel">03-5207-2956</a></p>
+                                    <p class="ftAddress-info"><a href="tel:03-5207-2956" class="tel">03-5207-2955</a></p>
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_fax.png" alt=""></span>

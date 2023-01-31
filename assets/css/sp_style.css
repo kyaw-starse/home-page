@@ -119,16 +119,6 @@
         width: 70px;
     }
     /* Our People */
-    /* .memberBox {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin-bottom: 30px;
-    }
-    .memberBox:last-child {
-        margin-bottom: 0px;
-    } */
     .ourPeopleBanner {
         margin-bottom: 0;
     }
@@ -199,6 +189,9 @@
         transform: rotate(-45deg) translate(9px, -17px);
     }
     /* News Block */
+    .top-news {
+        margin-top: 60px;
+    }
     .newsBlock ul li .newsLink {
         display: block;
         padding: 15px 40px;
@@ -215,6 +208,12 @@
     }
     .newsBlock ul li .newsLink:after {
         margin-right: 0;
+    }
+    .clientsBox {
+        height: 130px;
+    }
+    .clientsBox .clients-link img {
+        height: 80px;
     }
 
     /* ===============================

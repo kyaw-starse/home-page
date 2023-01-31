@@ -100,25 +100,16 @@
                     </div>
                     <div class="philoRight">
                         <h2 class="philo-ttl">IT関連</h2>
-                        <p class="philo-txt">弊社は、IT関連の専門的な知識・経験を持った「プロフェッショナル」の集団です。</p>
+                        <p class="philo-txt">
+                            弊社は、IT関連の専門的な知識・経験を持った「プロフェッショナル」の集団です。<br>
+                            私たちは、誠実な心をもって、全世界に通じる技術サポート・サービス提供に全力をあげ、社会に貢献すると同時に、会社及び全従業員の繁栄を推進することをむねとします。
+                        </p>
                     </div>
                 </div>
                 <div class="philosophyBox">
                     <div class="philoLeft" data-aos="zoom-in">
                         <div class="philo-img">
                             <span class="philo-num">02</span>
-                            <span><img src="/home-page/assets/img/philosophy/philosophy_img02.png" alt=""></span>
-                        </div>
-                    </div>
-                    <div class="philoRight">
-                        <h2 class="philo-ttl">ITサポート</h2>
-                        <p class="philo-txt">私たちは、誠実な心をもって、全世界に通じる技術サポート・サービス提供に全力をあげ、社会に貢献すると同時に、会社及び全従業員の繁栄を推進することをむねとします。</p>
-                    </div>
-                </div>
-                <div class="philosophyBox">
-                    <div class="philoLeft" data-aos="zoom-in">
-                        <div class="philo-img">
-                            <span class="philo-num">03</span>
                             <span><img src="/home-page/assets/img/philosophy/philosophy_img03.png" alt=""></span>
                         </div>
                     </div>
@@ -130,7 +121,7 @@
                 <div class="philosophyBox">
                     <div class="philoLeft" data-aos="zoom-in">
                         <div class="philo-img">
-                            <span class="philo-num">04</span>
+                            <span class="philo-num">03</span>
                             <span><img src="/home-page/assets/img/philosophy/philosophy_img04.png" alt=""></span>
                         </div>
                     </div>
@@ -142,7 +133,7 @@
                 <div class="philosophyBox">
                     <div class="philoLeft" data-aos="zoom-in">
                         <div class="philo-img">
-                            <span class="philo-num">05</span>
+                            <span class="philo-num">04</span>
                             <span><img src="/home-page/assets/img/philosophy/philosophy_img05.png" alt=""></span>
                         </div>
                     </div>
@@ -154,12 +145,12 @@
                 <div class="philosophyBox">
                     <div class="philoLeft" data-aos="zoom-in">
                         <div class="philo-img">
-                            <span class="philo-num">06</span>
+                            <span class="philo-num">05</span>
                             <span><img src="/home-page/assets/img/philosophy/philosophy_img06.png" alt=""></span>
                         </div>
                     </div>
                     <div class="philoRight">
-                        <h2 class="philo-ttl">問題の解決</h2>
+                        <h2 class="philo-ttl">解決</h2>
                         <p class="philo-txt">困難や逆境にあっても決してあきらめず、知恵を絞って結果にこだわり続けます。</p>
                     </div>
                 </div>
@@ -185,11 +176,11 @@
                             <ul>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_homeaddress.png" alt=""></span>
-                                    <p class="ftAddress-info">〒104-0043<br>東京都中央区湊2丁目4-1<br>ＴＯＭＡＣビル 5階</p>
+                                    <p class="ftAddress-info">〒104-0043<br>東京都中央区湊2丁目4-1 ＴＯＭＡＣビル 5階</p>
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_phone.png" alt=""></span>
-                                    <p class="ftAddress-info"><a href="tel:03-5207-2956" class="tel">03-5207-2956</a></p>
+                                    <p class="ftAddress-info"><a href="tel:03-5207-2956" class="tel">03-5207-2955</a></p>
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_fax.png" alt=""></span>

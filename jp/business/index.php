@@ -238,6 +238,7 @@
                     <div class="business-bg bg-yello-light">
                         <div class="circle-iconBlock">
                             <ul class="circle-iconLst">
+                                <!-- 
                                 <li>
                                     <a href="https://www.kizuna-star.com" target="_blank">
                                         <div class="circle-block cir-marLeft">
@@ -246,6 +247,7 @@
                                         </div>
                                     </a>
                                 </li>
+                                 -->
                                 <li>
                                     <a href="https://elearning-star.com/" target="_blank">
                                         <div class="circle-block cir-marRight">
@@ -258,6 +260,7 @@
                         </div>
                     </div>
                     <div>
+                        <!-- 
                         <div class="textBox">
                             <h2 class="boxTxt">Kizuna</h2>
                             <div class="boxDesp">
@@ -266,6 +269,7 @@
                                 </p>
                             </div>
                         </div>
+                         -->
                         <div class="textBox">
                             <h2 class="boxTxt">SS Exam</h2>
                             <div class="boxDesp">
@@ -306,11 +310,11 @@
                             <ul>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_homeaddress.png" alt=""></span>
-                                    <p class="ftAddress-info">〒104-0043<br>東京都中央区湊2丁目4-1<br>ＴＯＭＡＣビル 5階</p>
+                                    <p class="ftAddress-info">〒104-0043<br>東京都中央区湊2丁目4-1 ＴＯＭＡＣビル 5階</p>
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_phone.png" alt=""></span>
-                                    <p class="ftAddress-info"><a href="tel:03-5207-2956" class="tel">03-5207-2956</a></p>
+                                    <p class="ftAddress-info"><a href="tel:03-5207-2956" class="tel">03-5207-2955</a></p>
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_fax.png" alt=""></span>

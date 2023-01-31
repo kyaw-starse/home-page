@@ -83,7 +83,7 @@
         <div class="sub-banner">
             <canvas class="particlesBg"></canvas>
             <div class="sub-bannerIn c-w1170">
-                <h2 class="sub-ttl">個人情報保護</h2>
+                <h2 class="sub-ttl">個人情報保護方針</h2>
                 <img src="/home-page/assets/img/philosophy/bnr_img.jpg" class="sub-bannerImg" alt="">
             </div>
         </div>
@@ -91,8 +91,59 @@
         <div class="content">
         <section class="sec-private01">
             <div class="c-w1170">
+                <h2 class="ttl-subpage"><span class="text-un-yellow">個人情報保護方針</span></h2>
+                <div class="letter">
+                    <div class="cFix">
+                        <p class="letter-lead-txt">
+                            STAR SE株式会社は、社会の基盤となるITサービスを提供する企業として、個人情報保護の重要性を認識し、 個人情報を適切に保護するための個人情報管理の仕組みを策定し、以下のように「個人情報保護方針」を定め、保護に努めます。
+                        </p>
+                        <ul class="list alpha-list">
+                            <li>
+                                <p class="alpha-ls"><span>a）</span>特定された利用目的の達成に必要な範囲を超えた個人情報の取扱い（“目的外利用”と言います。）を行ないません。また、そのための措置を講じます。</p>
+                            </li>
+                            <li>
+                                <p class="alpha-ls"><span>b）</span>個人情報の取扱いに関する法令、国が定める指針その他の規範を遵守します。</p>
+                            </li>
+                            <li>
+                                <p class="alpha-ls"><span>c）</span>個人情報の漏えい、滅失又はき損の防止及び是正に努めます。</p>
+                            </li>
+                            <li>
+                                <p class="alpha-ls"><span>d）</span>苦情及び相談に応じます。 （連絡先は下記の個人情報に関する苦情・相談及び問い合わせ窓口です。）</p>
+                            </li>
+                            <li>
+                                <p class="alpha-ls"><span>e）</span>個人情報保護マネジメントシステムの継続的改善に努めます。</p>
+                            </li>
+                        </ul>
+                        <div class="letter-b-txt">
+                            <p>制定日　2017年3月1日</p>
+                            <p>改定日　2017年4月1日</p>
+                            <p>STAR SE 株式会社</p>
+                            <p>代表取締役　金本　香蘭</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec-private02 bg-green-light">
+            <div class="c-w1170">
+                <h2 class="ttl-subpage"><span class="text-un-yellow">個人情報に関する<br class="sp">苦情・相談及び<br class="sp">問い合わせ窓口</span></h2>
+                <div class="private02-lead-txt">
+                    <p>STAR SE 株式会社</p>
+                    <p>苦情及び相談窓口</p>
+                    <p>〒104-0043 東京都中央区湊2丁目4-1 <br>ＴＯＭＡＣビル 5階</p>
+                    <p><span class="dis-inline">TEL：03-5207-2955</span></p>
+                    <p><span class="dis-inline">FAX：03-5207-2956</span> </p>
+                </div>
+            </div>
+        </section>
+        <section class="sec-private03">
+            <div class="c-w1170">
+                <h2 class="ttl-subpage"><span class="text-un-yellow">個人情報の<br class="sp">取扱いについて</span></h2>
                 <div>
-                    <p class="private-lead-txt">当社は取得した個人情報の取扱いについて、「プライバシーマークにおける個人情報保護マネジメントシステム構築・運用指針」（JIPDEC）のJ.8.4及びJ.10.3項に従い以下のように公表します。</p>
+                    <p class="private-lead-txt">
+                        直接書面以外の方法によって取得する個人情報の利用目的<br>
+                    当社は取得した個人情報の取扱いについて、「プライバシーマークにおける個人情報保護マネジメントシステム構築・運用指針」（JIPDEC）のJ.8.4及びJ.10.3項に従い以下のように公表します。
+                    </p>
                     <div class="ttl-number mb30"><span>01</span></div>
                     <h2 class="pri-ttl">【I】取得した個人情報の利用目的</h2>
                     <div class="sec-table">
@@ -147,7 +198,7 @@
                 </div>
             </div>
         </section>
-        <section class="sec-private02 bg-green-light">
+        <section class="sec-private04 bg-green-light">
             <div class="c-w1170">
                 <div>
                     <div class="ttl-number mb30"><span>02</span></div>
@@ -157,7 +208,7 @@
                             <span>1.</span>当社の名称及び住所並びに代表者の氏名：「個人情報保護方針」に記載しています。<br class="sp">（住所は「苦情・相談及び問い合わせ窓口」に同じ）
                         </div>
                         <div class="pri-num">
-                            <span>2.</span>個人情報保護管理者の職制：代表取締役　金本　香蘭<br class="sp">（連絡先Tel：03-5207-2955）
+                            <span>2.</span>個人情報保護管理者の職制：代表取締役　金本　香蘭<br class="sp">（連絡先Tel：<p class="dis-inline">03-5207-2955</p>） 
                         </div>
                         <div class="pri-num">
                             <span>3.</span>保有個人データの利用目的<br>【I】の「開示区分」が〝開示対象〟になっているものが該当します。
@@ -201,7 +252,7 @@
                 </div>
             </div>
         </section>
-        <section class="sec-private03">
+        <section class="sec-private05">
             <div class="c-w1170">
                 <div>
                     <div class="ttl-number mb30"><span>03</span></div>
@@ -244,11 +295,11 @@
                             <ul>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_homeaddress.png" alt=""></span>
-                                    <p class="ftAddress-info">〒104-0043<br>東京都中央区湊2丁目4-1<br>ＴＯＭＡＣビル 5階</p>
+                                    <p class="ftAddress-info">〒104-0043<br>東京都中央区湊2丁目4-1 ＴＯＭＡＣビル 5階</p>
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_phone.png" alt=""></span>
-                                    <p class="ftAddress-info"><a href="tel:03-5207-2956" class="tel">03-5207-2956</a></p>
+                                    <p class="ftAddress-info"><a href="tel:03-5207-2956" class="tel">03-5207-2955</a></p>
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_fax.png" alt=""></span>

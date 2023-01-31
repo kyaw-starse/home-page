@@ -562,6 +562,36 @@ News Block
 .newsBlock .btn-arr {
     max-width: 265px;
 }
+/* Our Clients */
+.clientsBlock {
+    position: relative;
+    z-index: 1;
+}
+.clientsBlock ul {
+    justify-content: space-between;
+}
+.clientsBlock ul li {
+    width: 48%;
+}
+.clientsBox {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255,255,255,1);
+    -webkit-box-shadow: 0 0px 5px rgb(0 0 0 / 30%);
+    -moz-box-shadow: 0 0px 5px rgba(0, 0, 0, .3);
+    box-shadow: 0 0px 5px rgb(0 0 0 / 30%);
+}
+.clientsBox .clients-link img {
+    height: 110px;
+    transition: all 0.3s ease-in-out;
+    filter: grayscale(100%);
+}
+.clientsBox .clients-link:hover img {
+    filter: none;
+    transform: scale(1.1);
+}
 /* ===============================
 Philosophy Page
 =============================== */

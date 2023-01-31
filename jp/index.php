@@ -153,6 +153,46 @@
                     </div>
                 </div>
             </section>
+            <section class="top-news bg-green-light">
+                <div class="c-w900">
+                    <h2 class="top-ttl ttl-subpage"><span class="text-un-yellow">ニュース</span></h2>
+                    <div class="newsBlock cFix">
+                        <ul>
+                            <li data-aos="fade-up" data-aos-delay="50">
+                                <a href="javascript:void(0)" class="newsLink">
+                                    <span class="newsDate">2023/2/1</span>
+                                    <p class="newsTtl">事務所を八丁堀に移動</p>
+                                </a>
+                            </li>
+                            <li data-aos="fade-up" data-aos-delay="70">
+                                <a href="javascript:void(0)" class="newsLink">
+                                    <span class="newsDate">2023/1/22</span>
+                                    <p class="newsTtl">ミャンマー支社設立</p>
+                                </a>
+                            </li>
+                            <li data-aos="fade-up" data-aos-delay="90">
+                                <a href="javascript:void(0)" class="newsLink">
+                                    <span class="newsDate">2023/1/22</span>
+                                    <p class="newsTtl">会社は10年周を迎う</p>
+                                </a>
+                            </li>
+                            <li data-aos="fade-up" data-aos-delay="110">
+                                <a href="/home-page/jp/news/news-detail.php" class="newsLink">
+                                    <span class="newsDate">2022/11/25</span>
+                                    <p class="newsTtl">DX戦略を策定</p>
+                                </a>
+                            </li>
+                            <li data-aos="fade-up" data-aos-delay="130">
+                                <a href="javascript:void(0)" class="newsLink">
+                                    <span class="newsDate">2022/7/1</span>
+                                    <p class="newsTtl">DX方針を宣言</p>
+                                </a>
+                            </li>
+                        </ul>
+                        <a href="/home-page/jp/news/" class="btn-arr"><span>もっと見る</span></a>
+                    </div>
+                </div>
+            </section>
             <section class="our-business">
                 <div class="c-w1300">
                     <h2 class="top-ttl ttl-subpage"><span class="text-un-yellow">事業内容</span></h2>
@@ -219,9 +259,11 @@
                                     </div>
                                 </a>
                                 <ul class="bussiness-btnList">
+                                    <!-- 
                                     <li>
                                         <span class="kizuna-icon"><img src="/home-page/assets/img/top/kizuna_icon.png" alt="">Kizuna</span>
                                     </li>
+                                     -->
                                     <li>
                                         <span class="exam-star"><img src="/home-page/assets/img/top/ss_exam.png" alt="">SS Exam</span>
                                     </li>
@@ -235,6 +277,7 @@
                 <div class="waveTopImg"><img src="/home-page/assets/img/top/wave_top_bg.png" alt=""></div>
                 <div class="c-w1300">
                     <h2 class="top-ttl ttl-subpage"><span class="text-un-yellow">提供サービス</span></h2>
+                    <!--  
                     <div class="serviceBlock cFix">
                         <div class="serviceBoxImg">
                             <div class="serviceComputerImg">
@@ -252,6 +295,7 @@
                             </div>
                         </div>
                     </div>
+                    -->
                     <div class="serviceBlock serviceBlock-reverse cFix">
                         <div class="serviceBoxImg" data-aos="fade-left">
                             <div class="serviceVideo">
@@ -266,7 +310,7 @@
                             </div>
                         </div>
                         <div class="serviceBoxText">
-                            <h2 class="service-ttl"><span>02</span>E-Learning</h2>
+                            <h2 class="service-ttl"><span>01</span>E-Learning</h2>
                             <div class="service-txt cFix">
                                 <p>“人”の出来ることを何方法で試すの? その答えはこちらにあります。<br class="pc">様々の業界でオンラインテストを実施することがで きます。相手の考え方、知識を試験の実績から把握できます。</p>
                                 <a href="https://elearning-star.com/" target="_blank" class="btn-arr"><span>詳細</span></a>
@@ -319,7 +363,7 @@
                                             <img src="/home-page/assets/img/top/csharp_icon.png" alt="">
                                         </div>
                                         <div class="member-txt">
-                                            <p>C#</p>
+                                            <p>.NET</p>
                                         </div>
                                     </div>
                                 </div>
@@ -330,10 +374,10 @@
                                     </div>
                                     <div class="memberDesp" data-aos="fade-up">
                                         <div class="member-icon">
-                                            <img src="/home-page/assets/img/top/VB_icon.png" alt="">
+                                            <img src="/home-page/assets/img/top/icon_iPhone.png" alt="">
                                         </div>
                                         <div class="member-txt">
-                                            <p>VB.NET</p>
+                                            <p>React Native</p>
                                         </div>
                                     </div>
                                 </div>
@@ -344,10 +388,10 @@
                                     </div>
                                     <div class="memberDesp" data-aos="fade-up">
                                         <div class="member-icon">
-                                            <img src="/home-page/assets/img/top/icon_iPhone.png" alt="">
+                                            <img src="/home-page/assets/img/top/icon_python.png" alt="">
                                         </div>
                                         <div class="member-txt">
-                                            <p>React Native</p>
+                                            <p>Python,Ruby...</p>
                                         </div>
                                     </div>
                                 </div>
@@ -363,10 +407,10 @@
                                     </div>
                                     <div class="memberDesp" data-aos="fade-up">
                                         <div class="member-icon">
-                                            <img src="/home-page/assets/img/top/cloud_icon.png" alt="">
+                                            <img src="/home-page/assets/img/top/icon_server.png" alt="">
                                         </div>
                                         <div class="member-txt">
-                                            <p>AWSクラウドサーバ</p>
+                                            <p>サーバ設計・構築</p>
                                         </div>
                                     </div>
                                 </div>
@@ -380,7 +424,7 @@
                                             <img src="/home-page/assets/img/top/windows_icon.png" alt="">
                                         </div>
                                         <div class="member-txt">
-                                            <p>Windows仮想サーバ</p>
+                                            <p>ネットワーク設計・構築</p>
                                         </div>
                                     </div>
                                 </div>
@@ -394,7 +438,7 @@
                                             <img src="/home-page/assets/img/top/db_icon.png" alt="">
                                         </div>
                                         <div class="member-txt">
-                                            <p>データベース設計</p>
+                                            <p>データベース設計・構築</p>
                                         </div>
                                     </div>
                                 </div>
@@ -405,10 +449,10 @@
                                     </div>
                                     <div class="memberDesp" data-aos="fade-up">
                                         <div class="member-icon">
-                                            <img src="/home-page/assets/img/top/Linux_icon.png" alt="">
+                                            <img src="/home-page/assets/img/top/cloud_icon.png" alt="">
                                         </div>
                                         <div class="member-txt">
-                                            <p>Linux 仮想サーバ </p>
+                                            <p>クラウドサーバ設計・構築（AWS, Azure)</p>
                                         </div>
                                     </div>
                                 </div>
@@ -462,43 +506,22 @@
                     </div>
                 </div>
             </section>
-            <section>
+            <section class="sec-clients">
                 <div class="c-w900">
-                    <h2 class="top-ttl ttl-subpage"><span class="text-un-yellow">ニュース</span></h2>
-                    <div class="newsBlock cFix">
-                        <ul>
-                            <li data-aos="fade-up" data-aos-delay="50">
-                                <a href="javascript:void(0)" class="newsLink">
-                                    <span class="newsDate">2023/2/1</span>
-                                    <p class="newsTtl">事務所を八丁堀に移動</p>
-                                </a>
+                    <h2 class="top-ttl ttl-subpage"><span class="text-un-yellow">弊社の資格・活動</span></h2>
+                    <div class="clientsBlock">
+                        <ul class="col-wrap">
+                            <li class="col2">
+                                <div class="clientsBox">
+                                    <a href="https://privacymark.jp/" target="_blank" class="clients-link"><img src="/home-page/assets/img/top/iso1.jpg" alt=""></a>
+                                </div>
                             </li>
-                            <li data-aos="fade-up" data-aos-delay="70">
-                                <a href="javascript:void(0)" class="newsLink">
-                                    <span class="newsDate">2023/1/22</span>
-                                    <p class="newsTtl">ミャンマー支社設立</p>
-                                </a>
-                            </li>
-                            <li data-aos="fade-up" data-aos-delay="90">
-                                <a href="javascript:void(0)" class="newsLink">
-                                    <span class="newsDate">2023/1/22</span>
-                                    <p class="newsTtl">会社は10年周を迎う</p>
-                                </a>
-                            </li>
-                            <li data-aos="fade-up" data-aos-delay="110">
-                                <a href="/home-page/jp/news/news-detail.php" class="newsLink">
-                                    <span class="newsDate">2022/11/25</span>
-                                    <p class="newsTtl">DX戦略を策定</p>
-                                </a>
-                            </li>
-                            <li data-aos="fade-up" data-aos-delay="130">
-                                <a href="javascript:void(0)" class="newsLink">
-                                    <span class="newsDate">2022/7/1</span>
-                                    <p class="newsTtl">DX方針を宣言</p>
-                                </a>
+                            <li class="col2">
+                                <div class="clientsBox">
+                                    <a href="https://www.jisc.go.jp/" target="_blank" class="clients-link"><img src="/home-page/assets/img/top/iso2.jpg" alt=""></a>
+                                </div>
                             </li>
                         </ul>
-                        <a href="/home-page/jp/news/" class="btn-arr"><span>もっと見る</span></a>
                     </div>
                 </div>
             </section>
@@ -523,11 +546,11 @@
                             <ul>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_homeaddress.png" alt=""></span>
-                                    <p class="ftAddress-info">〒104-0043<br>東京都中央区湊2丁目4-1<br>ＴＯＭＡＣビル 5階</p>
+                                    <p class="ftAddress-info">〒104-0043<br>東京都中央区湊2丁目4-1 ＴＯＭＡＣビル 5階</p>
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_phone.png" alt=""></span>
-                                    <p class="ftAddress-info"><a href="tel:03-5207-2956" class="tel">03-5207-2956</a></p>
+                                    <p class="ftAddress-info"><a href="tel:03-5207-2956" class="tel">03-5207-2955</a></p>
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_fax.png" alt=""></span>
