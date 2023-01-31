@@ -452,7 +452,7 @@
                                             <img src="/home-page/assets/img/top/cloud_icon.png" alt="">
                                         </div>
                                         <div class="member-txt">
-                                            <p>クラウドサーバ設計・構築（AWS, Azure)</p>
+                                            <p>クラウドサーバ設計・構築<br>（AWS, Azure)</p>
                                         </div>
                                     </div>
                                 </div>

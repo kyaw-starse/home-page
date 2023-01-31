@@ -130,7 +130,7 @@
                 <div class="private02-lead-txt">
                     <p>STAR SE 株式会社</p>
                     <p>苦情及び相談窓口</p>
-                    <p>〒104-0043 東京都中央区湊2丁目4-1 <br>ＴＯＭＡＣビル 5階</p>
+                    <p>〒104-0043 東京都中央区湊2丁目4-1 <br class="sp">ＴＯＭＡＣビル 5階</p>
                     <p><span class="dis-inline">TEL：03-5207-2955</span></p>
                     <p><span class="dis-inline">FAX：03-5207-2956</span> </p>
                 </div>
