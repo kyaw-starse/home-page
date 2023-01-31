@@ -19,8 +19,12 @@
     <link rel="stylesheet" href="/home-page/assets/css/common.css">
     <script src="/home-page/assets/js/jquery.min.js"></script>
 </head>
-<body id="top">
-    <div id="wrapper">
+<body id="top" class="top">
+    <div id="splash">
+        <div id="splash-logo"><img src="/home-page/assets/img/common/loading.gif" alt="読み込み中" class="icon-01 apng-image"><span class="rollAnime">Loading</span></div>
+    </div>
+    <div class="splashbg"></div>
+    <div id="wrapper" class="top-wrap">
         <header class="headerBlock">
             <div class="header c-w1420">
                 <h1 class="h-logo">

@@ -18,8 +18,12 @@
     <link rel="stylesheet" href="/home-page/assets/css/sp_style.css">
     <script src="/home-page/assets/js/jquery.min.js"></script>
 </head>
-<body id="top">
-    <div id="wrapper">
+<body id="top" class="top">
+    <div id="splash">
+        <div id="splash-logo"><img src="/home-page/assets/img/common/loading.gif" alt="読み込み中" class="icon-01 apng-image"><span class="rollAnime">Loading</span></div>
+    </div>
+    <div class="splashbg"></div>
+    <div id="wrapper" class="top-wrap">
         <header class="headerBlock">
             <div class="header c-w1420">
                 <h1 class="h-logo">
@@ -33,7 +37,7 @@
                         <ul class="cFix">
                             <li><a href="/home-page/jp/company/"><span>会社情報</span></a></li>
                             <li><a href="/home-page/jp/philosophy/"><span>経営理念</span></a></li>
-                            <li><a href="/home-page/jp/business/"><span>事業内容</span></a></li>
+                            <li><a href="/home-page/jp/business/" class="navpc-active"><span>事業内容</span></a></li>
                             <li><a href="/home-page/jp/recruit/"><span>採用情報</span></a></li>
                             <li><a href="/home-page/jp/security/"><span>情報セキュリティ</span></a></li>
                         </ul>

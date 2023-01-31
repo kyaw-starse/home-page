@@ -31,7 +31,7 @@
         <header class="headerBlock">
             <div class="header c-w1420">
                 <h1 class="h-logo">
-                    <a href="">
+                    <a href="/home-page/jp/">
                         <img src="/home-page/assets/img/common/h_logo.png" alt="">
                         <p>STAR SE<span>All for your dream</span></p>
                     </a>
