@@ -16,7 +16,70 @@ Top
     }
 }
 @media screen and (max-width: 768px) {
-    
+    /* About Block */
+    .top-aboutIn {
+        padding: 50px 0;
+    }
+    .top-aboutIn:before {
+        top: 25%;
+        transform: skewY(-17deg);
+    }
+    .top-aboutIn:after {
+        top: 31%;
+        height: calc(100% - 50%);
+        transform: skewY(-17deg);
+        background: #008135;
+    }
+    .aboutInfo-in {
+        background: none;
+        padding: 0;
+        box-shadow: none;
+        border: 0;
+    }
+    .aboutInfoLeft {
+        width: 100%;
+        min-height: 470px;
+        float: none;
+        background: #fff;
+        padding: 20px;
+        justify-content: space-between;
+        -webkit-box-shadow: 0 3px 19px rgb(200 200 200);
+        -moz-box-shadow: 0 3px 19px rgb(200 200 200);
+        box-shadow: 0 3px 19px rgb(200 200 200);
+        border: 1px solid #008135;
+    }
+    .aboutInfoLeft:before {
+        top: 8px;
+        left: 8px;
+        background: url(../img/common/quoteleft.png) no-repeat;
+        background-size: 65%;
+    }
+    .aboutInfoLeft:after {
+        top: 13px;
+        right: calc(100% - 54%);
+        background: url(../img/common/quoteright.png) no-repeat;
+        background-size: 65%;
+    }
+    .aboutInfoRight {
+        width: 100%;
+        float: none;
+    }
+    .about-message {
+        margin-top: 20px;
+        letter-spacing: 1px;
+    }
+    .about-message p {
+        margin-top: 15px;
+        font-size: 14px;
+    }
+    .about-img {
+        width: 50%;
+        float: right;
+    }
+    .about-img img {
+        width: 93%;
+        margin: 0 0 1% 5%;
+    }
     /* Recruit Block */
     .recruitDesp .boxLeft, .recruitDesp .boxRight {
         width: 100%;

@@ -3,9 +3,52 @@
 Top
 =============================== */
 /* About Block */
+.top-about {
+    position: relative;
+    padding: 0;
+}
+.top-about:before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 46%;
+    background: #008135;
+    z-index: 1;
+}
+.top-aboutIn {
+    position: relative;
+    padding: 80px 0;
+}
+.top-aboutIn:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 29%;
+    width: 100%;
+    height: 30%;
+    transform: skewY(-6deg);
+    background: #A5FFCA;
+}
+.top-aboutIn:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    top: 33%;
+    height: 30%;
+    transform: skewY(-6deg);
+    background: #008135;
+}
+.top-about .c-w1100 {
+    position: relative;
+    z-index: 2;
+}
 .aboutInfo-in {
+    background: #fff;
     padding: 20px;
-    justify-content: space-between;
     -webkit-box-shadow: 0 3px 19px rgb(200 200 200);
     -moz-box-shadow: 0 3px 19px rgb(200 200 200);
     box-shadow: 0 3px 19px rgb(200 200 200);
@@ -13,14 +56,17 @@ Top
 }
 .about-message {
     margin-top: 70px;
+    letter-spacing: 1.5px;
 }
 .aboutInfoLeft {
-    width: 50%;
+    width: 52%;
     position: relative;
     padding: 0 40px;
+    float: left;
 }
 .aboutInfoRight {
     width: 43%;
+    float: right;
 }
 .aboutInfoLeft:before,
 .aboutInfoLeft:after {

@@ -152,7 +152,7 @@ footer {
     margin-bottom: 15px;
 }
 .ftDesp {
-    width: 73%;
+    width: 60%;
     float: left;
     padding-right: 20px;
 }
@@ -183,8 +183,12 @@ footer {
     text-align: left;
 }
 .ftFacebook {
-    width: 27%;
+    width: 40%;
     float: right;
+}
+.fb_iframe_widget span {
+    display: block !important;
+    margin: 0 auto;
 }
 .copyRight {
     background: #03A646;
@@ -382,6 +386,7 @@ footer {
         width: 100%;
         float: none;
         padding-right: 0px;
+        margin-bottom: 20px;
     }
     .ftLogoText {
         font-size: 25px;
@@ -393,6 +398,10 @@ footer {
     .copyRight p {
         padding: 0 20px;
         font-size: 12px;
+    }
+    .ftFacebook {
+        width: 100%;
+        float: none;
     }
 }
 @media screen and (max-width: 375px) {
