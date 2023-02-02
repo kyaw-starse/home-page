@@ -98,57 +98,57 @@
                     <form action="">
                         <div class="form-row form-mb">
                             <div class="form-col2">
-                                <label for="" class="form-label">会社名</label>
+                                <label for="syameyi" class="form-label">会社名</label>
                                 <div class="form-inputText">
-                                    <input type="text" class="inputType" name="" id="" placeholder="">
+                                    <input type="text" class="inputType" name="syameyi" id="syameyi" placeholder="会社名を入力してください。">
                                 </div>
                             </div>
                             <div class="form-col2">
-                                <label for="" class="form-label">担当者名<span class="require">*</span></label>
+                                <label for="name" class="form-label">担当者名<span class="require">*</span></label>
                                 <div class="form-inputText">
-                                    <input type="text" class="inputType" name="" id="" placeholder="例(半角)：toshima@gmail.com">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-row form-mb">
-                            <div class="form-col2">
-                                <label for="" class="form-label">電話番号<span class="require">*</span></label>
-                                <div class="form-inputText">
-                                    <input type="text" class="inputType" name="" id="" placeholder="例(半角)：09012384561">
-                                </div>
-                            </div>
-                            <div class="form-col2">
-                                <label for="" class="form-label">メールアドレス<span class="require">*</span></label>
-                                <div class="form-inputText">
-                                    <input type="text" class="inputType" name="" id="" placeholder="例(半角)：toshima@gmail.com">
+                                    <input type="text" class="inputType" name="name" id="name" placeholder="例(半角)：Toshima">
                                 </div>
                             </div>
                         </div>
                         <div class="form-row form-mb">
                             <div class="form-col2">
-                                <label for="" class="form-label">郵便番号</label>
+                                <label for="denwa" class="form-label">電話番号<span class="require">*</span></label>
                                 <div class="form-inputText">
-                                    <input type="text" class="inputType" name="" id="" >
+                                    <input type="tel" class="inputType" name="denwa" id="denwa" placeholder="例(半角)：09012384561">
                                 </div>
                             </div>
                             <div class="form-col2">
-                                <label for="" class="form-label">住所<span class="require">*</span></label>
+                                <label for="email" class="form-label">メールアドレス<span class="require">*</span></label>
                                 <div class="form-inputText">
-                                    <input type="text" class="inputType" name="" id="" >
+                                    <input type="email" class="inputType" name="email" id="email" placeholder="例(半角)：toshima@gmail.com">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row form-mb">
+                            <div class="form-col2">
+                                <label for="yubinn" class="form-label">郵便番号</label>
+                                <div class="form-inputText">
+                                    <input type="text" class="inputType" name="yubinn" id="yubinn" >
+                                </div>
+                            </div>
+                            <div class="form-col2">
+                                <label for="adress" class="form-label">住所<span class="require">*</span></label>
+                                <div class="form-inputText">
+                                    <input type="text" class="inputType" name="adress" id="adress" required>
                                 </div>
                             </div>
                         </div>
                         <div class="form-row form-mb">
                             <div class="form-col1">
-                                <label for="" class="form-label">お問い合わせ内容<span class="require">*</span></label>
+                                <label for="area" class="form-label">お問い合わせ内容<span class="require">*</span></label>
                                 <div class="form-textarea">
-                                    <textarea name="" cols="50" rows="5" placeholder="※200字以内で入力してください。"></textarea>
+                                    <textarea name="area" cols="50" rows="5" placeholder="※200字以内で入力してください。"></textarea>
                                 </div>
                             </div>
                         </div>
                         <div class="form-row form-mb">
                             <div class="form-col1">
-                                <label for="" class="form-label">個人情報の取扱い<span class="require">*</span></label>
+                                <label for="chkagree" class="form-label">個人情報の取扱い<span class="require">*</span></label>
                                 <div class="form-inputCheckbox">
                                     <label for="chkagree">
                                         <input type="checkbox" name="chkagree" id="chkagree">
@@ -190,7 +190,7 @@
                         <div class="form-row">
                             <div class="form-col1">
                                 <div class="sec-btn02">
-                                    <a href="#" class="btn02">送信</a>
+                                    <button type="submit" class="btn02">送信</button>
                                 </div>
                             </div>
                         </div>
