@@ -52,17 +52,20 @@ header
 header {
     position: fixed;
     top: 0;
-    z-index: 2;
+    z-index: 3;
     width: 100%;
-    background: rgba(255,255,255,.8);
+    transition: background .5s;
+}
+.headerFixed {
+    background: #fff;
+    background-size: 100% 100%;
     -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
     -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
     box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
 }
-.headerBg {
-    background: rgba(255,255,255,1);
-}
 .header {
+    max-width: 1600px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -251,6 +254,7 @@ footer {
     header {
         border-bottom: 1px solid #A0A0A0;
         box-shadow: none;
+        background: #fff;
     }
     .header {
         display: block;
@@ -374,7 +378,15 @@ footer {
         height: 75px;
         visibility: hidden;
         margin-top: -75px;
-    }  
+    }
+    .sub-banner {
+        padding-top: 71px;
+    }
+    .sub-banner img {
+        height: 190px;
+        object-fit: cover;
+        object-position: right center;
+    }
     /* Footer */
     .footerLogoImg {
         float: none;

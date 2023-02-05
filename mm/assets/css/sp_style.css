@@ -113,6 +113,47 @@ Top
         width: 100%;
         padding: 0;
     }
+    /* ===============================
+    Aboutus Page
+    =============================== */
+    .overviewBlock table tr th,.overviewBlock table tr td {
+        width: 100%;
+        display: block;
+    }
+    .overviewBlock table tr th {
+        padding-bottom: 10px;
+    }
+    .overviewBlock table tr td {
+        width: 100%;
+        padding: 0 0 20px 0;
+    }
+    /* ===============================
+    Contact Page
+    =============================== */
+    .contact-page .form-block {
+        padding: 50px 20px;
+    }
+    /* ===============================
+    Recruit Page
+    =============================== */
+    /* tabs block */
+    .tabs-ls {
+        padding: 0;
+        justify-content: space-between;
+    }
+    .tabs-ls .col2 {
+        width: 49%;
+    }
+    .tabs-btn {
+        height: 70px;
+        padding: 10px 0px;
+        font-size: 13px;
+        margin-bottom: 40px;
+    }
+    .tabs li.active a .tabs-btn:after {
+        font-size: 40px;
+        bottom: -38px;
+    }
 }
 @media screen and (max-width: 640px) {
     /* Service Block */

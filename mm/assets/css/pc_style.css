@@ -179,3 +179,93 @@ Top
     width: calc(100% - 120px);
     padding: 0 20px 0 5%;
 }
+/* ===============================
+Aboutus Page
+=============================== */
+.overviewBlock table {
+    width: 100%;
+}
+.overviewBlock table tr {
+    border-bottom: 1px solid #78BC94;
+}
+.overviewBlock table tr:first-child {
+    border-top: 1px solid #78BC94;
+}
+.overviewBlock table tr th,
+.overviewBlock table tr td {
+    padding: 20px 0;
+}
+.overviewBlock table tr th {
+    width: 20%;
+    text-align: left;
+}
+.overviewBlock table tr td {
+    width: 80%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.overviewBlock table tr td p {
+    line-height: 2;
+}
+/* ===============================
+Contact Page
+=============================== */
+.contact-page .form-block {
+    border:1px solid #008135;
+    padding: 80px 30px;
+}
+/* ===============================
+Recruit Page
+=============================== */
+.recruit-page .form-block {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    border: 1px solid #008135;
+}
+/* tabs block */
+.tabs-ls {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.tabs-btn {
+    max-width: 250px;  
+}
+.tabs-btnLink {
+    max-width: 250px;
+    margin: 0 auto;
+}
+.tabs-btn {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 60px;
+    position: relative;
+    color: #000;
+    border: 1px solid #008135;
+    border-radius: 100px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+}
+.tabs li.active a .tabs-btn {
+    background: #008135;
+    color: #fff;
+}
+.tabs li.active a .tabs-btn:after {
+    content: "\2193";
+    display: block;
+    font-size: 65px;
+    color: #008135;
+    line-height: 1;
+    position: absolute;
+    bottom: -60px;
+}
+.panels > div.panel {
+    display: none;
+}
+.panels > div.panel.active {
+    display: block;
+}

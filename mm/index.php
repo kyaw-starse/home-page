@@ -26,7 +26,7 @@
         <header class="headerBlock">
             <div class="header">
                 <h1 class="h-logo">
-                    <a href="">
+                    <a href="./">
                         <img src="./assets/img/common/h_logo.png" alt="">
                         <p>STAR SE<span>MYANMAR</span></p>
                     </a>
@@ -34,11 +34,11 @@
                 <div class="h-right cFix">
                     <nav class="nav-pc">
                         <ul class="cFix">
-                            <li><a href="#"><span>About Us</span></a></li>
-                            <li><a href="#"><span>Service</span></a></li>
-                            <li><a href="#"><span>Recruit</span></a></li>
-                            <li><a href="#"><span>News</span></a></li>
-                            <li><a href="#"><span>Contact Us</span></a></li>
+                            <li><a href="aboutus.php"><span>About Us</span></a></li>
+                            <li><a href="services.php"><span>Service</span></a></li>
+                            <li><a href="recruit.php"><span>Recruit</span></a></li>
+                            <li><a href="news.php"><span>News</span></a></li>
+                            <li><a href="contact.php"><span>Contact Us</span></a></li>
                         </ul>
                     </nav>
                 </div>
@@ -55,11 +55,11 @@
         <nav id="globalNav" class="globalNav">
             <div class="globalNav-inner">
                 <ul class="nav-sp">
-                    <li><a href="#"><span>About Us</span></a></li>
-                    <li><a href="#"><span>Service</span></a></li>
-                    <li><a href="#"><span>Recruit</span></a></li>
-                    <li><a href="#"><span>News</span></a></li>
-                    <li><a href="#"><span>Contact Us</span></a></li>
+                    <li><a href="aboutus.php"><span>About Us</span></a></li>
+                    <li><a href="services.php"><span>Service</span></a></li>
+                    <li><a href="recruit.php"><span>Recruit</span></a></li>
+                    <li><a href="news.php"><span>News</span></a></li>
+                    <li><a href="contact.php"><span>Contact Us</span></a></li>
                 </ul>
             </div>
         </nav>
