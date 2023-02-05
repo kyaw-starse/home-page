@@ -381,6 +381,13 @@
     .circle-iconLst.pc {
         display: none;
     }
+    .dx-sec01 {
+        margin-bottom: 30px;
+    }
+    .business-sec02 .boxTxt,
+    .business-sec03 .boxTxt {
+        font-size: 18px;
+    }
     /* ===============================
     Form Page
     =============================== */

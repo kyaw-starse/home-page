@@ -245,7 +245,7 @@
                                         <div class="history-desp">
                                             <dl class="cFix">
                                                 <dt>1月</dt>
-                                                <dd>Pマークを更新</dd>
+                                                <dd>プライバシーマーク（第22000213号）を更新</dd>
                                             </dl>
                                         </div>
                                     </div>
