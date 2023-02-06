@@ -2,27 +2,35 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="content-language" content="ja">
+    <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="star se,starse,star,it star se,star se japan,starse japan,スター,スターエスイー,STAR SE株式会社">
+    <meta name="keywords" content="star se,star se contact,starse contact,starse,star,it star se,star se japan,starse japan,スター,スターエスイー,STAR SE株式会社">
     <meta name="description" content="弊社は、ソフトウェア開発からインフラ設計構築、システム運用支援までトータルなソリューションを提供する“ITソリューション”の拡充に加え、 IT業界の人材不足の課題対応策として“社員教育”の強化に取り組んでおります。">
     <meta name="google-site-verification" content="Dg_pvHrLYsE_PNW7oubm3Xw5aWYEPksmjpJwXLBG0Sk"/>
-    <link rel="shortcut icon" href="/home-page/assets/img/common/favicon.png" type="image/x-icon">
-    <link rel="icon" href="/home-page/assets/img/common/favicon.png" type="image/x-icon">
-    <title>お問い合せ</title>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/home-page/assets/css/import.css">
     <link rel="stylesheet" href="/home-page/assets/css/aos.css">
     <link rel="stylesheet" href="/home-page/assets/css/pc_style.css">
     <link rel="stylesheet" href="/home-page/assets/css/sp_style.css">
+    <link rel="shortcut icon" href="/home-page/assets/img/common/favicon.png" type="image/x-icon">
+    <link rel="icon" href="/home-page/assets/img/common/favicon.png" type="image/x-icon">
+    <title>お問い合せ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">    
     <script src="/home-page/assets/js/jquery.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <!-- Template Main CSS File -->
+    <link href="/home-page/assets/css/style.css" rel="stylesheet">
 </head>
 <body id="top" class="top">
     <div id="splash">
         <div id="splash-logo"><img src="/home-page/assets/img/common/loading.gif" alt="読み込み中" class="icon-01 apng-image"><span class="rollAnime">Loading</span></div>
     </div>
     <div class="splashbg"></div>
+    <div><?php  //echo '<pre>';
+        //var_dump($_SESSION['errors']);
+        //echo '</pre>';?>
+    </div>
     <div id="wrapper" class="top-wrap">
         <header class="headerBlock">
             <div class="header c-w1420">
@@ -92,15 +100,15 @@
         </div>
         <!-- sub-banner -->
         <div class="content">
-        <section class="form-secblock">
+        <section class="form-secblock" id=''>
             <div class="c-w1170">
                 <div class="form-block letter">
-                    <form action="">
+                    <form action="/home-page/jp/form/contactform.php" method="post" role="form" class="php-email-form" id="contact-form">
                         <div class="form-row form-mb">
                             <div class="form-col2">
                                 <label for="syameyi" class="form-label">会社名</label>
                                 <div class="form-inputText">
-                                    <input type="text" class="inputType" name="syameyi" id="syameyi" placeholder="会社名を入力してください。">
+                                    <input type="text" class="inputType" name="syameyi" id="syameyi" placeholder="STAR SE株式会社">
                                 </div>
                             </div>
                             <div class="form-col2">
@@ -128,13 +136,13 @@
                             <div class="form-col2">
                                 <label for="yubinn" class="form-label">郵便番号</label>
                                 <div class="form-inputText">
-                                    <input type="text" class="inputType" name="yubinn" id="yubinn" >
+                                    <input type="text" class="inputType" name="yubinn" id="yubinn" placeholder="〒104-0043">
                                 </div>
                             </div>
                             <div class="form-col2">
                                 <label for="adress" class="form-label">住所<span class="require">*</span></label>
                                 <div class="form-inputText">
-                                    <input type="text" class="inputType" name="adress" id="adress" required>
+                                    <input type="text" class="inputType" name="adress" id="adress">
                                 </div>
                             </div>
                         </div>
@@ -187,10 +195,19 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="g-recaptcha" data-sitekey="6LdJInAiAAAAACOCC9BABpQ7Rwh1Ob_41U5FVNON"></div>
+                        <div class="my-3">
+                                <div class="loading"></div>
+                                <div class="error-message"></div>
+                                <div class="sent-message"></div>
+                            </div>
                         <div class="form-row">
                             <div class="form-col1">
                                 <div class="sec-btn02">
-                                    <button type="submit" class="btn02">送信</button>
+                                    <button type="submit" class="contact_send btn02" class="g-recaptcha" id='contact_send'
+                                        data-sitekey="6Ld24EokAAAAANLLsb10Dq3dFKLCJctrGXXPDnjZ" 
+                                        data-callback='onSubmit' 
+                                        data-action='submit'>送信</button>
                                 </div>
                             </div>
                         </div>
@@ -240,11 +257,27 @@
         </footer>
         <!-- footer -->
     </div>
+    <script>
+        function onSubmit(token) {
+            document.getElementById("contact-form").submit();
+        }
+        let input = document.querySelector("#chkagree");
+        let button = document.querySelector("#contact_send");
+        input.addEventListener("change", stateHandle);
+        function stateHandle() {
+            if (document.querySelector("#chkagree").value === "") {
+                button.disabled = true; //button remains disabled
+            } else {
+                button.disabled = false; //button is enabled
+            }            
+        }
+    </script>
     <!-- wrapper -->
     <script src="/home-page/assets/js/sub_particles.min.js"></script>
     <script src="/home-page/assets/js/aos.js"></script>
     <script src="/home-page/assets/js/jquery.matchHeight-min.js"></script>
     <script src="/home-page/assets/js/subpage.js"></script>
     <script src="/home-page/assets/js/common.js"></script>
+    <script src="/home-page/assets/vendor/php-email-form/validate.js"></script>
 </body>
 </html>

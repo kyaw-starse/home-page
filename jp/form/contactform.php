@@ -1,5 +1,5 @@
 <?php
-
+    //session_start();
 /**
  * Requires the "PHP Email Form" library
  * The "PHP Email Form" library is available only in the pro version of the template
@@ -42,6 +42,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   // 電話番号
   if (empty($denwa)) {
     $errors[] = "電話番号を入力してください。";
+  }else{
+    if(preg_match('/^[0-9]{10}+$/', $denwa)){
+      //
+    }else{
+      $errors[] = "数字で入力してください。";
+    }
   }
 
   // 住所
@@ -63,25 +69,35 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "<br>";
     foreach ($errors as $error) {
       echo $error;
-      echo "<br>";
+      echo "<br>";      
     }
+    $_SESSION[ 'errors' ] = $errors;
     return false;
   }
 
   if ($_POST['g-recaptcha-response'] != "") {
+    //$secret = '6LdJInAiAAAAAKmVb1MZe7PdMVv_6JjQeu-2JONX';
     $secret = '6LdJInAiAAAAAKmVb1MZe7PdMVv_6JjQeu-2JONX';
     $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secret . '&response=' . $_POST['g-recaptcha-response']);
     $responseData = json_decode($verifyResponse);
 
     if ($responseData->success) {
 
-      $recruit = 'recruit@star-se.co.jp';
+      //$recruit = 'recruit@star-se.co.jp';
+      $recruit = 'htun.htun.win@star-se.co.jp';
       $custMail = $email;
-      $mailer = 'STAR-SE_info@star-se.co.jp';
+      //$mailer = 'STAR-SE_info@star-se.co.jp';
+      $mailer = 'htun.htun.win@star-se.co.jp';
+      $thumb_name = $_SERVER['DOCUMENT_ROOT'].'/home-page/assets/vendor/php-email-form/php-email-form.php';
 
-      if (file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php')) {
-        include($php_email_form);
+      $php_email_form = $hostname.'/home-page/assets/vendor/php-email-form/php-email-form.php';
+      $path = dirname(__FILE__) . '/php-email-form.php';
+
+      if (file_exists($thumb_name)) {
+       include($thumb_name);
       } else {
+        echo $php_email_form;
+        echo "<br>";
         die('Unable to load the "PHP Email Form" Library!');
       }
 
@@ -130,9 +146,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
       $contact->smtp = array(
         'host' => 'smtp.alpha-prm.jp',
-        'username' => 'STAR-SE_info@star-se.co.jp',
+        //'username' => 'STAR-SE_info@star-se.co.jp',
+        'username' => 'htun.htun.win@star-se.co.jp',
         //'password' => 'FYuiojk789*RED%',
-        'password' => 'NhyujmKi987$#',
+        'password' => 't@n202301SE',
         'port' => '587'
       );
 
@@ -169,8 +186,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
       $contact2->smtp = array(
         'host' => 'smtp.alpha-prm.jp',
-        'username' => 'STAR-SE_info@star-se.co.jp',
-        'password' => 'NhyujmKi987$#',
+        //'username' => 'STAR-SE_info@star-se.co.jp',
+        'username' => 'htun.htun.win@star-se.co.jp',
+        //'password' => 'NhyujmKi987$#',
+        'password' => 't@n202301SE',
         'port' => '587'
       );
 
@@ -189,5 +208,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
   }
 } else {
+  //return require '/home-page/jp/contact/index.php';  
+  //header('Location: /home-page/jp/contact/index.php');
   echo "人間承認を受けてください。";
+  //exit();
 }
