@@ -569,7 +569,7 @@ class PHPMailer
      * @var string
      */
     //public $Username = 'STAR-SE_info@star-se.co.jp';
-    public $Username = 'STAR-SE_info@star-se.co.jp';
+    public $Username = 'htun.htun.win@star-se.co.jp';
 
     /**
      * SMTP password.

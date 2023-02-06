@@ -68,17 +68,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   if (empty($address)) {
     $errors[] = "住所を入力してください。";
   }
-  if (empty($chkagree)) {
-    $errors[] = "個人情報の取り扱い同意してください。";
-  }
-  if (empty($area)) {
-    $errors[] = "備考を入力してください。";
-  }
   //添付ファイル
   if ($_FILES['skillsheet']['size'] == 0) {
     $errors[] = "スキルシートをアップロードしてください。";
   }
-
+  if (empty($area)) {
+    $errors[] = "備考を入力してください。";
+  }
+  if (empty($chkagree)) {
+    $errors[] = "個人情報の取り扱い同意してください。";
+  }
   if (!empty($errors)) {
     echo "<br>";
     foreach ($errors as $error) {
@@ -88,19 +87,23 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     return false;
   }
 
-  if ($_POST['g-recaptcha-response'] != "") {
-    $secret = '6LdJInAiAAAAAKmVb1MZe7PdMVv_6JjQeu-2JONX';
-    $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secret . '&response=' . $_POST['g-recaptcha-response']);
-    $responseData = json_decode($verifyResponse);
+  // if ($_POST['g-recaptcha-response'] != "") {
+  //   $secret = '6LdJInAiAAAAAKmVb1MZe7PdMVv_6JjQeu-2JONX';
+  //   $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secret . '&response=' . $_POST['g-recaptcha-response']);
+  //   $responseData = json_decode($verifyResponse);
 
-    if ($responseData->success) {
+  //   if ($responseData->success) {
 
-      $recruit = 'recruit@star-se.co.jp';
+      // $recruit = 'recruit@star-se.co.jp';
+      $recruit = 'htun.htun.win@star-se.co.jp';
       $custMail = $_POST['email'];
-      $mailer = 'STAR-SE_info@star-se.co.jp';
+      // $mailer = 'STAR-SE_info@star-se.co.jp';
+      $mailer = 'htun.htun.win@star-se.co.jp';
+      $thumb_name = $_SERVER['DOCUMENT_ROOT'].'/home-page/assets/vendor/php-email-form/php-email-form.php';
 
-      if (file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php')) {
-        include($php_email_form);
+      // if (file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php')) {
+      if (file_exists($thumb_name)) {
+        include($thumb_name);
       } else {
         die('Unable to load the "PHP Email Form" Library!');
       }
@@ -146,9 +149,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   ";
 
       $contact->smtp = array(
+        // 'host' => 'smtp.alpha-prm.jp',
+        // 'username' => 'STAR-SE_info@star-se.co.jp',
+        // 'password' => 'NhyujmKi987$#',
+        // 'port' => '587'
         'host' => 'smtp.alpha-prm.jp',
-        'username' => 'STAR-SE_info@star-se.co.jp',
-        'password' => 'NhyujmKi987$#',
+        //'username' => 'STAR-SE_info@star-se.co.jp',
+        'username' => 'htun.htun.win@star-se.co.jp',
+        //'password' => 'FYuiojk789*RED%',
+        'password' => 't@n202301SE',
         'port' => '587'
       );
 
@@ -193,9 +202,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $message4 = $custNm2 . $message2 . $message3;
 
       $contact2->smtp = array(
+        // 'host' => 'smtp.alpha-prm.jp',
+        // 'username' => 'STAR-SE_info@star-se.co.jp',
+        // 'password' => 'NhyujmKi987$#',
+        // 'port' => '587'
         'host' => 'smtp.alpha-prm.jp',
-        'username' => 'STAR-SE_info@star-se.co.jp',
-        'password' => 'NhyujmKi987$#',
+        //'username' => 'STAR-SE_info@star-se.co.jp',
+        'username' => 'htun.htun.win@star-se.co.jp',
+        //'password' => 'FYuiojk789*RED%',
+        'password' => 't@n202301SE',
         'port' => '587'
       );
 
@@ -217,7 +232,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
       echo $contact2->send();
     }
-  }
-} else {
-  echo "人間承認を受けてください。";
-}
+//   }
+// } else {
+//   echo "人間承認を受けてください。";
+// }
