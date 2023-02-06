@@ -17,8 +17,6 @@
     <title>お問い合せ</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">    
     <script src="/home-page/assets/js/jquery.min.js"></script>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-
     <!-- Template Main CSS File -->
     <link href="/home-page/assets/css/style.css" rel="stylesheet">
 </head>
@@ -128,7 +126,7 @@
                             <div class="form-col2">
                                 <label for="email" class="form-label">メールアドレス<span class="require">*</span></label>
                                 <div class="form-inputText">
-                                    <input type="email" class="inputType" name="email" id="email" placeholder="例(半角)：toshima@gmail.com">
+                                    <input type="text" class="inputType" name="email" id="email" placeholder="例(半角)：toshima@gmail.com">
                                 </div>
                             </div>
                         </div>
@@ -195,11 +193,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="g-recaptcha" data-sitekey="6LdJInAiAAAAACOCC9BABpQ7Rwh1Ob_41U5FVNON"></div>
+              
                         <div class="my-3">
-                                <div class="loading"></div>
+                                <div class="loading">メール送信中...</div>
                                 <div class="error-message"></div>
-                                <div class="sent-message"></div>
+                                <div class="sent-message">メールが送信されました。ありがとうございました!</div>
                             </div>
                         <div class="form-row">
                             <div class="form-col1">
@@ -257,20 +255,10 @@
         </footer>
         <!-- footer -->
     </div>
-    <script>
-        function onSubmit(token) {
+    <script type="text/javascript"> 
+      function onSubmit(token) {
             document.getElementById("contact-form").submit();
-        }
-        let input = document.querySelector("#chkagree");
-        let button = document.querySelector("#contact_send");
-        input.addEventListener("change", stateHandle);
-        function stateHandle() {
-            if (document.querySelector("#chkagree").value === "") {
-                button.disabled = true; //button remains disabled
-            } else {
-                button.disabled = false; //button is enabled
-            }            
-        }
+        } 
     </script>
     <!-- wrapper -->
     <script src="/home-page/assets/js/sub_particles.min.js"></script>

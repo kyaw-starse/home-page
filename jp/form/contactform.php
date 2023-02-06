@@ -35,21 +35,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $errors[] = "メールアドレスを入力してください。";
   } else {
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-      $errors[] = "メールアドレスを正しく入力してください。";
+      $errors[] = "メールアドレスは＠で正しく入力してください。";
     }
   }
 
   // 電話番号
   if (empty($denwa)) {
     $errors[] = "電話番号を入力してください。";
-  }else{
-    if(preg_match('/^[0-9]{10}+$/', $denwa)){
-      //
-    }else{
-      $errors[] = "数字で入力してください。";
-    }
   }
-
   // 住所
   if (empty($adress)) {
     $errors[] = "住所を入力してください。";
@@ -75,26 +68,25 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     return false;
   }
 
-  if ($_POST['g-recaptcha-response'] != "") {
+ /* if ($_POST['g-recaptcha-response'] != "") {
     //$secret = '6LdJInAiAAAAAKmVb1MZe7PdMVv_6JjQeu-2JONX';
     $secret = '6LdJInAiAAAAAKmVb1MZe7PdMVv_6JjQeu-2JONX';
     $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secret . '&response=' . $_POST['g-recaptcha-response']);
     $responseData = json_decode($verifyResponse);
 
-    if ($responseData->success) {
+    if ($responseData->success) {*/
 
       //$recruit = 'recruit@star-se.co.jp';
       $recruit = 'htun.htun.win@star-se.co.jp';
       $custMail = $email;
       //$mailer = 'STAR-SE_info@star-se.co.jp';
       $mailer = 'htun.htun.win@star-se.co.jp';
-      $thumb_name = $_SERVER['DOCUMENT_ROOT'].'/home-page/assets/vendor/php-email-form/php-email-form.php';
+      $php_email_form = $_SERVER['DOCUMENT_ROOT'].'/home-page/assets/vendor/php-email-form/php-email-form.php';
 
-      $php_email_form = $hostname.'/home-page/assets/vendor/php-email-form/php-email-form.php';
-      $path = dirname(__FILE__) . '/php-email-form.php';
+      //$php_email_form = '/home-page/assets/vendor/php-email-form/php-email-form.php';
 
-      if (file_exists($thumb_name)) {
-       include($thumb_name);
+      if (file_exists($php_email_form)) {
+       include($php_email_form);
       } else {
         echo $php_email_form;
         echo "<br>";
@@ -206,10 +198,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
       echo $contact2->send();
     }
-  }
+  /*}
 } else {
-  //return require '/home-page/jp/contact/index.php';  
-  //header('Location: /home-page/jp/contact/index.php');
   echo "人間承認を受けてください。";
-  //exit();
-}
+}*/
