@@ -18,55 +18,9 @@
     <link rel="stylesheet" href="/home-page/assets/css/sp_style.css">
     <!-- <link rel="stylesheet" href="/home-page/assets/css/style.css" > -->
     <script src="/home-page/assets/js/jquery.min.js"></script>
-    <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
-    <style>
-        /* .content .php-email-form .error-message {
-            display: none;
-            color: #fff;
-            background: #ed3c0d;
-            text-align: left;
-            padding: 15px;
-            font-weight: 600;
-        } */
-
-        /* .php-email-form .error-message {
-            display: none;
-            color: #fff;
-            background: #ed3c0d;
-            text-align: left;
-            padding: 15px;
-            font-weight: 600;
-        }
-
-        .php-email-form .error-message br+br {
-            margin-top: 25px;
-        }
-
-        .php-email-form .sent-message {
-            display: none;
-            color: #fff;
-            background: #18d26e;
-            text-align: center;
-            padding: 15px;
-            font-weight: 600;
-        } */
-        /* .error-message d-block{
-            background: #ed3c0d;
-            text-align: left;
-            padding: 15px;
-            font-weight: 600;
-            
-        } */ 
-        .my-3 .error-message{
-            /* display: none; */
-            color: #fff;
-            background: #ed3c0d;
-            text-align: left;
-            padding: 15px;
-            font-weight: 600;
-        }
-    </style>
-     <!-- <link rel="stylesheet" href="home-page/assets/css/style.css" > -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <!-- Template Main CSS File -->
+    <link href="/home-page/assets/css/style.css" rel="stylesheet">
 </head>
 <body id="top" class="top">
     <div id="splash">
