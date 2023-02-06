@@ -83,10 +83,16 @@ body {
 .mb30 {
     margin-bottom: 30px !important;
 }
+.pb0 {
+    padding-bottom: 0 !important;
+}
 .dis-inline {
     white-space: nowrap;
     display: inline !important;
     pointer-events: none;
+}
+.fz-25 {
+    font-size: 25px !important;
 }
 /* Main title */
 .main-ttl {
@@ -330,6 +336,9 @@ body {
     .ttl-subpage {
         font-size: 27px;
         line-height: 1.5;
+    }
+    .fz-20-sp {
+        font-size: 20px !important;
     }
 }
 
@@ -638,6 +647,17 @@ canvas {
     margin-left: -25px;
     white-space: nowrap;
     word-break: keep-all;
+}
+.list-disc li {
+    position: relative;
+    padding-left: 20px;
+}
+.list-disc li:before {
+    content: '・';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 /* Table */
 .sec-table table {

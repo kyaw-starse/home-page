@@ -18,12 +18,16 @@
     <link rel="stylesheet" href="/home-page/assets/css/sp_style.css">
     <script src="/home-page/assets/js/jquery.min.js"></script>
 </head>
-<body id="top">
-    <div id="wrapper">
+<body id="top" class="top">
+    <div id="splash">
+        <div id="splash-logo"><img src="/home-page/assets/img/common/loading.gif" alt="読み込み中" class="icon-01 apng-image"><span class="rollAnime">Loading</span></div>
+    </div>
+    <div class="splashbg"></div>
+    <div id="wrapper" class="top-wrap">
         <header class="headerBlock">
             <div class="header c-w1420">
                 <h1 class="h-logo">
-                    <a href="/home-page/en/">
+                    <a href="/home-page/jp/">
                         <img src="/home-page/assets/img/common/h_logo.png" alt="">
                         <p>STAR SE<span>All for your dream</span></p>
                     </a>
@@ -31,20 +35,20 @@
                 <div class="h-right cFix">
                     <nav class="nav-pc">
                         <ul class="cFix">
-                            <li><a href="/home-page/en/company/"><span>会社情報</span></a></li>
-                            <li><a href="/home-page/en/philosophy/"><span>経営理念</span></a></li>
-                            <li><a href="/home-page/en/business/"><span>事業内容</span></a></li>
-                            <li><a href="/home-page/en/recruit/"><span>採用情報</span></a></li>
-                            <li><a href="/home-page/en/security/" class="navpc-active"><span>情報セキュリティ</span></a></li>
+                            <li><a href="/home-page/jp/company/"><span>会社情報</span></a></li>
+                            <li><a href="/home-page/jp/philosophy/"><span>経営理念</span></a></li>
+                            <li><a href="/home-page/jp/business/"><span>事業内容</span></a></li>
+                            <li><a href="/home-page/jp/recruit/"><span>採用情報</span></a></li>
+                            <li><a href="/home-page/jp/security/"><span>情報セキュリティ</span></a></li>
                         </ul>
                     </nav>
                     <div class="h-utility">
                         <ul class="cFix">
-                            <li class="h-icon"><a href="/home-page/en/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
-                            <li class="h-icon"><a href="/home-page/en/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
+                            <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
+                            <li class="h-icon"><a href="/home-page/jp/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                             <li class="site-lang">
-                                <a href="/home-page/en/" class="lang-link langOn">EN</a>
-                                <a href="/home-page/jp/" class="lang-link">JP</a>
+                                <a href="/home-page/en/" class="lang-link">EN</a>
+                                <a href="/home-page/jp/" class="lang-link langOn">JP</a>
                             </li>
                         </ul>
                     </div>
@@ -62,19 +66,19 @@
         <nav id="globalNav" class="globalNav">
             <div class="globalNav-inner">
                 <ul class="nav-sp">
-                    <li><a href="/home-page/en/company/"><span>会社情報</span></a></li>
-                    <li><a href="/home-page/en/philosophy/"><span>経営理念</span></a></li>
-                    <li><a href="/home-page/en/business/"><span>事業内容</span></a></li>
-                    <li><a href="/home-page/en/recruit/"><span>採用情報</span></a></li>
-                    <li><a href="/home-page/en/security/"><span>情報セキュリティ</span></a></li>
+                    <li><a href="/home-page/jp/company/"><span>会社情報</span></a></li>
+                    <li><a href="/home-page/jp/philosophy/"><span>経営理念</span></a></li>
+                    <li><a href="/home-page/jp/business/"><span>事業内容</span></a></li>
+                    <li><a href="/home-page/jp/recruit/"><span>採用情報</span></a></li>
+                    <li><a href="/home-page/jp/security/"><span>情報セキュリティ</span></a></li>
                 </ul>
                 <div class="h-utility">
                     <ul class="cFix">
-                        <li class="h-icon"><a href="/home-page/en/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
-                        <li class="h-icon"><a href="/home-page/en/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
+                        <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
+                        <li class="h-icon"><a href="/home-page/jp/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                         <li class="site-lang">
-                            <a href="/home-page/en/en/" class="lang-link">EN</a>
-                            <a href="/home-page/en/jp/" class="lang-link langOn">JP</a>
+                            <a href="/home-page/en/" class="lang-link">EN</a>
+                            <a href="/home-page/jp/" class="lang-link langOn">JP</a>
                         </li>
                     </ul>
                 </div>
@@ -83,7 +87,7 @@
         <div class="sub-banner">
             <canvas class="particlesBg"></canvas>
             <div class="sub-bannerIn c-w1170">
-                <h2 class="sub-ttl">ssNews</h2>
+                <h2 class="sub-ttl">ニュース</h2>
                 <img src="/home-page/assets/img/philosophy/bnr_img.jpg" class="sub-bannerImg" alt="">
             </div>
         </div>
@@ -91,35 +95,35 @@
         <div class="content">
         <section class="news-page">
             <div class="c-w1170">
-                <h2 class="ttl-subpage"><span class="text-un-yellow">ニュース</span></h2>
+                <!-- <h2 class="ttl-subpage"><span class="text-un-yellow">ニュース</span></h2> -->
                 <div class="newsBlock cFix">
                     <ul>
                         <li data-aos="fade-up" data-aos-delay="50">
-                            <a href="" class="newsLink">
+                            <a href="javascript:void(0)" class="newsLink">
                                 <span class="newsDate">2023/2/1</span>
                                 <p class="newsTtl">事務所を八丁堀に移動</p>
                             </a>
                         </li>
                         <li data-aos="fade-up" data-aos-delay="70">
-                            <a href="" class="newsLink">
-                                <span class="newsDate">2023/2/1</span>
-                                <p class="newsTtl">ミャンマー支社設立</p>
+                            <a href="javascript:void(0)" class="newsLink">
+                                <span class="newsDate">2023/1/22</span>
+                                <p class="newsTtl">海外支社（ミャンマー）設立</p>
                             </a>
                         </li>
                         <li data-aos="fade-up" data-aos-delay="90">
-                            <a href="" class="newsLink">
+                            <a href="javascript:void(0)" class="newsLink">
                                 <span class="newsDate">2023/1/22</span>
                                 <p class="newsTtl">会社は10年周を迎う</p>
                             </a>
                         </li>
                         <li data-aos="fade-up" data-aos-delay="110">
-                            <a href="" class="newsLink">
+                            <a href="/home-page/jp/news/news-detail.php" class="newsLink">
                                 <span class="newsDate">2022/11/25</span>
                                 <p class="newsTtl">DX戦略を策定</p>
                             </a>
                         </li>
                         <li data-aos="fade-up" data-aos-delay="130">
-                            <a href="" class="newsLink">
+                            <a href="javascript:void(0)" class="newsLink">
                                 <span class="newsDate">2022/7/1</span>
                                 <p class="newsTtl">DX方針を宣言</p>
                             </a>
@@ -156,7 +160,7 @@
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_fax.png" alt=""></span>
-                                    <p class="ftAddress-info">03-5207-2955</p>
+                                    <p class="ftAddress-info">03-5207-2956</p>
                                 </li>
                             </ul>
                         </div>

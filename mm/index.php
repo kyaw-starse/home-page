@@ -26,7 +26,7 @@
         <header class="headerBlock">
             <div class="header">
                 <h1 class="h-logo">
-                    <a href="">
+                    <a href="./">
                         <img src="./assets/img/common/h_logo.png" alt="">
                         <p>STAR SE<span>MYANMAR</span></p>
                     </a>
@@ -34,11 +34,11 @@
                 <div class="h-right cFix">
                     <nav class="nav-pc">
                         <ul class="cFix">
-                            <li><a href="#"><span>About Us</span></a></li>
-                            <li><a href="#"><span>Service</span></a></li>
-                            <li><a href="#"><span>Recruit</span></a></li>
-                            <li><a href="#"><span>News</span></a></li>
-                            <li><a href="#"><span>Contact Us</span></a></li>
+                            <li><a href="aboutus.php"><span>About Us</span></a></li>
+                            <li><a href="services.php"><span>Service</span></a></li>
+                            <li><a href="recruit.php"><span>Recruit</span></a></li>
+                            <li><a href="news.php"><span>News</span></a></li>
+                            <li><a href="contact.php"><span>Contact Us</span></a></li>
                         </ul>
                     </nav>
                 </div>
@@ -55,11 +55,11 @@
         <nav id="globalNav" class="globalNav">
             <div class="globalNav-inner">
                 <ul class="nav-sp">
-                    <li><a href="#"><span>About Us</span></a></li>
-                    <li><a href="#"><span>Service</span></a></li>
-                    <li><a href="#"><span>Recruit</span></a></li>
-                    <li><a href="#"><span>News</span></a></li>
-                    <li><a href="#"><span>Contact Us</span></a></li>
+                    <li><a href="aboutus.php"><span>About Us</span></a></li>
+                    <li><a href="services.php"><span>Service</span></a></li>
+                    <li><a href="recruit.php"><span>Recruit</span></a></li>
+                    <li><a href="news.php"><span>News</span></a></li>
+                    <li><a href="contact.php"><span>Contact Us</span></a></li>
                 </ul>
             </div>
         </nav>
@@ -106,10 +106,14 @@
                     <div class="c-w1100">
                         <h2 class="sec-ttl">About</h2>
                         <div class="aboutInfo">
-                            <div class="aboutInfo-in col-wrap">
+                            <div class="aboutInfo-in cFix">
+                                <div class="aboutInfoRight pc">
+                                    <div class="about_img"><img src="./assets/img/top/about_img.jpg" alt=""></div>
+                                </div>
                                 <div class="aboutInfoLeft">
                                     <div class="about-message">
                                         <p>
+                                            <span class="about-img sp"><img src="./assets/img/top/about_img.jpg" alt=""></span>
                                             I am from Myanmar. I joined STAR SE in 2017 and worked as a software development engineer.<br>
                                             Due to the efforts of Myanmar engineers in Japan, Myanmar engineers are recognized as excellent human resources in Japan.
                                         </p>
@@ -125,9 +129,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="aboutInfoRight">
-                                    <div class="about_img.jpg"><img src="./assets/img/top/about_img.jpg" alt=""></div>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -230,7 +232,9 @@
                         </div>
                     </div>
                     <div class="ftFacebook">
-
+                    <div id="fb-root"></div>
+                        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v15.0" nonce="lJdOBtia"></script>
+                        <div class="fb-page" data-href="https://www.facebook.com/profile.php?id=100069089106285" data-tabs="timeline" data-width="500" data-height="250" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/profile.php?id=100069089106285" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/profile.php?id=100069089106285">STAR SE 株式会社</a></blockquote></div>
                     </div>
                 </div>
             </div>

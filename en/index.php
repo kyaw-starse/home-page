@@ -31,7 +31,7 @@
         <header class="headerBlock">
             <div class="header c-w1420">
                 <h1 class="h-logo">
-                    <a href="">
+                    <a href="/home-page/jp/">
                         <img src="/home-page/assets/img/common/h_logo.png" alt="">
                         <p>STAR SE<span>All for your dream</span></p>
                     </a>
@@ -39,17 +39,17 @@
                 <div class="h-right cFix">
                     <nav class="nav-pc">
                         <ul class="cFix">
-                            <li><a href="/home-page/en/company/"><span>会社情報</span></a></li>
-                            <li><a href="/home-page/en/philosophy/"><span>経営理念</span></a></li>
-                            <li><a href="/home-page/en/business/"><span>事業内容</span></a></li>
-                            <li><a href="/home-page/en/recruit/"><span>採用情報</span></a></li>
-                            <li><a href="/home-page/en/security/"><span>情報セキュリティ</span></a></li>
+                            <li><a href="/home-page/jp/company/"><span>会社情報</span></a></li>
+                            <li><a href="/home-page/jp/philosophy/"><span>経営理念</span></a></li>
+                            <li><a href="/home-page/jp/business/"><span>事業内容</span></a></li>
+                            <li><a href="/home-page/jp/recruit/"><span>採用情報</span></a></li>
+                            <li><a href="/home-page/jp/security/"><span>情報セキュリティ</span></a></li>
                         </ul>
                     </nav>
                     <div class="h-utility">
                         <ul class="cFix">
-                            <li class="h-icon"><a href="/home-page/en/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
-                            <li class="h-icon"><a href="/home-page/en/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
+                            <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
+                            <li class="h-icon"><a href="/home-page/jp/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                             <li class="site-lang">
                                 <a href="/home-page/en/" class="lang-link">EN</a>
                                 <a href="/home-page/jp/" class="lang-link langOn">JP</a>
@@ -70,16 +70,16 @@
         <nav id="globalNav" class="globalNav">
             <div class="globalNav-inner">
                 <ul class="nav-sp">
-                    <li><a href="/home-page/en/company/"><span>会社情報</span></a></li>
-                    <li><a href="/home-page/en/philosophy/"><span>経営理念</span></a></li>
-                    <li><a href="/home-page/en/business/"><span>事業内容</span></a></li>
-                    <li><a href="/home-page/en/recruit/"><span>採用情報</span></a></li>
-                    <li><a href="/home-page/en/security/"><span>情報セキュリティ</span></a></li>
+                    <li><a href="/home-page/jp/company/"><span>会社情報</span></a></li>
+                    <li><a href="/home-page/jp/philosophy/"><span>経営理念</span></a></li>
+                    <li><a href="/home-page/jp/business/"><span>事業内容</span></a></li>
+                    <li><a href="/home-page/jp/recruit/"><span>採用情報</span></a></li>
+                    <li><a href="/home-page/jp/security/"><span>情報セキュリティ</span></a></li>
                 </ul>
                 <div class="h-utility">
                     <ul class="cFix">
-                        <li class="h-icon"><a href="/home-page/en/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
-                        <li class="h-icon"><a href="/home-page/en/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
+                        <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
+                        <li class="h-icon"><a href="/home-page/jp/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                         <li class="site-lang">
                             <a href="/home-page/en/" class="lang-link">EN</a>
                             <a href="/home-page/jp/" class="lang-link langOn">JP</a>
@@ -142,17 +142,54 @@
                             <h3 class="ttlh3 pc"><span>STAR SEとは？</span></h3>
                             <div class="ceoMessagePara" data-aos="fade-right" data-aos-delay="150" data-aos-duration="1000" data-aos-offset="0">
                                 <p>
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem esse libero aliquam reprehenderit veritatis eligendi veniam nemo omnis natus sit.
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem esse libero aliquam reprehenderit veritatis eligendi veniam nemo omnis natus sit.
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem esse libero aliquam reprehenderit veritatis eligendi veniam nemo omnis natus sit.
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem esse libero aliquam reprehenderit veritatis eligendi veniam nemo omnis natus sit.
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem esse libero aliquam reprehenderit veritatis eligendi veniam nemo omnis natus sit.
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem esse libero aliquam reprehenderit veritatis eligendi veniam nemo omnis natus sit.
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem esse libero aliquam reprehenderit veritatis eligendi veniam nemo omnis natus sit.
+                                    最も重要な経営資源は“人”であり、お客様との“信頼関係”、すなわち“人と人とのつながり”であると確信しております。<br><br>
+                                    弊社は、ソフトウェア開発からインフラ設計構築、システム運用支援までトータルなソリューションを提供する“ITソリューション”の拡充に加え、 IT業界の人材不足の課題対応策として“社員教育”の強化に取り組んでおります。<br><br>
+                                    社員教育として、仕事の遂行に必要な高度専門知識のみならず、 会社を代表する一社員としての振る舞いを習得できる総合的な社員教育に全力を挙げています。<br><br>
+                                    これからもお客様に信頼いただける高品質で最適なサ－ビスをご提供するとともに、 豊かな社会づくりに貢献できるよう、現状に甘んじることなく挑戦を続けてまいります。
                                 </p>
                                 <p class="ceoName">代表取締役<span>金本 香蘭</span></p>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </section>
+            <section class="top-news bg-green-light">
+                <div class="c-w900">
+                    <h2 class="top-ttl ttl-subpage"><span class="text-un-yellow">ニュース</span></h2>
+                    <div class="newsBlock cFix">
+                        <ul>
+                            <li data-aos="fade-up" data-aos-delay="50">
+                                <a href="javascript:void(0)" class="newsLink">
+                                    <span class="newsDate">2023/2/1</span>
+                                    <p class="newsTtl">事務所を八丁堀に移動</p>
+                                </a>
+                            </li>
+                            <li data-aos="fade-up" data-aos-delay="70">
+                                <a href="javascript:void(0)" class="newsLink">
+                                    <span class="newsDate">2023/1/22</span>
+                                    <p class="newsTtl">海外支社（ミャンマー）設立</p>
+                                </a>
+                            </li>
+                            <li data-aos="fade-up" data-aos-delay="90">
+                                <a href="javascript:void(0)" class="newsLink">
+                                    <span class="newsDate">2023/1/22</span>
+                                    <p class="newsTtl">会社は10年周を迎う</p>
+                                </a>
+                            </li>
+                            <li data-aos="fade-up" data-aos-delay="110">
+                                <a href="/home-page/jp/news/news-detail.php" class="newsLink">
+                                    <span class="newsDate">2022/11/25</span>
+                                    <p class="newsTtl">DX戦略を策定</p>
+                                </a>
+                            </li>
+                            <li data-aos="fade-up" data-aos-delay="130">
+                                <a href="javascript:void(0)" class="newsLink">
+                                    <span class="newsDate">2022/7/1</span>
+                                    <p class="newsTtl">DX方針を宣言</p>
+                                </a>
+                            </li>
+                        </ul>
+                        <a href="/home-page/jp/news/" class="btn-arr"><span>もっと見る</span></a>
                     </div>
                 </div>
             </section>
@@ -162,7 +199,7 @@
                     <div class="top-businessBlock">
                         <ul class="col-wrap">
                             <li class="col3 fadeInTrigger">
-                                <a href="/home-page/en/business/" class="businessBox line-frame">
+                                <a href="/home-page/jp/business/#business01" class="businessBox line-frame anchor">
                                     <div class="img-hover">
                                         <img src="/home-page/assets/img/top/business_01.jpg" alt="">
                                     </div>
@@ -174,13 +211,13 @@
                                 </a>
                                 <ul class="bussiness-btnList">
                                     <li>
-                                        <span><img src="/home-page/assets/img/top/b_img01.png" alt="">金融機関系</span>
+                                        <span><img src="/home-page/assets/img/top/b_img01.png" alt="">金融・保険業</span>
                                     </li>
                                     <li>
-                                        <span><img src="/home-page/assets/img/top/b_img02.png" alt="">電力系</span>
+                                        <span><img src="/home-page/assets/img/top/b_img02.png" alt="">電力・ガス業</span>
                                     </li>
                                     <li>
-                                        <span><img src="/home-page/assets/img/top/b_img03.png" alt="">業務管理系</span>
+                                        <span><img src="/home-page/assets/img/top/b_img03.png" alt="">卸売業、小売業</span>
                                     </li>
                                     <li>
                                         <span><img src="/home-page/assets/img/top/b_img04.png" alt="">その他</span>
@@ -188,7 +225,7 @@
                                 </ul>
                             </li>
                             <li class="col3 fadeInTrigger delay-time15 ">
-                                <a href="/home-page/en/business/" class="businessBox line-frame line-2">
+                                <a href="/home-page/jp/business/#business02" class="businessBox line-frame line-2">
                                     <div class="img-hover">
                                         <img src="/home-page/assets/img/top/business_02.jpg" alt="">
                                     </div>
@@ -211,7 +248,7 @@
                                 </ul>
                             </li>
                             <li class="col3 fadeInTrigger delay-time3">
-                                <a href="/home-page/en/business/" class="businessBox">
+                                <a href="/home-page/jp/business/#business03" class="businessBox">
                                     <div class="img-hover">
                                         <img src="/home-page/assets/img/top/business_03.jpg" alt="">
                                     </div>
@@ -222,11 +259,13 @@
                                     </div>
                                 </a>
                                 <ul class="bussiness-btnList">
+                                    <!-- 
                                     <li>
                                         <span class="kizuna-icon"><img src="/home-page/assets/img/top/kizuna_icon.png" alt="">Kizuna</span>
                                     </li>
+                                     -->
                                     <li>
-                                        <span class="exam-star"><img src="/home-page/assets/img/top/ss_exam.svg" alt="">SS Exam</span>
+                                        <span class="exam-star"><img src="/home-page/assets/img/top/ss_exam.png" alt="">SS Exam</span>
                                     </li>
                                 </ul>
                             </li>
@@ -238,6 +277,7 @@
                 <div class="waveTopImg"><img src="/home-page/assets/img/top/wave_top_bg.png" alt=""></div>
                 <div class="c-w1300">
                     <h2 class="top-ttl ttl-subpage"><span class="text-un-yellow">提供サービス</span></h2>
+                    <!--  
                     <div class="serviceBlock cFix">
                         <div class="serviceBoxImg">
                             <div class="serviceComputerImg">
@@ -255,6 +295,7 @@
                             </div>
                         </div>
                     </div>
+                    -->
                     <div class="serviceBlock serviceBlock-reverse cFix">
                         <div class="serviceBoxImg" data-aos="fade-left">
                             <div class="serviceVideo">
@@ -269,7 +310,7 @@
                             </div>
                         </div>
                         <div class="serviceBoxText">
-                            <h2 class="service-ttl"><span>02</span>E-Learning</h2>
+                            <h2 class="service-ttl"><span>01</span>E-Learning</h2>
                             <div class="service-txt cFix">
                                 <p>“人”の出来ることを何方法で試すの? その答えはこちらにあります。<br class="pc">様々の業界でオンラインテストを実施することがで きます。相手の考え方、知識を試験の実績から把握できます。</p>
                                 <a href="https://elearning-star.com/" target="_blank" class="btn-arr"><span>詳細</span></a>
@@ -322,7 +363,7 @@
                                             <img src="/home-page/assets/img/top/csharp_icon.png" alt="">
                                         </div>
                                         <div class="member-txt">
-                                            <p>C#</p>
+                                            <p>.NET</p>
                                         </div>
                                     </div>
                                 </div>
@@ -333,10 +374,10 @@
                                     </div>
                                     <div class="memberDesp" data-aos="fade-up">
                                         <div class="member-icon">
-                                            <img src="/home-page/assets/img/top/VB_icon.png" alt="">
+                                            <img src="/home-page/assets/img/top/icon_iPhone.png" alt="">
                                         </div>
                                         <div class="member-txt">
-                                            <p>VB.NET</p>
+                                            <p>React Native</p>
                                         </div>
                                     </div>
                                 </div>
@@ -347,17 +388,17 @@
                                     </div>
                                     <div class="memberDesp" data-aos="fade-up">
                                         <div class="member-icon">
-                                            <img src="/home-page/assets/img/top/icon_iPhone.png" alt="">
+                                            <img src="/home-page/assets/img/top/icon_python.png" alt="">
                                         </div>
                                         <div class="member-txt">
-                                            <p>React Native</p>
+                                            <p>Python,Ruby...</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="member-col">
-                            <h2 class="ttl-subpage"><span class="text-un-yellow">開発</span></h2>
+                            <h2 class="ttl-subpage"><span class="text-un-yellow">インフラ</span></h2>
                             <div class="memberBlockList">
                                 <div class="memberBox">
                                     <div class="member-cir">
@@ -366,10 +407,10 @@
                                     </div>
                                     <div class="memberDesp" data-aos="fade-up">
                                         <div class="member-icon">
-                                            <img src="/home-page/assets/img/top/windows_icon.png" alt="">
+                                            <img src="/home-page/assets/img/top/icon_server.png" alt="">
                                         </div>
                                         <div class="member-txt">
-                                            <p>Windows仮想サーバ</p>
+                                            <p>サーバ設計・構築</p>
                                         </div>
                                     </div>
                                 </div>
@@ -380,10 +421,10 @@
                                     </div>
                                     <div class="memberDesp" data-aos="fade-up">
                                         <div class="member-icon">
-                                            <img src="/home-page/assets/img/top/cloud_icon.png" alt="">
+                                            <img src="/home-page/assets/img/top/windows_icon.png" alt="">
                                         </div>
                                         <div class="member-txt">
-                                            <p>AWSクラウドサーバ</p>
+                                            <p>ネットワーク設計・構築</p>
                                         </div>
                                     </div>
                                 </div>
@@ -397,7 +438,7 @@
                                             <img src="/home-page/assets/img/top/db_icon.png" alt="">
                                         </div>
                                         <div class="member-txt">
-                                            <p>データベース設計</p>
+                                            <p>データベース設計・構築</p>
                                         </div>
                                     </div>
                                 </div>
@@ -408,10 +449,10 @@
                                     </div>
                                     <div class="memberDesp" data-aos="fade-up">
                                         <div class="member-icon">
-                                            <img src="/home-page/assets/img/top/icon_admin.png" alt="">
+                                            <img src="/home-page/assets/img/top/cloud_icon.png" alt="">
                                         </div>
                                         <div class="member-txt">
-                                            <p>業務 <br class="pc">管理</p>
+                                            <p>クラウドサーバ設計・構築<br>（AWS, Azure)</p>
                                         </div>
                                     </div>
                                 </div>
@@ -420,96 +461,13 @@
                     </div>
                 </div>
             </section>
-            <!-- <section class="sec-people">
-                <div class="c-w900">
-                    <h2 class="top-ttl ttl-subpage"><span class="text-un-yellow">メンバー</span></h2>
-                    <div class="ourPeopleBanner">
-                        <img src="/home-page/assets/img/top/ourpeople_bnr.jpg" alt="">
-                    </div>
-                    <div class="memberBlock">
-                        <img src="/home-page/assets/img/top/ourpeople_bg.png" class="pc" alt="">
-                        <div class="memberBlockList">
-                            <div class="memberBox">
-                                <div class="member-cir">
-                                    <img src="/home-page/assets/img/top/member_cir1.png" class="member-cirImg" alt="">
-                                    <div class="member-per"><span class="odometer1">0</span>%</div>
-                                </div>
-                                <div class="memberDesp" data-aos="fade-up">
-                                    <div class="member-icon">
-                                        <img src="/home-page/assets/img/top/icon_setting.png" alt="">
-                                    </div>
-                                    <div class="member-txt">
-                                        <p>フルスタック <br class="pc">開発</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="memberBox">
-                                <div class="member-cir">
-                                    <img src="/home-page/assets/img/top/member_cir1.png" class="member-cirImg" alt="">
-                                    <div class="member-per"><span class="odometer2">0</span>%</div>
-                                </div>
-                                <div class="memberDesp" data-aos="fade-up">
-                                    <div class="member-icon">
-                                        <img src="/home-page/assets/img/top/icon_network.png" alt="">
-                                    </div>
-                                    <div class="member-txt">
-                                        <p>ネットワーク <br class="pc">構築</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="memberBox">
-                                <div class="member-cir">
-                                    <img src="/home-page/assets/img/top/member_cir1.png" class="member-cirImg" alt="">
-                                    <div class="member-per"><span class="odometer3">0</span>%</div>
-                                </div>
-                                <div class="memberDesp" data-aos="fade-up">
-                                    <div class="member-icon">
-                                        <img src="/home-page/assets/img/top/icon_design.png" alt="">
-                                    </div>
-                                    <div class="member-txt">
-                                        <p>システム <br class="pc">設計</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="memberBox">
-                                <div class="member-cir">
-                                    <img src="/home-page/assets/img/top/member_cir1.png" class="member-cirImg" alt="">
-                                    <div class="member-per"><span class="odometer4">0</span>%</div>
-                                </div>
-                                <div class="memberDesp" data-aos="fade-up">
-                                    <div class="member-icon">
-                                        <img src="/home-page/assets/img/top/icon_iPhone.png" alt="">
-                                    </div>
-                                    <div class="member-txt">
-                                        <p>アプリ <br class="pc">開発</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="memberBox mem-admin">
-                                <div class="member-cir">
-                                    <img src="/home-page/assets/img/top/member_cir1.png" class="member-cirImg" alt="">
-                                    <div class="member-per"><span class="odometer5">0</span>%</div>
-                                </div>
-                                <div class="memberDesp" data-aos="fade-up">
-                                    <div class="member-icon">
-                                        <img src="/home-page/assets/img/top/icon_admin.png" alt="">
-                                    </div>
-                                    <div class="member-txt">
-                                        <p>業務 <br class="pc">管理</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> -->
             <section class="sec-recruit">
                 <div class="c-w900">
                     <h2 class="top-ttl ttl-subpage"><span class="text-un-yellow">採用情報</span></h2>
                     <div class="recruitBlock">
                         <ul class="col-wrap recruitList">
                             <li class="col2" data-aos="fade-right" data-aos-delay="50">
-                                <a href="/home-page/en/recruit/" class="recruitBox">
+                                <a href="/home-page/jp/recruit/career-app-guide.php#sec-carrer01" class="recruitBox">
                                     <div class="recruitIcon"><img src="/home-page/assets/img/top/recruit_img01.png" alt=""></div>
                                     <div class="recruitTxt">
                                         <p>システムエンジニア</p>
@@ -518,7 +476,7 @@
                                 </a>
                             </li>
                             <li class="col2" data-aos="fade-left" data-aos-delay="100">
-                                <a href="/home-page/en/recruit/" class="recruitBox">
+                                <a href="/home-page/jp/recruit/career-app-guide.php#sec-carrer02" class="recruitBox">
                                     <div class="recruitIcon"><img src="/home-page/assets/img/top/recruit_img02.png" alt=""></div>
                                     <div class="recruitTxt">
                                         <p>インフラエンジニア</p>
@@ -527,7 +485,7 @@
                                 </a>
                             </li>
                             <li class="col2" data-aos="fade-right" data-aos-delay="150">
-                                <a href="/home-page/en/recruit/" class="recruitBox">
+                                <a href="/home-page/jp/recruit/career-app-guide.php#sec-carrer03" class="recruitBox">
                                     <div class="recruitIcon"><img src="/home-page/assets/img/top/recruit_img03.png" alt=""></div>
                                     <div class="recruitTxt">
                                         <p>事務・営業</p>
@@ -536,7 +494,7 @@
                                 </a>
                             </li>
                             <li class="col2" data-aos="fade-left" data-aos-delay="200">
-                                <a href="/home-page/en/recruit/" class="recruitBox">
+                                <a href="/home-page/jp/recruit/graduate-recru-guide.php#graduate04" class="anchor recruitBox">
                                     <div class="recruitIcon"><img src="/home-page/assets/img/top/recruit_img04.png" alt=""></div>
                                     <div class="recruitTxt">
                                         <p>新卒・第二新卒募集</p>
@@ -548,43 +506,22 @@
                     </div>
                 </div>
             </section>
-            <section>
+            <section class="sec-clients">
                 <div class="c-w900">
-                    <h2 class="top-ttl ttl-subpage"><span class="text-un-yellow">ニュース</span></h2>
-                    <div class="newsBlock cFix">
-                        <ul>
-                            <li data-aos="fade-up" data-aos-delay="50">
-                                <a href="" class="newsLink">
-                                    <span class="newsDate">2023/2/1</span>
-                                    <p class="newsTtl">事務所を八丁堀に移動</p>
-                                </a>
+                    <h2 class="top-ttl ttl-subpage"><span class="text-un-yellow">弊社の資格・活動</span></h2>
+                    <div class="clientsBlock">
+                        <ul class="col-wrap">
+                            <li class="col2">
+                                <div class="clientsBox">
+                                    <a href="https://privacymark.jp/" target="_blank" class="clients-link"><img src="/home-page/assets/img/top/iso1.jpg" alt=""></a>
+                                </div>
                             </li>
-                            <li data-aos="fade-up" data-aos-delay="70">
-                                <a href="" class="newsLink">
-                                    <span class="newsDate">2023/2/1</span>
-                                    <p class="newsTtl">ミャンマー支社設立</p>
-                                </a>
-                            </li>
-                            <li data-aos="fade-up" data-aos-delay="90">
-                                <a href="" class="newsLink">
-                                    <span class="newsDate">2023/1/22</span>
-                                    <p class="newsTtl">会社は10年周を迎う</p>
-                                </a>
-                            </li>
-                            <li data-aos="fade-up" data-aos-delay="110">
-                                <a href="" class="newsLink">
-                                    <span class="newsDate">2022/11/25</span>
-                                    <p class="newsTtl">DX戦略を策定</p>
-                                </a>
-                            </li>
-                            <li data-aos="fade-up" data-aos-delay="130">
-                                <a href="" class="newsLink">
-                                    <span class="newsDate">2022/7/1</span>
-                                    <p class="newsTtl">DX方針を宣言</p>
-                                </a>
+                            <li class="col2">
+                                <div class="clientsBox">
+                                    <a href="https://www.jisc.go.jp/" target="_blank" class="clients-link"><img src="/home-page/assets/img/top/iso2.jpg" alt=""></a>
+                                </div>
                             </li>
                         </ul>
-                        <a href="" class="btn-arr"><span>もっと見る</span></a>
                     </div>
                 </div>
             </section>
@@ -617,7 +554,7 @@
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_fax.png" alt=""></span>
-                                    <p class="ftAddress-info">03-5207-2955</p>
+                                    <p class="ftAddress-info">03-5207-2956</p>
                                 </li>
                             </ul>
                         </div>

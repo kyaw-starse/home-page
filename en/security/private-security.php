@@ -18,12 +18,16 @@
     <link rel="stylesheet" href="/home-page/assets/css/sp_style.css">
     <script src="/home-page/assets/js/jquery.min.js"></script>
 </head>
-<body id="top">
-    <div id="wrapper">
+<body id="top" class="top">
+    <div id="splash">
+        <div id="splash-logo"><img src="/home-page/assets/img/common/loading.gif" alt="読み込み中" class="icon-01 apng-image"><span class="rollAnime">Loading</span></div>
+    </div>
+    <div class="splashbg"></div>
+    <div id="wrapper" class="top-wrap">
         <header class="headerBlock">
             <div class="header c-w1420">
                 <h1 class="h-logo">
-                    <a href="/home-page/en/">
+                    <a href="/home-page/jp/">
                         <img src="/home-page/assets/img/common/h_logo.png" alt="">
                         <p>STAR SE<span>All for your dream</span></p>
                     </a>
@@ -31,20 +35,20 @@
                 <div class="h-right cFix">
                     <nav class="nav-pc">
                         <ul class="cFix">
-                            <li><a href="/home-page/en/company/"><span>会社情報</span></a></li>
-                            <li><a href="/home-page/en/philosophy/"><span>経営理念</span></a></li>
-                            <li><a href="/home-page/en/business/"><span>事業内容</span></a></li>
-                            <li><a href="/home-page/en/recruit/"><span>採用情報</span></a></li>
-                            <li><a href="/home-page/en/security/" class="navpc-active"><span>情報セキュリティ</span></a></li>
+                            <li><a href="/home-page/jp/company/"><span>会社情報</span></a></li>
+                            <li><a href="/home-page/jp/philosophy/"><span>経営理念</span></a></li>
+                            <li><a href="/home-page/jp/business/"><span>事業内容</span></a></li>
+                            <li><a href="/home-page/jp/recruit/"><span>採用情報</span></a></li>
+                            <li><a href="/home-page/jp/security/" class="navpc-active"><span>情報セキュリティ</span></a></li>
                         </ul>
                     </nav>
                     <div class="h-utility">
                         <ul class="cFix">
-                            <li class="h-icon"><a href="/home-page/en/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
-                            <li class="h-icon"><a href="/home-page/en/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
+                            <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
+                            <li class="h-icon"><a href="/home-page/jp/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                             <li class="site-lang">
-                                <a href="/home-page/en/" class="lang-link langOn">EN</a>
-                                <a href="/home-page/jp/" class="lang-link">JP</a>
+                                <a href="/home-page/en/" class="lang-link">EN</a>
+                                <a href="/home-page/jp/" class="lang-link langOn">JP</a>
                             </li>
                         </ul>
                     </div>
@@ -62,19 +66,19 @@
         <nav id="globalNav" class="globalNav">
             <div class="globalNav-inner">
                 <ul class="nav-sp">
-                    <li><a href="/home-page/en/company/"><span>会社情報</span></a></li>
-                    <li><a href="/home-page/en/philosophy/"><span>経営理念</span></a></li>
-                    <li><a href="/home-page/en/business/"><span>事業内容</span></a></li>
-                    <li><a href="/home-page/en/recruit/"><span>採用情報</span></a></li>
-                    <li><a href="/home-page/en/security/"><span>情報セキュリティ</span></a></li>
+                    <li><a href="/home-page/jp/company/"><span>会社情報</span></a></li>
+                    <li><a href="/home-page/jp/philosophy/"><span>経営理念</span></a></li>
+                    <li><a href="/home-page/jp/business/"><span>事業内容</span></a></li>
+                    <li><a href="/home-page/jp/recruit/"><span>採用情報</span></a></li>
+                    <li><a href="/home-page/jp/security/"><span>情報セキュリティ</span></a></li>
                 </ul>
                 <div class="h-utility">
                     <ul class="cFix">
-                        <li class="h-icon"><a href="/home-page/en/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
-                        <li class="h-icon"><a href="/home-page/en/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
+                        <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
+                        <li class="h-icon"><a href="/home-page/jp/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                         <li class="site-lang">
-                            <a href="/home-page/en/en/" class="lang-link">EN</a>
-                            <a href="/home-page/en/jp/" class="lang-link langOn">JP</a>
+                            <a href="/home-page/en/" class="lang-link">EN</a>
+                            <a href="/home-page/jp/" class="lang-link langOn">JP</a>
                         </li>
                     </ul>
                 </div>
@@ -83,7 +87,7 @@
         <div class="sub-banner">
             <canvas class="particlesBg"></canvas>
             <div class="sub-bannerIn c-w1170">
-                <h2 class="sub-ttl">ss情報セキュリティ</h2>
+                <h2 class="sub-ttl">個人情報保護方針</h2>
                 <img src="/home-page/assets/img/philosophy/bnr_img.jpg" class="sub-bannerImg" alt="">
             </div>
         </div>
@@ -91,7 +95,7 @@
         <div class="content">
         <section class="sec-private01">
             <div class="c-w1170">
-                <h2 class="ttl-subpage"><span class="text-un-yellow">個人情報保護</span></h2>
+                <h2 class="ttl-subpage"><span class="text-un-yellow">個人情報保護方針</span></h2>
                 <div class="letter">
                     <div class="cFix">
                         <p class="letter-lead-txt">
@@ -130,17 +134,22 @@
                 <div class="private02-lead-txt">
                     <p>STAR SE 株式会社</p>
                     <p>苦情及び相談窓口</p>
-                    <p>〒103-0011 東京都中央区日本橋大伝馬町17-6 　日本橋小谷商事ビル2階</p>
-                    <p>TEL：03-5207-2955</p>
-                    <p>FAX：03-5207-2956</p>  
+                    <p>〒104-0043 東京都中央区湊2丁目4-1 <br class="sp">ＴＯＭＡＣビル 5階</p>
+                    <p><span class="dis-inline">TEL：03-5207-2955</span></p>
+                    <p><span class="dis-inline">FAX：03-5207-2956</span> </p>
                 </div>
             </div>
         </section>
         <section class="sec-private03">
             <div class="c-w1170">
                 <h2 class="ttl-subpage"><span class="text-un-yellow">個人情報の<br class="sp">取扱いについて</span></h2>
-                <div class="private03-lead">
-                    <p class="private-lead-txt ">直接書面以外の方法によって取得する個人情報の利用目的</p>
+                <div>
+                    <p class="private-lead-txt">
+                        直接書面以外の方法によって取得する個人情報の利用目的<br>
+                    当社は取得した個人情報の取扱いについて、「プライバシーマークにおける個人情報保護マネジメントシステム構築・運用指針」（JIPDEC）のJ.8.4及びJ.10.3項に従い以下のように公表します。
+                    </p>
+                    <div class="ttl-number mb30"><span>01</span></div>
+                    <h2 class="pri-ttl">【I】取得した個人情報の利用目的</h2>
                     <div class="sec-table">
                         <table>
                             <colgroup>
@@ -149,24 +158,44 @@
 								<col width="30%">
 							</colgroup>
                             <tr>
-                                <th>取得する情報</th>
+                                <th>個人情報の種別</th>
                                 <th>利用目的</th>
-                                <th>開示</th>
+                                <th>開示区分</th>
                             </tr>
                             <tr>
-                                <td>委託元から授与される個人情報</td>
-                                <td>契約した受託業務の遂行</td>
-                                <td>対象外</td>
+                                <td>顧客先から預かった情報</td>
+                                <td>委託された業務の遂行</td>
+                                <td>非対象</td>
                             </tr>
                             <tr>
-                                <td>協力会社から授与される個人情報</td>
-                                <td>契約した受託業務の遂行</td>
-                                <td>対象外</td>
+                                <td>協力会社から預かった情報</td>
+                                <td>委託された業務の遂行</td>
+                                <td>非対象</td>
                             </tr>
                             <tr>
-                                <td>人材紹介会社から提供される求職者の個人情報</td>
-                                <td>採用選考及び関連する連絡</td>
-                                <td>対象外</td>
+                                <td>人材紹介会社から預かった情報</td>
+                                <td>採用選考、スキルの検討、顧客への提供</td>
+                                <td>非対象</td>
+                            </tr>
+                            <tr>
+                                <td>お客様の個人情報</td>
+                                <td>見積、契約、請求、各種連絡</td>
+                                <td>対象</td>
+                            </tr>
+                            <tr>
+                                <td>お問合わせいただいた方の個人情報</td>
+                                <td>お問合わせへの対応、関連する各種連絡</td>
+                                <td>対象</td>
+                            </tr>
+                            <tr>
+                                <td>採用応募された方の個人情報</td>
+                                <td>採用選考、各種連絡</td>
+                                <td>対象</td>
+                            </tr>
+                            <tr>
+                                <td>当社従業者の個人情報</td>
+                                <td>人事、給与、健康管理、福利厚生、各種連絡</td>
+                                <td>対象</td>
                             </tr>
                         </table>
                     </div>
@@ -175,94 +204,83 @@
         </section>
         <section class="sec-private04 bg-green-light">
             <div class="c-w1170">
-                <h2 class="ttl-subpage"><span class="text-un-yellow">開示対象個人情報の<br class="sp">周知事項</span></h2>
-                <div class="private04-lead">
-                    <ul class="accordion-area">
-                        <li>
-                            <div class="accordian-div">
-                                <h2 class="accordian-title"><span></span>当社の社名と個人情報保護管理者</h2>
-                                <div class="accordian-box">
-                                    <dl class="dl-list">
-                                        <dt>社名</dt>
-                                        <dd>STAR SE株式会社</dd>
-                                    </dl>
-                                    <dl class="dl-list">
-                                        <dt>個人情報<br class="sp">保護管理者</dt>
-                                        <dd>金本　香蘭</dd>
-                                    </dl>
-                                    <dl class="dl-list">
-                                        <dt>TEL</dt>
-                                        <dd>03-5207-2955</dd>
-                                    </dl>
-                                    <dl class="dl-list">
-                                        <dt>住所</dt>
-                                        <dd>〒104-0043 <br class="sp">東京都中央区湊2丁目4-1 ＴＯＭＡＣビル 5階</dd>
-                                    </dl>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="accordian-div">
-                                <h2 class="accordian-title"><span></span>個人情報の利用目的</h2>
-                                <div class="accordian-box">
-                                    <p class="alpha-ls"><span>①&nbsp;</span>顧客情報：業務上の連絡及び問い合わせ</p>
-                                    <p class="alpha-ls"><span>②&nbsp;</span>採用応募情報：採用選考、及び面談に関わる連絡</p>
-                                    <p class="alpha-ls"><span>③&nbsp;</span>資料請求・問合せ情報：資料の送付等に係る連絡</p>
-                                    <p class="alpha-ls"><span>④&nbsp;</span>苦情・問い合わせ情報：苦情・相談、問い合わせ、開示等の請求への対応</p>
-                                    <p class="alpha-ls"><span>⑤&nbsp;</span>社員情報：給与処理、福利厚生、公的機関への各種届け出</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="accordian-div">
-                                <h2 class="accordian-title"><span></span>個人情報の第三者提供</h2>
-                                <div class="accordian-box">
-                                    <p>次の場合を除き第三者に開示、提供致しません。</p>
-                                    <p class="alpha-ls"><span>①&nbsp;</span>ご本人の同意がある場合</p>
-                                    <p class="alpha-ls"><span>②&nbsp;</span>個人情報に関する機密保持契約を締結している当社のグループ企業に対して、
-                                        ご本人に同意いただいた利用目的達成に必要な範囲で開示する必要がある場合</p>
-                                    <p class="alpha-ls"><span>③&nbsp;</span>合併、分社化、営業譲渡その他の事由によって事業の承継が行われる場合</p>
-                                    <p class="alpha-ls"><span>④&nbsp;</span>法令等に基づき要求された場合</p>
-                                    
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="accordian-div">
-                                <h2 class="accordian-title"><span></span>個人情報の取扱いに関する苦情の申し出先</h2>
-                                <div class="accordian-box">
-                                    <p>
-                                        個人情報の取扱いに関する苦情の申し出先
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="accordian-div">
-                                <h2 class="accordian-title"><span></span>認定個人情報保護団体の名称及び苦情の解決の申し出先</h2>
-                                <div class="accordian-box">
-                                    <p>
-                                        認定個人情報保護団体の名称及び苦情の解決の申し出先
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="accordian-div">
-                                <h2 class="accordian-title"><span></span>開示等の請求方法</h2>
-                                <div class="accordian-box">
-                                    <p>
-                                        個人情報に関する開示等（利用目的の通知、開示、内容の訂正、追加又は削除、利用の停止消去及び第三者への提供の停止・消去）のご請求については5項の苦情及び相談窓口にご連絡下さい。 請求手続き及び手数料についてご説明いたします。
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
+                <div>
+                    <div class="ttl-number mb30"><span>02</span></div>
+                    <h2 class="pri-ttl">【II】保有個人データ又は第三者提供記録に関する事項</h2>
+                    <div>
+                        <div class="pri-num">
+                            <span>1.</span>当社の名称及び住所並びに代表者の氏名：「個人情報保護方針」に記載しています。<br class="sp">（住所は「苦情・相談及び問い合わせ窓口」に同じ）
+                        </div>
+                        <div class="pri-num">
+                            <span>2.</span>個人情報保護管理者の職制：代表取締役　金本　香蘭<br class="sp">（連絡先Tel：<p class="dis-inline">03-5207-2955</p>） 
+                        </div>
+                        <div class="pri-num">
+                            <span>3.</span>保有個人データの利用目的<br>【I】の「開示区分」が〝開示対象〟になっているものが該当します。
+                        </div>
+                        <div class="pri-num">
+                            <span>4.</span>認定個人情報保護団体<br>当社が入会している認定個人情報保護団体については【III】に記載しています。
+                        </div>
+                        <div class="pri-num">
+                            <span>5.</span>保有個人データの開示等又は第三者提供記録の開示の請求手続<br>
+                            保有個人データの取扱いに関する開示等（利用目的の通知、開示、内容の訂正、追加又は削除、利用の停止・消去又は第三者への提供の停止）又は第三者提供記録の開示の申し出は上記２項の個人情報保護管理者までご連絡下さい。請求手続きについて説明をさせていただきます。
+                        </div>
+                        <div class="pri-num">
+                            <span>6.</span>保有個人データの安全管理のために講じた措置<br>
+                            当社は保有個人データの安全管理のために以下の措置を講じています。<br>
+                            <p class="pri-num">
+                                <span>①</span>個人データの取扱いに係る規程の整備<br>
+                                個人データの取得、利用、保存等を行う場合の取扱い手順を社内規程として整備しています。 
+                            </p>
+                            <p class="pri-num">
+                                <span>②</span>組織的安全管理措置<br>
+                                部門毎に個人データの取扱いに関する責任者を設けるとともに、自己点検・内部監査等を通し整備した取扱い方法に従って従業者が個人データを取り扱っていることを責任者が確認する体制を整備しています。
+                            </p>
+                            <p class="pri-num">
+                                <span>③</span>人的安全管理措置<br>
+                                従業者全員には社内規程順守を盛り込んだ誓約書の提出を義務づけ、年毎に個人データの取扱い手順や情報セキュリティの留意事項について研修を実施しています。
+                            </p>
+                            <p class="pri-num">
+                                <span>④</span>物理的安全管理措置<br>
+                                事業所及び機密区域の施錠、及び個人データを取り扱う機器、電子媒体及び書類等の盗難又は紛失等を防止するための措置を講じています。
+                            </p>
+                            <p class="pri-num">
+                                <span>⑤</span>技術的安全管理措置<br>
+                                個人データを取り扱うことのできる機器及び当該機器を取り扱う従業者を明確化し、個人データへの不要又は不正なアクセスを防止しています。
+                            </p>
+                            <p class="pri-num">
+                                <span>⑥</span>委託先の監督<br>
+                                個人データを預託している委託先を年毎の定期又は適宜に評価し、安全管理措置に関し当社のレベル以上の措置を講じていることを確認しています。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec-private05">
+            <div class="c-w1170">
+                <div>
+                    <div class="ttl-number mb30"><span>03</span></div>
+                    <h2 class="pri-ttl">【III】苦情・ご相談に関する事項</h2>
+                    <div>
+                        <p>個人情報についての苦情・ご相談を受け付けております。「個人情報保護方針」に掲載されているお問い合わせ窓口までご連絡ください。</p>
+                        <p class="pri-num">
+                            <span>①</span>認定個人情報保護団体の名称：一般財団法人日本情報経済社会推進協会
+                        </p>
+                        <p class="pri-num">
+                            <span>②</span>苦情の解決の申出先：認定個人情報保護団体事務局
+                        </p>
+                        <p class="pri-num">
+                            <span>③</span>連絡先<br>
+                            住所 : 〒106-0032東京都港区六本木一丁目９番９号六本木ファーストビル内<br>
+                            電話番号 : 03-5860-7565、0120-700-779<br>
+                            *当社の商品・サービスに関する問い合わせ先ではございません。
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
         </div>
-        <div class="footerLogo bg-green-light">
+        <div class="footerLogo">
             <div class="c-w1420 cFix">
                 <span class="footerLogoImg"><a href="#"><img src="/home-page/assets/img/common/footer_logo2.png" alt="STAR SE株式会社"></a></span>
             </div> 
@@ -289,7 +307,7 @@
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_fax.png" alt=""></span>
-                                    <p class="ftAddress-info">03-5207-2955</p>
+                                    <p class="ftAddress-info">03-5207-2956</p>
                                 </li>
                             </ul>
                         </div>

@@ -18,12 +18,16 @@
     <link rel="stylesheet" href="/home-page/assets/css/sp_style.css">
     <script src="/home-page/assets/js/jquery.min.js"></script>
 </head>
-<body id="top">
-    <div id="wrapper">
+<body id="top" class="top">
+    <div id="splash">
+        <div id="splash-logo"><img src="/home-page/assets/img/common/loading.gif" alt="読み込み中" class="icon-01 apng-image"><span class="rollAnime">Loading</span></div>
+    </div>
+    <div class="splashbg"></div>
+    <div id="wrapper" class="top-wrap">
         <header class="headerBlock">
             <div class="header c-w1420">
                 <h1 class="h-logo">
-                    <a href="/home-page/en/">
+                    <a href="/home-page/jp/">
                         <img src="/home-page/assets/img/common/h_logo.png" alt="">
                         <p>STAR SE<span>All for your dream</span></p>
                     </a>
@@ -31,20 +35,20 @@
                 <div class="h-right cFix">
                     <nav class="nav-pc">
                         <ul class="cFix">
-                            <li><a href="/home-page/en/company/"><span>会社情報</span></a></li>
-                            <li><a href="/home-page/en/philosophy/" class="navpc-active"><span>経営理念</span></a></li>
-                            <li><a href="/home-page/en/business/"><span>事業内容</span></a></li>
-                            <li><a href="/home-page/en/recruit/"><span>採用情報</span></a></li>
-                            <li><a href="/home-page/en/security/"><span>情報セキュリティ</span></a></li>
+                            <li><a href="/home-page/jp/company/"><span>会社情報</span></a></li>
+                            <li><a href="/home-page/jp/philosophy/" class="navpc-active"><span>経営理念</span></a></li>
+                            <li><a href="/home-page/jp/business/"><span>事業内容</span></a></li>
+                            <li><a href="/home-page/jp/recruit/"><span>採用情報</span></a></li>
+                            <li><a href="/home-page/jp/security/"><span>情報セキュリティ</span></a></li>
                         </ul>
                     </nav>
                     <div class="h-utility">
                         <ul class="cFix">
-                            <li class="h-icon"><a href="/home-page/en/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
-                            <li class="h-icon"><a href="/home-page/en/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
+                            <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
+                            <li class="h-icon"><a href="/home-page/jp/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                             <li class="site-lang">
-                                <a href="/home-page/en/" class="lang-link langOn">EN</a>
-                                <a href="/home-page/jp/" class="lang-link">JP</a>
+                                <a href="/home-page/en/" class="lang-link">EN</a>
+                                <a href="/home-page/jp/" class="lang-link langOn">JP</a>
                             </li>
                         </ul>
                     </div>
@@ -62,19 +66,19 @@
         <nav id="globalNav" class="globalNav">
             <div class="globalNav-inner">
                 <ul class="nav-sp">
-                    <li><a href="/home-page/en/company/"><span>会社情報</span></a></li>
-                    <li><a href="/home-page/en/philosophy/"><span>経営理念</span></a></li>
-                    <li><a href="/home-page/en/business/"><span>事業内容</span></a></li>
-                    <li><a href="/home-page/en/recruit/"><span>採用情報</span></a></li>
-                    <li><a href="/home-page/en/security/"><span>情報セキュリティ</span></a></li>
+                    <li><a href="/home-page/jp/company/"><span>会社情報</span></a></li>
+                    <li><a href="/home-page/jp/philosophy/"><span>経営理念</span></a></li>
+                    <li><a href="/home-page/jp/business/"><span>事業内容</span></a></li>
+                    <li><a href="/home-page/jp/recruit/"><span>採用情報</span></a></li>
+                    <li><a href="/home-page/jp/security/"><span>情報セキュリティ</span></a></li>
                 </ul>
                 <div class="h-utility">
                     <ul class="cFix">
-                        <li class="h-icon"><a href="/home-page/en/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
-                        <li class="h-icon"><a href="/home-page/en/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
+                        <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
+                        <li class="h-icon"><a href="/home-page/jp/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                         <li class="site-lang">
-                            <a href="/home-page/en/en/" class="lang-link">EN</a>
-                            <a href="/home-page/en/jp/" class="lang-link langOn">JP</a>
+                            <a href="/home-page/en/" class="lang-link">EN</a>
+                            <a href="/home-page/jp/" class="lang-link langOn">JP</a>
                         </li>
                     </ul>
                 </div>
@@ -83,7 +87,7 @@
         <div class="sub-banner">
             <canvas class="particlesBg"></canvas>
             <div class="sub-bannerIn c-w1170">
-                <h2 class="sub-ttl">ssSS経営理念</h2>
+                <h2 class="sub-ttl">経営理念</h2>
                 <img src="/home-page/assets/img/philosophy/bnr_img.jpg" class="sub-bannerImg" alt="">
             </div>
         </div>
@@ -99,67 +103,36 @@
                         </div>
                     </div>
                     <div class="philoRight">
-                        <h2 class="philo-ttl">IT関連</h2>
-                        <p class="philo-txt">弊社は、IT関連の専門的な知識・経験を持った「プロフェッショナル」の集団です。</p>
+                        <h2 class="philo-ttl">技術サポート・サービス提供</h2>
+                        <p class="philo-txt">
+                            弊社は、IT関連の専門的な知識・経験を持った「プロフェッショナル」の集団です。<br>
+                            私たちは、誠実な心をもって、全世界に通じる技術サポート・サービス提供に全力をあげ、社会に貢献すると同時に、会社及び全従業員の繁栄を推進することをむねとします。<br>
+                            我々の繁栄はお客様と共にあります。<br>
+                            すべての取組をお客様の視点から始め、熱意を持って邁進します。
+                        </p>
                     </div>
                 </div>
                 <div class="philosophyBox">
                     <div class="philoLeft" data-aos="zoom-in">
                         <div class="philo-img">
                             <span class="philo-num">02</span>
-                            <span><img src="/home-page/assets/img/philosophy/philosophy_img02.png" alt=""></span>
-                        </div>
-                    </div>
-                    <div class="philoRight">
-                        <h2 class="philo-ttl">ITサポート</h2>
-                        <p class="philo-txt">私たちは、誠実な心をもって、全世界に通じる技術サポート・サービス提供に全力をあげ、社会に貢献すると同時に、会社及び全従業員の繁栄を推進することをむねとします。</p>
-                    </div>
-                </div>
-                <div class="philosophyBox">
-                    <div class="philoLeft" data-aos="zoom-in">
-                        <div class="philo-img">
-                            <span class="philo-num">03</span>
-                            <span><img src="/home-page/assets/img/philosophy/philosophy_img03.png" alt=""></span>
-                        </div>
-                    </div>
-                    <div class="philoRight">
-                        <h2 class="philo-ttl">お客様</h2>
-                        <p class="philo-txt">我々の繁栄はお客様と共にあります。</p>
-                    </div>
-                </div>
-                <div class="philosophyBox">
-                    <div class="philoLeft" data-aos="zoom-in">
-                        <div class="philo-img">
-                            <span class="philo-num">04</span>
-                            <span><img src="/home-page/assets/img/philosophy/philosophy_img04.png" alt=""></span>
-                        </div>
-                    </div>
-                    <div class="philoRight">
-                        <h2 class="philo-ttl">取組</h2>
-                        <p class="philo-txt">すべての取組をお客様の視点から始め、熱意を持って邁進します。</p>
-                    </div>
-                </div>
-                <div class="philosophyBox">
-                    <div class="philoLeft" data-aos="zoom-in">
-                        <div class="philo-img">
-                            <span class="philo-num">05</span>
                             <span><img src="/home-page/assets/img/philosophy/philosophy_img05.png" alt=""></span>
                         </div>
                     </div>
                     <div class="philoRight">
-                        <h2 class="philo-ttl">品質</h2>
+                        <h2 class="philo-ttl">品質の維持</h2>
                         <p class="philo-txt">我々の専門的な知識、現場での運用経験を活かし、ハイクオリティー・ローコストのITシステムを開発、構築、運用し、製品の安全性と品質の維持に努めます。</p>
                     </div>
                 </div>
                 <div class="philosophyBox">
                     <div class="philoLeft" data-aos="zoom-in">
                         <div class="philo-img">
-                            <span class="philo-num">06</span>
+                            <span class="philo-num">03</span>
                             <span><img src="/home-page/assets/img/philosophy/philosophy_img06.png" alt=""></span>
                         </div>
                     </div>
                     <div class="philoRight">
-                        <h2 class="philo-ttl">問題の解決</h2>
+                        <h2 class="philo-ttl">最後までやり遂げる</h2>
                         <p class="philo-txt">困難や逆境にあっても決してあきらめず、知恵を絞って結果にこだわり続けます。</p>
                     </div>
                 </div>
@@ -193,7 +166,7 @@
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_fax.png" alt=""></span>
-                                    <p class="ftAddress-info">03-5207-2955</p>
+                                    <p class="ftAddress-info">03-5207-2956</p>
                                 </li>
                             </ul>
                         </div>

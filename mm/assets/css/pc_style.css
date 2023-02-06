@@ -3,9 +3,52 @@
 Top
 =============================== */
 /* About Block */
+.top-about {
+    position: relative;
+    padding: 0;
+}
+.top-about:before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 46%;
+    background: #008135;
+    z-index: 1;
+}
+.top-aboutIn {
+    position: relative;
+    padding: 80px 0;
+}
+.top-aboutIn:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 29%;
+    width: 100%;
+    height: 30%;
+    transform: skewY(-6deg);
+    background: #A5FFCA;
+}
+.top-aboutIn:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    top: 33%;
+    height: 30%;
+    transform: skewY(-6deg);
+    background: #008135;
+}
+.top-about .c-w1100 {
+    position: relative;
+    z-index: 2;
+}
 .aboutInfo-in {
+    background: #fff;
     padding: 20px;
-    justify-content: space-between;
     -webkit-box-shadow: 0 3px 19px rgb(200 200 200);
     -moz-box-shadow: 0 3px 19px rgb(200 200 200);
     box-shadow: 0 3px 19px rgb(200 200 200);
@@ -13,14 +56,17 @@ Top
 }
 .about-message {
     margin-top: 70px;
+    letter-spacing: 1.5px;
 }
 .aboutInfoLeft {
-    width: 50%;
+    width: 52%;
     position: relative;
     padding: 0 40px;
+    float: left;
 }
 .aboutInfoRight {
     width: 43%;
+    float: right;
 }
 .aboutInfoLeft:before,
 .aboutInfoLeft:after {
@@ -132,4 +178,94 @@ Top
 .newsBlock ul li .newsTtl {
     width: calc(100% - 120px);
     padding: 0 20px 0 5%;
+}
+/* ===============================
+Aboutus Page
+=============================== */
+.overviewBlock table {
+    width: 100%;
+}
+.overviewBlock table tr {
+    border-bottom: 1px solid #78BC94;
+}
+.overviewBlock table tr:first-child {
+    border-top: 1px solid #78BC94;
+}
+.overviewBlock table tr th,
+.overviewBlock table tr td {
+    padding: 20px 0;
+}
+.overviewBlock table tr th {
+    width: 20%;
+    text-align: left;
+}
+.overviewBlock table tr td {
+    width: 80%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.overviewBlock table tr td p {
+    line-height: 2;
+}
+/* ===============================
+Contact Page
+=============================== */
+.contact-page .form-block {
+    border:1px solid #008135;
+    padding: 80px 30px;
+}
+/* ===============================
+Recruit Page
+=============================== */
+.recruit-page .form-block {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    border: 1px solid #008135;
+}
+/* tabs block */
+.tabs-ls {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.tabs-btn {
+    max-width: 250px;  
+}
+.tabs-btnLink {
+    max-width: 250px;
+    margin: 0 auto;
+}
+.tabs-btn {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 60px;
+    position: relative;
+    color: #000;
+    border: 1px solid #008135;
+    border-radius: 100px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+}
+.tabs li.active a .tabs-btn {
+    background: #008135;
+    color: #fff;
+}
+.tabs li.active a .tabs-btn:after {
+    content: "\2193";
+    display: block;
+    font-size: 65px;
+    color: #008135;
+    line-height: 1;
+    position: absolute;
+    bottom: -60px;
+}
+.panels > div.panel {
+    display: none;
+}
+.panels > div.panel.active {
+    display: block;
 }

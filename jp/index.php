@@ -167,7 +167,7 @@
                             <li data-aos="fade-up" data-aos-delay="70">
                                 <a href="javascript:void(0)" class="newsLink">
                                     <span class="newsDate">2023/1/22</span>
-                                    <p class="newsTtl">ミャンマー支社設立</p>
+                                    <p class="newsTtl">海外支社（ミャンマー）設立</p>
                                 </a>
                             </li>
                             <li data-aos="fade-up" data-aos-delay="90">

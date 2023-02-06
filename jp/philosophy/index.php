@@ -103,10 +103,12 @@
                         </div>
                     </div>
                     <div class="philoRight">
-                        <h2 class="philo-ttl">IT関連</h2>
+                        <h2 class="philo-ttl">技術サポート・サービス提供</h2>
                         <p class="philo-txt">
                             弊社は、IT関連の専門的な知識・経験を持った「プロフェッショナル」の集団です。<br>
-                            私たちは、誠実な心をもって、全世界に通じる技術サポート・サービス提供に全力をあげ、社会に貢献すると同時に、会社及び全従業員の繁栄を推進することをむねとします。
+                            私たちは、誠実な心をもって、全世界に通じる技術サポート・サービス提供に全力をあげ、社会に貢献すると同時に、会社及び全従業員の繁栄を推進することをむねとします。<br>
+                            我々の繁栄はお客様と共にあります。<br>
+                            すべての取組をお客様の視点から始め、熱意を持って邁進します。
                         </p>
                     </div>
                 </div>
@@ -114,47 +116,23 @@
                     <div class="philoLeft" data-aos="zoom-in">
                         <div class="philo-img">
                             <span class="philo-num">02</span>
-                            <span><img src="/home-page/assets/img/philosophy/philosophy_img03.png" alt=""></span>
-                        </div>
-                    </div>
-                    <div class="philoRight">
-                        <h2 class="philo-ttl">お客様</h2>
-                        <p class="philo-txt">我々の繁栄はお客様と共にあります。</p>
-                    </div>
-                </div>
-                <div class="philosophyBox">
-                    <div class="philoLeft" data-aos="zoom-in">
-                        <div class="philo-img">
-                            <span class="philo-num">03</span>
-                            <span><img src="/home-page/assets/img/philosophy/philosophy_img04.png" alt=""></span>
-                        </div>
-                    </div>
-                    <div class="philoRight">
-                        <h2 class="philo-ttl">取組</h2>
-                        <p class="philo-txt">すべての取組をお客様の視点から始め、熱意を持って邁進します。</p>
-                    </div>
-                </div>
-                <div class="philosophyBox">
-                    <div class="philoLeft" data-aos="zoom-in">
-                        <div class="philo-img">
-                            <span class="philo-num">04</span>
                             <span><img src="/home-page/assets/img/philosophy/philosophy_img05.png" alt=""></span>
                         </div>
                     </div>
                     <div class="philoRight">
-                        <h2 class="philo-ttl">品質</h2>
+                        <h2 class="philo-ttl">品質の維持</h2>
                         <p class="philo-txt">我々の専門的な知識、現場での運用経験を活かし、ハイクオリティー・ローコストのITシステムを開発、構築、運用し、製品の安全性と品質の維持に努めます。</p>
                     </div>
                 </div>
                 <div class="philosophyBox">
                     <div class="philoLeft" data-aos="zoom-in">
                         <div class="philo-img">
-                            <span class="philo-num">05</span>
+                            <span class="philo-num">03</span>
                             <span><img src="/home-page/assets/img/philosophy/philosophy_img06.png" alt=""></span>
                         </div>
                     </div>
                     <div class="philoRight">
-                        <h2 class="philo-ttl">解決</h2>
+                        <h2 class="philo-ttl">最後までやり遂げる</h2>
                         <p class="philo-txt">困難や逆境にあっても決してあきらめず、知恵を絞って結果にこだわり続けます。</p>
                     </div>
                 </div>

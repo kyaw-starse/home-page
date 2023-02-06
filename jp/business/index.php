@@ -98,7 +98,7 @@
                 <span id="business01" class="anchorpos"></span>
                 <div data-aos="fade-up">
                     <div class="ttl-number"><span>01</span></div>
-                    <h2 class="ttl-subpage"><span class="text-un-yellow">SE業務</span></h2>
+                    <h2 class="ttl-subpage"><span class="text-un-yellow">SES業務</span></h2>
                     <div class="business-bg bg-yello-light">
                         <div class="circle-iconBlock">
                             <ul class="circle-iconLst">
@@ -137,40 +137,6 @@
                             </ul>
                         </div>
                     </div>
-                    <div>
-                        <div class="textBox">
-                            <h2 class="boxTxt">金融・保険業</h2>
-                            <div class="boxDesp">
-                                <p>
-                                弊社は、IT関連の専門的な知識・経験を持った「プロフェッショナル」の集団です。 
-                                </p>
-                            </div>
-                        </div>
-                        <div class="textBox">
-                            <h2 class="boxTxt">電力・ガス業</h2>
-                            <div class="boxDesp">
-                                <p>
-                                弊社は、IT関連の専門的な知識・経験を持った「プロフェッショナル」の集団です。 
-                                </p>
-                            </div>
-                        </div>
-                        <div class="textBox">
-                            <h2 class="boxTxt">卸売業、小売業</h2>
-                            <div class="boxDesp">
-                                <p>
-                                弊社は、IT関連の専門的な知識・経験を持った「プロフェッショナル」の集団です。
-                                </p>
-                            </div>
-                        </div>
-                        <div class="textBox">
-                            <h2 class="boxTxt">その他</h2>
-                            <div class="boxDesp">
-                                <p>
-                                弊社は、IT関連の専門的な知識・経験を持った「プロフェッショナル」の集団です。
-                                </p>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
@@ -180,7 +146,7 @@
                 <div data-aos="fade-up">
                     <div class="ttl-number"><span>02</span></div>
                     <h2 class="ttl-subpage"><span class="text-un-yellow">受託開発事業</span></h2>
-                    <div class="business-bg bg-yello-light">
+                    <div class="business-bg bg-yello-light mb30">
                         <div class="circle-iconBlock">
                             <ul class="circle-iconLst">
                                 <li>
@@ -209,24 +175,38 @@
                             <h2 class="boxTxt">スクラッチ開発</h2>
                             <div class="boxDesp">
                                 <p>
-                                テキストが入ります。 
+                                スクラッチ開発におけるサイト運用までの下記の流れのなかで、最も重要なのが「要件定義」です。<br>
+                                「要件定義」→「設計」→「プログラム開発」→「テスト」→「運用」<br>
+                                弊社は、スクラッチ開発の要件定義を進めるにあたり、お客様が「システムで何を実現したいか？」システム要件を明らかにするところからスタートします。<br>■主なプログラム言語：Java, C#, VB.Net, PHP, react native など
                                 </p>
+                                <ul class="list-disc">
+                                    <li>勤怠管理システム</li>
+                                    <li>オンライン試験システム</li>
+                                    <li>オンライン試験システム</li>
+                                </ul>
                             </div>
                         </div>
                         <div class="textBox">
-                            <h2 class="boxTxt">モバイルアプリ</h2>
+                            <h2 class="boxTxt">モバイルアプリ開発</h2>
                             <div class="boxDesp">
                                 <p>
-                                テキストが入ります。
+                                モバイルアプリ開発とは、様々なモバイルデバイスで動作するアプリケーションを作成することです。<br>弊社は、モバイルアプリ開発を進めるにあたり、デザインのみではなく、利用者にとって適切なコンテンツとはどのようなものかを検討します。<br>アプリの利用者により様々な年齢でも、使いやすく考えて提供しております。<br>AndroidやIOS、又はスマホやタブレットなどにも利用可能なアプリを開発しております。<br>■主なプログラム言語：swift、Java(Android)、ObjectiveC(Apple)、ruby on rails、react native など
                                 </p>
+                                <ul class="list-disc">
+                                    <li>勤怠管理システム</li>
+                                    <li>オンライン試験システム</li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="textBox">
+                        <div class="textBox pb0">
                             <h2 class="boxTxt">クラウド導入・移行支援</h2>
                             <div class="boxDesp">
                                 <p>
-                                テキストが入ります。  
+                                データ移行には、既存システムの調査、データ分析、移行計画などのステップがあります。<br>弊社はお客様の重要な情報を安全に新しいシステムへ移行する作業を提供しております。
                                 </p>
+                                <ul class="list-disc">
+                                    <li>ノーツからOffice 365のE1へ移行</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -239,56 +219,131 @@
                 <div data-aos="fade-up">
                     <div class="ttl-number"><span>03</span></div>
                     <h2 class="ttl-subpage"><span class="text-un-yellow">DX推進事業</span></h2>
-                    <div class="business-bg bg-yello-light">
-                        <div class="circle-iconBlock">
-                            <ul class="circle-iconLst">
-                                <!-- 
+                    <div class="dx-sec01">
+                        <div class="cFix">
+                            <h2 class="ttl-subpage txt-left fz-25 fz-20-sp"><span class="text-un-yellow">STAR SE DXへの取組み</span></h2>
+                            <p class="letter-lead-txt"><strong>DX方針</strong></p>
+                            <p class="letter-lead-txt">
+                            今、世の中を取り巻く環境はデジタル化により大きく、且つ急激に変化してきています。<br>それに伴いお客様のニーズも様々に変化しています。その中で当社がクローズアップしたいのは、ＤＸを実現するＩＴ技術者の不足です。
+                            </p>
+                            <p class="letter-lead-txt">
+                            そこで当社は、優秀なＩＴ技術者の採用／育成に注力し、 お客様のニーズを引出し更に付加価値を高めたソリューションをご提供できる会社を目指します。
+                            </p>
+                            <p class="letter-lead-txt">
+                            その為、データ分析、人口知能（ＡＩ）等の分野への挑戦と、アジャイル、ローコード開発などの新しい開発手法でのシステム開発に取組み人材育成を行います。
+                            </p>
+                            <ul class="list">
                                 <li>
-                                    <a href="https://www.kizuna-star.com" target="_blank">
-                                        <div class="circle-block cir-marLeft">
-                                            <img src="/home-page/assets/img/business/kizuna1.png" alt="">
-                                            <p>Kizuna</p>
-                                        </div>
-                                    </a>
+                                    <p class="pri-num"><span class="font-normal">1.</span>お客様ニーズを的確に捉え、その要求に適合したＤＸソリューションを開発、ご提供いたします。</p>
                                 </li>
-                                 -->
                                 <li>
-                                    <a href="https://elearning-star.com/" target="_blank">
-                                        <div class="circle-block cir-marRight">
-                                            <img src="/home-page/assets/img/business/ss_exam1.png" alt="">
-                                            <p>SS Exam</p>
-                                        </div>
-                                    </a>
+                                    <p class="pri-num"><span class="font-normal">2.</span>社内の技術者並びに、経営層、営業に対し最新のデジタル化技術を学習、取得する為の教育支援を行います。</p>
+                                </li>
+                                <li>
+                                    <p class="pri-num"><span class="font-normal">3.</span>社内環境についてはリモート開発の推進、Web会議、ＡＷＳ上での開発など、可能な限りデジタル開発環境を整備し、ＤＸ支援企業としてモデル企業を目指します。</p>
+                                </li>
+                                <li>
+                                    <p class="pri-num"><span class="font-normal">4.</span>ＤＸ企業として、自社ソリューションをＤＸ環境下で構築し、学習内容を実現することで社員の能力向上を目指します（絆プロジェクト）</p>
+                                </li>
+                                <li>
+                                    <p class="pri-num"><span class="font-normal">5.</span>社内ＤＸ化を積極的に推進する為、社内に推進部を設け社内デジタル化の旗振り、並びに推進化の数値化を行い経営に反映致します。</p>
                                 </li>
                             </ul>
+                            <div class="letter-b-txt">
+                                <p>2022年11月25日</p>
+                                <p>STAR SE株式会社</p>
+                                <p>代表取締役　金本　香蘭</p>
+                            </div>
                         </div>
                     </div>
-                    <div>
-                        <!-- 
-                        <div class="textBox">
-                            <h2 class="boxTxt">Kizuna</h2>
-                            <div class="boxDesp">
-                                <p>
-                                    技術者の紹介動画や技術、履歴や空きスケジュールを見て、 欲しいときに、欲しい技術者を見つけることができるクラウドサービスです。 
-                                </p>
-                            </div>
+                    <div class="dx-sec02">
+                        <h2 class="ttl-subpage txt-left fz-25 fz-20-sp"><span class="text-un-yellow">DX推進体制</span></h2>
+                        <div class="dx-img">
+                            <img src="/home-page/assets/img/recruit/dx-jp.png" alt="">
                         </div>
-                         -->
                         <div class="textBox">
-                            <h2 class="boxTxt">SS Exam</h2>
+                            <h2 class="boxTxt pri-num"><span>1.</span>DX方針を実現するために「ＤＸ推進部」を設置する ここでの任務は</h2>
                             <div class="boxDesp">
                                 <p>
-                                “人”の出来ることを何方法で試すの? その答えはこちらにあります。様々の業界でオンラインテストを実施することがで きます。相手の考え方、知識を試験の実績から把握できます。
+                                ＤＸ先端技術の調査、研究並びに、自社への導入検討<br>
+                                導入を決定したＤＸ技術の教育カリキュラムの作成、既存社員並びに、中途採用者への教育実施<br>
+                                技術者情報提供サービスのステム開発の運用データの分析を行いＤＸ推進状況の評価実施
                                 </p>
                             </div>
                         </div>
                         <div class="textBox">
-                            <h2 class="boxTxt">DX推進</h2>
+                            <h2 class="boxTxt pri-num"><span>2.</span>システム開発事業部</h2>
                             <div class="boxDesp">
                                 <p>
-                                    <a href="/home-page/jp/recruit/dx-develop.php" class="text-link">詳しくはこちら</a>
+                                この部門は従来のシステム開発も行うが、ＤＸ推進部の推薦する新技術習得に向け、社内勉強会を実施
                                 </p>
                             </div>
+                        </div>
+                        <div class="textBox">
+                            <h2 class="boxTxt pri-num"><span>3.</span>絆プロジェクト</h2>
+                            <div class="boxDesp">
+                                <p>
+                                STAR SEのＤＸソリューションである「技術者情報提供サービス“絆”」の開発、保守運用<br>
+                                現在、開発途中だがリリース後は、社員の教育システム機能、週報・月次報告等の「社員の絆」の為の追加開発
+                                </p>
+                            </div>
+                        </div>
+                        <div class="textBox">
+                            <h2 class="boxTxt pri-num"><span>4.</span>人事・総務部</h2>
+                            <div class="boxDesp">
+                                <p>
+                                優秀な技術者採用の為、通年採用は継続 尚、外国籍技術者の採用については、Ｗｅｂ面談、採用試験の他、採用後の日本語教育も実施
+                                </p>
+                            </div>
+                        </div>
+                        <div class="textBox">
+                            <h2 class="boxTxt pri-num"><span>5.</span>営業統括本部</h2>
+                            <div class="boxDesp">
+                                <p>
+                                現状のシステム開発の多くはウォーターフォール型が多く設計書ありきの開発が主流となっているが、アジャイル方式の商談も発生してきており、この分野の商談獲得に向け注力する。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dx-sec03">
+                        <h2 class="ttl-subpage txt-left fz-25 fz-20-sp"><span class="text-un-yellow">DX推進のための方策</span></h2>
+                        <div class="textBox">
+                            <h2 class="boxTxt">お客様企業のデジタル化営業支援 要員照会システム“絆”の開発・提供・販売</h2>
+                            <div class="boxDesp">
+                                <p>
+                                システム開発技術者のスキル、提供時期等をＤＢ化した情報をＷｅｂ上でタイムリーにご紹介ができるシステムの開発 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="textBox">
+                            <h2 class="boxTxt">社内の業務プロセスのデジタル技術活用</h2>
+                            <div class="boxDesp">
+                                <p>
+                                既存のシステム開発手法の変革<br>
+                                社員の労働環境の変革
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dx-sec04">
+                        <h2 class="ttl-subpage txt-left fz-25 fz-20-sp"><span class="text-un-yellow">DX推進のための取り組み</span></h2>
+                        <div class="mb30">
+                            <p class="pri-num"><span class="font-normal">1.</span>最新技術に関する社内勉強会の実施</p>
+                            <p class="pri-num"><span class="font-normal">2.</span>情報セキュリティ人材の育成支援</p>
+                            <p class="pri-num"><span class="font-normal">3.</span>クラウド環境導入・構築のための技術者育成支援</p>
+                            <p class="pri-num"><span class="font-normal">4.</span>アジャイル開発の推奨</p>
+                            <p class="pri-num"><span class="font-normal">5.</span>テスト自動化ツールの導入</p>
+                            <p class="pri-num"><span class="font-normal">6.</span>システム開発においてリモート環境の利用促進</p>
+                            <p class="pri-num"><span class="font-normal">7.</span>Web会議の利用推進</p>
+                        </div>
+                    </div>
+                    <div class="dx-sec05">
+                        <h2 class="ttl-subpage txt-left fz-25 fz-20-sp"><span class="text-un-yellow">DX推進の達成状況の指標</span></h2>
+                        <div>
+                            <p class="pri-num"><span class="font-normal">1.</span>要員照会システムの利用者アカウント数</p>
+                            <p class="pri-num"><span class="font-normal">2.</span>リモート開発の実施率</p>
+                            <p class="pri-num"><span class="font-normal">3.</span>社内勉強会の実施時間</p>
+                            <p class="pri-num"><span class="font-normal">4.</span>各種資格の取得率</p>
                         </div>
                     </div>
                 </div>

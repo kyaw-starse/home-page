@@ -18,12 +18,16 @@
     <link rel="stylesheet" href="/home-page/assets/css/sp_style.css">
     <script src="/home-page/assets/js/jquery.min.js"></script>
 </head>
-<body id="top">
-    <div id="wrapper">
+<body id="top" class="top">
+    <div id="splash">
+        <div id="splash-logo"><img src="/home-page/assets/img/common/loading.gif" alt="読み込み中" class="icon-01 apng-image"><span class="rollAnime">Loading</span></div>
+    </div>
+    <div class="splashbg"></div>
+    <div id="wrapper" class="top-wrap">
         <header class="headerBlock">
             <div class="header c-w1420">
                 <h1 class="h-logo">
-                    <a href="/home-page/en/">
+                    <a href="/home-page/jp/">
                         <img src="/home-page/assets/img/common/h_logo.png" alt="">
                         <p>STAR SE<span>All for your dream</span></p>
                     </a>
@@ -31,20 +35,20 @@
                 <div class="h-right cFix">
                     <nav class="nav-pc">
                         <ul class="cFix">
-                            <li><a href="/home-page/en/company/"><span>会社情報</span></a></li>
-                            <li><a href="/home-page/en/philosophy/"><span>経営理念</span></a></li>
-                            <li><a href="/home-page/en/business/"><span>事業内容</span></a></li>
-                            <li><a href="/home-page/en/recruit/"><span>採用情報</span></a></li>
-                            <li><a href="/home-page/en/security/"><span>情報セキュリティ</span></a></li>
+                            <li><a href="/home-page/jp/company/"><span>会社情報</span></a></li>
+                            <li><a href="/home-page/jp/philosophy/"><span>経営理念</span></a></li>
+                            <li><a href="/home-page/jp/business/"><span>事業内容</span></a></li>
+                            <li><a href="/home-page/jp/recruit/"><span>採用情報</span></a></li>
+                            <li><a href="/home-page/jp/security/"><span>情報セキュリティ</span></a></li>
                         </ul>
                     </nav>
                     <div class="h-utility">
                         <ul class="cFix">
-                            <li class="h-icon"><a href="/home-page/en/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
-                            <li class="h-icon"><a href="/home-page/en/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
+                            <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
+                            <li class="h-icon"><a href="/home-page/jp/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                             <li class="site-lang">
-                                <a href="/home-page/en/" class="lang-link langOn">EN</a>
-                                <a href="/home-page/jp/" class="lang-link">JP</a>
+                                <a href="/home-page/en/" class="lang-link">EN</a>
+                                <a href="/home-page/jp/" class="lang-link langOn">JP</a>
                             </li>
                         </ul>
                     </div>
@@ -62,19 +66,19 @@
         <nav id="globalNav" class="globalNav">
             <div class="globalNav-inner">
                 <ul class="nav-sp">
-                    <li><a href="/home-page/en/company/"><span>会社情報</span></a></li>
-                    <li><a href="/home-page/en/philosophy/"><span>経営理念</span></a></li>
-                    <li><a href="/home-page/en/business/"><span>事業内容</span></a></li>
-                    <li><a href="/home-page/en/recruit/"><span>採用情報</span></a></li>
-                    <li><a href="/home-page/en/security/"><span>情報セキュリティ</span></a></li>
+                    <li><a href="/home-page/jp/company/"><span>会社情報</span></a></li>
+                    <li><a href="/home-page/jp/philosophy/"><span>経営理念</span></a></li>
+                    <li><a href="/home-page/jp/business/"><span>事業内容</span></a></li>
+                    <li><a href="/home-page/jp/recruit/"><span>採用情報</span></a></li>
+                    <li><a href="/home-page/jp/security/"><span>情報セキュリティ</span></a></li>
                 </ul>
                 <div class="h-utility">
                     <ul class="cFix">
-                        <li class="h-icon"><a href="/home-page/en/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
-                        <li class="h-icon"><a href="/home-page/en/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
+                        <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
+                        <li class="h-icon"><a href="/home-page/jp/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                         <li class="site-lang">
-                            <a href="/home-page/en/" class="lang-link langOn">EN</a>
-                            <a href="/home-page/jp/" class="lang-link">JP</a>
+                            <a href="/home-page/en/" class="lang-link">EN</a>
+                            <a href="/home-page/jp/" class="lang-link langOn">JP</a>
                         </li>
                     </ul>
                 </div>
@@ -83,7 +87,7 @@
         <div class="sub-banner form-banner">
         <canvas class="particlesBg"></canvas>
             <div class="sub-bannerIn c-w1170">
-                <h2 class="sub-ttl">ssAA事務・営業フォーム</h2>
+                <h2 class="sub-ttl">事務・営業フォーム</h2>
             </div>
         </div>
         <!-- sub-banner -->
@@ -228,33 +232,29 @@
                                     </label>
                                     <div class="form-privacy">
                                         <h3 class="form-privacy-ttl">「個人情報の取扱いについて」</h3>
+                                        <p>当社はお預かりした貴殿の個人情報について以下のように取扱います。</p>
                                         <p class="pri-num">
-                                            <span>1.</span>事業者の名称<br>STAR SE株式会社
+                                            <span>1.</span>利用目的について<br>
+                                            提供された個人情報の利用目的は以下に定める通りです。<br>
+                                            ・利用する個人情報：基本個人情報、履歴書、職務経歴書、スキルシート<br>
+                                            ・利用目的　　　　：採用選考及び面談に関わる連絡のため
                                         </p>
                                         <p class="pri-num">
-                                            <span>2.</span>当社の個人情報管理者及び連絡先<br>
-                                            個人情報保護管理者：金本　香蘭<br>
-                                            電話番号：03-5207-2955（当社休日を除く。）<br>
-                                            Eメール：info@star-se.co.jp
+                                            <span>2.</span>個人情報保護管理者について<br>
+                                            ＳＴＡＲ ＳＥ 株式会社<br>
+                                            個人情報保護管理者　金本　香蘭<br>
+                                            住所：〒104-0043　東京都中央区湊2-4-1　TOMACビル５階<br>
+                                            電話番号：03-5207-2955
                                         </p>
                                         <p class="pri-num">
-                                            <span>3.</span>利用目的<br>お問い合わせフォームへご入力いただいた個人情報については、お問い合わせの内容への回答の目的のみに利用します｡
+                                            <span>3.</span>委託について<br>
+                                            上記１項の利用目的を果たすために外部委託をする場合があります。
                                         </p>
                                         <p class="pri-num">
-                                            <span>4.</span>第三者提供<br>法令等の定めに基づく場合を除き、当社で上記目的に使用し、第三者へは提供いたしません。
+                                            <span>4.</span>個人情報を提供することの任意性について<br>当社に個人情報をお預かりすることは任意です。ただし、お預かりできなかった場合には上記１項の利用目的を果たすことができない場合があります。
                                         </p>
                                         <p class="pri-num">
-                                            <span>5.</span>委託<br>上記の利用目的の範囲内で個人情報の取扱いの一部又は全部を委託することがあります。委託する際には、十分な個人情報の保護水準を満たしている者を選定し、 契約書を締結し、委託する個人情報の安全管理が図られるよう、必要且つ適切な監督を行います。
-                                        </p>
-                                        <p class="pri-num">
-                                            <span>6.</span>提供の任意性とその結果<br>個人情報を提供するか否かは任意ですが、必須項目をご提示いただけない場合、利用目的に掲げてある業務に支障が生じ、ご本人が不利益を被る場合があります。
-                                        </p>
-                                        <p class="pri-num">
-                                            <span>7.</span>個人情報の開示等の要求<br>当社は、提供頂いた個人情報（開示対象個人情報）に関する利用目的の通知、開示、訂正、追加、削除、利用の停止、 消去又は第三者提供の停止(以下「開示等」という)に関わる請求及び苦情・相談（開示等に関わる請求についての苦情・相談も含む）につき迅速に対応します。<br>
-                                            下記の窓口までお申し出ください。<br>
-                                            個人情報苦情相談窓口責任者：<strong>金本　香蘭</strong><br>
-                                            電話番号：03-5207-2955<br>
-                                            メールアドレス：info@star-se.co.jp
+                                            <span>5.</span>個人情報に関する開示等について<br>当社が保有する開示対象個人情報の取扱いに関する開示等（利用目的の通知、開示、内容の訂正、追加又は削除、利用の停止、消去及び第三者への提供の停止）、又は第三者提供記録の開示の申し出は上記２項の個人情報保護管理者までご連絡下さい。開示等の請求手続きについて説明をさせていただきます。<br>なお、利用目的の通知、及び個人情報の開示に関わる手数料は、1件につき800円を申し受けます。
                                         </p>
                                     </div>
                                 </div>
@@ -299,7 +299,7 @@
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_fax.png" alt=""></span>
-                                    <p class="ftAddress-info">03-5207-2955</p>
+                                    <p class="ftAddress-info">03-5207-2956</p>
                                 </li>
                             </ul>
                         </div>
