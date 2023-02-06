@@ -187,14 +187,14 @@
                                 <label for="" class="form-label">職種</label>
                                 <div class="form-row2 form-inputCheckbox">
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="eyigyo">
+                                            <input type="checkbox" name="syokusyu[]" id="eyigyo">
                                             <span class="form-checkbox">営業</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="zimu">
+                                            <input type="checkbox" name="syokusyu[]" id="zimu">
                                             <span class="form-checkbox">事務</span>
                                         </label>
                                     </div>
@@ -203,7 +203,7 @@
                         </div>
                         <div class="form-row form-mb">
                             <div class="form-col1">
-                                <label for="" class="form-label">スキルシート<span class="require">*</span></label>
+                                <label for="skillsheet" class="form-label">スキルシート<span class="require">*</span></label>
                                 <div class="form-row form-inputFile">
                                     <div class="form-col2">
                                         <input type="file" class="inputFile" name="skillsheet" id="skillsheet" accept=".xlsx,.xls,.csv,.docx,.word,.pdf">

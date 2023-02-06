@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="/home-page/assets/css/pc_style.css">
     <link rel="stylesheet" href="/home-page/assets/css/sp_style.css">
     <script src="/home-page/assets/js/jquery.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body id="top" class="top">
     <div id="splash">
@@ -218,26 +219,26 @@
                                 <label for="" class="form-label">インフラ分類</label>
                                 <div class="form-row2 form-inputCheckbox">
                                     <div class="form-col4">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="serverEngineer">
+                                            <input type="checkbox" name="infra[]" id="serverEngineer">
                                             <span class="form-checkbox">サーバエンジニア</span>
                                         </label>
                                     </div>
                                     <div class="form-col4">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="storageEngineer">
+                                            <input type="checkbox" name="infra[]" id="storageEngineer">
                                             <span class="form-checkbox">ストレージエンジニア</span>
                                         </label>
                                     </div>
                                     <div class="form-col4">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="netWorkEngineer">
+                                            <input type="checkbox" name="infra[]" id="netWorkEngineer">
                                             <span class="form-checkbox">ネットワークエンジニア</span>
                                         </label>
                                     </div>
                                     <div class="form-col4">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="databaseEngineer">
+                                            <input type="checkbox" name="infra[]" id="databaseEngineer">
                                             <span class="form-checkbox">データベースエンジニア</span>
                                         </label>
                                     </div>
@@ -303,6 +304,7 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="g-recaptcha" data-sitekey="6LdJInAiAAAAACOCC9BABpQ7Rwh1Ob_41U5FVNON"></div>
                         <div class="form-row">
                             <div class="form-col1">
                                 <div class="sec-btn02">
