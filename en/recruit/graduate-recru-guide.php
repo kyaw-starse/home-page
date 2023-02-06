@@ -18,12 +18,16 @@
     <link rel="stylesheet" href="/home-page/assets/css/sp_style.css">
     <script src="/home-page/assets/js/jquery.min.js"></script>
 </head>
-<body id="top">
-    <div id="wrapper">
+<body id="top" class="top">
+    <div id="splash">
+        <div id="splash-logo"><img src="/home-page/assets/img/common/loading.gif" alt="読み込み中" class="icon-01 apng-image"><span class="rollAnime">Loading</span></div>
+    </div>
+    <div class="splashbg"></div>
+    <div id="wrapper" class="top-wrap">
         <header class="headerBlock">
             <div class="header c-w1420">
                 <h1 class="h-logo">
-                    <a href="/home-page/en/">
+                    <a href="/home-page/jp/">
                         <img src="/home-page/assets/img/common/h_logo.png" alt="">
                         <p>STAR SE<span>All for your dream</span></p>
                     </a>
@@ -31,20 +35,20 @@
                 <div class="h-right cFix">
                     <nav class="nav-pc">
                         <ul class="cFix">
-                            <li><a href="/home-page/en/company/"><span>会社情報</span></a></li>
-                            <li><a href="/home-page/en/philosophy/"><span>経営理念</span></a></li>
-                            <li><a href="/home-page/en/business/"><span>事業内容</span></a></li>
-                            <li><a href="/home-page/en/recruit/" class="navpc-active"><span>採用情報</span></a></li>
-                            <li><a href="/home-page/en/security/"><span>情報セキュリティ</span></a></li>
+                            <li><a href="/home-page/jp/company/"><span>会社情報</span></a></li>
+                            <li><a href="/home-page/jp/philosophy/"><span>経営理念</span></a></li>
+                            <li><a href="/home-page/jp/business/"><span>事業内容</span></a></li>
+                            <li><a href="/home-page/jp/recruit/" class="navpc-active"><span>採用情報</span></a></li>
+                            <li><a href="/home-page/jp/security/"><span>情報セキュリティ</span></a></li>
                         </ul>
                     </nav>
                     <div class="h-utility">
                         <ul class="cFix">
-                            <li class="h-icon"><a href="/home-page/en/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
-                            <li class="h-icon"><a href="/home-page/en/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
+                            <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
+                            <li class="h-icon"><a href="/home-page/jp/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                             <li class="site-lang">
-                                <a href="" class="lang-link langOn">EN</a>
-                                <a href="" class="lang-link">JP</a>
+                                <a href="/home-page/en/" class="lang-link">EN</a>
+                                <a href="/home-page/jp/" class="lang-link langOn">JP</a>
                             </li>
                         </ul>
                     </div>
@@ -62,19 +66,19 @@
         <nav id="globalNav" class="globalNav">
             <div class="globalNav-inner">
                 <ul class="nav-sp">
-                    <li><a href="/home-page/en/company/"><span>会社情報</span></a></li>
-                    <li><a href="/home-page/en/philosophy/"><span>経営理念</span></a></li>
-                    <li><a href="/home-page/en/business/"><span>事業内容</span></a></li>
-                    <li><a href="/home-page/en/recruit/"><span>採用情報</span></a></li>
-                    <li><a href="/home-page/en/security/"><span>情報セキュリティ</span></a></li>
+                    <li><a href="/home-page/jp/company/"><span>会社情報</span></a></li>
+                    <li><a href="/home-page/jp/philosophy/"><span>経営理念</span></a></li>
+                    <li><a href="/home-page/jp/business/"><span>事業内容</span></a></li>
+                    <li><a href="/home-page/jp/recruit/"><span>採用情報</span></a></li>
+                    <li><a href="/home-page/jp/security/"><span>情報セキュリティ</span></a></li>
                 </ul>
                 <div class="h-utility">
                     <ul class="cFix">
-                        <li class="h-icon"><a href="/home-page/en/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
-                        <li class="h-icon"><a href="/home-page/en/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
+                        <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
+                        <li class="h-icon"><a href="/home-page/jp/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                         <li class="site-lang">
-                            <a href="/home-page/en/en/" class="lang-link">EN</a>
-                            <a href="/home-page/en/jp/" class="lang-link langOn">JP</a>
+                            <a href="/home-page/en/" class="lang-link">EN</a>
+                            <a href="/home-page/jp/" class="lang-link langOn">JP</a>
                         </li>
                     </ul>
                 </div>
@@ -83,7 +87,7 @@
         <div class="sub-banner">
             <canvas class="particlesBg"></canvas>
             <div class="sub-bannerIn c-w1170">
-                <h2 class="sub-ttl">ssキャリア募集要項</h2>
+                <h2 class="sub-ttl">新卒/第二新卒募集要項</h2>
                 <img src="/home-page/assets/img/philosophy/bnr_img.jpg" class="sub-bannerImg" alt="">
             </div>
         </div>
@@ -144,11 +148,11 @@
                 </div>
             </div>
         </section>
-        <section class="sec-graduate02 bg-green-light">
+        <section class="sec-graduate02 bg-green-light" data-aos="fade-up">
             <div class="c-w1170">
                 <h2 class="ttl-subpage"><span class="text-un-yellow">よくある質問</span></h2>
                 <div>
-                    <ul class="accordion-area" data-aos="fade-up">
+                    <ul class="accordion-area">
                         <li>
                             <div class="accordian-div">
                                 <h2 class="accordian-title accordian-ques"><span class="acc-ques">Q.&nbsp;</span>新卒採用での入社時期は4月のみですか？</h2>
@@ -214,10 +218,10 @@
                 </div>
             </div>
         </section>
-        <section class="sec-graduate03">
+        <section class="sec-graduate03" data-aos="fade-up">
             <div class="c-w1170">
                 <h2 class="ttl-subpage"><span class="text-un-yellow">職場風景</span></h2>
-                <div data-aos="fade-up">
+                <div>
                     <ul class="recruitList-block">
                         <li class="recruitList-li">
                             <div class="recruitList-content">
@@ -261,9 +265,8 @@
         </section>
         <section class="sec-graduate04 bg-green-light">
             <div class="c-w1170">
-                <span id="sec-graduate04" class="anchorpos"></span>
-                <h2 class="ttl-subpage"><span class="text-un-yellow">募集要項</span></h2>
-                <div data-aos="fade-up">
+                <div>
+                    <h2 class="ttl-subpage"><span class="text-un-yellow">募集要項</span></h2>
                     <div class="sec-table table-style01">
                         <table>
                             <colgroup>
@@ -385,7 +388,7 @@
                         </table>
                     </div>
                     <div class="sec-btn02">
-                        <a href="/home-page/en/form/entry-newGraduate.php" class="btn02">エントリー</a>
+                        <a href="/home-page/jp/form/entry-newGraduate.php" class="btn02">エントリー</a>
                     </div>
                 </div>
             </div>
@@ -418,7 +421,7 @@
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_fax.png" alt=""></span>
-                                    <p class="ftAddress-info">03-5207-2955</p>
+                                    <p class="ftAddress-info">03-5207-2956</p>
                                 </li>
                             </ul>
                         </div>
@@ -437,6 +440,5 @@
     <script src="/home-page/assets/js/aos.js"></script>
     <script src="/home-page/assets/js/subpage.js"></script>
     <script src="/home-page/assets/js/common.js"></script>
-
 </body>
 </html>
