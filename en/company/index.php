@@ -10,7 +10,7 @@
     <meta name="google-site-verification" content="Dg_pvHrLYsE_PNW7oubm3Xw5aWYEPksmjpJwXLBG0Sk"/>
     <link rel="shortcut icon" href="/home-page/assets/img/common/favicon.png" type="image/x-icon">
     <link rel="icon" href="/home-page/assets/img/common/favicon.png" type="image/x-icon">
-    <title>会社情報</title>
+    <title>Company</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/home-page/assets/css/import.css">
     <link rel="stylesheet" href="/home-page/assets/css/aos.css">
@@ -28,7 +28,7 @@
         <header class="headerBlock">
             <div class="header c-w1420">
                 <h1 class="h-logo">
-                    <a href="/home-page/jp/">
+                    <a href="/home-page/en/">
                         <img src="/home-page/assets/img/common/h_logo.png" alt="">
                         <p>STAR SE<span>All for your dream</span></p>
                     </a>
@@ -36,17 +36,17 @@
                 <div class="h-right cFix">
                     <nav class="nav-pc">
                         <ul class="cFix">
-                            <li><a href="/home-page/jp/company/" class="navpc-active"><span>会社情報</span></a></li>
-                            <li><a href="/home-page/jp/philosophy/"><span>経営理念</span></a></li>
-                            <li><a href="/home-page/jp/business/"><span>事業内容</span></a></li>
-                            <li><a href="/home-page/jp/recruit/"><span>採用情報</span></a></li>
-                            <li><a href="/home-page/jp/security/"><span>情報セキュリティ</span></a></li>
+                            <li><a href="/home-page/en/company/" class="navpc-active"><span>Company</span></a></li>
+                            <li><a href="/home-page/en/philosophy/"><span>Philosophy</span></a></li>
+                            <li><a href="/home-page/en/business/"><span>Business</span></a></li>
+                            <li><a href="/home-page/en/recruit/"><span>Recruit</span></a></li>
+                            <li><a href="/home-page/en/security/"><span>Security Info</span></a></li>
                         </ul>
                     </nav>
                     <div class="h-utility">
                         <ul class="cFix">
-                            <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
-                            <li class="h-icon"><a href="/home-page/jp/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
+                            <li class="h-icon"><a href="/home-page/en/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
+                            <li class="h-icon"><a href="/home-page/en/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                             <li class="site-lang">
                                 <a href="/home-page/en/" class="lang-link langOn">EN</a>
                                 <a href="/home-page/jp/" class="lang-link">JP</a>
@@ -67,19 +67,19 @@
         <nav id="globalNav" class="globalNav">
             <div class="globalNav-inner">
                 <ul class="nav-sp">
-                    <li><a href="/home-page/jp/company/"><span>会社情報</span></a></li>
-                    <li><a href="/home-page/jp/philosophy/"><span>経営理念</span></a></li>
-                    <li><a href="/home-page/jp/business/"><span>事業内容</span></a></li>
-                    <li><a href="/home-page/jp/recruit/"><span>採用情報</span></a></li>
-                    <li><a href="/home-page/jp/security/"><span>情報セキュリティ</span></a></li>
+                    <li><a href="/home-page/en/company/"><span>Company</span></a></li>
+                    <li><a href="/home-page/en/philosophy/"><span>Philosophy</span></a></li>
+                    <li><a href="/home-page/en/business/"><span>Business</span></a></li>
+                    <li><a href="/home-page/en/recruit/"><span>Recruit</span></a></li>
+                    <li><a href="/home-page/en/security/"><span>Security Info</span></a></li>
                 </ul>
                 <div class="h-utility">
                     <ul class="cFix">
-                        <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
-                        <li class="h-icon"><a href="/home-page/jp/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
+                        <li class="h-icon"><a href="/home-page/en/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
+                        <li class="h-icon"><a href="/home-page/en/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                         <li class="site-lang">
-                            <a href="/home-page/jp/en/" class="lang-link">EN</a>
-                            <a href="/home-page/jp/jp/" class="lang-link langOn">JP</a>
+                            <a href="/home-page/en/" class="lang-link">EN</a>
+                            <a href="/home-page/jp/" class="lang-link langOn">JP</a>
                         </li>
                     </ul>
                 </div>
@@ -88,7 +88,7 @@
         <div class="sub-banner">
             <canvas class="particlesBg"></canvas>
             <div class="sub-bannerIn c-w1170">
-                <h2 class="sub-ttl">会社情報</h2>
+                <h2 class="sub-ttl">Company</h2>
                 <img src="/home-page/assets/img/company/bnr_img.jpg" class="sub-bannerImg" alt="">
             </div>
         </div>
@@ -99,53 +99,53 @@
                 <div class="c-w1170">
                     <div class="c-blockLeft">
                         <span id="companyInfo" class="anchorpos"></span>
-                        <h2 class="ttl-subpage"><span class="text-un-yellow">会社概要</span></h2>
+                        <h2 class="ttl-subpage"><span class="text-un-yellow">Company Profile</span></h2>
                         <div class="company-info">
                             <table>
                                 <tr>
-                                    <th>商号</th>
+                                    <th>Trade Name</th>
                                     <td>
-                                        <p>STAR SE 株式会社</p>
+                                        <p>STAR SE Co., Ltd.</p>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <th>所在地</th>
+                                    <th>Location</th>
                                     <td>
-                                        <p>〒104-0043<br>東京都中央区湊2丁目4-1 ＴＯＭＡＣビル 5階</p>
+                                        <p>〒104-0043<br>5th floor, TOMAC Building, 2-4-1 Minato, Chuo-ku, Tokyo</p>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <th>設立</th>
+                                    <th>Establishment</th>
                                     <td>
-                                        <p>2014年1月22日</p>
+                                        <p>January 22, 2014</p>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <th>資本金</th>
+                                    <th>Capital</th>
                                     <td>
-                                        <p>4,500万円</p>
+                                        <p>45 Million</p>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <th>役員</th>
+                                    <th>President</th>
                                     <td>
-                                        <p>代表取締役　<span class="font-bold">金本 香蘭</span></p>
+                                        <p>Representative Director <span class="font-bold">Kanemoto Kouran</span></p>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <th>従業員数</th>
+                                    <th>Number of Employees</th>
                                     <td>
-                                        <p>(2023年1月時点)<br>正社員：130人<br>※協業パートナー要員：約10人</p>
+                                        <p>(As of January 2023)<br>Full-time employees: 130<br>※Collaborative partner personnel: about 10 people</p>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <th>支社</th>
+                                    <th>Branch Office</th>
                                     <td>
                                         <p>STAR  SE  MYANMAR Co.,Ltd.<br>Room No.11/A, 11th floor, Pyay Road, Red Hill Tower (or) KBZ Tower, Sanchaung Township, Yangon.</p>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <th>主要顧客</th>
+                                    <th>Main Customers</th>
                                     <td>
                                         <p>
                                         株式会社インテック<br>
@@ -167,19 +167,19 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <th>主要取引銀行</th>
+                                    <th>Main Bank</th>
                                     <td>
                                         <p>
-                                        三井住友銀行<br>
-                                        東京東信用金庫<br>
-                                        西武信用金庫
+                                        Mitsui Sumitomo Banking Corporation<br>
+                                        Tokyo Higashi Credit Union<br>
+                                        Seibu Credit Union
                                         </p>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <th>許認可・届出受理</th>
+                                    <th>Approval and Notification Acceptance</th>
                                     <td>
-                                        <p>労働者派遣事業許可番号 派13-312273<br>有料職業紹介事業許可 13-ユ-309929<br>プライバシーマーク 第22000213号<br>ISO/IEC 27001:2013 認証登録番号 J0437（2020/12/17取得）</p>
+                                        <p>Worker Dispatch Business Permit No. 13-312273<br>Paid Employment Introduction Business Permission (13 - Yu - 309929)<br>Privacy Mark : No.22000213<br>ISO/IEC 27001:2013 Certification Registration Number J0437 (acquired on 2020/12/17)</p>
                                         <ul class="company-infologo">
                                             <li><img src="/home-page/assets/img/company/logo_iso1.png" alt=""></li>
                                             <li><img src="/home-page/assets/img/company/logo_iso2.png" alt=""></li>
@@ -187,9 +187,9 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <th>加盟団体</th>
+                                    <th>Member Organizations</th>
                                     <td>
-                                        <p>一般社団法人東京都情報産業協会(IIT)<br>一般社団法人コンピュータソフトウェア協会(CSAJ)<br>東京商工会議所</p>
+                                        <p>The Japan Software Industry Association(IIT)<br>Computer Software Association of Japan(CSAJ).<br>Koto East Corporation Board</p>
                                     </td>
                                 </tr>
                             </table>
@@ -203,157 +203,157 @@
                 <div class="c-w1170">
                     <div class="c-blockLeft">
                         <span id="history" class="anchorpos"></span>
-                        <h2 class="ttl-subpage col-white"><span class="text-un-yellow">沿革</span></h2>
+                        <h2 class="ttl-subpage col-white"><span class="text-un-yellow">History</span></h2>
                         <div class="history-list">
                             <ul>
                                 <li class="history-listbox">
-                                    <span class="history-year pc">2023年</span>
+                                    <span class="history-year pc">2023</span>
                                     <div class="history-listboxin" data-aos="fade-left" data-aos-duration="1000">
-                                        <span class="history-year sp">2023年</span>
+                                        <span class="history-year sp">2023</span>
                                         <div class="history-desp">
                                             <dl class="cFix">
-                                                <dt>2月</dt>
-                                                <dd>東京八丁堀に本社移転</dd>
+                                                <dt>February</dt>
+                                                <dd>Moved head office to Hatchobori, Tokyo</dd>
                                             </dl>
                                             <dl class="cFix">
-                                                <dt>1月</dt>
-                                                <dd>海外支社（ミャンマー）設立</dd>
+                                                <dt>January</dt>
+                                                <dd>Established overseas branch (Myanmar)</dd>
                                             </dl>
                                         </div>
                                     </div>
                                 </li>
                                 <li class="history-listbox">
-                                    <span class="history-year pc">2022年</span>
+                                    <span class="history-year pc">2022</span>
                                     <div class="history-listboxin" data-aos="fade-left" data-aos-duration="1000">
-                                        <span class="history-year sp">2022年</span>
+                                        <span class="history-year sp">2022</span>
                                         <div class="history-desp">
                                             <dl class="cFix">
-                                                <dt>11月</dt>
-                                                <dd>DX戦略を策定</dd>
+                                                <dt>November</dt>
+                                                <dd>Formulation of DX strategy</dd>
                                             </dl>
                                             <dl class="cFix">
-                                                <dt>7月</dt>
-                                                <dd>DX方針を宣言</dd>
+                                                <dt>July</dt>
+                                                <dd>Declare DX policy</dd>
                                             </dl>
                                         </div>
                                     </div>
                                 </li>
                                 <li class="history-listbox">
-                                    <span class="history-year pc">2021年</span>
+                                    <span class="history-year pc">2021</span>
                                     <div class="history-listboxin" data-aos="fade-left" data-aos-duration="1000">
-                                        <span class="history-year sp">2021年</span>
+                                        <span class="history-year sp">2021</span>
                                         <div class="history-desp">
                                             <dl class="cFix">
-                                                <dt>1月</dt>
-                                                <dd>プライバシーマーク（第22000213号）を更新</dd>
+                                                <dt>January</dt>
+                                                <dd>Privacy Mark (No. 22000213) updated</dd>
                                             </dl>
                                         </div>
                                     </div>
                                 </li>
                                 <li class="history-listbox">
-                                    <span class="history-year pc">2020年</span>
+                                    <span class="history-year pc">2020</span>
                                     <div class="history-listboxin" data-aos="fade-left" data-aos-duration="1000">
-                                        <span class="history-year sp">2020年</span>
+                                        <span class="history-year sp">2020</span>
                                         <div class="history-desp">
                                             <dl class="cFix">
-                                                <dt>12月</dt>
-                                                <dd>ISO/IEC 27001:2013認証を取得</dd>
+                                                <dt>December</dt>
+                                                <dd>Acquired ISO/IEC 27001:2013 certification</dd>
                                             </dl>
                                         </div>
                                     </div>
                                 </li>
                                 <li class="history-listbox">
-                                    <span class="history-year pc">2019年</span>
+                                    <span class="history-year pc">2019</span>
                                     <div class="history-listboxin" data-aos="fade-left" data-aos-duration="1000">
-                                        <span class="history-year sp">2019年</span>
+                                        <span class="history-year sp">2019</span>
                                         <div class="history-desp">
                                             <dl class="cFix">
-                                                <dt>12月</dt>
-                                                <dd>資本金を4,500万円に増資</dd>
+                                                <dt>December</dt>
+                                                <dd>Increased capital to 45 million yen</dd>
                                             </dl>
                                             <dl class="cFix">
-                                                <dt>1月</dt>
-                                                <dd>労働者派遣事業許可番号（派13-312273）を取得</dd>
+                                                <dt>January</dt>
+                                                <dd>Acquired worker dispatch business license number (13-312273)</dd>
                                             </dl>
                                         </div>
                                     </div>
                                 </li>
                                 <li class="history-listbox">
-                                    <span class="history-year pc">2018年</span>
+                                    <span class="history-year pc">2018</span>
                                     <div class="history-listboxin" data-aos="fade-left" data-aos-duration="1000">
-                                        <span class="history-year sp">2018年</span>
+                                        <span class="history-year sp">2018</span>
                                         <div class="history-desp">
                                             <dl class="cFix">
-                                                <dt>10月</dt>
-                                                <dd>有料職業紹介事業許可（13-ユ-309929）を取得</dd>
+                                                <dt>October</dt>
+                                                <dd>Acquired Paid Employment Placement Business Permit (13-Yu-309929)</dd>
                                             </dl>
                                         </div>
                                     </div>
                                 </li>
                                 <li class="history-listbox">
-                                    <span class="history-year pc">2017年</span>
+                                    <span class="history-year pc">2017</span>
                                     <div class="history-listboxin" data-aos="fade-left" data-aos-duration="1000">
-                                        <span class="history-year sp">2017年</span>
+                                        <span class="history-year sp">2017</span>
                                         <div class="history-desp">
                                             <dl class="cFix">
-                                                <dt>12月</dt>
-                                                <dd>資本金を2,000万円に増資</dd>
+                                                <dt>December</dt>
+                                                <dd>Increased capital to 20 million yen</dd>
                                             </dl>
                                             <dl class="cFix">
-                                                <dt>9月</dt>
-                                                <dd>ホームページのリニューアル</dd>
+                                                <dt>September</dt>
+                                                <dd>Released new version of company home page</dd>
                                             </dl>
                                             <dl class="cFix">
-                                                <dt>6月</dt>
-                                                <dd>東京都中央区に本社移転</dd>
+                                                <dt>June</dt>
+                                                <dd>Moved head office to Chuo-ku, Tokyo</dd>
                                             </dl>
                                             <dl class="cFix">
-                                                <dt>5月</dt>
-                                                <dd>プライバシーマーク（第22000213号）を取得</dd>
+                                                <dt>May</dt>
+                                                <dd>Acquired Privacy Mark No. 22000213号</dd>
                                             </dl>
                                             <dl class="cFix">
-                                                <dt>4月</dt>
-                                                <dd>資本金を1,500万円に増資</dd>
+                                                <dt>April</dt>
+                                                <dd>Increased capital to 15 million yen</dd>
                                             </dl>
                                         </div>
                                     </div>
                                 </li>
                                 <li class="history-listbox">
-                                    <span class="history-year pc">2016年</span>
+                                    <span class="history-year pc">2016</span>
                                     <div class="history-listboxin" data-aos="fade-left" data-aos-duration="1000">
-                                        <span class="history-year sp">2016年</span>
+                                        <span class="history-year sp">2016</span>
                                         <div class="history-desp">
                                             <dl class="cFix">
-                                                <dt>1月</dt>
-                                                <dd>人材育成事業部を開始</dd>
+                                                <dt>January</dt>
+                                                <dd>Start the Human Resources Development Division</dd>
                                             </dl>
                                         </div>
                                     </div>
                                 </li>
                                 <li class="history-listbox">
-                                    <span class="history-year pc">2015年</span>
+                                    <span class="history-year pc">2015</span>
                                     <div class="history-listboxin" data-aos="fade-left" data-aos-duration="1000">
-                                        <span class="history-year sp">2015年</span>
+                                        <span class="history-year sp">2015</span>
                                         <div class="history-desp">
                                             <dl class="cFix">
-                                                <dt>10月</dt>
-                                                <dd>東京都千代田区に本社移転</dd>
+                                                <dt>October</dt>
+                                                <dd>Moved head office to Chiyoda-ku,Tokyo</dd>
                                             </dl>
                                             <dl class="cFix">
-                                                <dt>9月</dt>
-                                                <dd>資本金を1,000万円に増資</dd>
+                                                <dt>September</dt>
+                                                <dd>Increased capital to 10 million yen</dd>
                                             </dl>
                                         </div>
                                     </div>
                                 </li>
                                 <li class="history-listbox">
-                                    <span class="history-year pc">2014年</span>
+                                    <span class="history-year pc">2014</span>
                                     <div class="history-listboxin" data-aos="fade-left" data-aos-duration="1000">
-                                        <span class="history-year sp">2014年</span>
+                                        <span class="history-year sp">2014</span>
                                         <div class="history-desp">
                                             <dl class="cFix">
-                                                <dt>1月</dt>
-                                                <dd>STAR SE株式会社設立（資本金200万円）、東京本社を開設</dd>
+                                                <dt>January</dt>
+                                                <dd>Established STAR SE Co., Ltd. (2 million yen in Capital), opened Tokyo headquarters</dd>
                                             </dl>
                                         </div>
                                     </div>
@@ -369,7 +369,7 @@
                 <div class="c-w1170">
                     <div class="c-blockLeft">
                         <span id="business" class="anchorpos"></span>
-                        <h2 class="ttl-subpage"><span class="text-un-yellow">協業パートナー募集</span></h2>
+                        <h2 class="ttl-subpage"><span class="text-un-yellow">COLLABORATIVE PARTNER</span></h2>
                         <div class="businessBlock cFix">
                             <div class="b-boxLeft">
                                 <div><img src="/home-page/assets/img/company/business_img.png" alt=""></div>
@@ -377,12 +377,12 @@
                             <div class="b-boxRight">
                                 <div class="b-boxIn cFix">
                                     <p>
-                                        業務を通して、長期的な信頼関係を構築しながら共に成長していけるパートナー会社様を募集しております。<br>
-                                        在目前にある案件を協力会社様に案内し、御社要員の有効活用を図っていただけたらと考えております。<br>
-                                        また弊社といたしましても、御社でお持ちの案件で、弊社のシステム開発関連技術者及びインフラ関連技術者など、弊社要員の有効活用を図っていただけたらと考えており、将来的には営業／技術にわたる協業体制をとらせていただくことを最終目標にしております。<br>
-                                        お問い合わせ、心よりお待ちしております。
+                                        Through the business, we are looking for a partner company forward to once again grow together while building a long-term relationship of trust.<br>
+                                        The current projects at hand to guide the partner companies , we believe that you could promote the effective use of your personnel. <br>
+                                        Also even if we do with your company in the projects such as our Java-related technical personnel and infrastructure-related technical personnel, we believe that if you could promote the effective use of our personnel, At the future we are the final goal which business / technology that I am allowed to take the cooperative system over.<br>
+                                        Contact Us, We look forward to.
                                     </p>
-                                    <a href="/home-page/jp/contact/" class="btn-arr"><span>お問い合わせ</span></a>
+                                    <a href="/home-page/en/contact/" class="btn-arr"><span>Contact Us</span></a>
                                 </div>
                             </div>
                         </div>
@@ -395,7 +395,7 @@
                 <div class="c-w1170">
                     <div class="">
                         <span id="organization" class="anchorpos"></span>
-                        <h2 class="ttl-subpage"><span class="text-un-yellow">組織図</span></h2>
+                        <h2 class="ttl-subpage"><span class="text-un-yellow">Organization Chart</span></h2>
                         <div class="chat-img">
                             <img src="/home-page/assets/img/company/organization-chart.png" alt="">
                         </div>
@@ -406,7 +406,7 @@
         </div>
         <div class="footerLogo bg-green-light">
             <div class="c-w1420 cFix">
-                <span class="footerLogoImg"><a href="#"><img src="/home-page/assets/img/common/footer_logo2.png" alt="STAR SE株式会社"></a></span>
+                <span class="footerLogoImg"><a href="#"><img src="/home-page/assets/img/common/footer_logo2.png" alt="STAR SE Co., Ltd."></a></span>
             </div> 
         </div>
         <!-- footerLogo -->
@@ -414,15 +414,15 @@
             <div class="footerBlock">
                 <div class="ftInner c-w1300 cFix">
                     <div class="ftLogo">
-                        <img src="/home-page/assets/img/common/footer_logo.png" alt="STAR SE株式会社">
+                        <img src="/home-page/assets/img/common/footer_logo.png" alt="STAR SE Co., Ltd.">
                     </div>
                     <div class="ftDesp">
-                        <p class="ftLogoText">STAR SE株式会社</p>
+                        <p class="ftLogoText">STAR SE Co., Ltd.</p>
                         <div class="ftAddress">
                             <ul>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_homeaddress.png" alt=""></span>
-                                    <p class="ftAddress-info">〒104-0043<br>東京都中央区湊2丁目4-1 ＴＯＭＡＣビル 5階</p>
+                                    <p class="ftAddress-info">〒104-0043<br>5th floor, TOMAC Building, 2-4-1 Minato, Chuo-ku, Tokyo</p>
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_phone.png" alt=""></span>
@@ -439,7 +439,7 @@
             </div>
             <p id="page-top"><a href="javascript:void(0)">&#8593;</a></p>
             <div class="copyRight bg-green">
-                <p>&copy; Copyright STAR SE株式会社. All Rights Reserved</p>
+                <p>&copy; Copyright STAR SE Co., Ltd. All Rights Reserved</p>
             </div>
         </footer>
         <!-- footer -->

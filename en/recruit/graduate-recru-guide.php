@@ -27,7 +27,7 @@
         <header class="headerBlock">
             <div class="header c-w1420">
                 <h1 class="h-logo">
-                    <a href="/home-page/jp/">
+                    <a href="/home-page/en/">
                         <img src="/home-page/assets/img/common/h_logo.png" alt="">
                         <p>STAR SE<span>All for your dream</span></p>
                     </a>
@@ -35,17 +35,17 @@
                 <div class="h-right cFix">
                     <nav class="nav-pc">
                         <ul class="cFix">
-                            <li><a href="/home-page/jp/company/"><span>会社情報</span></a></li>
-                            <li><a href="/home-page/jp/philosophy/"><span>経営理念</span></a></li>
-                            <li><a href="/home-page/jp/business/"><span>事業内容</span></a></li>
-                            <li><a href="/home-page/jp/recruit/" class="navpc-active"><span>採用情報</span></a></li>
-                            <li><a href="/home-page/jp/security/"><span>情報セキュリティ</span></a></li>
+                            <li><a href="/home-page/en/company/"><span>会社情報</span></a></li>
+                            <li><a href="/home-page/en/philosophy/"><span>経営理念</span></a></li>
+                            <li><a href="/home-page/en/business/"><span>事業内容</span></a></li>
+                            <li><a href="/home-page/en/recruit/" class="navpc-active"><span>採用情報</span></a></li>
+                            <li><a href="/home-page/en/security/"><span>情報セキュリティ</span></a></li>
                         </ul>
                     </nav>
                     <div class="h-utility">
                         <ul class="cFix">
-                            <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
-                            <li class="h-icon"><a href="/home-page/jp/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
+                            <li class="h-icon"><a href="/home-page/en/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
+                            <li class="h-icon"><a href="/home-page/en/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                             <li class="site-lang">
                                 <a href="/home-page/en/" class="lang-link">EN</a>
                                 <a href="/home-page/jp/" class="lang-link langOn">JP</a>
@@ -66,16 +66,16 @@
         <nav id="globalNav" class="globalNav">
             <div class="globalNav-inner">
                 <ul class="nav-sp">
-                    <li><a href="/home-page/jp/company/"><span>会社情報</span></a></li>
-                    <li><a href="/home-page/jp/philosophy/"><span>経営理念</span></a></li>
-                    <li><a href="/home-page/jp/business/"><span>事業内容</span></a></li>
-                    <li><a href="/home-page/jp/recruit/"><span>採用情報</span></a></li>
-                    <li><a href="/home-page/jp/security/"><span>情報セキュリティ</span></a></li>
+                    <li><a href="/home-page/en/company/"><span>会社情報</span></a></li>
+                    <li><a href="/home-page/en/philosophy/"><span>経営理念</span></a></li>
+                    <li><a href="/home-page/en/business/"><span>事業内容</span></a></li>
+                    <li><a href="/home-page/en/recruit/"><span>採用情報</span></a></li>
+                    <li><a href="/home-page/en/security/"><span>情報セキュリティ</span></a></li>
                 </ul>
                 <div class="h-utility">
                     <ul class="cFix">
-                        <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
-                        <li class="h-icon"><a href="/home-page/jp/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
+                        <li class="h-icon"><a href="/home-page/en/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
+                        <li class="h-icon"><a href="/home-page/en/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                         <li class="site-lang">
                             <a href="/home-page/en/" class="lang-link">EN</a>
                             <a href="/home-page/jp/" class="lang-link langOn">JP</a>
@@ -388,7 +388,7 @@
                         </table>
                     </div>
                     <div class="sec-btn02">
-                        <a href="/home-page/jp/form/entry-newGraduate.php" class="btn02">エントリー</a>
+                        <a href="/home-page/en/form/entry-newGraduate.php" class="btn02">エントリー</a>
                     </div>
                 </div>
             </div>

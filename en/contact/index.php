@@ -10,7 +10,7 @@
     <meta name="google-site-verification" content="Dg_pvHrLYsE_PNW7oubm3Xw5aWYEPksmjpJwXLBG0Sk"/>
     <link rel="shortcut icon" href="/home-page/assets/img/common/favicon.png" type="image/x-icon">
     <link rel="icon" href="/home-page/assets/img/common/favicon.png" type="image/x-icon">
-    <title>お問い合せ</title>
+    <title>Contact</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/home-page/assets/css/import.css">
     <link rel="stylesheet" href="/home-page/assets/css/aos.css">
@@ -27,7 +27,7 @@
         <header class="headerBlock">
             <div class="header c-w1420">
                 <h1 class="h-logo">
-                    <a href="/home-page/jp/">
+                    <a href="/home-page/en/">
                         <img src="/home-page/assets/img/common/h_logo.png" alt="">
                         <p>STAR SE<span>All for your dream</span></p>
                     </a>
@@ -35,17 +35,17 @@
                 <div class="h-right cFix">
                     <nav class="nav-pc">
                         <ul class="cFix">
-                            <li><a href="/home-page/jp/company/"><span>会社情報</span></a></li>
-                            <li><a href="/home-page/jp/philosophy/"><span>経営理念</span></a></li>
-                            <li><a href="/home-page/jp/business/"><span>事業内容</span></a></li>
-                            <li><a href="/home-page/jp/recruit/"><span>採用情報</span></a></li>
-                            <li><a href="/home-page/jp/security/"><span>情報セキュリティ</span></a></li>
+                            <li><a href="/home-page/en/company/"><span>Company</span></a></li>
+                            <li><a href="/home-page/en/philosophy/"><span>Philosophy</span></a></li>
+                            <li><a href="/home-page/en/business/"><span>Business</span></a></li>
+                            <li><a href="/home-page/en/recruit/"><span>Recruit</span></a></li>
+                            <li><a href="/home-page/en/security/"><span>Security Info</span></a></li>
                         </ul>
                     </nav>
                     <div class="h-utility">
                         <ul class="cFix">
-                            <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
-                            <li class="h-icon"><a href="/home-page/jp/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
+                            <li class="h-icon"><a href="/home-page/en/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
+                            <li class="h-icon"><a href="/home-page/en/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                             <li class="site-lang">
                                 <a href="/home-page/en/" class="lang-link">EN</a>
                                 <a href="/home-page/jp/" class="lang-link langOn">JP</a>
@@ -66,16 +66,16 @@
         <nav id="globalNav" class="globalNav">
             <div class="globalNav-inner">
                 <ul class="nav-sp">
-                    <li><a href="/home-page/jp/company/"><span>会社情報</span></a></li>
-                    <li><a href="/home-page/jp/philosophy/"><span>経営理念</span></a></li>
-                    <li><a href="/home-page/jp/business/"><span>事業内容</span></a></li>
-                    <li><a href="/home-page/jp/recruit/"><span>採用情報</span></a></li>
-                    <li><a href="/home-page/jp/security/"><span>情報セキュリティ</span></a></li>
+                    <li><a href="/home-page/en/company/"><span>Company</span></a></li>
+                    <li><a href="/home-page/en/philosophy/"><span>Philosophy</span></a></li>
+                    <li><a href="/home-page/en/business/"><span>Business</span></a></li>
+                    <li><a href="/home-page/en/recruit/"><span>Recruit</span></a></li>
+                    <li><a href="/home-page/en/security/"><span>Security Info</span></a></li>
                 </ul>
                 <div class="h-utility">
                     <ul class="cFix">
-                        <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
-                        <li class="h-icon"><a href="/home-page/jp/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
+                        <li class="h-icon"><a href="/home-page/en/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
+                        <li class="h-icon"><a href="/home-page/en/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                         <li class="site-lang">
                             <a href="/home-page/en/" class="lang-link">EN</a>
                             <a href="/home-page/jp/" class="lang-link langOn">JP</a>
@@ -87,7 +87,7 @@
         <div class="sub-banner form-banner">
         <canvas class="particlesBg"></canvas>
             <div class="sub-bannerIn c-w1170">
-                <h2 class="sub-ttl">問い合わせ</h2>
+                <h2 class="sub-ttl">Contact Us</h2>
             </div>
         </div>
         <!-- sub-banner -->
@@ -98,41 +98,41 @@
                     <form action="">
                         <div class="form-row form-mb">
                             <div class="form-col2">
-                                <label for="syameyi" class="form-label">会社名</label>
+                                <label for="syameyi" class="form-label">Company Name</label>
                                 <div class="form-inputText">
-                                    <input type="text" class="inputType" name="syameyi" id="syameyi" placeholder="会社名を入力してください。">
+                                    <input type="text" class="inputType" name="syameyi" id="syameyi" placeholder="Please enter your company name.">
                                 </div>
                             </div>
                             <div class="form-col2">
-                                <label for="name" class="form-label">担当者名<span class="require">*</span></label>
+                                <label for="name" class="form-label">Name<span class="require">*</span></label>
                                 <div class="form-inputText">
-                                    <input type="text" class="inputType" name="name" id="name" placeholder="例(半角)：Toshima">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-row form-mb">
-                            <div class="form-col2">
-                                <label for="denwa" class="form-label">電話番号<span class="require">*</span></label>
-                                <div class="form-inputText">
-                                    <input type="tel" class="inputType" name="denwa" id="denwa" placeholder="例(半角)：09012384561">
-                                </div>
-                            </div>
-                            <div class="form-col2">
-                                <label for="email" class="form-label">メールアドレス<span class="require">*</span></label>
-                                <div class="form-inputText">
-                                    <input type="email" class="inputType" name="email" id="email" placeholder="例(半角)：toshima@gmail.com">
+                                    <input type="text" class="inputType" name="name" id="name" placeholder="Example (half-width):Toshima">
                                 </div>
                             </div>
                         </div>
                         <div class="form-row form-mb">
                             <div class="form-col2">
-                                <label for="yubinn" class="form-label">郵便番号</label>
+                                <label for="denwa" class="form-label">Phone No<span class="require">*</span></label>
+                                <div class="form-inputText">
+                                    <input type="tel" class="inputType" name="denwa" id="denwa" placeholder="Example (half-width):09012384561">
+                                </div>
+                            </div>
+                            <div class="form-col2">
+                                <label for="email" class="form-label">Mail<span class="require">*</span></label>
+                                <div class="form-inputText">
+                                    <input type="email" class="inputType" name="email" id="email" placeholder="Example (half-width):toshima@gmail.com">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row form-mb">
+                            <div class="form-col2">
+                                <label for="yubinn" class="form-label">Postal Code</label>
                                 <div class="form-inputText">
                                     <input type="text" class="inputType" name="yubinn" id="yubinn" >
                                 </div>
                             </div>
                             <div class="form-col2">
-                                <label for="adress" class="form-label">住所<span class="require">*</span></label>
+                                <label for="adress" class="form-label">Address<span class="require">*</span></label>
                                 <div class="form-inputText">
                                     <input type="text" class="inputType" name="adress" id="adress" required>
                                 </div>
@@ -140,48 +140,48 @@
                         </div>
                         <div class="form-row form-mb">
                             <div class="form-col1">
-                                <label for="area" class="form-label">お問い合わせ内容<span class="require">*</span></label>
+                                <label for="area" class="form-label">Contents of Inquiry<span class="require">*</span></label>
                                 <div class="form-textarea">
-                                    <textarea name="area" cols="50" rows="5" placeholder="※200字以内で入力してください。"></textarea>
+                                    <textarea name="area" cols="50" rows="5" placeholder="※Please enter within 200 characters."></textarea>
                                 </div>
                             </div>
                         </div>
                         <div class="form-row form-mb">
                             <div class="form-col1">
-                                <label for="chkagree" class="form-label">個人情報の取扱い<span class="require">*</span></label>
+                                <label for="chkagree" class="form-label">Handling of personal information<span class="require">*</span></label>
                                 <div class="form-inputCheckbox">
                                     <label for="chkagree">
                                         <input type="checkbox" name="chkagree" id="chkagree">
-                                        <span class="form-checkbox col-red chkagree-text">個人情報の取扱いについて同意する</span>
+                                        <span class="form-checkbox col-red chkagree-text">I Agree</span>
                                     </label>
                                     <div class="form-privacy">
-                                        <h3 class="form-privacy-ttl">「個人情報の取扱いについて」</h3>
-                                        <p>当社はお預かりした個人情報について以下のように取扱います。</p>
+                                        <h3 class="form-privacy-ttl">「Handling of personal information」</h3>
+                                        <p>We handle personal information entrusted to us as follows.</p>
                                         <p class="pri-num">
-                                            <span>1.</span>利用目的について<br>
-                                            提供された個人情報の利用目的は以下に定める通りです。<br>
-                                            ・問い合わせ情報：問い合わせへの対応、連絡<br>
-                                            ・資料請求者情報：資料の送付、連絡
+                                            <span>1.</span>About the purpose of use<br>
+                                            The purpose of use of personal information provided us is as follows.<br>
+                                            ・Inquiry information: Contacting and responding to inquiries<br>
+                                            ・Document requester information: Sending and contacting materials
                                         </p>
                                         <p class="pri-num">
-                                            <span>2.</span>個人情報保護管理者について<br>
-                                            当社の個人情報保護管理者は以下の通りです。<br>
-                                            ＳＴＡＲ ＳＥ 株式会社<br>
-                                            個人情報保護管理者　金本　香蘭<br>
-                                            住所：〒104-0043　東京都中央区湊2-4-1　TOMACビル５階<br>
-                                            電話番号：03-5207-2955
+                                            <span>2.</span>About personal information protection manager<br>
+                                            Our personal information protection manager is as follows.<br>
+                                            STAR SE Co., Ltd.<br>
+                                            Personal information protection manager：Kanemoto Kouran<br>
+                                            Address：5th floor, TOMAC Building, 2-4-1 Minato, Chuo-ku, Tokyo 〒104-0043<br>
+                                            Phone No：03-5207-2955
                                         </p>
                                         <p class="pri-num">
-                                            <span>3.</span>委託について<br>
-                                            上記１項の利用目的を果たすために外部委託をする場合があります。
+                                            <span>3.</span>About consignment<br>
+                                            We may outsource to fulfill the purpose of use in paragraph 1 above.
                                         </p>
                                         <p class="pri-num">
-                                            <span>4.</span>個人情報を提供することの任意性について<br>
-                                            当社に個人情報をお預かりすることは任意です。ただし、お預かりできなかった場合には上記１項の利用目的を果たすことができない場合があります。
+                                            <span>4.</span>About optional provision of personal information<br>
+                                            It is optional to keep personal information with us. However, if we are unable to keep your personal information, we may not be able to fulfill the purpose of use described in Section 1 above.
                                         </p>
                                         <p class="pri-num">
-                                            <span>5.</span>個人情報に関する苦情・開示等について<br>当社が保有する開示対象個人情報の取扱いに関する苦情及び開示等（利用目的の通知、開示、訂正・追加又は削除、利用又は第三者への提供の停止・消去）の申し出は上記２項の個人情報保護管理者までご連絡下さい。苦情及び開示等の請求手続きについて説明をさせていただきます。<br>
-                                            なお、利用目的の通知、及び個人情報の開示に関わる手数料は、1件につき800円を申し受けます。
+                                            <span>5.</span>About complaints and disclosure of personal information<br>Regarding the handling of personal information such as complaints and requests for disclosure, etc. (notification of purpose of use, disclosure, correction/addition/deletion, suspension/deletion of use or provision to a third party) held by the Company, please contact the personal information protection manager in Section 2 above. We will explain the procedures for complaints and requests for disclosure, etc.<br>
+                                            A fee of 800 yen will be charged for each notification of purpose of use and disclosure of personal information.
                                         </p>
                                     </div>
                                 </div>
@@ -190,7 +190,7 @@
                         <div class="form-row">
                             <div class="form-col1">
                                 <div class="sec-btn02">
-                                    <button type="submit" class="btn02">送信</button>
+                                    <button type="submit" class="btn02">Send</button>
                                 </div>
                             </div>
                         </div>
@@ -201,24 +201,24 @@
         </div>
         <div class="footerLogo">
             <div class="c-w1420 cFix">
-                <span class="footerLogoImg"><a href="#"><img src="/home-page/assets/img/common/footer_logo2.png" alt="STAR SE株式会社"></a></span>
+                <span class="footerLogoImg"><a href="#"><img src="/home-page/assets/img/common/footer_logo2.png" alt="STAR SE Co., Ltd."></a></span>
             </div> 
         </div>
         <!-- footerLogo -->
         <footer>
             <div class="footerBlock">
-                <p class="ftLogoText sp-s-show">STAR SE株式会社</p>
+                <p class="ftLogoText sp-s-show">STAR SE Co., Ltd.</p>
                 <div class="ftInner c-w1300 cFix">
                     <div class="ftLogo">
-                        <img src="/home-page/assets/img/common/footer_logo.png" alt="STAR SE株式会社">
+                        <img src="/home-page/assets/img/common/footer_logo.png" alt="STAR SE Co., Ltd.">
                     </div>
                     <div class="ftDesp">
-                        <p class="ftLogoText sp-s-none">STAR SE株式会社</p>
+                        <p class="ftLogoText sp-s-none">STAR SE Co., Ltd.</p>
                         <div class="ftAddress">
                             <ul>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_homeaddress.png" alt=""></span>
-                                    <p class="ftAddress-info">〒104-0043<br>東京都中央区湊2丁目4-1 ＴＯＭＡＣビル 5階</p>
+                                    <p class="ftAddress-info">〒104-0043<br>5th floor, TOMAC Building, 2-4-1 Minato, Chuo-ku, Tokyo</p>
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_phone.png" alt=""></span>
@@ -235,7 +235,7 @@
             </div>
             <p id="page-top"><a href="javascript:void(0)">&#8593;</a></p>
             <div class="copyRight bg-green">
-                <p>&copy; Copyright STAR SE株式会社. All Rights Reserved</p>
+                <p>&copy; Copyright STAR SE Co., Ltd. All Rights Reserved</p>
             </div>
         </footer>
         <!-- footer -->
