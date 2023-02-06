@@ -89,38 +89,38 @@
             </div>
         </nav>
         <div class="full-wide-slider">
-            <div class="item image">
+            <!--<div class="item image">
               <figure>
                 <div class="slide-image slide-media" style="background-image:url('/home-page/assets/img/top/slide-1.jpg');">
                   <img data-lazy="/home-page/assets/img/top/slide-1.jpg" class="image-entity" />
                 </div>
               </figure>
-            </div>
+            </div> -->
             <!-- <div class="item vimeo" data-video-start="4">
               <iframe class="embed-player slide-media" src="https://player.vimeo.com/video/217885864?api=1&byline=0&portrait=0&title=0&background=1&mute=1&loop=1&autoplay=0" width="980" height="520" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div> -->
-            <div class="item image">
+            <!--<div class="item image">
               <figure>
                 <div class="slide-image slide-media" style="background-image:url('/home-page/assets/img/top/slide-2.jpg');">
                   <img data-lazy="/home-page/assets/img/top/slide-2.jpg" class="image-entity" />
                 </div>
               </figure>
-            </div>
+            </div>-->
             <!-- <div class="item youtube">
               <iframe class="embed-player slide-media" width="980" height="520" src="https://www.youtube.com/embed/rcFKFv9wbS0?enablejsapi=1&controls=0&fs=0&iv_load_policy=3&rel=0&showinfo=0&loop=1&playlist=rcFKFv9wbS0&start=36" frameborder="0" allowfullscreen></iframe>
             </div> -->
-            <div class="item image">
+            <!-- <div class="item image">
               <figure>
                 <div class="slide-image slide-media" style="background-image:url('/home-page/assets/img/top/slide-3.jpg');">
                   <img data-lazy="/home-page/assets/img/top/slide-3.jpg" class="image-entity" />
                 </div>
               </figure>
-            </div>
-            <!-- <div class="item video">
+            </div>-->
+            <div class="item video">
               <video class="slide-video slide-media" loop muted preload="metadata">
-                <source src="/home-page/assets/img/video/BannerMovie_v3.mp4" type="video/mp4" />
+                <source src="/home-page/assets/img/video/BannerMovie_v4.mp4" type="video/mp4" />
               </video>
-            </div> -->
+            </div>
         </div>
         <div class="main-mv">
             <div class="mv-scroll">
