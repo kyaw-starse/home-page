@@ -16,7 +16,57 @@
     <link rel="stylesheet" href="/home-page/assets/css/aos.css">
     <link rel="stylesheet" href="/home-page/assets/css/pc_style.css">
     <link rel="stylesheet" href="/home-page/assets/css/sp_style.css">
+    <!-- <link rel="stylesheet" href="/home-page/assets/css/style.css" > -->
     <script src="/home-page/assets/js/jquery.min.js"></script>
+    <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
+    <style>
+        /* .content .php-email-form .error-message {
+            display: none;
+            color: #fff;
+            background: #ed3c0d;
+            text-align: left;
+            padding: 15px;
+            font-weight: 600;
+        } */
+
+        /* .php-email-form .error-message {
+            display: none;
+            color: #fff;
+            background: #ed3c0d;
+            text-align: left;
+            padding: 15px;
+            font-weight: 600;
+        }
+
+        .php-email-form .error-message br+br {
+            margin-top: 25px;
+        }
+
+        .php-email-form .sent-message {
+            display: none;
+            color: #fff;
+            background: #18d26e;
+            text-align: center;
+            padding: 15px;
+            font-weight: 600;
+        } */
+        /* .error-message d-block{
+            background: #ed3c0d;
+            text-align: left;
+            padding: 15px;
+            font-weight: 600;
+            
+        } */ 
+        .my-3 .error-message{
+            /* display: none; */
+            color: #fff;
+            background: #ed3c0d;
+            text-align: left;
+            padding: 15px;
+            font-weight: 600;
+        }
+    </style>
+     <!-- <link rel="stylesheet" href="home-page/assets/css/style.css" > -->
 </head>
 <body id="top" class="top">
     <div id="splash">
@@ -95,65 +145,66 @@
         <section class="form-secblock">
             <div class="c-w1170">
                 <div class="form-block letter">
-                    <form action="">
+                    
+                    <form action="entry/entry-systemEngineer.php" method="post" role="form" class="php-email-form" id="entry-system-engineer-form" enctype="multipart/form-data">
                         <div class="form-row form-mb">
                             <div class="form-col2">
-                                <label for="" class="form-label">姓名<span class="require">*</span>(漢字)</label>
+                                <label for="kaishamei" class="form-label">姓名<span class="require">*</span>(漢字)</label>
                                 <div class="form-inputText">
-                                    <input type="text" class="inputType" name="" id="" placeholder="例（姓）：鈴木">
-                                    <input type="text" class="inputType" name="" id="" placeholder="例（名）：太郎">
+                                    <input type="text" class="inputType" name="lastName1" id="" placeholder="例（姓）：鈴木">
+                                    <input type="text" class="inputType" name="firstName1" id="" placeholder="例（名）：太郎">
                                 </div>
                             </div>
                             <div class="form-col2">
-                                <label for="" class="form-label">姓名<span class="require">*</span>(カタカナ)</label>
+                                <label for="kaishamei" class="form-label">姓名<span class="require">*</span>(カタカナ)</label>
                                 <div class="form-inputText">
-                                    <input type="text" class="inputType" name="" id="" placeholder="例（姓）：スズキ">
-                                    <input type="text" class="inputType" name="" id="" placeholder="例（名）：タロウ">
+                                    <input type="text" class="inputType" name="lastName2" id="" placeholder="例（姓）：スズキ">
+                                    <input type="text" class="inputType" name="firstName2" id="" placeholder="例（名）：タロウ">
                                 </div>
                             </div>
                         </div>
                         <div class="form-row form-mb">
                             <div class="form-col2">
-                                <label for="" class="form-label">生年月日</label>
+                                <label for="selectYear" class="form-label">生年月日</label>
                                 <div class="form-inputText">
-                                    <input type="text" class="inputType" name="" id="" placeholder="">
+                                    <input type="date" class="inputType" name="selectYear" id="selectYear" placeholder="">
                                 </div>
                             </div>
                             <div class="form-col2">
-                                <label for="" class="form-label">メールアドレス<span class="require">*</span></label>
+                                <label for="email" class="form-label">メールアドレス<span class="require">*</span></label>
                                 <div class="form-inputText">
-                                    <input type="text" class="inputType" name="" id="" placeholder="例(半角)：toshima@gmail.com">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-row form-mb">
-                            <div class="form-col2">
-                                <label for="" class="form-label">電話番号<span class="require">*</span></label>
-                                <div class="form-inputText">
-                                    <input type="text" class="inputType" name="" id="" placeholder="例(半角)：09012384561">
-                                </div>
-                            </div>
-                            <div class="form-col2">
-                                <label for="" class="form-label">住所<span class="require">*</span></label>
-                                <div class="form-inputText">
-                                    <input type="text" class="inputType" name="" id="" >
+                                    <input type="email" class="inputType" name="email" id="email" placeholder="例(半角)：toshima@gmail.com">
                                 </div>
                             </div>
                         </div>
                         <div class="form-row form-mb">
                             <div class="form-col2">
-                                <label for="" class="form-label">希望月額</label>
+                                <label for="denwabangou" class="form-label">電話番号<span class="require">*</span></label>
+                                <div class="form-inputText">
+                                    <input type="tel" class="inputType" name="denwabangou" id="denwabangou" placeholder="例(半角)：09012384561">
+                                </div>
+                            </div>
+                            <div class="form-col2">
+                                <label for="address" class="form-label">住所<span class="require">*</span></label>
+                                <div class="form-inputText">
+                                    <input type="text" class="inputType" name="address" id="address" >
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row form-mb">
+                            <div class="form-col2">
+                                <label for="salary" class="form-label">希望月額</label>
                                 <div class="form-inputText input-salary">
-                                    <input type="text" class="inputType" name="" id="">
+                                    <input type="text" class="inputType" name="salaryfrom" id="salaryfrom">
                                     <span class="form-sign">～</span>
-                                    <input type="text" class="inputType" name="" id="">
+                                    <input type="text" class="inputType" name="salaryto" id="salaryto">
                                     <span class="form-yern">円</span>
                                 </div>
                             </div>
                         </div>
                         <div class="form-row form-mb">
                             <div class="form-col1">
-                                <label for="" class="form-label">希望の契約形態</label>
+                                <label for="" class="form-label">希望の契約形態<span class="require">*</span></label>
                                 <div class="form-row2 form-inputRadio">
                                     <div class="form-col6">
                                         <label for="seyi">
@@ -218,74 +269,75 @@
                                 <label for="" class="form-label">開発言語</label>
                                 <div class="form-row2 form-inputCheckbox">
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="Java">
+                                            <input type="checkbox" value="Java" name="gengo[]" id="Java">
                                             <span class="form-checkbox">Java</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="PHP">
+                                            <input type="checkbox" value="PHP" name="gengo[]" id="PHP">
                                             <span class="form-checkbox">PHP</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="Phython">
+                                            <input type="checkbox" value="Phython" name="gengo[]" id="Phython">
                                             <span class="form-checkbox">Python</span>
+                                            
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="C/C#/C++">
+                                        <input type="checkbox" value="C/C#/C++" name="gengo[]" id="C/C#/C++">
                                             <span class="form-checkbox">C/C#/C++</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="Ruby">
+                                            <input type="checkbox" value="Ruby" name="gengo[]" id="Ruby">
                                             <span class="form-checkbox">Ruby</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for=".NET">
+                                            <input type="checkbox" value=".NET" name="gengo[]" id=".NET">
                                             <span class="form-checkbox">.NET</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="Javascript">
+                                            <input type="checkbox" value="Javascript" name="gengo[]" id="Javascript">
                                             <span class="form-checkbox">Javascript</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="Visual Basic">
+                                            <input type="checkbox" value="Visual Basic" name="gengo[]" id="Visual Basic">
                                             <span class="form-checkbox">Visual Basic</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="Android">
+                                            <input type="checkbox" value="Android" name="gengo[]" id="Android">
                                             <span class="form-checkbox">Android</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="SalesForce">
+                                            <input type="checkbox" name="gengo[]" id="SalesForce">
                                             <span class="form-checkbox">SalesForce</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="IOS">
+                                            <input type="checkbox" name="gengo[]" id="IOS">
                                             <span class="form-checkbox">IOS</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="sonota1">
+                                            <input type="checkbox" name="gengo[]" id="sonota1">
                                             <span class="form-checkbox">その他</span>
                                         </label>
                                     </div>
@@ -297,62 +349,62 @@
                                 <label for="" class="form-label">DB</label>
                                 <div class="form-row2 form-inputCheckbox">
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="Mysql">
+                                            <input type="checkbox" name="DB[]" id="Mysql">
                                             <span class="form-checkbox">Mysql</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="MariaDB">
+                                            <input type="checkbox" name="DB[]" id="MariaDB">
                                             <span class="form-checkbox">MariaDB</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="SQLite">
+                                            <input type="checkbox" name="DB[]" id="SQLite">
                                             <span class="form-checkbox">SQLite</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="Oracle">
+                                            <input type="checkbox" name="DB[]" id="Oracle">
                                             <span class="form-checkbox">Oracle</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="PostgreSQL">
+                                            <input type="checkbox" name="DB[]" id="PostgreSQL">
                                             <span class="form-checkbox">PostgreSQL</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="SQL Server">
+                                            <input type="checkbox" name="DB[]" id="SQL Server">
                                             <span class="form-checkbox">SQL Server</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="DB2">
+                                            <input type="checkbox" name="DB[]" id="DB2">
                                             <span class="form-checkbox">DB2</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="PL/SQL">
+                                            <input type="checkbox" name="DB[]" id="PL/SQL">
                                             <span class="form-checkbox">PL/SQL</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="Access">
+                                            <input type="checkbox" name="DB[]" id="Access">
                                             <span class="form-checkbox">Access</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="sonota2">
+                                            <input type="checkbox" name="DB[]" id="sonota2">
                                             <span class="form-checkbox">その他</span>
                                         </label>
                                     </div>
@@ -361,7 +413,7 @@
                         </div>
                         <div class="form-row form-mb">
                             <div class="form-col1">
-                                <label for="" class="form-label">スキルシート<span class="require">*</span></label>
+                                <label for="skillsheet" class="form-label">スキルシート<span class="require">*</span></label>
                                 <div class="form-row form-inputFile">
                                     <div class="form-col2">
                                         <input type="file" class="inputFile" name="skillsheet" id="skillsheet" accept=".xlsx,.xls,.csv,.docx,.word,.pdf">
@@ -374,9 +426,9 @@
                         </div>
                         <div class="form-row form-mb">
                             <div class="form-col1">
-                                <label for="" class="form-label">備考<span class="require">*</span></label>
+                                <label for="area" class="form-label">備考<span class="require">*</span></label>
                                 <div class="form-textarea">
-                                    <textarea name="" cols="50" rows="5" placeholder="※200字以内で入力してください。"></textarea>
+                                    <textarea name="area" cols="50" rows="5" placeholder="※200字以内で入力してください。"></textarea>
                                 </div>
                             </div>
                         </div>
@@ -385,7 +437,7 @@
                                 <label for="" class="form-label">個人情報の取扱い<span class="require">*</span></label>
                                 <div class="form-inputCheckbox">
                                     <label for="chkagree">
-                                        <input type="checkbox" name="chkagree" id="chkagree">
+                                        <input type="checkbox" name="chkagree" id="chkagree" >
                                         <span class="form-checkbox col-red chkagree-text">個人情報の取扱いについて同意する</span>
                                     </label>
                                     <div class="form-privacy">
@@ -418,10 +470,18 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- <div class="g-recaptcha" data-sitekey="6LdJInAiAAAAACOCC9BABpQ7Rwh1Ob_41U5FVNON"></div> -->
+                        <div class="my-3">
+                             <div class="loading"></div> 
+                             <div class="error-message"></div> 
+                             <div class="sent-message"></div> 
+                             <!-- <div class="sent-message">メールが送信されました。ありがとうございました!</div>  -->
+                        </div>
                         <div class="form-row">
                             <div class="form-col1">
                                 <div class="sec-btn02">
-                                    <a href="#" class="btn02">送信</a>
+                                    <!-- <a href="#" type="submit" class="btn02">送信</a> -->
+                                    <button type="submit" class="btn02">送信</button>
                                 </div>
                             </div>
                         </div>
@@ -471,11 +531,21 @@
         </footer>
         <!-- footer -->
     </div>
+
+    <script>
+        // function buttonClick(){
+            function onSubmit(token) {
+                document.getElementById("entry-system-engineer-form").submit();
+            }
+        // }
+    </script>
     <!-- wrapper -->
+    <!-- <link rel="stylesheet" href="/home-page/assets/css/style.css" > -->
     <script src="/home-page/assets/js/sub_particles.min.js"></script>
     <script src="/home-page/assets/js/aos.js"></script>
     <script src="/home-page/assets/js/jquery.matchHeight-min.js"></script>
     <script src="/home-page/assets/js/subpage.js"></script>
     <script src="/home-page/assets/js/common.js"></script>
+    <script src="/home-page/assets/vendor/php-email-form/validate.js"></script>
 </body>
 </html>
