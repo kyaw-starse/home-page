@@ -79,9 +79,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $errors[] = "備考を入力してください。";
   }
   //添付ファイル
-  // if ($_FILES['skillsheet']['size'] == 0) {
-  //   $errors[] = "スキルシートをアップロードしてください。";
-  // }
   if ($_FILES['skillsheet']['size'] == 0) {
     $errors[] = "スキルシートをアップロードしてください。";
   }
@@ -102,15 +99,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // if ($responseData->success) {
 
-      $recruit = 'sdsds@star-se.co.jp';
+      $recruit = 'htun.htun.win@star-se.co.jp';
       $custMail = $email;
-      $mailer = 'suyeephyo.it@gmail.com';
-      // $mailer = 'STAR-SE_info@star-se.co.jp';
+      //$mailer = 'STAR-SE_info@star-se.co.jp';
+      $mailer = 'htun.htun.win@star-se.co.jp';
+      $thumb_name = $_SERVER['DOCUMENT_ROOT'].'/home-page/assets/vendor/php-email-form/php-email-form.php';
 
-      if (file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php')) {
-        include($php_email_form);
-        print_r($php_email_form);
-        die();
+      if (file_exists($thumb_name)) {
+        include($thumb_name);
+        // print_r($php_email_form);
+        // die();
       } else {
         die('Unable to load the "PHP Email Form" Library!');
       }
@@ -156,10 +154,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   ";
 
       $contact->smtp = array(
+        // 'host' => 'smtp.alpha-prm.jp',
+        // 'username' => 'STAR-SE_info@star-se.co.jp',
+        // //'password' => 'FYuiojk789*RED%',
+        // 'password' => 'NhyujmKi987$#',
+        // 'port' => '587'
+
         'host' => 'smtp.alpha-prm.jp',
-        'username' => 'STAR-SE_info@star-se.co.jp',
+        //'username' => 'STAR-SE_info@star-se.co.jp',
+        'username' => 'htun.htun.win@star-se.co.jp',
         //'password' => 'FYuiojk789*RED%',
-        'password' => 'NhyujmKi987$#',
+        'password' => 't@n202301SE',
         'port' => '587'
       );
 
@@ -204,9 +209,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $message4 = $custNm2 . $message2 . $message3;
 
       $contact2->smtp = array(
+        // 'host' => 'smtp.alpha-prm.jp',
+        // 'username' => 'STAR-SE_info@star-se.co.jp',
+        // 'password' => 'NhyujmKi987$#',
+        // 'port' => '587'
         'host' => 'smtp.alpha-prm.jp',
-        'username' => 'STAR-SE_info@star-se.co.jp',
-        'password' => 'NhyujmKi987$#',
+        //'username' => 'STAR-SE_info@star-se.co.jp',
+        'username' => 'htun.htun.win@star-se.co.jp',
+        //'password' => 'FYuiojk789*RED%',
+        'password' => 't@n202301SE',
         'port' => '587'
       );
 

@@ -428,8 +428,8 @@
                         <div class="my-3">
                              <div class="loading"></div> 
                              <div class="error-message"></div> 
-                             <div class="sent-message"></div> 
-                             <!-- <div class="sent-message">メールが送信されました。ありがとうございました!</div>  -->
+                             <!-- <div class="sent-message"></div>  -->
+                             <div class="sent-message">メールが送信されました。ありがとうございました!</div> 
                         </div>
                         <div class="form-row">
                             <div class="form-col1">
@@ -487,11 +487,9 @@
     </div>
 
     <script>
-        // function buttonClick(){
             function onSubmit(token) {
                 document.getElementById("entry-system-engineer-form").submit();
             }
-        // }
     </script>
     <!-- wrapper -->
     <!-- <link rel="stylesheet" href="/home-page/assets/css/style.css" > -->
