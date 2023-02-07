@@ -278,19 +278,19 @@
                                     </div>
                                     <div class="form-col6">
                                         <label for="SalesForce">
-                                            <input type="checkbox" name="gengo[]" id="SalesForce">
+                                            <input type="checkbox" value="SalesForce" name="gengo[]" id="SalesForce">
                                             <span class="form-checkbox">SalesForce</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="IOS">
-                                            <input type="checkbox" name="gengo[]" id="IOS">
+                                            <input type="checkbox" value="IOS" name="gengo[]" id="IOS">
                                             <span class="form-checkbox">IOS</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="sonota1">
-                                            <input type="checkbox" name="gengo[]" id="sonota1">
+                                            <input type="checkbox" value="sonota1" name="gengo[]" id="sonota1">
                                             <span class="form-checkbox">その他</span>
                                         </label>
                                     </div>

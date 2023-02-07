@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="/home-page/assets/css/pc_style.css">
     <link rel="stylesheet" href="/home-page/assets/css/sp_style.css">
     <script src="/home-page/assets/js/jquery.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <!-- Template Main CSS File -->
+    <link href="/home-page/assets/css/style.css" rel="stylesheet">
 </head>
 <body id="top" class="top">
     <div id="splash">
@@ -95,20 +98,20 @@
         <section class="form-secblock">
             <div class="c-w1170">
                 <div class="form-block letter">
-                    <form action="">
+                <form action="entry/entry-systemEngineer.php" method="post" role="form" class="php-email-form" id="entry-system-engineer-form" enctype="multipart/form-data">
                         <div class="form-row form-mb">
                             <div class="form-col2">
                                 <label for="" class="form-label">Full Name<span class="require">*</span>(Kanji)</label>
                                 <div class="form-inputText">
-                                    <input type="text" class="inputType" name="" id="" placeholder="Example (Last Name) : 鈴木">
-                                    <input type="text" class="inputType" name="" id="" placeholder="Example (First Name) : 太郎">
+                                    <input type="text" class="inputType" name="lastName1" id="lastName1" placeholder="Example (Last Name) : Suzuki">
+                                    <input type="text" class="inputType" name="firstName1" id="firstName1" placeholder="Example (First Name) : Taro">
                                 </div>
                             </div>
                             <div class="form-col2">
                                 <label for="" class="form-label">Full Name<span class="require">*</span>(Katakana)</label>
                                 <div class="form-inputText">
-                                    <input type="text" class="inputType" name="" id="" placeholder="Example (Last Name) : スズキ">
-                                    <input type="text" class="inputType" name="" id="" placeholder="Example (First Name) : タロウ">
+                                    <input type="text" class="inputType" name="lastName2" id="lastName2" placeholder="Example (Last Name) : Suzuki">
+                                    <input type="text" class="inputType" name="firstName2" id="firstName2" placeholder="Example (First Name) : Taro">
                                 </div>
                             </div>
                         </div>
@@ -116,13 +119,13 @@
                             <div class="form-col2">
                                 <label for="" class="form-label">Date of Birth</label>
                                 <div class="form-inputText">
-                                    <input type="text" class="inputType" name="" id="" placeholder="">
+                                <input type="date" class="inputType" name="selectYear" id="selectYear" placeholder="">
                                 </div>
                             </div>
                             <div class="form-col2">
                                 <label for="" class="form-label">E-mail Address<span class="require">*</span></label>
                                 <div class="form-inputText">
-                                    <input type="text" class="inputType" name="" id="" placeholder="Example (Half-width) : toshima@gmail.com">
+                                    <input type="email" class="inputType" name="email" id="email" placeholder="Example (Half-width) : toshima@gmail.com">
                                 </div>
                             </div>
                         </div>
@@ -130,13 +133,13 @@
                             <div class="form-col2">
                                 <label for="" class="form-label">Phone Number<span class="require">*</span></label>
                                 <div class="form-inputText">
-                                    <input type="text" class="inputType" name="" id="" placeholder="Example (HalfSize) : 09012384561">
+                                    <input type="tel" class="inputType" name="denwabangou" id="denwabangou" placeholder="Example (HalfSize) : 09012384561">
                                 </div>
                             </div>
                             <div class="form-col2">
                                 <label for="" class="form-label">Address<span class="require">*</span></label>
                                 <div class="form-inputText">
-                                    <input type="text" class="inputType" name="" id="" >
+                                    <input type="text" class="inputType" name="address" id="address" >
                                 </div>
                             </div>
                         </div>
@@ -144,9 +147,9 @@
                             <div class="form-col2">
                                 <label for="" class="form-label">Desired Monthly Amount</label>
                                 <div class="form-inputText input-salary">
-                                    <input type="text" class="inputType" name="" id="">
+                                    <input type="text" class="inputType" name="salaryfrom" id="salaryfrom">
                                     <span class="form-sign">～</span>
-                                    <input type="text" class="inputType" name="" id="">
+                                    <input type="text" class="inputType" name="salaryto" id="salaryto">
                                     <span class="form-yern">Yen</span>
                                 </div>
                             </div>
@@ -157,25 +160,25 @@
                                 <div class="form-row2 form-inputRadio">
                                     <div class="form-col6">
                                         <label for="seyi">
-                                            <input type="radio" name="employeeType" id="seyi" checked>
+                                            <input type="radio" value="正社員" name="employeeType" id="seyi" checked>
                                             <span class="form-radio-text">Permanent Staff</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="keyiyaku">
-                                            <input type="radio" name="employeeType" id="keyiyaku">
+                                            <input type="radio" value="契約社員" name="employeeType" id="keyiyaku">
                                             <span class="form-radio-text">Contract Staff</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="haken">
-                                            <input type="radio" name="employeeType" id="haken">
+                                            <input type="radio" value="派遣社員" name="employeeType" id="haken">
                                             <span class="form-radio-text">Temporary Staff</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="gyoumu">
-                                            <input type="radio" name="employeeType" id="gyoumu">
+                                            <input type="radio" value="業務委託" name="employeeType" id="gyoumu">
                                             <span class="form-radio-text">Subcontracting</span>
                                         </label>
                                     </div>
@@ -188,25 +191,25 @@
                                 <div class="form-row2 form-inputCheckbox">
                                     <div class="form-col6">
                                         <label for="Window">
-                                            <input type="checkbox" name="OS" id="Window">
+                                            <input type="checkbox" value="Window" name="Os[]" id="Window">
                                             <span class="form-checkbox">Window</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="Linux">
-                                            <input type="checkbox" name="OS" id="Linux">
+                                            <input type="checkbox" value="Linux" name="Os[]" id="Linux">
                                             <span class="form-checkbox">Linux</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="Mac">
-                                            <input type="checkbox" name="OS" id="Mac">
+                                            <input type="checkbox" value="Mac" name="Os[]" id="Mac">
                                             <span class="form-checkbox">Mac</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="AIX">
-                                            <input type="checkbox" name="OS" id="AIX">
+                                            <input type="checkbox" value="AIX" name="Os[]" id="AIX">
                                             <span class="form-checkbox">AIX</span>
                                         </label>
                                     </div>
@@ -218,74 +221,75 @@
                                 <label for="" class="form-label">Development Language</label>
                                 <div class="form-row2 form-inputCheckbox">
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="Java">
+                                            <input type="checkbox" value="Java" name="gengo[]" id="Java">
                                             <span class="form-checkbox">Java</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="PHP">
+                                            <input type="checkbox" value="PHP" name="gengo[]" id="PHP">
                                             <span class="form-checkbox">PHP</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="Phython">
+                                            <input type="checkbox" value="Phython" name="gengo[]" id="Phython">
                                             <span class="form-checkbox">Python</span>
+                                            
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="C/C#/C++">
+                                        <input type="checkbox" value="C/C#/C++" name="gengo[]" id="C/C#/C++">
                                             <span class="form-checkbox">C/C#/C++</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="Ruby">
+                                            <input type="checkbox" value="Ruby" name="gengo[]" id="Ruby">
                                             <span class="form-checkbox">Ruby</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for=".NET">
+                                            <input type="checkbox" value=".NET" name="gengo[]" id=".NET">
                                             <span class="form-checkbox">.NET</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="Javascript">
+                                            <input type="checkbox" value="Javascript" name="gengo[]" id="Javascript">
                                             <span class="form-checkbox">Javascript</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="Visual Basic">
+                                            <input type="checkbox" value="Visual Basic" name="gengo[]" id="Visual Basic">
                                             <span class="form-checkbox">Visual Basic</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="Android">
+                                            <input type="checkbox" value="Android" name="gengo[]" id="Android">
                                             <span class="form-checkbox">Android</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="SalesForce">
+                                            <input type="checkbox" value="SalesForce" name="gengo[]" id="SalesForce">
                                             <span class="form-checkbox">SalesForce</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="IOS">
+                                            <input type="checkbox" value="IOS" name="gengo[]" id="IOS">
                                             <span class="form-checkbox">IOS</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="sonota1">
+                                            <input type="checkbox" value="Others" name="gengo[]" id="sonota1">
                                             <span class="form-checkbox">Others</span>
                                         </label>
                                     </div>
@@ -297,62 +301,62 @@
                                 <label for="" class="form-label">DB</label>
                                 <div class="form-row2 form-inputCheckbox">
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="Mysql">
+                                            <input type="checkbox" value="Mysql" name="DB[]" id="Mysql">
                                             <span class="form-checkbox">Mysql</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="MariaDB">
+                                            <input type="checkbox" value="MariaDB" name="DB[]" id="MariaDB">
                                             <span class="form-checkbox">MariaDB</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="SQLite">
+                                            <input type="checkbox" value="SQLite" name="DB[]" id="SQLite">
                                             <span class="form-checkbox">SQLite</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="Oracle">
+                                            <input type="checkbox" value="Oracle" name="DB[]" id="Oracle">
                                             <span class="form-checkbox">Oracle</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="PostgreSQL">
+                                            <input type="checkbox" value="PostgreSQL" name="DB[]" id="PostgreSQL">
                                             <span class="form-checkbox">PostgreSQL</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="SQL Server">
+                                            <input type="checkbox" value="SQL Server" name="DB[]" id="SQL Server">
                                             <span class="form-checkbox">SQL Server</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="DB2">
+                                            <input type="checkbox" value="DB2" name="DB[]" id="DB2">
                                             <span class="form-checkbox">DB2</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="PL/SQL">
+                                            <input type="checkbox" value="PL/SQL" name="DB[]" id="PL/SQL">
                                             <span class="form-checkbox">PL/SQL</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="Access">
+                                            <input type="checkbox" value="Access" name="DB[]" id="Access">
                                             <span class="form-checkbox">Access</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="sonota2">
+                                            <input type="checkbox" value="Others" name="DB[]" id="sonota2">
                                             <span class="form-checkbox">Others</span>
                                         </label>
                                     </div>
@@ -361,7 +365,7 @@
                         </div>
                         <div class="form-row form-mb">
                             <div class="form-col1">
-                                <label for="" class="form-label">Skills Sheet<span class="require">*</span></label>
+                                <label for="skillsheet" class="form-label">Skills Sheet<span class="require">*</span></label>
                                 <div class="form-row form-inputFile">
                                     <div class="form-col2">
                                         <input type="file" class="inputFile" name="skillsheet" id="skillsheet" accept=".xlsx,.xls,.csv,.docx,.word,.pdf">
@@ -376,13 +380,13 @@
                             <div class="form-col1">
                                 <label for="" class="form-label">Remarks<span class="require">*</span></label>
                                 <div class="form-textarea">
-                                    <textarea name="" cols="50" rows="5" placeholder="※Please enter within 200 characters."></textarea>
+                                    <textarea name="area" cols="50" rows="5" placeholder="※Please enter within 200 characters."></textarea>
                                 </div>
                             </div>
                         </div>
                         <div class="form-row form-mb">
                             <div class="form-col1">
-                            <label for="" class="form-label">Handling of personal information<span class="require">*</span></label>
+                            <label for="chkagree2" class="form-label">Handling of personal information<span class="require">*</span></label>
                                 <div class="form-inputCheckbox">
                                     <label for="chkagree">
                                         <input type="checkbox" name="chkagree" id="chkagree">
@@ -420,10 +424,17 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="g-recaptcha" data-sitekey="6LdJInAiAAAAACOCC9BABpQ7Rwh1Ob_41U5FVNON"></div>
+                        <div class="my-3">
+                             <div class="loading"></div> 
+                             <div class="error-message"></div> 
+                             <!-- <div class="sent-message"></div>  -->
+                             <div class="sent-message">メールが送信されました。ありがとうございました!</div> 
+                        </div>
                         <div class="form-row">
                             <div class="form-col1">
                                 <div class="sec-btn02">
-                                    <a href="#" class="btn02">Send</a>
+                                    <button type="submit" class="btn02">Send</button>
                                 </div>
                             </div>
                         </div>
@@ -473,11 +484,17 @@
         </footer>
         <!-- footer -->
     </div>
+    <script>
+        function onSubmit(token) {
+            document.getElementById("entry-system-engineer-form").submit();
+        }
+    </script>
     <!-- wrapper -->
     <script src="/home-page/assets/js/sub_particles.min.js"></script>
     <script src="/home-page/assets/js/aos.js"></script>
     <script src="/home-page/assets/js/jquery.matchHeight-min.js"></script>
     <script src="/home-page/assets/js/subpage.js"></script>
     <script src="/home-page/assets/js/common.js"></script>
+    <script src="/home-page/assets/vendor/php-email-form/validate.js"></script>
 </body>
 </html>
