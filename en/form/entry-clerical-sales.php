@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="/home-page/assets/css/pc_style.css">
     <link rel="stylesheet" href="/home-page/assets/css/sp_style.css">
     <script src="/home-page/assets/js/jquery.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <!-- Template Main CSS File -->
+    <link href="/home-page/assets/css/style.css" rel="stylesheet">
 </head>
 <body id="top" class="top">
     <div id="splash">
@@ -95,65 +98,65 @@
         <section class="form-secblock">
             <div class="c-w1170">
                 <div class="form-block letter">
-                    <form action="">
+                    <form action="entry/entry-clerical-sales.php" method="post" role="form" class="php-email-form" id="entry-clerical-sales-form" enctype="multipart/form-data">
                         <div class="form-row form-mb">
                             <div class="form-col2">
-                                <label for="" class="form-label">Full Name<span class="require">*</span>(Kanji)</label>
+                                <label for="kaishamei" class="form-label">Full Name<span class="require">*</span>(Kanji)</label>
                                 <div class="form-inputText">
-                                    <input type="text" class="inputType" name="" id="" placeholder="Example (Last Name) : 鈴木">
-                                    <input type="text" class="inputType" name="" id="" placeholder="Example (First Name) : 太郎">
+                                    <input type="text" class="inputType" name="lastName1" id="lastName1" placeholder="Example (Last Name) : Suzuki">
+                                    <input type="text" class="inputType" name="firstName1" id="firstName1" placeholder="Example (First Name) : Taro">
                                 </div>
                             </div>
                             <div class="form-col2">
-                                <label for="" class="form-label">Full Name<span class="require">*</span>(Katakana)</label>
+                                <label for="kaishamei" class="form-label">Full Name<span class="require">*</span>(Katakana)</label>
                                 <div class="form-inputText">
-                                    <input type="text" class="inputType" name="" id="" placeholder="Example (Last Name) : スズキ">
-                                    <input type="text" class="inputType" name="" id="" placeholder="Example (First Name) : タロウ">
+                                    <input type="text" class="inputType" name="lastName2" id="lastName2" placeholder="Example (Last Name) : スズキ">
+                                    <input type="text" class="inputType" name="firstName2" id="firstName2" placeholder="Example (First Name) : タロウ">
                                 </div>
                             </div>
                         </div>
                         <div class="form-row form-mb">
                             <div class="form-col2">
-                                <label for="" class="form-label">Date of Birth</label>
+                                <label for="selectYear" class="form-label">Date of Birth</label>
                                 <div class="form-inputText">
-                                    <input type="date" class="inputType" name="" id="" placeholder="">
+                                    <input type="date" class="inputType" name="selectYear" id="selectYear" placeholder="">
                                 </div>
                             </div>
                             <div class="form-col2">
-                                <label for="" class="form-label">E-mail Address<span class="require">*</span></label>
+                                <label for="email" class="form-label">E-mail Address<span class="require">*</span></label>
                                 <div class="form-inputText">
-                                    <input type="text" class="inputType" name="" id="" placeholder="Example (Half-width) : toshima@gmail.com">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-row form-mb">
-                            <div class="form-col2">
-                                <label for="" class="form-label">Phone Number<span class="require">*</span></label>
-                                <div class="form-inputText">
-                                    <input type="text" class="inputType" name="" id="" placeholder="Example (HalfSize) : 09012384561">
-                                </div>
-                            </div>
-                            <div class="form-col2">
-                                <label for="" class="form-label">Address<span class="require">*</span></label>
-                                <div class="form-inputText">
-                                    <input type="text" class="inputType" name="" id="" >
+                                    <input type="text" class="inputType" name="email" id="email" placeholder="Example (Half-width) : toshima@gmail.com">
                                 </div>
                             </div>
                         </div>
                         <div class="form-row form-mb">
                             <div class="form-col2">
-                                <label for="" class="form-label">Desired Monthly Amount</label>
+                                <label for="denwabangou" class="form-label">Phone Number<span class="require">*</span></label>
+                                <div class="form-inputText">
+                                    <input type="text" class="inputType" name="denwabangou" id="denwabangou" placeholder="Example (HalfSize) : 09012384561">
+                                </div>
+                            </div>
+                            <div class="form-col2">
+                                <label for="address" class="form-label">Address<span class="require">*</span></label>
+                                <div class="form-inputText">
+                                    <input type="text" class="inputType" name="address" id="address" >
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row form-mb">
+                            <div class="form-col2">
+                                <label for="salary" class="form-label">Desired Monthly Amount</label>
                                 <div class="form-inputText input-salary">
-                                    <input type="text" class="inputType" name="" id="">
+                                    <input type="text" class="inputType" name="salaryfrom" id="salaryfrom">
                                     <span class="form-sign">～</span>
-                                    <input type="text" class="inputType" name="" id="">
+                                    <input type="text" class="inputType" name="salaryto" id="salaryto">
                                     <span class="form-yern">Yen</span>
                                 </div>
                             </div>
                         </div>
                         <div class="form-row form-mb">
                             <div class="form-col1">
-                                <label for="" class="form-label">Desired Contract Form</label>
+                                <label for="employeeType" class="form-label">Desired Contract Form</label>
                                 <div class="form-row2 form-inputRadio">
                                     <div class="form-col6">
                                         <label for="seyi">
@@ -187,15 +190,15 @@
                                 <label for="" class="form-label">Profession</label>
                                 <div class="form-row2 form-inputCheckbox">
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                        <label for="eyigyo">
+                                            <input type="checkbox" value="営業" name="syokusyu[]" id="eyigyo" >
                                             <span class="form-checkbox">Sales</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
-                                            <span class="form-checkbox">Office Work</span>
+                                        <label for="zimu">
+                                            <input type="checkbox" value="事務" name="syokusyu[]" id="zimu" >
+                                            <span class="form-checkbox">Office work</span>
                                         </label>
                                     </div>
                                 </div>
@@ -203,7 +206,7 @@
                         </div>
                         <div class="form-row form-mb">
                             <div class="form-col1">
-                                <label for="" class="form-label">Skills Sheet<span class="require">*</span></label>
+                                <label for="skillsheet" class="form-label">Skills Sheet<span class="require">*</span></label>
                                 <div class="form-row form-inputFile">
                                     <div class="form-col2">
                                         <input type="file" class="inputFile" name="skillsheet" id="skillsheet" accept=".xlsx,.xls,.csv,.docx,.word,.pdf">
@@ -216,9 +219,9 @@
                         </div>
                         <div class="form-row form-mb">
                             <div class="form-col1">
-                                <label for="" class="form-label">Remarks<span class="require">*</span></label>
+                                <label for="area" class="form-label">Remarks<span class="require">*</span></label>
                                 <div class="form-textarea">
-                                    <textarea name="" cols="50" rows="5" placeholder="※Please enter within 200 characters."></textarea>
+                                    <textarea name="area" cols="50" rows="5" placeholder="※Please enter within 200 characters."></textarea>
                                 </div>
                             </div>
                         </div>
@@ -262,10 +265,16 @@
                                 </div>
                             </div>
                         </div>
+                        <!--<div class="g-recaptcha" data-sitekey="6LdJInAiAAAAACOCC9BABpQ7Rwh1Ob_41U5FVNON"></div>-->
+                            <div class="my-3">
+                                <div class="loading">メール送信中...</div>
+                                <div class="error-message"></div>
+                                <div class="sent-message">メールが送信されました。ありがとうございました!</div>
+                            </div>
                         <div class="form-row">
                             <div class="form-col1">
-                                <div class="sec-btn02">
-                                    <a href="#" class="btn02">Send</a>
+                            <div class="sec-btn02">
+                                <button type="submit" class="contact_send btn02" class="g-recaptcha" id='contact_send'>送信</button>
                                 </div>
                             </div>
                         </div>
@@ -315,11 +324,17 @@
         </footer>
         <!-- footer -->
     </div>
+    <script>
+        function onSubmit(token) {
+            document.getElementById("entry-clerical-sales-form").submit();
+        }
+    </script>
     <!-- wrapper -->
     <script src="/home-page/assets/js/sub_particles.min.js"></script>
     <script src="/home-page/assets/js/aos.js"></script>
     <script src="/home-page/assets/js/jquery.matchHeight-min.js"></script>
     <script src="/home-page/assets/js/subpage.js"></script>
     <script src="/home-page/assets/js/common.js"></script>
+    <script src="/home-page/assets/vendor/php-email-form/validate.js"></script>
 </body>
 </html>

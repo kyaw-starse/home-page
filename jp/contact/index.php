@@ -26,9 +26,7 @@
         <div id="splash-logo"><img src="/home-page/assets/img/common/loading.gif" alt="読み込み中" class="icon-01 apng-image"><span class="rollAnime">Loading</span></div>
     </div>
     <div class="splashbg"></div>
-    <div><?php  //echo '<pre>';
-        //var_dump($_SESSION['errors']);
-        //echo '</pre>';?>
+    <div>
     </div>
     <div id="wrapper" class="top-wrap">
         <header class="headerBlock">
