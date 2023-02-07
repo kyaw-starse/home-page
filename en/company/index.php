@@ -245,7 +245,7 @@
                                         <div class="history-desp">
                                             <dl class="cFix">
                                                 <dt>Jan</dt>
-                                                <dd>Privacy Mark (No. 22000213) updated</dd>
+                                                <dd>Updated Privacy Mark No. 22000213</dd>
                                             </dl>
                                         </div>
                                     </div>
@@ -270,6 +270,10 @@
                                             <dl class="cFix">
                                                 <dt>Dec</dt>
                                                 <dd>Increased capital to 45 million yen</dd>
+                                            </dl>
+                                            <dl class="cFix">
+                                                <dt>May</dt>
+                                                <dd>Updated Privacy Mark No. 22000213</dd>
                                             </dl>
                                             <dl class="cFix">
                                                 <dt>Jan</dt>
@@ -309,7 +313,7 @@
                                             </dl>
                                             <dl class="cFix">
                                                 <dt>May</dt>
-                                                <dd>Acquired Privacy Mark No. 22000213号</dd>
+                                                <dd>Acquired Privacy Mark No. 22000213</dd>
                                             </dl>
                                             <dl class="cFix">
                                                 <dt>Apr</dt>
