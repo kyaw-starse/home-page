@@ -222,25 +222,25 @@
                                 <div class="form-row2 form-inputCheckbox">
                                     <div class="form-col4">
                                         <label for="serverEngineer">
-                                            <input type="checkbox" name="infra[]" value="サーバエンジニア"id="serverEngineer">
+                                            <input type="checkbox" name="infra[]" value="サーバエンジニア" id="serverEngineer">
                                             <span class="form-checkbox">サーバエンジニア</span>
                                         </label>
                                     </div>
                                     <div class="form-col4">
                                         <label for="storageEngineer">
-                                            <input type="checkbox" name="infra[]" value="ストレージエンジニア"id="storageEngineer">
+                                            <input type="checkbox" name="infra[]" value="ストレージエンジニア" id="storageEngineer">
                                             <span class="form-checkbox">ストレージエンジニア</span>
                                         </label>
                                     </div>
                                     <div class="form-col4">
                                         <label for="netWorkEngineer">
-                                            <input type="checkbox" name="infra[]" value="ネットワークエンジニア"id="netWorkEngineer">
+                                            <input type="checkbox" name="infra[]" value="ネットワークエンジニア" id="netWorkEngineer">
                                             <span class="form-checkbox">ネットワークエンジニア</span>
                                         </label>
                                     </div>
                                     <div class="form-col4">
                                         <label for="databaseEngineer">
-                                            <input type="checkbox" name="infra[]" value="データベースエンジニア"id="databaseEngineer">
+                                            <input type="checkbox" name="infra[]" value="データベースエンジニア" id="databaseEngineer">
                                             <span class="form-checkbox">データベースエンジニア</span>
                                         </label>
                                     </div>

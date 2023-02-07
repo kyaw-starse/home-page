@@ -171,7 +171,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $contact->add_message($name2, 'Fullname（フリガナ）');
       $contact->add_message($selectYear, 'Date Of Birth');
       $contact->add_message($email, 'Mail Address');
-      $contact->add_message($denwabangou, 'Telephone Number');
+      $contact->add_message($denwabangou, 'Phone Number');
       $contact->add_message($address, 'Address');
       $contact->add_message($salary, 'Desired monthly amount');
       $contact->add_message($employeeType, 'Desired contract type');
@@ -224,7 +224,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $contact2->add_message($name2, 'Fullname（フリガナ）');
       $contact2->add_message($selectYear, 'Date Of Birth');
       $contact2->add_message($email, 'Mail Address');
-      $contact2->add_message($denwabangou, 'Telephone Number');
+      $contact2->add_message($denwabangou, 'Phone Number');
       $contact2->add_message($address, 'Address');
       $contact2->add_message($salary, 'Desired monthly amount');
       $contact2->add_message($employeeType, 'Desired contract type');

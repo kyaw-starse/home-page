@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="/home-page/assets/css/pc_style.css">
     <link rel="stylesheet" href="/home-page/assets/css/sp_style.css">
     <script src="/home-page/assets/js/jquery.min.js"></script>
+    <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
+    <!-- Template Main CSS File -->
+    <link href="/home-page/assets/css/style.css" rel="stylesheet">
 </head>
 <body id="top" class="top">
     <div id="splash">

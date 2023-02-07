@@ -50,33 +50,33 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   }
 
   if (empty($_POST['lastName1']) && empty($_POST['firstName1'])) {
-    $errors[] = "姓名（漢字）を入力してください。";
+    $errors[] = "Please enter your first and last name (Kanji).";
   }
   if (empty($_POST['lastName2']) && empty($_POST['firstName2'])) {
-    $errors[] = "姓名（カタカナ）を入力してください。";
+    $errors[] = "Please enter your first and last name (katakana).";
   }
   if (empty($email)) {
-    $errors[] = "メールアドレスを入力してください。";
+    $errors[] = "Please enter your e-mail address.";
   } else {
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-      $errors[] = "メールアドレスを正しく入力してください。";
+      $errors[] = "Please enter your e-mail address correctly.";
     }
   }
   if (empty($denwabangou)) {
-    $errors[] = "電話番号を入力してください。";
+    $errors[] = "Please enter your phone number.";
   }
   if (empty($address)) {
-    $errors[] = "住所を入力してください。";
+    $errors[] = "Please enter your address.";
   }
-  //添付ファイル
+    //添付ファイル
   if ($_FILES['skillsheet']['size'] == 0) {
-    $errors[] = "スキルシートをアップロードしてください。";
+    $errors[] = "Please upload your skill sheet.";
   }
   if (empty($area)) {
-    $errors[] = "備考を入力してください。";
+    $errors[] = "Please enter your remarks.";
   }
   if (empty($chkagree)) {
-    $errors[] = "個人情報の取り扱い同意してください。";
+    $errors[] = "Please agree to the handling of personal information.";
   }
   if (!empty($errors)) {
     echo "<br>";
@@ -116,35 +116,35 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $contact->to = $custMail;
       $contact->from_name = "STAR SE";
       $contact->from_email = $mailer;
-      $contact->subject = "【STAR SE株式会社】インフラエンジニア_キャリア採用応募";
+      $contact->subject = "[STAR SE Co., Ltd.] Infrastructure engineer_Career recruitment application";
 
       $sama = "様";
-      $custNm = $name . $sama;
+      $custNm = $name;
       $message = "
-    お問い合わせ、ありがとうございます。
-    この度は、STAR SE株式会社へのお問い合わせを頂きまして、誠にありがとうございます。
+      Thank you for your inquiry.
+      Thank you for contacting STAR SE Co., Ltd.
     
-    以下、お問い合わせの内容となります。
-    ※本メールはお客様のお問い合わせの情報が当社のサーバに到達した時点で送信される、自動配信メールです。
+      The following is the content of your inquiry.
+      *This e-mail is an automatic delivery e-mail that is sent when the customer's inquiry information reaches our server.
     ----------------------------------------------------------
   ";
       $message1 = $custNm . $message;
 
       $messagefoot = "
     ----------------------------------------------------------
-    以上、宜しくお願い致します。
+    Thank you very much.
 
 
     ※※※※※※※※※※※※※※※※※※※※※※※※
     ★　〒104-0043
-    ★　東京都中央区湊2-4-1　TOMACビル５階
-    ★　STAR SE株式会社
+    ★　5th floor, TOMAC Building, 2-4-1 Minato, Chuo-ku, Tokyo
+    ★　STAR SE Co., Ltd.
     ★　TEL 03-5207-2955
     ★　FAX 03-5207-2956
-    ★　お問い合わせ：kanri@star-se.co.jp
+    ★　Contact: kanri@star-se.co.jp
     ★　URL www.star-se.co.jp
     
-    ※プライバシーマーク 第22000213号
+    ※Privacy Mark No. 22000213
     ※※※※※※※※※※※※※※※※※※※※※※※※
   ";
 
@@ -162,18 +162,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       );
 
       $contact->add_message($message1, '');
-      $contact->add_message($name, '姓名');
-      $contact->add_message($name2, '姓名（フリガナ）');
-      $contact->add_message($selectYear, '生年月日');
-      $contact->add_message($email, 'メールアドレス');
-      $contact->add_message($denwabangou, '電話番号');
-      $contact->add_message($address, '住所');
-      $contact->add_message($salary, '希望月額');
-      $contact->add_message($employeeType, '希望の契約形態');
+      $contact->add_message($name, 'Fullname');
+      $contact->add_message($name2, 'Fullname（フリガナ）');
+      $contact->add_message($selectYear, 'Date Of Birth');
+      $contact->add_message($email, 'Mail Address');
+      $contact->add_message($denwabangou, 'Phone Number');
+      $contact->add_message($address, 'Address');
+      $contact->add_message($salary, 'Desired monthly amount');
+      $contact->add_message($employeeType, 'Desired contract type');
       $contact->add_message($Os, 'OS');
-      $contact->add_message($infra, 'インフラ分類');
-      $contact->add_message($area, '備考');
-      $contact->add_message($chkagree, '個人情報保護方針');
+      $contact->add_message($infra, 'Infrastructure Classification');
+      $contact->add_message($area, 'Remarks');
+      $contact->add_message($chkagree, 'Privacy Policy');
       $contact->add_attachment('skillsheet');
       $contact->add_message($messagefoot, '');
 
@@ -215,18 +215,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       );
 
       $contact2->add_message($message4, '');
-      $contact2->add_message($name, '姓名');
-      $contact2->add_message($name2, '姓名（フリガナ）');
-      $contact2->add_message($selectYear, '生年月日');
-      $contact2->add_message($email, 'メールアドレス');
-      $contact2->add_message($denwabangou, '電話番号');
-      $contact2->add_message($address, '住所');
-      $contact2->add_message($salary, '希望月額');
-      $contact2->add_message($employeeType, '希望の契約形態');
+      $contact2->add_message($name, 'Fullname');
+      $contact2->add_message($name2, 'Fullname（フリガナ）');
+      $contact2->add_message($selectYear, 'Date Of Birth');
+      $contact2->add_message($email, 'Mail Address');
+      $contact2->add_message($denwabangou, 'Phone Number');
+      $contact2->add_message($address, 'Address');
+      $contact2->add_message($salary, 'Desired monthly amount');
+      $contact2->add_message($employeeType, 'Desired contract type');
       $contact2->add_message($Os, 'OS');
-      $contact2->add_message($infra, 'インフラ分類');
-      $contact2->add_message($area, '備考');
-      $contact2->add_message($chkagree, '個人情報保護方針');
+      $contact2->add_message($infra, 'Infrastructure Classification');
+      $contact2->add_message($area, 'Remarks');
+      $contact2->add_message($chkagree, 'Privacy Policy');
       $contact2->add_attachment('skillsheet');
       $contact2->add_message($messagefoot, '');
 

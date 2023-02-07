@@ -44,37 +44,35 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   }
 
   if (empty($_POST['lastName1']) && empty($_POST['firstName1'])) {
-    $errors[] = "姓名（漢字）を入力してください。";
+    $errors[] = "Please enter your first and last name (Kanji).";
   }
   if (empty($_POST['lastName2']) && empty($_POST['firstName2'])) {
-    $errors[] = "姓名（カタカナ）を入力してください。";
+    $errors[] = "Please enter your first and last name (katakana).";
   }
   if (empty($email)) {
-    $errors[] = "メールアドレスを入力してください。";
+    $errors[] = "Please enter your e-mail address.";
   } else {
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-      $errors[] = "メールアドレスを正しく入力してください。";
+      $errors[] = "Please enter your e-mail address correctly.";
     }
   }
   if (empty($denwabangou)) {
-    $errors[] = "電話番号を入力してください。";
+    $errors[] = "Please enter your phone number.";
   }
   if (empty($address)) {
-    $errors[] = "住所を入力してください。";
+    $errors[] = "Please enter your address.";
   }
-  if (empty($schoolname)) {
-    $errors[] = "大学名を入力してください。";
-  }
-  //添付ファイル
+    //添付ファイル
   if ($_FILES['skillsheet']['size'] == 0) {
-    $errors[] = "スキルシートをアップロードしてください。";
+    $errors[] = "Please upload your skill sheet.";
   }
   if (empty($area)) {
-    $errors[] = "備考を入力してください。";
+    $errors[] = "Please enter your remarks.";
   }
   if (empty($chkagree)) {
-    $errors[] = "個人情報の取り扱い同意してください。";
+    $errors[] = "Please agree to the handling of personal information.";
   }
+
   if (!empty($errors)) {
     echo "<br>";
     foreach ($errors as $error) {
@@ -84,12 +82,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     return false;
   }
 
-  if ($_POST['g-recaptcha-response'] != "") {
-    $secret = '6LdJInAiAAAAAKmVb1MZe7PdMVv_6JjQeu-2JONX';
-    $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secret . '&response=' . $_POST['g-recaptcha-response']);
-    $responseData = json_decode($verifyResponse);
+  // if ($_POST['g-recaptcha-response'] != "") {
+  //   $secret = '6LdJInAiAAAAAKmVb1MZe7PdMVv_6JjQeu-2JONX';
+  //   $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secret . '&response=' . $_POST['g-recaptcha-response']);
+  //   $responseData = json_decode($verifyResponse);
 
-    if ($responseData->success) {
+  //   if ($responseData->success) {
 
     
       // $recruit = 'recruit@star-se.co.jp';
@@ -114,10 +112,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $contact->to = $custMail;
       $contact->from_name = "STAR SE";
       $contact->from_email = $mailer;
-      $contact->subject = "【STAR SE株式会社】新卒採用応募";
+      $contact->subject = "[STAR SE Co., Ltd.] New graduate recruitment application";
 
       $sama = "様";
-      $custNm = $name . $sama;
+      $custNm = $name;
       $message = "
     お問い合わせ、ありがとうございます。
     この度は、STAR SE株式会社へのお問い合わせを頂きまして、誠にありがとうございます。

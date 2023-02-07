@@ -98,20 +98,20 @@
         <section class="form-secblock">
             <div class="c-w1170">
                 <div class="form-block letter">
-                    <form action="">
+                    <form action="entry/entry-infraEngineer.php"  method="post" class="php-email-form" id="entry-infra-engineer-form" enctype="multipart/form-data">
                         <div class="form-row form-mb">
                             <div class="form-col2">
                                 <label for="" class="form-label">Full Name<span class="require">*</span>(Kanji)</label>
                                 <div class="form-inputText">
-                                    <input type="text" class="inputType" name="" id="" placeholder="Example (Last Name) : 鈴木">
-                                    <input type="text" class="inputType" name="" id="" placeholder="Example (First Name) : 太郎">
+                                    <input type="text" class="inputType" name="lastName1" id="lastName1"  placeholder="Example (Last Name) : Suzuki">
+                                    <input type="text" class="inputType" name="firstName1" id="firstName1" placeholder="Example (First Name) : Taro">
                                 </div>
                             </div>
                             <div class="form-col2">
                                 <label for="" class="form-label">Full Name<span class="require">*</span>(Katakana)</label>
                                 <div class="form-inputText">
-                                    <input type="text" class="inputType" name="" id="" placeholder="Example (Last Name) : スズキ">
-                                    <input type="text" class="inputType" name="" id="" placeholder="Example (First Name) : タロウ">
+                                    <input type="text" class="inputType" name="lastName2" id="lastName2" placeholder="Example (Last Name) : Suzuki">
+                                    <input type="text" class="inputType" name="firstName2" id="firstName2" placeholder="Example (First Name) : Taro">
                                 </div>
                             </div>
                         </div>
@@ -119,13 +119,13 @@
                             <div class="form-col2">
                                 <label for="" class="form-label">Date of Birth</label>
                                 <div class="form-inputText">
-                                    <input type="date" class="inputType" name="" id="" placeholder="">
+                                   <input type="date" class="inputType" name="selectYear" id="selectYear" placeholder="">
                                 </div>
                             </div>
                             <div class="form-col2">
                                 <label for="" class="form-label">E-mail Address<span class="require">*</span></label>
                                 <div class="form-inputText">
-                                    <input type="text" class="inputType" name="" id="" placeholder="Example (Half-width) : toshima@gmail.com">
+                                    <input type="email" class="inputType" name="email" id="email" placeholder="Example (Half-width) : toshima@gmail.com">
                                 </div>
                             </div>
                         </div>
@@ -133,13 +133,13 @@
                             <div class="form-col2">
                                 <label for="" class="form-label">Phone Number<span class="require">*</span></label>
                                 <div class="form-inputText">
-                                    <input type="text" class="inputType" name="" id="" placeholder="Example (HalfSize) : 09012384561">
+                                <input type="tel" class="inputType" name="denwabangou" id="denwabangou" placeholder="Example (HalfSize) : 09012384561">
                                 </div>
                             </div>
                             <div class="form-col2">
                                 <label for="" class="form-label">Address<span class="require">*</span></label>
                                 <div class="form-inputText">
-                                    <input type="text" class="inputType" name="" id="" >
+                                    <input type="text" class="inputType" name="address" id="address" >
                                 </div>
                             </div>
                         </div>
@@ -147,9 +147,9 @@
                             <div class="form-col2">
                                 <label for="" class="form-label">Desired Monthly Amount</label>
                                 <div class="form-inputText input-salary">
-                                    <input type="text" class="inputType" name="" id="">
+                                    <input type="text" class="inputType" name="salaryfrom" id="salaryfrom">
                                     <span class="form-sign">～</span>
-                                    <input type="text" class="inputType" name="" id="">
+                                    <input type="text" class="inputType" name="salaryto" id="salaryto">
                                     <span class="form-yern">Yen</span>
                                 </div>
                             </div>
@@ -160,25 +160,25 @@
                                 <div class="form-row2 form-inputRadio">
                                     <div class="form-col6">
                                         <label for="seyi">
-                                            <input type="radio" name="employeeType" id="seyi" checked>
+                                            <input type="radio" value="Permanent Staff" name="employeeType" id="seyi" checked>
                                             <span class="form-radio-text">Permanent Staff</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="keyiyaku">
-                                            <input type="radio" name="employeeType" id="keyiyaku">
+                                            <input type="radio" value="Contract Staff" name="employeeType" id="keyiyaku">
                                             <span class="form-radio-text">Contract Staff</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="haken">
-                                            <input type="radio" name="employeeType" id="haken">
+                                            <input type="radio" value="Temporary Staff" name="employeeType" id="haken">
                                             <span class="form-radio-text">Temporary Staff</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="gyoumu">
-                                            <input type="radio" name="employeeType" id="gyoumu">
+                                            <input type="radio" value="Subcontracting" name="employeeType" id="gyoumu">
                                             <span class="form-radio-text">Subcontracting</span>
                                         </label>
                                     </div>
@@ -191,25 +191,25 @@
                                 <div class="form-row2 form-inputCheckbox">
                                     <div class="form-col6">
                                         <label for="Window">
-                                            <input type="checkbox" name="OS" id="Window">
+                                            <input type="checkbox" value="Window" name="Os[]" id="Window">
                                             <span class="form-checkbox">Window</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="Linux">
-                                            <input type="checkbox" name="OS" id="Linux">
+                                        <input type="checkbox" value="Linux" name="Os[]" id="Linux">
                                             <span class="form-checkbox">Linux</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="Mac">
-                                            <input type="checkbox" name="OS" id="Mac">
+                                        <input type="checkbox" value="Mac" name="Os[]" id="Mac">
                                             <span class="form-checkbox">Mac</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="AIX">
-                                            <input type="checkbox" name="OS" id="AIX">
+                                        <input type="checkbox" value="AIX" name="Os[]" id="AIX">
                                             <span class="form-checkbox">AIX</span>
                                         </label>
                                     </div>
@@ -221,26 +221,26 @@
                                 <label for="" class="form-label">Infra Types</label>
                                 <div class="form-row2 form-inputCheckbox">
                                     <div class="form-col4">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                    <label for="serverEngineer">
+                                            <input type="checkbox" name="infra[]" value="Server Engineer" id="serverEngineer">
                                             <span class="form-checkbox">Server Engineer</span>
                                         </label>
                                     </div>
                                     <div class="form-col4">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                    <label for="storageEngineer">
+                                        <input type="checkbox" name="infra[]" value="Storage Engineer" id="storageEngineer">
                                             <span class="form-checkbox">Storage Engineer</span>
                                         </label>
                                     </div>
                                     <div class="form-col4">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                    <label for="netWorkEngineer">
+                                        <input type="checkbox" name="infra[]" value="NetWork Engineer" id="netWorkEngineer">
                                             <span class="form-checkbox">Network Engineer</span>
                                         </label>
                                     </div>
                                     <div class="form-col4">
-                                        <label for="">
-                                            <input type="checkbox" name="" id="">
+                                    <label for="databaseEngineer">
+                                        <input type="checkbox" name="infra[]" value="Database Engineer" id="databaseEngineer">
                                             <span class="form-checkbox">Database Engineer</span>
                                         </label>
                                     </div>
@@ -264,7 +264,7 @@
                             <div class="form-col1">
                                 <label for="" class="form-label">Remarks<span class="require">*</span></label>
                                 <div class="form-textarea">
-                                    <textarea name="" cols="50" rows="5" placeholder="※Please enter within 200 characters."></textarea>
+                                    <textarea name="area" cols="50" rows="5" placeholder="※Please enter within 200 characters."></textarea>
                                 </div>
                             </div>
                         </div>
