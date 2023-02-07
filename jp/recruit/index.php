@@ -100,7 +100,7 @@
                     <ul class="recruitList-block">
                         <li class="recruitList-li">
                             <div class="recruitList-content">
-                                <div class="recurit-img"><img src="/home-page/assets/img/recruit/infra_img.png" alt=""></div>
+                                <div class="recurit-img"><img src="/home-page/assets/img/recruit/recruit1.jpg" alt=""></div>
                                 <div class="recruit-desp">
                                     <h2 class="recruit-ttl">システムエンジニア</h2>
                                     <p data-mh="recurit-mat01" class="recruit-txt">プログラマからシステムエンジニア へのキャリアアップ、プロジェクトリーダーや上級システムエンジニアをめざす方、 オブジェクト指向技術を身につけたい方、資格取得してスキルアップをめざす方を求めています。</p>
@@ -140,7 +140,7 @@
                         </li>
                         <li class="recruitList-li">
                             <div class="recruitList-content">
-                                <div class="recurit-img"><img src="/home-page/assets/img/recruit/infra_img.png" alt=""></div>
+                                <div class="recurit-img"><img src="/home-page/assets/img/recruit/recruit2.jpg" alt=""></div>
                                 <div class="recruit-desp">
                                     <h2 class="recruit-ttl">インフラエンジニア</h2>
                                     <p data-mh="recurit-mat01" class="recruit-txt">インフラ基盤(サーバ/ストレージ/ネットワークなど)構築経験、 または、ミドルウェア(OpenView/Systemwalker/JP1など)の導入・構築経験してきた方を求めています。</p>
@@ -180,7 +180,7 @@
                         </li>
                         <li class="recruitList-li">
                             <div class="recruitList-content">
-                                <div class="recurit-img"><img src="/home-page/assets/img/recruit/infra_img.png" alt=""></div>
+                                <div class="recurit-img"><img src="/home-page/assets/img/recruit/recruit3.jpg" alt=""></div>
                                 <div class="recruit-desp">
                                     <h2 class="recruit-ttl">事務・営業</h2>
                                     <p data-mh="recurit-mat02" class="recruit-txt">エンドユーザーや大手SIerへのシステム開発案件の営業担当者を求めています。</p>
@@ -225,7 +225,7 @@
                     <ul class="recruitList-block">
                         <li class="recruitList-li">
                             <div class="recruitList-content">
-                                <div class="recurit-img"><img src="/home-page/assets/img/recruit/infra_img.png" alt=""></div>
+                                <div class="recurit-img"><img src="/home-page/assets/img/recruit/recruit4.jpg" alt=""></div>
                                 <div class="recruit-desp">
                                     <h2 class="recruit-ttl">新卒/第二新卒募集要項</h2>
                                     <p data-mh="recurit-mat02" class="recruit-txt">若手社員からのメッセージ 職場風景 よくある質問 募集要項</p>

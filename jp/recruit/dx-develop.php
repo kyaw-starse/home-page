@@ -88,7 +88,7 @@
             <canvas class="particlesBg"></canvas>
             <div class="sub-bannerIn c-w1170">
                 <h2 class="sub-ttl">DX推進</h2>
-                <img src="/home-page/assets/img/philosophy/bnr_img.jpg" class="sub-bannerImg" alt="">
+                <img src="/home-page/assets/img/recruit/bnr_img.jpg" class="sub-bannerImg" alt="">
             </div>
         </div>
         <!-- sub-banner -->
