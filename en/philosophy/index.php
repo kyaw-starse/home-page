@@ -107,8 +107,8 @@
                         <p class="philo-txt">
                             We are a group of "professionals" with specialized IT-related knowledge and experience.<br>
                             With a sincere heart, we will do our best to provide technical support and services that can be used all over the world, contribute to society, and at the same time promote the prosperity of the company and all employees.<br>
-                            我々の繁栄はお客様と共にあります。<br>
-                            すべての取組をお客様の視点から始め、熱意を持って邁進します。
+                            Our prosperity is with our customers.<br>
+                            We will start all our efforts from the customer's point of view and push forward with enthusiasm.
                         </p>
                     </div>
                 </div>
@@ -120,8 +120,8 @@
                         </div>
                     </div>
                     <div class="philoRight">
-                        <h2 class="philo-ttl">品質の維持</h2>
-                        <p class="philo-txt">我々の専門的な知識、現場での運用経験を活かし、ハイクオリティー・ローコストのITシステムを開発、構築、運用し、製品の安全性と品質の維持に努めます。</p>
+                        <h2 class="philo-ttl">Maintaining Quality</h2>
+                        <p class="philo-txt">Utilizing our specialized knowledge and on-site operational experience, we develop, build, and operate high-quality, low-cost IT systems, and strive to maintain the safety and quality of our products.</p>
                     </div>
                 </div>
                 <div class="philosophyBox">
@@ -132,8 +132,8 @@
                         </div>
                     </div>
                     <div class="philoRight">
-                        <h2 class="philo-ttl">最後までやり遂げる</h2>
-                        <p class="philo-txt">困難や逆境にあっても決してあきらめず、知恵を絞って結果にこだわり続けます。</p>
+                        <h2 class="philo-ttl">Finish through the end</h2>
+                        <p class="philo-txt">We will never give up even in the face of difficulties and adversity, and will continue to focus on results by focusing our wisdom.</p>
                     </div>
                 </div>
             </div>
@@ -141,24 +141,24 @@
         </div>
         <div class="footerLogo">
             <div class="c-w1420 cFix">
-                <span class="footerLogoImg"><a href="#"><img src="/home-page/assets/img/common/footer_logo2.png" alt="STAR SE株式会社"></a></span>
+                <span class="footerLogoImg"><a href="#"><img src="/home-page/assets/img/common/footer_logo2.png" alt="STAR SE Co., Ltd."></a></span>
             </div> 
         </div>
         <!-- footerLogo -->
         <footer>
             <div class="footerBlock">
-                <p class="ftLogoText sp-s-show">STAR SE株式会社</p>
+                <p class="ftLogoText sp-s-show">STAR SE Co., Ltd.</p>
                 <div class="ftInner c-w1300 cFix">
                     <div class="ftLogo">
-                        <img src="/home-page/assets/img/common/footer_logo.png" alt="STAR SE株式会社">
+                        <img src="/home-page/assets/img/common/footer_logo.png" alt="STAR SE Co., Ltd.">
                     </div>
                     <div class="ftDesp">
-                        <p class="ftLogoText sp-s-none">STAR SE株式会社</p>
+                        <p class="ftLogoText sp-s-none">STAR SE Co., Ltd.</p>
                         <div class="ftAddress">
                             <ul>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_homeaddress.png" alt=""></span>
-                                    <p class="ftAddress-info">〒104-0043<br>東京都中央区湊2丁目4-1 ＴＯＭＡＣビル 5階</p>
+                                    <p class="ftAddress-info">〒104-0043<br>5th floor, TOMAC Building, 2-4-1 Minato, Chuo-ku, Tokyo</p>
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_phone.png" alt=""></span>
@@ -173,9 +173,9 @@
                     </div>
                 </div>
             </div>
-            <p id="page-top"><a href="javascript:void(0)">&#8593;</a></p>
+            <p id="page-top"><a href="javascript:void(0)">&#8593;</a></p> 
             <div class="copyRight bg-green">
-                <p>&copy; Copyright STAR SE株式会社. All Rights Reserved</p>
+                <p>&copy; Copyright STAR SE Co., Ltd. All Rights Reserved</p>
             </div>
         </footer>
         <!-- footer -->
