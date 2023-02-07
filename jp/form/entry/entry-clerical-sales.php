@@ -36,9 +36,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   //$employeeType = $_POST['employeeType'];
   if (isset($_POST['employeeType'])){    
     $employeeType = $_POST['employeeType'];
-  }else{
-    echo "error";
-    $employeeType = "no data chosen";
   }
   // 職種
   if (isset($_POST['syokusyu'])) {
