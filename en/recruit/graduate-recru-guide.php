@@ -35,11 +35,11 @@
                 <div class="h-right cFix">
                     <nav class="nav-pc">
                         <ul class="cFix">
-                            <li><a href="/home-page/en/company/"><span>会社情報</span></a></li>
-                            <li><a href="/home-page/en/philosophy/"><span>経営理念</span></a></li>
-                            <li><a href="/home-page/en/business/"><span>事業内容</span></a></li>
-                            <li><a href="/home-page/en/recruit/" class="navpc-active"><span>採用情報</span></a></li>
-                            <li><a href="/home-page/en/security/"><span>情報セキュリティ</span></a></li>
+                            <li><a href="/home-page/en/company/"><span>Company</span></a></li>
+                            <li><a href="/home-page/en/philosophy/"><span>Philosophy</span></a></li>
+                            <li><a href="/home-page/en/business/"><span>Business</span></a></li>
+                            <li><a href="/home-page/en/recruit/" class="navpc-active"><span>Recruit</span></a></li>
+                            <li><a href="/home-page/en/security/"><span>Security Info</span></a></li>
                         </ul>
                     </nav>
                     <div class="h-utility">
@@ -66,11 +66,11 @@
         <nav id="globalNav" class="globalNav">
             <div class="globalNav-inner">
                 <ul class="nav-sp">
-                    <li><a href="/home-page/en/company/"><span>会社情報</span></a></li>
-                    <li><a href="/home-page/en/philosophy/"><span>経営理念</span></a></li>
-                    <li><a href="/home-page/en/business/"><span>事業内容</span></a></li>
-                    <li><a href="/home-page/en/recruit/"><span>採用情報</span></a></li>
-                    <li><a href="/home-page/en/security/"><span>情報セキュリティ</span></a></li>
+                    <li><a href="/home-page/en/company/"><span>Company</span></a></li>
+                    <li><a href="/home-page/en/philosophy/"><span>Philosophy</span></a></li>
+                    <li><a href="/home-page/en/business/"><span>Business</span></a></li>
+                    <li><a href="/home-page/en/recruit/"><span>Recruit</span></a></li>
+                    <li><a href="/home-page/en/security/"><span>Security Info</span></a></li>
                 </ul>
                 <div class="h-utility">
                     <ul class="cFix">
@@ -87,7 +87,7 @@
         <div class="sub-banner">
             <canvas class="particlesBg"></canvas>
             <div class="sub-bannerIn c-w1170">
-                <h2 class="sub-ttl">新卒/第二新卒募集要項</h2>
+                <h2 class="sub-ttl">New Graduate/Second New Graduate Recruitment Guidelines</h2>
                 <img src="/home-page/assets/img/philosophy/bnr_img.jpg" class="sub-bannerImg" alt="">
             </div>
         </div>
@@ -95,53 +95,54 @@
         <div class="content">        
         <section class="sec-graduate01">
             <div class="c-w1170">
-                <h2 class="ttl-subpage"><span class="text-un-yellow">若手社員からの<br class="sp">メッセージ</span></h2>
+                <h2 class="ttl-subpage"><span class="text-un-yellow">Message From Young Employee</span></h2>
                 <div>
                     <div class="textBox" data-aos="fade-up">
-                        <h2 class="boxTxt">STARSEを選んだ理由</h2>
+                        <h2 class="boxTxt">Reason for choosing STAR SE</h2>
                         <div class="boxDesp">
                             <p>
-                                社内教育制度が完備している点と入社後の研修を受け、スキルにあわせてシステム開発事業部とインフラソリューション事業部に配属できるところが良かったです。 また、社長と話してみて雰囲気が良かったです。
+                                I liked the fact that the in-house training system is complete and that I can receive training after joining the company and be assigned to the System Development Division or the Infrastructure Solutions Division according to my skills. Also, when I talked to the president, the atmosphere was good.
                             </p>
                         </div>
                     </div>
                     <div class="textBox" data-aos="fade-up" data-aos-delay="100">
-                        <h2 class="boxTxt">入社してみて感じた会社の印象</h2>
+                        <h2 class="boxTxt">Impression of the company after joining the company</h2>
                         <div class="boxDesp">
                             <p>
-                                あまり不安を感じずに仕事に取り組める印象があります。学生時代にはIT分野とは関わったことがなかったので システム開発部に配属になったときはかなり不安でした。ですが、周りの先輩方から丁寧に知識や専門用語などを教えていただけるので、伸び伸び仕事ができると感じました。
+                                I have the impression that I can work on my work without feeling uneasy. He had never been involved in the IT field during his student days, so when he was assigned to the system development department, he was quite uneasy. However, the seniors around me kindly taught me knowledge and technical terms, so I felt that I could work freely.
                             </p>
                         </div>
                     </div>
                     <div class="textBox" data-aos="fade-up" data-aos-delay="150">
-                        <h2 class="boxTxt">どのような人と共に働きたいか</h2>
+                        <h2 class="boxTxt">What kind of people do you want to work with</h2>
                         <div class="boxDesp">
                             <p>
-                                何にでも興味を持って積極的に動ける人です。自分の担当外の仕事であっても興味を持って取り組み、 経験として業務に活かすことができます。そのような人と一緒に働きたいと思いますし、将来的に活躍できる人だと思います。
+                                He is a person who is interested in anything and is active. Even if it is work that is not in your charge, you can take an interest in it and use it as experience in your work. I would like to work with such a person, and I think that he is a person who can play an active role in the future.
                             </p>
                         </div>
                     </div>
                     <div class="textBox" data-aos="fade-up" data-aos-delay="200">
-                        <h2 class="boxTxt">未経験でも働きやすい環境</h2>
+                        <h2 class="boxTxt">Easy working environment even for inexperienced people</h2>
                         <div class="boxDesp">
                             <p>
-                                「SEとして仕事をしてみたいけれど未経験だから」と悩んでいるのなら、勇気を出して一歩を踏み出してみてください。STAR SEは未経験の方でも、仕事がしやすく成長のできる会社です。 助け合いながら、一緒に成長していきましょう。
+                                If you're thinking, "I want to work as an SE, but I'm inexperienced," take the courage to take the first step. STAR SE is a company where even inexperienced people can easily work and grow. Let's help each other and grow together.
                             </p>
                         </div>
                     </div>
                     <div class="textBox" data-aos="fade-up" data-aos-delay="250">
-                        <h2 class="boxTxt">こんな仕事をしています</h2>
+                        <h2 class="boxTxt">I'm working on</h2>
                         <div class="boxDesp">
                             <p>
-                                社内システムの開発で、主にJAVA、PHPなどの言語を利用し、webの画面を作成したり、そのテストを実施しています。 詳細設計、実装、テストを実施しています。最近は、javascriptやcssを使って、動きのある画面の製作を行っています。
+                                In the development of internal systems, we mainly use languages such as JAVA and PHP to create web screens and conduct tests. We carry out detailed design, implementation and testing. Recently, I've been using javascript and css to create moving screens.
                             </p>
                         </div>
                     </div>
                     <div class="textBox" data-aos="fade-up" data-aos-delay="300">
-                        <h2 class="boxTxt">STARSEらしさとは？</h2>
+                        <h2 class="boxTxt">What is STAR SE?</h2>
                         <div class="boxDesp">
                             <p>
-                                どんなことがあっても、<strong>「すぐやる、必ずやる、出来るまでやる」</strong>ことを信念としています。
+                                <!-- どんなことがあっても、<strong>「すぐやる、必ずやる、出来るまでやる」</strong>ことを信念としています。 -->
+                                No matter what happens, <strong>"I will do it immediately, I will do it, I will do it until I can"</strong>.
                             </p>
                         </div>
                     </div>
@@ -150,65 +151,65 @@
         </section>
         <section class="sec-graduate02 bg-green-light" data-aos="fade-up">
             <div class="c-w1170">
-                <h2 class="ttl-subpage"><span class="text-un-yellow">よくある質問</span></h2>
+                <h2 class="ttl-subpage"><span class="text-un-yellow">Frequently Asked Questions</span></h2>
                 <div>
                     <ul class="accordion-area">
                         <li>
                             <div class="accordian-div">
-                                <h2 class="accordian-title accordian-ques"><span class="acc-ques">Q.&nbsp;</span>新卒採用での入社時期は4月のみですか？</h2>
+                                <h2 class="accordian-title accordian-ques"><span class="acc-ques">Q.&nbsp;</span>Is it only possible to join new graduates in April?</h2>
                                 <div class="accordian-box">
                                     <p>
-                                        原則4月入社となりますが、通年採用のため、入社時期は個人にあわせて調整しています。<br>内定承諾の際にご相談ください。
+                                        As a general rule, new hires start in April, but since we are hiring all year round, we adjust the time of joining the company to suit the individual. <br>Please consult us when you accept the offer.
                                     </p>
                                 </div>
                             </div>
                         </li>
                         <li>
                             <div class="accordian-div">
-                                <h2 class="accordian-title accordian-ques"><span class="acc-ques">Q.&nbsp;</span>ITのことをあまり知らないのですが大丈夫ですか？</h2>
+                                <h2 class="accordian-title accordian-ques"><span class="acc-ques">Q.&nbsp;</span>I don't know much about IT, is that okay?</h2>
                                 <div class="accordian-box">
                                     <p>
-                                        まず「知らない」と「興味がない」では大きく違います。<br>後者であれば難しいですが、知らなくとも興味を持っているのであれば、ぜひ今日から勉強を始めてみてください。<br>IT業界は変化のスピードも早いので、常に勉強することが求められます。新卒採用では、応募時のスキルよりも成長の可能性を重視しますので、この業界で頑張る覚悟が重要です。
+                                        First of all, there is a big difference between "I don't know" and "I'm not interested". <br>The latter is difficult, but if you are interested in it even if you don't know it, please start studying today. <br>The speed of change in the IT industry is fast, so it is always required to study. When hiring new graduates, we value the possibility of growth rather than the skills at the time of application, so it is important to be prepared to work hard in this industry.
                                     </p>
                                 </div>
                             </div>
                         </li>
                         <li>
                             <div class="accordian-div">
-                                <h2 class="accordian-title accordian-ques"><span class="acc-ques">Q.&nbsp;</span>資格を持っていた方が有利ですか？</h2>
+                                <h2 class="accordian-title accordian-ques"><span class="acc-ques">Q.&nbsp;</span>Is it an advantage to have a qualification?</h2>
                                 <div class="accordian-box">
                                     <p>
-                                        選考において、資格を重視することはありません。<br>ただ、資格取得により自信がつくこともあるので、自己研鑽のためにはお薦めしています。<br>学生時代に何か目的を持ってチャレンジするのも、ひとつの選択肢かもしれません。
+                                        Qualifications are not taken into account in the selection process. <br>However, it is recommended for self-improvement, as obtaining a qualification can give you confidence. <br>It may be one option to challenge yourself with a purpose while you are a student.
                                     </p>
                                 </div>
                             </div>
                         </li>
                         <li>
                             <div class="accordian-div">
-                                <h2 class="accordian-title accordian-ques"><span class="acc-ques">Q.&nbsp;</span>配属や勤務先はどのように決まるのですか？（希望職種に就くことができますか？）</h2>
+                                <h2 class="accordian-title accordian-ques"><span class="acc-ques">Q.&nbsp;</span>How are assignments and workplaces determined? (Will I be able to get the job I want?)</h2>
                                 <div class="accordian-box">
                                     <p>
-                                        選考や内定期間中に、希望職種等をヒアリングしていきます。<br>本社勤務（中央区日本橋）のほか、プロジェクトによって関係顧客先での勤務となります。
+                                        During the selection and informal period, we will interview you about your desired job type. <br>In addition to working at the head office (Nihonbashi, Chuo-ku), depending on the project, you will work at a related customer.
                                     </p>
                                 </div>
                             </div>
                         </li>
                         <li>
                             <div class="accordian-div">
-                                <h2 class="accordian-title accordian-ques"><span class="acc-ques">Q.&nbsp;</span>残業や休日出勤はどれくらいありますか？</h2>
+                                <h2 class="accordian-title accordian-ques"><span class="acc-ques">Q.&nbsp;</span>How often do you work overtime and on holidays?</h2>
                                 <div class="accordian-box">
                                     <p>
-                                        残業が発生することはあります。<br>休日出勤は原則はありません。<br>ただし、休日出勤となった場合は平日に振替休日を取得できます。
+                                        Overtime may occur. <br>There is no principle to work on holidays. <br>However, if you work on a holiday, you can take a substitute holiday on a weekday.
                                     </p>
                                 </div>
                             </div>
                         </li>
                         <li>
                             <div class="accordian-div">
-                                <h2 class="accordian-title accordian-ques"><span class="acc-ques">Q.&nbsp;</span>会社の雰囲気や社風はどうですか？</h2>
+                                <h2 class="accordian-title accordian-ques"><span class="acc-ques">Q.&nbsp;</span>What is the environment and culture of the company?</h2>
                                 <div class="accordian-box">
                                     <p>
-                                        風通しの良い会社づくりを目指しております。そのため職種や役職を超えてコミュニケーションがとりやすい雰囲気です。
+                                        We aim to create an open company. Therefore, it is an environment that makes it easy to communicate across occupations and positions.
                                     </p>
                                 </div>
                             </div>
@@ -220,16 +221,16 @@
         </section>
         <section class="sec-graduate03" data-aos="fade-up">
             <div class="c-w1170">
-                <h2 class="ttl-subpage"><span class="text-un-yellow">職場風景</span></h2>
+                <h2 class="ttl-subpage"><span class="text-un-yellow">Workplace Landscape</span></h2>
                 <div>
                     <ul class="recruitList-block">
                         <li class="recruitList-li">
                             <div class="recruitList-content">
                                 <div class="recurit-img"><img src="/home-page/assets/img/recruit/infra_img.png" alt=""></div>
                                 <div class="recruit-desp">
-                                    <h2 class="recruit-ttl">全体会議</h2>
+                                    <h2 class="recruit-ttl">General Meeting</h2>
                                     <p class="recruit-txt mb0">
-                                        毎月に1度、社員全員が出席する全体会議を開催しており、会社からの諸連絡を行ったりしています。<br>一番重要なのは“会社が目指すもの”を共有するということ。会議では、会社が取り組もうとしている課題や目標なども出来るだけ周知し、社員全員で共有することが出来るようにしています。
+                                        Once a month, we hold a general meeting attended by all employees, and communicate with them from the company. <br>The most important thing is to share "what the company aims for". At the meeting, we make sure that all employees can share the issues and goals that the company is trying to address as much as possible.
                                     </p>
                                     
                                 </div>
@@ -239,9 +240,9 @@
                             <div class="recruitList-content">
                                 <div class="recurit-img"><img src="/home-page/assets/img/recruit/infra_img.png" alt=""></div>
                                 <div class="recruit-desp">
-                                    <h2 class="recruit-ttl">研修や勉強会</h2>
+                                    <h2 class="recruit-ttl">Training and study sessions</h2>
                                     <p class="recruit-txt mb0">
-                                        会社の成長にとって「社員教育」が“最重要項目”と考えており、セミナー形式の研修や社員主催の勉強会を頻繁に行っています。
+                                        We believe that “employee education” is “the most important item” for the growth of the company, and we frequently hold seminar-style training and study sessions hosted by employees.
                                     </p>
                                     
                                 </div>
@@ -251,9 +252,9 @@
                             <div class="recruitList-content">
                                 <div class="recurit-img"><img src="/home-page/assets/img/recruit/infra_img.png" alt=""></div>
                                 <div class="recruit-desp">
-                                    <h2 class="recruit-ttl">社内イベント お花見</h2>
+                                    <h2 class="recruit-ttl">Company event Cherry Blossom viewing</h2>
                                     <p class="recruit-txt mb0">
-                                        上司との距離がとても近いので、綺麗な桜を見たり、美味しい料理やお酒を飲みながら、仕事以外のお話を聞くこともできます。
+                                    Because the distance to the boss is so close, you can listen to stories other than work while watching beautiful cherry blossoms or drinking delicious food and alcohol.
                                     </p>
                                     
                                 </div>
@@ -266,7 +267,7 @@
         <section class="sec-graduate04 bg-green-light">
             <div class="c-w1170">
                 <div>
-                    <h2 class="ttl-subpage"><span class="text-un-yellow">募集要項</span></h2>
+                    <h2 class="ttl-subpage"><span class="text-un-yellow">Application Requirements</span></h2>
                     <div class="sec-table table-style01">
                         <table>
                             <colgroup>
@@ -275,120 +276,120 @@
 							</colgroup>
                             <tr>
                                 <th>
-                                    <p>募集職類</p>
+                                    <p>Recruitment positions</p>
                                 </th>
                                 <td>
-                                    <p>システムエンジニア、インフラエンジニア、事務・営業</p>
+                                    <p>System Engineer, Infrastructure Engineer, Office/Sales</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>仕事内容</p>
+                                    <p>Job Description</p>
                                 </th>
                                 <td>
-                                    <p>システムの設計、顧客との打合せ、コンサルティングやプログラミングなどの技術力も大切ですが、コミュニケーション能力がより重要となる仕事です。</p>
+                                    <p>Technical skills such as system design, meeting with customers, consulting and programming are important, but communication skills are more important.</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>募集人数</p>
+                                    <p>Recruitment Person number</p>
                                 </th>
                                 <td>
-                                    <p>１０名</p>
+                                    <p>10 people</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>募集学科</p>
+                                    <p>Department of Recruitment</p>
                                 </th>
                                 <td>
-                                    <p>学部学科（文系　。理系）は問いません。</p>
+                                    <p>Undergraduate department (Humanities, Science) does not matter.</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>初任給</p>
+                                    <p>Starting salary</p>
                                 </th>
                                 <td>
-                                    <p>大卒 (東京) 200,000 円 (諸手当含む)</p>
+                                    <p>University graduate (Tokyo) 200,000 yen (including allowances)</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>諸手当</p>
+                                    <p>Allowances</p>
                                 </th>
                                 <td>
-                                    <p>時間外手当、交通費全額支給など</p>
+                                    <p>Overtime allowance, full payment of transportation expenses, etc.</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>賞与</p>
+                                    <p>Bonus</p>
                                 </th>
                                 <td>
-                                    <p>年2回 (7 月、12 月)</p>
+                                    <p>Twice a year (July, December)</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>勤務地</p>
+                                    <p>Work location</p>
                                 </th>
                                 <td>
-                                    <p>東京、神奈川県、千葉県、埼玉県</p>
+                                    <p>Tokyo, Kanagawa Prefecture, Chiba Prefecture, Saitama Prefecture</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>勤務時間</p>
+                                    <p>Working hours</p>
                                 </th>
                                 <td>
-                                    <p>09:00～18:00 ※プロジェクト毎に異なります。</p>
+                                    <p>09:00-18:00 *Varies by project.</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>福利厚生</p>
+                                    <p>Welfare</p>
                                 </th>
                                 <td>
-                                    <p>健康保険、厚生年金、労働保険。働く上で必要となる社会保険は、各種完備</p>
+                                    <p>Health insurance, welfare pension, labor insurance. Various types of social insurance necessary for working</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>教育制度</p>
+                                    <p>Education System</p>
                                 </th>
                                 <td>
-                                    <p>新入社員研修、OJT、Java、PHP、社内調座（Oracle、VMware、Linux / AIX / Windows構築）、グローバル言語（日本語/英語）調座など。</p>
+                                    <p>New employee training, OJT, Java, PHP, in-house training (Oracle, VMware, Linux/AIX/Windows construction), global language training (Japanese/English), etc.</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>休日・休暇</p>
+                                    <p>Holidays/Vacations</p>
                                 </th>
                                 <td>
-                                    <p>完全週休二日制（ 土・日）祝日、有給休暇（初年度10 日付与）、産前産後や慶弔等の特別休暇</p>
+                                    <p>Full weekly five-day system (Saturdays and Sundays), public holidays, paid vacation (10 days granted in the first year), special leave before and after childbirth, congratulations and condolences</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>選考方法</p>
+                                    <p>Selection Method</p>
                                 </th>
                                 <td>
-                                    <p>一次面接、二次面接<br>※選考プロセスは時期や間催場所により変更なる場合があります。</p>
+                                    <p>First interview, second interview<br>*The selection process may change depending on the time and place of the event.</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>提出書類</p>
+                                    <p>Documents to be Submitted</p>
                                 </th>
                                 <td>
-                                    <p>履歴書、卒業見込証明書、成績証明書、その他会社指定のもの</p>
+                                    <p>Curriculum Vitae, Certificate of Expected Graduation, Academic Transcript, and other items specified by the company</p>
                                 </td>
                             </tr>
                         </table>
                     </div>
                     <div class="sec-btn02">
-                        <a href="/home-page/en/form/entry-newGraduate.php" class="btn02">エントリー</a>
+                        <a href="/home-page/en/form/entry-newGraduate.php" class="btn02">Entry</a>
                     </div>
                 </div>
             </div>
@@ -402,18 +403,18 @@
         <!-- footerLogo -->
         <footer>
             <div class="footerBlock">
-                <p class="ftLogoText sp-s-show">STAR SE株式会社</p>
+                <p class="ftLogoText sp-s-show">STAR SE Co., Ltd.</p>
                 <div class="ftInner c-w1300 cFix">
                     <div class="ftLogo">
                         <img src="/home-page/assets/img/common/footer_logo.png" alt="STAR SE株式会社">
                     </div>
                     <div class="ftDesp">
-                        <p class="ftLogoText sp-s-none">STAR SE株式会社</p>
+                        <p class="ftLogoText sp-s-none">STAR SE Co., Ltd.</p>
                         <div class="ftAddress">
                             <ul>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_homeaddress.png" alt=""></span>
-                                    <p class="ftAddress-info">〒104-0043<br>東京都中央区湊2丁目4-1 ＴＯＭＡＣビル 5階</p>
+                                    <p class="ftAddress-info">〒104-0043<br>5th floor, TOMAC Building, 2-4-1 Minato, Chuo-ku, Tokyo</p>
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_phone.png" alt=""></span>
@@ -430,7 +431,7 @@
             </div>
             <p id="page-top"><a href="javascript:void(0)">&#8593;</a></p>
             <div class="copyRight bg-green">
-                <p>&copy; Copyright STAR SE株式会社. All Rights Reserved</p>
+                <p>&copy; Copyright STAR SE Co., Ltd. All Rights Reserved</p>
             </div>
         </footer>
         <!-- footer -->

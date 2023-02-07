@@ -87,12 +87,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     return false;
   }
 
-  // if ($_POST['g-recaptcha-response'] != "") {
-  //   $secret = '6LdJInAiAAAAAKmVb1MZe7PdMVv_6JjQeu-2JONX';
-  //   $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secret . '&response=' . $_POST['g-recaptcha-response']);
-  //   $responseData = json_decode($verifyResponse);
+  if ($_POST['g-recaptcha-response'] != "") {
+    $secret = '6LdJInAiAAAAAKmVb1MZe7PdMVv_6JjQeu-2JONX';
+    $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secret . '&response=' . $_POST['g-recaptcha-response']);
+    $responseData = json_decode($verifyResponse);
 
-  //   if ($responseData->success) {
+    if ($responseData->success) {
 
       // $recruit = 'recruit@star-se.co.jp';
       $recruit = 'htun.htun.win@star-se.co.jp';
@@ -136,8 +136,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
     ※※※※※※※※※※※※※※※※※※※※※※※※
-    ★　〒103-0011
-    ★　東京都中央区日本橋大伝馬町17-6 日本橋小谷商事ビル２F
+    ★　〒104-0043
+    ★　東京都中央区湊2-4-1　TOMACビル５階
     ★　STAR SE株式会社
     ★　TEL 03-5207-2955
     ★　FAX 03-5207-2956
@@ -186,7 +186,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $contact2->to = $recruit;
       $contact2->from_name = $name;
       $contact2->from_email = $mailer;
-      $contact2->subject = "インフラエンジニア_キャリア採用応募" . "【" . $_POST['name'] . "】";
+      $contact2->subject = "インフラエンジニア_キャリア採用応募" . "【" . $name . "】";  //$_POST['name']
 
       $custNm2 = $name . "と申します。";
       $message2 = "
@@ -232,7 +232,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
       echo $contact2->send();
     }
-//   }
-// } else {
-//   echo "人間承認を受けてください。";
-// }
+  }
+} else {
+  echo "人間承認を受けてください。";
+}

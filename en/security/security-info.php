@@ -10,7 +10,7 @@
     <meta name="google-site-verification" content="Dg_pvHrLYsE_PNW7oubm3Xw5aWYEPksmjpJwXLBG0Sk"/>
     <link rel="shortcut icon" href="/home-page/assets/img/common/favicon.png" type="image/x-icon">
     <link rel="icon" href="/home-page/assets/img/common/favicon.png" type="image/x-icon">
-    <title>情報セキュリティ｜方針</title>
+    <title>Security Info｜Policy</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/home-page/assets/css/import.css">
     <link rel="stylesheet" href="/home-page/assets/css/aos.css">
@@ -35,11 +35,11 @@
                 <div class="h-right cFix">
                     <nav class="nav-pc">
                         <ul class="cFix">
-                            <li><a href="/home-page/en/company/"><span>会社情報</span></a></li>
-                            <li><a href="/home-page/en/philosophy/"><span>経営理念</span></a></li>
-                            <li><a href="/home-page/en/business/"><span>事業内容</span></a></li>
-                            <li><a href="/home-page/en/recruit/"><span>採用情報</span></a></li>
-                            <li><a href="/home-page/en/security/" class="navpc-active"><span>情報セキュリティ</span></a></li>
+                            <li><a href="/home-page/en/company/"><span>Company</span></a></li>
+                            <li><a href="/home-page/en/philosophy/"><span>Philosophy</span></a></li>
+                            <li><a href="/home-page/en/business/"><span>Business</span></a></li>
+                            <li><a href="/home-page/en/recruit/"><span>Recruit</span></a></li>
+                            <li><a href="/home-page/en/security/" class="navpc-active"><span>Security Info</span></a></li>
                         </ul>
                     </nav>
                     <div class="h-utility">
@@ -66,11 +66,11 @@
         <nav id="globalNav" class="globalNav">
             <div class="globalNav-inner">
                 <ul class="nav-sp">
-                    <li><a href="/home-page/en/company/"><span>会社情報</span></a></li>
-                    <li><a href="/home-page/en/philosophy/"><span>経営理念</span></a></li>
-                    <li><a href="/home-page/en/business/"><span>事業内容</span></a></li>
-                    <li><a href="/home-page/en/recruit/"><span>採用情報</span></a></li>
-                    <li><a href="/home-page/en/security/"><span>情報セキュリティ</span></a></li>
+                    <li><a href="/home-page/en/company/"><span>Company</span></a></li>
+                    <li><a href="/home-page/en/philosophy/"><span>Philosophy</span></a></li>
+                    <li><a href="/home-page/en/business/"><span>Business</span></a></li>
+                    <li><a href="/home-page/en/recruit/"><span>Recruit</span></a></li>
+                    <li><a href="/home-page/en/security/"><span>Security Info</span></a></li>
                 </ul>
                 <div class="h-utility">
                     <ul class="cFix">
@@ -87,7 +87,7 @@
         <div class="sub-banner">
             <canvas class="particlesBg"></canvas>
             <div class="sub-bannerIn c-w1170">
-                <h2 class="sub-ttl">情報セキュリティ</h2>
+                <h2 class="sub-ttl">Information Security</h2>
                 <img src="/home-page/assets/img/philosophy/bnr_img.jpg" class="sub-bannerImg" alt="">
             </div>
         </div>
@@ -95,33 +95,33 @@
         <div class="content">
         <section class="security-page">
             <div class="c-w1170">
-                <h2 class="ttl-subpage"><span class="text-un-yellow">情報セキュリティ方針</span></h2>
+                <h2 class="ttl-subpage"><span class="text-un-yellow">Information Security Policy</span></h2>
                 <div class="letter">
                     <div class="cFix">
                         <p class="letter-lead-txt">
-                        情報技術の発展とネットワークの拡大に伴い、昨今の度重なるセキュリティ事件は社会問題化しています。<br>STAR SE 株式会社（以下、当社という）は取り扱う全ての情報資産を保護することは当社の事業活動において重要な経営課題と認識し、 社会とお客様の信頼に応えるために「情報セキュリティ方針」を定め、これを実施し推進することを宣言します。
+                            With the development of information technology and the expansion of networks, the repeated security incidents have become a social problem in recent.<br>STAR SE Co., Ltd. recognizes that protecting all the information assets it handles is an important management issue in our business activities and has established an "Information Security policy" to earn the trust of society and customers.
                         </p>
                         <ul class="list alpha-list">
                             <li>
-                                <p class="alpha-ls"><span>a）</span>情報セキュリティ方針<br>情報技術の発展とネットワークの拡大に伴い、昨今の度重なるセキュリティ事件は社会問題化しています。 <br>STAR SE 株式会社（以下、当社という）は取り扱う全ての情報資産を保護することは当社の事業活動において重要な経営課題と認識し、社会とお客様の信頼に応えるために「情報セキュリティ方針」を定め、これを実施し推進することを宣言します。</p>
+                                <p class="alpha-ls"><span>a）</span>Information Security Policy<br>With the development of information technology and the expansion of networks, the repeated security incidents have become a social problem in recent.<br>STAR SE Co., Ltd (hereinafter referred to as "our company") recognizes that protecting all the information assets it handles is an important management issue in our business activities and has established an "Information Security policy" to earn the trust of society and customers.</p>
                             </li>
                             <li>
-                                <p class="alpha-ls"><span>b）</span>目標<br>当社は、情報システムの完全性及び可用性が損なわれることがないように、重要情報の盗難・紛失・改ざん・き損等の事故の発生件数をゼロとすることを目標とします。</p>
+                                <p class="alpha-ls"><span>b）</span>Target<br>Our company aims for zero number of accident occurrences such as theft, loss, falsification, and damage of important information so that the integrity and availability of the information system will not be impaired.</p>
                             </li>
                             <li>
-                                <p class="alpha-ls"><span>c）</span>セキュリティマネジメントシステムの継続的改善<br>当社は、情報システム及び取り扱う情報についてセキュリティの遵守状況を監査し、セキュリティ状態の継続確保に努め「情報セキュリティマネジメントシステム」の継続的な改善を実施します。</p>
+                                <p class="alpha-ls"><span>c）</span>Continuous improvement of security management system<br>Our company audit the security compliance status of the information. We handle information systems and strive to ensure the continuous security status and continuously improve the ""information security management system</p>
                             </li>
                             <li>
-                                <p class="alpha-ls"><span>d）</span>リスクの継続的評価<br>当社は、情報システム及び取り扱う情報の資産価値を評価してそれらが漏洩した場合の脅威によってリスクのレベルを規程とし、保護の対策を明確にしてリスクアセスメントを確立してお客様の情報漏洩対策を実施します。</p>
+                                <p class="alpha-ls"><span>d）</span>Ongoing Assessment of Risks<br>Our Company evaluates the asset value of the information we handle and the information system and will set the risk level according to the threat when they are leaked, clarify the protection measures, establish the risk assessment,and implement customers' information leakage measures.</p>
                             </li>
                             <li>
-                                <p class="alpha-ls"><span>e）</span>法令等への準拠<br>当社は、情報セキュリティに関する法令およびそれらに準じる規範を遵守します。</p>
+                                <p class="alpha-ls"><span>e）</span>Compliance with laws and regulations<br>Our Company comply with information security laws and regulations and norms.</p>
                             </li>
                         </ul>
                         <div class="letter-b-txt">
-                            <p>２０２０年６月１２日</p>
-                            <p>ＳＴＡＲ　ＳＥ株式会社</p>
-                            <p>代表取締役　金本　香蘭</p>
+                            <p>2020/06/12</p>
+                            <p>STAR SE Co., Ltd.</p>
+                            <p>Representative Director Kanemoto Kouran</p>
                         </div>
                     </div>
                 </div>
@@ -130,24 +130,24 @@
         </div>
         <div class="footerLogo">
             <div class="c-w1420 cFix">
-                <span class="footerLogoImg"><a href="#"><img src="/home-page/assets/img/common/footer_logo2.png" alt="STAR SE株式会社"></a></span>
+            <span class="footerLogoImg"><a href="#"><img src="/home-page/assets/img/common/footer_logo2.png" alt="STAR SE Co., Ltd."></a></span>
             </div> 
         </div>
         <!-- footerLogo -->
         <footer>
             <div class="footerBlock">
-                <p class="ftLogoText sp-s-show">STAR SE株式会社</p>
+                <p class="ftLogoText sp-s-show">STAR SE Co., Ltd.</p>
                 <div class="ftInner c-w1300 cFix">
                     <div class="ftLogo">
-                        <img src="/home-page/assets/img/common/footer_logo.png" alt="STAR SE株式会社">
+                        <img src="/home-page/assets/img/common/footer_logo.png" alt="STAR SE Co., Ltd.">
                     </div>
                     <div class="ftDesp">
-                        <p class="ftLogoText sp-s-none">STAR SE株式会社</p>
+                        <p class="ftLogoText sp-s-none">STAR SE Co., Ltd.</p>
                         <div class="ftAddress">
                             <ul>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_homeaddress.png" alt=""></span>
-                                    <p class="ftAddress-info">〒104-0043<br>東京都中央区湊2丁目4-1 ＴＯＭＡＣビル 5階</p>
+                                    <p class="ftAddress-info">〒104-0043<br>5th floor, TOMAC Building, 2-4-1 Minato, Chuo-ku, Tokyo</p>
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_phone.png" alt=""></span>
@@ -162,9 +162,9 @@
                     </div>
                 </div>
             </div>
-            <p id="page-top"><a href="javascript:void(0)">&#8593;</a></p>
+            <p id="page-top"><a href="javascript:void(0)">&#8593;</a></p> 
             <div class="copyRight bg-green">
-                <p>&copy; Copyright STAR SE株式会社. All Rights Reserved</p>
+                <p>&copy; Copyright STAR SE Co., Ltd. All Rights Reserved</p>
             </div>
         </footer>
         <!-- footer -->

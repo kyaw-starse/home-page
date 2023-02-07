@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="/home-page/assets/css/pc_style.css">
     <link rel="stylesheet" href="/home-page/assets/css/sp_style.css">
     <script src="/home-page/assets/js/jquery.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <!-- Template Main CSS File -->
     <link href="/home-page/assets/css/style.css" rel="stylesheet">
 </head>
@@ -97,7 +98,7 @@
         <section class="form-secblock">
             <div class="c-w1170">
                 <div class="form-block letter">
-                    <form action="entry/entry-clerical-sales.php" method="post" role="form" class="php-email-form" id="entry-clerical-sales-form">
+                    <form action="entry/entry-clerical-sales.php" method="post" role="form" class="php-email-form" id="entry-clerical-sales-form" enctype="multipart/form-data">
                         <div class="form-row form-mb">
                             <div class="form-col2">
                                 <label for="kaishamei" class="form-label">姓名<span class="require">*</span>(漢字)</label>
@@ -155,29 +156,29 @@
                         </div>
                         <div class="form-row form-mb">
                             <div class="form-col1">
-                                <label for="" class="form-label">希望の契約形態</label>
+                                <label for="employeeType" class="form-label">希望の契約形態</label>
                                 <div class="form-row2 form-inputRadio">
                                     <div class="form-col6">
                                         <label for="seyi">
-                                            <input type="radio" name="employeeType" id="seyi" checked>
+                                            <input type="radio" value="正社員"  name="employeeType" id="seyi" checked>
                                             <span class="form-radio-text">正社員</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="keyiyaku">
-                                            <input type="radio" name="employeeType" id="keyiyaku">
+                                            <input type="radio" value="契約社員"  name="employeeType" id="keyiyaku">
                                             <span class="form-radio-text">契約社員</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="haken">
-                                            <input type="radio" name="employeeType" id="haken">
+                                            <input type="radio" value="派遣社員" name="employeeType"  id="haken" >
                                             <span class="form-radio-text">派遣社員</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="gyoumu">
-                                            <input type="radio" name="employeeType" id="gyoumu">
+                                            <input type="radio" value="業務委託"  name="employeeType" id="gyoumu" >
                                             <span class="form-radio-text">業務委託</span>
                                         </label>
                                     </div>
@@ -190,13 +191,13 @@
                                 <div class="form-row2 form-inputCheckbox">
                                     <div class="form-col6">
                                         <label for="eyigyo">
-                                            <input type="checkbox" name="syokusyu[]" id="eyigyo">
+                                            <input type="checkbox" value="営業" name="syokusyu[]" id="eyigyo" >
                                             <span class="form-checkbox">営業</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="zimu">
-                                            <input type="checkbox" name="syokusyu[]" id="zimu">
+                                            <input type="checkbox" value="事務" name="syokusyu[]" id="zimu" >
                                             <span class="form-checkbox">事務</span>
                                         </label>
                                     </div>
@@ -218,9 +219,9 @@
                         </div>
                         <div class="form-row form-mb">
                             <div class="form-col1">
-                                <label for="" class="form-label">備考<span class="require">*</span></label>
+                                <label for="area" class="form-label">備考<span class="require">*</span></label>
                                 <div class="form-textarea">
-                                    <textarea name="" cols="50" rows="5" placeholder="※200字以内で入力してください。"></textarea>
+                                    <textarea name="area" cols="50" rows="5" placeholder="※200字以内で入力してください。"></textarea>
                                 </div>
                             </div>
                         </div>
@@ -271,10 +272,7 @@
                         <div class="form-row">
                             <div class="form-col1">
                                 <div class="sec-btn02">
-                                <button type="submit" class="contact_send btn02" class="g-recaptcha" id='contact_send'
-                                        data-sitekey="6Ld24EokAAAAANLLsb10Dq3dFKLCJctrGXXPDnjZ" 
-                                        data-callback='onSubmit' 
-                                        data-action='submit'>送信</button>
+                                <button type="submit" class="contact_send btn02" class="g-recaptcha" id='contact_send'>送信</button>
                                 </div>
                             </div>
                         </div>

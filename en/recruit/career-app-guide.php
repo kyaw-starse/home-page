@@ -35,11 +35,11 @@
                 <div class="h-right cFix">
                     <nav class="nav-pc">
                         <ul class="cFix">
-                            <li><a href="/home-page/en/company/"><span>会社情報</span></a></li>
-                            <li><a href="/home-page/en/philosophy/"><span>経営理念</span></a></li>
-                            <li><a href="/home-page/en/business/"><span>事業内容</span></a></li>
-                            <li><a href="/home-page/en/recruit/" class="navpc-active"><span>採用情報</span></a></li>
-                            <li><a href="/home-page/en/security/"><span>情報セキュリティ</span></a></li>
+                            <li><a href="/home-page/en/company/"><span>Company</span></a></li>
+                            <li><a href="/home-page/en/philosophy/"><span>Philosophy</span></a></li>
+                            <li><a href="/home-page/en/business/"><span>Business</span></a></li>
+                            <li><a href="/home-page/en/recruit/" class="navpc-active"><span>Recruit</span></a></li>
+                            <li><a href="/home-page/en/security/"><span>Security Info</span></a></li>
                         </ul>
                     </nav>
                     <div class="h-utility">
@@ -66,11 +66,11 @@
         <nav id="globalNav" class="globalNav">
             <div class="globalNav-inner">
                 <ul class="nav-sp">
-                    <li><a href="/home-page/en/company/"><span>会社情報</span></a></li>
-                    <li><a href="/home-page/en/philosophy/"><span>経営理念</span></a></li>
-                    <li><a href="/home-page/en/business/"><span>事業内容</span></a></li>
-                    <li><a href="/home-page/en/recruit/"><span>採用情報</span></a></li>
-                    <li><a href="/home-page/en/security/"><span>情報セキュリティ</span></a></li>
+                    <li><a href="/home-page/en/company/"><span>Company</span></a></li>
+                    <li><a href="/home-page/en/philosophy/"><span>Philosophy</span></a></li>
+                    <li><a href="/home-page/en/business/"><span>Business</span></a></li>
+                    <li><a href="/home-page/en/recruit/"><span>Recruit</span></a></li>
+                    <li><a href="/home-page/en/security/"><span>Security Info</span></a></li>
                 </ul>
                 <div class="h-utility">
                     <ul class="cFix">
@@ -87,7 +87,7 @@
         <div class="sub-banner">
             <canvas class="particlesBg"></canvas>
             <div class="sub-bannerIn c-w1170">
-                <h2 class="sub-ttl">システムエンジニア募集要項</h2>
+                <h2 class="sub-ttl">System Engineer Recruitment Guidelines</h2>
                 <img src="/home-page/assets/img/philosophy/bnr_img.jpg" class="sub-bannerImg" alt="">
             </div>
         </div>
@@ -96,9 +96,9 @@
         <section class="sec-carrer01">
             <div class="c-w1170">
                 <span id="sec-carrer01" class="anchorpos"></span>
-                <h2 class="ttl-subpage"><span class="text-un-yellow">システムエンジニア</span></h2>
+                <h2 class="ttl-subpage"><span class="text-un-yellow">System Engineer</span></h2>
                 <div>
-                    <p class="private-lead-txt ">プログラマからシステムエンジニア へのキャリアアップ、プロジェクトリーダーや上級システムエンジニアをめざす方、 オブジェクト指向技術を身につけたい方、資格取得してスキルアップをめざす方を求めています。</p>
+                    <p class="private-lead-txt ">We are looking for people who want to advance their careers from programmers to system engineers, who want to become project leaders and senior system engineers, who want to acquire object-oriented technology, and who want to acquire qualifications and improve their skills.</p>
                     <div class="sec-table table-style01">
                         <table>
                             <colgroup>
@@ -107,106 +107,106 @@
 							</colgroup>
                             <tr>
                                 <th>
-                                    <p>仕事内容</p>
+                                    <p>Job Description</p>
                                 </th>
                                 <td>
-                                    <p>Web アプリケーション、流通等の業務アプリケーションの設計、開発、導入および運用まで、あなたのご経験やご希望に合った開発プロジェクトを用意しています。</p>
+                                    <p>We offer development projects that match your experience and desires, from the design, development, introduction and operation of business applications such as web applications and distribution.</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>経験</p>
+                                    <p>Experience</p>
                                 </th>
                                 <td>
                                     <p>
-                                    Windows、UNIX環境でのJava、C、C++、C#、Perl、PHP、VB、Delphi等のシステム開発経験1 年以上の方。※ いずれかの経験があれば、他は未経験でも歓迎します。※ 外国人の方、大歓迎です。</p>
+                                    More than 1 year of system development experience in Java, C, C++, C#, Perl, PHP, VB, Delphi, etc. in a Windows or UNIX environment. * If you have any experience, you are welcome even if you have no other experience. *Foreigners are welcome.</p>
                                 </td>
                             </tr>
                             
                             <tr>
                                 <th>
-                                    <p>学歴</p>
+                                    <p>Educational Background</p>
                                 </th>
                                 <td>
-                                    <p>不問</p>
+                                    <p>no question</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>年齢</p>
+                                    <p>Age</p>
                                 </th>
                                 <td>
-                                    <p>不問</p>
+                                    <p>no question</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>給与</p>
+                                    <p>Salary</p>
                                 </th>
                                 <td>
-                                    <p>	経験・スキル・前給等を十分考慮し、相談の上決定します。</p>
+                                    <p>	Experience, skills, advance salary, etc. will be fully considered and decided after consultation.</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>諸手当</p>
+                                    <p>Allowances</p>
                                 </th>
                                 <td>
-                                    <p>時間外手当、交通費全額支給など</p>
+                                    <p>Overtime allowance, full payment of transportation expenses, etc.</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>賞与</p>
+                                    <p>bonus</p>
                                 </th>
                                 <td>
-                                    <p>年2回 (7 月、12 月)</p>
+                                    <p>Twice a year (July, December)</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>勤務地</p>
+                                    <p>Work location</p>
                                 </th>
                                 <td>
-                                    <p>東京、神奈川県、千葉県、埼玉県</p>
+                                    <p>Tokyo, Kanagawa Prefecture, Chiba Prefecture, Saitama Prefecture</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>勤務時間</p>
+                                    <p>Working hours</p>
                                 </th>
                                 <td>
-                                    <p>09:00～18:00 ※プロジェクト毎に異なります。</p>
+                                    <p>09:00-18:00 *Varies by project.</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>福利厚生</p>
+                                    <p>Welfare</p>
                                 </th>
                                 <td>
-                                    <p>健康保険、厚生年金、労働保険。働く上で必要となる社会保険は、各種完備</p>
+                                    <p>Health insurance, welfare pension, labor insurance. Various types of social insurance necessary for working</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>教育制度</p>
+                                    <p>Education System</p>
                                 </th>
                                 <td>
-                                    <p>OJT、Java、PHP、社内講座、グローバル言語（日本語・英語）講座など</p>
+                                    <p>OJT, Java, PHP, in-house courses, global language (Japanese/English) courses, etc.</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>休日・休暇</p>
+                                    <p>Holidays/Vacations</p>
                                 </th>
                                 <td>
-                                    <p>完全週休二日制（ 土・日）祝日、有給休暇（初年度10 日付与）、産前産後や慶弔等の特別休暇</p>
+                                    <p>Full weekly five-day system (Saturdays and Sundays), public holidays, paid vacation (10 days granted in the first year), special leave before and after childbirth, congratulations and condolences</p>
                                 </td>
                             </tr>
                         </table>
                     </div>
                     <div class="sec-btn02">
-                        <a href="/home-page/en/form/" class="btn02">エントリー</a>
+                        <a href="/home-page/en/form/" class="btn02">Entry</a>
                     </div>
                 </div>
             </div>
@@ -214,9 +214,9 @@
         <section class="sec-carrer02 bg-green-light">
             <div class="c-w1170">
                 <span id="sec-carrer02" class="anchorpos"></span>
-                <h2 class="ttl-subpage"><span class="text-un-yellow">インフラエンジニア</span></h2>
+                <h2 class="ttl-subpage"><span class="text-un-yellow">Infrastructure Engineer</span></h2>
                 <div>
-                    <p class="private-lead-txt ">インフラ基盤(サーバ/ストレージ/ネットワークなど)構築経験、 または、ミドルウェア(OpenView/Systemwalker/JP1など)の導入・構築経験してきた方を求めています。</p>
+                    <p class="private-lead-txt ">We are looking for someone who has experience in building infrastructure (servers/storage/networks, etc.), or experience installing and building middleware (OpenView/Systemwalker/JP1, etc.).</p>
                     <div class="sec-table table-style01">
                         <table>
                             <colgroup>
@@ -225,104 +225,104 @@
 							</colgroup>
                             <tr>
                                 <th>
-                                    <p>仕事内容</p>
+                                    <p>Job Description</p>
                                 </th>
                                 <td>
-                                    <p>物理サーバ/仮想サーバ(ミドルウェア含む)、ストレージ、ネットワーク等のインフラ基盤の設計、構築および運用まで、 あなたのご経験やご希望に合ったインフラ基盤プロジェクトを用意しています。</p>
+                                    <p>We offer infrastructure projects that match your experience and desires, from the design, construction and operation of infrastructure such as physical servers/virtual servers (including middleware), storage, and networks.</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>経験</p>
+                                    <p>Experience</p>
                                 </th>
                                 <td>
-                                    <p>インフラ基盤構築経験やミドルウェアの導入/構築経験など1 年以上の方。※ いずれかの経験があれば、他は未経験でも歓迎します。※ 外国人の方、大歓迎です。 </p>
+                                    <p>One or more years of experience in building infrastructure infrastructure and introducing/building middleware. * If you have any experience, you are welcome even if you have no other experience. *Foreigners are welcome. </p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>学歴</p>
+                                    <p>Educational Background</p>
                                 </th>
                                 <td>
-                                    <p>不問</p>
+                                    <p>no question</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>年齢</p>
+                                    <p>Age</p>
                                 </th>
                                 <td>
-                                    <p>不問</p>
+                                    <p>no question</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>給与</p>
+                                    <p>Salary</p>
                                 </th>
                                 <td>
-                                    <p>	経験・スキル・前給等を十分考慮し、相談の上決定します。</p>
+                                    <p>	Experience, skills, advance salary, etc. will be fully considered and decided after consultation.</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>諸手当</p>
+                                    <p>Allowances</p>
                                 </th>
                                 <td>
-                                    <p>時間外手当、交通費全額支給など</p>
+                                    <p>Overtime allowance, full payment of transportation expenses, etc.</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>賞与</p>
+                                    <p>Bonus</p>
                                 </th>
                                 <td>
-                                    <p>年2回 (7 月、12 月)</p>
+                                    <p>Twice a year (July, December)</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>勤務地</p>
+                                    <p>Work Location</p>
                                 </th>
                                 <td>
-                                    <p>東京、神奈川県、千葉県、埼玉県</p>
+                                    <p>Tokyo, Kanagawa Prefecture, Chiba Prefecture, Saitama Prefecture</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>勤務時間</p>
+                                    <p>Working hours</p>
                                 </th>
                                 <td>
-                                    <p>09:00～18:00 ※プロジェクト毎に異なります。</p>
+                                    <p>09:00-18:00 *Varies by project.</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>福利厚生</p>
+                                    <p>Welfare</p>
                                 </th>
                                 <td>
-                                    <p>健康保険、厚生年金、労働保険。働く上で必要となる社会保険は、各種完備</p>
+                                    <p>Health insurance, welfare pension, labor insurance. Various types of social insurance necessary for working</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>教育制度</p>
+                                    <p>Education System</p>
                                 </th>
                                 <td>
-                                    <p>OJT、社内講座、グローバル言語（日本語・英語）講座など</p>
+                                    <p>On-the-job training, in-house courses, global language (Japanese/English) courses, etc.</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>休日・休暇</p>
+                                    <p>Holidays/Vacations</p>
                                 </th>
                                 <td>
-                                    <p>完全週休二日制（ 土・日）祝日、有給休暇（初年度10 日付与）、産前産後や慶弔等の特別休暇</p>
+                                    <p>Full weekly five-day system (Saturdays and Sundays), public holidays, paid vacation (10 days granted in the first year), special leave before and after childbirth, congratulations and condolences</p>
                                 </td>
                             </tr>
                         </table>
                     </div>
                     <div class="sec-btn02">
-                        <a href="/home-page/en/form/entry-infraEngineer.php" class="btn02">エントリー</a>
+                        <a href="/home-page/en/form/entry-infraEngineer.php" class="btn02">Entry</a>
                     </div>
                 </div>
             </div>
@@ -330,9 +330,9 @@
         <section class="sec-carrer03">
             <div class="c-w1170">
                 <span id="sec-carrer03" class="anchorpos"></span>
-                <h2 class="ttl-subpage"><span class="text-un-yellow">事務・営業</span></h2>
+                <h2 class="ttl-subpage"><span class="text-un-yellow">Office Work/sales</span></h2>
                 <div>
-                    <p class="private-lead-txt ">エンドユーザーや大手SIerへのシステム開発案件の営業担当者を求めています。</p>
+                    <p class="private-lead-txt ">We are looking for a sales representative for system development projects for end users and major system integrators.</p>
                     <div class="sec-table table-style01">
                         <table>
                             <colgroup>
@@ -341,110 +341,110 @@
 							</colgroup>
                             <tr>
                                 <th>
-                                    <p>仕事内容</p>
+                                    <p>Job Description</p>
                                 </th>
                                 <td>
-                                    <p>＜資料作成などの事務業務全般をお任せします＞
-基本的なPCスキル（Excel・Word）や、電話応対など一般的なビジネスマナーがあれば、はじめられる仕事です。
-書類チェックや電話・来客対応等のサポート業務を通じて、会社を支えていただく仕事です。
-まずは簡単な業務からはじめ、徐々にステップアップ。
-未経験でもムリなくスタートできます！</p>
+                                    <p><We will entrust general office work such as document preparation>
+If you have basic PC skills (Excel / Word) and general business manners such as answering the phone, you can start a job.
+It is a job to support the company through support work such as checking documents and responding to telephone calls and visitors.
+Start with simple tasks and work your way up.
+Even if you are inexperienced, you can start without difficulty!</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>経験</p>
+                                    <p>Experience</p>
                                 </th>
                                 <td>
-                                    <p>システムやPCについての問い合わせ対応、エンジニアのサポート業務を中心とした事務業務の経験など1 年以上の方。<br>
-※ いずれかの経験がなく、未経験でも歓迎します。<br>
-※ 外国人の方、大歓迎です。</p>
+                                    <p>Persons with more than 1 year of experience in office work, such as responding to inquiries about systems and PCs, and support work for engineers. <br>
+* We welcome applicants who have no experience in any of these areas and are inexperienced. <br>
+*Foreigners are welcome.</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>学歴</p>
+                                    <p>Educational Background</p>
                                 </th>
                                 <td>
-                                    <p>不問</p>
+                                    <p>no question</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>年齢</p>
+                                    <p>Age</p>
                                 </th>
                                 <td>
-                                    <p>不問</p>
+                                    <p>no question</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>給与</p>
+                                    <p>Salary</p>
                                 </th>
                                 <td>
-                                    <p>	経験・スキル・前給等を十分考慮し、相談の上決定します。</p>
+                                    <p>	Experience, skills, advance salary, etc. will be fully considered and decided after consultation.</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>諸手当</p>
+                                    <p>Allowances</p>
                                 </th>
                                 <td>
-                                    <p>時間外手当、交通費全額支給など</p>
+                                    <p>Overtime allowance, full payment of transportation expenses, etc.</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>賞与</p>
+                                    <p>Bonus</p>
                                 </th>
                                 <td>
-                                    <p>年2回 (7 月、12 月)</p>
+                                    <p>Twice a year (July, December)</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>勤務地</p>
+                                    <p>Work location</p>
                                 </th>
                                 <td>
-                                    <p>本社（中央区日本橋）</p>
+                                    <p>Head office (Nihonbashi, Chuo-ku)</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>勤務時間</p>
+                                    <p>Working hours</p>
                                 </th>
                                 <td>
-                                    <p>09:00～18:00 ※プロジェクト毎に異なります。</p>
+                                    <p>09:00-18:00 *Varies by project.</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>福利厚生</p>
+                                    <p>Welfare</p>
                                 </th>
                                 <td>
-                                    <p>健康保険、厚生年金、労働保険。働く上で必要となる社会保険は、各種完備</p>
+                                    <p>Health insurance, welfare pension, labor insurance. Various types of social insurance necessary for working</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>教育制度</p>
+                                    <p>Education System</p>
                                 </th>
                                 <td>
-                                    <p>OJT、社内講座、グローバル言語（日本語・英語）講座など</p>
+                                    <p>On-the-job training, in-house courses, global language (Japanese/English) courses, etc.</p>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
-                                    <p>休日・休暇</p>
+                                    <p>Holidays/Vacations</p>
                                 </th>
                                 <td>
-                                    <p>完全週休二日制（ 土・日）祝日、有給休暇（初年度10 日付与）、産前産後や慶弔等の特別休暇</p>
+                                    <p>Full weekly five-day system (Saturdays and Sundays), public holidays, paid vacation (10 days granted in the first year), special leave before and after childbirth, congratulations and condolences</p>
                                 </td>
                             </tr>
                         </table>
                     </div>
                     <div class="sec-btn02">
-                        <a href="/home-page/en/form/entry-clerical-sales.php" class="btn02">エントリー</a>
+                        <a href="/home-page/en/form/entry-clerical-sales.php" class="btn02">Entry</a>
                     </div>
                 </div>
             </div>
@@ -464,12 +464,12 @@
                         <img src="/home-page/assets/img/common/footer_logo.png" alt="STAR SE株式会社">
                     </div>
                     <div class="ftDesp">
-                        <p class="ftLogoText sp-s-none">STAR SE株式会社</p>
+                        <p class="ftLogoText sp-s-none">STAR SE Co., Ltd.</p>
                         <div class="ftAddress">
                             <ul>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_homeaddress.png" alt=""></span>
-                                    <p class="ftAddress-info">〒104-0043<br>東京都中央区湊2丁目4-1 ＴＯＭＡＣビル 5階</p>
+                                    <p class="ftAddress-info">〒104-0043<br>5th floor, TOMAC Building, 2-4-1 Minato, Chuo-ku, Tokyo</p>
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_phone.png" alt=""></span>
@@ -486,7 +486,7 @@
             </div>
             <p id="page-top"><a href="javascript:void(0)">&#8593;</a></p>
             <div class="copyRight bg-green">
-                <p>&copy; Copyright STAR SE株式会社. All Rights Reserved</p>
+                <p>&copy; Copyright STAR SE Co., Ltd. All Rights Reserved</p>
             </div>
         </footer>
         <!-- footer -->

@@ -10,7 +10,7 @@
     <meta name="google-site-verification" content="Dg_pvHrLYsE_PNW7oubm3Xw5aWYEPksmjpJwXLBG0Sk"/>
     <link rel="shortcut icon" href="/home-page/assets/img/common/favicon.png" type="image/x-icon">
     <link rel="icon" href="/home-page/assets/img/common/favicon.png" type="image/x-icon">
-    <title>経営理念</title>
+    <title>Philosophy</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/home-page/assets/css/import.css">
     <link rel="stylesheet" href="/home-page/assets/css/aos.css">
@@ -35,11 +35,11 @@
                 <div class="h-right cFix">
                     <nav class="nav-pc">
                         <ul class="cFix">
-                            <li><a href="/home-page/en/company/"><span>会社情報</span></a></li>
-                            <li><a href="/home-page/en/philosophy/" class="navpc-active"><span>経営理念</span></a></li>
-                            <li><a href="/home-page/en/business/"><span>事業内容</span></a></li>
-                            <li><a href="/home-page/en/recruit/"><span>採用情報</span></a></li>
-                            <li><a href="/home-page/en/security/"><span>情報セキュリティ</span></a></li>
+                            <li><a href="/home-page/en/company/"><span>Company</span></a></li>
+                            <li><a href="/home-page/en/philosophy/" class="navpc-active"><span>Philosophy</span></a></li>
+                            <li><a href="/home-page/en/business/"><span>Business</span></a></li>
+                            <li><a href="/home-page/en/recruit/"><span>Recruit</span></a></li>
+                            <li><a href="/home-page/en/security/"><span>Security Info</span></a></li>
                         </ul>
                     </nav>
                     <div class="h-utility">
@@ -66,11 +66,11 @@
         <nav id="globalNav" class="globalNav">
             <div class="globalNav-inner">
                 <ul class="nav-sp">
-                    <li><a href="/home-page/en/company/"><span>会社情報</span></a></li>
-                    <li><a href="/home-page/en/philosophy/"><span>経営理念</span></a></li>
-                    <li><a href="/home-page/en/business/"><span>事業内容</span></a></li>
-                    <li><a href="/home-page/en/recruit/"><span>採用情報</span></a></li>
-                    <li><a href="/home-page/en/security/"><span>情報セキュリティ</span></a></li>
+                    <li><a href="/home-page/en/company/"><span>Company</span></a></li>
+                    <li><a href="/home-page/en/philosophy/"><span>Philosophy</span></a></li>
+                    <li><a href="/home-page/en/business/"><span>Business</span></a></li>
+                    <li><a href="/home-page/en/recruit/"><span>Recruit</span></a></li>
+                    <li><a href="/home-page/en/security/"><span>Security Info</span></a></li>
                 </ul>
                 <div class="h-utility">
                     <ul class="cFix">
@@ -87,7 +87,7 @@
         <div class="sub-banner">
             <canvas class="particlesBg"></canvas>
             <div class="sub-bannerIn c-w1170">
-                <h2 class="sub-ttl">経営理念</h2>
+                <h2 class="sub-ttl">Management Philosophy</h2>
                 <img src="/home-page/assets/img/philosophy/bnr_img.jpg" class="sub-bannerImg" alt="">
             </div>
         </div>
@@ -103,12 +103,12 @@
                         </div>
                     </div>
                     <div class="philoRight">
-                        <h2 class="philo-ttl">技術サポート・サービス提供</h2>
+                        <h2 class="philo-ttl">Providing technical support and services</h2>
                         <p class="philo-txt">
-                            弊社は、IT関連の専門的な知識・経験を持った「プロフェッショナル」の集団です。<br>
-                            私たちは、誠実な心をもって、全世界に通じる技術サポート・サービス提供に全力をあげ、社会に貢献すると同時に、会社及び全従業員の繁栄を推進することをむねとします。<br>
-                            我々の繁栄はお客様と共にあります。<br>
-                            すべての取組をお客様の視点から始め、熱意を持って邁進します。
+                            We are a group of "professionals" with specialized IT-related knowledge and experience.<br>
+                            With a sincere heart, we will do our best to provide technical support and services that can be used all over the world, contribute to society, and at the same time promote the prosperity of the company and all employees.<br>
+                            Our prosperity is with our customers.<br>
+                            We will start all our efforts from the customer's point of view and push forward with enthusiasm.
                         </p>
                     </div>
                 </div>
@@ -120,8 +120,8 @@
                         </div>
                     </div>
                     <div class="philoRight">
-                        <h2 class="philo-ttl">品質の維持</h2>
-                        <p class="philo-txt">我々の専門的な知識、現場での運用経験を活かし、ハイクオリティー・ローコストのITシステムを開発、構築、運用し、製品の安全性と品質の維持に努めます。</p>
+                        <h2 class="philo-ttl">Maintaining Quality</h2>
+                        <p class="philo-txt">Utilizing our specialized knowledge and on-site operational experience, we develop, build, and operate high-quality, low-cost IT systems, and strive to maintain the safety and quality of our products.</p>
                     </div>
                 </div>
                 <div class="philosophyBox">
@@ -132,8 +132,8 @@
                         </div>
                     </div>
                     <div class="philoRight">
-                        <h2 class="philo-ttl">最後までやり遂げる</h2>
-                        <p class="philo-txt">困難や逆境にあっても決してあきらめず、知恵を絞って結果にこだわり続けます。</p>
+                        <h2 class="philo-ttl">Finish through the end</h2>
+                        <p class="philo-txt">We will never give up even in the face of difficulties and adversity, and will continue to focus on results by focusing our wisdom.</p>
                     </div>
                 </div>
             </div>
@@ -141,24 +141,24 @@
         </div>
         <div class="footerLogo">
             <div class="c-w1420 cFix">
-                <span class="footerLogoImg"><a href="#"><img src="/home-page/assets/img/common/footer_logo2.png" alt="STAR SE株式会社"></a></span>
+                <span class="footerLogoImg"><a href="#"><img src="/home-page/assets/img/common/footer_logo2.png" alt="STAR SE Co., Ltd."></a></span>
             </div> 
         </div>
         <!-- footerLogo -->
         <footer>
             <div class="footerBlock">
-                <p class="ftLogoText sp-s-show">STAR SE株式会社</p>
+                <p class="ftLogoText sp-s-show">STAR SE Co., Ltd.</p>
                 <div class="ftInner c-w1300 cFix">
                     <div class="ftLogo">
-                        <img src="/home-page/assets/img/common/footer_logo.png" alt="STAR SE株式会社">
+                        <img src="/home-page/assets/img/common/footer_logo.png" alt="STAR SE Co., Ltd.">
                     </div>
                     <div class="ftDesp">
-                        <p class="ftLogoText sp-s-none">STAR SE株式会社</p>
+                        <p class="ftLogoText sp-s-none">STAR SE Co., Ltd.</p>
                         <div class="ftAddress">
                             <ul>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_homeaddress.png" alt=""></span>
-                                    <p class="ftAddress-info">〒104-0043<br>東京都中央区湊2丁目4-1 ＴＯＭＡＣビル 5階</p>
+                                    <p class="ftAddress-info">〒104-0043<br>5th floor, TOMAC Building, 2-4-1 Minato, Chuo-ku, Tokyo</p>
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_phone.png" alt=""></span>
@@ -173,9 +173,9 @@
                     </div>
                 </div>
             </div>
-            <p id="page-top"><a href="javascript:void(0)">&#8593;</a></p>
+            <p id="page-top"><a href="javascript:void(0)">&#8593;</a></p> 
             <div class="copyRight bg-green">
-                <p>&copy; Copyright STAR SE株式会社. All Rights Reserved</p>
+                <p>&copy; Copyright STAR SE Co., Ltd. All Rights Reserved</p>
             </div>
         </footer>
         <!-- footer -->

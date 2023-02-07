@@ -10,7 +10,7 @@
     <meta name="google-site-verification" content="Dg_pvHrLYsE_PNW7oubm3Xw5aWYEPksmjpJwXLBG0Sk"/>
     <link rel="shortcut icon" href="/home-page/assets/img/common/favicon.png" type="image/x-icon">
     <link rel="icon" href="/home-page/assets/img/common/favicon.png" type="image/x-icon">
-    <title>情報セキュリティ｜個人</title>
+    <title>Security Info｜Individuals</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/home-page/assets/css/import.css">
     <link rel="stylesheet" href="/home-page/assets/css/aos.css">
@@ -35,11 +35,11 @@
                 <div class="h-right cFix">
                     <nav class="nav-pc">
                         <ul class="cFix">
-                            <li><a href="/home-page/en/company/"><span>会社情報</span></a></li>
-                            <li><a href="/home-page/en/philosophy/"><span>経営理念</span></a></li>
-                            <li><a href="/home-page/en/business/"><span>事業内容</span></a></li>
-                            <li><a href="/home-page/en/recruit/"><span>採用情報</span></a></li>
-                            <li><a href="/home-page/en/security/" class="navpc-active"><span>情報セキュリティ</span></a></li>
+                            <li><a href="/home-page/en/company/"><span>Company</span></a></li>
+                            <li><a href="/home-page/en/philosophy/"><span>Philosophy</span></a></li>
+                            <li><a href="/home-page/en/business/"><span>Business</span></a></li>
+                            <li><a href="/home-page/en/recruit/"><span>Recruit</span></a></li>
+                            <li><a href="/home-page/en/security/" class="navpc-active"><span>Security Info</span></a></li>
                         </ul>
                     </nav>
                     <div class="h-utility">
@@ -66,11 +66,11 @@
         <nav id="globalNav" class="globalNav">
             <div class="globalNav-inner">
                 <ul class="nav-sp">
-                    <li><a href="/home-page/en/company/"><span>会社情報</span></a></li>
-                    <li><a href="/home-page/en/philosophy/"><span>経営理念</span></a></li>
-                    <li><a href="/home-page/en/business/"><span>事業内容</span></a></li>
-                    <li><a href="/home-page/en/recruit/"><span>採用情報</span></a></li>
-                    <li><a href="/home-page/en/security/"><span>情報セキュリティ</span></a></li>
+                    <li><a href="/home-page/en/company/"><span>Company</span></a></li>
+                    <li><a href="/home-page/en/philosophy/"><span>Philosophy</span></a></li>
+                    <li><a href="/home-page/en/business/"><span>Business</span></a></li>
+                    <li><a href="/home-page/en/recruit/"><span>Recruit</span></a></li>
+                    <li><a href="/home-page/en/security/"><span>Security Info</span></a></li>
                 </ul>
                 <div class="h-utility">
                     <ul class="cFix">
@@ -87,7 +87,7 @@
         <div class="sub-banner">
             <canvas class="particlesBg"></canvas>
             <div class="sub-bannerIn c-w1170">
-                <h2 class="sub-ttl">個人情報保護方針</h2>
+                <h2 class="sub-ttl">Information Security</h2>
                 <img src="/home-page/assets/img/philosophy/bnr_img.jpg" class="sub-bannerImg" alt="">
             </div>
         </div>
@@ -95,34 +95,34 @@
         <div class="content">
         <section class="sec-private01">
             <div class="c-w1170">
-                <h2 class="ttl-subpage"><span class="text-un-yellow">個人情報保護方針</span></h2>
+                <h2 class="ttl-subpage"><span class="text-un-yellow">Personal Information Security</span></h2>
                 <div class="letter">
                     <div class="cFix">
                         <p class="letter-lead-txt">
-                            STAR SE株式会社は、社会の基盤となるITサービスを提供する企業として、個人情報保護の重要性を認識し、 個人情報を適切に保護するための個人情報管理の仕組みを策定し、以下のように「個人情報保護方針」を定め、保護に努めます。
+                            STAR SE Co., Ltd. recognizes the importance of protecting personal information as a company that provides IT services as the foundation of society, formulates a mechanism for personal information management to properly protect personal information, and as follows We will establish 「Personal Information Protection Policy」 and strive to protect.
                         </p>
                         <ul class="list alpha-list">
                             <li>
-                                <p class="alpha-ls"><span>a）</span>特定された利用目的の達成に必要な範囲を超えた個人情報の取扱い（“目的外利用”と言います。）を行ないません。また、そのための措置を講じます。</p>
+                                <p class="alpha-ls"><span>a）</span>We will not handle personal information beyond the scope necessary for achieving the specified purpose of use (referred to as “non-purpose use”). Also, we will take measures for that.</p>
                             </li>
                             <li>
-                                <p class="alpha-ls"><span>b）</span>個人情報の取扱いに関する法令、国が定める指針その他の規範を遵守します。</p>
+                                <p class="alpha-ls"><span>b）</span>We will comply with laws concerning the handling of personal information, guidelines established by the country and other norms.</p>
                             </li>
                             <li>
-                                <p class="alpha-ls"><span>c）</span>個人情報の漏えい、滅失又はき損の防止及び是正に努めます。</p>
+                                <p class="alpha-ls"><span>c）</span>We will endeavor to prevent leakage, loss or damage of personal information and correct it.</p>
                             </li>
                             <li>
-                                <p class="alpha-ls"><span>d）</span>苦情及び相談に応じます。 （連絡先は下記の個人情報に関する苦情・相談及び問い合わせ窓口です。）</p>
+                                <p class="alpha-ls"><span>d）</span>We provide complaints and consultation service. （Contact us by following personal information.）</p>
                             </li>
                             <li>
-                                <p class="alpha-ls"><span>e）</span>個人情報保護マネジメントシステムの継続的改善に努めます。</p>
+                                <p class="alpha-ls"><span>e）</span>We are working for improve privacy protection management systems.</p>
                             </li>
                         </ul>
                         <div class="letter-b-txt">
-                            <p>制定日　2017年3月1日</p>
-                            <p>改定日　2017年4月1日</p>
-                            <p>STAR SE 株式会社</p>
-                            <p>代表取締役　金本　香蘭</p>
+                            <p>Date of enactment March 1, 2017</p>
+                            <p>Revision date April 1, 2017</p>
+                            <p>STAR SE Co., Ltd</p>
+                            <p>Representative Director Kanemoto Kouran</p>
                         </div>
                     </div>
                 </div>
@@ -130,11 +130,11 @@
         </section>
         <section class="sec-private02 bg-green-light">
             <div class="c-w1170">
-                <h2 class="ttl-subpage"><span class="text-un-yellow">個人情報に関する<br class="sp">苦情・相談及び<br class="sp">問い合わせ窓口</span></h2>
+                <h2 class="ttl-subpage"><span class="text-un-yellow">Contact point <br class="sp">for complaints, consultations and inquiries <br class="sp">regarding personal information</span></h2>
                 <div class="private02-lead-txt">
-                    <p>STAR SE 株式会社</p>
-                    <p>苦情及び相談窓口</p>
-                    <p>〒104-0043 東京都中央区湊2丁目4-1 <br class="sp">ＴＯＭＡＣビル 5階</p>
+                    <p>STAR SE Co., Ltd</p>
+                    <p>Complaints and consultation Counter</p>
+                    <p>5th floor, TOMAC Building, 2-4-1 Minato, Chuo-ku, <br class="sp">Tokyo 〒103-0011</p>
                     <p><span class="dis-inline">TEL：03-5207-2955</span></p>
                     <p><span class="dis-inline">FAX：03-5207-2956</span> </p>
                 </div>
@@ -142,14 +142,14 @@
         </section>
         <section class="sec-private03">
             <div class="c-w1170">
-                <h2 class="ttl-subpage"><span class="text-un-yellow">個人情報の<br class="sp">取扱いについて</span></h2>
+                <h2 class="ttl-subpage"><span class="text-un-yellow">About use <br class="sp">personal information</span></h2>
                 <div>
                     <p class="private-lead-txt">
-                        直接書面以外の方法によって取得する個人情報の利用目的<br>
-                    当社は取得した個人情報の取扱いについて、「プライバシーマークにおける個人情報保護マネジメントシステム構築・運用指針」（JIPDEC）のJ.8.4及びJ.10.3項に従い以下のように公表します。
+                        Purpose of using personal information acquired by other methods than direct writing<br>
+                        Regarding the handling of acquired personal information, we will announce it as follows in accordance with Sections J.8.4 and J.10.3 of "Privacy Mark Personal Information Protection Management System Construction and Operation Guidelines" (JIPDEC).
                     </p>
                     <div class="ttl-number mb30"><span>01</span></div>
-                    <h2 class="pri-ttl">【I】取得した個人情報の利用目的</h2>
+                    <h2 class="pri-ttl">【I】Purpose of use of acquired personal information</h2>
                     <div class="sec-table">
                         <table>
                             <colgroup>
@@ -158,44 +158,44 @@
 								<col width="30%">
 							</colgroup>
                             <tr>
-                                <th>個人情報の種別</th>
-                                <th>利用目的</th>
-                                <th>開示区分</th>
+                                <th>Type of personal information</th>
+                                <th>Purpose of use</th>
+                                <th>Disclosure classification</th>
                             </tr>
                             <tr>
-                                <td>顧客先から預かった情報</td>
-                                <td>委託された業務の遂行</td>
-                                <td>非対象</td>
+                                <td>Information received from customers</td>
+                                <td>Execution of entrusted work</td>
+                                <td>Not covered</td>
                             </tr>
                             <tr>
-                                <td>協力会社から預かった情報</td>
-                                <td>委託された業務の遂行</td>
-                                <td>非対象</td>
+                                <td>Information received from partner companies</td>
+                                <td>Execution of entrusted work</td>
+                                <td>Not covered</td>
                             </tr>
                             <tr>
-                                <td>人材紹介会社から預かった情報</td>
-                                <td>採用選考、スキルの検討、顧客への提供</td>
-                                <td>非対象</td>
+                                <td>Information received from a recruitment agency</td>
+                                <td>Recruitment selection, skill review, provision to customers</td>
+                                <td>Not covered</td>
                             </tr>
                             <tr>
-                                <td>お客様の個人情報</td>
-                                <td>見積、契約、請求、各種連絡</td>
-                                <td>対象</td>
+                                <td>Customer personal information</td>
+                                <td>Quotations, contracts, billing, and various communications</td>
+                                <td>Covered</td>
                             </tr>
                             <tr>
-                                <td>お問合わせいただいた方の個人情報</td>
-                                <td>お問合わせへの対応、関連する各種連絡</td>
-                                <td>対象</td>
+                                <td>Personal information of the person making the inquiry</td>
+                                <td>Responding to inquiries and various related communications</td>
+                                <td>Covered</td>
                             </tr>
                             <tr>
-                                <td>採用応募された方の個人情報</td>
-                                <td>採用選考、各種連絡</td>
-                                <td>対象</td>
+                                <td>Personal information of job applicants</td>
+                                <td>Recruitment selection, various communication</td>
+                                <td>Covered</td>
                             </tr>
                             <tr>
-                                <td>当社従業者の個人情報</td>
-                                <td>人事、給与、健康管理、福利厚生、各種連絡</td>
-                                <td>対象</td>
+                                <td>Personal information of our employees</td>
+                                <td>Human Resources, Salary, Health Management, Welfare, Various Contacts</td>
+                                <td>Covered</td>
                             </tr>
                         </table>
                     </div>
@@ -206,50 +206,50 @@
             <div class="c-w1170">
                 <div>
                     <div class="ttl-number mb30"><span>02</span></div>
-                    <h2 class="pri-ttl">【II】保有個人データ又は第三者提供記録に関する事項</h2>
+                    <h2 class="pri-ttl">【II】Matters concerning retained personal data or records provided to third parties</h2>
                     <div>
                         <div class="pri-num">
-                            <span>1.</span>当社の名称及び住所並びに代表者の氏名：「個人情報保護方針」に記載しています。<br class="sp">（住所は「苦情・相談及び問い合わせ窓口」に同じ）
+                            <span>1.</span>Name and address of our company and the name of the representative: Described in the "Personal Information Security".<br class="sp">（The address is the same as the「Contact point for complaints, consultations and inquiries regarding personal information」）
                         </div>
                         <div class="pri-num">
-                            <span>2.</span>個人情報保護管理者の職制：代表取締役　金本　香蘭<br class="sp">（連絡先Tel：<p class="dis-inline">03-5207-2955</p>） 
+                            <span>2.</span>Job title of personal information protection manager: Representative Director Kanemoto Kouran <br class="sp">(Contact Tel:<p class="dis-inline">03-5207-2955</p>)
                         </div>
                         <div class="pri-num">
-                            <span>3.</span>保有個人データの利用目的<br>【I】の「開示区分」が〝開示対象〟になっているものが該当します。
+                            <span>3.</span>Purpose of use of retained personal data<br>This applies to items which are covered to【I】's "Disclosure classification".
                         </div>
                         <div class="pri-num">
-                            <span>4.</span>認定個人情報保護団体<br>当社が入会している認定個人情報保護団体については【III】に記載しています。
+                            <span>4.</span>Authorized Personal Information Protection Organization<br>The authorized personal information protection organizations that our company is a member of are listed in【III】.
                         </div>
                         <div class="pri-num">
-                            <span>5.</span>保有個人データの開示等又は第三者提供記録の開示の請求手続<br>
-                            保有個人データの取扱いに関する開示等（利用目的の通知、開示、内容の訂正、追加又は削除、利用の停止・消去又は第三者への提供の停止）又は第三者提供記録の開示の申し出は上記２項の個人情報保護管理者までご連絡下さい。請求手続きについて説明をさせていただきます。
+                            <span>5.</span>Procedures for requesting disclosure, etc. of retained personal data or disclosure of records provided to third parties<br>
+                            Please contact the personal information protection manager in Section 2 above in case of disclosure regarding the handling of retained personal data (notification of purpose of use, disclosure, correction, addition or deletion of content, suspension/deletion of use, or suspension of provision to third parties) or requests for disclosure of records provided to third parties. We will explain the billing procedure.
                         </div>
                         <div class="pri-num">
-                            <span>6.</span>保有個人データの安全管理のために講じた措置<br>
-                            当社は保有個人データの安全管理のために以下の措置を講じています。<br>
+                            <span>6.</span>Measures taken for safe management of retained personal data<br>
+                            The Company takes the following measures for safe management of retained personal data.<br>
                             <p class="pri-num">
-                                <span>①</span>個人データの取扱いに係る規程の整備<br>
-                                個人データの取得、利用、保存等を行う場合の取扱い手順を社内規程として整備しています。 
+                                <span>①</span>Development of regulations related to the handling of personal data<br>
+                                We have established internal regulations for handling procedures when acquiring, using, and storing personal data. 
                             </p>
                             <p class="pri-num">
-                                <span>②</span>組織的安全管理措置<br>
-                                部門毎に個人データの取扱いに関する責任者を設けるとともに、自己点検・内部監査等を通し整備した取扱い方法に従って従業者が個人データを取り扱っていることを責任者が確認する体制を整備しています。
+                                <span>②</span>Systematic security control measures<br>
+                                In addition to appointing a person in charge of the handling of personal data in each department, we have established a system in which the person in charge confirms that employees handle personal data according to the handling method established through self-checks and internal audits.
                             </p>
                             <p class="pri-num">
-                                <span>③</span>人的安全管理措置<br>
-                                従業者全員には社内規程順守を盛り込んだ誓約書の提出を義務づけ、年毎に個人データの取扱い手順や情報セキュリティの留意事項について研修を実施しています。
+                                <span>③</span>Personnel security control measures<br>
+                                All employees are required to submit a pledge that includes compliance with internal regulations, and annual training is provided on procedures for handling personal data and information security considerations.
                             </p>
                             <p class="pri-num">
-                                <span>④</span>物理的安全管理措置<br>
-                                事業所及び機密区域の施錠、及び個人データを取り扱う機器、電子媒体及び書類等の盗難又は紛失等を防止するための措置を講じています。
+                                <span>④</span>Physical security measures<br>
+                                We have taken measures to lock our offices and confidential areas, and to prevent theft or loss of equipment, electronic media, documents, etc. that handle personal data.
                             </p>
                             <p class="pri-num">
-                                <span>⑤</span>技術的安全管理措置<br>
-                                個人データを取り扱うことのできる機器及び当該機器を取り扱う従業者を明確化し、個人データへの不要又は不正なアクセスを防止しています。
+                                <span>⑤</span>Technical safety control measures<br>
+                                We clarify the equipment that can handle personal data and the employees who handle such equipment, and prevent unnecessary or unauthorized access to personal data.
                             </p>
                             <p class="pri-num">
-                                <span>⑥</span>委託先の監督<br>
-                                個人データを預託している委託先を年毎の定期又は適宜に評価し、安全管理措置に関し当社のレベル以上の措置を講じていることを確認しています。
+                                <span>⑥</span>Supervision of subcontractors<br>
+                                We evaluate contractors entrusted with personal data on an annual basis or as needed to confirm that they are taking security control measures that exceed our level.
                             </p>
                         </div>
                     </div>
@@ -260,20 +260,20 @@
             <div class="c-w1170">
                 <div>
                     <div class="ttl-number mb30"><span>03</span></div>
-                    <h2 class="pri-ttl">【III】苦情・ご相談に関する事項</h2>
+                    <h2 class="pri-ttl">【III】Matters concerning complaints and consultations</h2>
                     <div>
-                        <p>個人情報についての苦情・ご相談を受け付けております。「個人情報保護方針」に掲載されているお問い合わせ窓口までご連絡ください。</p>
+                        <p>We accept complaints and consultations regarding personal information. Please contact the contact point listed in the "Personal Information Security".</p>
                         <p class="pri-num">
-                            <span>①</span>認定個人情報保護団体の名称：一般財団法人日本情報経済社会推進協会
+                            <span>①</span>Name of authorized personal information protection organization: Japan Information Economy and Society Promotion Association
                         </p>
                         <p class="pri-num">
-                            <span>②</span>苦情の解決の申出先：認定個人情報保護団体事務局
+                            <span>②</span>Complaint resolution application: Authorized personal information protection organization secretariat
                         </p>
                         <p class="pri-num">
-                            <span>③</span>連絡先<br>
-                            住所 : 〒106-0032東京都港区六本木一丁目９番９号六本木ファーストビル内<br>
-                            電話番号 : 03-5860-7565、0120-700-779<br>
-                            *当社の商品・サービスに関する問い合わせ先ではございません。
+                            <span>③</span>Contact Address<br>
+                            Address: Roppongi First Building, 1-9-9 Roppongi, Minato-ku, Tokyo 〒106-0032<br>
+                            Phone Number: 03-5860-7565、0120-700-779<br>
+                            *This is not the point of contact for inquiries regarding our products and services.
                         </p>
                     </div>
                 </div>
@@ -282,24 +282,24 @@
         </div>
         <div class="footerLogo">
             <div class="c-w1420 cFix">
-                <span class="footerLogoImg"><a href="#"><img src="/home-page/assets/img/common/footer_logo2.png" alt="STAR SE株式会社"></a></span>
+                <span class="footerLogoImg"><a href="#"><img src="/home-page/assets/img/common/footer_logo2.png" alt="STAR SE Co., Ltd."></a></span>
             </div> 
         </div>
         <!-- footerLogo -->
         <footer>
             <div class="footerBlock">
-                <p class="ftLogoText sp-s-show">STAR SE株式会社</p>
+                <p class="ftLogoText sp-s-show">STAR SE Co., Ltd.</p>
                 <div class="ftInner c-w1300 cFix">
                     <div class="ftLogo">
-                        <img src="/home-page/assets/img/common/footer_logo.png" alt="STAR SE株式会社">
+                        <img src="/home-page/assets/img/common/footer_logo.png" alt="STAR SE Co., Ltd.">
                     </div>
                     <div class="ftDesp">
-                        <p class="ftLogoText sp-s-none">STAR SE株式会社</p>
+                        <p class="ftLogoText sp-s-none">STAR SE Co., Ltd.</p>
                         <div class="ftAddress">
                             <ul>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_homeaddress.png" alt=""></span>
-                                    <p class="ftAddress-info">〒104-0043<br>東京都中央区湊2丁目4-1 ＴＯＭＡＣビル 5階</p>
+                                    <p class="ftAddress-info">〒104-0043<br>5th floor, TOMAC Building, 2-4-1 Minato, Chuo-ku, Tokyo</p>
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_phone.png" alt=""></span>
@@ -314,9 +314,9 @@
                     </div>
                 </div>
             </div>
-            <p id="page-top"><a href="javascript:void(0)">&#8593;</a></p>
+            <p id="page-top"><a href="javascript:void(0)">&#8593;</a></p> 
             <div class="copyRight bg-green">
-                <p>&copy; Copyright STAR SE株式会社. All Rights Reserved</p>
+                <p>&copy; Copyright STAR SE Co., Ltd. All Rights Reserved</p>
             </div>
         </footer>
         <!-- footer -->

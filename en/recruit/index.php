@@ -35,11 +35,11 @@
                 <div class="h-right cFix">
                     <nav class="nav-pc">
                         <ul class="cFix">
-                            <li><a href="/home-page/en/company/"><span>会社情報</span></a></li>
-                            <li><a href="/home-page/en/philosophy/"><span>経営理念</span></a></li>
-                            <li><a href="/home-page/en/business/"><span>事業内容</span></a></li>
-                            <li><a href="/home-page/en/recruit/" class="navpc-active"><span>採用情報</span></a></li>
-                            <li><a href="/home-page/en/security/"><span>情報セキュリティ</span></a></li>
+                            <li><a href="/home-page/en/company/"><span>Company</span></a></li>
+                            <li><a href="/home-page/en/philosophy/"><span>Philosophy</span></a></li>
+                            <li><a href="/home-page/en/business/"><span>Business</span></a></li>
+                            <li><a href="/home-page/en/recruit/" class="navpc-active"><span>Recruit</span></a></li>
+                            <li><a href="/home-page/en/security/"><span>Security Info</span></a></li>
                         </ul>
                     </nav>
                     <div class="h-utility">
@@ -87,7 +87,7 @@
         <div class="sub-banner">
             <canvas class="particlesBg"></canvas>
             <div class="sub-bannerIn c-w1170">
-                <h2 class="sub-ttl">採用情報</h2>
+                <h2 class="sub-ttl">Recruitment information</h2>
                 <img src="/home-page/assets/img/philosophy/bnr_img.jpg" class="sub-bannerImg" alt="">
             </div>
         </div>
@@ -95,44 +95,44 @@
         <div class="content">
         <section class="recruit-page">
             <div class="c-w1170">
-                <h2 class="ttl-subpage"><span class="text-un-yellow">キャリア募集要項</span></h2>
+                <h2 class="ttl-subpage"><span class="text-un-yellow">Career Application Guidelines</span></h2>
                 <div class="recruit-pageList mb30">
                     <ul class="recruitList-block">
                         <li class="recruitList-li">
                             <div class="recruitList-content">
                                 <div class="recurit-img"><img src="/home-page/assets/img/recruit/infra_img.png" alt=""></div>
                                 <div class="recruit-desp">
-                                    <h2 class="recruit-ttl">システムエンジニア</h2>
-                                    <p data-mh="recurit-mat01" class="recruit-txt">プログラマからシステムエンジニア へのキャリアアップ、プロジェクトリーダーや上級システムエンジニアをめざす方、 オブジェクト指向技術を身につけたい方、資格取得してスキルアップをめざす方を求めています。</p>
+                                    <h2 class="recruit-ttl">System Engineer</h2>
+                                    <p data-mh="recurit-mat01" class="recruit-txt">We are looking for people who want to advance their careers from programmers to system engineers, who want to become project leaders and senior system engineers, who want to acquire object-oriented technology, and who want to acquire qualifications and improve their skills.</p>
                                     <div class="mTop-auto">
                                         <ul class="recruit-btnls">
                                             <li>
                                                 <div class="recruit-btnbox">
-                                                    <span>内容</span>
-                                                    <p>Web アプリケーション、流通等の業務アプリケーションの設計、開発、導入および運用まで、あなたのご経験やご希望に合った開発プロジェクトを用意しています。</p>
+                                                    <span>Content</span>
+                                                    <p>We offer development projects that match your experience and desires, from the design, development, introduction and operation of business applications such as web applications and distribution.</p>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="recruit-btnbox">
-                                                    <span>経験</span>
-                                                    <p>	Windows、UNIX環境でのJava、C、C++、C#、Perl、PHP、VB、Delphi等のシステム開発経験1 年以上の方。※ いずれかの経験があれば、他は未経験でも歓迎します。※ 外国人の方、大歓迎です。</p>
+                                                    <span>Experience</span>
+                                                    <p>	More than 1 year of system development experience in Java, C, C++, C#, Perl, PHP, VB, Delphi, etc. in a Windows or UNIX environment. * If you have any experience, you are welcome even if you have no other experience. *Foreigners are welcome.</p>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="recruit-btnbox">
-                                                    <span>給与</span>
-                                                    <p>経験・スキル・前給等を十分考慮し、相談の上決定します。</p>
+                                                    <span>Salary</span>
+                                                    <p>Experience, skills, advance salary, etc. will be fully considered and decided after consultation.</p>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="recruit-btnbox">
-                                                    <span>賞与</span>
-                                                    <p>年2回 (7 月、12 月)</p>
+                                                    <span>Bonus</span>
+                                                    <p>Twice a year (July, December)</p>
                                                 </div>
                                             </li>
                                         </ul>
                                         <div class="sec-btn02">
-                                            <a href="/home-page/en/recruit/career-app-guide.php#sec-carrer01" class="btn02">詳しくはこちら</a>
+                                            <a href="/home-page/en/recruit/career-app-guide.php#sec-carrer01" class="btn02">For More Details</a>
                                         </div>
                                     </div>
                                 </div>
@@ -142,37 +142,37 @@
                             <div class="recruitList-content">
                                 <div class="recurit-img"><img src="/home-page/assets/img/recruit/infra_img.png" alt=""></div>
                                 <div class="recruit-desp">
-                                    <h2 class="recruit-ttl">インフラエンジニア</h2>
-                                    <p data-mh="recurit-mat01" class="recruit-txt">インフラ基盤(サーバ/ストレージ/ネットワークなど)構築経験、 または、ミドルウェア(OpenView/Systemwalker/JP1など)の導入・構築経験してきた方を求めています。</p>
+                                    <h2 class="recruit-ttl">Infrastructure engineer</h2>
+                                    <p data-mh="recurit-mat01" class="recruit-txt">We are looking for someone who has experience in building infrastructure (servers/storage/networks, etc.), or experience installing and building middleware (OpenView/Systemwalker/JP1, etc.).</p>
                                     <div class="mTop-auto">
                                         <ul class="recruit-btnls">
                                             <li>
                                                 <div class="recruit-btnbox">
-                                                    <span>内容</span>
-                                                    <p>物理サーバ/仮想サーバ(ミドルウェア含む)、ストレージ、ネットワーク等のインフラ基盤の設計、構築および運用まで、 あなたのご経験やご希望に合ったインフラ基盤プロジェクトを用意しています。</p>
+                                                    <span>Content</span>
+                                                    <p>We offer infrastructure projects that match your experience and desires, from the design, construction and operation of infrastructure such as physical servers/virtual servers (including middleware), storage, and networks.</p>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="recruit-btnbox">
-                                                    <span>経験</span>
-                                                    <p>インフラ基盤構築経験やミドルウェアの導入/構築経験など1 年以上の方。※ いずれかの経験があれば、他は未経験でも歓迎します。※ 外国人の方、大歓迎です。</p>
+                                                    <span>Experience</span>
+                                                    <p>One or more years of experience in building infrastructure infrastructure and introducing/building middleware. * If you have any experience, you are welcome even if you have no other experience. *Foreigners are welcome.</p>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="recruit-btnbox">
-                                                    <span>給与</span>
-                                                    <p>経験・スキル・前給等を十分考慮し、相談の上決定します。</p>
+                                                    <span>Salary</span>
+                                                    <p>Experience, skills, advance salary, etc. will be fully considered and decided after consultation.</p>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="recruit-btnbox">
-                                                    <span>賞与</span>
-                                                    <p>年2回 (7 月、12 月)</p>
+                                                    <span>Bonus</span>
+                                                    <p>Twice a year (July, December)</p>
                                                 </div>
                                             </li>
                                         </ul>
                                         <div class="sec-btn02">
-                                            <a href="/home-page/en/recruit/career-app-guide.php#sec-carrer02" class="btn02">詳しくはこちら</a>
+                                            <a href="/home-page/en/recruit/career-app-guide.php#sec-carrer02" class="btn02">For More Details</a>
                                         </div>
                                     </div>
                                 </div>
@@ -182,37 +182,37 @@
                             <div class="recruitList-content">
                                 <div class="recurit-img"><img src="/home-page/assets/img/recruit/infra_img.png" alt=""></div>
                                 <div class="recruit-desp">
-                                    <h2 class="recruit-ttl">事務・営業</h2>
-                                    <p data-mh="recurit-mat02" class="recruit-txt">エンドユーザーや大手SIerへのシステム開発案件の営業担当者を求めています。</p>
+                                    <h2 class="recruit-ttl">Office work & Sales</h2>
+                                    <p data-mh="recurit-mat02" class="recruit-txt">We are looking for a sales representative for system development projects of end users and major system integrators.</p>
                                     <div class="mTop-auto">
                                         <ul class="recruit-btnls">
                                             <li>
                                                 <div class="recruit-btnbox">
-                                                    <span>内容</span>
-                                                    <p>＜資料作成などの事務業務全般をお任せします＞ 基本的なPCスキル（Excel・Word）や、電話応対など一般的なビジネスマナーがあれば、はじめられる仕事です。 書類チェックや電話・来客対応等のサポート業務を通じて、会社を支えていただく仕事です。 まずは簡単な業務からはじめ、徐々にステップアップ。 未経験でもムリなくスタートできます！</p>
+                                                    <span>Content</span>
+                                                    <p>If you have basic PC skills (Excel / Word) and general business manners such as answering the phone, you can start working.It is a job to support the company through support work such as checking documents and responding to telephone calls and visitors.Start with simple tasks and work your way up. Even if you are inexperienced, you can start without difficulty!</p>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="recruit-btnbox">
-                                                    <span>経験</span>
-                                                    <p>システムやPCについての問い合わせ対応、エンジニアのサポート業務を中心とした事務業務の経験など1 年以上の方。</p>
+                                                    <span>Experience</span>
+                                                    <p>Persons with more than 1 year of experience in office work, such as responding to inquiries about systems and PCs, and support work for engineers.</p>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="recruit-btnbox">
-                                                    <span>給与</span>
-                                                    <p>経験・スキル・前給等を十分考慮し、相談の上決定します。</p>
+                                                    <span>Salary</span>
+                                                    <p>Experience, skills, advance salary, etc. will be fully considered and decided after consultation.</p>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="recruit-btnbox">
-                                                    <span>賞与</span>
-                                                    <p>年2回 (7 月、12 月)</p>
+                                                    <span>Bonus</span>
+                                                    <p>Twice a year (July, December)</p>
                                                 </div>
                                             </li>
                                         </ul>
                                         <div class="sec-btn02">
-                                            <a href="/home-page/en/recruit/career-app-guide.php#sec-carrer03" class="btn02">詳しくはこちら</a>
+                                            <a href="/home-page/en/recruit/career-app-guide.php#sec-carrer03" class="btn02">For More Details</a>
                                         </div>
                                     </div>
                                 </div>
@@ -220,45 +220,45 @@
                         </li>
                     </ul>
                 </div>
-                <h2 class="ttl-subpage"><span class="text-un-yellow">新卒/第二新卒募集要項</span></h2>
+                <h2 class="ttl-subpage"><span class="text-un-yellow">New Graduate/Second New Graduate Recruitment Guidelines</span></h2>
                 <div class="recruit-pageList">
                     <ul class="recruitList-block">
                         <li class="recruitList-li">
                             <div class="recruitList-content">
                                 <div class="recurit-img"><img src="/home-page/assets/img/recruit/infra_img.png" alt=""></div>
                                 <div class="recruit-desp">
-                                    <h2 class="recruit-ttl">新卒/第二新卒募集要項</h2>
-                                    <p data-mh="recurit-mat02" class="recruit-txt">若手社員からのメッセージ 職場風景 よくある質問 募集要項</p>
+                                    <h2 class="recruit-ttl">New Graduate/Second New Graduate Recruitment Guidelines</h2>
+                                    <p data-mh="recurit-mat02" class="recruit-txt">Message from a young employee Workplace Scenery Frequently asked questions Recruitment guidelines</p>
                                     <div class="mTop-auto">
                                         <ul class="recruit-btnls">
                                             <li>
                                                 <div class="recruit-btnbox">
-                                                    <span>内容</span>
-                                                    <p>システムの設計、顧客との打合せ、コンサルティングやプログラミングなどの技術力も大切ですが、コミュニケーション能力がより重要となる仕事です。</p>
+                                                    <span>Content</span>
+                                                    <p>Technical skills such as system design, meeting with customers, consulting and programming are important, but communication skills are more important.</p>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="recruit-btnbox">
-                                                    <span>職類</span>
-                                                    <p>システムエンジニア、インフラエンジニア、事務・営業</p>
+                                                    <span>Occupation</span>
+                                                    <p>System Engineer, Infrastructure Engineer, Office work & Sales</p>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="recruit-btnbox">
-                                                    <span>学科</span>
-                                                    <p>学部学科（文系　。理系）は問いません。</p>
+                                                    <span>Department</span>
+                                                    <p>Undergraduate department (Humanities, Science) does not matter.</p>
                                                 </div>
                                             </li>
                                             
                                             <li>
                                                 <div class="recruit-btnbox">
-                                                    <span>賞与</span>
-                                                    <p>年2回 (7 月、12 月)</p>
+                                                    <span>Bonus</span>
+                                                    <p>Twice a year (July, December)</p>
                                                 </div>
                                             </li>
                                         </ul>
                                         <div class="sec-btn02">
-                                            <a href="/home-page/en/recruit/graduate-recru-guide.php" class="btn02">詳しくはこちら</a>
+                                            <a href="/home-page/en/recruit/graduate-recru-guide.php" class="btn02">For More Details</a>
                                         </div>
                                     </div>
                                 </div>
@@ -283,12 +283,12 @@
                         <img src="/home-page/assets/img/common/footer_logo.png" alt="STAR SE株式会社">
                     </div>
                     <div class="ftDesp">
-                        <p class="ftLogoText sp-s-none">STAR SE株式会社</p>
+                        <p class="ftLogoText sp-s-none">STAR SE Co., Ltd.</p>
                         <div class="ftAddress">
                             <ul>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_homeaddress.png" alt=""></span>
-                                    <p class="ftAddress-info">〒104-0043<br>東京都中央区湊2丁目4-1 ＴＯＭＡＣビル 5階</p>
+                                    <p class="ftAddress-info">〒104-0043<br>5th floor, TOMAC Building, 2-4-1 Minato, Chuo-ku, Tokyo</p>
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_phone.png" alt=""></span>
@@ -305,7 +305,7 @@
             </div>
             <p id="page-top"><a href="javascript:void(0)">&#8593;</a></p>
             <div class="copyRight bg-green">
-                <p>&copy; Copyright STAR SE株式会社. All Rights Reserved</p>
+                <p>&copy; Copyright STAR SE Co., Ltd. All Rights Reserved</p>
             </div>
         </footer>
         <!-- footer -->

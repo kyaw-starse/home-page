@@ -117,7 +117,7 @@
                                 <tr>
                                     <th>Establishment</th>
                                     <td>
-                                        <p>January 22, 2014</p>
+                                        <p>Jan 22, 2014</p>
                                     </td>
                                 </tr>
                                 <tr>
@@ -135,7 +135,7 @@
                                 <tr>
                                     <th>Number of Employees</th>
                                     <td>
-                                        <p>(As of January 2023)<br>Full-time employees: 130<br>※Collaborative partner personnel: about 10 people</p>
+                                        <p>(As of Jan 2023)<br>Full-time employees: 130<br>※Collaborative partner personnel: about 10 people</p>
                                     </td>
                                 </tr>
                                 <tr>
@@ -212,11 +212,11 @@
                                         <span class="history-year sp">2023</span>
                                         <div class="history-desp">
                                             <dl class="cFix">
-                                                <dt>February</dt>
+                                                <dt>Feb</dt>
                                                 <dd>Moved head office to Hatchobori, Tokyo</dd>
                                             </dl>
                                             <dl class="cFix">
-                                                <dt>January</dt>
+                                                <dt>Jan</dt>
                                                 <dd>Established overseas branch (Myanmar)</dd>
                                             </dl>
                                         </div>
@@ -228,11 +228,11 @@
                                         <span class="history-year sp">2022</span>
                                         <div class="history-desp">
                                             <dl class="cFix">
-                                                <dt>November</dt>
+                                                <dt>Nov</dt>
                                                 <dd>Formulation of DX strategy</dd>
                                             </dl>
                                             <dl class="cFix">
-                                                <dt>July</dt>
+                                                <dt>Jul</dt>
                                                 <dd>Declare DX policy</dd>
                                             </dl>
                                         </div>
@@ -244,8 +244,8 @@
                                         <span class="history-year sp">2021</span>
                                         <div class="history-desp">
                                             <dl class="cFix">
-                                                <dt>January</dt>
-                                                <dd>Privacy Mark (No. 22000213) updated</dd>
+                                                <dt>Jan</dt>
+                                                <dd>Updated Privacy Mark No. 22000213</dd>
                                             </dl>
                                         </div>
                                     </div>
@@ -256,7 +256,7 @@
                                         <span class="history-year sp">2020</span>
                                         <div class="history-desp">
                                             <dl class="cFix">
-                                                <dt>December</dt>
+                                                <dt>Dec</dt>
                                                 <dd>Acquired ISO/IEC 27001:2013 certification</dd>
                                             </dl>
                                         </div>
@@ -268,11 +268,15 @@
                                         <span class="history-year sp">2019</span>
                                         <div class="history-desp">
                                             <dl class="cFix">
-                                                <dt>December</dt>
+                                                <dt>Dec</dt>
                                                 <dd>Increased capital to 45 million yen</dd>
                                             </dl>
                                             <dl class="cFix">
-                                                <dt>January</dt>
+                                                <dt>May</dt>
+                                                <dd>Updated Privacy Mark No. 22000213</dd>
+                                            </dl>
+                                            <dl class="cFix">
+                                                <dt>Jan</dt>
                                                 <dd>Acquired worker dispatch business license number (13-312273)</dd>
                                             </dl>
                                         </div>
@@ -284,7 +288,7 @@
                                         <span class="history-year sp">2018</span>
                                         <div class="history-desp">
                                             <dl class="cFix">
-                                                <dt>October</dt>
+                                                <dt>Oct</dt>
                                                 <dd>Acquired Paid Employment Placement Business Permit (13-Yu-309929)</dd>
                                             </dl>
                                         </div>
@@ -296,23 +300,23 @@
                                         <span class="history-year sp">2017</span>
                                         <div class="history-desp">
                                             <dl class="cFix">
-                                                <dt>December</dt>
+                                                <dt>Dec</dt>
                                                 <dd>Increased capital to 20 million yen</dd>
                                             </dl>
                                             <dl class="cFix">
-                                                <dt>September</dt>
+                                                <dt>Sep</dt>
                                                 <dd>Released new version of company home page</dd>
                                             </dl>
                                             <dl class="cFix">
-                                                <dt>June</dt>
+                                                <dt>Jun</dt>
                                                 <dd>Moved head office to Chuo-ku, Tokyo</dd>
                                             </dl>
                                             <dl class="cFix">
                                                 <dt>May</dt>
-                                                <dd>Acquired Privacy Mark No. 22000213号</dd>
+                                                <dd>Acquired Privacy Mark No. 22000213</dd>
                                             </dl>
                                             <dl class="cFix">
-                                                <dt>April</dt>
+                                                <dt>Apr</dt>
                                                 <dd>Increased capital to 15 million yen</dd>
                                             </dl>
                                         </div>
@@ -324,7 +328,7 @@
                                         <span class="history-year sp">2016</span>
                                         <div class="history-desp">
                                             <dl class="cFix">
-                                                <dt>January</dt>
+                                                <dt>Jan</dt>
                                                 <dd>Start the Human Resources Development Division</dd>
                                             </dl>
                                         </div>
@@ -336,11 +340,11 @@
                                         <span class="history-year sp">2015</span>
                                         <div class="history-desp">
                                             <dl class="cFix">
-                                                <dt>October</dt>
+                                                <dt>Oct</dt>
                                                 <dd>Moved head office to Chiyoda-ku,Tokyo</dd>
                                             </dl>
                                             <dl class="cFix">
-                                                <dt>September</dt>
+                                                <dt>Sep</dt>
                                                 <dd>Increased capital to 10 million yen</dd>
                                             </dl>
                                         </div>
@@ -352,7 +356,7 @@
                                         <span class="history-year sp">2014</span>
                                         <div class="history-desp">
                                             <dl class="cFix">
-                                                <dt>January</dt>
+                                                <dt>Jan</dt>
                                                 <dd>Established STAR SE Co., Ltd. (2 million yen in Capital), opened Tokyo headquarters</dd>
                                             </dl>
                                         </div>

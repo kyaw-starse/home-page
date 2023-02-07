@@ -10,7 +10,7 @@
     <meta name="google-site-verification" content="Dg_pvHrLYsE_PNW7oubm3Xw5aWYEPksmjpJwXLBG0Sk"/>
     <link rel="shortcut icon" href="/home-page/assets/img/common/favicon.png" type="image/x-icon">
     <link rel="icon" href="/home-page/assets/img/common/favicon.png" type="image/x-icon">
-    <title>DX推進</title>
+    <title>DX Promotion</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/home-page/assets/css/import.css">
     <link rel="stylesheet" href="/home-page/assets/css/aos.css">
@@ -35,11 +35,11 @@
                 <div class="h-right cFix">
                     <nav class="nav-pc">
                         <ul class="cFix">
-                            <li><a href="/home-page/en/company/"><span>会社情報</span></a></li>
-                            <li><a href="/home-page/en/philosophy/"><span>経営理念</span></a></li>
-                            <li><a href="/home-page/en/business/"><span>事業内容</span></a></li>
-                            <li><a href="/home-page/en/recruit/"><span>採用情報</span></a></li>
-                            <li><a href="/home-page/en/security/"><span>情報セキュリティ</span></a></li>
+                            <li><a href="/home-page/en/company/"><span>Company</span></a></li>
+                            <li><a href="/home-page/en/philosophy/"><span>Philosophy</span></a></li>
+                            <li><a href="/home-page/en/business/"><span>Business</span></a></li>
+                            <li><a href="/home-page/en/recruit/"><span>Recruit</span></a></li>
+                            <li><a href="/home-page/en/security/"><span>Security Info</span></a></li>
                         </ul>
                     </nav>
                     <div class="h-utility">
@@ -66,11 +66,11 @@
         <nav id="globalNav" class="globalNav">
             <div class="globalNav-inner">
                 <ul class="nav-sp">
-                    <li><a href="/home-page/en/company/"><span>会社情報</span></a></li>
-                    <li><a href="/home-page/en/philosophy/"><span>経営理念</span></a></li>
-                    <li><a href="/home-page/en/business/"><span>事業内容</span></a></li>
-                    <li><a href="/home-page/en/recruit/"><span>採用情報</span></a></li>
-                    <li><a href="/home-page/en/security/"><span>情報セキュリティ</span></a></li>
+                    <li><a href="/home-page/en/company/"><span>Company</span></a></li>
+                    <li><a href="/home-page/en/philosophy/"><span>Philosophy</span></a></li>
+                    <li><a href="/home-page/en/business/"><span>Business</span></a></li>
+                    <li><a href="/home-page/en/recruit/"><span>Recruit</span></a></li>
+                    <li><a href="/home-page/en/security/"><span>Security Info</span></a></li>
                 </ul>
                 <div class="h-utility">
                     <ul class="cFix">
@@ -87,7 +87,7 @@
         <div class="sub-banner">
             <canvas class="particlesBg"></canvas>
             <div class="sub-bannerIn c-w1170">
-                <h2 class="sub-ttl">DX推進</h2>
+                <h2 class="sub-ttl">DX Promotion</h2>
                 <img src="/home-page/assets/img/philosophy/bnr_img.jpg" class="sub-bannerImg" alt="">
             </div>
         </div>
@@ -95,40 +95,40 @@
         <div class="content">
         <section class="dx-sec01">
             <div class="c-w1170">
-                <h2 class="ttl-subpage"><span class="text-un-yellow">STAR SE DXへの取組み</span></h2>
+                <h2 class="ttl-subpage"><span class="text-un-yellow">Initiatives for STAR SE DX</span></h2>
                 <div class="letter">
                     <div class="cFix">
-                        <p class="letter-lead-txt"><strong>DX方針</strong></p>
+                        <p class="letter-lead-txt"><strong>DX Policy</strong></p>
                         <p class="letter-lead-txt">
-                        今、世の中を取り巻く環境はデジタル化により大きく、且つ急激に変化してきています。<br>それに伴いお客様のニーズも様々に変化しています。その中で当社がクローズアップしたいのは、ＤＸを実現するＩＴ技術者の不足です。
+                            Today, the environment surrounding the world is undergoing major and rapid changes due to digitalization.<br>As a result, customer needs are also changing. Among them, what we want to focus on is the shortage of IT engineers who can realize DX.
                         </p>
                         <p class="letter-lead-txt">
-                        そこで当社は、優秀なＩＴ技術者の採用／育成に注力し、 お客様のニーズを引出し更に付加価値を高めたソリューションをご提供できる会社を目指します。
+                            Therefore, we will focus on recruiting and training excellent IT engineers, and aim to be a company that can provide solutions that draw out customer needs and further increase added value.
                         </p>
                         <p class="letter-lead-txt">
-                        その為、データ分析、人口知能（ＡＩ）等の分野への挑戦と、アジャイル、ローコード開発などの新しい開発手法でのシステム開発に取組み人材育成を行います。
+                            For that reason, we will take on challenges in fields such as data analysis and artificial intelligence (AI), and develop human resources by working on system development using new development methods such as agile and low-code development.
                         </p>
                         <ul class="list">
                             <li>
-                                <p class="pri-num"><span class="font-normal">1.</span>お客様ニーズを的確に捉え、その要求に適合したＤＸソリューションを開発、ご提供いたします。</p>
+                                <p class="pri-num"><span class="font-normal">1.</span>We will accurately grasp customer needs and develop and provide DX solutions that meet those needs.</p>
                             </li>
                             <li>
-                                <p class="pri-num"><span class="font-normal">2.</span>社内の技術者並びに、経営層、営業に対し最新のデジタル化技術を学習、取得する為の教育支援を行います。</p>
+                                <p class="pri-num"><span class="font-normal">2.</span>We will provide educational support for learning and acquiring the latest digitalization technology for in-house engineers, management, and sales.</p>
                             </li>
                             <li>
-                                <p class="pri-num"><span class="font-normal">3.</span>社内環境についてはリモート開発の推進、Web会議、ＡＷＳ上での開発など、可能な限りデジタル開発環境を整備し、ＤＸ支援企業としてモデル企業を目指します。</p>
+                                <p class="pri-num"><span class="font-normal">3.</span>Regarding the internal environment, we aim to be a model company as a DX support company by improving the digital development environment as much as possible, such as promoting remote development, web conferencing, and development on AWS.</p>
                             </li>
                             <li>
-                                <p class="pri-num"><span class="font-normal">4.</span>ＤＸ企業として、自社ソリューションをＤＸ環境下で構築し、学習内容を実現することで社員の能力向上を目指します（絆プロジェクト）</p>
+                                <p class="pri-num"><span class="font-normal">4.</span>As a DX company, we aim to improve the abilities of our employees by building our own solutions in a DX environment and realizing the learning content (Kizuna Project).</p>
                             </li>
                             <li>
-                                <p class="pri-num"><span class="font-normal">5.</span>社内ＤＸ化を積極的に推進する為、社内に推進部を設け社内デジタル化の旗振り、並びに推進化の数値化を行い経営に反映致します。</p>
+                                <p class="pri-num"><span class="font-normal">5.</span>In order to actively promote in-house DX conversion, we will set up a promotion department within the company to raise the flag of in-house digitization and quantify the promotion and reflect it in management.</p>
                             </li>
                         </ul>
                         <div class="letter-b-txt">
-                            <p>2022年11月25日</p>
-                            <p>STAR SE株式会社</p>
-                            <p>代表取締役　金本　香蘭</p>
+                            <p>2022/11/25</p>
+                            <p>STAR SE Co., Ltd.</p>
+                            <p>Representative Director Kanemoto Kouran</p>
                         </div>
                     </div>
                 </div>
@@ -136,50 +136,50 @@
         </section>
         <section class="dx-sec02 bg-green-light">
             <div class="c-w1170">
-                <h2 class="ttl-subpage txt-left"><span class="text-un-yellow">DX推進体制</span></h2>
+                <h2 class="ttl-subpage txt-left"><span class="text-un-yellow">DX Promotion System</span></h2>
                 <div class="dx-img">
                     <img src="/home-page/assets/img/recruit/dx-jp.png" alt="">
                 </div>
                 <div class="textBox">
-                    <h2 class="boxTxt">DX方針を実現するために「ＤＸ推進部」を設置する ここでの任務は</h2>
+                    <h2 class="boxTxt">Establish a “DX Promotion Department” to realize the DX policy the task here is</h2>
                     <div class="boxDesp">
                         <p>
-                        ＤＸ先端技術の調査、研究並びに、自社への導入検討<br>
-                        導入を決定したＤＸ技術の教育カリキュラムの作成、既存社員並びに、中途採用者への教育実施<br>
-                        技術者情報提供サービスのステム開発の運用データの分析を行いＤＸ推進状況の評価実施
+                            Investigation and research of advanced DX technology and consideration of introduction to the company<br>
+                            Create an educational curriculum for the DX technology that has been decided to be introduced, and conduct education for existing employees and mid-career hires<br>
+                            Analyze the operation data of the system development of the engineer information provision service and evaluate the DX promotion status
                         </p>
                     </div>
                 </div>
                 <div class="textBox">
-                    <h2 class="boxTxt">システム開発事業部</h2>
+                    <h2 class="boxTxt">System Development Division</h2>
                     <div class="boxDesp">
                         <p>
-                        この部門は従来のシステム開発も行うが、ＤＸ推進部の推薦する新技術習得に向け、社内勉強会を実施
+                            This department also develops conventional systems, but also conducts in-house study sessions to acquire new technologies recommended by the DX Promotion Department.
                         </p>
                     </div>
                 </div>
                 <div class="textBox">
-                    <h2 class="boxTxt">絆プロジェクト</h2>
+                    <h2 class="boxTxt">Kizuna Project</h2>
                     <div class="boxDesp">
                         <p>
-                        STAR SEのＤＸソリューションである「技術者情報提供サービス“絆”」の開発、保守運用<br>
-                        現在、開発途中だがリリース後は、社員の教育システム機能、週報・月次報告等の「社員の絆」の為の追加開発
+                            Development, maintenance and operation of STAR SE DX solution 「engineer information provision service "Kizuna"」<br>
+                            Currently under development, but after release, additional development for 「employee bonds」 such as employee education system functions, weekly reports, monthly reports, etc.
                         </p>
                     </div>
                 </div>
                 <div class="textBox">
-                    <h2 class="boxTxt">人事・総務部</h2>
+                    <h2 class="boxTxt">Human Resources and General Affairs Department</h2>
                     <div class="boxDesp">
                         <p>
-                        優秀な技術者採用の為、通年採用は継続 尚、外国籍技術者の採用については、Ｗｅｂ面談、採用試験の他、採用後の日本語教育も実施
+                            Recruitment continues throughout the year to hire excellent engineers In addition, regarding the recruitment of foreign engineers, in addition to web interviews and employment examinations, Japanese language education is also provided after hiring.
                         </p>
                     </div>
                 </div>
                 <div class="textBox">
-                    <h2 class="boxTxt">営業統括本部</h2>
+                    <h2 class="boxTxt">Sales Headquarters</h2>
                     <div class="boxDesp">
                         <p>
-                        現状のシステム開発の多くはウォーターフォール型が多く設計書ありきの開発が主流となっているが、アジャイル方式の商談も発生してきており、この分野の商談獲得に向け注力する。
+                            Many of the current system developments are waterfall type, and the development based on design documents is the mainstream, but business negotiations for agile methods are also occurring, and we will focus on acquiring business negotiations in this field.
                         </p>
                     </div>
                 </div>
@@ -187,21 +187,21 @@
         </section>
         <section class="dx-sec03">
             <div class="c-w1170">
-                <h2 class="ttl-subpage txt-left mb0"><span class="text-un-yellow">DX推進のための方策</span></h2>
+                <h2 class="ttl-subpage txt-left mb0"><span class="text-un-yellow">Measures to promote DX</span></h2>
                 <div class="textBox">
-                    <h2 class="boxTxt">お客様企業のデジタル化営業支援 要員照会システム“絆”の開発・提供・販売</h2>
+                    <h2 class="boxTxt">Customer company digitization sales support Development, provision, and sales of personnel inquiry system “Kizuna”</h2>
                     <div class="boxDesp">
                         <p>
-                        システム開発技術者のスキル、提供時期等をＤＢ化した情報をＷｅｂ上でタイムリーにご紹介ができるシステムの開発 
+                            Development of a system that can introduce information such as the skills of system development engineers and the time of provision in a database on the web in a timely manner.
                         </p>
                     </div>
                 </div>
                 <div class="textBox">
-                    <h2 class="boxTxt">社内の業務プロセスのデジタル技術活用</h2>
+                    <h2 class="boxTxt">Utilization of digital technology for internal business processes</h2>
                     <div class="boxDesp">
                         <p>
-                        既存のシステム開発手法の変革<br>
-                        社員の労働環境の変革
+                            Transformation of existing system development methods<br>
+                            Employee working environment reform
                         </p>
                     </div>
                 </div>
@@ -209,50 +209,50 @@
         </section>
         <section class="dx-sec04 bg-green-light">
             <div class="c-w1170">
-                <h2 class="ttl-subpage txt-left"><span class="text-un-yellow">DX推進のための取り組み</span></h2>
+                <h2 class="ttl-subpage txt-left"><span class="text-un-yellow">Efforts to promote DX</span></h2>
                 <div class="mb30">
-                    <p class="pri-num"><span class="font-normal">1.</span>最新技術に関する社内勉強会の実施</p>
-                    <p class="pri-num"><span class="font-normal">2.</span>情報セキュリティ人材の育成支援</p>
-                    <p class="pri-num"><span class="font-normal">3.</span>クラウド環境導入・構築のための技術者育成支援</p>
-                    <p class="pri-num"><span class="font-normal">4.</span>アジャイル開発の推奨</p>
-                    <p class="pri-num"><span class="font-normal">5.</span>テスト自動化ツールの導入</p>
-                    <p class="pri-num"><span class="font-normal">6.</span>システム開発においてリモート環境の利用促進</p>
-                    <p class="pri-num"><span class="font-normal">7.</span>Web会議の利用推進</p>
+                    <p class="pri-num"><span class="font-normal">1.</span>Holding in-house study sessions on the latest technology</p>
+                    <p class="pri-num"><span class="font-normal">2.</span>Support for the development of information security personnel</p>
+                    <p class="pri-num"><span class="font-normal">3.</span>Technician training support for introduction and construction of cloud environment</p>
+                    <p class="pri-num"><span class="font-normal">4.</span>Agile development recommendation</p>
+                    <p class="pri-num"><span class="font-normal">5.</span>Introduction of test automation tools</p>
+                    <p class="pri-num"><span class="font-normal">6.</span>Promoting the use of remote environments in system development</p>
+                    <p class="pri-num"><span class="font-normal">7.</span>Promotion of use of web conferencing</p>
                 </div>
             </div>
         </section>
         <section class="dx-sec05">
             <div class="c-w1170">
-            <h2 class="ttl-subpage txt-left"><span class="text-un-yellow">DX推進の達成状況の指標</span></h2>
+            <h2 class="ttl-subpage txt-left"><span class="text-un-yellow">DX promotion achievement status indicator</span></h2>
                 <div>
-                    <p class="pri-num"><span class="font-normal">1.</span>要員照会システムの利用者アカウント数</p>
-                    <p class="pri-num"><span class="font-normal">2.</span>リモート開発の実施率</p>
-                    <p class="pri-num"><span class="font-normal">3.</span>社内勉強会の実施時間</p>
-                    <p class="pri-num"><span class="font-normal">4.</span>各種資格の取得率</p>
+                    <p class="pri-num"><span class="font-normal">1.</span>Number of user accounts of the personnel inquiry system</p>
+                    <p class="pri-num"><span class="font-normal">2.</span>Implementation rate of remote development</p>
+                    <p class="pri-num"><span class="font-normal">3.</span>In-house study session hours</p>
+                    <p class="pri-num"><span class="font-normal">4.</span>Acquisition rate of various qualifications</p>
                 </div>
             </div>
         </section>
         </div>
         <div class="footerLogo">
             <div class="c-w1420 cFix">
-                <span class="footerLogoImg"><a href="#"><img src="/home-page/assets/img/common/footer_logo2.png" alt="STAR SE株式会社"></a></span>
+            <span class="footerLogoImg"><a href="#"><img src="/home-page/assets/img/common/footer_logo2.png" alt="STAR SE Co., Ltd."></a></span>
             </div> 
         </div>
         <!-- footerLogo -->
         <footer>
             <div class="footerBlock">
-                <p class="ftLogoText sp-s-show">STAR SE株式会社</p>
+                <p class="ftLogoText sp-s-show">STAR SE Co., Ltd.</p>
                 <div class="ftInner c-w1300 cFix">
                     <div class="ftLogo">
-                        <img src="/home-page/assets/img/common/footer_logo.png" alt="STAR SE株式会社">
+                        <img src="/home-page/assets/img/common/footer_logo.png" alt="STAR SE Co., Ltd.">
                     </div>
                     <div class="ftDesp">
-                        <p class="ftLogoText sp-s-none">STAR SE株式会社</p>
+                        <p class="ftLogoText sp-s-none">STAR SE Co., Ltd.</p>
                         <div class="ftAddress">
                             <ul>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_homeaddress.png" alt=""></span>
-                                    <p class="ftAddress-info">〒104-0043<br>東京都中央区湊2丁目4-1 ＴＯＭＡＣビル 5階</p>
+                                    <p class="ftAddress-info">〒104-0043<br>5th floor, TOMAC Building, 2-4-1 Minato, Chuo-ku, Tokyo</p>
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_phone.png" alt=""></span>
@@ -267,9 +267,9 @@
                     </div>
                 </div>
             </div>
-            <p id="page-top"><a href="javascript:void(0)">&#8593;</a></p>
+            <p id="page-top"><a href="javascript:void(0)">&#8593;</a></p> 
             <div class="copyRight bg-green">
-                <p>&copy; Copyright STAR SE株式会社. All Rights Reserved</p>
+                <p>&copy; Copyright STAR SE Co., Ltd. All Rights Reserved</p>
             </div>
         </footer>
         <!-- footer -->

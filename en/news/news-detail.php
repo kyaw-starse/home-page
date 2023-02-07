@@ -10,7 +10,7 @@
     <meta name="google-site-verification" content="Dg_pvHrLYsE_PNW7oubm3Xw5aWYEPksmjpJwXLBG0Sk"/>
     <link rel="shortcut icon" href="/home-page/assets/img/common/favicon.png" type="image/x-icon">
     <link rel="icon" href="/home-page/assets/img/common/favicon.png" type="image/x-icon">
-    <title>情報セキュリティ</title>
+    <title>News</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/home-page/assets/css/import.css">
     <link rel="stylesheet" href="/home-page/assets/css/aos.css">
@@ -35,11 +35,11 @@
                 <div class="h-right cFix">
                     <nav class="nav-pc">
                         <ul class="cFix">
-                            <li><a href="/home-page/en/company/"><span>会社情報</span></a></li>
-                            <li><a href="/home-page/en/philosophy/"><span>経営理念</span></a></li>
-                            <li><a href="/home-page/en/business/"><span>事業内容</span></a></li>
-                            <li><a href="/home-page/en/recruit/"><span>採用情報</span></a></li>
-                            <li><a href="/home-page/en/security/"><span>情報セキュリティ</span></a></li>
+                            <li><a href="/home-page/en/company/"><span>Company</span></a></li>
+                            <li><a href="/home-page/en/philosophy/"><span>Philosophy</span></a></li>
+                            <li><a href="/home-page/en/business/"><span>Business</span></a></li>
+                            <li><a href="/home-page/en/recruit/"><span>Recruit</span></a></li>
+                            <li><a href="/home-page/en/security/"><span>Security Info</span></a></li>
                         </ul>
                     </nav>
                     <div class="h-utility">
@@ -66,11 +66,11 @@
         <nav id="globalNav" class="globalNav">
             <div class="globalNav-inner">
                 <ul class="nav-sp">
-                    <li><a href="/home-page/en/company/"><span>会社情報</span></a></li>
-                    <li><a href="/home-page/en/philosophy/"><span>経営理念</span></a></li>
-                    <li><a href="/home-page/en/business/"><span>事業内容</span></a></li>
-                    <li><a href="/home-page/en/recruit/"><span>採用情報</span></a></li>
-                    <li><a href="/home-page/en/security/"><span>情報セキュリティ</span></a></li>
+                    <li><a href="/home-page/en/company/"><span>Company</span></a></li>
+                    <li><a href="/home-page/en/philosophy/"><span>Philosophy</span></a></li>
+                    <li><a href="/home-page/en/business/"><span>Business</span></a></li>
+                    <li><a href="/home-page/en/recruit/"><span>Recruit</span></a></li>
+                    <li><a href="/home-page/en/security/"><span>Security Info</span></a></li>
                 </ul>
                 <div class="h-utility">
                     <ul class="cFix">
@@ -87,7 +87,7 @@
         <div class="sub-banner">
             <canvas class="particlesBg"></canvas>
             <div class="sub-bannerIn c-w1170">
-                <h2 class="sub-ttl">ニュース</h2>
+                <h2 class="sub-ttl">News</h2>
                 <img src="/home-page/assets/img/philosophy/bnr_img.jpg" class="sub-bannerImg" alt="">
             </div>
         </div>
@@ -95,23 +95,23 @@
         <div class="content">
         <section class="news-detail">
             <div class="c-w1170">
-                <h2 class="ttl-subpage"><span class="text-un-yellow">ニュース</span></h2>
+                <h2 class="ttl-subpage"><span class="text-un-yellow">News Detail</span></h2>
                 <div class="letter">
                     <div class="news-detailBlock">
-                        <p><strong>2022年11月25日</strong></p>
+                        <p><strong>2022/11/25</strong></p>
                         <p>
-                            STAR SEのDXソリューションの一つである「技術者情報提供サービス“絆”」の開発では、既存のシステム開発手法変革のテストケースとして、 「アジャイル開発」「リモートワークでの開発」を実施しています。
+                            In the development of “KIZUNA”, an engineer information provision service, which is one of STAR SE’s DX solutions, we are implementing “Agile Development” and “Remote Work Development” as test cases for reforming existing system development methods.
                         </p>
                         <p>
-                            システム開発は予定通りに進んでいますが、アジャイル開発特有の様々な課題が見つかりました。一例では、テーマ毎に開発しながらも開発途中で次のテーマが開発途中の環境では実現されないことが判り、一旦　開発環境を変更するという事象です。
+                            System development is progressing as planned, but various issues unique to Agile Development were found. For example, while developing for each theme, it turns out that the next theme cannot be realized in the development environment, and the development environment is changed once.
                         </p>
                         <p>
-                            この様に、様々な課題に対し繰り返し改善を進め対応していくことは経験値として蓄積され、何れはお客様からのご依頼に対して、より効率の良いスピードのあるシステムを提供し顧客満足度向上に役立てられると考えます。
+                            In this way, repeatedly improving and responding to various issues will accumulate as experience, and eventually we will provide a more efficient and speedy system in response to customer requests and improve customer satisfaction. I think it will help you improve.
                         </p>
                         <p>
-                            この様に自社内でもＤＸを適用するソリューションを開発しながら技術者の育成を行い、ＤＸ化を検討中のお客様に対し、お客様のともに考え実現できる企業を目指します。
+                            In this way, we will train engineers while developing solutions that apply DX in-house, and aim to be a company that can think and realize together with customers who are considering converting to DX.
                         </p>
-                        <p class="txt-right"><strong>代表取締役 金本 香蘭</strong></p>
+                        <p class="txt-right"><strong>Representative Director Kanemoto Kouran</strong></p>
                     </div>
                 </div>
             </div>
@@ -119,24 +119,24 @@
         </div>
         <div class="footerLogo">
             <div class="c-w1420 cFix">
-                <span class="footerLogoImg"><a href="#"><img src="/home-page/assets/img/common/footer_logo2.png" alt="STAR SE株式会社"></a></span>
+                <span class="footerLogoImg"><a href="#"><img src="/home-page/assets/img/common/footer_logo2.png" alt="STAR SE Co., Ltd."></a></span>
             </div> 
         </div>
         <!-- footerLogo -->
         <footer>
             <div class="footerBlock">
-                <p class="ftLogoText sp-s-show">STAR SE株式会社</p>
+                <p class="ftLogoText sp-s-show">STAR SE Co., Ltd.</p>
                 <div class="ftInner c-w1300 cFix">
                     <div class="ftLogo">
-                        <img src="/home-page/assets/img/common/footer_logo.png" alt="STAR SE株式会社">
+                        <img src="/home-page/assets/img/common/footer_logo.png" alt="STAR SE Co., Ltd.">
                     </div>
                     <div class="ftDesp">
-                        <p class="ftLogoText sp-s-none">STAR SE株式会社</p>
+                        <p class="ftLogoText sp-s-none">STAR SE Co., Ltd.</p>
                         <div class="ftAddress">
                             <ul>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_homeaddress.png" alt=""></span>
-                                    <p class="ftAddress-info">〒104-0043<br>東京都中央区湊2丁目4-1 ＴＯＭＡＣビル 5階</p>
+                                    <p class="ftAddress-info">〒104-0043<br>5th floor, TOMAC Building, 2-4-1 Minato, Chuo-ku, Tokyo</p>
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_phone.png" alt=""></span>
@@ -151,9 +151,9 @@
                     </div>
                 </div>
             </div>
-            <p id="page-top"><a href="javascript:void(0)">&#8593;</a></p>
+            <p id="page-top"><a href="javascript:void(0)">&#8593;</a></p> 
             <div class="copyRight bg-green">
-                <p>&copy; Copyright STAR SE株式会社. All Rights Reserved</p>
+                <p>&copy; Copyright STAR SE Co., Ltd. All Rights Reserved</p>
             </div>
         </footer>
         <!-- footer -->

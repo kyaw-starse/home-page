@@ -16,7 +16,6 @@
     <link rel="stylesheet" href="/home-page/assets/css/aos.css">
     <link rel="stylesheet" href="/home-page/assets/css/pc_style.css">
     <link rel="stylesheet" href="/home-page/assets/css/sp_style.css">
-    <!-- <link rel="stylesheet" href="/home-page/assets/css/style.css" > -->
     <script src="/home-page/assets/js/jquery.min.js"></script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <!-- Template Main CSS File -->
@@ -162,25 +161,25 @@
                                 <div class="form-row2 form-inputRadio">
                                     <div class="form-col6">
                                         <label for="seyi">
-                                            <input type="radio" name="employeeType" id="seyi" checked>
+                                            <input type="radio" value="正社員" name="employeeType" id="seyi" checked>
                                             <span class="form-radio-text">正社員</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="keyiyaku">
-                                            <input type="radio" name="employeeType" id="keyiyaku">
+                                            <input type="radio" value="契約社員" name="employeeType" id="keyiyaku">
                                             <span class="form-radio-text">契約社員</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="haken">
-                                            <input type="radio" name="employeeType" id="haken">
+                                            <input type="radio" value="派遣社員" name="employeeType" id="haken">
                                             <span class="form-radio-text">派遣社員</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="gyoumu">
-                                            <input type="radio" name="employeeType" id="gyoumu">
+                                            <input type="radio" value="業務委託" name="employeeType" id="gyoumu">
                                             <span class="form-radio-text">業務委託</span>
                                         </label>
                                     </div>
@@ -193,25 +192,25 @@
                                 <div class="form-row2 form-inputCheckbox">
                                     <div class="form-col6">
                                         <label for="Window">
-                                            <input type="checkbox" name="OS" id="Window">
+                                            <input type="checkbox" value="Window" name="Os[]" id="Window">
                                             <span class="form-checkbox">Window</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="Linux">
-                                            <input type="checkbox" name="OS" id="Linux">
+                                            <input type="checkbox" value="Linux" name="Os[]" id="Linux">
                                             <span class="form-checkbox">Linux</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="Mac">
-                                            <input type="checkbox" name="OS" id="Mac">
+                                            <input type="checkbox" value="Mac" name="Os[]" id="Mac">
                                             <span class="form-checkbox">Mac</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="AIX">
-                                            <input type="checkbox" name="OS" id="AIX">
+                                            <input type="checkbox" value="AIX" name="Os[]" id="AIX">
                                             <span class="form-checkbox">AIX</span>
                                         </label>
                                     </div>
@@ -279,19 +278,19 @@
                                     </div>
                                     <div class="form-col6">
                                         <label for="SalesForce">
-                                            <input type="checkbox" name="gengo[]" id="SalesForce">
+                                            <input type="checkbox" value="SalesForce" name="gengo[]" id="SalesForce">
                                             <span class="form-checkbox">SalesForce</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="IOS">
-                                            <input type="checkbox" name="gengo[]" id="IOS">
+                                            <input type="checkbox" value="IOS" name="gengo[]" id="IOS">
                                             <span class="form-checkbox">IOS</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="sonota1">
-                                            <input type="checkbox" name="gengo[]" id="sonota1">
+                                            <input type="checkbox" value="sonota1" name="gengo[]" id="sonota1">
                                             <span class="form-checkbox">その他</span>
                                         </label>
                                     </div>
@@ -304,61 +303,61 @@
                                 <div class="form-row2 form-inputCheckbox">
                                     <div class="form-col6">
                                         <label for="Mysql">
-                                            <input type="checkbox" name="DB[]" id="Mysql">
+                                            <input type="checkbox" value="Mysql" name="DB[]" id="Mysql">
                                             <span class="form-checkbox">Mysql</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="MariaDB">
-                                            <input type="checkbox" name="DB[]" id="MariaDB">
+                                            <input type="checkbox" value="MariaDB" name="DB[]" id="MariaDB">
                                             <span class="form-checkbox">MariaDB</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="SQLite">
-                                            <input type="checkbox" name="DB[]" id="SQLite">
+                                            <input type="checkbox" value="SQLite" name="DB[]" id="SQLite">
                                             <span class="form-checkbox">SQLite</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="Oracle">
-                                            <input type="checkbox" name="DB[]" id="Oracle">
+                                            <input type="checkbox" value="Oracle" name="DB[]" id="Oracle">
                                             <span class="form-checkbox">Oracle</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="PostgreSQL">
-                                            <input type="checkbox" name="DB[]" id="PostgreSQL">
+                                            <input type="checkbox" value="PostgreSQL" name="DB[]" id="PostgreSQL">
                                             <span class="form-checkbox">PostgreSQL</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="SQL Server">
-                                            <input type="checkbox" name="DB[]" id="SQL Server">
+                                            <input type="checkbox" value="SQL Server" name="DB[]" id="SQL Server">
                                             <span class="form-checkbox">SQL Server</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="DB2">
-                                            <input type="checkbox" name="DB[]" id="DB2">
+                                            <input type="checkbox" value="DB2" name="DB[]" id="DB2">
                                             <span class="form-checkbox">DB2</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="PL/SQL">
-                                            <input type="checkbox" name="DB[]" id="PL/SQL">
+                                            <input type="checkbox" value="PL/SQL" name="DB[]" id="PL/SQL">
                                             <span class="form-checkbox">PL/SQL</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="Access">
-                                            <input type="checkbox" name="DB[]" id="Access">
+                                            <input type="checkbox" value="Access" name="DB[]" id="Access">
                                             <span class="form-checkbox">Access</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="sonota2">
-                                            <input type="checkbox" name="DB[]" id="sonota2">
+                                            <input type="checkbox" value="sonota2" name="DB[]" id="sonota2">
                                             <span class="form-checkbox">その他</span>
                                         </label>
                                     </div>
@@ -424,7 +423,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="g-recaptcha" data-sitekey="6LdJInAiAAAAACOCC9BABpQ7Rwh1Ob_41U5FVNON"></div> -->
+                        <div class="g-recaptcha" data-sitekey="6LdJInAiAAAAACOCC9BABpQ7Rwh1Ob_41U5FVNON"></div>
                         <div class="my-3">
                              <div class="loading"></div> 
                              <div class="error-message"></div> 
@@ -492,7 +491,6 @@
             }
     </script>
     <!-- wrapper -->
-    <!-- <link rel="stylesheet" href="/home-page/assets/css/style.css" > -->
     <script src="/home-page/assets/js/sub_particles.min.js"></script>
     <script src="/home-page/assets/js/aos.js"></script>
     <script src="/home-page/assets/js/jquery.matchHeight-min.js"></script>

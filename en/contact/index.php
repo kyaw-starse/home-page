@@ -17,10 +17,13 @@
     <link rel="stylesheet" href="/home-page/assets/css/pc_style.css">
     <link rel="stylesheet" href="/home-page/assets/css/sp_style.css">
     <script src="/home-page/assets/js/jquery.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <!-- Template Main CSS File -->
+    <link href="/home-page/assets/css/style.css" rel="stylesheet">
 </head>
 <body id="top" class="top">
     <div id="splash">
-        <div id="splash-logo"><img src="/home-page/assets/img/common/loading.gif" alt="読み込み中" class="icon-01 apng-image"><span class="rollAnime">Loading</span></div>
+        <div id="splash-logo"><img src="/home-page/assets/img/common/loading.gif" alt="Loading" class="icon-01 apng-image"><span class="rollAnime">Loading</span></div>
     </div>
     <div class="splashbg"></div>
     <div id="wrapper" class="top-wrap">
@@ -95,7 +98,7 @@
         <section class="form-secblock">
             <div class="c-w1170">
                 <div class="form-block letter">
-                    <form action="">
+                    <form action="/home-page/en/form/contactform.php" method="post" role="form" class="php-email-form" id="contact-form">
                         <div class="form-row form-mb">
                             <div class="form-col2">
                                 <label for="syameyi" class="form-label">Company Name</label>
@@ -118,7 +121,7 @@
                                 </div>
                             </div>
                             <div class="form-col2">
-                                <label for="email" class="form-label">Mail<span class="require">*</span></label>
+                                <label for="email" class="form-label">E-mail<span class="require">*</span></label>
                                 <div class="form-inputText">
                                     <input type="email" class="inputType" name="email" id="email" placeholder="Example (half-width):toshima@gmail.com">
                                 </div>
@@ -134,7 +137,7 @@
                             <div class="form-col2">
                                 <label for="adress" class="form-label">Address<span class="require">*</span></label>
                                 <div class="form-inputText">
-                                    <input type="text" class="inputType" name="adress" id="adress" required>
+                                    <input type="text" class="inputType" name="adress" id="adress" >
                                 </div>
                             </div>
                         </div>
@@ -186,6 +189,11 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div class="my-3">
+                                <div class="loading">メール送信中...</div>
+                                <div class="error-message"></div>
+                                <div class="sent-message">メールが送信されました。ありがとうございました!</div>
                         </div>
                         <div class="form-row">
                             <div class="form-col1">
@@ -240,11 +248,17 @@
         </footer>
         <!-- footer -->
     </div>
+    <script type="text/javascript"> 
+      function onSubmit(token) {
+            document.getElementById("contact-form").submit();
+        } 
+    </script>
     <!-- wrapper -->
     <script src="/home-page/assets/js/sub_particles.min.js"></script>
     <script src="/home-page/assets/js/aos.js"></script>
     <script src="/home-page/assets/js/jquery.matchHeight-min.js"></script>
     <script src="/home-page/assets/js/subpage.js"></script>
     <script src="/home-page/assets/js/common.js"></script>
+    <script src="/home-page/assets/vendor/php-email-form/validate.js"></script>
 </body>
 </html>
