@@ -122,7 +122,7 @@
                             <p>Date of enactment March 1, 2017</p>
                             <p>Revision date April 1, 2017</p>
                             <p>STAR SE Co., Ltd</p>
-                            <p>Representative Director KANEMOTO KOURAN</p>
+                            <p>Representative Director Koran Kanemoto</p>
                         </div>
                     </div>
                 </div>
@@ -192,7 +192,7 @@
                                     </dl>
                                     <dl class="dl-list">
                                         <dt>Personal information <br class="sp">protection manager</dt>
-                                        <dd>KANEMOTO KOURAN</dd>
+                                        <dd>Koran Kanemoto</dd>
                                     </dl>
                                     <dl class="dl-list">
                                         <dt>TEL</dt>
