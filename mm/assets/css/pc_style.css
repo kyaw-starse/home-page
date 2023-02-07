@@ -114,6 +114,7 @@ Top
 .recruitDesp .boxLeft,
 .recruitDesp .boxRight {
     height: 100%;
+    padding: 0;
 }
 .recruitDesp .boxRight {
     margin-top: auto;
@@ -132,9 +133,9 @@ Top
 .recruitDesp .arrowList ul li .arrow-ls:after {
     color: #fff;
 }
-.recText {
+/* .recText {
     width: 85%;
-}
+} */
 .recText p {
     margin-bottom: 20px;
     line-height: 2;

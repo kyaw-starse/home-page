@@ -357,7 +357,7 @@
                                         <div class="history-desp">
                                             <dl class="cFix">
                                                 <dt>1月</dt>
-                                                <dd>STAR SE株式会社設立（資本金200万円）、東京本社を開設</dd>
+                                                <dd>STAR SE株式会社設立（資本金200万円）<br>東京本社を開設</dd>
                                             </dl>
                                         </div>
                                     </div>

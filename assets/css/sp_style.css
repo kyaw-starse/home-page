@@ -366,8 +366,17 @@
     /* ===============================
     Business Page
     =============================== */
+    .sesgyoumu .col2 {
+        width: 100%;
+    }
+    .sesgyoumu .col2:first-child {
+        margin-bottom: 50px;
+    }
+    .circle-iconBlock {
+        padding: 50px 20px;
+    }
     .circle-iconLst {
-        margin: -20px 0;
+        margin: 0 -3%;
     }
     .circle-iconLst li {
         width: 50%;
@@ -376,7 +385,9 @@
         max-height: 50px;
     }
     .circle-block p {
-        font-size: 16px;
+        font-size: 14px;
+        margin-top: 10px;
+        line-height: 1.3;
     }
     .circle-iconLst.pc {
         display: none;
@@ -387,6 +398,48 @@
     .business-sec02 .boxTxt,
     .business-sec03 .boxTxt {
         font-size: 18px;
+    }
+    /* 20230207 add */
+    .consignBox {
+        display: block;
+        margin-top: 60px;
+    }
+    .c-boxLeft {
+        display: block;
+        float: none;
+    }
+    .c-boxRight {
+        width: 100%;
+        float: none;
+    }
+    .consign-img {
+        width: 160px;
+        padding: 7px 0;
+        margin: 0 auto 22px auto;
+    }
+    .consign-img img {
+        max-width: 100px;
+    }
+    .consign-img p {
+        font-size: 14px;
+        display: block;
+        color: #008135;
+    }
+    .consign-txt {
+        border: 3px solid #008135;
+        border-radius: 15px;
+        padding: 15px;
+        font-size: 15px;
+    }
+    .right-arr {
+        height: 37px;
+        display: block;
+    }
+    .right-arr img {
+        transform: rotate(90deg);
+        display: block;
+        width: 60px;
+        margin: 0 auto;
     }
     /* ===============================
     Form Page
@@ -496,15 +549,6 @@
     /* Business Page */
     .business-bg {
         margin: 0 -20px;
-    }
-    .circle-iconLst {
-        margin: -10px 10px;
-    }
-    .circle-iconLst li {
-        padding: 10px;
-    }
-    .circle-block p {
-        font-size: 15px;
     }
 }
 @media screen and (max-width: 375px) {

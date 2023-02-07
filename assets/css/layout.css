@@ -203,6 +203,15 @@ header utility
 .h-utility ul li.h-icon a.lock-icon:hover:before {
     background:url('../img/common/lock_on.png') no-repeat;
 }
+.h-utility ul li.h-icon .navpc-active {
+    background: #E8B500;
+}
+.h-utility ul li.h-icon .navpc-active.mail-icon:before {
+    background:url('../img/common/mail_on.png') no-repeat;
+}
+.h-utility ul li.h-icon .navpc-active.lock-icon:before {
+    background:url('../img/common/lock_on.png') no-repeat;
+}
 .h-utility ul li.h-icon a img {
     display: none;
 }

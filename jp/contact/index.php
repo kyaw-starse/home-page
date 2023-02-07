@@ -49,7 +49,7 @@
                     </nav>
                     <div class="h-utility">
                         <ul class="cFix">
-                            <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
+                            <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon navpc-active"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
                             <li class="h-icon"><a href="/home-page/jp/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                             <li class="site-lang">
                                 <a href="/home-page/en/" class="lang-link">EN</a>

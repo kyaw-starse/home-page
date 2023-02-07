@@ -99,42 +99,68 @@
                 <div data-aos="fade-up">
                     <div class="ttl-number"><span>01</span></div>
                     <h2 class="ttl-subpage"><span class="text-un-yellow">SES業務</span></h2>
-                    <div class="business-bg bg-yello-light">
-                        <div class="circle-iconBlock">
-                            <ul class="circle-iconLst">
-                                <li>
-                                    <div class="circle-block">
-                                        <img src="/home-page/assets/img/business/bank_icon.png" alt="">
-                                        <p>金融・保険業</p>
-                                    </div>
-                                </li>
-                                <li class="sp">
-                                    <div class="circle-block">
-                                        <img src="/home-page/assets/img/business/eco_house_icon.png" alt="">
-                                        <p>電力・ガス業</p>
-                                    </div>
-                                </li>
-                            </ul>
-                            <ul class="circle-iconLst">
-                                <li class="pc">
-                                    <div class="circle-block">
-                                        <img src="/home-page/assets/img/business/eco_house_icon.png" alt="">
-                                        <p>電力・ガス業</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="circle-block">
-                                        <img src="/home-page/assets/img/business/funding_icon.png" alt="">
-                                        <p>卸売業、小売業</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="circle-block">
-                                        <img src="/home-page/assets/img/business/other_icon.png" alt="">
-                                        <p>その他</p>
-                                    </div>
-                                </li>
-                            </ul>
+                    <div class="sesgyoumu col-wrap">
+                        <div class="col2">
+                            <div class="business-bg bg-yello-light">
+                                <div class="circle-iconBlock">
+                                    <h2 class="ttl-subpage fz-25 fz-20-sp"><span>システム開発事業</span></h2>
+                                    <ul class="circle-iconLst">
+                                        <li>
+                                            <div class="circle-block">
+                                                <img src="/home-page/assets/img/business/bank_icon.png" alt="">
+                                                <p>金融機関系</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="circle-block">
+                                                <img src="/home-page/assets/img/business/eco_house_icon.png" alt="">
+                                                <p>電力・ガス業</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="circle-block">
+                                                <img src="/home-page/assets/img/business/funding_icon.png" alt="">
+                                                <p>卸売業、小売業</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="circle-block">
+                                                <img src="/home-page/assets/img/business/other_icon.png" alt="">
+                                                <p>その他</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col2">
+                            <div class="business-bg bg-yello-light">
+                                <div class="circle-iconBlock">
+                                    <h2 class="ttl-subpage fz-25 fz-20-sp"><span>インフラソリューション事業</span></h2>
+                                    <ul class="circle-iconLst">
+                                        <li>
+                                            <div class="circle-block">
+                                                <img src="/home-page/assets/img/business/three-servers.png" alt="">
+                                                <p>サーバ・<br class="sp">ネットワーク<br>構築設計</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <ul class="circle-iconLst">
+                                        <li>
+                                            <div class="circle-block">
+                                                <img src="/home-page/assets/img/business/database.png" alt="">
+                                                <p>データベース<br>構築</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="circle-block">
+                                                <img src="/home-page/assets/img/business/server.png" alt="">
+                                                <p>クラウド導入<br>移行支援</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -146,67 +172,67 @@
                 <div data-aos="fade-up">
                     <div class="ttl-number"><span>02</span></div>
                     <h2 class="ttl-subpage"><span class="text-un-yellow">受託開発事業</span></h2>
-                    <div class="business-bg bg-yello-light mb30">
-                        <div class="circle-iconBlock">
-                            <ul class="circle-iconLst">
-                                <li>
-                                    <div class="circle-block">
-                                        <img src="/home-page/assets/img/business/code_icon.png" alt="">
-                                        <p>スクラッチ開発</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="circle-block">
-                                        <img src="/home-page/assets/img/business/iPhone_icon.png" alt="">
-                                        <p>モバイルアプリ</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="circle-block">
-                                        <img src="/home-page/assets/img/business/cloud_icon.png" alt="">
-                                        <p>クラウド導入<br>・移行支援</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="textBox">
-                            <h2 class="boxTxt">スクラッチ開発</h2>
-                            <div class="boxDesp">
-                                <p>
-                                スクラッチ開発におけるサイト運用までの下記の流れのなかで、最も重要なのが「要件定義」です。<br>
-                                「要件定義」→「設計」→「プログラム開発」→「テスト」→「運用」<br>
-                                弊社は、スクラッチ開発の要件定義を進めるにあたり、お客様が「システムで何を実現したいか？」システム要件を明らかにするところからスタートします。<br>■主なプログラム言語：Java, C#, VB.Net, PHP, react native など
-                                </p>
-                                <ul class="list-disc">
-                                    <li>勤怠管理システム</li>
-                                    <li>オンライン試験システム</li>
-                                    <li>オンライン試験システム</li>
-                                </ul>
+                    <div class="consignBlock">
+                        <div class="consignBox cFix">
+                            <div class="c-boxLeft">
+                                <div class="consign-img">
+                                    <img src="/home-page/assets/img/business/code_icon.png" alt="">
+                                    <p>スクラッチ開発</p>
+                                </div>
+                                <span class="right-arr"><img src="/home-page/assets/img/business/right-arrow.png" alt=""></span>
+                            </div>
+                            <div class="c-boxRight">
+                                <div class="consign-txt">
+                                    <p>
+                                    スクラッチ開発におけるサイト運用までの下記の流れのなかで、最も重要なのが「要件定義」です。「要件定義」→「設計」→「プログラム開発」→「テスト」→「運用」弊社は、スクラッチ開発の要件定義を進めるにあたり、お客様が「システムで何を実現したいか？」システム要件を明らかにするところからスタートします。<br>
+                                    ■主なプログラム言語：Java, C#, VB.Net, PHP, react native など
+                                    </p>
+                                    <ul class="list-disc">
+                                        <li>勤怠管理システム</li>
+                                        <li>オンライン試験システム</li>
+                                        <li>オンライン試験システム</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                        <div class="textBox">
-                            <h2 class="boxTxt">モバイルアプリ開発</h2>
-                            <div class="boxDesp">
-                                <p>
-                                モバイルアプリ開発とは、様々なモバイルデバイスで動作するアプリケーションを作成することです。<br>弊社は、モバイルアプリ開発を進めるにあたり、デザインのみではなく、利用者にとって適切なコンテンツとはどのようなものかを検討します。<br>アプリの利用者により様々な年齢でも、使いやすく考えて提供しております。<br>AndroidやIOS、又はスマホやタブレットなどにも利用可能なアプリを開発しております。<br>■主なプログラム言語：swift、Java(Android)、ObjectiveC(Apple)、ruby on rails、react native など
-                                </p>
-                                <ul class="list-disc">
-                                    <li>勤怠管理システム</li>
-                                    <li>オンライン試験システム</li>
-                                </ul>
+                        <div class="consignBox cFix">
+                            <div class="c-boxLeft">
+                                <div class="consign-img">
+                                    <img src="/home-page/assets/img/business/iPhone_icon.png" alt="">
+                                    <p>スクラッチ開発</p>
+                                </div>
+                                <span class="right-arr"><img src="/home-page/assets/img/business/right-arrow.png" alt=""></span>
+                            </div>
+                            <div class="c-boxRight">
+                                <div class="consign-txt">
+                                    <p>
+                                    モバイルアプリ開発とは、様々なモバイルデバイスで動作するアプリケーションを作成することです。弊社は、モバイルアプリ開発を進めるにあたり、デザインのみではなく、利用者にとって適切なコンテンツとはどのようなものかを検討します。アプリの利用者により様々な年齢でも、使いやすく考えて提供しております。AndroidやIOS、又はスマホやタブレットなどにも利用可能なアプリを開発しております。<br>
+                                    ■主なプログラム言語：swift、Java(Android)、ObjectiveC(Apple)、ruby on rails、react native など
+                                    </p>
+                                    <ul class="list-disc">
+                                        <li>勤怠管理アプリ</li>
+                                        <li>受験アプリ</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                        <div class="textBox pb0">
-                            <h2 class="boxTxt">クラウド導入・移行支援</h2>
-                            <div class="boxDesp">
-                                <p>
-                                データ移行には、既存システムの調査、データ分析、移行計画などのステップがあります。<br>弊社はお客様の重要な情報を安全に新しいシステムへ移行する作業を提供しております。
-                                </p>
-                                <ul class="list-disc">
-                                    <li>ノーツからOffice 365のE1へ移行</li>
-                                </ul>
+                        <div class="consignBox cFix">
+                            <div class="c-boxLeft">
+                                <div class="consign-img">
+                                    <img src="/home-page/assets/img/business/cloud_icon.png" alt="">
+                                    <p>スクラッチ開発</p>
+                                </div>
+                                <span class="right-arr"><img src="/home-page/assets/img/business/right-arrow.png" alt=""></span>
+                            </div>
+                            <div class="c-boxRight">
+                                <div class="consign-txt">
+                                    <p>
+                                    データ移行には、既存システムの調査、データ分析、移行計画などのステップがあります。弊社はお客様の重要な情報を安全に新しいシステムへ移行する作業を提供しております。
+                                    </p>
+                                    <ul class="list-disc">
+                                        <li>ノーツからOffice 365のE1へ移行</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -219,9 +245,9 @@
                 <div data-aos="fade-up">
                     <div class="ttl-number"><span>03</span></div>
                     <h2 class="ttl-subpage"><span class="text-un-yellow">DX推進事業</span></h2>
-                    <div class="dx-sec01">
+                    <div class="dx-sec01 letter">
                         <div class="cFix">
-                            <h2 class="ttl-subpage txt-left fz-25 fz-20-sp"><span class="text-un-yellow">STAR SE DXへの取組み</span></h2>
+                            <h2 class="ttl-subpage fz-25 fz-20-sp"><span class="text-un-yellow">STAR SE DXへの取組み</span></h2>
                             <p class="letter-lead-txt"><strong>DX方針</strong></p>
                             <p class="letter-lead-txt">
                             今、世の中を取り巻く環境はデジタル化により大きく、且つ急激に変化してきています。<br>それに伴いお客様のニーズも様々に変化しています。その中で当社がクローズアップしたいのは、ＤＸを実現するＩＴ技術者の不足です。
@@ -305,7 +331,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="dx-sec03">
+                    <div class="dx-bgBox bg-green-light dx-sec03">
                         <h2 class="ttl-subpage txt-left fz-25 fz-20-sp"><span class="text-un-yellow">DX推進のための方策</span></h2>
                         <div class="textBox">
                             <h2 class="boxTxt">お客様企業のデジタル化営業支援 要員照会システム“絆”の開発・提供・販売</h2>
@@ -325,7 +351,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="dx-sec04">
+                    <div class="dx-bgBox bg-green-light dx-sec04">
                         <h2 class="ttl-subpage txt-left fz-25 fz-20-sp"><span class="text-un-yellow">DX推進のための取り組み</span></h2>
                         <div class="mb30">
                             <p class="pri-num"><span class="font-normal">1.</span>最新技術に関する社内勉強会の実施</p>
@@ -337,7 +363,7 @@
                             <p class="pri-num"><span class="font-normal">7.</span>Web会議の利用推進</p>
                         </div>
                     </div>
-                    <div class="dx-sec05">
+                    <div class="dx-bgBox bg-green-light dx-sec05">
                         <h2 class="ttl-subpage txt-left fz-25 fz-20-sp"><span class="text-un-yellow">DX推進の達成状況の指標</span></h2>
                         <div>
                             <p class="pri-num"><span class="font-normal">1.</span>要員照会システムの利用者アカウント数</p>

@@ -640,12 +640,7 @@ Company Info Page
 .sec-organization  .ttl-subpage{
     margin-bottom: 40px;
 }
-.sec-organization {
-    /* margin-bottom: 120px; */
-}
-/* .sec-companyInfo {
-    margin-top: -99vh;
-} */
+
 .company-wrap {
     position: relative;
 }
@@ -823,6 +818,48 @@ Company Info Page
 }
 .dx-sec01 {
     margin-bottom: 50px;
+}
+/* 20230207 add */
+.chat-img img {
+    margin: 0 auto;
+}
+.consignBox {
+    display: flex;
+    margin-top: 50px;
+}
+.c-boxLeft {
+    display: flex;
+    float: left;
+    align-items: center;
+}
+.c-boxRight {
+    width: calc(100% - 305px);
+    float: right;
+    align-self: center;
+}
+.consign-txt {
+    border: 3px solid #008135;
+    border-radius: 20px;
+    padding: 25px;
+    line-height: 1.8;
+}
+.consign-img {
+    width: 180px;
+    padding: 26px 0;
+    border: 3px solid #008135;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.consign-img img {
+    max-width: 100px;
+}
+.consign-img p {
+    font-size: 15px;
+    display: block;
+    color: #008135;
 }
 /* company page aside */
 .c-sidebar {
@@ -1088,17 +1125,23 @@ Security Page
 .circle-iconBlock {
     max-width: 720px;
     margin: 0 auto;
-    padding: 60px 0;
+    padding: 50px 0;
+}
+.sesgyoumu {
+    justify-content: space-between;
+}
+.sesgyoumu .col2 {
+    width: 48%;
 }
 .circle-iconLst {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin:0 -20px;
+    margin:0;
 }
 .circle-iconLst li {
-    width: 33.33%;
-    padding: 20px;
+    width: 45%;
+    padding: 2% 3%;
 }
 .circle-block {
     background: #fff;
@@ -1110,16 +1153,32 @@ Security Page
     justify-content: center;
 }
 .circle-block p {
-    font-size: 20px;
+    font-size: 16px;
     color: #008135;
     font-weight: bold;
     margin-top:15px;
+    text-align: center;
 }
 .cir-marLeft img {
     margin-left: 4%;
 }
 .cir-marRight img {
     margin-right: 4%;
+}
+.dx-bgBox {
+    padding: 30px;
+    margin-top: 50px;
+}
+@media screen and (min-width: 769px) and (max-width: 1000px) {
+    .ttl-subpage {
+        font-size: 23px !important;
+    }
+    .circle-block img {
+        width: 50px;
+    }
+    .circle-block p {
+        font-size: 14px;
+    }
 }
 /* Form Page */
 .form-secblock {
