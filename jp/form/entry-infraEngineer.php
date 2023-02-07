@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="/home-page/assets/css/pc_style.css">
     <link rel="stylesheet" href="/home-page/assets/css/sp_style.css">
     <script src="/home-page/assets/js/jquery.min.js"></script>
-    <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
       <!-- Template Main CSS File -->
       <link href="/home-page/assets/css/style.css" rel="stylesheet">
 </head>
@@ -160,25 +160,25 @@
                                 <div class="form-row2 form-inputRadio">
                                     <div class="form-col6">
                                         <label for="seyi">
-                                            <input type="radio" name="employeeType" id="seyi" checked>
+                                            <input type="radio" value="正社員" name="employeeType" id="seyi" checked>
                                             <span class="form-radio-text">正社員</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="keyiyaku">
-                                            <input type="radio" name="employeeType" id="keyiyaku">
+                                            <input type="radio" value="契約社員" name="employeeType" id="keyiyaku">
                                             <span class="form-radio-text">契約社員</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="haken">
-                                            <input type="radio" name="employeeType" id="haken">
+                                            <input type="radio" value="派遣社員" name="employeeType" id="haken">
                                             <span class="form-radio-text">派遣社員</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="gyoumu">
-                                            <input type="radio" name="employeeType" id="gyoumu">
+                                            <input type="radio" value="業務委託" name="employeeType" id="gyoumu">
                                             <span class="form-radio-text">業務委託</span>
                                         </label>
                                     </div>
@@ -191,25 +191,25 @@
                                 <div class="form-row2 form-inputCheckbox">
                                     <div class="form-col6">
                                         <label for="Window">
-                                            <input type="checkbox" name="OS" id="Window">
+                                            <input type="checkbox" value="Window" name="Os[]" id="Window">
                                             <span class="form-checkbox">Window</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="Linux">
-                                            <input type="checkbox" name="OS" id="Linux">
+                                            <input type="checkbox" value="Linux" name="Os[]" id="Linux">
                                             <span class="form-checkbox">Linux</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="Mac">
-                                            <input type="checkbox" name="OS" id="Mac">
+                                            <input type="checkbox" value="Mac" name="Os[]" id="Mac">
                                             <span class="form-checkbox">Mac</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="AIX">
-                                            <input type="checkbox" name="OS" id="AIX">
+                                            <input type="checkbox" value="AIX" name="Os[]" id="AIX">
                                             <span class="form-checkbox">AIX</span>
                                         </label>
                                     </div>
@@ -222,25 +222,25 @@
                                 <div class="form-row2 form-inputCheckbox">
                                     <div class="form-col4">
                                         <label for="serverEngineer">
-                                            <input type="checkbox" name="infra[]" id="serverEngineer">
+                                            <input type="checkbox" name="infra[]" value="サーバエンジニア"id="serverEngineer">
                                             <span class="form-checkbox">サーバエンジニア</span>
                                         </label>
                                     </div>
                                     <div class="form-col4">
                                         <label for="storageEngineer">
-                                            <input type="checkbox" name="infra[]" id="storageEngineer">
+                                            <input type="checkbox" name="infra[]" value="ストレージエンジニア"id="storageEngineer">
                                             <span class="form-checkbox">ストレージエンジニア</span>
                                         </label>
                                     </div>
                                     <div class="form-col4">
                                         <label for="netWorkEngineer">
-                                            <input type="checkbox" name="infra[]" id="netWorkEngineer">
+                                            <input type="checkbox" name="infra[]" value="ネットワークエンジニア"id="netWorkEngineer">
                                             <span class="form-checkbox">ネットワークエンジニア</span>
                                         </label>
                                     </div>
                                     <div class="form-col4">
                                         <label for="databaseEngineer">
-                                            <input type="checkbox" name="infra[]" id="databaseEngineer">
+                                            <input type="checkbox" name="infra[]" value="データベースエンジニア"id="databaseEngineer">
                                             <span class="form-checkbox">データベースエンジニア</span>
                                         </label>
                                     </div>
@@ -306,7 +306,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="g-recaptcha" data-sitekey="6LdJInAiAAAAACOCC9BABpQ7Rwh1Ob_41U5FVNON"></div> -->
+                        <div class="g-recaptcha" data-sitekey="6LdJInAiAAAAACOCC9BABpQ7Rwh1Ob_41U5FVNON"></div>
                         <div class="my-3">
                             <div class="loading"></div> 
                             <div class="error-message"></div> 

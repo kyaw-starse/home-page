@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="/home-page/assets/css/pc_style.css">
     <link rel="stylesheet" href="/home-page/assets/css/sp_style.css">
     <script src="/home-page/assets/js/jquery.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <!-- Template Main CSS File -->
+    <link href="/home-page/assets/css/style.css" rel="stylesheet">
 </head>
 <body id="top" class="top">
     <div id="splash">
@@ -95,70 +98,70 @@
         <section class="form-secblock">
             <div class="c-w1170">
                 <div class="form-block letter">
-                    <form action="">
+                    <form action="entry/entry-newGraduate.php" method="post" role="form" class="php-email-form" id="entry-new-graduate-form">
                         <div class="form-row form-mb">
                             <div class="form-col2">
-                                <label for="" class="form-label">姓名<span class="require">*</span>(漢字)</label>
+                                <label for="kaishamei" class="form-label">姓名<span class="require">*</span>(漢字)</label>
                                 <div class="form-inputText">
-                                    <input type="text" class="inputType" name="" id="" placeholder="例（姓）：鈴木">
-                                    <input type="text" class="inputType" name="" id="" placeholder="例（名）：太郎">
+                                    <input type="text" class="inputType" name="lastName1" id="lastName1" placeholder="例（姓）：鈴木">
+                                    <input type="text" class="inputType" name="firstName1" id="firstName1" placeholder="例（名）：太郎">
                                 </div>
                             </div>
                             <div class="form-col2">
-                                <label for="" class="form-label">姓名<span class="require">*</span>(カタカナ)</label>
+                                <label for="kaishamei" class="form-label">姓名<span class="require">*</span>(カタカナ)</label>
                                 <div class="form-inputText">
-                                    <input type="text" class="inputType" name="" id="" placeholder="例（姓）：スズキ">
-                                    <input type="text" class="inputType" name="" id="" placeholder="例（名）：タロウ">
+                                    <input type="text" class="inputType" name="lastName2" id="lastName2" placeholder="例（姓）：スズキ">
+                                    <input type="text" class="inputType" name="firstName2" id="firstName2" placeholder="例（名）：タロウ">
                                 </div>
                             </div>
                         </div>
                         <div class="form-row form-mb">
                             <div class="form-col2">
-                                <label for="" class="form-label">生年月日</label>
+                                <label for="selectYear" class="form-label">生年月日</label>
                                 <div class="form-inputText">
-                                    <input type="date" class="inputType" name="" id="" placeholder="">
+                                    <input type="date" class="inputType" name="selectYear" id="selectYear" placeholder="">
                                 </div>
                             </div>
                             <div class="form-col2">
-                                <label for="" class="form-label">メールアドレス<span class="require">*</span></label>
+                                <label for="email" class="form-label">メールアドレス<span class="require">*</span></label>
                                 <div class="form-inputText">
-                                    <input type="text" class="inputType" name="" id="" placeholder="例(半角)：toshima@gmail.com">
+                                    <input type="email" class="inputType" name="email" id="email" placeholder="例(半角)：toshima@gmail.com">
                                 </div>
                             </div>
                         </div>
                         <div class="form-row form-mb">
                             <div class="form-col2">
-                                <label for="" class="form-label">電話番号<span class="require">*</span></label>
+                                <label for="denwabangou" class="form-label">電話番号<span class="require">*</span></label>
                                 <div class="form-inputText">
-                                    <input type="text" class="inputType" name="" id="" placeholder="例(半角)：09012384561">
+                                    <input type="tel" class="inputType" name="denwabangou" id="denwabangou" placeholder="例(半角)：09012384561">
                                 </div>
                             </div>
                             <div class="form-col2">
-                                <label for="" class="form-label">住所<span class="require">*</span></label>
+                                <label for="address" class="form-label">住所<span class="require">*</span></label>
                                 <div class="form-inputText">
-                                    <input type="text" class="inputType" name="" id="" >
+                                    <input type="text" class="inputType" name="address" id="address" >
                                 </div>
                             </div>
                         </div>
                         <div class="form-row form-mb">
                             <div class="form-col1">
-                                <label for="" class="form-label">最終学暦<span class="require">*</span></label>
+                                <label for="schoolname" class="form-label">最終学暦<span class="require">*</span></label>
                                 <div class="form-row form-inputText form-gakureki">
                                     <div class="form-col2 form-mb10">
-                                        <input type="text" class="inputType" name="" id="" placeholder="例（全角）：大学名">
+                                        <input type="text" class="inputType" name="schoolname" id="schoolname" placeholder="例（全角）：大学名">
                                     </div>
                                     <div class="form-col2">
-                                        <input type="text" class="inputType" name="" id="" placeholder="例（全角）：学部学科">
+                                        <input type="text" class="inputType" name="department1" id="department1" placeholder="例（全角）：学部学科">
                                     </div>
                                     <div class="form-col2">
-                                        <input type="text" class="inputType" name="" id="" placeholder="例（全角）：情報学科">
+                                        <input type="text" class="inputType" name="department2" id="department2" placeholder="例（全角）：情報学科">
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="form-row form-mb">
                             <div class="form-col1">
-                                <label for="" class="form-label">スキルシート<span class="require">*</span></label>
+                                <label for="skillsheet" class="form-label">スキルシート<span class="require">*</span></label>
                                 <div class="form-row form-inputFile">
                                     <div class="form-col2">
                                         <input type="file" class="inputFile" name="skillsheet" id="skillsheet" accept=".xlsx,.xls,.csv,.docx,.word,.pdf">
@@ -171,15 +174,15 @@
                         </div>
                         <div class="form-row form-mb">
                             <div class="form-col1">
-                                <label for="" class="form-label">備考<span class="require">*</span></label>
+                                <label for="area" class="form-label">備考<span class="require">*</span></label>
                                 <div class="form-textarea">
-                                    <textarea name="" cols="50" rows="5" placeholder="※200字以内で入力してください。"></textarea>
+                                    <textarea name="area" cols="50" rows="5" placeholder="※200字以内で入力してください。"></textarea>
                                 </div>
                             </div>
                         </div>
                         <div class="form-row form-mb">
                             <div class="form-col1">
-                                <label for="" class="form-label">個人情報の取扱い<span class="require">*</span></label>
+                                <label for="chkagree2" class="form-label">個人情報の取扱い<span class="require">*</span></label>
                                 <div class="form-inputCheckbox">
                                     <label for="chkagree">
                                         <input type="checkbox" name="chkagree" id="chkagree">
@@ -215,10 +218,18 @@
                                 </div>
                             </div>
                         </div>
+                         <div class="g-recaptcha" data-sitekey="6LdJInAiAAAAACOCC9BABpQ7Rwh1Ob_41U5FVNON"></div>
+                        <div class="my-3">
+                            <div class="loading"></div> 
+                            <div class="error-message"></div> 
+                            <!-- <div class="sent-message"></div>  -->
+                            <div class="sent-message">メールが送信されました。ありがとうございました!</div> 
+                        </div>
                         <div class="form-row">
                             <div class="form-col1">
                                 <div class="sec-btn02">
-                                    <a href="#" class="btn02">送信</a>
+                                    <!-- <a href="#" class="btn02">送信</a> -->
+                                    <button type="submit" class="btn02">送信</button>
                                 </div>
                             </div>
                         </div>
@@ -268,11 +279,17 @@
         </footer>
         <!-- footer -->
     </div>
+    <script>
+        function onSubmit(token) {
+            document.getElementById("entry-new-graduate-form").submit();
+        }
+    </script>
     <!-- wrapper -->
     <script src="/home-page/assets/js/sub_particles.min.js"></script>
     <script src="/home-page/assets/js/aos.js"></script>
     <script src="/home-page/assets/js/jquery.matchHeight-min.js"></script>
     <script src="/home-page/assets/js/subpage.js"></script>
     <script src="/home-page/assets/js/common.js"></script>
+    <script src="/home-page/assets/vendor/php-email-form/validate.js"></script>
 </body>
 </html>

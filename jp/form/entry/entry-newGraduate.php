@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
   $errors = [];
   $name = $name2 = "";
-  $salary = $employeeType = $Os = $gengo = $DB = $chkagree = "";
+  $schoolname = $department1 = $department2 = $chkagree = "";
   $selectYear = $denwabangou = $address = $salary = $area = "";
   if (empty($_POST['chkagree'])) {
     $chkagree = "";
@@ -30,22 +30,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $denwabangou = $_POST['denwabangou'];
   // 住所
   $address = $_POST['address'];
-  // 希望月額
-  $salary = $_POST['salaryfrom'] . "～" . $_POST['salaryto'] . "円";
-  // 希望の契約形態
-  $employeeType = $_POST['employeeType'];
-  // OS
-  if (isset($_POST['Os'])) {
-    $Os = implode(", ", $_POST["Os"]);
-  }
-  // DB
-  if (isset($_POST['DB'])) {
-    $DB = implode(", ", $_POST["DB"]);
-  }
-  // 開発言語
-  if (isset($_POST['gengo'])) {
-    $gengo = implode(", ", $_POST["gengo"]);
-  }
+  // 大学名
+  $schoolname = $_POST['schoolname'];
+  // 大学名
+  $department1 = $_POST['department1'];
+  // 大学名
+  $department2 = $_POST['department2'];
   // 備考
   $area = $_POST['area'];
   // 個人情報の取扱い
@@ -72,7 +62,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   if (empty($address)) {
     $errors[] = "住所を入力してください。";
   }
-    //添付ファイル
+  if (empty($schoolname)) {
+    $errors[] = "大学名を入力してください。";
+  }
+  //添付ファイル
   if ($_FILES['skillsheet']['size'] == 0) {
     $errors[] = "スキルシートをアップロードしてください。";
   }
@@ -82,7 +75,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   if (empty($chkagree)) {
     $errors[] = "個人情報の取り扱い同意してください。";
   }
-
   if (!empty($errors)) {
     echo "<br>";
     foreach ($errors as $error) {
@@ -99,13 +91,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if ($responseData->success) {
 
+    
+      // $recruit = 'recruit@star-se.co.jp';
       $recruit = 'htun.htun.win@star-se.co.jp';
-      $custMail = $email;
-      //$mailer = 'STAR-SE_info@star-se.co.jp';
+      $custMail = $_POST['email'];
       $mailer = 'htun.htun.win@star-se.co.jp';
+      // $mailer = 'STAR-SE_info@star-se.co.jp';
+      
       $thumb_name = $_SERVER['DOCUMENT_ROOT'].'/home-page/assets/vendor/php-email-form/php-email-form.php';
-
       if (file_exists($thumb_name)) {
+        // if (file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php')) {
         include($thumb_name);
       } else {
         die('Unable to load the "PHP Email Form" Library!');
@@ -119,7 +114,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $contact->to = $custMail;
       $contact->from_name = "STAR SE";
       $contact->from_email = $mailer;
-      $contact->subject = "【STAR SE株式会社】システムエンジニア_キャリア採用応募";
+      $contact->subject = "【STAR SE株式会社】新卒採用応募";
 
       $sama = "様";
       $custNm = $name . $sama;
@@ -154,10 +149,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $contact->smtp = array(
         // 'host' => 'smtp.alpha-prm.jp',
         // 'username' => 'STAR-SE_info@star-se.co.jp',
-        // //'password' => 'FYuiojk789*RED%',
         // 'password' => 'NhyujmKi987$#',
         // 'port' => '587'
-
         'host' => 'smtp.alpha-prm.jp',
         //'username' => 'STAR-SE_info@star-se.co.jp',
         'username' => 'htun.htun.win@star-se.co.jp',
@@ -173,11 +166,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $contact->add_message($email, 'メールアドレス');
       $contact->add_message($denwabangou, '電話番号');
       $contact->add_message($address, '住所');
-      $contact->add_message($salary, '希望月額');
-      $contact->add_message($employeeType, '希望の契約形態');
-      $contact->add_message($Os, 'OS');
-      $contact->add_message($gengo, '開発言語');
-      $contact->add_message($DB, 'DB');
+      $contact->add_message($schoolname, '大学名');
+      $contact->add_message($department1, '学部学科');
+      $contact->add_message($department2, '情報学科');
       $contact->add_message($area, '備考');
       $contact->add_message($chkagree, '個人情報保護方針');
       $contact->add_attachment('skillsheet');
@@ -192,14 +183,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $contact2->to = $recruit;
       $contact2->from_name = $name;
       $contact2->from_email = $mailer;
-      $contact2->subject = "システムエンジニア_キャリア採用応募" . "【" . $name . "】";
+      $contact2->subject = "新卒採用応募" . "【" . $name . "】";
 
       $custNm2 = $name . "と申します。";
       $message2 = "
     
     この度は、STAR SE 株式会社へ応募をさせていただきます。
 
-    以下、システムエンジニア_キャリア採用応募の内容となります。
+    以下、新卒採用応募の内容となります。
     ※本メールは";
       $message3 = $name . "様からの応募の情報が当社のサーバーに到達した時点で送信される、自動配信メールです。
   ----------------------------------------------------------
@@ -226,11 +217,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $contact2->add_message($email, 'メールアドレス');
       $contact2->add_message($denwabangou, '電話番号');
       $contact2->add_message($address, '住所');
-      $contact2->add_message($salary, '希望月額');
-      $contact2->add_message($employeeType, '希望の契約形態');
-      $contact2->add_message($Os, 'OS');
-      $contact2->add_message($gengo, '開発言語');
-      $contact2->add_message($DB, 'DB');
+      $contact2->add_message($schoolname, '大学名');
+      $contact2->add_message($department1, '学部学科');
+      $contact2->add_message($department2, '情報学科');
       $contact2->add_message($area, '備考');
       $contact2->add_message($chkagree, '個人情報保護方針');
       $contact2->add_attachment('skillsheet');
