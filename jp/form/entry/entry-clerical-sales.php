@@ -33,7 +33,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   // 希望月額
   $salary = $_POST['salaryfrom'] . "～" . $_POST['salaryto'] . "円";
   // 希望の契約形態
-  $employeeType = $_POST['employeeType'];
+  //$employeeType = $_POST['employeeType'];
+  if (isset($_POST['employeeType'])){    
+    $employeeType = $_POST['employeeType'];
+  }else{
+    echo "error";
+    $employeeType = "no data chosen";
+  }
   // 職種
   if (isset($_POST['syokusyu'])) {
     $syokusyu = implode(", ", $_POST["syokusyu"]);
@@ -84,12 +90,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     return false;
   }
 
-  /*if ($_POST['g-recaptcha-response'] != "") {
+  if ($_POST['g-recaptcha-response'] != "") {
     $secret = '6LdJInAiAAAAAKmVb1MZe7PdMVv_6JjQeu-2JONX';
     $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secret . '&response=' . $_POST['g-recaptcha-response']);
     $responseData = json_decode($verifyResponse);
 
-    if ($responseData->success) { */
+    if ($responseData->success) {
 
       //$recruit = 'recruit@star-se.co.jp';
       $recruit = 'htun.htun.win@star-se.co.jp';
@@ -131,8 +137,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
     ※※※※※※※※※※※※※※※※※※※※※※※※
-    ★　〒103-0011
-    ★　東京都中央区日本橋大伝馬町17-6 日本橋小谷商事ビル２F
+    ★　〒104-0043　
+    ★　東京都中央区湊2-4-1　TOMACビル５階
     ★　STAR SE株式会社
     ★　TEL 03-5207-2955
     ★　FAX 03-5207-2956
@@ -214,8 +220,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $contact2->add_message($messagefoot, '');
 
       echo $contact2->send();
-    //}
- // }
+    }
+ }
 } else {
   echo "人間承認を受けてください。";
 }
