@@ -161,31 +161,31 @@
                             <li data-aos="fade-up" data-aos-delay="50">
                                 <a href="javascript:void(0)" class="newsLink">
                                     <span class="newsDate">2023/2/1</span>
-                                    <p class="newsTtl">事務所を八丁堀に移動</p>
+                                    <p class="newsTtl">事務所を八丁堀に移動しました。</p>
                                 </a>
                             </li>
                             <li data-aos="fade-up" data-aos-delay="70">
                                 <a href="javascript:void(0)" class="newsLink">
                                     <span class="newsDate">2023/1/22</span>
-                                    <p class="newsTtl">海外支社（ミャンマー）設立</p>
+                                    <p class="newsTtl">海外支社（ミャンマー）設立しました。</p>
                                 </a>
                             </li>
                             <li data-aos="fade-up" data-aos-delay="90">
                                 <a href="javascript:void(0)" class="newsLink">
                                     <span class="newsDate">2023/1/22</span>
-                                    <p class="newsTtl">会社は10年周を迎う</p>
+                                    <p class="newsTtl">会社は10年周を迎えました。</p>
                                 </a>
                             </li>
                             <li data-aos="fade-up" data-aos-delay="110">
                                 <a href="/home-page/jp/news/news-detail.php" class="newsLink">
                                     <span class="newsDate">2022/11/25</span>
-                                    <p class="newsTtl">DX戦略を策定</p>
+                                    <p class="newsTtl">DX戦略を策定しました。</p>
                                 </a>
                             </li>
                             <li data-aos="fade-up" data-aos-delay="130">
                                 <a href="javascript:void(0)" class="newsLink">
                                     <span class="newsDate">2022/7/1</span>
-                                    <p class="newsTtl">DX方針を宣言</p>
+                                    <p class="newsTtl">DX方針を宣言しました。</p>
                                 </a>
                             </li>
                         </ul>

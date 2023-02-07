@@ -101,31 +101,85 @@
                         <li data-aos="fade-up" data-aos-delay="50">
                             <a href="javascript:void(0)" class="newsLink">
                                 <span class="newsDate">2023/2/1</span>
-                                <p class="newsTtl">Office moved to Hatchobori</p>
+                                <p class="newsTtl">Office moved to Hatchobori.</p>
                             </a>
                         </li>
                         <li data-aos="fade-up" data-aos-delay="70">
                             <a href="javascript:void(0)" class="newsLink">
                                 <span class="newsDate">2023/1/22</span>
-                                <p class="newsTtl">Established overseas branch (Myanmar)</p>
+                                <p class="newsTtl">Overseas branch (Myanmar) is established.</p>
                             </a>
                         </li>
                         <li data-aos="fade-up" data-aos-delay="90">
                             <a href="javascript:void(0)" class="newsLink">
                                 <span class="newsDate">2023/1/22</span>
-                                <p class="newsTtl">The company celebrates its 10th anniversary</p>
+                                <p class="newsTtl">The company celebrated its 10th anniversary.</p>
                             </a>
                         </li>
                         <li data-aos="fade-up" data-aos-delay="110">
                             <a href="/home-page/en/news/news-detail.php" class="newsLink">
                                 <span class="newsDate">2022/11/25</span>
-                                <p class="newsTtl">Formulation of DX strategy</p>
+                                <p class="newsTtl">DX strategy is formulated.</p>
                             </a>
                         </li>
                         <li data-aos="fade-up" data-aos-delay="130">
                             <a href="javascript:void(0)" class="newsLink">
                                 <span class="newsDate">2022/7/1</span>
-                                <p class="newsTtl">Declare DX policy</p>
+                                <p class="newsTtl">DX policy is declared.</p>
+                            </a>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="130">
+                            <a href="javascript:void(0)" class="newsLink">
+                                <span class="newsDate">2020/12/17</span>
+                                <p class="newsTtl">ISO/IEC 27001:2013認証を取得しました。</p>
+                            </a>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="130">
+                            <a href="javascript:void(0)" class="newsLink">
+                                <span class="newsDate">2019/12/23</span>
+                                <p class="newsTtl">資本金を4,500万円に増資しました。</p>
+                            </a>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="130">
+                            <a href="javascript:void(0)" class="newsLink">
+                                <span class="newsDate">2019/10/1</span>
+                                <p class="newsTtl">ビジネスマナーの勉強会を行いました。</p>
+                            </a>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="130">
+                            <a href="javascript:void(0)" class="newsLink">
+                                <span class="newsDate">2019/1/27</span>
+                                <p class="newsTtl">STAR‐SE株式会社の2019新年会兼新人歓迎会を行いました。</p>
+                            </a>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="130">
+                            <a href="javascript:void(0)" class="newsLink">
+                                <span class="newsDate">2019/1/15</span>
+                                <p class="newsTtl">SAPの勉強会を実施しました。</p>
+                            </a>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="130">
+                            <a href="javascript:void(0)" class="newsLink">
+                                <span class="newsDate">2019/1/1</span>
+                                <p class="newsTtl">労働者派遣事業許可番号（派13-312273）を取得しました。</p>
+                            </a>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="130">
+                            <a href="javascript:void(0)" class="newsLink">
+                                <span class="newsDate">2019/1/1</span>
+                                <p class="newsTtl">Java勉強会を実施しました。</p>
+                            </a>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="130">
+                            <a href="javascript:void(0)" class="newsLink">
+                                <span class="newsDate">2019/10/8</span>
+                                <p class="newsTtl">福島へ社員旅行しました。</p>
+                            </a>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="130">
+                            <a href="javascript:void(0)" class="newsLink">
+                                <span class="newsDate">2018/10/27</span>
+                                <p class="newsTtl">草津温泉へ社員旅行しました。</p>
                             </a>
                         </li>
                     </ul>
