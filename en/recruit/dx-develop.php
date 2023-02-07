@@ -128,7 +128,7 @@
                         <div class="letter-b-txt">
                             <p>2022/11/25</p>
                             <p>STAR SE Co., Ltd.</p>
-                            <p>Representative Director Koran Kanemoto</p>
+                            <p>Representative Director Kanemoto Kouran</p>
                         </div>
                     </div>
                 </div>

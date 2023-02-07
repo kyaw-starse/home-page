@@ -122,7 +122,7 @@
                             <p>Date of enactment March 1, 2017</p>
                             <p>Revision date April 1, 2017</p>
                             <p>STAR SE Co., Ltd</p>
-                            <p>Representative Director Koran Kanemoto</p>
+                            <p>Representative Director Kanemoto Kouran</p>
                         </div>
                     </div>
                 </div>

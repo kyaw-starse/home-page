@@ -122,7 +122,7 @@
                             <p>Date of enactment March 1, 2017</p>
                             <p>Revision date April 1, 2017</p>
                             <p>STAR SE Co., Ltd</p>
-                            <p>Representative Director Koran Kanemoto</p>
+                            <p>Representative Director Kanemoto Kouran</p>
                         </div>
                     </div>
                 </div>
@@ -212,7 +212,7 @@
                             <span>1.</span>Name and address of our company and the name of the representative: Described in the "Personal Information Security".<br class="sp">（The address is the same as the「Contact point for complaints, consultations and inquiries regarding personal information」）
                         </div>
                         <div class="pri-num">
-                            <span>2.</span>Job title of personal information protection manager: Representative Director Koran Kanemoto <br class="sp">(Contact Tel:<p class="dis-inline">03-5207-2955</p>)
+                            <span>2.</span>Job title of personal information protection manager: Representative Director Kanemoto Kouran <br class="sp">(Contact Tel:<p class="dis-inline">03-5207-2955</p>)
                         </div>
                         <div class="pri-num">
                             <span>3.</span>Purpose of use of retained personal data<br>This applies to items which are covered to【I】's "Disclosure classification".

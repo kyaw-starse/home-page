@@ -111,7 +111,7 @@
                         <p>
                             In this way, we will train engineers while developing solutions that apply DX in-house, and aim to be a company that can think and realize together with customers who are considering converting to DX.
                         </p>
-                        <p class="txt-right"><strong>Representative Director Koran Kanemoto</strong></p>
+                        <p class="txt-right"><strong>Representative Director Kanemoto Kouran</strong></p>
                     </div>
                 </div>
             </div>
