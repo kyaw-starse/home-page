@@ -17,6 +17,7 @@
     <title>お問い合せ</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">    
     <script src="/home-page/assets/js/jquery.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <!-- Template Main CSS File -->
     <link href="/home-page/assets/css/style.css" rel="stylesheet">
 </head>
@@ -193,7 +194,7 @@
                                 </div>
                             </div>
                         </div>
-              
+                        <div class="g-recaptcha" data-sitekey="6LdJInAiAAAAACOCC9BABpQ7Rwh1Ob_41U5FVNON"></div>
                         <div class="my-3">
                                 <div class="loading">メール送信中...</div>
                                 <div class="error-message"></div>
@@ -203,9 +204,7 @@
                             <div class="form-col1">
                                 <div class="sec-btn02">
                                     <button type="submit" class="contact_send btn02" class="g-recaptcha" id='contact_send'
-                                        data-sitekey="6Ld24EokAAAAANLLsb10Dq3dFKLCJctrGXXPDnjZ" 
-                                        data-callback='onSubmit' 
-                                        data-action='submit'>送信</button>
+                                       >送信</button>
                                 </div>
                             </div>
                         </div>

@@ -218,9 +218,9 @@
                         </div>
                         <div class="form-row form-mb">
                             <div class="form-col1">
-                                <label for="" class="form-label">備考<span class="require">*</span></label>
+                                <label for="area" class="form-label">備考<span class="require">*</span></label>
                                 <div class="form-textarea">
-                                    <textarea name="" cols="50" rows="5" placeholder="※200字以内で入力してください。"></textarea>
+                                    <textarea name="area" cols="50" rows="5" placeholder="※200字以内で入力してください。"></textarea>
                                 </div>
                             </div>
                         </div>

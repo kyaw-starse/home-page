@@ -84,18 +84,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     return false;
   }
 
-  if ($_POST['g-recaptcha-response'] != "") {
+  /*if ($_POST['g-recaptcha-response'] != "") {
     $secret = '6LdJInAiAAAAAKmVb1MZe7PdMVv_6JjQeu-2JONX';
     $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secret . '&response=' . $_POST['g-recaptcha-response']);
     $responseData = json_decode($verifyResponse);
 
-    if ($responseData->success) {
+    if ($responseData->success) { */
 
-      $recruit = 'recruit@star-se.co.jp';
+      //$recruit = 'recruit@star-se.co.jp';
+      $recruit = 'htun.htun.win@star-se.co.jp';
       $custMail = $_POST['email'];
-      $mailer = 'STAR-SE_info@star-se.co.jp';
+      //$mailer = 'STAR-SE_info@star-se.co.jp';
+      $mailer = 'htun.htun.win@star-se.co.jp';
 
-      if (file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php')) {
+      if (file_exists($php_email_form = $_SERVER['DOCUMENT_ROOT'].'/home-page/assets/vendor/php-email-form/php-email-form.php')) {
         include($php_email_form);
       } else {
         die('Unable to load the "PHP Email Form" Library!');
@@ -112,7 +114,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $contact->subject = "【STAR SE株式会社】事務・営業_キャリア採用応募";
 
       $sama = "様";
-      $custNm = $_POST['name'] . $sama;
+      $custNm = $name. $sama;//$_POST['name'] 
       $message = "
     お問い合わせ、ありがとうございます。
     この度は、STAR SE株式会社へのお問い合わせを頂きまして、誠にありがとうございます。
@@ -142,8 +144,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   ";
       $contact->smtp = array(
         'host' => 'smtp.alpha-prm.jp',
-        'username' => 'STAR-SE_info@star-se.co.jp',
-        'password' => 'NhyujmKi987$#',
+        //'username' => 'STAR-SE_info@star-se.co.jp',
+        'username' => 'htun.htun.win@star-se.co.jp',
+        //'password' => 'NhyujmKi987$#',
+        'password' => 't@n202301SE',
         'port' => '587'
       );
       $contact->add_message($message1, '');
@@ -187,8 +191,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
       $contact2->smtp = array(
         'host' => 'smtp.alpha-prm.jp',
-        'username' => 'STAR-SE_info@star-se.co.jp',
-        'password' => 'NhyujmKi987$#',
+        //'username' => 'STAR-SE_info@star-se.co.jp',
+        'username' => 'htun.htun.win@star-se.co.jp',
+        //'password' => 'NhyujmKi987$#',
+        'password' => 't@n202301SE',
         'port' => '587'
       );
 
@@ -208,8 +214,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $contact2->add_message($messagefoot, '');
 
       echo $contact2->send();
-    }
-  }
+    //}
+ // }
 } else {
   echo "人間承認を受けてください。";
 }
