@@ -192,7 +192,7 @@
                         </div>
                         <div class="g-recaptcha" data-sitekey="6LdJInAiAAAAACOCC9BABpQ7Rwh1Ob_41U5FVNON"></div>
                         <div class="my-3">
-                                <div class="loading">メール送信中...</div>
+                                <div class="loading"></div>
                                 <div class="error-message"></div>
                                 <div class="sent-message">メールが送信されました。ありがとうございました!</div>
                         </div>
