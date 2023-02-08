@@ -46,7 +46,7 @@
                     <div class="h-utility">
                         <ul class="cFix">
                             <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
-                            <li class="h-icon"><a href="/home-page/jp/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
+                            <li class="h-icon"><a href="https://www.star-se.co.jp/starseapp/public/login" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                             <li class="site-lang">
                                 <a href="/home-page/en/" class="lang-link langOn">EN</a>
                                 <a href="/home-page/jp/" class="lang-link">JP</a>
@@ -76,7 +76,7 @@
                 <div class="h-utility">
                     <ul class="cFix">
                         <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
-                        <li class="h-icon"><a href="/home-page/jp/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
+                        <li class="h-icon"><a href="https://www.star-se.co.jp/starseapp/public/login" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                         <li class="site-lang">
                             <a href="/home-page/jp/en/" class="lang-link">EN</a>
                             <a href="/home-page/jp/jp/" class="lang-link langOn">JP</a>
@@ -141,7 +141,8 @@
                                 <tr>
                                     <th>支社</th>
                                     <td>
-                                        <p>STAR  SE  MYANMAR Co.,Ltd.<br>Room No.11/A, 11th floor, Pyay Road, Red Hill Tower (or) KBZ Tower, Sanchaung Township, Yangon.</p>
+                                    <a href="https://www.star-se-myanmar.com/" target="_blank">STAR  SE  MYANMAR Co.,Ltd.</a><br>
+                                        <p>Room No.11/A, 11th floor, Pyay Road, Red Hill Tower (or) KBZ Tower, Sanchaung Township, Yangon.</p>
                                     </td>
                                 </tr>
                                 <tr>
@@ -181,8 +182,8 @@
                                     <td>
                                         <p>労働者派遣事業許可番号 派13-312273<br>有料職業紹介事業許可 13-ユ-309929<br>プライバシーマーク 第22000213号<br>ISO/IEC 27001:2013 認証登録番号 J0437（2020/12/17取得）</p>
                                         <ul class="company-infologo">
-                                            <li><img src="/home-page/assets/img/company/logo_iso1.png" alt=""></li>
-                                            <li><img src="/home-page/assets/img/company/logo_iso2.png" alt=""></li>
+                                            <li><a href="https://privacymark.jp/"  target="_blank"><img src="/home-page/assets/img/company/logo_iso1.png" alt=""></a></li>
+                                            <li><a href="https://www.jisc.go.jp/"  target="_blank"><img src="/home-page/assets/img/company/logo_iso2.png" alt=""></a></li>
                                         </ul>
                                     </td>
                                 </tr>
@@ -410,7 +411,7 @@
         </div>
         <div class="footerLogo bg-green-light">
             <div class="c-w1420 cFix">
-                <span class="footerLogoImg"><a href="#"><img src="/home-page/assets/img/common/footer_logo2.png" alt="STAR SE株式会社"></a></span>
+                <span class="footerLogoImg"><a href="https://www.star-se-myanmar.com/"><img src="/home-page/assets/img/common/footer_logo2.png" alt="STAR SE株式会社"></a></span>
             </div> 
         </div>
         <!-- footerLogo -->

@@ -50,7 +50,7 @@
                     <div class="h-utility">
                         <ul class="cFix">
                             <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon navpc-active"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
-                            <li class="h-icon"><a href="/home-page/jp/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
+                            <li class="h-icon"><a href="https://www.star-se.co.jp/starseapp/public/login" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                             <li class="site-lang">
                                 <a href="/home-page/en/" class="lang-link">EN</a>
                                 <a href="/home-page/jp/" class="lang-link langOn">JP</a>
@@ -80,7 +80,7 @@
                 <div class="h-utility">
                     <ul class="cFix">
                         <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
-                        <li class="h-icon"><a href="/home-page/jp/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
+                        <li class="h-icon"><a href="https://www.star-se.co.jp/starseapp/public/login" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                         <li class="site-lang">
                             <a href="/home-page/en/" class="lang-link">EN</a>
                             <a href="/home-page/jp/" class="lang-link langOn">JP</a>
@@ -147,7 +147,7 @@
                             <div class="form-col1">
                                 <label for="area" class="form-label">お問い合わせ内容<span class="require">*</span></label>
                                 <div class="form-textarea">
-                                    <textarea name="area" cols="50" rows="5" placeholder="※200字以内で入力してください。"></textarea>
+                                    <textarea name="area" cols="50" rows="5" placeholder="※200字以内で入力してください。" id="inquiry_area"></textarea>
                                 </div>
                             </div>
                         </div>
@@ -212,7 +212,7 @@
         </div>
         <div class="footerLogo">
             <div class="c-w1420 cFix">
-                <span class="footerLogoImg"><a href="#"><img src="/home-page/assets/img/common/footer_logo2.png" alt="STAR SE株式会社"></a></span>
+                <span class="footerLogoImg"><a href="https://www.star-se-myanmar.com/" target="_blank"><img src="/home-page/assets/img/common/footer_logo2.png" alt="STAR SE株式会社"></a></span>
             </div> 
         </div>
         <!-- footerLogo -->
@@ -255,6 +255,18 @@
       function onSubmit(token) {
             document.getElementById("contact-form").submit();
         } 
+
+        jQuery('#inquiry_area').keyup(function() {
+            var $this, wordcount;
+            $this = $(this);
+            wordcount = $this.val().split(/\b[\s,\.-:;]*/).length;
+            if (wordcount > 250) {
+                jQuery(".word_count span").text("150");
+                return alert("You've reached the maximum allowed words.");
+            } else {
+                return jQuery(".word_count span").text(wordcount);
+            }
+        });
     </script>
     <!-- wrapper -->
     <script src="/home-page/assets/js/sub_particles.min.js"></script>
