@@ -45,7 +45,7 @@
                     <div class="h-utility">
                         <ul class="cFix">
                             <li class="h-icon"><a href="/home-page/en/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
-                            <li class="h-icon"><a href="/home-page/en/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
+                            <li class="h-icon"><a href=" https://www.star-se.co.jp/starseapp/public/login" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                             <li class="site-lang">
                                 <a href="/home-page/en/" class="lang-link langOn">EN</a>
                                 <a href="/home-page/jp/" class="lang-link">JP</a>
@@ -75,7 +75,7 @@
                 <div class="h-utility">
                     <ul class="cFix">
                         <li class="h-icon"><a href="/home-page/en/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
-                        <li class="h-icon"><a href="/home-page/en/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
+                        <li class="h-icon"><a href=" https://www.star-se.co.jp/starseapp/public/login" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                         <li class="site-lang">
                             <a href="/home-page/en/" class="lang-link langOn">EN</a>
                             <a href="/home-page/jp/" class="lang-link">JP</a>
@@ -99,44 +99,71 @@
                 <div data-aos="fade-up">
                     <div class="ttl-number"><span>01</span></div>
                     <h2 class="ttl-subpage"><span class="text-un-yellow">SES Work</span></h2>
-                    <div class="business-bg bg-yello-light">
-                        <div class="circle-iconBlock">
-                            <ul class="circle-iconLst">
-                                <li>
-                                    <div class="circle-block">
-                                        <img src="/home-page/assets/img/business/bank_icon.png" alt="">
-                                        <p>Finance/Insurance</p>
-                                    </div>
-                                </li>
-                                <li class="sp">
-                                    <div class="circle-block">
-                                        <img src="/home-page/assets/img/business/eco_house_icon.png" alt="">
-                                        <p>Electric Power/Gas</p>
-                                    </div>
-                                </li>
-                            </ul>
-                            <ul class="circle-iconLst">
-                                <li class="pc">
-                                    <div class="circle-block">
-                                        <img src="/home-page/assets/img/business/eco_house_icon.png" alt="">
-                                        <p>Electric Power/Gas</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="circle-block">
-                                        <img src="/home-page/assets/img/business/funding_icon.png" alt="">
-                                        <p>Wholesale, Retail</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="circle-block">
-                                        <img src="/home-page/assets/img/business/other_icon.png" alt="">
-                                        <p>Others</p>
-                                    </div>
-                                </li>
-                            </ul>
+                    <div class="sesgyoumu col-wrap">
+                        <div class="col2">
+                            <div class="business-bg bg-yello-light">
+                                <div class="circle-iconBlock">
+                                    <h2 class="ttl-subpage fz-25 fz-20-sp"><span>System Development Business</span></h2>
+                                    <ul class="circle-iconLst">
+                                        <li>
+                                            <div class="circle-block">
+                                                <img src="/home-page/assets/img/business/bank_icon.png" alt="">
+                                                <p>Financial Institution</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="circle-block">
+                                                <img src="/home-page/assets/img/business/eco_house_icon.png" alt="">
+                                                <p>Electric Power/ Gas Industry</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="circle-block">
+                                                <img src="/home-page/assets/img/business/funding_icon.png" alt="">
+                                                <p>Wholesale, Retail</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="circle-block">
+                                                <img src="/home-page/assets/img/business/other_icon.png" alt="">
+                                                <p>Others</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col2">
+                            <div class="business-bg bg-yello-light">
+                                <div class="circle-iconBlock">
+                                    <h2 class="ttl-subpage fz-25 fz-20-sp"><span>Infrastructure Solution Business</span></h2>
+                                    <ul class="circle-iconLst">
+                                        <li>
+                                            <div class="circle-block">
+                                                <img src="/home-page/assets/img/business/three-servers.png" alt="">
+                                                <p>Server <br class="sp">Network<br>Construction Design</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <ul class="circle-iconLst">
+                                        <li>
+                                            <div class="circle-block">
+                                                <img src="/home-page/assets/img/business/database.png" alt="">
+                                                <p>Database<br>Construction</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="circle-block">
+                                                <img src="/home-page/assets/img/business/server.png" alt="">
+                                                <p>Cloud Adoption<br>Migration Support</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                   
                 </div>
             </div>
         </section>
@@ -146,68 +173,68 @@
                 <div data-aos="fade-up">
                     <div class="ttl-number"><span>02</span></div>
                     <h2 class="ttl-subpage"><span class="text-un-yellow">Consignment Development Business</span></h2>
-                    <div class="business-bg bg-yello-light mb30">
-                        <div class="circle-iconBlock">
-                            <ul class="circle-iconLst">
-                                <li>
-                                    <div class="circle-block">
-                                        <img src="/home-page/assets/img/business/code_icon.png" alt="">
-                                        <p>Scratch Development</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="circle-block">
-                                        <img src="/home-page/assets/img/business/iPhone_icon.png" alt="">
-                                        <p>Mobile App</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="circle-block">
-                                        <img src="/home-page/assets/img/business/cloud_icon.png" alt="">
-                                        <p>Cloud Deployment<br>/Migration assistance</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="textBox">
-                            <h2 class="boxTxt">Scratch Development</h2>
-                            <div class="boxDesp">
-                                <p>
-                                Among the following flow up to site operation in scratch development, the most important is "requirement definition".<br>
-                                "Requirement definition" → "Design" → "Program development" → "Test" → "Operation"<br>
-                                In proceeding with the requirements definition for scratch development, we start by clarifying the system requirements from what customers want to achieve with the system.<br>■ Main programming languages: Java, C#, VB.Net, PHP, react native, etc.
-                                </p>
-                                <ul class="list-disc">
-                                    <li>Attendance Management System</li>
-                                    <li>Online Test System</li>
-                                    <li>etc</li>
-                                </ul>
+                    <div class="consignBlock">
+                        <div class="consignBox cFix">
+                            <div class="c-boxLeft">
+                                <div class="consign-img">
+                                    <img src="/home-page/assets/img/business/code_icon.png" alt="">
+                                    <p>Scratch Development</p>
+                                </div>
+                                <span class="right-arr"><img src="/home-page/assets/img/business/right-arrow.png" alt=""></span>
+                            </div>
+                            <div class="c-boxRight">
+                                <div class="consign-txt">
+                                    <p>
+                                    Among the following flow up to site operation in scratch development, the most important is "requirement definition". "Requirement definition" → "Design" → "Program development" → "Test" → "Operation" When proceeding with the requirement definition for scratch development, we clarify the system requirements of the customer "What do you want to achieve with the system?" Start where you are. <br>
+                                     ■ Main programming languages: Java, C#, VB.Net, PHP, react native, etc.
+                                    </p>
+                                    <ul class="list-disc">
+                                        <li>Attendance Management System</li>
+                                        <li>Online Test System</li>
+                                        <li>etc..</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                        <div class="textBox">
-                            <h2 class="boxTxt">Mobile App Development</h2>
-                            <div class="boxDesp">
-                                <p>
-                                Mobile app development is creating applications that work on various mobile devices.<br>In proceeding mobile application development, we consider not only the design but also what kind of content is suitable for users.<br>We provide the app with consideration for users of various ages to make it easy to use.<br>We are developing apps that can be used for Android, IOS, smartphones and tablets.<br>■ Main programming languages: swift, Java (Android), ObjectiveC (Apple), ruby on rails, react native, etc.
-                                </p>
-                                <ul class="list-disc">
-                                    <li>Attendance Management App</li>
-                                    <li>Online Test App</li>
-                                    <li>etc</li>
-                                </ul>
+                        <div class="consignBox cFix">
+                            <div class="c-boxLeft">
+                                <div class="consign-img">
+                                    <img src="/home-page/assets/img/business/iPhone_icon.png" alt="">
+                                    <p>Scratch Development</p>
+                                </div>
+                                <span class="right-arr"><img src="/home-page/assets/img/business/right-arrow.png" alt=""></span>
+                            </div>
+                            <div class="c-boxRight">
+                                <div class="consign-txt">
+                                    <p>
+                                    Mobile app development is creating applications that work on various mobile devices. In promoting mobile application development, we consider not only the design but also what kind of content is suitable for users. We provide the app with consideration for users of various ages to make it easy to use. We are developing apps that can be used for Android, IOS, smartphones and tablets.
+Main programming languages: swift, Java (Android), ObjectiveC (Apple), ruby on rails, react native, etc.
+                                    </p>
+                                    <ul class="list-disc">
+                                        <li>Attendance management app</li>
+                                        <li>Exam App</li>
+                                        <li>etc..</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                        <div class="textBox pb0">
-                            <h2 class="boxTxt">Cloud Deployment/Migration assistance</h2>
-                            <div class="boxDesp">
-                                <p>
-                                Data migration includes steps such as investigation of existing systems, data analysis, and migration planning.<br>We provide a secure migration of your important information to the new system.
-                                </p>
-                                <ul class="list-disc">
-                                    <li>Migration from Notes to Office 365 E1</li>
-                                </ul>
+                        <div class="consignBox cFix">
+                            <div class="c-boxLeft">
+                                <div class="consign-img">
+                                    <img src="/home-page/assets/img/business/cloud_icon.png" alt="">
+                                    <p>Scratch Development</p>
+                                </div>
+                                <span class="right-arr"><img src="/home-page/assets/img/business/right-arrow.png" alt=""></span>
+                            </div>
+                            <div class="c-boxRight">
+                                <div class="consign-txt">
+                                    <p>
+                                    Data migration includes steps such as investigation of existing systems, data analysis, and migration planning. We provide a secure migration of your important information to the new system.
+                                    </p>
+                                    <ul class="list-disc">
+                                        <li>Migration from Notes to Office 365 E1</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -220,7 +247,7 @@
                 <div data-aos="fade-up">
                     <div class="ttl-number"><span>03</span></div>
                     <h2 class="ttl-subpage"><span class="text-un-yellow">DX Promotion Business</span></h2>
-                    <div class="dx-sec01">
+                    <div class="dx-sec01 letter" >
                         <div class="cFix">
                             <h2 class="ttl-subpage txt-left fz-25 fz-20-sp"><span class="text-un-yellow">Initiatives for STAR SE DX</span></h2>
                             <p class="letter-lead-txt"><strong>DX Policies</strong></p>
@@ -306,7 +333,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="dx-sec03">
+                    <!-- <div class="dx-sec03"> -->
+                    <div class="dx-bgBox bg-green-light dx-sec03">
                         <h2 class="ttl-subpage txt-left fz-25 fz-20-sp"><span class="text-un-yellow">Measures to promote DX</span></h2>
                         <div class="textBox">
                             <h2 class="boxTxt">Customer company digitization sales support Development, provision, and sales of personnel inquiry system “Kizuna”</h2>
@@ -326,7 +354,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="dx-sec04">
+                    <!-- <div class="dx-sec04"> -->
+                    <div class="dx-bgBox bg-green-light dx-sec04">
                         <h2 class="ttl-subpage txt-left fz-25 fz-20-sp"><span class="text-un-yellow">Efforts to promote DX</span></h2>
                         <div class="mb30">
                             <p class="pri-num"><span class="font-normal">1.</span>Holding in-house study sessions on the latest technology</p>
@@ -338,7 +367,7 @@
                             <p class="pri-num"><span class="font-normal">7.</span>Promotion of use of web conferencing</p>
                         </div>
                     </div>
-                    <div class="dx-sec05">
+                    <div class="dx-bgBox bg-green-light dx-sec05">
                         <h2 class="ttl-subpage txt-left fz-25 fz-20-sp"><span class="text-un-yellow">DX promotion achievement status indicator</span></h2>
                         <div>
                             <p class="pri-num"><span class="font-normal">1.</span>Number of user accounts of the personnel inquiry system</p>
@@ -353,7 +382,7 @@
         </div>
         <div class="footerLogo">
             <div class="c-w1420 cFix">
-                <span class="footerLogoImg"><a href="#"><img src="/home-page/assets/img/common/footer_logo2.png" alt="STAR SE Co., Ltd."></a></span>
+                <span class="footerLogoImg"><a href="https://www.star-se-myanmar.com/"><img src="/home-page/assets/img/common/footer_logo2.png" alt="STAR SE Co., Ltd."></a></span>
             </div> 
         </div>
         <!-- footerLogo -->

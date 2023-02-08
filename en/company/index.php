@@ -46,7 +46,7 @@
                     <div class="h-utility">
                         <ul class="cFix">
                             <li class="h-icon"><a href="/home-page/en/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
-                            <li class="h-icon"><a href="/home-page/en/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
+                            <li class="h-icon"><a href=" https://www.star-se.co.jp/starseapp/public/login" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                             <li class="site-lang">
                                 <a href="/home-page/en/" class="lang-link langOn">EN</a>
                                 <a href="/home-page/jp/" class="lang-link">JP</a>
@@ -76,7 +76,7 @@
                 <div class="h-utility">
                     <ul class="cFix">
                         <li class="h-icon"><a href="/home-page/en/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
-                        <li class="h-icon"><a href="/home-page/en/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
+                        <li class="h-icon"><a href=" https://www.star-se.co.jp/starseapp/public/login" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                         <li class="site-lang">
                             <a href="/home-page/en/" class="lang-link langOn">EN</a>
                             <a href="/home-page/jp/" class="lang-link">JP</a>
@@ -141,7 +141,8 @@
                                 <tr>
                                     <th>Branch Office</th>
                                     <td>
-                                        <p>STAR  SE  MYANMAR Co.,Ltd.<br>Room No.11/A, 11th floor, Pyay Road, Red Hill Tower (or) KBZ Tower, Sanchaung Township, Yangon.</p>
+                                        <!-- <a href="https://www.star-se-myanmar.com/" class="btn-arr"><span>STAR  SE  MYANMAR Co.,Ltd.</span></a> -->
+                                        <p><a href="https://www.star-se-myanmar.com/" target="_blank"><span class="font-bold">STAR  SE  MYANMAR Co.,Ltd.</span></a><br>Room No.11/A, 11th floor, Pyay Road, Red Hill Tower (or) KBZ Tower, Sanchaung Township, Yangon.</p>
                                     </td>
                                 </tr>
                                 <tr>
@@ -181,8 +182,9 @@
                                     <td>
                                         <p>Worker Dispatch Business Permit No. 13-312273<br>Paid Employment Introduction Business Permission (13 - Yu - 309929)<br>Privacy Mark : No.22000213<br>ISO/IEC 27001:2013 Certification Registration Number J0437 (acquired on 2020/12/17)</p>
                                         <ul class="company-infologo">
-                                            <li><img src="/home-page/assets/img/company/logo_iso1.png" alt=""></li>
-                                            <li><img src="/home-page/assets/img/company/logo_iso2.png" alt=""></li>
+                                            <li><a href="https://privacymark.jp/" target="_blank"><img src="/home-page/assets/img/company/logo_iso1.png" alt=""></li>
+                                            <li><a href="https://www.jisc.go.jp/" target="_blank"><img src="/home-page/assets/img/company/logo_iso2.png" alt=""></li>
+                                    
                                         </ul>
                                     </td>
                                 </tr>
@@ -410,7 +412,7 @@
         </div>
         <div class="footerLogo bg-green-light">
             <div class="c-w1420 cFix">
-                <span class="footerLogoImg"><a href="#"><img src="/home-page/assets/img/common/footer_logo2.png" alt="STAR SE Co., Ltd."></a></span>
+                <span class="footerLogoImg"><a href="https://www.star-se-myanmar.com/"><img src="/home-page/assets/img/common/footer_logo2.png" alt="STAR SE Co., Ltd."></a></span>
             </div> 
         </div>
         <!-- footerLogo -->

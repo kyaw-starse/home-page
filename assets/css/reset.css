@@ -232,5 +232,9 @@ img {
     display: block;
     height: auto;
     max-width: 100%;
-    vertical-align: middle;
+    /* vertical-align: middle; */
 }
+.recurit-img img{
+    width: 100%;
+}
+

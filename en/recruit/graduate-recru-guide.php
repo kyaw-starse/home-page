@@ -10,7 +10,7 @@
     <meta name="google-site-verification" content="Dg_pvHrLYsE_PNW7oubm3Xw5aWYEPksmjpJwXLBG0Sk"/>
     <link rel="shortcut icon" href="/home-page/assets/img/common/favicon.png" type="image/x-icon">
     <link rel="icon" href="/home-page/assets/img/common/favicon.png" type="image/x-icon">
-    <title>採用情報｜キャリア募集</title>
+    <title>Recruitment Information｜Career Recruitment</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/home-page/assets/css/import.css">
     <link rel="stylesheet" href="/home-page/assets/css/aos.css">
@@ -45,7 +45,7 @@
                     <div class="h-utility">
                         <ul class="cFix">
                             <li class="h-icon"><a href="/home-page/en/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
-                            <li class="h-icon"><a href="/home-page/en/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
+                            <li class="h-icon"><a href=" https://www.star-se.co.jp/starseapp/public/login" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                             <li class="site-lang">
                                 <a href="/home-page/en/" class="lang-link langOn">EN</a>
                                 <a href="/home-page/jp/" class="lang-link">JP</a>
@@ -75,7 +75,7 @@
                 <div class="h-utility">
                     <ul class="cFix">
                         <li class="h-icon"><a href="/home-page/en/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
-                        <li class="h-icon"><a href="/home-page/en/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
+                        <li class="h-icon"><a href=" https://www.star-se.co.jp/starseapp/public/login" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                         <li class="site-lang">
                             <a href="/home-page/en/" class="lang-link langOn">EN</a>
                             <a href="/home-page/jp/" class="lang-link">JP</a>
@@ -226,7 +226,7 @@
                     <ul class="recruitList-block">
                         <li class="recruitList-li">
                             <div class="recruitList-content">
-                                <div class="recurit-img"><img src="/home-page/assets/img/recruit/infra_img.png" alt=""></div>
+                                <div class="recurit-img"><img src="/home-page/assets/img/recruit/recruit-kaigi.jpg" alt=""></div>
                                 <div class="recruit-desp">
                                     <h2 class="recruit-ttl">General Meeting</h2>
                                     <p class="recruit-txt mb0">
@@ -238,7 +238,7 @@
                         </li>
                         <li class="recruitList-li">
                             <div class="recruitList-content">
-                                <div class="recurit-img"><img src="/home-page/assets/img/recruit/infra_img.png" alt=""></div>
+                                <div class="recurit-img"><img src="/home-page/assets/img/recruit/recruit-benkyou.jpg" alt=""></div>
                                 <div class="recruit-desp">
                                     <h2 class="recruit-ttl">Training and study sessions</h2>
                                     <p class="recruit-txt mb0">
@@ -250,7 +250,7 @@
                         </li>
                         <li class="recruitList-li">
                             <div class="recruitList-content">
-                                <div class="recurit-img"><img src="/home-page/assets/img/recruit/infra_img.png" alt=""></div>
+                                <div class="recurit-img"><img src="/home-page/assets/img/recruit/recruit-hanami.jpg" alt=""></div>
                                 <div class="recruit-desp">
                                     <h2 class="recruit-ttl">Company event Cherry Blossom viewing</h2>
                                     <p class="recruit-txt mb0">

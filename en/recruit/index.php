@@ -10,7 +10,7 @@
     <meta name="google-site-verification" content="Dg_pvHrLYsE_PNW7oubm3Xw5aWYEPksmjpJwXLBG0Sk"/>
     <link rel="shortcut icon" href="/home-page/assets/img/common/favicon.png" type="image/x-icon">
     <link rel="icon" href="/home-page/assets/img/common/favicon.png" type="image/x-icon">
-    <title>採用情報</title>
+    <title>Recruitment Information</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/home-page/assets/css/import.css">
     <link rel="stylesheet" href="/home-page/assets/css/aos.css">
@@ -44,8 +44,8 @@
                     </nav>
                     <div class="h-utility">
                         <ul class="cFix">
-                            <li class="h-icon"><a href="/home-page/en/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
-                            <li class="h-icon"><a href="/home-page/en/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
+                            <li class="h-icon"><a href="https://www.star-se.co.jp/starseapp/public/login" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
+                            <li class="h-icon"><a href="https://www.star-se.co.jp/starseapp/public/login" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                             <li class="site-lang">
                                 <a href="/home-page/en/" class="lang-link langOn">EN</a>
                                 <a href="/home-page/jp/" class="lang-link">JP</a>
@@ -75,7 +75,7 @@
                 <div class="h-utility">
                     <ul class="cFix">
                         <li class="h-icon"><a href="/home-page/en/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
-                        <li class="h-icon"><a href="/home-page/en/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
+                        <li class="h-icon"><a href=" https://www.star-se.co.jp/starseapp/public/login" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                         <li class="site-lang">
                             <a href="/home-page/en/" class="lang-link langOn">EN</a>
                             <a href="/home-page/jp/" class="lang-link">JP</a>
@@ -100,14 +100,14 @@
                     <ul class="recruitList-block">
                         <li class="recruitList-li">
                             <div class="recruitList-content">
-                                <div class="recurit-img"><img src="/home-page/assets/img/recruit/infra_img.png" alt=""></div>
+                                <div class="recurit-img"><img src="/home-page/assets/img/recruit/recruit1.jpg" alt=""></div>
                                 <div class="recruit-desp">
                                     <h2 class="recruit-ttl">System Engineer</h2>
                                     <p data-mh="recurit-mat01" class="recruit-txt">We are looking for people who want to advance their careers from programmers to system engineers, who want to become project leaders and senior system engineers, who want to acquire object-oriented technology, and who want to acquire qualifications and improve their skills.</p>
                                     <div class="mTop-auto">
                                         <ul class="recruit-btnls">
                                             <li>
-                                                <div class="recruit-btnbox">
+                                                <div class="recruit-btnbox" >
                                                     <span>Content</span>
                                                     <p>We offer development projects that match your experience and desires, from the design, development, introduction and operation of business applications such as web applications and distribution.</p>
                                                 </div>
@@ -140,7 +140,7 @@
                         </li>
                         <li class="recruitList-li">
                             <div class="recruitList-content">
-                                <div class="recurit-img"><img src="/home-page/assets/img/recruit/infra_img.png" alt=""></div>
+                                <div class="recurit-img"><img src="/home-page/assets/img/recruit/recruit2.jpg" alt=""></div>
                                 <div class="recruit-desp">
                                     <h2 class="recruit-ttl">Infrastructure engineer</h2>
                                     <p data-mh="recurit-mat01" class="recruit-txt">We are looking for someone who has experience in building infrastructure (servers/storage/networks, etc.), or experience installing and building middleware (OpenView/Systemwalker/JP1, etc.).</p>
@@ -180,7 +180,7 @@
                         </li>
                         <li class="recruitList-li">
                             <div class="recruitList-content">
-                                <div class="recurit-img"><img src="/home-page/assets/img/recruit/infra_img.png" alt=""></div>
+                                <div class="recurit-img"><img src="/home-page/assets/img/recruit/recruit3.jpg" alt=""></div>
                                 <div class="recruit-desp">
                                     <h2 class="recruit-ttl">Office work & Sales</h2>
                                     <p data-mh="recurit-mat02" class="recruit-txt">We are looking for a sales representative for system development projects of end users and major system integrators.</p>
@@ -225,7 +225,7 @@
                     <ul class="recruitList-block">
                         <li class="recruitList-li">
                             <div class="recruitList-content">
-                                <div class="recurit-img"><img src="/home-page/assets/img/recruit/infra_img.png" alt=""></div>
+                                <div class="recurit-img"><img src="/home-page/assets/img/recruit/recruit4.jpg" alt=""></div>
                                 <div class="recruit-desp">
                                     <h2 class="recruit-ttl">New Graduate/Second New Graduate Recruitment Guidelines</h2>
                                     <p data-mh="recurit-mat02" class="recruit-txt">Message from a young employee Workplace Scenery Frequently asked questions Recruitment guidelines</p>
@@ -271,7 +271,7 @@
         </div>
         <div class="footerLogo">
             <div class="c-w1420 cFix">
-                <span class="footerLogoImg"><a href="#"><img src="/home-page/assets/img/common/footer_logo2.png" alt="STAR SE株式会社"></a></span>
+                <span class="footerLogoImg"><a href="https://www.star-se-myanmar.com/"><img src="/home-page/assets/img/common/footer_logo2.png" alt="STAR SE株式会社"></a></span>
             </div> 
         </div>
         <!-- footerLogo -->
