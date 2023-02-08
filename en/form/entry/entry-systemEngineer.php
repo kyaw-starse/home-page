@@ -48,6 +48,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   }
   // 備考
   $area = $_POST['area'];
+
   // 個人情報の取扱い
   if (isset($_POST['chkagree'])) {
     $chkagree = "Agreed";

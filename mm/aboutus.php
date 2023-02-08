@@ -10,7 +10,7 @@
     <meta name="google-site-verification" content="Dg_pvHrLYsE_PNW7oubm3Xw5aWYEPksmjpJwXLBG0Sk"/>
     <link rel="shortcut icon" href="./assets/img/common/favicon.png" type="image/x-icon">
     <link rel="icon" href="./assets/img/common/favicon.png" type="image/x-icon">
-    <title>ホーム</title>
+    <title>AboutUs</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/import.css">
     <link rel="stylesheet" href="./assets/css/pc_style.css">
@@ -94,6 +94,14 @@
                                     <p>Kyaw Win Thu (Managing Director)<br>Wai Min Soe (General Manager)<br>Director (Kolan Kanemoto)</p>
                                 </td>
                             </tr>
+                            <tr>
+                                <th>Head Office</th>
+                                <td>
+                                    <p><a href="https://www.star-se.co.jp/" target="_blank">STAR SE Co., Ltd.</a>
+                                    〒104-0043<br>
+                                    5th floor, TOMAC Building, 2-4-1 Minato, Chuo-ku, Tokyo</p>
+                                </td>
+                            </tr>
                         </table>
                     </div>
                 </div>
@@ -101,7 +109,7 @@
         </div>
         <div class="footerLogo">
             <div class="c-w1100 cFix">
-                <span class="footerLogoImg"><a href="#"><img src="./assets/img/common/footer_logo.png" alt="STAR SE株式会社"></a></span>
+                <span class="footerLogoImg"><a href="https://www.star-se.co.jp/"><img src="./assets/img/common/footer_logo.png" alt="STAR SE株式会社"></a></span>
             </div> 
         </div>
         <footer>

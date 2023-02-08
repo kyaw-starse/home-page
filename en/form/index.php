@@ -380,7 +380,7 @@
                             <div class="form-col1">
                                 <label for="" class="form-label">Remarks<span class="require">*</span></label>
                                 <div class="form-textarea">
-                                    <textarea name="area" cols="50" rows="5" placeholder="※Please enter within 200 characters."></textarea>
+                                    <textarea name="area" cols="50" rows="5" maxlength='5' placeholder="※Please enter within 200 characters."></textarea>
                                 </div>
                             </div>
                         </div>
@@ -488,6 +488,12 @@
         function onSubmit(token) {
             document.getElementById("entry-system-engineer-form").submit();
         }
+        $(".form-textarea").text(function(index, currentText) {
+            console.log(currentText);
+        if(currentText.length > 200){
+               alert("Accept 200 words in Remarks!");
+            }
+        });
     </script>
     <!-- wrapper -->
     <script src="/home-page/assets/js/sub_particles.min.js"></script>

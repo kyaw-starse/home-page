@@ -188,17 +188,17 @@
                     <h2 class="sec-ttl">News & Events</h2>
                     <div class="newsBlock cFix">
                         <ul>
-                            <li>
-                                <a href="#" class="newsLink">
+                        <li>
+                                <p class="newsLink">
                                     <span class="newsDate">2023/01/27</span>
-                                    <p class="newsTtl">Start Recruit For Myanmar Office</p>
-                                </a>
+                                    <span class="newsTtl">Start Recruit For Myanmar Office</span>
+                                </p>
                             </li>
                             <li>
-                                <a href="#" class="newsLink">
+                                <p class="newsLink">
                                     <span class="newsDate">2023/01/22</span>
-                                    <p class="newsTtl">Company Established</p>
-                                </a>
+                                    <span class="newsTtl">Company Established</span>
+                                </p>
                             </li>
                         </ul>
                     </div>
@@ -207,7 +207,7 @@
         </div>
         <div class="footerLogo">
             <div class="c-w1100 cFix">
-                <span class="footerLogoImg"><a href="#"><img src="./assets/img/common/footer_logo.png" alt="STAR SE株式会社"></a></span>
+                <span class="footerLogoImg"><a href="https://www.star-se.co.jp/"><img src="./assets/img/common/footer_logo.png" alt="STAR SE株式会社"></a></span>
             </div> 
         </div>
         <footer>

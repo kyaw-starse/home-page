@@ -10,7 +10,7 @@
     <meta name="google-site-verification" content="Dg_pvHrLYsE_PNW7oubm3Xw5aWYEPksmjpJwXLBG0Sk"/>
     <link rel="shortcut icon" href="./assets/img/common/favicon.png" type="image/x-icon">
     <link rel="icon" href="./assets/img/common/favicon.png" type="image/x-icon">
-    <title>ホーム</title>
+    <title>ContactUs</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/import.css">
     <link rel="stylesheet" href="./assets/css/pc_style.css">
@@ -115,7 +115,7 @@
         </div>
         <div class="footerLogo">
             <div class="c-w1100 cFix">
-                <span class="footerLogoImg"><a href="#"><img src="./assets/img/common/footer_logo.png" alt="STAR SE株式会社"></a></span>
+                <span class="footerLogoImg"><a href="https://www.star-se.co.jp/"><img src="./assets/img/common/footer_logo.png" alt="STAR SE株式会社"></a></span>
             </div> 
         </div>
         <footer>

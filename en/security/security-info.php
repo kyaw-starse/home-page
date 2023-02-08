@@ -88,7 +88,7 @@
             <canvas class="particlesBg"></canvas>
             <div class="sub-bannerIn c-w1170">
                 <h2 class="sub-ttl">Information Security</h2>
-                <img src="/home-page/assets/img/philosophy/bnr_img.jpg" class="sub-bannerImg" alt="">
+                <img src="/home-page/assets/img/security/bnr_img.jpg" class="sub-bannerImg" alt="">
             </div>
         </div>
         <!-- sub-banner -->
@@ -130,7 +130,7 @@
         </div>
         <div class="footerLogo">
             <div class="c-w1420 cFix">
-            <span class="footerLogoImg"><a href="#"><img src="/home-page/assets/img/common/footer_logo2.png" alt="STAR SE Co., Ltd."></a></span>
+            <span class="footerLogoImg"><a href="https://www.star-se-myanmar.com/"><img src="/home-page/assets/img/common/footer_logo2.png" alt="STAR SE Co., Ltd."></a></span>
             </div> 
         </div>
         <!-- footerLogo -->
