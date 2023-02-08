@@ -275,7 +275,7 @@
                         <div class="form-row">
                             <div class="form-col1">
                             <div class="sec-btn02">
-                                <button type="submit" class="contact_send btn02" class="g-recaptcha" id='contact_send'>送信</button>
+                                <button type="submit" class="contact_send btn02" class="g-recaptcha" id="send_mail">送信</button>
                                 </div>
                             </div>
                         </div>
@@ -286,7 +286,7 @@
         </div>
         <div class="footerLogo">
             <div class="c-w1420 cFix">
-                <span class="footerLogoImg"><a href="#"><img src="/home-page/assets/img/common/footer_logo2.png" alt="STAR SE Co., Ltd."></a></span>
+                <span class="footerLogoImg"><a href="https://www.star-se-myanmar.com/"><img src="/home-page/assets/img/common/footer_logo2.png" alt="STAR SE Co., Ltd."></a></span>
             </div> 
         </div>
         <!-- footerLogo -->

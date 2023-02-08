@@ -317,7 +317,7 @@
                         <div class="form-row">
                             <div class="form-col1">
                                 <div class="sec-btn02">
-                                    <button type="submit" class="btn02">送信</button>
+                                    <button type="submit" class="btn02" id="send_mail">送信</button>
                                 </div>
                             </div>
                         </div>

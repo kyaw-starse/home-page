@@ -273,7 +273,7 @@
                         <div class="form-row">
                             <div class="form-col1">
                                 <div class="sec-btn02">
-                                <button type="submit" class="contact_send btn02" class="g-recaptcha" id='contact_send'>送信</button>
+                                <button type="submit" class="contact_send btn02" class="g-recaptcha" id="send_mail">送信</button>
                                 </div>
                             </div>
                         </div>
