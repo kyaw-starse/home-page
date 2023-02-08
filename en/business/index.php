@@ -182,6 +182,7 @@
                                 <ul class="list-disc">
                                     <li>Attendance Management System</li>
                                     <li>Online Test System</li>
+                                    <li>etc</li>
                                 </ul>
                             </div>
                         </div>
@@ -192,8 +193,9 @@
                                 Mobile app development is creating applications that work on various mobile devices.<br>In proceeding mobile application development, we consider not only the design but also what kind of content is suitable for users.<br>We provide the app with consideration for users of various ages to make it easy to use.<br>We are developing apps that can be used for Android, IOS, smartphones and tablets.<br>■ Main programming languages: swift, Java (Android), ObjectiveC (Apple), ruby on rails, react native, etc.
                                 </p>
                                 <ul class="list-disc">
-                                    <li>Attendance Management System</li>
-                                    <li>Online Test System</li>
+                                    <li>Attendance Management App</li>
+                                    <li>Online Test App</li>
+                                    <li>etc</li>
                                 </ul>
                             </div>
                         </div>

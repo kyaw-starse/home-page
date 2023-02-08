@@ -190,7 +190,7 @@
                                     <ul class="list-disc">
                                         <li>勤怠管理システム</li>
                                         <li>オンライン試験システム</li>
-                                        <li>オンライン試験システム</li>
+                                        <li>など</li>
                                     </ul>
                                 </div>
                             </div>
@@ -212,6 +212,7 @@
                                     <ul class="list-disc">
                                         <li>勤怠管理アプリ</li>
                                         <li>受験アプリ</li>
+                                        <li>など</li>
                                     </ul>
                                 </div>
                             </div>
