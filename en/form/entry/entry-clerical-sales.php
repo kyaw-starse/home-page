@@ -87,12 +87,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     return false;
   }
 
- /* if ($_POST['g-recaptcha-response'] != "") {
+ if ($_POST['g-recaptcha-response'] != "") {
     $secret = '6LdJInAiAAAAAKmVb1MZe7PdMVv_6JjQeu-2JONX';
     $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secret . '&response=' . $_POST['g-recaptcha-response']);
     $responseData = json_decode($verifyResponse);
 
-    if ($responseData->success) {*/
+    if ($responseData->success) {
 
       //$recruit = 'recruit@star-se.co.jp';
       $recruit = 'htun.htun.win@star-se.co.jp';
@@ -117,7 +117,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $contact->subject = "【STAR SE Co., Ltd.】Office work / sales _ Career recruitment application";
 
       $sama = "様";
-      $custNm = $name;//$_POST['name'] 
+      $custNm = $name;
       $message = "
       Thank you for your inquiry.
       Thank you for contacting STAR SE Co., Ltd.
@@ -182,11 +182,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $custNm2 = "My name is ".$name;
       $message2 = "
 
-      This time, I would like to apply to STAR SE Co., Ltd.
+      This time, I would like to apply for STAR SE Co., Ltd.
 
       The following is the content of the application for clerical work/sales_career recruitment.      
       ※This email is";
-      $message3 = "This is an automatic email that will be sent when the application information from ".$name . "
+      $message3 = "an automatic email that has been sent the appliation by ".$name ."
   ----------------------------------------------------------
   ";
 
@@ -202,8 +202,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       );
 
       $contact2->add_message($message4, '');
-      $contact2->add_message($name, 'Fullname');
-      $contact2->add_message($name2, 'Fullname（フリガナ）');
+      $contact2->add_message($name, 'Fullname(Kanji)');
+      $contact2->add_message($name2, 'Fullname（Katakana）');
       $contact2->add_message($selectYear, 'DOB');
       $contact2->add_message($email, 'E-mail');
       $contact2->add_message($denwabangou, 'Phone number');
@@ -217,25 +217,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $contact2->add_message($messagefoot, '');
 
       echo $contact2->send();
-    //}
-// }
-} else {
-  echo "人間承認を受けてください。";
+    }
 }
-
-
-     /* $contact->add_message($message1, '');
-      $contact->add_message($name, 'Fullname');//姓名
-      $contact->add_message($name2, 'Fullname（フリガナ）');//姓名
-      $contact->add_message($selectYear, 'DOB'); //生年月日
-      $contact->add_message($email, 'E-mail');//メールアドレス
-      $contact->add_message($denwabangou, 'Phone number');//電話番号
-      $contact->add_message($address, 'Address');//住所
-      $contact->add_message($salary, 'Desired Monthly salary');//希望月額
-      $contact->add_message($employeeType, 'Desired Contract Form');//希望の契約形態
-      $contact->add_message($syokusyu, 'Profession');//職種
-      $contact->add_message($area, 'Remarks');//備考
-      $contact->add_message($chkagree, 'Personal information agree');//個人情報保護方針
-      $contact->add_attachment('skillsheet');
-      $contact->add_message($messagefoot, '');*/
+} else {
+  echo "Get human approval";  //echo "人間承認を受けてください。";
+}
 

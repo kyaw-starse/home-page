@@ -160,25 +160,25 @@
                                 <div class="form-row2 form-inputRadio">
                                     <div class="form-col6">
                                         <label for="seyi">
-                                            <input type="radio" name="employeeType" id="seyi" checked>
+                                            <input type="radio" value="Permanent Staff" name="employeeType" id="seyi" checked>
                                             <span class="form-radio-text">Permanent Staff</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="keyiyaku">
-                                            <input type="radio" name="employeeType" id="keyiyaku">
+                                            <input type="radio" value="Contract Staff" name="employeeType" id="keyiyaku">
                                             <span class="form-radio-text">Contract Staff</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="haken">
-                                            <input type="radio" name="employeeType" id="haken">
+                                            <input type="radio" value="Temporary Staff" name="employeeType" id="haken">
                                             <span class="form-radio-text">Temporary Staff</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="gyoumu">
-                                            <input type="radio" name="employeeType" id="gyoumu">
+                                            <input type="radio" value="Subcontracting" name="employeeType" id="gyoumu">
                                             <span class="form-radio-text">Subcontracting</span>
                                         </label>
                                     </div>
@@ -191,13 +191,13 @@
                                 <div class="form-row2 form-inputCheckbox">
                                     <div class="form-col6">
                                         <label for="eyigyo">
-                                            <input type="checkbox" value="営業" name="syokusyu[]" id="eyigyo" >
+                                            <input type="checkbox" value="Sales" name="syokusyu[]" id="eyigyo" >
                                             <span class="form-checkbox">Sales</span>
                                         </label>
                                     </div>
                                     <div class="form-col6">
                                         <label for="zimu">
-                                            <input type="checkbox" value="事務" name="syokusyu[]" id="zimu" >
+                                            <input type="checkbox" value="Office work" name="syokusyu[]" id="zimu" >
                                             <span class="form-checkbox">Office work</span>
                                         </label>
                                     </div>
@@ -265,7 +265,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!--<div class="g-recaptcha" data-sitekey="6LdJInAiAAAAACOCC9BABpQ7Rwh1Ob_41U5FVNON"></div>-->
+                        <div class="g-recaptcha" data-sitekey="6LdJInAiAAAAACOCC9BABpQ7Rwh1Ob_41U5FVNON"></div>
                             <div class="my-3">
                                 <div class="loading">メール送信中...</div>
                                 <div class="error-message"></div>

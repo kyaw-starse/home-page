@@ -68,12 +68,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     return false;
   }
 
-  /*if ($_POST['g-recaptcha-response'] != "") {
+  if ($_POST['g-recaptcha-response'] != "") {
     $secret = '6LdJInAiAAAAAKmVb1MZe7PdMVv_6JjQeu-2JONX';
     $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secret . '&response=' . $_POST['g-recaptcha-response']);
     $responseData = json_decode($verifyResponse);
 
-    if ($responseData->success) { */
+    if ($responseData->success) {
 
       //$recruit = 'recruit@star-se.co.jp';
       $recruit = 'htun.htun.win@star-se.co.jp';
@@ -95,7 +95,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $contact->to = $custMail;
       $contact->from_name = "STAR SE";
       $contact->from_email = $mailer;
-      $contact->subject = "【STAR SE株式会社】お問い合わせ";
+      $contact->subject = "【STAR SE Co., Ltd.】Inquiry";
 
       $sama = "様";
       $custNm = $name;
@@ -104,7 +104,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     Thank you for contacting STAR SE Co., Ltd.
     
     The following is the contents of your inquiry.
-    ※This e-mail is an automatic delivery e-mail that is sent when the information of your inquiry reaches our server.
+    ※This e-mail is an automatic delivery email that is sent when the information of your inquiry reaches our server.
     ----------------------------------------------------------
   ";
       $message1 = $custNm . $message;
@@ -191,8 +191,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $contact2->add_message($messagefoot, '');
 
       echo $contact2->send();
-   // }
-  //}
+   }
+  }
 } else {
   echo "Get human approval.";//人間承認を受けてください。
 }

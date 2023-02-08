@@ -125,7 +125,7 @@
                             <div class="form-col2">
                                 <label for="email" class="form-label">メールアドレス<span class="require">*</span></label>
                                 <div class="form-inputText">
-                                    <input type="text" class="inputType" name="email" id="email" placeholder="例(半角)：toshima@gmail.com">
+                                    <input type="email" class="inputType" name="email" id="email" placeholder="例(半角)：toshima@gmail.com">
                                 </div>
                             </div>
                         </div>
@@ -201,8 +201,7 @@
                         <div class="form-row">
                             <div class="form-col1">
                                 <div class="sec-btn02">
-                                    <button type="submit" class="contact_send btn02" class="g-recaptcha" id='contact_send'
-                                       >送信</button>
+                                    <button type="submit" class="btn02" class="g-recaptcha">送信</button>
                                 </div>
                             </div>
                         </div>
