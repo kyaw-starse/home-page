@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="/home-page/assets/css/pc_style.css">
     <link rel="stylesheet" href="/home-page/assets/css/sp_style.css">
     <script src="/home-page/assets/js/jquery.min.js"></script>
-    <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <!-- Template Main CSS File -->
     <link href="/home-page/assets/css/style.css" rel="stylesheet">
 </head>
@@ -50,8 +50,8 @@
                             <li class="h-icon"><a href="/home-page/en/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
                             <li class="h-icon"><a href="/home-page/en/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                             <li class="site-lang">
-                                <a href="/home-page/en/" class="lang-link langOn">EN</a>
-                                <a href="/home-page/jp/" class="lang-link">JP</a>
+                                <a href="/home-page/en/" class="lang-link">EN</a>
+                                <a href="/home-page/jp/" class="lang-link langOn">JP</a>
                             </li>
                         </ul>
                     </div>
@@ -80,8 +80,8 @@
                         <li class="h-icon"><a href="/home-page/en/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
                         <li class="h-icon"><a href="/home-page/en/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                         <li class="site-lang">
-                            <a href="/home-page/en/" class="lang-link langOn">EN</a>
-                            <a href="/home-page/jp/" class="lang-link">JP</a>
+                            <a href="/home-page/en/" class="lang-link">EN</a>
+                            <a href="/home-page/jp/" class="lang-link langOn">JP</a>
                         </li>
                     </ul>
                 </div>
@@ -98,20 +98,20 @@
         <section class="form-secblock">
             <div class="c-w1170">
                 <div class="form-block letter">
-                    <form action="">
+                    <form action="entry/entry-newGraduate.php" method="post" role="form" class="php-email-form" id="entry-new-graduate-form">
                         <div class="form-row form-mb">
                             <div class="form-col2">
                                 <label for="" class="form-label">Full Name<span class="require">*</span>(Kanji)</label>
                                 <div class="form-inputText">
-                                    <input type="text" class="inputType" name="" id="" placeholder="Example (Last Name) : 鈴木">
-                                    <input type="text" class="inputType" name="" id="" placeholder="Example (First Name) : 太郎">
+                                    <input type="text" class="inputType" name="lastName1" id="lastName1" placeholder="Example (Last Name) : Suzuki">
+                                    <input type="text" class="inputType" name="firstName1" id="firstName1" placeholder="Example (First Name) : Taro">
                                 </div>
                             </div>
                             <div class="form-col2">
                                 <label for="" class="form-label">Full Name<span class="require">*</span>(Katakana)</label>
                                 <div class="form-inputText">
-                                    <input type="text" class="inputType" name="" id="" placeholder="Example (Last Name) : スズキ">
-                                    <input type="text" class="inputType" name="" id="" placeholder="Example (First Name) : タロウ">
+                                    <input type="text" class="inputType" name="lastName2" id="lastName2" placeholder="Example (Last Name) : Suzuki">
+                                    <input type="text" class="inputType" name="firstName2" id="firstName2" placeholder="Example (First Name) : Taro">
                                 </div>
                             </div>
                         </div>
@@ -119,13 +119,13 @@
                             <div class="form-col2">
                                 <label for="" class="form-label">Date of Birth</label>
                                 <div class="form-inputText">
-                                    <input type="date" class="inputType" name="" id="" placeholder="">
+                                    <input type="date" class="inputType" name="selectYear" id="selectYear" placeholder="">
                                 </div>
                             </div>
                             <div class="form-col2">
                                 <label for="" class="form-label">E-mail Address<span class="require">*</span></label>
                                 <div class="form-inputText">
-                                    <input type="text" class="inputType" name="" id="" placeholder="Example (Half-width) : toshima@gmail.com">
+                                    <input type="email" class="inputType" name="email" id="email" placeholder="Example (Half-width) : toshima@gmail.com">
                                 </div>
                             </div>
                         </div>
@@ -133,35 +133,35 @@
                             <div class="form-col2">
                                 <label for="" class="form-label">Phone number<span class="require">*</span></label>
                                 <div class="form-inputText">
-                                    <input type="text" class="inputType" name="" id="" placeholder="Example (HalfSize) : 09012384561">
+                                <input type="tel" class="inputType" name="denwabangou" id="denwabangou" placeholder="Example (HalfSize) : 09012384561">
                                 </div>
                             </div>
                             <div class="form-col2">
                                 <label for="" class="form-label">Address<span class="require">*</span></label>
                                 <div class="form-inputText">
-                                    <input type="text" class="inputType" name="" id="" >
+                                <input type="text" class="inputType" name="address" id="address" >
                                 </div>
                             </div>
                         </div>
                         <div class="form-row form-mb">
                             <div class="form-col1">
-                                <label for="" class="form-label">Last Academic History<span class="require">*</span></label>
+                                <label for="schoolname" class="form-label">Last Academic History<span class="require">*</span></label>
                                 <div class="form-row form-inputText form-gakureki">
                                     <div class="form-col2 form-mb10">
-                                        <input type="text" class="inputType" name="" id="" placeholder="Example (full-width) : University Name">
+                                        <input type="text" class="inputType" name="schoolname" id="schoolname" placeholder="Example (full-width) : University Name">
                                     </div>
                                     <div class="form-col2">
-                                        <input type="text" class="inputType" name="" id="" placeholder="Example (full-width) : Faculty Dept">
+                                        <input type="text" class="inputType" name="department1" id="department1" placeholder="Example (full-width) : Faculty Dept">
                                     </div>
                                     <div class="form-col2">
-                                        <input type="text" class="inputType" name="" id="" placeholder="Example (full-width) : Informatics Dept">
+                                        <input type="text" class="inputType" name="department2" id="department2" placeholder="Example (full-width) : Informatics Dept">
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="form-row form-mb">
                             <div class="form-col1">
-                                <label for="" class="form-label">Skills Sheet<span class="require">*</span></label>
+                                <label for="skillsheet" class="form-label">Skills Sheet<span class="require">*</span></label>
                                 <div class="form-row form-inputFile">
                                     <div class="form-col2">
                                         <input type="file" class="inputFile" name="skillsheet" id="skillsheet" accept=".xlsx,.xls,.csv,.docx,.word,.pdf">
@@ -174,18 +174,18 @@
                         </div>
                         <div class="form-row form-mb">
                             <div class="form-col1">
-                                <label for="" class="form-label">Remarks<span class="require">*</span></label>
+                                <label for="area" class="form-label">Remarks<span class="require">*</span></label>
                                 <div class="form-textarea">
-                                    <textarea name="" cols="50" rows="5" placeholder="※Please enter within 200 characters."></textarea>
+                                    <textarea name="area" cols="50" rows="5" placeholder="※Please enter within 200 characters."></textarea>
                                 </div>
                             </div>
                         </div>
                         <div class="form-row form-mb">
                             <div class="form-col1">
-                                <label for="" class="form-label">Handling of personal information<span class="require">*</span></label>
+                                <label for="chkagree2" class="form-label">Handling of personal information<span class="require">*</span></label>
                                 <div class="form-inputCheckbox">
                                     <label for="chkagree">
-                                        <input type="checkbox" name="chkagree" id="chkagree">
+                                        <input type="checkbox" value="同意" name="chkagree" id="chkagree">
                                         <span class="form-checkbox col-red chkagree-text">I agree</span>
                                     </label>
                                     <div class="form-privacy">
@@ -220,10 +220,16 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="g-recaptcha" data-sitekey="6LdJInAiAAAAACOCC9BABpQ7Rwh1Ob_41U5FVNON"></div>
+                        <div class="my-3">
+                            <div class="loading">メール送信中...</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">メールが送信されました。ありがとうございました!</div>
+                        </div>
                         <div class="form-row">
                             <div class="form-col1">
                                 <div class="sec-btn02">
-                                    <a href="#" class="btn02">Send</a>
+                                <button type="submit" class="btn02">Send</button>
                                 </div>
                             </div>
                         </div>
@@ -273,11 +279,17 @@
         </footer>
         <!-- footer -->
     </div>
+    <script>
+        function onSubmit(token) {
+            document.getElementById("entry-new-graduate-form").submit();
+        }
+    </script>
     <!-- wrapper -->
     <script src="/home-page/assets/js/sub_particles.min.js"></script>
     <script src="/home-page/assets/js/aos.js"></script>
     <script src="/home-page/assets/js/jquery.matchHeight-min.js"></script>
     <script src="/home-page/assets/js/subpage.js"></script>
     <script src="/home-page/assets/js/common.js"></script>
+    <script src="/home-page/assets/vendor/php-email-form/validate.js"></script>
 </body>
 </html>

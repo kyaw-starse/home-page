@@ -50,7 +50,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $area = $_POST['area'];
   // 個人情報の取扱い
   if (isset($_POST['chkagree'])) {
-    $chkagree = "同意済み";
+    $chkagree = "Agreed";
   }
 
   if (empty($_POST['lastName1']) && empty($_POST['firstName1'])) {
@@ -152,12 +152,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   ";
 
       $contact->smtp = array(
-        // 'host' => 'smtp.alpha-prm.jp',
-        // 'username' => 'STAR-SE_info@star-se.co.jp',
-        // //'password' => 'FYuiojk789*RED%',
-        // 'password' => 'NhyujmKi987$#',
-        // 'port' => '587'
-
         'host' => 'smtp.alpha-prm.jp',
         //'username' => 'STAR-SE_info@star-se.co.jp',
         'username' => 'htun.htun.win@star-se.co.jp',
@@ -167,8 +161,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       );
 
       $contact->add_message($message1, '');
-      $contact->add_message($name, 'Fullname');
-      $contact->add_message($name2, 'Fullname（フリガナ）');
+      $contact->add_message($name, 'Fullname (Kanji)');
+      $contact->add_message($name2, 'Fullname（Katakana）');
       $contact->add_message($selectYear, 'Date Of Birth');
       $contact->add_message($email, 'Mail Address');
       $contact->add_message($denwabangou, 'Phone Number');
@@ -194,23 +188,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $contact2->from_email = $mailer;
       $contact2->subject = "System engineer_Career Recruitment Application" . "【" . $name . "】";
 
-      $custNm2 = "My name is." .$name;
+      $custNm2 = " My name is ".$name . ".";
       $message2 = "
     
-      This time, I would like to apply to STAR SE Co., Ltd.
+      This time, I would like to apply for STAR SE Co., Ltd.
 
       The following is the content of the system engineer_career recruitment application.
       *This email is ";
-      $message3 = $name . "This is an automatic email that will be sent when your application information reaches our server.
+      $message3 = "an automatic email that has been sent the application by ". $name ." .
   ----------------------------------------------------------
 ";
       $message4 = $custNm2 . $message2 . $message3;
 
       $contact2->smtp = array(
-        // 'host' => 'smtp.alpha-prm.jp',
-        // 'username' => 'STAR-SE_info@star-se.co.jp',
-        // 'password' => 'NhyujmKi987$#',
-        // 'port' => '587'
         'host' => 'smtp.alpha-prm.jp',
         //'username' => 'STAR-SE_info@star-se.co.jp',
         'username' => 'htun.htun.win@star-se.co.jp',
@@ -220,8 +210,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       );
 
       $contact2->add_message($message4, '');
-      $contact2->add_message($name, 'Fullname');
-      $contact2->add_message($name2, 'Fullname（フリガナ）');
+      $contact2->add_message($name, 'Fullname (Kanji)');
+      $contact2->add_message($name2, 'Fullname（Katakana）');
       $contact2->add_message($selectYear, 'Date Of Birth');
       $contact2->add_message($email, 'Mail Address');
       $contact2->add_message($denwabangou, 'Phone Number');
@@ -239,6 +229,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       echo $contact2->send();
     }
   } else {
-    echo "人間承認を受けてください。";
+    echo "Get human approval.";
   }
 }

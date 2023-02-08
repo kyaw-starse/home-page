@@ -119,7 +119,7 @@
                             <div class="form-col2">
                                 <label for="" class="form-label">Date of Birth</label>
                                 <div class="form-inputText">
-                                <input type="date" class="inputType" name="selectYear" id="selectYear" placeholder="">
+                                    <input type="date" class="inputType" name="selectYear" id="selectYear" placeholder="">
                                 </div>
                             </div>
                             <div class="form-col2">
