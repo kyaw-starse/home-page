@@ -397,7 +397,7 @@
         </div>
         <div class="footerLogo bg-green-light">
             <div class="c-w1420 cFix">
-                <span class="footerLogoImg"><a href="#"><img src="/home-page/assets/img/common/footer_logo2.png" alt="STAR SE株式会社"></a></span>
+                <span class="footerLogoImg"><a href="https://www.star-se-myanmar.com/"><img src="/home-page/assets/img/common/footer_logo2.png" alt="STAR SE株式会社"></a></span>
             </div> 
         </div>
         <!-- footerLogo -->
