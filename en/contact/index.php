@@ -144,6 +144,7 @@
                         <div class="form-row form-mb">
                             <div class="form-col1">
                                 <label for="area" class="form-label">Contents of Inquiry<span class="require">*</span></label>
+                                <p class="show_message"><span class="" id=""></span></p>
                                 <div class="form-textarea">
                                     <textarea name="area" cols="50" rows="5" placeholder="※Please enter within 200 characters."></textarea>
                                 </div>
@@ -250,6 +251,21 @@
         <!-- footer -->
     </div>
     <script type="text/javascript"> 
+      jQuery('#inquiry_area').keyup(function() {
+        var $this, wordcount;
+        $this = jQuery(this);
+        wordcount = $this.val().length;//split(/\b[\s,\.-:;]*/).
+        if (wordcount > 200) {
+        jQuery("#send_mail").prop("disabled",true);
+        jQuery(".show_message span").text("※The content exceeds 200 characters!");
+        jQuery('.show_message span').css('color','#ed3c0d');
+        jQuery('.show_message span').css('font-size','13px');        
+        return false;
+        } else {
+        jQuery("#send_mail").prop("disabled",false);
+        jQuery(".show_message span").text("");
+        }
+    });
       function onSubmit(token) {
             document.getElementById("contact-form").submit();
         } 

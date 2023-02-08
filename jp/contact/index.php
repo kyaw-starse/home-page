@@ -146,9 +146,11 @@
                         <div class="form-row form-mb">
                             <div class="form-col1">
                                 <label for="area" class="form-label">お問い合わせ内容<span class="require">*</span></label>
+                                <p class="show_message"><span class="" id=""></span></p>
                                 <div class="form-textarea">
-                                    <textarea name="area" cols="50" rows="5" placeholder="※200字以内で入力してください。" id="inquiry_area"></textarea>
+                                    <textarea name="area" cols="50" rows="5" placeholder="※200字以内で入力してください。" class="inquiry_area" id="inquiry_area"></textarea>                                    
                                 </div>
+                                
                             </div>
                         </div>
                         <div class="form-row form-mb">
@@ -201,7 +203,7 @@
                         <div class="form-row">
                             <div class="form-col1">
                                 <div class="sec-btn02">
-                                    <button type="submit" class="btn02" class="g-recaptcha">送信</button>
+                                    <button type="submit" class="btn02" class="g-recaptcha" id="send_mail">送信</button>
                                 </div>
                             </div>
                         </div>
@@ -252,27 +254,31 @@
         <!-- footer -->
     </div>
     <script type="text/javascript"> 
+    jQuery('#inquiry_area').keyup(function() {
+        var $this, wordcount;
+        $this = jQuery(this);
+        wordcount = $this.val().length;//split(/\b[\s,\.-:;]*/).
+        if (wordcount > 5) {
+        jQuery("#send_mail").prop("disabled",true);
+        jQuery(".show_message span").text("※200字以内で入力してください。");//The content exceeds 200 characters!
+        jQuery('.show_message span').css('color','#ed3c0d');
+        jQuery('.show_message span').css('font-size','13px');        
+        return false;
+        } else {
+        jQuery("#send_mail").prop("disabled",false);
+        jQuery(".show_message span").text("");
+        }
+    });
       function onSubmit(token) {
             document.getElementById("contact-form").submit();
-        } 
-
-        jQuery('#inquiry_area').keyup(function() {
-            var $this, wordcount;
-            $this = $(this);
-            wordcount = $this.val().split(/\b[\s,\.-:;]*/).length;
-            if (wordcount > 250) {
-                jQuery(".word_count span").text("150");
-                return alert("You've reached the maximum allowed words.");
-            } else {
-                return jQuery(".word_count span").text(wordcount);
-            }
-        });
+        }
     </script>
     <!-- wrapper -->
     <script src="/home-page/assets/js/sub_particles.min.js"></script>
     <script src="/home-page/assets/js/aos.js"></script>
     <script src="/home-page/assets/js/jquery.matchHeight-min.js"></script>
     <script src="/home-page/assets/js/subpage.js"></script>
+    <!-- <script src="/home-page/assets/js/contact.js"></script>-->
     <script src="/home-page/assets/js/common.js"></script>
     <script src="/home-page/assets/vendor/php-email-form/validate.js"></script>
 </body>

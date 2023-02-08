@@ -154,8 +154,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         'port' => '587'
       );
       $contact->add_message($message1, '');
-      $contact->add_message($name, 'Fullname');//姓名
-      $contact->add_message($name2, 'Fullname（フリガナ）');//姓名
+      $contact->add_message($name, 'Fullname(Kanji)');//姓名
+      $contact->add_message($name2, 'Fullname（Katankana）');//姓名
       $contact->add_message($selectYear, 'DOB'); //生年月日
       $contact->add_message($email, 'E-mail');//メールアドレス
       $contact->add_message($denwabangou, 'Phone number');//電話番号
@@ -218,8 +218,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
       echo $contact2->send();
     }
+}else{
+  echo "Get human approval.";
+  return false;
 }
 } else {
   echo "Get human approval";  //echo "人間承認を受けてください。";
+  return false;
 }
 
