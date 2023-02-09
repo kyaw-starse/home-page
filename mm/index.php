@@ -71,13 +71,13 @@
                 </div>
               </figure>
             </div>
-            <div class="item image">
+            <!-- <div class="item image">
               <figure>
                 <div class="slide-image slide-media" style="background-image:url('./assets/img/top/slide-1.jpg');">
                   <img data-lazy="./assets/img/top/slide-1.jpg" class="image-entity" />
                 </div>
               </figure>
-            </div>
+            </div> -->
             <div class="item image">
               <figure>
                 <div class="slide-image slide-media" style="background-image:url('./assets/img/top/slide-2.jpg');">

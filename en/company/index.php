@@ -141,29 +141,28 @@
                                 <tr>
                                     <th>Branch Office</th>
                                     <td>
-                                        <!-- <a href="https://www.star-se-myanmar.com/" class="btn-arr"><span>STAR  SE  MYANMAR Co.,Ltd.</span></a> -->
-                                        <p><a href="https://www.star-se-myanmar.com/" target="_blank"><span class="font-bold">STAR  SE  MYANMAR Co.,Ltd.</span></a><br>Room No.11/A, 11th floor, Pyay Road, Red Hill Tower (or) KBZ Tower, Sanchaung Township, Yangon.</p>
+                                        <p><a href="https://www.star-se-myanmar.com/" target="_blank">STAR  SE  MYANMAR Co.,Ltd.</a>Room No.11/A, 11th floor, Pyay Road, Red Hill Tower (or) KBZ Tower, Sanchaung Township, Yangon.</p>
                                     </td>
                                 </tr>
                                 <tr>
                                     <th>Main Customers</th>
                                     <td>
                                         <p>
-                                        株式会社インテック<br>
-                                        株式会社エー・アール・シー<br>
-                                        株式会社クロステック<br>
-                                        キヤノン電子テクノロジー株式会社<br>
-                                        株式会社クレスコ<br>
-                                        株式会社コスメディア<br>
-                                        コムチュア株式会社<br>
-                                        サイバーコム株式会社<br>
-                                        テクバン株式会社<br>
-                                        東京コンピュータサービス株式会社<br>
-                                        NTTエレクトロニクステクノ株式会社<br>
-                                        日本コンピュータ・ダイナミクス株式会社<br>
-                                        ハイテクシステム株式会社(TCSグループ企業)<br>
-                                        株式会社ティー・アイ・シー<br>
-                                        など多数
+                                        INTEC Co., Ltd.<br>
+                                        A.R.C. Co., Ltd.<br>
+                                        Cross Tech Co., Ltd.<br>
+                                        Canon Electronic Technology Co., Ltd.<br>
+                                        Cresco Co., Ltd.<br>
+                                        Cos Media Inc.<br>
+                                        Comture Inc.<br>
+                                        Cybercom Co., Ltd.<br>
+                                        Techban Co., Ltd.<br>
+                                        Tokyo Computer Service Co., Ltd.<br>
+                                        NTT Electronics Techno Co., Ltd.<br>
+                                        Nippon Computer Dynamics Co., Ltd.<br>
+                                        Hi-Tech System Co., Ltd. (TCS Group Company)<br>
+                                        T.I.C. Co., Ltd.<br>
+                                        and many more
                                         </p>
                                     </td>
                                 </tr>
@@ -383,7 +382,7 @@
                             <div class="b-boxRight">
                                 <div class="b-boxIn cFix">
                                     <p>
-                                        Through the business, we are looking for a partner company forward to once again grow together while building a long-term relationship of trust.<br>
+                                        Through the business, we are looking for a partner company forward to once again grow together while building long-term relationship of trust.<br>
                                         The current projects at hand to guide the partner companies , we believe that you could promote the effective use of your personnel. <br>
                                         Also even if we do with your company in the projects such as our Java-related technical personnel and infrastructure-related technical personnel, we believe that if you could promote the effective use of our personnel, At the future we are the final goal which business / technology that I am allowed to take the cooperative system over.<br>
                                         Contact Us, We look forward to.
