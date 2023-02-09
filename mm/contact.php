@@ -118,20 +118,7 @@
                                         <input type="text" class="inputType" name="subj" id="subj" placeholder="Please enter Subject">
                                     </div>
                                 </div>
-                            </div>
-                            <div class="form-row form-mb">
-                            <div class="form-col1">
-                                <label for="skillsheet" class="form-label">スキルシート<span class="require">*</span></label>
-                                <div class="form-row form-inputFile">
-                                    <div class="form-col2">
-                                        <input type="file" class="inputFile" name="skillsheet" id="skillsheet" accept=".xlsx,.xls,.csv,.docx,.word,.pdf">
-                                    </div>
-                                    <div class="form-col2">
-                                        <p class="file-para">※対応可能形式：「xlsx、xls、csv、docx、word、pdf」</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                            </div>                            
                             <div class="form-row form-mb">
                                 <div class="form-col1">
                                     <div class="form-textarea">
