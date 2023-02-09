@@ -177,7 +177,7 @@
                                 <label for="area" class="form-label">備考<span class="require">*</span></label>
                                 <p class="show_message"><span class="" id=""></span></p>
                                 <div class="form-textarea">
-                                    <textarea name="area" cols="50" rows="5" placeholder="※200字以内で入力してください。"></textarea>
+                                    <textarea name="area" cols="50" rows="5" placeholder="※200字以内で入力してください。" class="inquiry_area" id="inquiry_area"></textarea>
                                 </div>
                             </div>
                         </div>
@@ -285,7 +285,7 @@
         var $this, wordcount;
         $this = jQuery(this);
         wordcount = $this.val().length;//split(/\b[\s,\.-:;]*/).
-        if (wordcount > 5) {
+        if (wordcount > 200) {
         jQuery("#send_mail").prop("disabled",true);
         jQuery(".show_message span").text("※200字以内で入力してください。");//The content exceeds 200 characters!
         jQuery('.show_message span').css('color','#ed3c0d');

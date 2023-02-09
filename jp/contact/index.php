@@ -258,7 +258,7 @@
         var $this, wordcount;
         $this = jQuery(this);
         wordcount = $this.val().length;//split(/\b[\s,\.-:;]*/).
-        if (wordcount > 5) {
+        if (wordcount > 200) {
         jQuery("#send_mail").prop("disabled",true);
         jQuery(".show_message span").text("※200字以内で入力してください。");//The content exceeds 200 characters!
         jQuery('.show_message span').css('color','#ed3c0d');

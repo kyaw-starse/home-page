@@ -225,7 +225,7 @@
                     <ul class="recruitList-block">
                         <li class="recruitList-li">
                             <div class="recruitList-content">
-                                <div class="recurit-img"><img src="/home-page/assets/img/recruit/infra_img.png" alt=""></div>
+                                <div class="recurit-img"><img src="/home-page/assets/img/recruit/recruit-kaigi.jpg" alt=""></div>
                                 <div class="recruit-desp">
                                     <h2 class="recruit-ttl">全体会議</h2>
                                     <p class="recruit-txt mb0">
@@ -237,7 +237,7 @@
                         </li>
                         <li class="recruitList-li">
                             <div class="recruitList-content">
-                                <div class="recurit-img"><img src="/home-page/assets/img/recruit/infra_img.png" alt=""></div>
+                                <div class="recurit-img"><img src="/home-page/assets/img/recruit/recruit-benkyou.jpg" alt=""></div>
                                 <div class="recruit-desp">
                                     <h2 class="recruit-ttl">研修や勉強会</h2>
                                     <p class="recruit-txt mb0">
@@ -249,7 +249,7 @@
                         </li>
                         <li class="recruitList-li">
                             <div class="recruitList-content">
-                                <div class="recurit-img"><img src="/home-page/assets/img/recruit/infra_img.png" alt=""></div>
+                                <div class="recurit-img"><img src="/home-page/assets/img/recruit/recruit-hanami.jpg" alt=""></div>
                                 <div class="recruit-desp">
                                     <h2 class="recruit-ttl">社内イベント お花見</h2>
                                     <p class="recruit-txt mb0">

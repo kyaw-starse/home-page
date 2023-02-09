@@ -141,7 +141,7 @@
                                 <tr>
                                     <th>支社</th>
                                     <td>
-                                    <a href="https://www.star-se-myanmar.com/" target="_blank">STAR  SE  MYANMAR Co.,Ltd.</a><br>
+                                    <a href="https://www.star-se-myanmar.com/" target="_blank">STAR  SE  MYANMAR Co.,Ltd.</a>
                                         <p>Room No.11/A, 11th floor, Pyay Road, Red Hill Tower (or) KBZ Tower, Sanchaung Township, Yangon.</p>
                                     </td>
                                 </tr>
