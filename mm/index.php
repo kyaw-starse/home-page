@@ -10,7 +10,7 @@
     <meta name="google-site-verification" content="Dg_pvHrLYsE_PNW7oubm3Xw5aWYEPksmjpJwXLBG0Sk"/>
     <link rel="shortcut icon" href="./assets/img/common/favicon.png" type="image/x-icon">
     <link rel="icon" href="./assets/img/common/favicon.png" type="image/x-icon">
-    <title>ホーム</title>
+    <title>Home</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/import.css">
     <!-- slick slider css -->
