@@ -101,48 +101,50 @@
                     <div class="ttl-number"><span>01</span></div>
                     <h2 class="ttl-subpage"><span class="text-un-yellow">SES Work</span></h2>
                     <div class="sesgyoumu col-wrap">
-                        <div class="col2">
-                            <div class="business-bg bg-yello-light">
+                        <div class="col2 aos-init aos-animate" data-aos="fade-up">
+                            <div class="business-bg bg-yello-light" style="margin-bottom: 25px;">
                                 <div class="circle-iconBlock">
-                                    <h2 class="ttl-subpage fz-25 fz-20-sp"><span>System Development Business</span></h2>
+                                    <h2 class="ttl-subpage fz-25 fz-20-sp"><span>システム開発事業</span></h2>
                                     <ul class="circle-iconLst">
                                         <li>
                                             <div class="circle-block">
                                                 <img src="/home-page/assets/img/business/bank_icon.png" alt="">
-                                                <p>Financial Institution</p>
+                                                <p>金融機関系</p>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="circle-block">
                                                 <img src="/home-page/assets/img/business/eco_house_icon.png" alt="">
-                                                <p>Electric Power/ Gas Industry</p>
+                                                <p>電力・ガス業</p>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="circle-block">
                                                 <img src="/home-page/assets/img/business/funding_icon.png" alt="">
-                                                <p>Wholesale, Retail</p>
+                                                <p>卸売業、小売業</p>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="circle-block">
                                                 <img src="/home-page/assets/img/business/other_icon.png" alt="">
-                                                <p>Others</p>
+                                                <p>その他</p>
                                             </div>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col2">
+                        </div>                       
+                    </div>
+                    <div class="sesgyoumu col-wrap">                       
+                        <div class="col2 aos-init aos-animate" data-aos="fade-up">
                             <div class="business-bg bg-yello-light">
                                 <div class="circle-iconBlock">
-                                    <h2 class="ttl-subpage fz-25 fz-20-sp"><span>Infrastructure Solution Business</span></h2>
+                                    <h2 class="ttl-subpage fz-25 fz-20-sp"><span>インフラソリューション事業</span></h2>
                                     <ul class="circle-iconLst">
                                         <li>
                                             <div class="circle-block">
                                                 <img src="/home-page/assets/img/business/three-servers.png" alt="">
-                                                <p>Server <br class="sp">Network<br>Construction Design</p>
+                                                <p>サーバ・<br class="sp">ネットワーク<br>構築設計</p>
                                             </div>
                                         </li>
                                     </ul>
@@ -150,13 +152,13 @@
                                         <li>
                                             <div class="circle-block">
                                                 <img src="/home-page/assets/img/business/database.png" alt="">
-                                                <p>Database<br>Construction</p>
+                                                <p>データベース<br>構築</p>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="circle-block">
                                                 <img src="/home-page/assets/img/business/server.png" alt="">
-                                                <p>Cloud Adoption<br>Migration Support</p>
+                                                <p>クラウド導入<br>移行支援</p>
                                             </div>
                                         </li>
                                     </ul>
@@ -164,7 +166,6 @@
                             </div>
                         </div>
                     </div>
-                   
                 </div>
             </div>
         </section>
@@ -242,7 +243,7 @@ Main programming languages: swift, Java (Android), ObjectiveC (Apple), ruby on r
                 </div>
             </div>
         </section>
-        <section class="business-sec03">
+        <section class="business-sec03" >
             <div class="c-w1170">
             <span id="business03" class="anchorpos"></span>
                 <div data-aos="fade-up">
@@ -285,7 +286,7 @@ Main programming languages: swift, Java (Android), ObjectiveC (Apple), ruby on r
                             </div>
                         </div>
                     </div>
-                    <div class="dx-sec02">
+                    <div class="dx-sec02" data-aos="fade-up">
                         <h2 class="ttl-subpage txt-left fz-25 fz-20-sp ttl-subpage-01"><span class="text-un-yellow">DX Promotion System</span></h2>
                         <div class="dx-img">
                             <img src="/home-page/assets/img/recruit/dx-en.png" alt="">
@@ -335,7 +336,7 @@ Main programming languages: swift, Java (Android), ObjectiveC (Apple), ruby on r
                         </div>
                     </div>
                     <!-- <div class="dx-sec03"> -->
-                    <div class="dx-bgBox bg-green-light dx-sec03">
+                    <div class="dx-bgBox bg-green-light dx-sec03" data-aos="fade-up">
                         <h2 class="ttl-subpage txt-left fz-25 fz-20-sp ttl-subpage-01"><span class="text-un-yellow">Measures to promote DX</span></h2>
                         <div class="textBox">
                             <h2 class="boxTxt">Customer company digitization sales support Development, provision, and sales of personnel inquiry system “Kizuna”</h2>
@@ -356,7 +357,7 @@ Main programming languages: swift, Java (Android), ObjectiveC (Apple), ruby on r
                         </div>
                     </div>
                     <!-- <div class="dx-sec04"> -->
-                    <div class="dx-bgBox bg-green-light dx-sec04">
+                    <div class="dx-bgBox bg-green-light dx-sec04" data-aos="fade-up">
                         <h2 class="ttl-subpage txt-left fz-25 fz-20-sp ttl-subpage-01"><span class="text-un-yellow">Efforts to promote DX</span></h2>
                         <div class="mb30">
                             <p class="pri-num"><span class="font-normal">1.</span>Holding in-house study sessions on the latest technology</p>
@@ -368,7 +369,7 @@ Main programming languages: swift, Java (Android), ObjectiveC (Apple), ruby on r
                             <p class="pri-num"><span class="font-normal">7.</span>Promotion of use of web conferencing</p>
                         </div>
                     </div>
-                    <div class="dx-bgBox bg-green-light dx-sec05">
+                    <div class="dx-bgBox bg-green-light dx-sec05" data-aos="fade-up">
                         <h2 class="ttl-subpage txt-left fz-25 fz-20-sp ttl-subpage-01"><span class="text-un-yellow">DX promotion achievement status indicator</span></h2>
                         <div>
                             <p class="pri-num"><span class="font-normal">1.</span>Number of user accounts of the personnel inquiry system</p>

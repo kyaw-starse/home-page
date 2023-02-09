@@ -1142,6 +1142,7 @@ Security Page
 }
 .sesgyoumu .col2 {
     width: 48%;
+    margin: auto !important;
 }
 .circle-iconLst {
     display: flex;

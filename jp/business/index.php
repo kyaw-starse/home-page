@@ -101,8 +101,8 @@
                     <div class="ttl-number"><span>01</span></div>
                     <h2 class="ttl-subpage"><span class="text-un-yellow">SES業務</span></h2>
                     <div class="sesgyoumu col-wrap">
-                        <div class="col2">
-                            <div class="business-bg bg-yello-light">
+                        <div class="col2 aos-init aos-animate" data-aos="fade-up">
+                            <div class="business-bg bg-yello-light" style="margin-bottom: 25px;">
                                 <div class="circle-iconBlock">
                                     <h2 class="ttl-subpage fz-25 fz-20-sp"><span>システム開発事業</span></h2>
                                     <ul class="circle-iconLst">
@@ -133,8 +133,10 @@
                                     </ul>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col2">
+                        </div>                       
+                    </div>
+                    <div class="sesgyoumu col-wrap">                       
+                        <div class="col2 aos-init aos-animate" data-aos="fade-up">
                             <div class="business-bg bg-yello-light">
                                 <div class="circle-iconBlock">
                                     <h2 class="ttl-subpage fz-25 fz-20-sp"><span>インフラソリューション事業</span></h2>
@@ -284,7 +286,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="dx-sec02">
+                    <div class="dx-sec02" data-aos="fade-up">
                         <h2 class="ttl-subpage txt-left fz-25 fz-20-sp ttl-subpage-01"><span class="text-un-yellow">DX推進体制</span></h2>
                         <div class="dx-img">
                             <img src="/home-page/assets/img/recruit/dx-jp.png" alt="">
@@ -333,7 +335,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="dx-bgBox bg-green-light dx-sec03">
+                    <div class="dx-bgBox bg-green-light dx-sec03" data-aos="fade-up">
                         <h2 class="ttl-subpage txt-left fz-25 fz-20-sp ttl-subpage-01"><span class="text-un-yellow">DX推進のための方策</span></h2>
                         <div class="textBox">
                             <h2 class="boxTxt">お客様企業のデジタル化営業支援 要員照会システム“絆”の開発・提供・販売</h2>
@@ -353,7 +355,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="dx-bgBox bg-green-light dx-sec04">
+                    <div class="dx-bgBox bg-green-light dx-sec04" data-aos="fade-up">
                         <h2 class="ttl-subpage txt-left fz-25 fz-20-sp ttl-subpage-01"><span class="text-un-yellow">DX推進のための取り組み</span></h2>
                         <div class="mb30">
                             <p class="pri-num"><span class="font-normal">1.</span>最新技術に関する社内勉強会の実施</p>
@@ -365,7 +367,7 @@
                             <p class="pri-num"><span class="font-normal">7.</span>Web会議の利用推進</p>
                         </div>
                     </div>
-                    <div class="dx-bgBox bg-green-light dx-sec05">
+                    <div class="dx-bgBox bg-green-light dx-sec05" data-aos="fade-up">
                         <h2 class="ttl-subpage txt-left fz-25 fz-20-sp ttl-subpage-01"><span class="text-un-yellow">DX推進の達成状況の指標</span></h2>
                         <div>
                             <p class="pri-num"><span class="font-normal">1.</span>要員照会システムの利用者アカウント数</p>

@@ -86,10 +86,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $custNm = $name;
       $message = "
     Thank you for your inquiry.
-    Thank you for contacting STAR SE Co., Ltd.
+    Thank you for contacting STAR SE MYANMAR Co., Ltd.
     
     The following is the contents of your inquiry.
-    ※This e-mail is an automatic delivery email that is sent when the information of your inquiry reaches our server.
+    ※This e-mail is an automatic delivery email that is sent when the information of your inquiry is reached to our server.
     ----------------------------------------------------------
   ";
       $message1 = $custNm . $message;
@@ -100,18 +100,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
     ※※※※※※※※※※※※※※※※※※※※※※※※
-    ★　〒104-0043
-    ★　STAR SE MYANMAR
     ★　PYAY ROAD, ROOM NO.11/A, 11TH FLOOR,
     ★　RED HILL TOWER (OR) KBZ TOWRE,SANCHAUNG TOWNSHIP, YANGON REGION
-    ★　TEL : 03-5207-2955
-    ★　FAX : 03-5207-2956
-    ★　Contact : kanri@star-se.co.jp
+    ★　STAR SE MYANMAR Co., Ltd.
+    ★　TEL : +959956932955
+    ★　Contact : recruit@star-se.co.jp
     ★　URL: https://www.star-se-myanmar.com/
     
     ※Privacy Mark No. 22000213
     ※※※※※※※※※※※※※※※※※※※※※※※※
-  ";
+  ";   // kanri@star-se.co.jp
       $contact->smtp = array(
         'host' => 'smtp.alpha-prm.jp',
         //'username' => 'STAR-SE_info@star-se.co.jp',
@@ -123,7 +121,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       );
 
       $contact->add_message($message1, '');
-      $contact->add_message($name, 'Person in charge');
+      $contact->add_message($name, 'Name');
       $contact->add_message($email, 'E-mail');
       $contact->add_message($denwa, 'Phone number');
       $contact->add_message($subj, 'Subject');

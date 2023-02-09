@@ -55,11 +55,11 @@
 }
 .ttl-subpage-01{
     margin-bottom: 20px;
-    width: 30%;
     padding: 0 16px;
     font-weight: bold;
     color: #3EB54A;
-    background: #fff;
     margin-top: -25px;
 }
-
+.ttl-subpage-01 span{
+    background: #fff;
+}
