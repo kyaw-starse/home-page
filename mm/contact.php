@@ -71,40 +71,45 @@
                             <div class="form-row form-mb">
                                 <div class="form-col2">
                                     <div class="form-inputText">
-                                        <input type="text" class="inputType" name="" id="" placeholder="Name">
+                                        <label for="name" class="form-label">Name</label>
+                                        <input type="text" class="inputType" name="name" id="name" placeholder="Name">
                                     </div>
                                 </div>
                                 <div class="form-col2">
                                     <div class="form-inputText">
-                                        <input type="text" class="inputType" name="" id="" placeholder="Mail">
+                                        <label for="email" class="form-label">E-mail</label>
+                                        <input type="text" class="inputType" name="email" id="email" placeholder="E-mail">
                                     </div>
                                 </div>
                             </div>
                             <div class="form-row form-mb">
                                 <div class="form-col1">
                                     <div class="form-inputText">
-                                        <input type="text" class="inputType" name="" id="" placeholder="Phone">
+                                        <label for="denwa" class="form-label">Phone</label>
+                                        <input type="text" class="inputType" name="denwa" id="denwa" placeholder="Phone">
                                     </div>
                                 </div>
                             </div>
                             <div class="form-row form-mb">
                                 <div class="form-col1">
                                     <div class="form-inputText">
-                                        <input type="text" class="inputType" name="" id="" placeholder="Subject">
+                                        <label for="subj" class="form-label">Subject</label>
+                                        <input type="text" class="inputType" name="subj" id="subj" placeholder="Subject">
                                     </div>
                                 </div>
                             </div>
                             <div class="form-row form-mb">
                                 <div class="form-col1">
                                     <div class="form-textarea">
-                                        <textarea name="" cols="50" rows="5" placeholder="About"></textarea>
+                                    <label for="about" class="form-label">About</label>
+                                        <textarea name="about" cols="50" rows="5" placeholder="Please enter contents for inquiry"></textarea>
                                     </div>
                                 </div>
                             </div>
                             <div class="form-row">
                                 <div class="form-col1">
                                     <div class="sendBtn">
-                                        <a href="#" class="send-btn">Send</a>
+                                        <button type="submit" class="send-btn">Send</button>
                                     </div>
                                 </div>
                             </div>
