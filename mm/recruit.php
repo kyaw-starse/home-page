@@ -13,9 +13,13 @@
     <title>Recruit</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/import.css">
+    <link rel="stylesheet" href="./assets/css/import.css">
+
     <link rel="stylesheet" href="./assets/css/pc_style.css">
     <link rel="stylesheet" href="./assets/css/sp_style.css">
     <script src="./assets/js/jquery.min.js"></script>
+    <link href="/home-page/assets/css/style.css" rel="stylesheet">
+    
 </head>
 <body id="top">
     <div id="wrapper">
@@ -78,102 +82,152 @@
                     </div>
                     <div class="form-block panels">
                         <div id="engineer" class="panel active">
-                            <form action="">
-                                A
+                            <!-- <form action=""> -->
+                            <form action="form/engineer-position.php" method="post" role="form" class="php-email-form" id="engineer-position" enctype="multipart/form-data">
                                 <div class="form-row form-mb">
+                                <input type="file"  id="upload_file" accept="image/png,image/jpg,image/jpeg,.doc, .docx,.xls,.xlsx,.pdf,.csv," name="upload_file" />
                                     <div class="form-col2">
+                                        <label for="" class="form-label">Full Name<span class="require">*</span></label>
                                         <div class="form-inputText">
-                                            <input type="text" class="inputType" name="" id="" placeholder="Name">
+                                            <input type="text" class="inputType" name="name" id="name" placeholder="Name">
                                         </div>
                                     </div>
+                                   
+
                                     <div class="form-col2">
+                                        <label for="" class="form-label">E-mail Address<span class="require">*</span></label>
                                         <div class="form-inputText">
-                                            <input type="text" class="inputType" name="" id="" placeholder="Mail">
+                                            <input type="email" class="inputType" name="email" id="email" placeholder="Mail">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="form-row form-mb">
                                     <div class="form-col2">
+                                        <label for="" class="form-label">Date of Birth<span class="require">*</span></label>
                                         <div class="form-inputText">
-                                            <input type="text" class="inputType" name="" id="" placeholder="Date of Birth">
+                                            <input type="date" class="inputType" name="selectYear" id="selectYear" placeholder="Date of Birth">
                                         </div>
                                     </div>
                                     <div class="form-col2">
+                                        <label for="" class="form-label">Phone Number<span class="require">*</span></label>
                                         <div class="form-inputText">
-                                            <input type="text" class="inputType" name="" id="" placeholder="Phone">
+                                            <input type="text" class="inputType" name="denwabangou" id="denwabangou" placeholder="Phone">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="form-row form-mb">
                                     <div class="form-col1">
+                                        <label for="" class="form-label">Address</label>
                                         <div class="form-textarea">
-                                            <textarea name="" cols="50" rows="5" placeholder="Address"></textarea>
+                                            <textarea name="area" cols="50" rows="5" placeholder="Address"></textarea>
                                         </div>
                                     </div>
                                 </div>
+                                
                                 <div class="form-row form-mb">
-                                    <div class="form-col2">
-                                        <div class="form-inputText">
-                                            <input type="text" class="inputType" name="" id="" placeholder="CV">
-                                            <!-- <input type="file" class="inputFile" name="" id="" accept=".xlsx,.xls,.csv,.docx,.word,.pdf" placeholder="CV"> -->
+                                    <div class="form-col1">
+                                        <label for="skillsheet" class="form-label">CV Form<span class="require">*</span></label>
+                                        <div class="form-row form-inputFile">
+                                            <div class="form-col2">
+                                                <input type="file" name="skillsheet" id="skillsheet" accept=".xlsx,.xls,.csv,.docx,.word,.pdf">
+                                            </div>
+                                            <div class="form-col2">
+                                                <p class="file-para">※Supported Format：「xlsx、xls、csv、docx、word、pdf」</p>
+                                            </div>
                                         </div>
                                     </div>
+                                </div>
+                                <div class="my-3">
+                                    <div class="loading"></div> 
+                                    <div class="error-message"></div> 
+                                    <!-- <div class="sent-message"></div>  -->
+                                    <div class="sent-message">Your email has been sent. Thank you very much!</div> 
                                 </div>
                                 <div class="form-row">
                                     <div class="form-col1">
                                         <div class="sendBtn">
-                                            <a href="#" class="send-btn">Send</a>
+                                            <button type="submit" class="send-btn" style="width: 640px;margin-top: 33px">Send</button>
                                         </div>
+                                        <!-- <div class="sec-btn02">
+                                            <button type="submit" class="btn02" id="send_mail">Send</button>
+                                        </div> -->
                                     </div>
                                 </div>
                             </form>
                         </div>
                         <div id="HR" class="panel">
-                            <form action="">
-                                B
+                            <form action="form/hr-position.php" method="post" role="form" class="php-email-form" id="hr-position" enctype="multipart/form-data"> 
                                 <div class="form-row form-mb">
                                     <div class="form-col2">
+                                        <label for="" class="form-label">Full Name<span class="require">*</span></label>
                                         <div class="form-inputText">
-                                            <input type="text" class="inputType" name="" id="" placeholder="Name">
+                                            <input type="text" class="inputType" name="name" id="name" placeholder="Name">
                                         </div>
                                     </div>
                                     <div class="form-col2">
+                                        <label for="" class="form-label">E-mail Address<span class="require">*</span></label>
                                         <div class="form-inputText">
-                                            <input type="text" class="inputType" name="" id="" placeholder="Mail">
+                                            <input type="email" class="inputType" name="email" id="email" placeholder="Mail">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="form-row form-mb">
                                     <div class="form-col2">
+                                        <label for="" class="form-label">Date of Birth<span class="require">*</span></label>
                                         <div class="form-inputText">
-                                            <input type="text" class="inputType" name="" id="" placeholder="Date of Birth">
+                                            <input type="date" class="inputType" name="selectYear" id="selectYear" placeholder="Date of Birth">
                                         </div>
                                     </div>
                                     <div class="form-col2">
+                                        <label for="" class="form-label">Phone Number<span class="require">*</span></label>
                                         <div class="form-inputText">
-                                            <input type="text" class="inputType" name="" id="" placeholder="Phone">
+                                            <input type="text" class="inputType" name="denwabangou" id="denwabangou" placeholder="Phone">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="form-row form-mb">
                                     <div class="form-col1">
+                                        <label for="" class="form-label">Address</label>
                                         <div class="form-textarea">
-                                            <textarea name="" cols="50" rows="5" placeholder="Address"></textarea>
+                                            <textarea name="area" cols="50" rows="5" placeholder="Address"></textarea>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="form-row form-mb">
-                                    <div class="form-col2">
-                                        <div class="form-inputText">
-                                            <input type="text" class="inputType" name="" id="" placeholder="CV">
-                                            <!-- <input type="file" class="inputFile" name="" id="" accept=".xlsx,.xls,.csv,.docx,.word,.pdf" placeholder="CV"> -->
+                                  
+
+                                    <div class="form-row form-mb">
+                                        <div class="form-col1">
+                                            <!-- <label for="skillsheet" class="form-label">スキルシート<span class="require">*</span></label> -->
+
+                                            <!-- <label for="fileSelect">Spreadsheet Test</label>
+                                                <input id="fileSelect" type="file" accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel" /> -->
+
+                                                <input id="upload_file" accept="image/png,image/jpg,image/jpeg,.doc, .docx,.xls,.xlsx,.pdf,.csv," name="upload_file" type="file"/>
+
+
+                                            <!-- <div class="form-row form-inputFile">
+                                                <div class="form-col2">
+                                                    <input type="file" class="inputFile" name="skillsheet" id="skillsheet" accept=".xlsx,.xls,.csv,.docx,.word,.pdf">
+                                                </div>
+                                                <div class="form-col2">
+                                                    <p class="file-para">※対応可能形式：「xlsx、xls、csv、docx、word、pdf」</p>
+                                                </div>
+                                            </div> -->
                                         </div>
                                     </div>
+                                </div>
+                                <div class="my-3">
+                                    <div class="loading"></div> 
+                                    <div class="error-message"></div> 
+                                    <!-- <div class="sent-message"></div>  -->
+                                    <div class="sent-message">Your email has been sent. Thank you very much!</div> 
                                 </div>
                                 <div class="form-row">
                                     <div class="form-col1">
                                         <div class="sendBtn">
-                                            <a href="#" class="send-btn">Send</a>
+                                            <!-- <a href="#" class="send-btn">Send</a> -->
+                                            <button type="submit" class="send-btn" style="width: 640px;margin-top: 33px">Send</button>
                                         </div>
                                     </div>
                                 </div>
@@ -223,7 +277,16 @@
         </footer>
         <!-- footer -->
     </div>
+    <script>
+        function onSubmit(token) {
+            document.getElementById("engineer-position").submit();
+        }
+        function onSubmit(token) {
+            document.getElementById("hr-position").submit();
+        }
+    </script>
     <!-- wrapper -->
     <script src="./assets/js/common.js"></script>
+    <script src="/home-page/assets/vendor/php-email-form/validate.js"></script>
 </body>
 </html>

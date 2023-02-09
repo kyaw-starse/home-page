@@ -70,7 +70,8 @@
                         <div class="secBox cFix">
                             <div class="boxLeft">
                                 <div class="box-img">
-                                    <span><img src="./assets/img/services/services_img01.png" alt=""></span>
+                                    <span id="homepage" class="anchorpos"></span>
+                                    <img src="./assets/img/services/services_img01.png" alt="">
                                 </div>
                             </div>
                             <div class="boxRight">
@@ -87,7 +88,8 @@
                         <div class="secBox cFix box-reverse">
                             <div class="boxLeft">
                                 <div class="box-img">
-                                    <span><img src="./assets/img/services/services_img02.png" alt=""></span>
+                                    <span id="mobileapp" class="anchorpos"></span>
+                                    <img src="./assets/img/services/services_img02.png" alt="">
                                 </div>
                             </div>
                             <div class="boxRight">
@@ -104,7 +106,8 @@
                         <div class="secBox cFix">
                             <div class="boxLeft">
                                 <div class="box-img">
-                                    <span><img src="./assets/img/services/services_img03.png" alt=""></span>
+                                    <span id="system" class="anchorpos"></span>
+                                    <img src="./assets/img/services/services_img03.png" alt="">
                                 </div>
                             </div>
                             <div class="boxRight">
@@ -121,7 +124,8 @@
                         <div class="secBox cFix box-reverse">
                             <div class="boxLeft">
                                 <div class="box-img">
-                                    <span><img src="./assets/img/services/services_img04.png" alt=""></span>
+                                    <span id="techanical" class="anchorpos"></span>
+                                    <img src="./assets/img/services/services_img04.png" alt="">
                                 </div>
                             </div>
                             <div class="boxRight">

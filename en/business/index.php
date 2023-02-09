@@ -89,7 +89,7 @@
             <canvas class="particlesBg"></canvas>
             <div class="sub-bannerIn c-w1170">
                 <h2 class="sub-ttl">Business</h2>
-                <img src="/home-page/assets/img/business/bnr_img.jpg" class="sub-bannerImg" alt="">
+                <img src="/home-page/assets/img/company/bnr_img.jpg" class="sub-bannerImg" alt="">
             </div>
         </div>
         <!-- sub-banner -->

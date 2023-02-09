@@ -141,16 +141,16 @@
                     <div class="arrowList">
                         <ul class="col-wrap">
                             <li class="col2">
-                                <a href="#" class="arrow-ls">Home Page & Web Application Development</a>
+                                <a href="/home-page/mm/services.php#homepage" class="arrow-ls">Home Page & Web Application Development</a>
                             </li>
                             <li class="col2">
-                                <a href="#" class="arrow-ls">System Maintenance</a>
+                                <a href="/home-page/mm/services.php#system" class="arrow-ls">System Maintenance</a>
                             </li>
                             <li class="col2">
-                                <a href="#" class="arrow-ls">Mobile Application Development</a>
+                                <a href="/home-page/mm/services.php#mobileapp" class="arrow-ls">Mobile Application Development</a>
                             </li>
                             <li class="col2">
-                                <a href="#" class="arrow-ls">Technical Support For IT Business</a>
+                                <a href="/home-page/mm/services.php#techanical" class="arrow-ls" >Technical Support For IT Business</a>
                             </li>
                         </ul>
                     </div>
