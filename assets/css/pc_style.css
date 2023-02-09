@@ -782,7 +782,6 @@ Company Info Page
 }
 .b-boxIn p {
     text-align: justify;
-    text-justify:inter-word;
     margin-bottom: 20px;
     line-height: 1.9;
 }

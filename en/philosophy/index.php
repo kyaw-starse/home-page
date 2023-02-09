@@ -87,7 +87,7 @@
         <div class="sub-banner">
             <canvas class="particlesBg"></canvas>
             <div class="sub-bannerIn c-w1170">
-                <h2 class="sub-ttl">Management Philosophy</h2>
+                <h2 class="sub-ttl">Philosophy</h2>
                 <img src="/home-page/assets/img/philosophy/bnr_img.jpg" class="sub-bannerImg" alt="">
             </div>
         </div>

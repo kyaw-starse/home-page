@@ -178,7 +178,7 @@
                             <div class="c-boxLeft">
                                 <div class="consign-img">
                                     <img src="/home-page/assets/img/business/code_icon.png" alt="">
-                                    <p>Scratch Development</p>
+                                    <p>Scratch Develop</p>
                                 </div>
                                 <span class="right-arr"><img src="/home-page/assets/img/business/right-arrow.png" alt=""></span>
                             </div>
@@ -200,7 +200,7 @@
                             <div class="c-boxLeft">
                                 <div class="consign-img">
                                     <img src="/home-page/assets/img/business/iPhone_icon.png" alt="">
-                                    <p>Scratch Development</p>
+                                    <p>Mobile app develop</p>
                                 </div>
                                 <span class="right-arr"><img src="/home-page/assets/img/business/right-arrow.png" alt=""></span>
                             </div>

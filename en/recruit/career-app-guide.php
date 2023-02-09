@@ -10,7 +10,7 @@
     <meta name="google-site-verification" content="Dg_pvHrLYsE_PNW7oubm3Xw5aWYEPksmjpJwXLBG0Sk"/>
     <link rel="shortcut icon" href="/home-page/assets/img/common/favicon.png" type="image/x-icon">
     <link rel="icon" href="/home-page/assets/img/common/favicon.png" type="image/x-icon">
-    <title>採用情報｜キャリア募集</title>
+    <title>Recruitment Information｜Career Recruitment</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/home-page/assets/css/import.css">
     <link rel="stylesheet" href="/home-page/assets/css/aos.css">
@@ -330,7 +330,7 @@
         <section class="sec-carrer03">
             <div class="c-w1170">
                 <span id="sec-carrer03" class="anchorpos"></span>
-                <h2 class="ttl-subpage"><span class="text-un-yellow">Office Work/sales</span></h2>
+                <h2 class="ttl-subpage"><span class="text-un-yellow">Office . Sales</span></h2>
                 <div>
                     <p class="private-lead-txt ">We are looking for a sales representative for system development projects for end users and major system integrators.</p>
                     <div class="sec-table table-style01">
