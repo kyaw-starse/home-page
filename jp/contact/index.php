@@ -199,7 +199,7 @@
                                 <div class="loading"></div>
                                 <div class="error-message"></div>
                                 <div class="sent-message">メールが送信されました。ありがとうございました!</div>
-                            </div>
+                        </div>
                         <div class="form-row">
                             <div class="form-col1">
                                 <div class="sec-btn02">
@@ -258,7 +258,7 @@
         var $this, wordcount;
         $this = jQuery(this);
         wordcount = $this.val().length;//split(/\b[\s,\.-:;]*/).
-        if (wordcount > 200) {
+        if (wordcount > ) {
         jQuery("#send_mail").prop("disabled",true);
         jQuery(".show_message span").text("※200字以内で入力してください。");//The content exceeds 200 characters!
         jQuery('.show_message span').css('color','#ed3c0d');
