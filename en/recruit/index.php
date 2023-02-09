@@ -178,11 +178,11 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="recruitList-li">
+                        <li class="recruitList-li" style="text-align:center">
                             <div class="recruitList-content">
                                 <div class="recurit-img"><img src="/home-page/assets/img/recruit/recruit3.jpg" alt=""></div>
                                 <div class="recruit-desp">
-                                    <h2 class="recruit-ttl">Office work & Sales</h2>
+                                    <h2 class="recruit-ttl">Office . Sales</h2>
                                     <p data-mh="recurit-mat02" class="recruit-txt">We are looking for a sales representative for system development projects of end users and major system integrators.</p>
                                     <div class="mTop-auto">
                                         <ul class="recruit-btnls">

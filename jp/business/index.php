@@ -102,7 +102,7 @@
                     <h2 class="ttl-subpage"><span class="text-un-yellow">SES業務</span></h2>
                     <div class="sesgyoumu col-wrap">
                         <div class="col2 aos-init aos-animate" data-aos="fade-up">
-                            <div class="business-bg bg-yello-light" style="margin-bottom: 25px;">
+                            <div class="business-bg dx-bgBox bg-green-light" style="margin-bottom: 25px;">
                                 <div class="circle-iconBlock">
                                     <h2 class="ttl-subpage fz-25 fz-20-sp"><span>システム開発事業</span></h2>
                                     <ul class="circle-iconLst">
@@ -137,7 +137,7 @@
                     </div>
                     <div class="sesgyoumu col-wrap">                       
                         <div class="col2 aos-init aos-animate" data-aos="fade-up">
-                            <div class="business-bg bg-yello-light">
+                            <div class="business-bg dx-bgBox bg-green-light">
                                 <div class="circle-iconBlock">
                                     <h2 class="ttl-subpage fz-25 fz-20-sp"><span>インフラソリューション事業</span></h2>
                                     <ul class="circle-iconLst">
