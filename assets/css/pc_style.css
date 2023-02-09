@@ -851,7 +851,16 @@ Company Info Page
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: column;    
+}
+.consign-img01, .consign-txt01{
+    background:#F2F9F5;
+}
+.consign-img02, .consign-txt02{
+    background: rgb(255, 233, 157);
+}
+.consign-img03, .consign-txt03{
+    background:rgb(177,223,242);
 }
 .consign-img img {
     max-width: 100px;

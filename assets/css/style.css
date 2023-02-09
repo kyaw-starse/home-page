@@ -43,3 +43,23 @@
 .d-block {
     display: block!important;
 }
+/*Business shuusei*/
+.dx-sec02,.dx-bgBox{
+    position: relative;
+    margin: 56px 0;
+    padding: 0 24px 32px;
+    border-color: #62B258;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 8px;
+}
+.ttl-subpage-01{
+    margin-bottom: 20px;
+    width: 30%;
+    padding: 0 16px;
+    font-weight: bold;
+    color: #3EB54A;
+    background: #fff;
+    margin-top: -25px;
+}
+

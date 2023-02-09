@@ -16,7 +16,8 @@
     <link rel="stylesheet" href="/home-page/assets/css/aos.css">
     <link rel="stylesheet" href="/home-page/assets/css/pc_style.css">
     <link rel="stylesheet" href="/home-page/assets/css/sp_style.css">
-    <script src="/home-page/assets/js/jquery.min.js"></script>
+    <link rel="stylesheet" href="/home-page/assets/css/style.css">
+    <script src="/home-page/assets/js/jquery.min.js"></script>   
 </head>
 <body id="top" class="top">
     <div id="splash">
@@ -176,14 +177,14 @@
                     <div class="consignBlock">
                         <div class="consignBox cFix">
                             <div class="c-boxLeft">
-                                <div class="consign-img">
+                                <div class="consign-img consign-img01">
                                     <img src="/home-page/assets/img/business/code_icon.png" alt="">
                                     <p>Scratch Develop</p>
                                 </div>
                                 <span class="right-arr"><img src="/home-page/assets/img/business/right-arrow.png" alt=""></span>
                             </div>
                             <div class="c-boxRight">
-                                <div class="consign-txt">
+                                <div class="consign-txt consign-txt01">
                                     <p>
                                     Among the following flow up to site operation in scratch development, the most important is "requirement definition". "Requirement definition" → "Design" → "Program development" → "Test" → "Operation" When proceeding with the requirement definition for scratch development, we clarify the system requirements of the customer "What do you want to achieve with the system?" Start where you are. <br>
                                      ■ Main programming languages: Java, C#, VB.Net, PHP, react native, etc.
@@ -198,14 +199,14 @@
                         </div>
                         <div class="consignBox cFix">
                             <div class="c-boxLeft">
-                                <div class="consign-img">
+                                <div class="consign-img consign-img02">
                                     <img src="/home-page/assets/img/business/iPhone_icon.png" alt="">
-                                    <p>Mobile app develop</p>
+                                    <p>Mobile app Develop</p>
                                 </div>
                                 <span class="right-arr"><img src="/home-page/assets/img/business/right-arrow.png" alt=""></span>
                             </div>
                             <div class="c-boxRight">
-                                <div class="consign-txt">
+                                <div class="consign-txt consign-txt02">
                                     <p>
                                     Mobile app development is creating applications that work on various mobile devices. In promoting mobile application development, we consider not only the design but also what kind of content is suitable for users. We provide the app with consideration for users of various ages to make it easy to use. We are developing apps that can be used for Android, IOS, smartphones and tablets.
 Main programming languages: swift, Java (Android), ObjectiveC (Apple), ruby on rails, react native, etc.
@@ -220,14 +221,14 @@ Main programming languages: swift, Java (Android), ObjectiveC (Apple), ruby on r
                         </div>
                         <div class="consignBox cFix">
                             <div class="c-boxLeft">
-                                <div class="consign-img">
+                                <div class="consign-img consign-img03">
                                     <img src="/home-page/assets/img/business/cloud_icon.png" alt="">
-                                    <p>Scratch Development</p>
+                                    <p>Cloud Development</p>
                                 </div>
                                 <span class="right-arr"><img src="/home-page/assets/img/business/right-arrow.png" alt=""></span>
                             </div>
                             <div class="c-boxRight">
-                                <div class="consign-txt">
+                                <div class="consign-txt consign-txt03">
                                     <p>
                                     Data migration includes steps such as investigation of existing systems, data analysis, and migration planning. We provide a secure migration of your important information to the new system.
                                     </p>
@@ -285,9 +286,9 @@ Main programming languages: swift, Java (Android), ObjectiveC (Apple), ruby on r
                         </div>
                     </div>
                     <div class="dx-sec02">
-                        <h2 class="ttl-subpage txt-left fz-25 fz-20-sp"><span class="text-un-yellow">DX Promotion System</span></h2>
+                        <h2 class="ttl-subpage txt-left fz-25 fz-20-sp ttl-subpage-01"><span class="text-un-yellow">DX Promotion System</span></h2>
                         <div class="dx-img">
-                            <img src="/home-page/assets/img/recruit/dx-jp.png" alt="">
+                            <img src="/home-page/assets/img/recruit/dx-en.png" alt="">
                         </div>
                         <div class="textBox">
                             <h2 class="boxTxt pri-num"><span>1.</span>Establish a “DX Promotion Department” to realize the DX policy the task here is</h2>
@@ -335,7 +336,7 @@ Main programming languages: swift, Java (Android), ObjectiveC (Apple), ruby on r
                     </div>
                     <!-- <div class="dx-sec03"> -->
                     <div class="dx-bgBox bg-green-light dx-sec03">
-                        <h2 class="ttl-subpage txt-left fz-25 fz-20-sp"><span class="text-un-yellow">Measures to promote DX</span></h2>
+                        <h2 class="ttl-subpage txt-left fz-25 fz-20-sp ttl-subpage-01"><span class="text-un-yellow">Measures to promote DX</span></h2>
                         <div class="textBox">
                             <h2 class="boxTxt">Customer company digitization sales support Development, provision, and sales of personnel inquiry system “Kizuna”</h2>
                             <div class="boxDesp">
@@ -356,7 +357,7 @@ Main programming languages: swift, Java (Android), ObjectiveC (Apple), ruby on r
                     </div>
                     <!-- <div class="dx-sec04"> -->
                     <div class="dx-bgBox bg-green-light dx-sec04">
-                        <h2 class="ttl-subpage txt-left fz-25 fz-20-sp"><span class="text-un-yellow">Efforts to promote DX</span></h2>
+                        <h2 class="ttl-subpage txt-left fz-25 fz-20-sp ttl-subpage-01"><span class="text-un-yellow">Efforts to promote DX</span></h2>
                         <div class="mb30">
                             <p class="pri-num"><span class="font-normal">1.</span>Holding in-house study sessions on the latest technology</p>
                             <p class="pri-num"><span class="font-normal">2.</span>Support for the development of information security personnel</p>
@@ -368,7 +369,7 @@ Main programming languages: swift, Java (Android), ObjectiveC (Apple), ruby on r
                         </div>
                     </div>
                     <div class="dx-bgBox bg-green-light dx-sec05">
-                        <h2 class="ttl-subpage txt-left fz-25 fz-20-sp"><span class="text-un-yellow">DX promotion achievement status indicator</span></h2>
+                        <h2 class="ttl-subpage txt-left fz-25 fz-20-sp ttl-subpage-01"><span class="text-un-yellow">DX promotion achievement status indicator</span></h2>
                         <div>
                             <p class="pri-num"><span class="font-normal">1.</span>Number of user accounts of the personnel inquiry system</p>
                             <p class="pri-num"><span class="font-normal">2.</span>Implementation rate of remote development</p>

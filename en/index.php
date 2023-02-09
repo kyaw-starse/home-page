@@ -493,7 +493,7 @@
                                 <a href="/home-page/en/recruit/career-app-guide.php#sec-carrer03" class="recruitBox">
                                     <div class="recruitIcon"><img src="/home-page/assets/img/top/recruit_img03.png" alt=""></div>
                                     <div class="recruitTxt">
-                                        <p>Office Work/Sales</p>
+                                        <p>Office.Sales</p>
                                         <span class="recruitArrow"></span>
                                     </div>
                                 </a>
@@ -502,7 +502,7 @@
                                 <a href="/home-page/en/recruit/graduate-recru-guide.php#graduate04" class="anchor recruitBox">
                                     <div class="recruitIcon"><img src="/home-page/assets/img/top/recruit_img04.png" alt=""></div>
                                     <div class="recruitTxt">
-                                        <p>Recruitment of New Graduates and<br>Second Graduates</p>
+                                        <p>New Graduates</p>
                                         <span class="recruitArrow"></span>
                                     </div>
                                 </a>
@@ -513,7 +513,7 @@
             </section>
             <section class="sec-clients">
                 <div class="c-w900">
-                    <h2 class="top-ttl ttl-subpage"><span class="text-un-yellow">Our Company's Qualifications and Activities</span></h2>
+                    <h2 class="top-ttl ttl-subpage"><span class="text-un-yellow">Qualifications & Activities</span></h2>
                     <div class="clientsBlock">
                         <ul class="col-wrap">
                             <li class="col2">

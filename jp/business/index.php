@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="/home-page/assets/css/aos.css">
     <link rel="stylesheet" href="/home-page/assets/css/pc_style.css">
     <link rel="stylesheet" href="/home-page/assets/css/sp_style.css">
+    <link rel="stylesheet" href="/home-page/assets/css/style.css">
     <script src="/home-page/assets/js/jquery.min.js"></script>
 </head>
 <body id="top" class="top">
@@ -175,14 +176,14 @@
                     <div class="consignBlock">
                         <div class="consignBox cFix">
                             <div class="c-boxLeft">
-                                <div class="consign-img">
+                                <div class="consign-img consign-img01">
                                     <img src="/home-page/assets/img/business/code_icon.png" alt="">
                                     <p>スクラッチ開発</p>
                                 </div>
                                 <span class="right-arr"><img src="/home-page/assets/img/business/right-arrow.png" alt=""></span>
                             </div>
                             <div class="c-boxRight">
-                                <div class="consign-txt">
+                                <div class="consign-txt consign-txt01">
                                     <p>
                                     スクラッチ開発におけるサイト運用までの下記の流れのなかで、最も重要なのが「要件定義」です。「要件定義」→「設計」→「プログラム開発」→「テスト」→「運用」弊社は、スクラッチ開発の要件定義を進めるにあたり、お客様が「システムで何を実現したいか？」システム要件を明らかにするところからスタートします。<br>
                                     ■主なプログラム言語：Java, C#, VB.Net, PHP, react native など
@@ -197,14 +198,14 @@
                         </div>
                         <div class="consignBox cFix">
                             <div class="c-boxLeft">
-                                <div class="consign-img">
+                                <div class="consign-img consign-img02">
                                     <img src="/home-page/assets/img/business/iPhone_icon.png" alt="">
-                                    <p>スクラッチ開発</p>
+                                    <p>モバイルアプリ開発</p>
                                 </div>
                                 <span class="right-arr"><img src="/home-page/assets/img/business/right-arrow.png" alt=""></span>
                             </div>
                             <div class="c-boxRight">
-                                <div class="consign-txt">
+                                <div class="consign-txt consign-txt02">
                                     <p>
                                     モバイルアプリ開発とは、様々なモバイルデバイスで動作するアプリケーションを作成することです。弊社は、モバイルアプリ開発を進めるにあたり、デザインのみではなく、利用者にとって適切なコンテンツとはどのようなものかを検討します。アプリの利用者により様々な年齢でも、使いやすく考えて提供しております。AndroidやIOS、又はスマホやタブレットなどにも利用可能なアプリを開発しております。<br>
                                     ■主なプログラム言語：swift、Java(Android)、ObjectiveC(Apple)、ruby on rails、react native など
@@ -219,14 +220,14 @@
                         </div>
                         <div class="consignBox cFix">
                             <div class="c-boxLeft">
-                                <div class="consign-img">
+                                <div class="consign-img consign-img03">
                                     <img src="/home-page/assets/img/business/cloud_icon.png" alt="">
-                                    <p>スクラッチ開発</p>
+                                    <p>クラウド開発</p>
                                 </div>
                                 <span class="right-arr"><img src="/home-page/assets/img/business/right-arrow.png" alt=""></span>
                             </div>
                             <div class="c-boxRight">
-                                <div class="consign-txt">
+                                <div class="consign-txt consign-txt03">
                                     <p>
                                     データ移行には、既存システムの調査、データ分析、移行計画などのステップがあります。弊社はお客様の重要な情報を安全に新しいシステムへ移行する作業を提供しております。
                                     </p>
@@ -284,7 +285,7 @@
                         </div>
                     </div>
                     <div class="dx-sec02">
-                        <h2 class="ttl-subpage txt-left fz-25 fz-20-sp"><span class="text-un-yellow">DX推進体制</span></h2>
+                        <h2 class="ttl-subpage txt-left fz-25 fz-20-sp ttl-subpage-01"><span class="text-un-yellow">DX推進体制</span></h2>
                         <div class="dx-img">
                             <img src="/home-page/assets/img/recruit/dx-jp.png" alt="">
                         </div>
@@ -299,7 +300,7 @@
                             </div>
                         </div>
                         <div class="textBox">
-                            <h2 class="boxTxt pri-num"><span>2.</span>システム開発事業部</h2>
+                            <h2 class="boxTxt pri-num "><span>2.</span>システム開発事業部</h2>
                             <div class="boxDesp">
                                 <p>
                                 この部門は従来のシステム開発も行うが、ＤＸ推進部の推薦する新技術習得に向け、社内勉強会を実施
@@ -333,7 +334,7 @@
                         </div>
                     </div>
                     <div class="dx-bgBox bg-green-light dx-sec03">
-                        <h2 class="ttl-subpage txt-left fz-25 fz-20-sp"><span class="text-un-yellow">DX推進のための方策</span></h2>
+                        <h2 class="ttl-subpage txt-left fz-25 fz-20-sp ttl-subpage-01"><span class="text-un-yellow">DX推進のための方策</span></h2>
                         <div class="textBox">
                             <h2 class="boxTxt">お客様企業のデジタル化営業支援 要員照会システム“絆”の開発・提供・販売</h2>
                             <div class="boxDesp">
@@ -353,7 +354,7 @@
                         </div>
                     </div>
                     <div class="dx-bgBox bg-green-light dx-sec04">
-                        <h2 class="ttl-subpage txt-left fz-25 fz-20-sp"><span class="text-un-yellow">DX推進のための取り組み</span></h2>
+                        <h2 class="ttl-subpage txt-left fz-25 fz-20-sp ttl-subpage-01"><span class="text-un-yellow">DX推進のための取り組み</span></h2>
                         <div class="mb30">
                             <p class="pri-num"><span class="font-normal">1.</span>最新技術に関する社内勉強会の実施</p>
                             <p class="pri-num"><span class="font-normal">2.</span>情報セキュリティ人材の育成支援</p>
@@ -365,7 +366,7 @@
                         </div>
                     </div>
                     <div class="dx-bgBox bg-green-light dx-sec05">
-                        <h2 class="ttl-subpage txt-left fz-25 fz-20-sp"><span class="text-un-yellow">DX推進の達成状況の指標</span></h2>
+                        <h2 class="ttl-subpage txt-left fz-25 fz-20-sp ttl-subpage-01"><span class="text-un-yellow">DX推進の達成状況の指標</span></h2>
                         <div>
                             <p class="pri-num"><span class="font-normal">1.</span>要員照会システムの利用者アカウント数</p>
                             <p class="pri-num"><span class="font-normal">2.</span>リモート開発の実施率</p>
