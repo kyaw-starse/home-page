@@ -98,7 +98,6 @@
                     </div>
                     <div class="form-block panels">
                         <div id="engineer" class="panel active">
-                            <!-- <form action=""> -->
                             <form action="form/engineer-position.php" method="post" role="form" class="php-email-form" id="engineer-position" enctype="multipart/form-data">
                                 <div class="form-row form-mb">
                                     <div class="form-col2">
@@ -107,8 +106,6 @@
                                             <input type="text" class="inputType" name="name" id="name" placeholder="Name">
                                         </div>
                                     </div>
-                                   
-
                                     <div class="form-col2">
                                         <label for="" class="form-label">E-mail Address<span class="require">*</span></label>
                                         <div class="form-inputText">
@@ -138,7 +135,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                
                                 <div class="form-row form-mb">
                                     <div class="form-col1">
                                         <label for="skillsheet" class="form-label">CV Form<span class="require">*</span></label>
@@ -150,7 +146,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="my-3" id="engineer-err-success">
+                                <div class="my-3">
                                     <div class="loading"></div> 
                                     <div class="error-message" id="engineer-err error-message d-block"></div> 
                                     <div class="sent-message" id="engineer-success">Your email has been sent. Thank you very much!</div> 
@@ -203,17 +199,13 @@
                                     </div>
                                 </div>
                                 <div class="form-row form-mb">
-                                  
-
-                                    <div class="form-row form-mb">
-                                        <div class="form-col1">
-                                            <label for="hr-skillsheet" class="form-label">CV Form<span class="require">*</span></label>
-                                            <div class="form-row form-inputFile">
-                                                <div class="form-col2">
-                                                    <input type="file" name="hr-skillsheet" id="hr-skillsheet" accept=".xlsx,.xls,.csv,.docx,.word,.pdf">
-                                                </div>
-                                                <p class="file-para" style="font-size: 13px;color:grey;">※Supported Format：「xlsx、xls、csv、docx、word、pdf」</p>
+                                    <div class="form-col1">
+                                        <label for="hr-skillsheet" class="form-label">CV Form<span class="require">*</span></label>
+                                        <div class="form-row form-inputFile">
+                                            <div class="form-col2">
+                                                <input type="file" name="hr-skillsheet" id="hr-skillsheet" accept=".xlsx,.xls,.csv,.docx,.word,.pdf">
                                             </div>
+                                            <p class="file-para" style="font-size: 13px;color:grey;">※Supported Format：「xlsx、xls、csv、docx、word、pdf」</p>
                                         </div>
                                     </div>
                                 </div>
