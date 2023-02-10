@@ -1080,6 +1080,7 @@ Security Page
 .recruitList-block .recruitList-li {
     width: 49%;
     padding: 15px 0;
+    margin: auto;
 }
 .recruitList-content {
     height: 100%;
