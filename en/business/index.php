@@ -104,30 +104,30 @@
                         <div class="col2 aos-init aos-animate" data-aos="fade-up">
                             <div class="business-bg dx-bgBox bg-green-light" style="margin-bottom: 25px;">
                                 <div class="circle-iconBlock">
-                                    <h2 class="ttl-subpage fz-25 fz-20-sp"><span>システム開発事業</span></h2>
+                                    <h2 class="ttl-subpage fz-25 fz-20-sp"><span>System Development Business</span></h2>
                                     <ul class="circle-iconLst">
                                         <li>
                                             <div class="circle-block">
                                                 <img src="/home-page/assets/img/business/bank_icon.png" alt="">
-                                                <p>金融機関系</p>
+                                                <p>Financial Institution</p>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="circle-block">
                                                 <img src="/home-page/assets/img/business/eco_house_icon.png" alt="">
-                                                <p>電力・ガス業</p>
+                                                <p>Electric Power/ <br>Gas Industry</p>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="circle-block">
                                                 <img src="/home-page/assets/img/business/funding_icon.png" alt="">
-                                                <p>卸売業、小売業</p>
+                                                <p>Wholesale, Retail</p>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="circle-block">
                                                 <img src="/home-page/assets/img/business/other_icon.png" alt="">
-                                                <p>その他</p>
+                                                <p>Others</p>
                                             </div>
                                         </li>
                                     </ul>
@@ -139,12 +139,12 @@
                         <div class="col2 aos-init aos-animate" data-aos="fade-up">
                             <div class="business-bg dx-bgBox bg-green-light">
                                 <div class="circle-iconBlock">
-                                    <h2 class="ttl-subpage fz-25 fz-20-sp"><span>インフラソリューション事業</span></h2>
+                                    <h2 class="ttl-subpage fz-25 fz-20-sp"><span>Infrastructure Solution Business</span></h2>
                                     <ul class="circle-iconLst">
                                         <li>
                                             <div class="circle-block">
                                                 <img src="/home-page/assets/img/business/three-servers.png" alt="">
-                                                <p>サーバ・<br class="sp">ネットワーク<br>構築設計</p>
+                                                <p>Server <br class="sp">Network<br>Construction design</p>
                                             </div>
                                         </li>
                                     </ul>
@@ -152,13 +152,13 @@
                                         <li>
                                             <div class="circle-block">
                                                 <img src="/home-page/assets/img/business/database.png" alt="">
-                                                <p>データベース<br>構築</p>
+                                                <p>Database<br>Construction</p>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="circle-block">
                                                 <img src="/home-page/assets/img/business/server.png" alt="">
-                                                <p>クラウド導入<br>移行支援</p>
+                                                <p>Cloud<br>Migration Support</p>
                                             </div>
                                         </li>
                                     </ul>
