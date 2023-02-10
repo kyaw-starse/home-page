@@ -169,11 +169,11 @@
                             </div>
                             <div class="col2 boxRight cFix">
                                 <div class="arrowList">
-                                    <ul class="tabs col-wrap">
-                                        <li class="tab col1 active">
+                                    <ul class="col-wrap">
+                                        <li class="col1">
                                             <a href="/home-page/mm/recruit.php#engineer" class="arrow-ls">Engineer Position</a>
                                         </li>
-                                        <li class="tab col1">
+                                        <li class="col1">
                                             <a href="/home-page/mm/recruit.php#HR" class="arrow-ls">HR Position</a>
                                         </li>
                                     </ul>
