@@ -28,6 +28,7 @@ jQuery(function($) {
           $(this).closest('.tab').addClass('active');
           $('.panel', $(target).closest('.panels')).removeClass('active');
           $(target).addClass('active');
+          
         });
     });
 

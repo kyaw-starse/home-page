@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="./assets/css/pc_style.css">
     <link rel="stylesheet" href="./assets/css/sp_style.css">
     <script src="./assets/js/jquery.min.js"></script>
-    <link href="/home-page/assets/css/style.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
 </head>
 <body id="top">
     <div id="wrapper">
@@ -72,10 +72,10 @@
                     <div class="tab-block">
                         <ul class="tabs col-wrap tabs-ls">
                             <li class="col2 tab active" id="engineer">
-                                <a href="#engineer" class="tabs-btnLink"><div class="tabs-btn">Engineer Position</div></a>
+                                <a href="#engineer" class="tabs-btnLink"><div class="tabs-btn ">Engineer Position</div></a>
                             </li>
                             <li class="col2 tab " id="HR">
-                                <a href="#HR" class="tabs-btnLink"><div class="tabs-btn">HR Position</div></a>
+                                <a href="#HR" class="tabs-btnLink"><div class="tabs-btn ">HR Position</div></a>
                             </li>
                         </ul>
                     </div>
