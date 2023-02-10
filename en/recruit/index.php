@@ -87,7 +87,7 @@
         <div class="sub-banner">
             <canvas class="particlesBg"></canvas>
             <div class="sub-bannerIn c-w1170">
-                <h2 class="sub-ttl">Recruitment</h2>
+                <h2 class="sub-ttl">Recruit</h2>
                 <img src="/home-page/assets/img/recruit/bnr_img.jpg" class="sub-bannerImg" alt="">
             </div>
         </div>

@@ -236,19 +236,19 @@
                                     </div>
                                     <div class="businessText">
                                         <div class="businessTextIn">
-                                            <h4 class="businessTtl ttlh4">Consignment Development Business</h4>
+                                            <h4 class="businessTtl ttlh4">Consignment Development<br> Business</h4>
                                         </div>
                                     </div>
                                 </a>
                                 <ul class="bussiness-btnList">
                                     <li>
-                                        <span><img src="/home-page/assets/img/top/b_img05.png" alt="">Scratch Development</span>
+                                        <span><img src="/home-page/assets/img/top/b_img05.png" alt="">Scratch Develop</span>
                                     </li>
                                     <li>
-                                        <span><img src="/home-page/assets/img/top/b_img06.png" alt="">Mobile App</span>
+                                        <span><img src="/home-page/assets/img/top/b_img06.png" alt="">Mobile App Develop</span>
                                     </li>
                                     <li>
-                                        <span><img src="/home-page/assets/img/top/b_img07.png" alt="">Cloud Deployment/<br>Migration assistance</span>
+                                        <span><img src="/home-page/assets/img/top/b_img07.png" alt="">Cloud Migration Develop</span>
                                     </li>
                                 </ul>
                             </li>

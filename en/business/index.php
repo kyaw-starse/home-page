@@ -109,13 +109,13 @@
                                         <li>
                                             <div class="circle-block">
                                                 <img src="/home-page/assets/img/business/bank_icon.png" alt="">
-                                                <p>Financial Institution</p>
+                                                <p>Finance/ Insurance</p>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="circle-block">
                                                 <img src="/home-page/assets/img/business/eco_house_icon.png" alt="">
-                                                <p>Electric Power/ <br>Gas Industry</p>
+                                                <p>Electric Power/ <br>Gas </p>
                                             </div>
                                         </li>
                                         <li>
@@ -202,7 +202,7 @@
                             <div class="c-boxLeft">
                                 <div class="consign-img consign-img02">
                                     <img src="/home-page/assets/img/business/iPhone_icon.png" alt="">
-                                    <p>Mobile app Develop</p>
+                                    <p>Mobile App Develop</p>
                                 </div>
                                 <span class="right-arr"><img src="/home-page/assets/img/business/right-arrow.png" alt=""></span>
                             </div>
@@ -224,7 +224,7 @@ Main programming languages: swift, Java (Android), ObjectiveC (Apple), ruby on r
                             <div class="c-boxLeft">
                                 <div class="consign-img consign-img03">
                                     <img src="/home-page/assets/img/business/cloud_icon.png" alt="">
-                                    <p>Cloud Development</p>
+                                    <p>Cloud Develop</p>
                                 </div>
                                 <span class="right-arr"><img src="/home-page/assets/img/business/right-arrow.png" alt=""></span>
                             </div>
