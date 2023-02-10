@@ -1,0 +1,69 @@
+.php-email-form .error-message {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: left;
+    padding: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.php-email-form .error-message{
+    margin-top: 25px;
+}
+
+.php-email-form .sent-message {
+    display: none;
+    color: #fff;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.php-email-form .loading {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+.php-email-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #18d26e;
+    border-top-color: #eee;
+    -webkit-animation: animate-loading 1s linear infinite;
+    animation: animate-loading 1s linear infinite;
+}
+.d-block {
+    display: block!important;
+}
+/*Business shuusei*/
+.dx-sec02,.dx-bgBox{
+    position: relative;
+    margin: 56px 0;
+    padding: 0 24px 32px;
+    border-color: #62B258;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 8px;
+}
+.ttl-subpage-01{
+    margin-bottom: 20px;
+    padding: 0 16px;
+    font-weight: bold;
+    color: #3EB54A;
+    margin-top: -25px;
+}
+.ttl-subpage-01 span{
+    background: #fff;
+}
+.form-label .require{
+    color: red;
+}
+

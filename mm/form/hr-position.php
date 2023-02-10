@@ -14,16 +14,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $email =$selectYear = $denwabangou =  $address = "";
  
   // 姓名（漢字）
-  $name = $_POST['name'];
+  $name = $_POST['hr-name'];
  // メールアドレス
-  $email = $_POST['email'];
+  $email = $_POST['hr-email'];
   // 生年月日
-  $selectYear = $_POST['selectYear'];
+  $selectYear = $_POST['hr-selectYear'];
  
   // 電話番号
-  $denwabangou = $_POST['denwabangou'];
+  $denwabangou = $_POST['hr-denwabangou'];
   // 住所
-  $address = $_POST['area'];
+  $address = $_POST['hr-area'];
   // 希望月額
   
   if (empty($name)) {
@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $errors[] = "Please enter your Phone Number.";
   }
     //添付ファイル
-  if ($_FILES['skillsheet']['size'] == 0) {
+  if ($_FILES['hr-skillsheet']['size'] == 0) {
     $errors[] = "Please upload your CV Form.";
   }
 
@@ -129,7 +129,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $contact->add_message($selectYear, 'Date Of Birth');
       $contact->add_message($denwabangou, 'Phone Number');
       $contact->add_message($address, 'Address');
-      $contact->add_attachment('skillsheet');
+      $contact->add_attachment('hr-skillsheet');
       $contact->add_message($messagefoot, '');
 
       $contact->send();

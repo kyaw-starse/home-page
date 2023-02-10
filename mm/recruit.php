@@ -19,7 +19,6 @@
     <link rel="stylesheet" href="./assets/css/sp_style.css">
     <script src="./assets/js/jquery.min.js"></script>
     <link href="/home-page/assets/css/style.css" rel="stylesheet">
-    
 </head>
 <body id="top">
     <div id="wrapper">
@@ -72,20 +71,19 @@
                     <h2 class="sec-ttl">Recruit</h2>
                     <div class="tab-block">
                         <ul class="tabs col-wrap tabs-ls">
-                            <li class="col2 tab active">
+                            <li class="col2 tab active" id="engineer">
                                 <a href="#engineer" class="tabs-btnLink"><div class="tabs-btn">Engineer Position</div></a>
                             </li>
-                            <li class="col2 tab">
+                            <li class="col2 tab " id="HR">
                                 <a href="#HR" class="tabs-btnLink"><div class="tabs-btn">HR Position</div></a>
                             </li>
                         </ul>
                     </div>
                     <div class="form-block panels">
-                        <div id="engineer" class="panel active">
+                        <div class="panel active">
                             <!-- <form action=""> -->
                             <form action="form/engineer-position.php" method="post" role="form" class="php-email-form" id="engineer-position" enctype="multipart/form-data">
                                 <div class="form-row form-mb">
-                                <input type="file"  id="upload_file" accept="image/png,image/jpg,image/jpeg,.doc, .docx,.xls,.xlsx,.pdf,.csv," name="upload_file" />
                                     <div class="form-col2">
                                         <label for="" class="form-label">Full Name<span class="require">*</span></label>
                                         <div class="form-inputText">
@@ -128,25 +126,20 @@
                                     <div class="form-col1">
                                         <label for="skillsheet" class="form-label">CV Form<span class="require">*</span></label>
                                         <div class="form-row form-inputFile">
-                                            <div class="form-col2">
-                                                <input type="file" name="skillsheet" id="skillsheet" accept=".xlsx,.xls,.csv,.docx,.word,.pdf">
-                                            </div>
-                                            <div class="form-col2">
-                                                <p class="file-para">※Supported Format：「xlsx、xls、csv、docx、word、pdf」</p>
-                                            </div>
+                                            <input type="file" name="skillsheet" id="skillsheet" accept=".xlsx,.xls,.csv,.docx,.word,.pdf">
+                                            <p class="file-para" style="font-size: 13px;color:grey">※Supported Format：「xlsx、xls、csv、docx、word、pdf」</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="my-3">
                                     <div class="loading"></div> 
-                                    <div class="error-message"></div> 
-                                    <!-- <div class="sent-message"></div>  -->
+                                    <div class="error-message"></div>
                                     <div class="sent-message">Your email has been sent. Thank you very much!</div> 
                                 </div>
                                 <div class="form-row">
                                     <div class="form-col1">
                                         <div class="sendBtn">
-                                            <button type="submit" class="send-btn" style="width: 640px;margin-top: 33px">Send</button>
+                                            <button type="submit" class="send-btn" style="width: 640px;margin-top: 33px;border:none">Send</button>
                                         </div>
                                         <!-- <div class="sec-btn02">
                                             <button type="submit" class="btn02" id="send_mail">Send</button>
@@ -155,65 +148,50 @@
                                 </div>
                             </form>
                         </div>
-                        <div id="HR" class="panel">
+                        <div class="panel">
                             <form action="form/hr-position.php" method="post" role="form" class="php-email-form" id="hr-position" enctype="multipart/form-data"> 
                                 <div class="form-row form-mb">
                                     <div class="form-col2">
-                                        <label for="" class="form-label">Full Name<span class="require">*</span></label>
+                                        <label for="hr-name" class="form-label">Full Name<span class="require">*</span></label>
                                         <div class="form-inputText">
-                                            <input type="text" class="inputType" name="name" id="name" placeholder="Name">
+                                            <input type="text" class="inputType" name="hr-name" id="hr-name" placeholder="Name">
                                         </div>
                                     </div>
                                     <div class="form-col2">
                                         <label for="" class="form-label">E-mail Address<span class="require">*</span></label>
                                         <div class="form-inputText">
-                                            <input type="email" class="inputType" name="email" id="email" placeholder="Mail">
+                                            <input type="email" class="inputType" name="hr-email" id="hr-email" placeholder="Mail">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="form-row form-mb">
                                     <div class="form-col2">
-                                        <label for="" class="form-label">Date of Birth<span class="require">*</span></label>
+                                        <label for="hr-selectYear" class="form-label">Date of Birth<span class="require">*</span></label>
                                         <div class="form-inputText">
-                                            <input type="date" class="inputType" name="selectYear" id="selectYear" placeholder="Date of Birth">
+                                            <input type="date" class="inputType" name="hr-selectYear" id="hr-selectYear" placeholder="Date of Birth">
                                         </div>
                                     </div>
                                     <div class="form-col2">
-                                        <label for="" class="form-label">Phone Number<span class="require">*</span></label>
+                                        <label for="hr-denwabangou" class="form-label">Phone Number<span class="require">*</span></label>
                                         <div class="form-inputText">
-                                            <input type="text" class="inputType" name="denwabangou" id="denwabangou" placeholder="Phone">
+                                            <input type="text" class="inputType" name="hr-denwabangou" id="hr-denwabangou" placeholder="Phone">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="form-row form-mb">
                                     <div class="form-col1">
-                                        <label for="" class="form-label">Address</label>
+                                        <label for="hr-area" class="form-label">Address</label>
                                         <div class="form-textarea">
-                                            <textarea name="area" cols="50" rows="5" placeholder="Address"></textarea>
+                                            <textarea name="hr-area" cols="50" rows="5" placeholder="Address"></textarea>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="form-row form-mb">
-                                  
-
-                                    <div class="form-row form-mb">
-                                        <div class="form-col1">
-                                            <!-- <label for="skillsheet" class="form-label">スキルシート<span class="require">*</span></label> -->
-
-                                            <!-- <label for="fileSelect">Spreadsheet Test</label>
-                                                <input id="fileSelect" type="file" accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel" /> -->
-
-                                                <input id="upload_file" accept="image/png,image/jpg,image/jpeg,.doc, .docx,.xls,.xlsx,.pdf,.csv," name="upload_file" type="file"/>
-
-
-                                            <!-- <div class="form-row form-inputFile">
-                                                <div class="form-col2">
-                                                    <input type="file" class="inputFile" name="skillsheet" id="skillsheet" accept=".xlsx,.xls,.csv,.docx,.word,.pdf">
-                                                </div>
-                                                <div class="form-col2">
-                                                    <p class="file-para">※対応可能形式：「xlsx、xls、csv、docx、word、pdf」</p>
-                                                </div>
-                                            </div> -->
+                                    <div class="form-col1">
+                                        <label for="hr-skillsheet" class="form-label">CV Form<span class="require">*</span></label>
+                                        <div class="form-row form-inputFile">
+                                            <input type="file" name="hr-skillsheet" id="hr-skillsheet" accept=".xlsx,.xls,.csv,.docx,.word,.pdf">
+                                            <p class="file-para" style="font-size: 13px;color:grey;">※Supported Format：「xlsx、xls、csv、docx、word、pdf」</p>
                                         </div>
                                     </div>
                                 </div>
@@ -226,8 +204,7 @@
                                 <div class="form-row">
                                     <div class="form-col1">
                                         <div class="sendBtn">
-                                            <!-- <a href="#" class="send-btn">Send</a> -->
-                                            <button type="submit" class="send-btn" style="width: 640px;margin-top: 33px">Send</button>
+                                            <button type="submit" class="btn02 send-btn" style="width: 640px;margin-top: 33px;border:none">Send</button>
                                         </div>
                                     </div>
                                 </div>

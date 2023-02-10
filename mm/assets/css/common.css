@@ -179,24 +179,33 @@ body {
 input[type="file"] {
     display: block;
     width: 100%;
-    height: 50px;
+    /* height: 50px; */
     border: 1px solid #414141;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    border-radius: 20px;
+    border-radius: 17px;
     cursor: pointer;
-    color: transparent !important;
+    /* color: transparent !important; */
 }
-input[type=file]::before {
+/* input[type=file]::before {
     content: "CV";
     color: #A0A0A0;
     padding: 15px 20px 14px 20px;
     display: block;
     height: 50px;
-}
+} */
 input[type="file"]::file-selector-button {
-    display: none;  
+    /* display: none;   */
+    padding: 10px 20px;
+    border: 1px solid #ced4da;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-radius: 0;
+    background: #e9ecef;
+    transition: 1s;
+    margin-right: 20px;   
 }
 .send-btn {
     display: block;
