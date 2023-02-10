@@ -146,9 +146,7 @@
                                             <div class="form-col2">
                                                 <input type="file" name="skillsheet" id="skillsheet" accept=".xlsx,.xls,.csv,.docx,.word,.pdf">
                                             </div>
-                                            <div class="form-col2">
-                                                <p class="file-para" style="font-size: 13px;color:grey;">※Supported Format：「xlsx、xls、csv、docx、word、pdf」</p>
-                                            </div>
+                                            <p class="file-para" style="font-size: 13px;color:grey;">※Supported Format：「xlsx、xls、csv、docx、word、pdf」</p>
                                         </div>
                                     </div>
                                 </div>
@@ -160,7 +158,7 @@
                                 <div class="form-row">
                                     <div class="form-col1">
                                         <div class="sendBtn">
-                                            <button type="submit" class="send-btn" style="width: 640px;margin-top: 25px;border:none">Send</button>
+                                            <button type="submit" class="send-btn" style="width: 640px;margin-top: 33px;border:none">Send</button>
                                         </div>
                                     </div>
                                 </div>
@@ -214,9 +212,7 @@
                                                 <div class="form-col2">
                                                     <input type="file" name="hr-skillsheet" id="hr-skillsheet" accept=".xlsx,.xls,.csv,.docx,.word,.pdf">
                                                 </div>
-                                                <div class="form-col2">
-                                                    <p class="file-para" style="font-size: 13px;color:grey;">※Supported Format：「xlsx、xls、csv、docx、word、pdf」</p>
-                                                </div>
+                                                <p class="file-para" style="font-size: 13px;color:grey;">※Supported Format：「xlsx、xls、csv、docx、word、pdf」</p>
                                             </div>
                                         </div>
                                     </div>
@@ -229,7 +225,7 @@
                                 <div class="form-row">
                                     <div class="form-col1">
                                         <div class="sendBtn">
-                                            <button type="submit" class="send-btn" style="width: 640px;border:none">Send</button>
+                                            <button type="submit" class="send-btn" style="width: 640px;margin-top: 33px;border:none">Send</button>
                                         </div>
                                     </div>
                                 </div>
