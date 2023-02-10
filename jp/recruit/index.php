@@ -178,7 +178,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="recruitList-li">
+                        <li class="recruitList-li" style="margin:auto">
                             <div class="recruitList-content">
                                 <div class="recurit-img"><img src="/home-page/assets/img/recruit/recruit3.jpg" alt=""></div>
                                 <div class="recruit-desp">
@@ -223,7 +223,7 @@
                 <h2 class="ttl-subpage"><span class="text-un-yellow">新卒/第二新卒募集要項</span></h2>
                 <div class="recruit-pageList">
                     <ul class="recruitList-block">
-                        <li class="recruitList-li">
+                        <li class="recruitList-li" style="margin:auto">
                             <div class="recruitList-content">
                                 <div class="recurit-img"><img src="/home-page/assets/img/recruit/recruit4.jpg" alt=""></div>
                                 <div class="recruit-desp">
