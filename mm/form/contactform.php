@@ -33,6 +33,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   // 電話番号
   if (empty($denwa)) {
     $errors[] = "Please enter phone number.";
+  }else{
+    if(!filter_var($denwa, FILTER_SANITIZE_NUMBER_INT)){
+      $errors[] = "Please enter correct phone number.";
+    }
   }
   // 案件
   if (empty($subj)) {
@@ -65,7 +69,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $custMail = $email;
       //$mailer = 'STAR-SE_info@star-se.co.jp';
       $mailer = 'htun.htun.win@star-se.co.jp';
-      $php_email_form = $_SERVER['DOCUMENT_ROOT'].'/assets/vendor/php-email-form/php-email-form.php';
+      $php_email_form = $_SERVER['DOCUMENT_ROOT'].'/home-page/mm/assets/vendor/php-email-form/php-email-form.php';
+      $error[] = $php_email_form;
       if (file_exists($php_email_form)) {
         include($php_email_form);
       } else {

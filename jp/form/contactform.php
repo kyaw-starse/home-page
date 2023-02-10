@@ -42,6 +42,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   // 電話番号
   if (empty($denwa)) {
     $errors[] = "電話番号を入力してください。";
+  }else{
+    if(!filter_var($denwa, FILTER_SANITIZE_NUMBER_INT)){
+      $errors[] = "正しく番号を入力してください。";
+    }
   }
   // 住所
   if (empty($adress)) {

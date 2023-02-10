@@ -20,6 +20,7 @@
     <link href="./assets/css/style.css" rel="stylesheet">
     <link href="./assets/css/common.css" rel="stylesheet">
     <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/jquery2.2.4.min.js"></script>
     <style>
         .btn02{
             display: block;
@@ -107,7 +108,7 @@
                                 <div class="form-col1">
                                     <div class="form-inputText">
                                         <label for="denwa" class="form-label">Phone<span class="require">*</span></label>
-                                        <input type="text" class="inputType" name="denwa" id="denwa" placeholder="Please enter Phone">
+                                        <input type="tel" class="inputType" name="denwa" id="denwa" placeholder="Please enter Phone">
                                     </div>
                                 </div>
                             </div>
@@ -185,23 +186,7 @@
         </footer>
         <!-- footer -->
     </div>
-    <script>
-         jQuery('#inquiry_area').keyup(function() {
-            alert("hello jquery");
-        var $this, wordcount;
-        $this = jQuery(this);
-        wordcount = $this.val().length;//split(/\b[\s,\.-:;]*/).
-        if (wordcount > ) {
-        jQuery("#send_mail").prop("disabled",true);
-        jQuery(".show_message span").text("※Your inquiry contents exceeds 200 characters.");//The content exceeds 200 characters!
-        jQuery('.show_message span').css('color','#ed3c0d');
-        jQuery('.show_message span').css('font-size','13px');        
-        return false;
-        } else {
-        jQuery("#send_mail").prop("disabled",false);
-        jQuery(".show_message span").text("");
-        }
-    });
+    <script>       
         function onSubmit(token) {
                 document.getElementById("contact-form").submit();
             }
