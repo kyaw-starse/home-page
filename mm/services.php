@@ -157,7 +157,7 @@
                                     </p>
                                 </li>
                                 <li>
-                                    <p class="ftAddress-info"><span>PH</span>: <a href="tel:+9594949933" class="tel">094949933</a></p>
+                                    <p class="ftAddress-info"><span>PH</span>: <a href="tel:+9594949933" class="tel">+959956932955</a></p>
                                 </li>
                                 <li>
                                     <p class="ftAddress-info"><span>Mail</span>: recruit@star-se.co.jp</p>

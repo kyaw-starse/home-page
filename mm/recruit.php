@@ -19,6 +19,23 @@
     <link rel="stylesheet" href="./assets/css/sp_style.css">
     <script src="./assets/js/jquery.min.js"></script>
     <link href="./assets/css/style.css" rel="stylesheet">
+    <!-- <script>
+        function test1(){
+            // document.getElementById('hr-err-success').innerHTML = " ";
+            document.getElementById('hr-success').innerHTML = " ";
+            document.getElementById('hr-success').innerHTML = " ";
+            
+        }
+        function test2(){
+            // alert("engineer err");
+
+            // document.getElementById('engineer-err-success').innerHTML = " ";
+            document.getElementById('engineer-err').innerHTML = " ";
+            document.getElementById('engineer-success').innerHTML = " ";
+            
+        }
+    </script> -->
+    
 </head>
 <body id="top">
     <div id="wrapper">
@@ -71,16 +88,16 @@
                     <h2 class="sec-ttl">Recruit</h2>
                     <div class="tab-block">
                         <ul class="tabs col-wrap tabs-ls">
-                            <li class="col2 tab active" id="engineer">
-                                <a href="#engineer" class="tabs-btnLink"><div class="tabs-btn ">Engineer Position</div></a>
+                            <li class="col2 tab active">
+                                <a href="#engineer" class="tabs-btnLink" onclick="test1()"><div class="tabs-btn">Engineer Position</div></a>
                             </li>
-                            <li class="col2 tab " id="HR">
-                                <a href="#HR" class="tabs-btnLink"><div class="tabs-btn ">HR Position</div></a>
+                            <li class="col2 tab">
+                                <a href="#HR" class="tabs-btnLink" onclick="test2()"><div class="tabs-btn">HR Position</div></a>
                             </li>
                         </ul>
                     </div>
                     <div class="form-block panels">
-                        <div class="panel active">
+                        <div id="engineer" class="panel active">
                             <!-- <form action=""> -->
                             <form action="form/engineer-position.php" method="post" role="form" class="php-email-form" id="engineer-position" enctype="multipart/form-data">
                                 <div class="form-row form-mb">
@@ -126,33 +143,34 @@
                                     <div class="form-col1">
                                         <label for="skillsheet" class="form-label">CV Form<span class="require">*</span></label>
                                         <div class="form-row form-inputFile">
-                                            <input type="file" name="skillsheet" id="skillsheet" accept=".xlsx,.xls,.csv,.docx,.word,.pdf">
-                                            <p class="file-para" style="font-size: 13px;color:grey">※Supported Format：「xlsx、xls、csv、docx、word、pdf」</p>
+                                            <div class="form-col2">
+                                                <input type="file" name="skillsheet" id="skillsheet" accept=".xlsx,.xls,.csv,.docx,.word,.pdf">
+                                            </div>
+                                            <div class="form-col2">
+                                                <p class="file-para" style="font-size: 13px;color:grey;">※Supported Format：「xlsx、xls、csv、docx、word、pdf」</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="my-3">
+                                <div class="my-3" id="engineer-err-success">
                                     <div class="loading"></div> 
-                                    <div class="error-message"></div>
-                                    <div class="sent-message">Your email has been sent. Thank you very much!</div> 
+                                    <div class="error-message" id="engineer-err error-message d-block"></div> 
+                                    <div class="sent-message" id="engineer-success">Your email has been sent. Thank you very much!</div> 
                                 </div>
                                 <div class="form-row">
                                     <div class="form-col1">
                                         <div class="sendBtn">
                                             <button type="submit" class="send-btn" style="width: 640px;margin-top: 33px;border:none">Send</button>
                                         </div>
-                                        <!-- <div class="sec-btn02">
-                                            <button type="submit" class="btn02" id="send_mail">Send</button>
-                                        </div> -->
                                     </div>
                                 </div>
                             </form>
                         </div>
-                        <div class="panel">
+                        <div id="HR" class="panel">
                             <form action="form/hr-position.php" method="post" role="form" class="php-email-form" id="hr-position" enctype="multipart/form-data"> 
                                 <div class="form-row form-mb">
                                     <div class="form-col2">
-                                        <label for="hr-name" class="form-label">Full Name<span class="require">*</span></label>
+                                        <label for="" class="form-label">Full Name<span class="require">*</span></label>
                                         <div class="form-inputText">
                                             <input type="text" class="inputType" name="hr-name" id="hr-name" placeholder="Name">
                                         </div>
@@ -187,24 +205,31 @@
                                     </div>
                                 </div>
                                 <div class="form-row form-mb">
-                                    <div class="form-col1">
-                                        <label for="hr-skillsheet" class="form-label">CV Form<span class="require">*</span></label>
-                                        <div class="form-row form-inputFile">
-                                            <input type="file" name="hr-skillsheet" id="hr-skillsheet" accept=".xlsx,.xls,.csv,.docx,.word,.pdf">
-                                            <p class="file-para" style="font-size: 13px;color:grey;">※Supported Format：「xlsx、xls、csv、docx、word、pdf」</p>
+                                  
+
+                                    <div class="form-row form-mb">
+                                        <div class="form-col1">
+                                            <label for="hr-skillsheet" class="form-label">CV Form<span class="require">*</span></label>
+                                            <div class="form-row form-inputFile">
+                                                <div class="form-col2">
+                                                    <input type="file" name="hr-skillsheet" id="hr-skillsheet" accept=".xlsx,.xls,.csv,.docx,.word,.pdf">
+                                                </div>
+                                                <div class="form-col2">
+                                                    <p class="file-para" style="font-size: 13px;color:grey;">※Supported Format：「xlsx、xls、csv、docx、word、pdf」</p>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="my-3">
+                                <div class="my-3" id="hr-err-success">
                                     <div class="loading"></div> 
-                                    <div class="error-message"></div> 
-                                    <!-- <div class="sent-message"></div>  -->
-                                    <div class="sent-message">Your email has been sent. Thank you very much!</div> 
+                                    <div class="error-message" id="hr-err error-message d-block"></div> 
+                                    <div class="sent-message" id="hr-success">Your email has been sent. Thank you very much!</div> 
                                 </div>
                                 <div class="form-row">
                                     <div class="form-col1">
                                         <div class="sendBtn">
-                                            <button type="submit" class="btn02 send-btn" style="width: 640px;margin-top: 33px;border:none">Send</button>
+                                            <button type="submit" class="send-btn" style="width: 640px;margin-top: 33px;border:none">Send</button>
                                         </div>
                                     </div>
                                 </div>
@@ -232,7 +257,7 @@
                                     </p>
                                 </li>
                                 <li>
-                                    <p class="ftAddress-info"><span>PH</span>: <a href="tel:+9594949933" class="tel">094949933</a></p>
+                                    <p class="ftAddress-info"><span>PH</span>: <a href="tel:+9594949933" class="tel">+959956932955</a></p>
                                 </li>
                                 <li>
                                     <p class="ftAddress-info"><span>Mail</span>: recruit@star-se.co.jp</p>

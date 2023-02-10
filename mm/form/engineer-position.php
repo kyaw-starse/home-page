@@ -41,6 +41,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   }
   if (empty($denwabangou)) {
     $errors[] = "Please enter your Phone Number.";
+  }else{
+    if(!filter_var($denwabangou, FILTER_SANITIZE_NUMBER_INT)){
+      $errors[] = "Please enter the number correctly.";
+    }
   }
     //添付ファイル
   if ($_FILES['skillsheet']['size'] == 0) {
@@ -67,7 +71,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $custMail = $email;
       //$mailer = 'STAR-SE_info@star-se.co.jp';
       $mailer = 'htun.htun.win@star-se.co.jp';
-      $thumb_name = $_SERVER['DOCUMENT_ROOT'].'/assets/vendor/php-email-form/php-email-form.php';
+      $thumb_name = $_SERVER['DOCUMENT_ROOT'].'/home-page/mm/assets/vendor/php-email-form/php-email-form.php';
 
       if (file_exists($thumb_name)) {
         include($thumb_name);
