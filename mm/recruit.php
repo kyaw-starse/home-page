@@ -160,7 +160,7 @@
                                 <div class="form-row">
                                     <div class="form-col1">
                                         <div class="sendBtn">
-                                            <button type="submit" class="send-btn" style="width: 640px;margin-top: 33px;border:none">Send</button>
+                                            <button type="submit" class="send-btn" style="width: 640px;margin-top: 25px;border:none">Send</button>
                                         </div>
                                     </div>
                                 </div>
@@ -229,7 +229,7 @@
                                 <div class="form-row">
                                     <div class="form-col1">
                                         <div class="sendBtn">
-                                            <button type="submit" class="send-btn" style="width: 640px;margin-top: 33px;border:none">Send</button>
+                                            <button type="submit" class="send-btn" style="width: 640px;border:none">Send</button>
                                         </div>
                                     </div>
                                 </div>
