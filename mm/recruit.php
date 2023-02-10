@@ -14,11 +14,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/import.css">
     <link rel="stylesheet" href="./assets/css/import.css">
-
     <link rel="stylesheet" href="./assets/css/pc_style.css">
     <link rel="stylesheet" href="./assets/css/sp_style.css">
     <script src="./assets/js/jquery.min.js"></script>
-    <link href="/home-page/assets/css/style.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
 </head>
 <body id="top">
     <div id="wrapper">
@@ -264,6 +263,6 @@
     </script>
     <!-- wrapper -->
     <script src="./assets/js/common.js"></script>
-    <script src="/home-page/assets/vendor/php-email-form/validate.js"></script>
+    <script src="./assets/vendor/php-email-form/validate.js"></script>
 </body>
 </html>

@@ -67,7 +67,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $custMail = $email;
       //$mailer = 'STAR-SE_info@star-se.co.jp';
       $mailer = 'htun.htun.win@star-se.co.jp';
-      $thumb_name = $_SERVER['DOCUMENT_ROOT'].'/home-page/assets/vendor/php-email-form/php-email-form.php';
+      $thumb_name = $_SERVER['DOCUMENT_ROOT'].'/assets/vendor/php-email-form/php-email-form.php';
 
       if (file_exists($thumb_name)) {
         include($thumb_name);

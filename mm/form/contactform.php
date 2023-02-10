@@ -65,7 +65,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $custMail = $email;
       //$mailer = 'STAR-SE_info@star-se.co.jp';
       $mailer = 'htun.htun.win@star-se.co.jp';
-      $php_email_form = $_SERVER['DOCUMENT_ROOT'].'/home-page/assets/vendor/php-email-form/php-email-form.php';
+      $php_email_form = $_SERVER['DOCUMENT_ROOT'].'/assets/vendor/php-email-form/php-email-form.php';
       if (file_exists($php_email_form)) {
         include($php_email_form);
       } else {

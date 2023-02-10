@@ -17,9 +17,9 @@
     <link rel="stylesheet" href="./assets/css/sp_style.css">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <!-- Template Main CSS File -->
-    <link href="/home-page/assets/css/style.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
     <link href="./assets/css/common.css" rel="stylesheet">
-    <script src="/home-page/assets/js/jquery.min.js"></script>
+    <script src="./assets/js/jquery.min.js"></script>
     <style>
         .btn02{
             display: block;
@@ -92,13 +92,13 @@
                             <div class="form-row form-mb">
                                 <div class="form-col2">
                                     <div class="form-inputText">
-                                        <label for="name" class="form-label">Name</label>
+                                        <label for="name" class="form-label">Name<span class="require">*</span></label>
                                         <input type="text" class="inputType" name="name" id="name" placeholder="Please enter name">
                                     </div>
                                 </div>
                                 <div class="form-col2">
                                     <div class="form-inputText">
-                                        <label for="email" class="form-label">E-mail</label>
+                                        <label for="email" class="form-label">E-mail<span class="require">*</span></label>
                                         <input type="text" class="inputType" name="email" id="email" placeholder="Please enter E-mail">
                                     </div>
                                 </div>
@@ -106,7 +106,7 @@
                             <div class="form-row form-mb">
                                 <div class="form-col1">
                                     <div class="form-inputText">
-                                        <label for="denwa" class="form-label">Phone</label>
+                                        <label for="denwa" class="form-label">Phone<span class="require">*</span></label>
                                         <input type="text" class="inputType" name="denwa" id="denwa" placeholder="Please enter Phone">
                                     </div>
                                 </div>
@@ -114,7 +114,7 @@
                             <div class="form-row form-mb">
                                 <div class="form-col1">
                                     <div class="form-inputText">
-                                        <label for="subj" class="form-label">Subject</label>
+                                        <label for="subj" class="form-label">Subject<span class="require">*</span></label>
                                         <input type="text" class="inputType" name="subj" id="subj" placeholder="Please enter Subject">
                                     </div>
                                 </div>
@@ -122,7 +122,7 @@
                             <div class="form-row form-mb">
                                 <div class="form-col1">
                                     <div class="form-textarea">
-                                    <label for="area" class="form-label">Contents about inquiry</label>
+                                    <label for="area" class="form-label">Contents about inquiry<span class="require">*</span></label>
                                     <p class="show_message"><span class="" id=""></span></p>
                                     <textarea name="area" cols="50" rows="5" placeholder="※Please enter within 200 characters." class="inquiry_area" id="inquiry_area"></textarea>
                                     </div>
@@ -131,7 +131,7 @@
                             <div class="my-3">
                                 <div class="loading"></div>
                                 <div class="error-message"></div>
-                                <div class="sent-message">Your email is already sent. Thank you very much for inquiry.</div>
+                                <div class="sent-message">Your email is already sent. Thank you very much for your inquiry.</div>
                             </div>
                             <div class="form-row">
                                 <div class="form-col1">
@@ -208,6 +208,6 @@
     </script>
     <!-- wrapper -->
     <script src="./assets/js/common.js"></script>
-    <script src="/home-page/assets/vendor/php-email-form/validate.js"></script>
+    <script src="./assets/vendor/php-email-form/validate.js"></script>
 </body>
 </html>
