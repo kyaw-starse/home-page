@@ -186,7 +186,22 @@
         </footer>
         <!-- footer -->
     </div>
-    <script>       
+    <script>    
+     jQuery("#inquiry_area").keyup(function(){
+            var $this, wordcount;
+            $this = jQuery(this);
+            wordcount = $this.val().length;//split(/\b[\s,\.-:;]*/).
+            if (wordcount > 10) {
+            jQuery("#send_mail").prop("disabled",true);
+            jQuery(".show_message span").text("※Please enter within 200 characters.");
+            jQuery('.show_message span').css('color','#ed3c0d');
+            jQuery('.show_message span').css('font-size','13px');        
+            return false;
+        } else {
+            jQuery("#send_mail").prop("disabled",false);
+            jQuery(".show_message span").text("");
+        }
+        });   
         function onSubmit(token) {
                 document.getElementById("contact-form").submit();
             }
