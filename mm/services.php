@@ -78,7 +78,7 @@
                                 <h2 class="box-ttl">Home Page & Web Application Development</h2>
                                 <p class="box-txt">
                                     <!--I am from Myanmar. I joined STAR SE in 2017 and worked as a software development engineer.<br>Due to the efforts of Myanmar engineers in Japan, Myanmar engineers are recognized as excellent human resources in Japan.-->
-                                    Star SE Myanamr can assist Web development solutions and service provider by experienced software designers,programmers ,system engineers and mangers.
+                                    Star SE Myanamr can assist Web development solutions and service provider by experienced web designers, software programmers ,system engineers and mangers.
 We have delievered services for customers' attractive web apps and websites with User-friendly Interfaces that willbe love by the users.
 Our members have experienced in working with starups business web apps and websites as well as existing buiness web projects.
                                 </p>
