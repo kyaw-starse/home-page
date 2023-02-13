@@ -79,26 +79,27 @@
                 </ul>
             </div>
         </nav>
-        <div class="sub-banner">
+        <div class="sub-banner">    
             <img src="./assets/img/common/bnr_aboutus.jpg" alt="">
         </div>
         <div class="content">
-            <section class="recruit-page">
+            <section class="recruit-page" id="recruit">
                 <div class="c-w1100">
                     <h2 class="sec-ttl">Recruit</h2>
+                    <?php if(isset($_GET['recruit'])) : ?>
                     <div class="tab-block">
                         <ul class="tabs col-wrap tabs-ls">
-                            <li class="col2 tab active">
+                            <li class="col2 tab <?php if($_GET['recruit']=="engineer"): echo "active"; else: echo ""; endif; ?>">
                                 <a href="#engineer" class="tabs-btnLink" onclick="test1()"><div class="tabs-btn">Engineer Position</div></a>
                             </li>
-                            <li class="col2 tab">
+                            <li class="col2 tab <?php if($_GET['recruit']=="HR"): echo "active"; else: echo ""; endif;?>">
                                 <a href="#HR" class="tabs-btnLink" onclick="test2()"><div class="tabs-btn">HR Position</div></a>
                             </li>
                         </ul>
                     </div>
                     <div class="form-block panels">
-                        <div id="engineer" class="panel active">
-                            <form action="form/engineer-position.php" method="post" role="form" class="php-email-form" id="engineer-position" enctype="multipart/form-data">
+                        <div id="engineer" class="panel  <?php if($_GET['recruit']=="engineer"): echo "active";else: echo ""; endif; ?>">A
+                            <form action="form/engineer-position.php" method="post" role="form" class="php-email-form" enctype="multipart/form-data">
                                 <div class="form-row form-mb">
                                     <div class="form-col2">
                                         <label for="" class="form-label">Full Name<span class="require">*</span></label>
@@ -160,8 +161,8 @@
                                 </div>
                             </form>
                         </div>
-                        <div id="HR" class="panel">
-                            <form action="form/hr-position.php" method="post" role="form" class="php-email-form" id="hr-position" enctype="multipart/form-data"> 
+                        <div id="HR" class="panel <?php if($_GET['recruit']=="HR"): echo "active"; else: echo ""; endif;?>">B
+                            <form action="form/hr-position.php" method="post" role="form" class="php-email-form" enctype="multipart/form-data"> 
                                 <div class="form-row form-mb">
                                     <div class="form-col2">
                                         <label for="" class="form-label">Full Name<span class="require">*</span></label>
@@ -224,6 +225,146 @@
                             </form>
                         </div>
                     </div>
+                    <?php else: ?>
+                        <div class="tab-block">
+                        <ul class="tabs col-wrap tabs-ls">
+                            <li class="col2 tab active">
+                                <a href="#engineer" class="tabs-btnLink" onclick="test1()"><div class="tabs-btn">Engineer Position</div></a>
+                            </li>
+                            <li class="col2 tab">
+                                <a href="#HR" class="tabs-btnLink" onclick="test2()"><div class="tabs-btn">HR Position</div></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="form-block panels">
+                        <div id="engineer" class="panel active">A
+                            <form action="form/engineer-position.php" method="post" role="form" class="php-email-form" enctype="multipart/form-data">
+                                <div class="form-row form-mb">
+                                    <div class="form-col2">
+                                        <label for="" class="form-label">Full Name<span class="require">*</span></label>
+                                        <div class="form-inputText">
+                                            <input type="text" class="inputType" name="name" id="name" placeholder="Name">
+                                        </div>
+                                    </div>
+                                    <div class="form-col2">
+                                        <label for="" class="form-label">E-mail Address<span class="require">*</span></label>
+                                        <div class="form-inputText">
+                                            <input type="email" class="inputType" name="email" id="email" placeholder="Mail">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row form-mb">
+                                    <div class="form-col2">
+                                        <label for="" class="form-label">Date of Birth<span class="require">*</span></label>
+                                        <div class="form-inputText">
+                                            <input type="date" class="inputType" name="selectYear" id="selectYear" placeholder="Date of Birth">
+                                        </div>
+                                    </div>
+                                    <div class="form-col2">
+                                        <label for="" class="form-label">Phone Number<span class="require">*</span></label>
+                                        <div class="form-inputText">
+                                            <input type="text" class="inputType" name="denwabangou" id="denwabangou" placeholder="Phone">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row form-mb">
+                                    <div class="form-col1">
+                                        <label for="" class="form-label">Address</label>
+                                        <div class="form-textarea">
+                                            <textarea name="area" cols="50" rows="5" placeholder="Address"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row form-mb">
+                                    <div class="form-col1">
+                                        <label for="skillsheet" class="form-label">CV Form<span class="require">*</span></label>
+                                        <div class="form-row form-inputFile">
+                                            <div class="form-col2">
+                                                <input type="file" name="skillsheet" id="skillsheet" accept=".xlsx,.xls,.csv,.docx,.word,.pdf">
+                                            </div>
+                                            <p class="file-para" style="font-size: 13px;color:grey;">※Supported Format：「xlsx、xls、csv、docx、word、pdf」</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="my-3">
+                                    <div class="loading"></div> 
+                                    <div class="error-message" id="engineer-err error-message d-block"></div> 
+                                    <div class="sent-message" id="engineer-success">Your email has been sent. Thank you very much!</div> 
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-col1">
+                                        <div class="sendBtn">
+                                            <button type="submit" class="send-btn" style="width: 640px;margin-top: 33px;border:none">Send</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div id="HR" class="panel">B
+                            <form action="form/hr-position.php" method="post" role="form" class="php-email-form" enctype="multipart/form-data"> 
+                                <div class="form-row form-mb">
+                                    <div class="form-col2">
+                                        <label for="" class="form-label">Full Name<span class="require">*</span></label>
+                                        <div class="form-inputText">
+                                            <input type="text" class="inputType" name="hr-name" id="hr-name" placeholder="Name">
+                                        </div>
+                                    </div>
+                                    <div class="form-col2">
+                                        <label for="" class="form-label">E-mail Address<span class="require">*</span></label>
+                                        <div class="form-inputText">
+                                            <input type="email" class="inputType" name="hr-email" id="hr-email" placeholder="Mail">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row form-mb">
+                                    <div class="form-col2">
+                                        <label for="hr-selectYear" class="form-label">Date of Birth<span class="require">*</span></label>
+                                        <div class="form-inputText">
+                                            <input type="date" class="inputType" name="hr-selectYear" id="hr-selectYear" placeholder="Date of Birth">
+                                        </div>
+                                    </div>
+                                    <div class="form-col2">
+                                        <label for="hr-denwabangou" class="form-label">Phone Number<span class="require">*</span></label>
+                                        <div class="form-inputText">
+                                            <input type="text" class="inputType" name="hr-denwabangou" id="hr-denwabangou" placeholder="Phone">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row form-mb">
+                                    <div class="form-col1">
+                                        <label for="hr-area" class="form-label">Address</label>
+                                        <div class="form-textarea">
+                                            <textarea name="hr-area" cols="50" rows="5" placeholder="Address"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row form-mb">
+                                    <div class="form-col1">
+                                        <label for="hr-skillsheet" class="form-label">CV Form<span class="require">*</span></label>
+                                        <div class="form-row form-inputFile">
+                                            <div class="form-col2">
+                                                <input type="file" name="hr-skillsheet" id="hr-skillsheet" accept=".xlsx,.xls,.csv,.docx,.word,.pdf">
+                                            </div>
+                                            <p class="file-para" style="font-size: 13px;color:grey;">※Supported Format：「xlsx、xls、csv、docx、word、pdf」</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="my-3" id="hr-err-success">
+                                    <div class="loading"></div> 
+                                    <div class="error-message" id="hr-err error-message d-block"></div> 
+                                    <div class="sent-message" id="hr-success">Your email has been sent. Thank you very much!</div> 
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-col1">
+                                        <div class="sendBtn">
+                                            <button type="submit" class="send-btn" style="width: 640px;margin-top: 33px;border:none">Send</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <?php endif; ?>
                 </div>
             </section>
         </div>

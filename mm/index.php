@@ -169,12 +169,12 @@
                             </div>
                             <div class="col2 boxRight cFix">
                                 <div class="arrowList">
-                                    <ul class="col-wrap tabs tabs-ls">
+                                    <ul class="col-wrap">
                                         <li class="col1">
-                                            <a href="/home-page/mm/recruit.php#engineer-pos" class="arrow-ls">Engineer Position</a>
+                                            <a href="/home-page/mm/recruit.php?recruit=engineer&#recruit" class="arrow-ls">Engineer Position</a>
                                         </li>
-                                        <li class="col1">
-                                            <a href="/home-page/mm/recruit.php#hr-pos" class="arrow-ls">HR Position</a>
+                                        <li class="col1">　
+                                            <a href="/home-page/mm/recruit.php?recruit=HR&#recruit" class="arrow-ls">HR Position</a>
                                         </li>
                                     </ul>
                                 </div>
