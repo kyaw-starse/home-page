@@ -98,7 +98,7 @@
                         </ul>
                     </div>
                     <div class="form-block panels">
-                        <div id="engineer" class="panel  <?php if($_GET['recruit']=="engineer"): echo "active";else: echo ""; endif; ?>">A
+                        <div id="engineer" class="panel  <?php if($_GET['recruit']=="engineer"): echo "active";else: echo ""; endif; ?>">
                             <form action="form/engineer-position.php" method="post" role="form" class="php-email-form" enctype="multipart/form-data">
                                 <div class="form-row form-mb">
                                     <div class="form-col2">
@@ -161,7 +161,7 @@
                                 </div>
                             </form>
                         </div>
-                        <div id="HR" class="panel <?php if($_GET['recruit']=="HR"): echo "active"; else: echo ""; endif;?>">B
+                        <div id="HR" class="panel <?php if($_GET['recruit']=="HR"): echo "active"; else: echo ""; endif;?>">
                             <form action="form/hr-position.php" method="post" role="form" class="php-email-form" enctype="multipart/form-data"> 
                                 <div class="form-row form-mb">
                                     <div class="form-col2">
@@ -237,7 +237,7 @@
                         </ul>
                     </div>
                     <div class="form-block panels">
-                        <div id="engineer" class="panel active">A
+                        <div id="engineer" class="panel active">
                             <form action="form/engineer-position.php" method="post" role="form" class="php-email-form" enctype="multipart/form-data">
                                 <div class="form-row form-mb">
                                     <div class="form-col2">
@@ -300,7 +300,7 @@
                                 </div>
                             </form>
                         </div>
-                        <div id="HR" class="panel">B
+                        <div id="HR" class="panel">
                             <form action="form/hr-position.php" method="post" role="form" class="php-email-form" enctype="multipart/form-data"> 
                                 <div class="form-row form-mb">
                                     <div class="form-col2">
