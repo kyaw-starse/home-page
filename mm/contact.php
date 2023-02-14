@@ -191,7 +191,7 @@
             var $this, wordcount;
             $this = jQuery(this);
             wordcount = $this.val().length;//split(/\b[\s,\.-:;]*/).
-            if (wordcount > 10) {
+            if (wordcount > 200) {
             jQuery("#send_mail").prop("disabled",true);
             jQuery(".show_message span").text("※Please enter within 200 characters.");
             jQuery('.show_message span').css('color','#ed3c0d');
