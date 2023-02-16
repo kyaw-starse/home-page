@@ -118,7 +118,7 @@ The apps released from our team  members are secure, stable, attractive designs 
                             <div class="boxRight">
                                 <h2 class="box-ttl">System Maintenance</h2>
                                 <p class="box-txt">
-                                    I am from Myanmar. I joined STAR SE in 2017 and worked as a software development engineer.<br>Due to the efforts of Myanmar engineers in Japan, Myanmar engineers are recognized as excellent human resources in Japan.
+                                Our Company provide web application development and system maintenance . After deploying software, we give our clients the maintenance services. We always good provide  our clients of requirement,software and hardware of debug and have any other problems .After that,we always support our clients would like to change work requirement and has any software problem and fix the problem.
                                 </p>
                             </div>
                         </div>
@@ -136,7 +136,7 @@ The apps released from our team  members are secure, stable, attractive designs 
                             <div class="boxRight">
                                 <h2 class="box-ttl">Technical Support For IT Business</h2>
                                 <p class="box-txt">
-                                    I am from Myanmar. I joined STAR SE in 2017 and worked as a software development engineer.<br>Due to the efforts of Myanmar engineers in Japan, Myanmar engineers are recognized as excellent human resources in Japan.
+                                Star SE Myanamr can help infra , software and hardware of web application development.After that we support training about web development of using way and  work requirement of another infra setting.And we provide requirement of infra setting.
                                 </p>
                             </div>
                         </div>
