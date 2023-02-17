@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $errors[] = "Please enter your Phone Number.";
   }else{
     if(!filter_var($denwabangou, FILTER_SANITIZE_NUMBER_INT)){
-      $errors[] = "Please enter the number correctly.";
+      $errors[] = "Please enter your Phone Number correctly.";
     }
   }
     //添付ファイル
@@ -174,7 +174,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $contact2->add_message($selectYear, 'Date Of Birth');
       $contact2->add_message($denwabangou, 'Phone Number');
       $contact2->add_message($address, 'Address');
-      $contact2->add_attachment('skillsheet');
+      $contact2->add_attachment('hr-skillsheet');
       $contact2->add_message($messagefoot, '');
 
       echo $contact2->send();

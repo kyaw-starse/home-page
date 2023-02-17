@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $errors[] = "Please enter your Phone Number.";
   }else{
     if(!filter_var($denwabangou, FILTER_SANITIZE_NUMBER_INT)){
-      $errors[] = "Please enter the number correctly.";
+      $errors[] = "Please enter your Phone Number correctly.";
     }
   }
     //添付ファイル
