@@ -230,7 +230,9 @@
                                 <div class="recruit-desp">
                                     <h2 class="recruit-ttl">General Meeting</h2>
                                     <p class="recruit-txt mb0">
-                                        Once a month, we hold a general meeting attended by all employees, and communicate with them from the company. <br>The most important thing is to share "what the company aims for". At the meeting, we make sure that all employees can share the issues and goals that the company is trying to address as much as possible.
+                                    Every month, we hold a general meeting where all employees are present, and we make various contacts from the company.
+The most important thing is to share what "company aims".
+At the conference, we will notify the issues and targets the company is about to undertake as much as possible, so that all employees can share it.
                                     </p>
                                     
                                 </div>

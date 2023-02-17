@@ -68,7 +68,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   }
   if (empty($denwabangou)) {
     $errors[] = "電話番号を入力してください。";
+  }else{
+    if(!filter_var($denwabangou, FILTER_SANITIZE_NUMBER_INT)){
+      $errors[] = "電話番号を正しく入力してください。";
+    }
   }
+    
   if (empty($address)) {
     $errors[] = "住所を入力してください。";
   }

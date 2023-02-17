@@ -69,6 +69,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   }
   if (empty($denwabangou)) {
     $errors[] = "Please enter your phone number.";
+  }else{
+    if(!filter_var($denwabangou, FILTER_SANITIZE_NUMBER_INT)){
+      $errors[] = "Please enter your Phone Number correctly.";
+    }
   }
   if (empty($address)) {
     $errors[] = "Please enter your address.";
