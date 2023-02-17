@@ -91,7 +91,7 @@
                             <tr>
                                 <th>President</th>
                                 <td>
-                                    <p>Kyaw Win Thu (Managing Director)<br>Wai Min Soe (General Manager)<br>Director (Kolan Kanemoto)</p>
+                                    <p>Kyaw Win Thu (Managing Director)<br>Wai Min Soe (General Manager)<br>Kolan Kanemoto (Director)</p>
                                 </td>
                             </tr>
                             <tr>
