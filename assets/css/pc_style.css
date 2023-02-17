@@ -1094,10 +1094,11 @@ Security Page
     margin-bottom: 10px;
 }
 .recruit-txt {
-    line-height: 1.8;
+    /* line-height: 1.8; */
     text-align: justify;
-    margin-bottom: 20px;
-    word-break: break-all;
+    /* margin-bottom: 20px;
+    word-break: break-all; */
+    font-size: 14px;
 }
 .recruit-btnls {
     margin-bottom: 30px;
