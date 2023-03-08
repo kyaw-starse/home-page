@@ -220,8 +220,10 @@
                         </li>
                     </ul>
                 </div>
-                <h2 class="ttl-subpage"><span class="text-un-yellow">New Graduate/Second New Graduate Recruitment Guidelines</span></h2>
-                <div class="recruit-pageList">
+                <div class="ttl-number"></div>
+                <div class="new-graduate" style= " margin-top: 60px; ">
+                    <h2 class="ttl-subpage"><span class="text-un-yellow">New Graduate/Second New Graduate Recruitment Guidelines</span></h2>
+                    <div class="recruit-pageList">
                     <ul class="recruitList-block">
                         <li class="recruitList-li" style="margin:auto">
                             <div class="recruitList-content">
@@ -266,6 +268,8 @@
                         </li>
                     </ul>
                 </div>
+                </div>
+                
             </div>
         </section>
         </div>
