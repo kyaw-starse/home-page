@@ -163,21 +163,27 @@
                     <h2 class="top-ttl ttl-subpage"><span class="text-un-yellow">News</span></h2>
                     <div class="newsBlock cFix">
                         <ul>
+                            <li data-aos="fade-up" data-aos-delay="20">
+                                <a href="javascript:void(0)" class="newsLink">
+                                    <span class="newsDate">2023/03/10</span>
+                                    <p class="newsTtl">The home page has been renewed.</p>
+                                </a>
+                            </li>
                             <li data-aos="fade-up" data-aos-delay="50">
                                 <a href="javascript:void(0)" class="newsLink">
-                                    <span class="newsDate">2023/2/1</span>
+                                    <span class="newsDate">2023/02/01</span>
                                     <p class="newsTtl">Office moved to Hatchobori.</p>
                                 </a>
                             </li>
                             <li data-aos="fade-up" data-aos-delay="70">
                                 <a href="javascript:void(0)" class="newsLink">
-                                    <span class="newsDate">2023/1/22</span>
+                                    <span class="newsDate">2023/01/22</span>
                                     <p class="newsTtl">Overseas branch (Myanmar) is established.</p>
                                 </a>
                             </li>
                             <li data-aos="fade-up" data-aos-delay="90">
                                 <a href="javascript:void(0)" class="newsLink">
-                                    <span class="newsDate">2023/1/22</span>
+                                    <span class="newsDate">2023/01/22</span>
                                     <p class="newsTtl">The company celebrated its 10th anniversary.</p>
                                 </a>
                             </li>
@@ -189,7 +195,7 @@
                             </li>
                             <li data-aos="fade-up" data-aos-delay="130">
                                 <a href="javascript:void(0)" class="newsLink">
-                                    <span class="newsDate">2022/7/1</span>
+                                    <span class="newsDate">2022/07/01</span>
                                     <p class="newsTtl">DX policy is declared.</p>
                                 </a>
                             </li>

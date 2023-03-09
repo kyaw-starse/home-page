@@ -245,7 +245,7 @@
                                         <span class="history-year sp">2021年</span>
                                         <div class="history-desp">
                                             <dl class="cFix">
-                                                <dt>1月</dt>
+                                                <dt>6月</dt>
                                                 <dd>プライバシーマーク（第22000213号）を更新</dd>
                                             </dl>
                                         </div>
@@ -273,7 +273,7 @@
                                                 <dd>資本金を4,500万円に増資</dd>
                                             </dl>
                                             <dl class="cFix">
-                                                <dt>5月</dt>
+                                                <dt>6月</dt>
                                                 <dd>プライバシーマーク（第22000213号）を更新</dd>
                                             </dl>
                                             <dl class="cFix">

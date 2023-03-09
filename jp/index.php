@@ -158,21 +158,27 @@
                     <h2 class="top-ttl ttl-subpage"><span class="text-un-yellow">ニュース</span></h2>
                     <div class="newsBlock cFix">
                         <ul>
+                            <li data-aos="fade-up" data-aos-delay="20">
+                                <a href="javascript:void(0)" class="newsLink">
+                                    <span class="newsDate">2023/03/10</span>
+                                    <p class="newsTtl">ホームページをリニューアルしました。</p>
+                                </a>
+                            </li>
                             <li data-aos="fade-up" data-aos-delay="50">
                                 <a href="javascript:void(0)" class="newsLink">
-                                    <span class="newsDate">2023/2/1</span>
+                                    <span class="newsDate">2023/02/01</span>
                                     <p class="newsTtl">事務所を八丁堀に移動しました。</p>
                                 </a>
                             </li>
                             <li data-aos="fade-up" data-aos-delay="70">
                                 <a href="javascript:void(0)" class="newsLink">
-                                    <span class="newsDate">2023/1/22</span>
+                                    <span class="newsDate">2023/01/22</span>
                                     <p class="newsTtl">海外支社（ミャンマー）設立しました。</p>
                                 </a>
                             </li>
                             <li data-aos="fade-up" data-aos-delay="90">
                                 <a href="javascript:void(0)" class="newsLink">
-                                    <span class="newsDate">2023/1/22</span>
+                                    <span class="newsDate">2023/01/22</span>
                                     <p class="newsTtl">会社は10年周を迎えました。</p>
                                 </a>
                             </li>
@@ -184,7 +190,7 @@
                             </li>
                             <li data-aos="fade-up" data-aos-delay="130">
                                 <a href="javascript:void(0)" class="newsLink">
-                                    <span class="newsDate">2022/7/1</span>
+                                    <span class="newsDate">2022/07/01</span>
                                     <p class="newsTtl">DX方針を宣言しました。</p>
                                 </a>
                             </li>
@@ -312,7 +318,7 @@
                         <div class="serviceBoxText">
                             <h2 class="service-ttl"><span>01</span>E-Learning</h2>
                             <div class="service-txt cFix">
-                                <p>“人”の出来ることを何方法で試すの? その答えはこちらにあります。<br class="pc">様々の業界でオンラインテストを実施することがで きます。相手の考え方、知識を試験の実績から把握できます。</p>
+                                <p>“人”の出来ることをどんな方法で試すの? その答えはこちらにあります。<br class="pc">様々な業界でオンラインテストを実施することがで きます。受講者の試験結果の記録から、思考回路や知識などを分析・把握することができます。</p>
                                 <a href="https://elearning-star.com/" target="_blank" class="btn-arr"><span>詳細</span></a>
                             </div>
                         </div>

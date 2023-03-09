@@ -88,7 +88,7 @@
             <canvas class="particlesBg"></canvas>
             <div class="sub-bannerIn c-w1170">
                 <h2 class="sub-ttl">ニュース</h2>
-                <img src="/home-page/assets/img/philosophy/bnr_img.jpg" class="sub-bannerImg" alt="">
+                <img src="/home-page/assets/img/news/bnr_img.jpg" class="sub-bannerImg" alt="">
             </div>
         </div>
         <!-- sub-banner -->
@@ -98,21 +98,27 @@
                 <!-- <h2 class="ttl-subpage"><span class="text-un-yellow">ニュース</span></h2> -->
                 <div class="newsBlock cFix">
                     <ul>
+                        <li data-aos="fade-up" data-aos-delay="20">
+                            <a href="javascript:void(0)" class="newsLink">
+                                <span class="newsDate">2023/03/10</span>
+                                <p class="newsTtl">ホームページをリニュアールしました。</p>
+                            </a>
+                        </li>
                         <li data-aos="fade-up" data-aos-delay="50">
                             <a href="javascript:void(0)" class="newsLink">
-                                <span class="newsDate">2023/2/1</span>
+                                <span class="newsDate">2023/02/01</span>
                                 <p class="newsTtl">事務所を八丁堀に移動しました。</p>
                             </a>
                         </li>
                         <li data-aos="fade-up" data-aos-delay="70">
                             <a href="javascript:void(0)" class="newsLink">
-                                <span class="newsDate">2023/1/22</span>
+                                <span class="newsDate">2023/01/22</span>
                                 <p class="newsTtl">海外支社（ミャンマー）設立しました。</p>
                             </a>
                         </li>
                         <li data-aos="fade-up" data-aos-delay="90">
                             <a href="javascript:void(0)" class="newsLink">
-                                <span class="newsDate">2023/1/22</span>
+                                <span class="newsDate">2023/01/22</span>
                                 <p class="newsTtl">会社は10年周を迎えました。</p>
                             </a>
                         </li>
@@ -124,7 +130,7 @@
                         </li>
                         <li data-aos="fade-up" data-aos-delay="130">
                             <a href="javascript:void(0)" class="newsLink">
-                                <span class="newsDate">2022/7/1</span>
+                                <span class="newsDate">2022/07/01</span>
                                 <p class="newsTtl">DX方針を宣言しました。</p>
                             </a>
                         </li>
@@ -142,37 +148,37 @@
                         </li>
                         <li data-aos="fade-up" data-aos-delay="130">
                             <a href="javascript:void(0)" class="newsLink">
-                                <span class="newsDate">2019/10/1</span>
+                                <span class="newsDate">2019/10/01</span>
                                 <p class="newsTtl">ビジネスマナーの勉強会を行いました。</p>
                             </a>
                         </li>
                         <li data-aos="fade-up" data-aos-delay="130">
                             <a href="javascript:void(0)" class="newsLink">
-                                <span class="newsDate">2019/1/27</span>
+                                <span class="newsDate">2019/01/27</span>
                                 <p class="newsTtl">STAR‐SE株式会社の2019新年会兼新人歓迎会を行いました。</p>
                             </a>
                         </li>
                         <li data-aos="fade-up" data-aos-delay="130">
                             <a href="javascript:void(0)" class="newsLink">
-                                <span class="newsDate">2019/1/15</span>
+                                <span class="newsDate">2019/01/15</span>
                                 <p class="newsTtl">SAPの勉強会を実施しました。</p>
                             </a>
                         </li>
                         <li data-aos="fade-up" data-aos-delay="130">
                             <a href="javascript:void(0)" class="newsLink">
-                                <span class="newsDate">2019/1/1</span>
+                                <span class="newsDate">2019/01/01</span>
                                 <p class="newsTtl">労働者派遣事業許可番号（派13-312273）を取得しました。</p>
                             </a>
                         </li>
                         <li data-aos="fade-up" data-aos-delay="130">
                             <a href="javascript:void(0)" class="newsLink">
-                                <span class="newsDate">2019/1/1</span>
+                                <span class="newsDate">2019/01/01</span>
                                 <p class="newsTtl">Java勉強会を実施しました。</p>
                             </a>
                         </li>
                         <li data-aos="fade-up" data-aos-delay="130">
                             <a href="javascript:void(0)" class="newsLink">
-                                <span class="newsDate">2019/10/8</span>
+                                <span class="newsDate">2019/10/08</span>
                                 <p class="newsTtl">福島へ社員旅行しました。</p>
                             </a>
                         </li>

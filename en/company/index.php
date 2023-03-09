@@ -188,9 +188,9 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <th>Member Organizations</th>
+                                    <th>Membership</th>
                                     <td>
-                                        <p>The Japan Software Industry Association(IIT)<br>Computer Software Association of Japan(CSAJ).<br>Koto East Corporation Board</p>
+                                        <p>Information Industory Association of Tokyo(IIT)<br>The Software Association of Japan (SAJ)<br>The Tokyo Chamber of Commerce and Industry (TCCI) </p>
                                     </td>
                                 </tr>
                             </table>
@@ -245,7 +245,7 @@
                                         <span class="history-year sp">2021</span>
                                         <div class="history-desp">
                                             <dl class="cFix">
-                                                <dt>Jan</dt>
+                                                <dt>Jun</dt>
                                                 <dd>Updated Privacy Mark No. 22000213</dd>
                                             </dl>
                                         </div>
@@ -273,7 +273,7 @@
                                                 <dd>Increased capital to 45 million yen</dd>
                                             </dl>
                                             <dl class="cFix">
-                                                <dt>May</dt>
+                                                <dt>Jun</dt>
                                                 <dd>Updated Privacy Mark No. 22000213</dd>
                                             </dl>
                                             <dl class="cFix">
