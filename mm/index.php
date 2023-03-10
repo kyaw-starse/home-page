@@ -66,8 +66,8 @@
         <div class="full-wide-slider">
             <div class="item image">
               <figure>
-                <div class="slide-image slide-media" style="background-image:url('./assets/img/top/slide-mm.jpg');">
-                  <img data-lazy="./assets/img/top/slide-mm.jpg" class="image-entity" />
+                <div class="slide-image slide-media" style="background-image:url('./assets/img/top/slide-mm-1.jpg');">
+                  <img data-lazy="./assets/img/top/slide-mm-1.jpg" class="image-entity" />
                 </div>
               </figure>
             </div>
@@ -80,15 +80,15 @@
             </div> -->
             <div class="item image">
               <figure>
-                <div class="slide-image slide-media" style="background-image:url('./assets/img/top/slide-2.jpg');">
-                  <img data-lazy="./assets/img/top/slide-2.jpg" class="image-entity" />
+                <div class="slide-image slide-media" style="background-image:url('./assets/img/top/slide-mm-2.jpg');">
+                  <img data-lazy="./assets/img/top/slide-mm-2.jpg" class="image-entity" />
                 </div>
               </figure>
             </div>
             <div class="item image">
               <figure>
-                <div class="slide-image slide-media" style="background-image:url('./assets/img/top/slide-3.jpg');">
-                  <img data-lazy="./assets/img/top/slide-3.jpg" class="image-entity" />
+                <div class="slide-image slide-media" style="background-image:url('./assets/img/top/slide-mm-1.jpg');">
+                  <img data-lazy="./assets/img/top/slide-mm-1.jpg" class="image-entity" />
                 </div>
               </figure>
             </div>
