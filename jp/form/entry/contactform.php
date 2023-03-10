@@ -28,6 +28,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   // 担当者名
   if (empty($name)) {
     $errors[] = "担当者名を入力してください。";
+  }else{
+    if(strlen($name) > 100) {
+      $errors[] = "担当者名を100文字内に入力してください。";
+    }
   }
 
   // メール
