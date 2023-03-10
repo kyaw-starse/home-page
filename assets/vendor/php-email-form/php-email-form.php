@@ -45,8 +45,8 @@ class PHP_Email_Form {
 
   public function __construct() {
     //$this->mailer = "forms@" . @preg_replace('/^www\./','', $_SERVER['SERVER_NAME']);
-    //$this->mailer = "STAR-SE_info@star-se.co.jp";
-    $this->mailer = 'htun.htun.win@star-se.co.jp';
+    $this->mailer = "STAR-SE_info@star-se.co.jp";
+
   }
 
   public function add_message($content, $label = '', $length_check = false) {
@@ -568,16 +568,15 @@ class PHPMailer
      *
      * @var string
      */
-    //public $Username = 'STAR-SE_info@star-se.co.jp';
-    public $Username = 'htun.htun.win@star-se.co.jp';
+    public $Username = 'STAR-SE_info@star-se.co.jp';
 
     /**
      * SMTP password.
      *
      * @var string
      */
-    //public $Password = 'FYuiojk789*RED%';
-    public $Password = 't@n202301SE';
+    public $Password = 'FYuiojk789*RED%';
+
     //public $Password = 'starse2022';
 
     /**

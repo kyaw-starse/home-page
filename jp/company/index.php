@@ -48,8 +48,8 @@
                             <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
                             <li class="h-icon"><a href="https://www.star-se.co.jp/starseapp/public/login" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                             <li class="site-lang">
-                                <a href="/home-page/en/" class="lang-link langOn">EN</a>
-                                <a href="/home-page/jp/" class="lang-link">JP</a>
+                                <a href="/home-page/en/company/" class="lang-link langOn">EN</a>
+                                <a href="/home-page/jp/company/" class="lang-link">JP</a>
                             </li>
                         </ul>
                     </div>
@@ -78,8 +78,8 @@
                         <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
                         <li class="h-icon"><a href="https://www.star-se.co.jp/starseapp/public/login" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                         <li class="site-lang">
-                            <a href="/home-page/jp/en/" class="lang-link">EN</a>
-                            <a href="/home-page/jp/jp/" class="lang-link langOn">JP</a>
+                            <a href="/home-page/jp/en/company/" class="lang-link">EN</a>
+                            <a href="/home-page/jp/jp/company/" class="lang-link langOn">JP</a>
                         </li>
                     </ul>
                 </div>

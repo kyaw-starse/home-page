@@ -48,8 +48,8 @@
                             <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
                             <li class="h-icon"><a href="https://www.star-se.co.jp/starseapp/public/login" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                             <li class="site-lang">
-                                <a href="/home-page/en/" class="lang-link">EN</a>
-                                <a href="/home-page/jp/" class="lang-link langOn">JP</a>
+                                <a href="/home-page/en/business/" class="lang-link">EN</a>
+                                <a href="/home-page/jp/business/" class="lang-link langOn">JP</a>
                             </li>
                         </ul>
                     </div>
@@ -78,8 +78,8 @@
                         <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
                         <li class="h-icon"><a href="https://www.star-se.co.jp/starseapp/public/login" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                         <li class="site-lang">
-                            <a href="/home-page/en/" class="lang-link">EN</a>
-                            <a href="/home-page/jp/" class="lang-link langOn">JP</a>
+                            <a href="/home-page/en/business/" class="lang-link">EN</a>
+                            <a href="/home-page/jp/business/" class="lang-link langOn">JP</a>
                         </li>
                     </ul>
                 </div>
@@ -93,7 +93,7 @@
             </div>
         </div>
         <!-- sub-banner -->
-        <div class="content">
+        <!-- <div class="content"> -->
         <section class="business-sec01">
             <div class="c-w1170">
                 <span id="business01" class="anchorpos"></span>
@@ -102,7 +102,7 @@
                     <h2 class="ttl-subpage"><span class="text-un-yellow">SES業務</span></h2>
                     <div class="sesgyoumu col-wrap">
                         <div class="col2 aos-init aos-animate" data-aos="fade-up">
-                            <div class="business-bg dx-bgBox bg-green-light" style="margin-bottom: 25px;">
+                            <div class="business-bg dx-bgBox bg-green-light" >
                                 <div class="circle-iconBlock">
                                     <h2 class="ttl-subpage fz-25 fz-20-sp"><span>システム開発事業</span></h2>
                                     <ul class="circle-iconLst">
@@ -169,7 +169,7 @@
                 </div>
             </div>
         </section>
-        <section class="business-sec02">
+        <!-- <section class="business-sec02"> -->
             <div class="c-w1170">
                 <span id="business02" class="anchorpos"></span>
                 <div data-aos="fade-up">
@@ -224,7 +224,7 @@
                             <div class="c-boxLeft">
                                 <div class="consign-img consign-img03">
                                     <img src="/home-page/assets/img/business/cloud_icon.png" alt="">
-                                    <p>クラウド開発</p>
+                                    <p>クラウド導入・支援</p>
                                 </div>
                                 <span class="right-arr"><img src="/home-page/assets/img/business/right-arrow.png" alt=""></span>
                             </div>
@@ -242,7 +242,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        <!-- </section> -->
         <section class="business-sec03">
             <div class="c-w1170">
             <span id="business03" class="anchorpos"></span>
@@ -379,7 +379,7 @@
                 </div>
             </div>
         </section>
-        </div>
+        <!-- </div> -->
         <div class="footerLogo">
             <div class="c-w1420 cFix">
                 <span class="footerLogoImg"><a href="https://star-se-myanmar.com/"><img src="/home-page/assets/img/common/footer_logo2.png" alt="STAR SE株式会社"></a></span>

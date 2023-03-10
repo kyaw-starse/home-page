@@ -95,11 +95,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($responseData->success) {
 
     
-      // $recruit = 'recruit@star-se.co.jp';
-      $recruit = 'htun.htun.win@star-se.co.jp';
+      $recruit = 'recruit@star-se.co.jp';
       $custMail = $_POST['email'];
-      $mailer = 'htun.htun.win@star-se.co.jp';
-      // $mailer = 'STAR-SE_info@star-se.co.jp';
+      $mailer = 'STAR-SE_info@star-se.co.jp';
       
       $thumb_name = $_SERVER['DOCUMENT_ROOT'].'/home-page/assets/vendor/php-email-form/php-email-form.php';
       if (file_exists($thumb_name)) {
@@ -151,10 +149,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
       $contact->smtp = array(
         'host' => 'smtp.alpha-prm.jp',
-        //'username' => 'STAR-SE_info@star-se.co.jp',
-        'username' => 'htun.htun.win@star-se.co.jp',
-        //'password' => 'FYuiojk789*RED%',
-        'password' => 't@n202301SE',
+        'username' => 'STAR-SE_info@star-se.co.jp',
+        'password' => 'NhyujmKi987$#',
+        // 'password' => 'FYuiojk789*RED%',
         'port' => '587'
       );
 
@@ -197,10 +194,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
       $contact2->smtp = array(
         'host' => 'smtp.alpha-prm.jp',
-        //'username' => 'STAR-SE_info@star-se.co.jp',
-        'username' => 'htun.htun.win@star-se.co.jp',
-        //'password' => 'FYuiojk789*RED%',
-        'password' => 't@n202301SE',
+        'username' => 'STAR-SE_info@star-se.co.jp',
+        'password' => 'NhyujmKi987$#',
+        // 'password' => 'FYuiojk789*RED%',
         'port' => '587'
       );
 

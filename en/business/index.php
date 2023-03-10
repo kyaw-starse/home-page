@@ -48,8 +48,8 @@
                             <li class="h-icon"><a href="/home-page/en/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
                             <li class="h-icon"><a href=" https://www.star-se.co.jp/starseapp/public/login" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                             <li class="site-lang">
-                                <a href="/home-page/en/" class="lang-link langOn">EN</a>
-                                <a href="/home-page/jp/" class="lang-link">JP</a>
+                                <a href="/home-page/en/business/" class="lang-link langOn">EN</a>
+                                <a href="/home-page/jp/business/" class="lang-link">JP</a>
                             </li>
                         </ul>
                     </div>
@@ -78,8 +78,8 @@
                         <li class="h-icon"><a href="/home-page/en/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
                         <li class="h-icon"><a href=" https://www.star-se.co.jp/starseapp/public/login" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                         <li class="site-lang">
-                            <a href="/home-page/en/" class="lang-link langOn">EN</a>
-                            <a href="/home-page/jp/" class="lang-link">JP</a>
+                            <a href="/home-page/en/business/" class="lang-link langOn">EN</a>
+                            <a href="/home-page/jp/business/" class="lang-link">JP</a>
                         </li>
                     </ul>
                 </div>
@@ -169,11 +169,12 @@
                 </div>
             </div>
         </section>
-        <section class="business-sec02">
+        <!-- <div style="margin-buttom:500px"> -->
+            <!-- <section class="business-sec02"> -->
             <div class="c-w1170">
                 <span id="business02" class="anchorpos"></span>
                 <div data-aos="fade-up">
-                    <div class="ttl-number"><span>02</span></div>
+                    <div class="ttl-number" style="margin-buttom:600px"><span>02</span></div>
                     <h2 class="ttl-subpage"><span class="text-un-yellow">Consignment Development Business</span></h2>
                     <div class="consignBlock">
                         <div class="consignBox cFix">
@@ -242,7 +243,9 @@ Main programming languages: swift, Java (Android), ObjectiveC (Apple), ruby on r
                     </div>
                 </div>
             </div>
-        </section>
+        <!-- </section> -->
+        <!-- </div> -->
+       
         <section class="business-sec03" >
             <div class="c-w1170">
             <span id="business03" class="anchorpos"></span>

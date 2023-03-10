@@ -47,8 +47,8 @@
                             <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
                             <li class="h-icon"><a href="https://www.star-se.co.jp/starseapp/public/login" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                             <li class="site-lang">
-                                <a href="/home-page/en/" class="lang-link">EN</a>
-                                <a href="/home-page/jp/" class="lang-link langOn">JP</a>
+                                <a href="/home-page/en/recruit/" class="lang-link">EN</a>
+                                <a href="/home-page/jp/recruit/" class="lang-link langOn">JP</a>
                             </li>
                         </ul>
                     </div>
@@ -77,8 +77,8 @@
                         <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
                         <li class="h-icon"><a href="https://www.star-se.co.jp/starseapp/public/login" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                         <li class="site-lang">
-                            <a href="/home-page/en/" class="lang-link">EN</a>
-                            <a href="/home-page/jp/" class="lang-link langOn">JP</a>
+                            <a href="/home-page/en/recruit/" class="lang-link">EN</a>
+                            <a href="/home-page/jp/recruit/" class="lang-link langOn">JP</a>
                         </li>
                     </ul>
                 </div>
@@ -178,7 +178,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="recruitList-li" style="margin:auto">
+                        <li class="recruitList-li">
                             <div class="recruitList-content">
                                 <div class="recurit-img"><img src="/home-page/assets/img/recruit/recruit3.jpg" alt=""></div>
                                 <div class="recruit-desp">
@@ -225,7 +225,7 @@
                     <h2 class="ttl-subpage"><span class="text-un-yellow">新卒/第二新卒募集要項</span></h2>
                     <div class="recruit-pageList">
                     <ul class="recruitList-block">
-                        <li class="recruitList-li" style="margin:auto">
+                        <li class="recruitList-li">
                             <div class="recruitList-content">
                                 <div class="recurit-img"><img src="/home-page/assets/img/recruit/recruit4.jpg" alt=""></div>
                                 <div class="recruit-desp">
