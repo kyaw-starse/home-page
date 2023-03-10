@@ -100,7 +100,7 @@
         <section class="form-secblock" id=''>
             <div class="c-w1170">
                 <div class="form-block letter">
-                    <form action="/home-page/jp/form/entry/contactform.php" method="post" role="form" class="php-email-form" id="contact-form">
+                    <form action="/form/entry/contactform.php" method="POST" role="form" class="php-email-form" id="contact-form">
                         <div class="form-row form-mb">
                             <div class="form-col2">
                                 <label for="syameyi" class="form-label">会社名</label>

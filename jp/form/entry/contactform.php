@@ -195,7 +195,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
       echo $contact2->send();
     }
+  }else{
+    echo "人間承認を受けてください。";
+    return false;
   }
 } else {
   echo "人間承認を受けてください。";
+  return false;
 }
