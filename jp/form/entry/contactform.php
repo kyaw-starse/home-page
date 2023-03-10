@@ -79,7 +79,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if ($responseData->success) {
 
-      $recruit = 'recruit@star-se.co.jp';
+      $recruit = 'info@star-se.co.jp';
       $custMail = $email;
       $mailer = 'STAR-SE_info@star-se.co.jp';
       $php_email_form = $_SERVER['DOCUMENT_ROOT'].'/home-page/assets/vendor/php-email-form/php-email-form.php';

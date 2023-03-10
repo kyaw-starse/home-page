@@ -5,10 +5,10 @@ RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 RewriteCond %{ENV:REDIRECT_STATUS} 200
 RewriteRule .* - [L]
-RewriteRule ^$ starse-renew/ [L]
+RewriteRule ^$ home-page/ [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.+)$ /starse-renew/$1 [L]
-RewriteCond %{THE_REQUEST} /starse-renew/(\S+) [NC]
+RewriteRule ^(.+)$ /home-page/$1 [L]
+RewriteCond %{THE_REQUEST} /home-page/(\S+) [NC]
 RewriteRule ^ /%1 [R=301,NE,L]
 </IfModule>

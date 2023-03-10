@@ -98,7 +98,7 @@
         <section class="form-secblock">
             <div class="c-w1170">
                 <div class="form-block letter">
-                    <form action="/home-page/en/form/contactform.php" method="post" role="form" class="php-email-form" id="contact-form">
+                    <form action="/home-page/en/form/entry/contactform.php" method="post" role="form" class="php-email-form" id="contact-form">
                         <div class="form-row form-mb">
                             <div class="form-col2">
                                 <label for="syameyi" class="form-label">Company Name</label>
