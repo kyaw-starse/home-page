@@ -76,6 +76,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
   if (empty($address)) {
     $errors[] = "住所を入力してください。";
+  }else{
+    if(strlen($address)>100){
+      $errors[] = "住所を100文字内に入力してください。";
+    }
   }
     //添付ファイル
   if ($_FILES['skillsheet']['size'] == 0) {

@@ -110,8 +110,8 @@
                             <div class="form-col2">
                                 <label for="kaishamei" class="form-label">Full Name<span class="require">*</span>(Katakana)</label>
                                 <div class="form-inputText">
-                                    <input type="text" class="inputType" name="lastName2" id="lastName2" placeholder="Example (Last Name) : スズキ">
-                                    <input type="text" class="inputType" name="firstName2" id="firstName2" placeholder="Example (First Name) : タロウ">
+                                    <input type="text" class="inputType" name="lastName2" id="lastName2" placeholder="Example (Last Name) : Suzuki">
+                                    <input type="text" class="inputType" name="firstName2" id="firstName2" placeholder="Example (First Name) : Taro">
                                 </div>
                             </div>
                         </div>
