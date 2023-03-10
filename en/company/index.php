@@ -402,7 +402,7 @@
                         <span id="organization" class="anchorpos"></span>
                         <h2 class="ttl-subpage"><span class="text-un-yellow">Organization Chart</span></h2>
                         <div class="chat-img">
-                            <img src="/home-page/assets/img/company/organization-chart.png" alt="">
+                            <img src="/home-page/assets/img/company/organization-chart_en.png" alt="">
                         </div>
                     </div>
                 </div>
