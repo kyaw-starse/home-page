@@ -102,7 +102,7 @@
                     <div class="ttl-number"><span>01</span></div>
                     <h2 class="ttl-subpage"><span class="text-un-yellow">SES Work</span></h2>
                     <div class="sesgyoumu col-wrap">
-                        <div class="col2 aos-init aos-animate" data-aos="fade-up">
+                        <div class="col2 aos-init aos-animate">
                             <div class="business-bg dx-bgBox bg-green-light" style="margin-bottom: 25px;">
                                 <div class="circle-iconBlock">
                                     <h2 class="ttl-subpage fz-25 fz-20-sp"><span>System Development Business</span></h2>
@@ -137,7 +137,7 @@
                         </div>                       
                     </div>
                     <div class="sesgyoumu col-wrap">                       
-                        <div class="col2 aos-init aos-animate" data-aos="fade-up">
+                        <div class="col2 aos-init aos-animate">
                             <div class="business-bg dx-bgBox bg-green-light">
                                 <div class="circle-iconBlock">
                                     <h2 class="ttl-subpage fz-25 fz-20-sp"><span>Infrastructure Solution Business</span></h2>
