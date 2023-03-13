@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+    <meta name="format-detection" content="telephone=no">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="content-language" content="ja">
@@ -247,7 +248,7 @@
                                             <span>2.</span>個人情報保護管理者について<br>
                                             ＳＴＡＲ ＳＥ 株式会社<br>
                                             個人情報保護管理者　金本　香蘭<br>
-                                            住所：〒104-0043　東京都中央区湊2-4-1　TOMACビル５階<br>
+                                            住所：〒104-0043　東京都中央区湊2-4-1　TOMACビル5階<br>
                                             電話番号：03-5207-2955
                                         </p>
                                         <p class="pri-num">
@@ -301,11 +302,11 @@
                             <ul>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_homeaddress.png" alt=""></span>
-                                    <p class="ftAddress-info">〒104-0043<br>東京都中央区湊2丁目4-1 ＴＯＭＡＣビル 5階</p>
+                                    <p class="ftAddress-info">〒104-0043<br>東京都中央区湊2丁目4-1 TOMACビル 5階</p>
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_phone.png" alt=""></span>
-                                    <p class="ftAddress-info"><a href="tel:03-5207-2956" class="tel">03-5207-2955</a></p>
+                                    <p class="ftAddress-info"><a href="tel:03-5207-2955" class="tel">03-5207-2955</a></p>
                                 </li>
                                 <li class="cFix">
                                     <span class="ft-icon"><img src="/home-page/assets/img/common/icon_fax.png" alt=""></span>
