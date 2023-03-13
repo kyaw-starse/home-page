@@ -25,10 +25,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $chkagree = $_POST['chkagree'];
   }
 
+    // 会社名
+    if (!empty($syameyi) && strlen($syameyi) > 100) {
+      $errors[] = "会社名を100文字内に入力してください。";
+    }
+
   // 担当者名
   if (empty($name)) {
     $errors[] = "担当者名を入力してください。";
-  }else{
+  }else {
+    // 担当者名の最大文字数チェック
     if(strlen($name) > 100) {
       $errors[] = "担当者名を100文字内に入力してください。";
     }
@@ -47,18 +53,32 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   if (empty($denwa)) {
     $errors[] = "電話番号を入力してください。";
   }else{
-    if(!filter_var($denwa, FILTER_SANITIZE_NUMBER_INT)){
-      $errors[] = "正しく番号を入力してください。";
+    if(strlen($denwa) > 15){
+      $errors[] = "電話番号を15数字以内で入力してください。";
     }
   }
+
+  // 郵便番号最大文字数チェック
+  if(!empty($yubinn) && strlen($yubinn) > 10) {
+    $errors[] = "郵便番号を10数字以内で入力してください。";
+  }
+  
   // 住所
   if (empty($adress)) {
     $errors[] = "住所を入力してください。";
+  } else {
+    if(strlen($adress) > 100) {
+      $errors[] = "住所を100文字内に入力してください。";
+    }
   }
 
   // 問い合わせ内容
   if (empty($area)) {
     $errors[] = "お問合せ内容を入力してください。";
+  } else {
+    if(strlen($area) > 200) {
+      $errors[] = "問合せを200文字内に入力してください。";
+    }
   }
 
   // 個人情報保護方針

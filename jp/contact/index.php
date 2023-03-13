@@ -52,8 +52,8 @@
                             <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon navpc-active"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
                             <li class="h-icon"><a href="https://www.star-se.co.jp/starseapp/public/login" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                             <li class="site-lang">
-                                <a href="/home-page/en/" class="lang-link">EN</a>
-                                <a href="/home-page/jp/" class="lang-link langOn">JP</a>
+                                <a href="/home-page/en/contact/" class="lang-link">EN</a>
+                                <a href="/home-page/jp/contact/" class="lang-link langOn">JP</a>
                             </li>
                         </ul>
                     </div>
@@ -82,8 +82,8 @@
                         <li class="h-icon"><a href="/home-page/jp/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
                         <li class="h-icon"><a href="https://www.star-se.co.jp/starseapp/public/login" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                         <li class="site-lang">
-                            <a href="/home-page/en/" class="lang-link">EN</a>
-                            <a href="/home-page/jp/" class="lang-link langOn">JP</a>
+                            <a href="/home-page/en/contact/" class="lang-link">EN</a>
+                            <a href="/home-page/jp/contact/" class="lang-link langOn">JP</a>
                         </li>
                     </ul>
                 </div>
@@ -258,7 +258,7 @@
         var $this, wordcount;
         $this = jQuery(this);
         wordcount = $this.val().length;//split(/\b[\s,\.-:;]*/).
-        if (wordcount > ) {
+        if (wordcount > 200) {
         jQuery("#send_mail").prop("disabled",true);
         jQuery(".show_message span").text("※200字以内で入力してください。");//The content exceeds 200 characters!
         jQuery('.show_message span').css('color','#ed3c0d');

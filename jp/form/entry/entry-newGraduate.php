@@ -45,10 +45,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
   if (empty($_POST['lastName1']) && empty($_POST['firstName1'])) {
     $errors[] = "姓名（漢字）を入力してください。";
+  } else {
+    // 最大文字数チェック
+    if(strlen($_POST['lastName1']) > 100 || strlen($_POST['firstName1']) > 100 ) {
+      $errors[] = "姓名（漢字）を100文字内に入力してください。";
+    }
   }
+
   if (empty($_POST['lastName2']) && empty($_POST['firstName2'])) {
     $errors[] = "姓名（カタカナ）を入力してください。";
+  } else {
+    // 最大文字数チェック
+    if(strlen($_POST['lastName2']) > 100 || strlen($_POST['firstName2']) > 100 ) {
+      $errors[] = "姓名（カタカナ）を100文字内に入力してください。";
+    }
   }
+
   if (empty($email)) {
     $errors[] = "メールアドレスを入力してください。";
   } else {
@@ -59,13 +71,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   if (empty($denwabangou)) {
     $errors[] = "電話番号を入力してください。";
   }else{
-    if(!filter_var($denwabangou, FILTER_SANITIZE_NUMBER_INT)){
-      $errors[] = "電話番号を正しく入力してください。";
+    if(strlen($denwabangou) > 15){
+      $errors[] = "電話番号を15数字以内で入力してください。";
     }
   }
+
   if (empty($address)) {
     $errors[] = "住所を入力してください。";
+  } else {
+    if(strlen($address) > 100) {
+      $errors[] = "住所を100文字内に入力してください。";
+    }
   }
+
   if (empty($schoolname)) {
     $errors[] = "大学名を入力してください。";
   }

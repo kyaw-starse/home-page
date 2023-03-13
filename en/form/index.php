@@ -50,8 +50,8 @@
                             <li class="h-icon"><a href="/home-page/en/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
                             <li class="h-icon"><a href="/home-page/en/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                             <li class="site-lang">
-                                <a href="/home-page/en/" class="lang-link langOn">EN</a>
-                                <a href="/home-page/jp/" class="lang-link">JP</a>
+                                <a href="/home-page/en/form/" class="lang-link langOn">EN</a>
+                                <a href="/home-page/jp/form/" class="lang-link">JP</a>
                             </li>
                         </ul>
                     </div>
@@ -80,8 +80,8 @@
                         <li class="h-icon"><a href="/home-page/en/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
                         <li class="h-icon"><a href="/home-page/en/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                         <li class="site-lang">
-                            <a href="/home-page/en/" class="lang-link langOn">EN</a>
-                            <a href="/home-page/jp/" class="lang-link">JP</a>
+                            <a href="/home-page/en/form/" class="lang-link langOn">EN</a>
+                            <a href="/home-page/jp/form/" class="lang-link">JP</a>
                         </li>
                     </ul>
                 </div>
@@ -381,7 +381,7 @@
                                 <label for="" class="form-label">Remarks<span class="require">*</span></label>
                                 <p class="show_message"><span class="" id=""></span></p>
                                 <div class="form-textarea">
-                                    <textarea name="area" cols="50" rows="5" maxlength='5' placeholder="※Please enter within 200 characters."></textarea>
+                                    <textarea name="area" cols="50" rows="5" placeholder="※Please enter within 200 characters."></textarea>
                                 </div>
                             </div>
                         </div>

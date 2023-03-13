@@ -45,9 +45,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
   if (empty($_POST['lastName1']) && empty($_POST['firstName1'])) {
     $errors[] = "Please enter your first and last name (Kanji).";
+  } else {
+    // 最大文字数チェック
+    if(strlen($_POST['lastName1']) > 100 || strlen($_POST['firstName1']) > 100 ) {
+      $errors[] = "Please enter your first and last name (Kanji) within 100 length.";
+    }
   }
   if (empty($_POST['lastName2']) && empty($_POST['firstName2'])) {
     $errors[] = "Please enter your first and last name (katakana).";
+  } else {
+    // 最大文字数チェック
+    if(strlen($_POST['lastName2']) > 100 || strlen($_POST['firstName2']) > 100 ) {
+      $errors[] = "Please enter your first and last name (katakana) within 100 length.";
+    }
   }
   if (empty($email)) {
     $errors[] = "Please enter your e-mail address.";
@@ -58,14 +68,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   }
   if (empty($denwabangou)) {
     $errors[] = "Please enter your phone number.";
-  }else{
-    if(!filter_var($denwabangou, FILTER_SANITIZE_NUMBER_INT)){
-      $errors[] = "Please enter your Phone Number correctly.";
+  } else{
+    if(strlen($denwabangou) > 15){
+      $errors[] = "Please enter phone number correctly.";//電話番号を正しく入力してください。
     }
   }
     
   if (empty($address)) {
     $errors[] = "Please enter your address.";
+  } else {
+    if(strlen($address) > 100) {
+      $errors[] = "Please enter address within 100 length.";
+    }
   }
     //添付ファイル
   if ($_FILES['skillsheet']['size'] == 0) {

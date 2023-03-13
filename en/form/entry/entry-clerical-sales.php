@@ -50,9 +50,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
   if (empty($_POST['lastName1']) && empty($_POST['firstName1'])) {
     $errors[] = "Please enter first and last name (Kanji).";//姓名（漢字）を入力してください。
+  } else if(strlen($name) > 100) {
+    $errors[] = "Please enter first and last name within 100 length.";//姓名（漢字）を100文字以内に入力してください。
   }
   if (empty($_POST['lastName2']) && empty($_POST['firstName2'])) {
     $errors[] = "Please enter first and last name (furigana).";//姓名（カタカナ）を入力してください。
+  } else if(strlen($name2) > 100) {
+    $errors[] = "Please enter first and last name (furigana) within 100 length.";//姓名（カタカナ）を100文字以内に入力してください。
   }
   if (empty($email)) {
     $errors[] = "Please enter e-mail address.";//メールアドレスを入力してください。
@@ -64,18 +68,33 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   if (empty($denwabangou)) {
     $errors[] = "Please enter phone number.";//電話番号を入力してください。
   }else{
-    if(!filter_var($denwabangou, FILTER_SANITIZE_NUMBER_INT)){
-      $errors[] = "Please enter your Phone Number correctly.";
+    if(strlen($denwabangou) > 15) {
+      $errors[] = "Please enter your Phone Number between 15 number.";//電話番号を入力してください。
     }
   }
   if (empty($address)) {
     $errors[] = "Please enter address.";//住所を入力してください。
+  } else {
+    if(strlen($address) > 100) {
+      $errors[] = "Please enter address within 100 length.";//住所を100文字内に入力してください。
+    }
   }
   if (empty($chkagree)) {
     $errors[] = "Please agree to the handling of personal information.";//個人情報の取り扱い同意してください。
   }
   if (empty($area)) {
     $errors[] = "Please enter in remarks.";//備考を入力してください。
+  } else {
+    if(strlen($area) > 200) {
+      $errors[] = "Please enter contents of inquiry within 200 length.";//お問合せを200文字内に入力してください。
+    }
+  }
+  $salaryfrom = $_POST['salaryfrom'];
+  $salaryto = $_POST['salaryto'];
+  if((strlen($salaryfrom) > 10) || (strlen( $salaryto) > 10)){
+    $errors[] = "Enter Desired Monthly Amount as number.";
+  } else if ( $salaryfrom >  $salaryto) {
+    $errors[] = "Enter the below your salaryto.";
   }
   //添付ファイル
   if($_FILES['skillsheet']['size'] == 0) {

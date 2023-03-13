@@ -49,28 +49,61 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $chkagree = "同意済み";
   }
 
-  if (empty($_POST['lastName1']) && empty($_POST['firstName1'])) {
+  $lastName1 = $_POST['lastName1'];
+  $firstName1 = $_POST['firstName1'];
+  if (empty($lastName1) && empty($firstName1)) {
     $errors[] = "姓名（漢字）を入力してください。";
+  } else if(strlen($lastName1) > 100 || strlen($firstName1) > 100 ) {
+    $errors[] = "姓名（漢字）を100文字以内で入力してください。";
   }
-  if (empty($_POST['lastName2']) && empty($_POST['firstName2'])) {
+
+  $lastName2 = $_POST['lastName2'];
+  $firstName2 = $_POST['firstName2'];
+  if (empty($lastName2) && empty($firstName2)) {
     $errors[] = "姓名（カタカナ）を入力してください。";
+  } else if(strlen($lastName2) > 100 || strlen($firstName2) > 100 ) {
+    $errors[] = "姓名（カタカナ）を100文字以内で入力してください。";
   }
+
   if (empty($email)) {
     $errors[] = "メールアドレスを入力してください。";
   } else {
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
       $errors[] = "メールアドレスを正しく入力してください。";
+    } else if (strlen($email) > 100) {
+      $errors[] = "メールアドレスを100文字以内で正しく入力してください。";
     }
   }
+
   if (empty($denwabangou)) {
     $errors[] = "電話番号を入力してください。";
   }else{
-    if(!filter_var($denwabangou, FILTER_SANITIZE_NUMBER_INT)){
-      $errors[] = "電話番号を正しく入力してください。";
+    if(strlen($denwabangou) > 15){
+      $errors[] = "電話番号を15数字以内で入力してください。";
     }
   }
   if (empty($address)) {
     $errors[] = "住所を入力してください。";
+  } else {
+    if(strlen($adress) > 100) {
+      $errors[] = "住所を100文字内で入力してください。";
+    }
+  }
+
+  $salaryfrom = $_POST['salaryfrom'];
+  $salaryto = $_POST['salaryto'];
+  if((strlen($salaryfrom) > 10) || (strlen($salaryto) > 10)){
+    $errors[] = "希望月額を10数字内で入力してください。";
+  } else if ( $salaryfrom >  $salaryto) {
+    $errors[] = "希望月額Toを正しく入力してください。";
+  }
+    //添付ファイル
+  if (empty($area)) {
+    $errors[] = "備考を入力してください。";
+  } else {
+    if(strlen($area) > 200) {
+      $errors[] = "備考を200文字内に入力してください。";//備考を200文字内に入力してください。
+    }
   }
   //添付ファイル
   if ($_FILES['skillsheet']['size'] == 0) {

@@ -50,28 +50,49 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
   }
 
-  if (empty($_POST['lastName1']) && empty($_POST['firstName1'])) {
+  $lastName1 = $_POST['lastName1'];
+  $firstName1 = $_POST['firstName1'];
+  if (empty($lastName1) && empty($firstName1)) {
     $errors[] = "Please enter your first and last name (Kanji).";
+  } else if(strlen($lastName1) > 100 || strlen($firstName1) > 100 ) {
+    $errors[] = "Please enter the first and last name (Kanji) within 100 length.";
   }
-  if (empty($_POST['lastName2']) && empty($_POST['firstName2'])) {
+  $lastName2 = $_POST['lastName2'];
+  $firstName2 = $_POST['firstName2'];
+  if (empty($lastName2) && empty($firstName2)) {
     $errors[] = "Please enter your first and last name (katakana).";
+  } else if(strlen($lastName2) > 100 || strlen($firstName2) > 100 ) {
+    $errors[] = "Please enter the first and last name (katakana) within 100 length.";
   }
   if (empty($email)) {
     $errors[] = "Please enter your e-mail address.";
   } else {
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
       $errors[] = "Please enter your e-mail address correctly.";
+    } else if (strlen($email) > 100) {
+      $errors[] = "Please enter the e-mail address within 100 length.";
     }
   }
   if (empty($denwabangou)) {
     $errors[] = "Please enter your phone number.";
   }else{
-    if(!filter_var($denwabangou, FILTER_SANITIZE_NUMBER_INT)){
-      $errors[] = "Please enter your Phone Number correctly.";
+    if(strlen($denwabangou) > 15){
+      $errors[] = "Please enter phone number correctly.";//電話番号を正しく入力してください。
     }
   }
   if (empty($address)) {
     $errors[] = "Please enter your address.";
+  } else {
+    if(strlen($adress) > 100) {
+      $errors[] = "Please enter address correctly.";//住所を100文字内に入力してください。
+    }
+  }
+  $salaryfrom = $_POST['salaryfrom'];
+  $salaryto = $_POST['salaryto'];
+  if((strlen($salaryfrom) > 10) || (strlen($salaryto) > 10)){
+    $errors[] = "Enter Desired Monthly Amount as number.";
+  } else if ( $salaryfrom >  $salaryto) {
+    $errors[] = "Enter the below your salaryto.";
   }
     //添付ファイル
   if ($_FILES['skillsheet']['size'] == 0) {
@@ -79,6 +100,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   }
   if (empty($area)) {
     $errors[] = "Please enter your remarks.";
+  } else {
+    if(strlen($area) > 200) {
+      $errors[] = "Please enter contents within 200 length.";//備考を200文字内に入力してください。
+    }
   }
   if (empty($chkagree)) {
     $errors[] = "Please agree to the handling of personal information.";

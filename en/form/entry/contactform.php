@@ -25,9 +25,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $chkagree = $_POST['chkagree'];
   }
 
+  // 会社名
+  if (!empty($syameyi) && strlen($syameyi) > 100) {
+    $errors[] = "Please enter the company name within 100 length.";//会社名を100文字内に入力してください。
+  }
+
+
   // 担当者名
   if (empty($name)) {
     $errors[] = "Please enter the name of the person in charge.";//担当者名を入力してください。
+  } else {
+    // 担当者名の最大文字数チェック
+    if(strlen($name) > 100) {
+      $errors[] = "Please enter the name within 100 length.";//担当者名を100文字内に入力してください。
+    }
   }
 
   // メール
@@ -42,16 +53,34 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   // 電話番号
   if (empty($denwa)) {
     $errors[] = "Please enter phone number.";//電話番号を入力してください。
+  } else {
+    if(strlen($denwa) > 15){
+      $errors[] = "Please enter phone number correctly.";//電話番号を正しく入力してください。
+    }
   }
+
+  // 郵便番号最大文字数チェック
+  if(!empty($yubinn) && strlen($yubinn) > 10) {
+    $errors[] = "Please enter postal code as number within 10 length.";//郵便番号を10数字以内で入力してください。
+  }
+
 
   // 住所
   if (empty($adress)) {
     $errors[] = "Please enter address.";//住所を入力してください。
+  } else {
+    if(strlen($adress) > 100) {
+      $errors[] = "Please enter address within 100 length.";//住所を100文字内に入力してください。
+    }
   }
 
   // 問い合わせ内容
   if (empty($area)) {
     $errors[] = "Please enter contents of inquiry.";//お問合せ内容を入力してください。
+  } else {
+    if(strlen($area) > 200) {
+      $errors[] = "Please enter contents of inquiry within 200 length.";//お問合せを200文字内に入力してください。
+    }
   }
 
   // 個人情報保護方針
