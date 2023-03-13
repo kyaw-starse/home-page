@@ -123,7 +123,7 @@
               </video>
             </div> -->
             <div class="item video">
-              <video class="slide-video slide-media" loop muted preload="metadata">
+              <video class="slide-video slide-media" playsinline loop muted preload="metadata">
                 <source src="/home-page/assets/img/video/BannerMovie_v4.mp4" type="video/mp4" />
               </video>
             </div>
