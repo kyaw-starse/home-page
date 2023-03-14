@@ -47,7 +47,7 @@
                     <div class="h-utility">
                         <ul class="cFix">
                             <li class="h-icon"><a href="/home-page/en/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
-                            <li class="h-icon"><a href=" https://www.star-se.co.jp/starseapp/public/login" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
+                            <li class="h-icon"><a href="/home-page/en/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                             <li class="site-lang">
                                 <a href="/home-page/en/company/" class="lang-link langOn">EN</a>
                                 <a href="/home-page/jp/company/" class="lang-link">JP</a>
@@ -77,7 +77,7 @@
                 <div class="h-utility">
                     <ul class="cFix">
                         <li class="h-icon"><a href="/home-page/en/contact/" class="mail-icon"><img src="/home-page/assets/img/common/mail_off.png" alt=""></a></li>
-                        <li class="h-icon"><a href=" https://www.star-se.co.jp/starseapp/public/login" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
+                        <li class="h-icon"><a href="/home-page/en/login/" class="lock-icon"><img src="/home-page/assets/img/common/lock_off.png" alt=""></a></li>
                         <li class="site-lang">
                             <a href="/home-page/en/company/" class="lang-link langOn">EN</a>
                             <a href="/home-page/jp/company/" class="lang-link">JP</a>

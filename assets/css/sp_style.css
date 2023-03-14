@@ -10,6 +10,9 @@
     .line-show .line-frame.line-2:before {
         
     }
+    .recruit-btnbox p {
+        width: calc(92% - 80px);
+    }
 }
 @media screen and (max-width: 768px) {
     /* ===============================
@@ -499,6 +502,9 @@
     .file-para {
         margin-top: 10px;
     }
+    .recruit-btnbox p {
+        width: calc(92% - 80px);
+    }
 }
 @media screen and (min-width: 641px) and (max-width: 768px) {
     .form-banner {
@@ -507,6 +513,9 @@
     .form-secblock {
         margin-top: -41vh;
     }
+    .recruit-btnbox p {
+        width: calc(92% - 80px);
+    }
 }
 @media screen and (min-width: 481px) and (max-width: 640px) {
     .form-banner {
@@ -514,6 +523,9 @@
     }
     .form-secblock {
         margin-top: -44vh;
+    }
+    .recruit-btnbox p {
+        width: calc(92% - 80px);
     }
 }
 @media screen and (max-width: 480px) {
@@ -550,6 +562,9 @@
     .business-bg {
         margin: 0 -20px;
     }
+    .recruit-btnbox p {
+        width: calc(100% - 0px);
+    }
 }
 @media screen and (max-width: 375px) {
     .history-desp dl dt {
@@ -557,5 +572,8 @@
     }
     .history-desp dl dd {
         width: calc(100% - 50px);
+    }
+    .recruit-btnbox p {
+        width: calc(100% - 0px);
     }
 }
